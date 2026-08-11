@@ -4,7 +4,13 @@
 (function (G) {
   'use strict';
 
-  var ui = G.ui, E = G.engine;
+  var ui = G.ui, E = G.engine, SP = G.sprites;
+
+  function unitIcon(u, px) {
+    if (G.spellData[u.key]) return G.art.spellSVG(u.tint, px);
+    var key = SP.unitKey(u.key);
+    return key ? SP.img(key, px, u.name) : G.art.unitSVG(u.art, u.tint, px, u.air);
+  }
   var tab = 'walls';
 
   function tabsHTML() {
@@ -27,8 +33,7 @@
     return '<div class="panel"><h3>Research in progress</h3><div class="grid-cards">' +
       running.map(function (sl) {
         var t = E.researchTarget(sl.job.key);
-        return '<div class="card"><div class="icon">' +
-          (G.spellData[sl.job.key] ? G.art.spellSVG(t.tint, 40) : G.art.unitSVG(t.art, t.tint, 40, t.air)) +
+        return '<div class="card"><div class="icon">' + unitIcon(t, 46) +
           '</div><div class="body"><div class="title">' + ui.esc(t.name) + '<small>→ lvl ' + sl.job.to + '</small></div>' +
           ui.jobHTML(sl.job, 'data-act="skip-research" data-key="' + sl.job.key + '"') + '</div></div>';
       }).join('') + '</div></div>';
@@ -105,8 +110,9 @@
           var short = cost > (s.resources[res] || 0);
           return '<div class="card">' +
             '<div class="icon">' + (b.key === 'townhall'
-              ? G.art.townHallSVG(b.level, 44)
-              : G.art.buildingSVG(bd.art, G.thData(s.th).palette, 40)) + '</div>' +
+              ? (SP.townHallKey(b.level) ? SP.img(SP.townHallKey(b.level), 46, '') : G.art.townHallSVG(b.level, 44))
+              : (SP.buildingKey(b.key) ? SP.img(SP.buildingKey(b.key), 46, bd.name)
+                 : G.art.buildingSVG(bd.art, G.thData(s.th).palette, 40))) + '</div>' +
             '<div class="body"><div class="title">' + ui.esc(name) + '<small>lvl ' + b.level + '/' + maxLvl + '</small></div>' +
             (b.upgrading
               ? ui.jobHTML(b.upgrading, 'data-act="skip-building" data-id="' + b.id + '"')
@@ -135,7 +141,7 @@
       var inLab = s.labSlots.some(function (sl) { return sl.job && sl.job.key === t.key; });
       var res = t.res || 'elixir';
       var short = cost > (s.resources[res] || 0);
-      var icon = kind === 'spells' ? G.art.spellSVG(t.tint, 40) : G.art.unitSVG(t.art, t.tint, 40, t.air);
+      var icon = unitIcon(t, 46);
       var superActive = s.superTroops[t.key] > Date.now();
       return '<div class="card' + (locked ? ' locked' : '') + '">' +
         '<div class="icon">' + icon + '</div><div class="body">' +

@@ -47,7 +47,10 @@
     Object.keys(p).forEach(function (k) { root.style.setProperty('--' + k, p[k]); });
     document.getElementById('thName').textContent = th.name;
     document.getElementById('thSub').textContent = 'Town Hall ' + th.level + ' · ' + th.tier;
-    document.getElementById('thThumb').innerHTML = G.art.townHallSVG(th.level, 42);
+    var thumbKey = G.sprites && G.sprites.townHallKey(th.level);
+    document.getElementById('thThumb').innerHTML = thumbKey
+      ? G.sprites.img(thumbKey, 46, th.name)
+      : G.art.townHallSVG(th.level, 46);
     document.title = 'Ascendancy — ' + th.name + ' (TH' + th.level + ')';
   };
 

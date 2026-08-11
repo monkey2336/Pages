@@ -1,13 +1,21 @@
-/* Village screen: the draggable base layout, build menu and building details. */
+/* Village screen: an isometric base you can drag buildings around, plus the
+   build menu and building details.
+
+   Sprites are Blender renders pinned to the grid via the manifest anchors; if
+   a sprite is missing the vector art stands in so the game still works. */
 (function (G) {
   'use strict';
 
-  var ui = G.ui, E = G.engine;
-  var selectedId = null;
-  // The view frames just the part of the grid you are actually using, so an
-  // eight-building village is not lost in a 48x48 field.
-  var view = { x0: 0, y0: 0, span: G.GRID };
+  var ui = G.ui, E = G.engine, SP = G.sprites;
+  var TILE_W = SP.TILE_W, TILE_H = SP.TILE_H;
+  var CELL = TILE_W / Math.SQRT2;      // pre-transform size of a ground cell
+  var HEAD = 190;                       // headroom above the grid for tall halls
+  var FOOT = 70;
 
+  var selectedId = null;
+  var view = { x0: 0, y0: 0, span: 16 };
+
+  /* ------------------------------------------------------------ framing */
   function computeView(s) {
     var minX = G.GRID, minY = G.GRID, maxX = 0, maxY = 0, any = false;
     function fold(x, y, size) {
@@ -17,39 +25,16 @@
     }
     s.buildings.forEach(function (b) { fold(b.x, b.y, E.bdata(b.key).size); });
     s.walls.forEach(function (w) { fold(w.x, w.y, 1); });
-    if (!any) return { x0: 0, y0: 0, span: G.GRID };
-    var pad = 3;
+    if (!any) return { x0: 0, y0: 0, span: 14 };
+    var pad = 2;
     var span = Math.max(maxX - minX, maxY - minY) + pad * 2;
     span = Math.max(12, Math.min(G.GRID, span));
     var cx = (minX + maxX) / 2, cy = (minY + maxY) / 2;
-    var x0 = Math.max(0, Math.min(G.GRID - span, Math.round(cx - span / 2)));
-    var y0 = Math.max(0, Math.min(G.GRID - span, Math.round(cy - span / 2)));
-    return { x0: x0, y0: y0, span: span };
-  }
-
-  function tileHTML(s, o, isWall) {
-    var pct = 100 / view.span;
-    var bd = isWall ? null : E.bdata(o.key);
-    var size = isWall ? 1 : (bd ? bd.size : 3);
-    var style = 'left:' + ((o.x - view.x0) * pct) + '%;top:' + ((o.y - view.y0) * pct) + '%;' +
-      'width:' + (size * pct) + '%;height:' + (size * pct) + '%;';
-    if (isWall) {
-      var skin = G.WALL.skin(o.level);
-      style += 'background:' + skin.fill + ';box-shadow:inset 0 -3px 0 ' + skin.edge + ';';
-      if (skin.glow) style += 'outline:1px solid ' + skin.glow + '55;';
-      return '<div class="tile wall' + (selectedId === o.id ? ' selected' : '') +
-        '" data-id="' + o.id + '" data-wall="1" style="' + style + '" title="Wall level ' + o.level + ' · ' + skin.name + '"></div>';
-    }
-    var art = o.key === 'townhall' ? null : bd.art;
-    var svg = o.key === 'townhall'
-      ? G.art.townHallSVG(o.level, 64, true)
-      : G.art.buildingSVG(art, G.thData(s.th).palette, 48, tintFor(bd));
-    return '<div class="tile ' + o.key + (selectedId === o.id ? ' selected' : '') + '" data-id="' + o.id + '" style="' + style +
-      '" title="' + ui.esc(o.key === 'townhall' ? G.thData(o.level).name : bd.name) + ' · level ' + o.level + '">' +
-      svg +
-      '<span class="lvl">' + o.level + '</span>' +
-      (o.upgrading ? '<span class="clock"></span>' : '') +
-      '</div>';
+    return {
+      x0: Math.max(0, Math.min(G.GRID - span, Math.round(cx - span / 2))),
+      y0: Math.max(0, Math.min(G.GRID - span, Math.round(cy - span / 2))),
+      span: span
+    };
   }
 
   function tintFor(bd) {
@@ -61,81 +46,144 @@
     return p.stone;
   }
 
+  /* ------------------------------------------------------------ objects */
+  function objectHTML(s, o, isWall) {
+    var bd = isWall ? null : E.bdata(o.key);
+    var size = isWall ? 1 : bd.size;
+    var lx = o.x - view.x0, ly = o.y - view.y0;
+    var name = isWall ? SP.wallKey(o.level)
+      : o.key === 'townhall' ? SP.townHallKey(o.level) : SP.buildingKey(o.key);
+    var label = isWall ? 'Wall level ' + o.level + ' · ' + G.WALL.skin(o.level).name
+      : (o.key === 'townhall' ? G.thData(o.level).name : bd.name) + ' · level ' + o.level;
+    var attrs = 'data-id="' + o.id + '"' + (isWall ? ' data-wall="1"' : '') +
+      ' title="' + ui.esc(label) + '"' +
+      (selectedId === o.id ? ' data-selected="1"' : '');
+    var badge = (isWall ? '' : '<span class="lvl">' + o.level + '</span>') +
+      (o.upgrading ? '<span class="clock"></span>' : '');
+
+    var html = name ? SP.stageSprite(name, lx, ly, size, 1, attrs, badge) : null;
+    if (html) return html;
+
+    // Vector fallback: sit the SVG on the tile's diamond.
+    var c = SP.tileCentre(lx, ly, size);
+    var w = size * TILE_W * 0.92;
+    var svg = isWall
+      ? '<div class="wall-fallback" style="background:' + G.WALL.skin(o.level).fill + '"></div>'
+      : (o.key === 'townhall'
+        ? G.art.townHallSVG(o.level, w, true)
+        : G.art.buildingSVG(bd.art, G.thData(s.th).palette, w, tintFor(bd)));
+    return '<div class="iso-obj fallback" style="left:' + (c.x - w / 2) + 'px;top:' +
+      (c.y - w * 0.8) + 'px;width:' + w + 'px;height:' + w + 'px;z-index:' +
+      Math.round((lx + ly + size) * 10) + '" ' + attrs + '>' + svg + badge + '</div>';
+  }
+
+  /* ------------------------------------------------------------- render */
   function render(s) {
+    view = computeView(s);
     var busy = E.busyBuilders(s), total = s.builders.length;
     var jobs = E.inProgressJobs(s);
     var shield = s.shieldUntil > Date.now();
+    var th = G.thData(s.th);
 
-    var html = '<h2 class="screen-head">' + ui.esc(G.thData(s.th).name) + '</h2>' +
-      '<p class="screen-sub">' + ui.esc(G.thData(s.th).lore) + '</p>' +
+    var html = '<div class="village-head">' +
+      '<div class="village-title"><h2>' + ui.esc(th.name) + '</h2>' +
+      '<p>' + ui.esc(th.lore) + '</p></div></div>' +
       '<div class="village-tools">' +
         '<button class="btn" data-act="open-build">Build</button>' +
-        '<button class="btn ghost" data-act="buy-wall">Buy wall segment · ' +
-          ui.fmt(E.wallCost(1)) + ' gold</button>' +
-        '<span class="pill' + (busy === total ? ' warn' : ' ok') + '">Builders ' + (total - busy) + '/' + total + ' free</span>' +
+        '<button class="btn ghost" data-act="buy-wall">Buy wall · ' + ui.fmt(E.wallCost(1)) + ' gold</button>' +
+        '<span class="pill' + (busy === total ? ' warn' : ' ok') + '">Builders ' + (total - busy) + '/' + total + '</span>' +
         (shield ? '<span class="pill ok">Shield ' + ui.fmtTime((s.shieldUntil - Date.now()) / 1000) + '</span>' : '') +
         '<span class="pill">Walls ' + s.walls.length + '/' + G.WALL.countAt(s.th) + '</span>' +
         '<span class="pill">Trophies ' + s.trophies + '</span>' +
-        '<span class="hint">Drag anything to rearrange. Click for details.</span>' +
+        '<span class="hint">Drag to rearrange · click for details</span>' +
       '</div>';
 
     if (jobs.length) {
       html += '<div class="panel"><h3>In progress</h3><div class="grid-cards">' +
-        jobs.map(function (j) {
+        jobs.map(function (j, i) {
           return '<div class="card"><div class="body"><div class="title">' + ui.esc(j.label) +
             '<small>' + j.kind + '</small></div>' +
-            ui.jobHTML(j, 'data-act="skip-job" data-idx="' + jobs.indexOf(j) + '"') + '</div></div>';
+            ui.jobHTML(j, 'data-act="skip-job" data-idx="' + i + '"') + '</div></div>';
         }).join('') + '</div></div>';
     }
 
-    view = computeView(s);
-    html += '<div class="village-wrap" id="village" style="--cells:' + view.span + '">' +
-      s.walls.map(function (w) { return tileHTML(s, w, true); }).join('') +
-      s.buildings.map(function (b) { return tileHTML(s, b, false); }).join('') +
-      '</div>';
+    var stageW = view.span * TILE_W;
+    var stageH = view.span * TILE_H + HEAD + FOOT;
+    var originX = view.span * TILE_W / 2;
+    var groundSide = view.span * CELL;
+
+    var objects = s.walls.map(function (w) { return objectHTML(s, w, true); })
+      .concat(s.buildings.map(function (b) { return objectHTML(s, b, false); })).join('');
+
+    html += '<div class="iso-viewport" id="village">' +
+      '<div class="iso-stage" id="isoStage" style="width:' + stageW + 'px;height:' + stageH + 'px">' +
+        '<div class="iso-ground" style="width:' + groundSide + 'px;height:' + groundSide +
+          'px;--cell:' + CELL.toFixed(3) + 'px;transform:translate(' + originX + 'px,' + HEAD +
+          'px) scaleY(0.5) rotate(45deg)"></div>' +
+        '<div class="iso-objects" style="left:' + originX + 'px;top:' + HEAD + 'px">' +
+          objects +
+        '</div>' +
+      '</div></div>';
     return html;
   }
 
-  /* ------------------------------------------------------------- drag */
+  /* --------------------------------------------------------------- drag */
   function mount(host, s) {
-    var wrap = host.querySelector('#village');
-    if (!wrap) return;
-    var drag = null;
+    var viewport = host.querySelector('#village');
+    var stage = host.querySelector('#isoStage');
+    if (!viewport || !stage) return;
 
-    wrap.addEventListener('pointerdown', function (ev) {
-      var tile = ev.target.closest('.tile');
-      if (!tile) return;
-      var rect = wrap.getBoundingClientRect();
-      var tr = tile.getBoundingClientRect();
+    // Scale the stage so the whole base fits the viewport width.
+    function fit() {
+      var stageW = parseFloat(stage.style.width);
+      var stageH = parseFloat(stage.style.height);
+      var avail = viewport.clientWidth;
+      var availH = viewport.clientHeight;
+      var scale = Math.min(avail / stageW, availH / stageH);
+      stage.style.transform = 'scale(' + scale + ')';
+      stage.style.left = ((avail - stageW * scale) / 2) + 'px';
+      stage.style.top = ((availH - stageH * scale) / 2) + 'px';
+      stage.dataset.scale = scale;
+    }
+    fit();
+    if (mount._ro) mount._ro.disconnect();
+    mount._ro = new ResizeObserver(fit);
+    mount._ro.observe(viewport);
+
+    var drag = null;
+    var objects = stage.querySelector('.iso-objects');
+
+    objects.addEventListener('pointerdown', function (ev) {
+      var el = ev.target.closest('.iso-obj');
+      if (!el) return;
       drag = {
-        el: tile,
-        id: tile.getAttribute('data-id'),
-        isWall: tile.hasAttribute('data-wall'),
-        dx: ev.clientX - tr.left,
-        dy: ev.clientY - tr.top,
-        rect: rect,
-        moved: false,
+        el: el,
+        id: el.getAttribute('data-id'),
+        isWall: el.hasAttribute('data-wall'),
         startX: ev.clientX,
-        startY: ev.clientY
+        startY: ev.clientY,
+        left: parseFloat(el.style.left),
+        top: parseFloat(el.style.top),
+        scale: parseFloat(stage.dataset.scale) || 1,
+        moved: false
       };
-      tile.setPointerCapture(ev.pointerId);
+      el.setPointerCapture(ev.pointerId);
     });
 
-    wrap.addEventListener('pointermove', function (ev) {
+    objects.addEventListener('pointermove', function (ev) {
       if (!drag) return;
-      var dist = Math.abs(ev.clientX - drag.startX) + Math.abs(ev.clientY - drag.startY);
-      if (dist > 4) {
+      var dx = (ev.clientX - drag.startX) / drag.scale;
+      var dy = (ev.clientY - drag.startY) / drag.scale;
+      if (!drag.moved && Math.abs(dx) + Math.abs(dy) > 4) {
         drag.moved = true;
         drag.el.classList.add('dragging');
       }
       if (!drag.moved) return;
-      var x = ev.clientX - drag.rect.left - drag.dx;
-      var y = ev.clientY - drag.rect.top - drag.dy;
-      drag.el.style.left = (x / drag.rect.width * 100) + '%';
-      drag.el.style.top = (y / drag.rect.height * 100) + '%';
+      drag.el.style.left = (drag.left + dx) + 'px';
+      drag.el.style.top = (drag.top + dy) + 'px';
     });
 
-    function endDrag(ev) {
+    function endDrag() {
       if (!drag) return;
       var d = drag;
       drag = null;
@@ -145,13 +193,20 @@
         openDetails(d.id, d.isWall);
         return;
       }
-      var x = Math.round(parseFloat(d.el.style.left) / 100 * view.span) + view.x0;
-      var y = Math.round(parseFloat(d.el.style.top) / 100 * view.span) + view.y0;
       var obj = d.isWall
         ? G.state.walls.filter(function (w) { return w.id === d.id; })[0]
         : G.state.buildings.filter(function (b) { return b.id === d.id; })[0];
       if (!obj) { ui.render(); return; }
       var size = d.isWall ? 1 : E.bdata(obj.key).size;
+      // Convert the sprite's new anchor position back into grid coordinates.
+      var name = d.isWall ? SP.wallKey(obj.level)
+        : obj.key === 'townhall' ? SP.townHallKey(obj.level) : SP.buildingKey(obj.key);
+      var sprite = name && SP.get(name);
+      var ax = sprite ? sprite.anchorX : size * TILE_W * 0.46;
+      var ay = sprite ? sprite.anchorY : size * TILE_W * 0.8;
+      var g = SP.screenToGrid(parseFloat(d.el.style.left) + ax, parseFloat(d.el.style.top) + ay);
+      var x = Math.round(g.x - size / 2) + view.x0;
+      var y = Math.round(g.y - size / 2) + view.y0;
       x = Math.max(0, Math.min(G.GRID - size, x));
       y = Math.max(0, Math.min(G.GRID - size, y));
       if (G.store.occupied(G.state, x, y, size, size, obj.id)) {
@@ -162,13 +217,23 @@
       }
       ui.render();
     }
-    wrap.addEventListener('pointerup', endDrag);
-    wrap.addEventListener('pointercancel', endDrag);
+    objects.addEventListener('pointerup', endDrag);
+    objects.addEventListener('pointercancel', endDrag);
   }
 
   function live(host) { ui.tickTimers(host); }
 
   /* ---------------------------------------------------------- details */
+  function portrait(s, o, isWall, px) {
+    if (isWall) return '';
+    var name = o.key === 'townhall' ? SP.townHallKey(o.level) : SP.buildingKey(o.key);
+    if (name) return SP.img(name, px, '');
+    var bd = E.bdata(o.key);
+    return o.key === 'townhall'
+      ? G.art.townHallSVG(o.level, px)
+      : G.art.buildingSVG(bd.art, G.thData(s.th).palette, px, tintFor(bd));
+  }
+
   function openDetails(id, isWall) {
     var s = G.state;
     if (isWall) {
@@ -176,15 +241,14 @@
       if (!w) return;
       var skin = G.WALL.skin(w.level);
       var max = E.wallMax(s);
-      var cost = E.wallCost(w.level + 1);
       ui.modal('<h3>Wall segment</h3>' +
         '<p class="screen-sub">Level ' + w.level + ' · ' + ui.esc(skin.name) +
         (w.level >= max ? ' · maxed for Town Hall ' + s.th : '') + '</p>' +
-        '<div style="height:26px;border-radius:5px;background:' + skin.fill +
-          ';box-shadow:inset 0 -6px 0 ' + skin.edge + ';margin-bottom:12px"></div>' +
+        '<div style="text-align:center">' + (SP.wallKey(w.level) ? SP.img(SP.wallKey(w.level), 120, 'wall') :
+          '<div style="height:26px;border-radius:5px;background:' + skin.fill + '"></div>') + '</div>' +
         (w.level < max
           ? '<button class="btn wide" data-act="upgrade-wall" data-id="' + w.id + '">Upgrade to ' +
-            (w.level + 1) + ' · ' + ui.fmt(cost) + ' gold</button>'
+            (w.level + 1) + ' · ' + ui.fmt(E.wallCost(w.level + 1)) + ' gold</button>'
           : '<p class="hint">Raise the Town Hall to unlock wall level ' + (max + 1) + '.</p>') +
         '<p class="hint" style="margin-top:10px">Upgrade hundreds at a time from the Laboratory → Walls.</p>');
       return;
@@ -200,7 +264,7 @@
     var body = '<h3>' + ui.esc(name) + '</h3>' +
       '<p class="screen-sub">' + (isTH ? ui.esc(G.thData(b.level).lore) : ui.esc(bd.desc || '')) + '</p>' +
       '<div style="display:flex;gap:14px;align-items:center;margin-bottom:12px">' +
-        '<div>' + (isTH ? G.art.townHallSVG(b.level, 120) : G.art.buildingSVG(bd.art, G.thData(s.th).palette, 72, tintFor(bd))) + '</div>' +
+        '<div>' + portrait(s, b, false, isTH ? 150 : 110) + '</div>' +
         '<div class="stat-row" style="flex-direction:column;gap:4px">' +
           '<span>Level <b>' + b.level + '</b> / ' + maxLvl + '</span>' +
           (bd.dps ? '<span>DPS <b>' + Math.round(bd.dps * Math.pow(1.16, b.level - 1)) + '</b></span>' : '') +
@@ -221,8 +285,9 @@
         'Upgrade to ' + next + ' · ' + ui.fmt(cost) + ' ' + res + ' · ' + ui.fmtTime(secs) + '</button>';
       if (isTH) {
         var t = G.thData(next);
-        body += '<div class="panel" style="margin-top:12px"><h3>Town Hall ' + next + ' — ' + ui.esc(t.name) + '</h3>' +
-          '<div style="display:flex;gap:12px;align-items:center">' + G.art.townHallSVG(next, 90) +
+        body += '<div class="panel" style="margin-top:12px"><h3>Next: ' + ui.esc(t.name) + '</h3>' +
+          '<div style="display:flex;gap:12px;align-items:center">' +
+          (SP.townHallKey(next) ? SP.img(SP.townHallKey(next), 110, t.name) : G.art.townHallSVG(next, 100)) +
           '<div><p class="hint" style="margin:0 0 6px">' + ui.esc(t.lore) + '</p>' +
           '<p class="hint" style="margin:0">Unlocks: ' + ui.esc(t.unlocks.join(', ')) + '</p>' +
           '<div class="swatches" style="justify-content:flex-start;margin-top:8px">' +
@@ -253,8 +318,11 @@
         var cost = E.buildingCost(s, bd.key, 1);
         var afford = s.resources[bd.res] >= cost;
         var locked = s.th < bd.unlockTH;
+        var icon = SP.buildingKey(bd.key)
+          ? SP.img(SP.buildingKey(bd.key), 46, bd.name)
+          : G.art.buildingSVG(bd.art, G.thData(s.th).palette, 40, tintFor(bd));
         return '<div class="card' + (locked || !canB ? ' locked' : '') + '">' +
-          '<div class="icon">' + G.art.buildingSVG(bd.art, G.thData(s.th).palette, 40, tintFor(bd)) + '</div>' +
+          '<div class="icon">' + icon + '</div>' +
           '<div class="body"><div class="title">' + ui.esc(bd.name) +
             '<small>' + owned + '/' + allowed + '</small></div>' +
           '<div class="desc">' + ui.esc(bd.desc || '') + '</div>' +

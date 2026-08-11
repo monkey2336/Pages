@@ -15,7 +15,9 @@
     return '<div class="th-tile' + (t.level === s.th ? ' current' : '') + '" data-act="th-detail" data-lvl="' + t.level + '">' +
       '<span class="lvl-chip">TH' + t.level + '</span>' +
       '<span class="tier-chip" style="background:' + (TIER_COLOR[t.tier] || '#555') + '">' + t.tier + '</span>' +
-      G.art.townHallSVG(t.level, 200) +
+      (G.sprites.townHallKey(t.level)
+        ? G.sprites.img(G.sprites.townHallKey(t.level), 190, t.name)
+        : G.art.townHallSVG(t.level, 190)) +
       '<b>' + ui.esc(t.name) + '</b>' +
       '<span>' + ui.fmt(t.campCapacity) + ' housing · ' + t.builders + ' builders</span>' +
       '<div class="swatches">' +
@@ -44,7 +46,9 @@
     };
     ui.modal('<h3>Town Hall ' + t.level + ' — ' + ui.esc(t.name) + '</h3>' +
       '<p class="screen-sub">' + ui.esc(t.lore) + '</p>' +
-      '<div style="text-align:center">' + G.art.townHallSVG(t.level, 220) + '</div>' +
+      '<div style="text-align:center">' + (G.sprites.townHallKey(t.level)
+        ? G.sprites.img(G.sprites.townHallKey(t.level), 240, t.name)
+        : G.art.townHallSVG(t.level, 220)) + '</div>' +
       '<div class="panel"><h3>Design</h3><div class="stat-row">' +
         '<span>Body <b>' + d.body + '</b></span>' +
         '<span>Roof <b>' + d.roof + '</b></span>' +

@@ -15,7 +15,9 @@
     var odds = ratio > 1.6 ? ['ok', 'Favourable'] : ratio > 0.9 ? ['warn', 'Even'] : ['bad', 'Risky'];
     return '<div class="card" style="flex-direction:column">' +
       '<div style="display:flex;gap:10px;width:100%">' +
-        '<div class="icon">' + G.art.townHallSVG(t.th, 52) + '</div>' +
+        '<div class="icon">' + (G.sprites.townHallKey(t.th)
+          ? G.sprites.img(G.sprites.townHallKey(t.th), 54, t.thName)
+          : G.art.townHallSVG(t.th, 52)) + '</div>' +
         '<div class="body"><div class="title">' + ui.esc(t.name) + '<small>TH' + t.th + '</small></div>' +
         '<div class="desc">' + ui.esc(t.thName) + ' · defense rating ' + ui.fmt(t.power) + '</div>' +
         '<div class="stat-row">' +
