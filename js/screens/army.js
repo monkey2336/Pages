@@ -54,7 +54,6 @@
     return '<div class="panel"><h3>' + title + '</h3><div class="grid-cards">' +
       list.map(function (t) {
         var unlocked = E.troopUnlocked(s, t.key);
-        var cost = E.troopCost(s, t.key);
         var lvl = Math.max(1, E.researchLevel(s, t.key));
         var superOn = s.superTroops[t.key] > Date.now();
         return '<div class="card' + (unlocked ? '' : ' locked') + '">' +
@@ -66,7 +65,7 @@
           '<div class="desc">' + ui.esc(t.role) + '</div>' +
           (unlocked
             ? '<div style="display:flex;gap:5px;flex-wrap:wrap">' +
-              '<button class="btn sm" data-act="train" data-key="' + t.key + '" data-n="1">+1 · ' + ui.fmt(cost) + '</button>' +
+              '<button class="btn sm" data-act="train" data-key="' + t.key + '" data-n="1">+1</button>' +
               '<button class="btn sm ghost" data-act="train" data-key="' + t.key + '" data-n="5">+5</button>' +
               '<button class="btn sm ghost" data-act="train" data-key="' + t.key + '" data-n="999">Fill</button>' +
               '</div><div class="timer">level ' + lvl + ' · ' + t.res + '</div>'

@@ -17,15 +17,15 @@
   var BUILDINGS = [
     /* ---------------------------------------------------------- resource */
     B({ key: 'goldmine', name: 'Gold Mine', cat: 'resource', art: 'mine', res: 'elixir', unlockTH: 1, size: 3,
-        baseCost: 150, baseTime: 60, produces: { gold: 200 },
+        baseCost: 150, baseTime: 60, produces: { gold: 900 },
         counts: [[1, 1], [2, 2], [3, 3], [4, 4], [6, 5], [8, 6], [11, 7], [15, 8]],
         desc: 'Pumps gold out of the ground while you are away.' }),
     B({ key: 'elixircollector', name: 'Elixir Collector', cat: 'resource', art: 'collector', res: 'gold', unlockTH: 1, size: 3,
-        baseCost: 150, baseTime: 60, produces: { elixir: 200 },
+        baseCost: 150, baseTime: 60, produces: { elixir: 900 },
         counts: [[1, 1], [2, 2], [3, 3], [4, 4], [6, 5], [8, 6], [11, 7], [15, 8]],
         desc: 'Draws elixir from the earth into a bubbling tank.' }),
     B({ key: 'darkdrill', name: 'Dark Drill', cat: 'resource', art: 'drill', res: 'gold', unlockTH: 7, size: 3,
-        baseCost: 100000, baseTime: 4 * HOUR, produces: { dark: 20 },
+        baseCost: 100000, baseTime: 4 * HOUR, produces: { dark: 120 },
         counts: [[7, 1], [8, 2], [9, 3], [12, 4], [16, 5], [22, 6]],
         desc: 'Bores into the dark seam. Slow, valuable, loud.' }),
     B({ key: 'goldstorage', name: 'Gold Storage', cat: 'resource', art: 'vault', res: 'elixir', unlockTH: 1, size: 3,

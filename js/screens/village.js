@@ -24,25 +24,18 @@
   }
 
   /* ------------------------------------------------------------ framing */
-  function computeView(s) {
-    var minX = G.GRID, minY = G.GRID, maxX = 0, maxY = 0, any = false;
-    function fold(x, y, size) {
-      any = true;
-      minX = Math.min(minX, x); minY = Math.min(minY, y);
-      maxX = Math.max(maxX, x + size); maxY = Math.max(maxY, y + size);
-    }
-    s.buildings.forEach(function (b) { fold(b.x, b.y, E.bdata(b.key).size); });
-    s.walls.forEach(function (w) { fold(w.x, w.y, 1); });
-    if (!any) return { x0: 0, y0: 0, span: 14 };
-    var pad = 2;
-    var span = Math.max(maxX - minX, maxY - minY) + pad * 2;
-    span = Math.max(12, Math.min(G.GRID, span));
-    var cx = (minX + maxX) / 2, cy = (minY + maxY) / 2;
-    return {
-      x0: Math.max(0, Math.min(G.GRID - span, Math.round(cx - span / 2))),
-      y0: Math.max(0, Math.min(G.GRID - span, Math.round(cy - span / 2))),
-      span: span
-    };
+  // The board never reframes. It is the whole grid, always, so a building
+  // stays where you put it on screen instead of the camera sliding around
+  // every time you add or remove something. What moves is you: zoom and pan.
+  function computeView() {
+    return { x0: 0, y0: 0, span: G.GRID };
+  }
+
+  // Start zoomed in on the middle of the field, where a village begins, not
+  // pulled back far enough to see all 52 tiles of empty grass.
+  function cam(s) {
+    if (!s.settings.cam) s.settings.cam = { z: 2.4, x: 0, y: 0 };
+    return s.settings.cam;
   }
 
   /* --------------------------------------------------------- projection */
@@ -217,11 +210,16 @@
         '<button class="btn ghost" data-act="buy-wall">Buy wall · ' + ui.fmt(E.wallCost(1)) + ' gold</button>' +
         '<button class="btn ghost" data-act="toggle-view">' +
           (m === 'flat' ? 'Board: 2D' : 'Board: isometric') + '</button>' +
+        '<span class="zoom-tools">' +
+          '<button class="btn ghost sm" data-act="zoom-out" title="Zoom out">&minus;</button>' +
+          '<button class="btn ghost sm" data-act="zoom-reset" title="Fit the whole field">Fit</button>' +
+          '<button class="btn ghost sm" data-act="zoom-in" title="Zoom in">+</button>' +
+        '</span>' +
         '<span class="pill' + (busy === total ? ' warn' : ' ok') + '">Builders ' + (total - busy) + '/' + total + '</span>' +
         (shield ? '<span class="pill ok">Shield ' + ui.fmtTime((s.shieldUntil - Date.now()) / 1000) + '</span>' : '') +
         '<span class="pill">Walls ' + s.walls.length + '/' + G.WALL.countAt(s.th) + '</span>' +
         '<span class="pill" title="' + ui.esc(era.blurb) + '">' + ui.esc(era.name) + '</span>' +
-        '<span class="hint">Drag to rearrange · click for details</span>' +
+        '<span class="hint">Drag a building to move it · drag the ground to pan · pinch or scroll to zoom</span>' +
       '</div>';
 
     if (jobs.length) {
@@ -271,21 +269,94 @@
     if (!viewport || !stage) return;
     var m = mode(s);
 
+    // Zoom 1 shows the whole field; you zoom in from there. Camera state
+    // lives in the save, so the board looks the same when you come back.
+    var c = cam(s);
+    var baseScale = 1;
+
     function fit() {
       var stageW = parseFloat(stage.style.width);
       var stageH = parseFloat(stage.style.height);
       var avail = viewport.clientWidth;
       var availH = viewport.clientHeight;
-      var scale = Math.min(avail / stageW, availH / stageH);
+      baseScale = Math.min(avail / stageW, availH / stageH);
+      var scale = baseScale * (c.z || 1);
+      // Keep the pan inside the field, allowing for the margin the zoom adds.
+      var maxX = Math.max(0, (stageW * scale - avail) / 2);
+      var maxY = Math.max(0, (stageH * scale - availH) / 2);
+      c.x = Math.max(-maxX, Math.min(maxX, c.x || 0));
+      c.y = Math.max(-maxY, Math.min(maxY, c.y || 0));
       stage.style.transform = 'scale(' + scale + ')';
-      stage.style.left = ((avail - stageW * scale) / 2) + 'px';
-      stage.style.top = ((availH - stageH * scale) / 2) + 'px';
+      stage.style.left = ((avail - stageW * scale) / 2 + c.x) + 'px';
+      stage.style.top = ((availH - stageH * scale) / 2 + c.y) + 'px';
       stage.dataset.scale = scale;
     }
+    if (!c.z) c.z = 2.4;
     fit();
     if (mount._ro) mount._ro.disconnect();
     mount._ro = new ResizeObserver(fit);
     mount._ro.observe(viewport);
+
+    // Zoom about the pointer, so what you are looking at stays put.
+    function zoomAt(factor, clientX, clientY) {
+      var r = viewport.getBoundingClientRect();
+      var px = (clientX == null ? r.width / 2 : clientX - r.left) - r.width / 2;
+      var py = (clientY == null ? r.height / 2 : clientY - r.top) - r.height / 2;
+      var was = c.z;
+      c.z = Math.max(1, Math.min(5, c.z * factor));
+      var k = c.z / was;
+      c.x = (c.x - px) * k + px;
+      c.y = (c.y - py) * k + py;
+      fit();
+    }
+
+    viewport.addEventListener('wheel', function (ev) {
+      ev.preventDefault();
+      zoomAt(ev.deltaY < 0 ? 1.12 : 1 / 1.12, ev.clientX, ev.clientY);
+    }, { passive: false });
+
+    ui.actions['zoom-in'] = function () { zoomAt(1.35); };
+    ui.actions['zoom-out'] = function () { zoomAt(1 / 1.35); };
+    ui.actions['zoom-reset'] = function () { c.z = 1; c.x = 0; c.y = 0; fit(); };
+
+    // Two fingers pinch to zoom; one finger on open ground pans the board.
+    var pinch = null, pan = null;
+    var points = {};
+    viewport.addEventListener('pointerdown', function (ev) {
+      points[ev.pointerId] = { x: ev.clientX, y: ev.clientY };
+      var ids = Object.keys(points);
+      if (ids.length === 2) {
+        var a = points[ids[0]], b2 = points[ids[1]];
+        pinch = { d: Math.hypot(a.x - b2.x, a.y - b2.y) };
+        pan = null;
+      } else if (!ev.target.closest('.iso-obj')) {
+        pan = { x: ev.clientX, y: ev.clientY, cx: c.x, cy: c.y };
+      }
+    });
+    viewport.addEventListener('pointermove', function (ev) {
+      if (!points[ev.pointerId]) return;
+      points[ev.pointerId] = { x: ev.clientX, y: ev.clientY };
+      var ids = Object.keys(points);
+      if (pinch && ids.length >= 2) {
+        var a = points[ids[0]], b2 = points[ids[1]];
+        var d = Math.hypot(a.x - b2.x, a.y - b2.y);
+        if (pinch.d > 0) {
+          zoomAt(d / pinch.d, (a.x + b2.x) / 2, (a.y + b2.y) / 2);
+        }
+        pinch.d = d;
+      } else if (pan) {
+        c.x = pan.cx + (ev.clientX - pan.x);
+        c.y = pan.cy + (ev.clientY - pan.y);
+        fit();
+      }
+    });
+    function releasePoint(ev) {
+      delete points[ev.pointerId];
+      if (Object.keys(points).length < 2) pinch = null;
+      if (!Object.keys(points).length) pan = null;
+    }
+    viewport.addEventListener('pointerup', releasePoint);
+    viewport.addEventListener('pointercancel', releasePoint);
 
     var drag = null;
     var objects = stage.querySelector('.iso-objects');

@@ -85,7 +85,7 @@
       var bd = bdata(b.key);
       if (!bd || !bd.produces || b.upgrading) return;
       Object.keys(bd.produces).forEach(function (res) {
-        out[res] += bd.produces[res] * Math.pow(1.35, b.level - 1);
+        out[res] += bd.produces[res] * Math.pow(1.42, b.level - 1);
       });
     });
     var mult = 1;
@@ -487,10 +487,11 @@
   }
   engine.troopUnlocked = troopUnlocked;
 
-  function troopCost(s, key) {
-    var t = G.troopData[key];
-    var lvl = Math.max(1, researchLevel(s, key));
-    return Math.round(t.housing * (t.res === 'dark' ? 12 : 90) * Math.pow(1.12, lvl - 1));
+  // Training costs nothing. Camp space is the only limit on an army, so the
+  // resources you collect go into upgrading the base rather than into
+  // rebuilding the same army after every raid.
+  function troopCost() {
+    return 0;
   }
   engine.troopCost = troopCost;
 
@@ -501,13 +502,10 @@
     var trained = 0;
     for (var i = 0; i < n; i++) {
       if (armyUsed(s) + t.housing > campCapacity(s)) break;
-      var cost = troopCost(s, key);
-      if (!canAfford(s, t.res, cost)) break;
-      spend(s, t.res, cost);
       s.army[key] = (s.army[key] || 0) + 1;
       trained++;
     }
-    if (!trained) return { ok: false, why: 'No camp space or not enough ' + t.res };
+    if (!trained) return { ok: false, why: 'No camp space left' };
     return { ok: true, trained: trained };
   }
   engine.trainTroop = trainTroop;

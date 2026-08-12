@@ -726,3 +726,7 @@ label.field { display: flex; flex-direction: column; gap: 5px; font-size: 12px; 
   .iso-viewport { height: 56vh; }
   .shop-grid { grid-template-columns: repeat(auto-fill, minmax(128px, 1fr)); }
 }
+
+/* Zoom controls for the fixed field. */
+.zoom-tools { display: inline-flex; gap: 4px; }
+.zoom-tools .btn { min-width: 34px; padding: 5px 9px; }
