@@ -65,12 +65,20 @@ _materials = {}
 
 
 def material(color, rough=0.6, metallic=0.0, emission=0.0):
-    """A Principled surface with the roughness and colour broken up by noise.
+    """A surface, not a colour.
 
-    Flat colour on a bevelled box reads as plastic no matter how good the
-    lighting is; a little variation across a surface is most of what separates
-    "3D shape" from "material". Emissive surfaces skip it -- they are lights,
-    not stone."""
+    The gap between this and painted game art is mostly not resolution -- it is
+    that painted art has grain, grime in the crevices and wear on the edges,
+    and a flat-shaded solid has none of those. Three things add them here, all
+    procedural, all keyed off geometry so no builder has to ask for them:
+
+      * ambient occlusion darkens where surfaces meet, which is where dirt
+        collects and where a viewer reads depth;
+      * pointiness lightens exposed edges, which is where paint rubs through
+        and stone gets chipped;
+      * a pattern appropriate to the surface -- courses for stone, brushed
+        streaks for metal -- at a strength you feel rather than see.
+    """
     key = (color, round(rough, 2), round(metallic, 2), round(emission, 2))
     if key in _materials:
         return _materials[key]
@@ -84,44 +92,88 @@ def material(color, rough=0.6, metallic=0.0, emission=0.0):
 
     if emission > 0:
         bsdf.inputs['Emission Color'].default_value = hex_rgba(color)
-        # Clamped: under a Standard view transform anything much above this
-        # clips to white and the glow loses its colour.
         bsdf.inputs['Emission Strength'].default_value = min(emission, 1.9)
         _materials[key] = mat
         return mat
 
-    tex = nt.nodes.new('ShaderNodeTexNoise')
-    tex.inputs['Scale'].default_value = 34.0
-    tex.inputs['Detail'].default_value = 6.0
-    tex.inputs['Roughness'].default_value = 0.62
+    geo = nt.nodes.new('ShaderNodeNewGeometry')
+    ao = nt.nodes.new('ShaderNodeAmbientOcclusion')
+    ao.inputs['Distance'].default_value = 0.22
+    ao.samples = 8
 
-    # Roughness variation: the difference between a wall and a plastic slab.
+    # Surface pattern: coursed blocks on stonework, brushed streaks on metal.
+    if metallic >= 0.5:
+        pat = nt.nodes.new('ShaderNodeTexNoise')
+        pat.inputs['Scale'].default_value = 8.0
+        pat.inputs['Detail'].default_value = 8.0
+        pat.inputs['Roughness'].default_value = 0.8
+        pat_out = pat.outputs['Fac']
+        pat_strength = 0.07
+    else:
+        pat = nt.nodes.new('ShaderNodeTexBrick')
+        pat.inputs['Scale'].default_value = 9.0
+        pat.inputs['Mortar Size'].default_value = 0.022
+        pat.inputs['Mortar Smooth'].default_value = 0.3
+        pat.inputs['Bias'].default_value = 0.0
+        pat.inputs['Brick Width'].default_value = 0.55
+        pat.inputs['Row Height'].default_value = 0.26
+        pat_out = pat.outputs['Fac']
+        pat_strength = 0.16
+
+    grain = nt.nodes.new('ShaderNodeTexNoise')
+    grain.inputs['Scale'].default_value = 42.0
+    grain.inputs['Detail'].default_value = 8.0
+
+    # Value: start at the base colour, darken in the creases, lift on the
+    # edges, and let the pattern break it up.
+    shade_mix = nt.nodes.new('ShaderNodeMix')
+    shade_mix.data_type = 'RGBA'
+    shade_mix.blend_type = 'MULTIPLY'
+    shade_mix.inputs['Factor'].default_value = 0.55
+    shade_mix.inputs[6].default_value = hex_rgba(color)
+    nt.links.new(ao.outputs['Color'], shade_mix.inputs[7])
+
+    edge = nt.nodes.new('ShaderNodeMapRange')
+    edge.inputs['From Min'].default_value = 0.45
+    edge.inputs['From Max'].default_value = 0.62
+    edge.inputs['To Min'].default_value = 0.0
+    edge.inputs['To Max'].default_value = 0.3
+    nt.links.new(geo.outputs['Pointiness'], edge.inputs['Value'])
+
+    wear = nt.nodes.new('ShaderNodeMix')
+    wear.data_type = 'RGBA'
+    wear.blend_type = 'SCREEN'
+    wear.inputs[6].default_value = (0, 0, 0, 1)
+    wear.inputs[7].default_value = shade(color, 1.5) and hex_rgba(shade(color, 1.5))
+    nt.links.new(edge.outputs['Result'], wear.inputs['Factor'])
+    nt.links.new(shade_mix.outputs[2], wear.inputs[6])
+
+    patmix = nt.nodes.new('ShaderNodeMix')
+    patmix.data_type = 'RGBA'
+    patmix.blend_type = 'MULTIPLY'
+    patmix.inputs['Factor'].default_value = pat_strength
+    nt.links.new(wear.outputs[2], patmix.inputs[6])
+    nt.links.new(pat_out, patmix.inputs[7])
+    nt.links.new(patmix.outputs[2], bsdf.inputs['Base Color'])
+
+    # Roughness follows the pattern too: mortar is rougher than the block.
     rmap = nt.nodes.new('ShaderNodeMapRange')
-    rmap.inputs['To Min'].default_value = max(0.05, rough - 0.16)
-    rmap.inputs['To Max'].default_value = min(1.0, rough + 0.16)
-    nt.links.new(tex.outputs['Fac'], rmap.inputs['Value'])
+    rmap.inputs['To Min'].default_value = max(0.05, rough - 0.18)
+    rmap.inputs['To Max'].default_value = min(1.0, rough + 0.18)
+    nt.links.new(grain.outputs['Fac'], rmap.inputs['Value'])
     nt.links.new(rmap.outputs['Result'], bsdf.inputs['Roughness'])
 
-    # Colour variation, kept subtle -- enough to catch the light, not enough
-    # to muddy a palette the whole game is keyed to.
-    hsv = nt.nodes.new('ShaderNodeHueSaturation')
-    hsv.inputs['Color'].default_value = hex_rgba(color)
-    val = nt.nodes.new('ShaderNodeMapRange')
-    val.inputs['To Min'].default_value = 0.9
-    val.inputs['To Max'].default_value = 1.1
-    nt.links.new(tex.outputs['Fac'], val.inputs['Value'])
-    nt.links.new(val.outputs['Result'], hsv.inputs['Value'])
-    nt.links.new(hsv.outputs['Color'], bsdf.inputs['Base Color'])
-
-    # Fine surface relief. Small scale, small strength: grain, not lumps.
-    fine = nt.nodes.new('ShaderNodeTexNoise')
-    fine.inputs['Scale'].default_value = 180.0
-    fine.inputs['Detail'].default_value = 4.0
-    bump = nt.nodes.new('ShaderNodeBump')
-    bump.inputs['Strength'].default_value = 0.14 if metallic < 0.5 else 0.07
-    bump.inputs['Distance'].default_value = 0.006
-    nt.links.new(fine.outputs['Fac'], bump.inputs['Height'])
-    nt.links.new(bump.outputs['Normal'], bsdf.inputs['Normal'])
+    # Relief: the pattern as bump, plus fine grain on top.
+    bump1 = nt.nodes.new('ShaderNodeBump')
+    bump1.inputs['Strength'].default_value = 0.3 if metallic < 0.5 else 0.12
+    bump1.inputs['Distance'].default_value = 0.02
+    nt.links.new(pat_out, bump1.inputs['Height'])
+    bump2 = nt.nodes.new('ShaderNodeBump')
+    bump2.inputs['Strength'].default_value = 0.12
+    bump2.inputs['Distance'].default_value = 0.005
+    nt.links.new(grain.outputs['Fac'], bump2.inputs['Height'])
+    nt.links.new(bump1.outputs['Normal'], bump2.inputs['Normal'])
+    nt.links.new(bump2.outputs['Normal'], bsdf.inputs['Normal'])
 
     _materials[key] = mat
     return mat
