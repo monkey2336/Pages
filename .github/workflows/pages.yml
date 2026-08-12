@@ -1,0 +1,46 @@
+# Publishes the game to GitHub Pages.
+#
+# The whole repository is the site: index.html at the root, plus css/, js/ and
+# assets/. There is no build step, so the "build" here is just packaging the
+# files as they are.
+name: Deploy to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; let a run in progress finish rather than cancelling.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # Guarded so this never fires on the profile repo the game was developed
+    # in, where Pages is not set up and the run would only fail noisily.
+    if: github.repository == 'monkey2336/ascendancy'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Pages
+        # enablement turns Pages on for the repository the first time this
+        # runs, so nobody has to flip the switch by hand.
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Package the site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
