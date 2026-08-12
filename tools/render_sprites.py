@@ -1612,75 +1612,264 @@ def build_wall(skin, T, detail):
 
 
 # ------------------------------------------------------------------ units
-def unit_body(tint, kind, T, tier):
-    """A chunky stylised figure. Tier adds kit: helmet, pauldrons, a better
-    weapon -- the same way a troop earns gear as it is researched."""
+# Troops are built the same way buildings are: era materials for the kit, and
+# ornament that grows with the level, so a level 1 Grunt is a lad in a leather
+# jerkin and a level 25 Grunt is armoured, caped and lit. `art` decides the
+# silhouette -- weapon, stance and head -- so the roster reads apart at icon
+# size rather than being one figure in twenty-eight colours.
+
+# Which weapon each troop art carries. Anything unlisted falls back to a sword.
+WEAPONS = {
+    'grunt': 'sword', 'marauder': 'axe', 'brute': 'club', 'ripper': 'axe',
+    'slinger': 'bow', 'huntress': 'bow', 'nightstalker': 'dagger',
+    'sapper': 'bomb', 'banner': 'standard', 'bannerman': 'standard',
+    'hogback': 'spear', 'ravager': 'club', 'colossus': 'fist', 'golem': 'fist',
+    'titanborn': 'hammer', 'abyssal': 'hammer', 'beetle': 'none',
+    'prismknight': 'lance', 'vanguard': 'sword', 'champion': 'hammer',
+    'ironclad': 'lance', 'kite': 'spear', 'duskwing': 'none',
+}
+
+
+def troop_base(T):
+    """A small plinth. Troops are only ever seen in icon frames, and a base
+    stops them floating in the middle of the card."""
+    cyl(0.42, 0.05, (0, 0, 0.025), T['stoneDark'], verts=20, bevel=0.01)
+    cyl(0.36, 0.03, (0, 0, 0.06), shade(T['stoneDark'], 1.14), verts=20, bevel=0.01)
+    if L() >= 14:
+        torus(0.39, 0.014, (0, 0, 0.07), T['trim'], metallic=0.7, rough=0.3)
+
+
+def weapon(kind, T, tint, hand=(0.42, -0.14, 0.6)):
+    """The hand-held silhouette, held out to the side of the body so it reads
+    at icon size instead of merging with the head. Scale creeps up with the
+    level, so a maxed troop is visibly better armed than a fresh one."""
+    lv = L()
+    g = 1.0 + lv * 0.012
+    x, y, z = hand
+    metal, trim, wood = T['metal'], T['trim'], T['wood']
+    if kind == 'none':
+        return
+    if kind == 'bow':
+        # A vertical arc in the plane facing the camera, with a drawn string.
+        torus(0.3 * g, 0.026, (x, y, z + 0.24), wood,
+              rot=(0, math.radians(90), 0))
+        box(0.02, 0.02, 0.58 * g, (x - 0.02, y, z + 0.24), '#efe7d2', bevel=0)
+        for sy in (-1, 1):
+            cone(0.045, 0, 0.1, (x, y, z + 0.24 + sy * 0.3 * g), trim, verts=6,
+                 metallic=0.7, rough=0.3)
+        if lv >= 9:
+            sphere(0.05, (x, y - 0.04, z + 0.24), T['accent'], emission=1.6)
+        return
+    if kind == 'standard':
+        cyl(0.03, 1.25 * g, (x, y, z + 0.34), wood, verts=8)
+        box(0.03, 0.32, 0.36 * g, (x, y + 0.18, z + 0.78), T['cloth'], bevel=0.01)
+        cone(0.06, 0, 0.17, (x, y, z + 1.02 * g), trim, verts=8, metallic=0.7, rough=0.3)
+        if lv >= 12:
+            sphere(0.05, (x, y + 0.18, z + 0.92), T['accent'], emission=1.6)
+        return
+    if kind == 'bomb':
+        sphere(0.17 * g, (x, y, z + 0.06), '#2a2a30', rough=0.55)
+        cyl(0.02, 0.14, (x, y, z + 0.26), wood, verts=6)
+        sphere(0.04, (x, y, z + 0.34), T['accent'], emission=2.4)
+        return
+    if kind == 'fist':
+        sphere(0.2 * g, (x, y, z - 0.1), shade(tint, 0.86), rough=0.5)
+        if lv >= 10:
+            for i in range(3):
+                cone(0.05, 0, 0.12, (x, y - 0.08 + i * 0.08, z + 0.06), metal,
+                     verts=6, metallic=0.6, rough=0.35)
+        return
+    # Everything below is a shaft with a head on top. The shaft starts at the
+    # fist and runs up, so the head clears the shoulder line.
+    shaft = {'sword': 0.0, 'dagger': 0.0, 'axe': 0.62, 'club': 0.56,
+             'hammer': 0.66, 'spear': 1.02, 'lance': 1.08}.get(kind, 0.5)
+    if shaft > 0.2:
+        cyl(0.028, shaft * g, (x, y, z + shaft * g / 2 - 0.08), wood, verts=6)
+    top = z + shaft * g - 0.08
+    if kind in ('sword', 'dagger'):
+        blade = 0.56 * g if kind == 'sword' else 0.32 * g
+        cyl(0.035, 0.18, (x, y, z), wood, verts=8)                      # grip
+        sphere(0.045, (x, y, z - 0.1), trim, metallic=0.7, rough=0.3)   # pommel
+        box(0.22, 0.06, 0.05, (x, y, z + 0.11), trim, metallic=0.7, rough=0.3, bevel=0.012)
+        box(0.1, 0.03, blade, (x, y, z + 0.14 + blade / 2), metal,
+            metallic=0.8, rough=0.22, bevel=0.012)
+        if lv >= 18:
+            box(0.03, 0.012, blade * 0.78, (x, y - 0.022, z + 0.16 + blade / 2),
+                T['accent'], emission=1.8, bevel=0)
+    elif kind == 'axe':
+        box(0.05, 0.24, 0.32 * g, (x, y + 0.12, top), metal,
+            metallic=0.75, rough=0.28, bevel=0.02)
+        box(0.05, 0.11, 0.17, (x, y - 0.07, top), shade(metal, 0.8),
+            metallic=0.7, rough=0.3, bevel=0.02)
+    elif kind in ('club', 'hammer'):
+        box(0.25 * g, 0.25 * g, 0.25 * g, (x, y, top + 0.1),
+            metal if kind == 'hammer' else wood,
+            metallic=0.6 if kind == 'hammer' else 0.0, rough=0.35, bevel=0.03)
+        if lv >= 8:
+            for sx in (-1, 1):
+                cone(0.05, 0, 0.12, (x + sx * 0.14 * g, y, top + 0.1), trim, verts=6,
+                     rot=(0, math.radians(sx * 90), 0), metallic=0.7, rough=0.3)
+    elif kind in ('spear', 'lance'):
+        cone(0.07, 0, 0.28 * g, (x, y, top + 0.12), metal, verts=8,
+             metallic=0.8, rough=0.25)
+        if kind == 'lance' and lv >= 6:
+            cyl(0.11, 0.1, (x, y, top - 0.2), trim, verts=12, metallic=0.7, rough=0.3)
+    if lv >= 22:
+        sphere(0.05, (x, y, top + 0.3), T['accent'], emission=2.0)
+
+
+def shield(T, lv):
+    """Round shield on the off arm. Kept small and set back so it frames the
+    figure instead of hiding it."""
+    cyl(0.17, 0.05, (-0.36, -0.08, 0.68), T['metal'], verts=16,
+        rot=(0, math.radians(90), 0), metallic=0.6, rough=0.38)
+    cyl(0.12, 0.03, (-0.39, -0.08, 0.68), T['trim'], verts=16,
+        rot=(0, math.radians(90), 0), metallic=0.7, rough=0.3)
+    sphere(0.055, (-0.41, -0.08, 0.68), shade(T['metal'], 1.25), metallic=0.8, rough=0.2)
+    if lv >= 20:
+        sphere(0.035, (-0.42, -0.08, 0.79), T['accent'], emission=1.8)
+
+
+def cape(T, tint):
+    """Cloak hanging off the shoulders, behind the figure."""
+    box(0.3, 0.05, 0.44, (0, 0.19, 0.62), T['cloth'], bevel=0.03)
+    box(0.36, 0.05, 0.07, (0, 0.18, 0.86), shade(T['cloth'], 0.78), bevel=0.02)
+
+
+def helmet(T, tint, crest_colour):
+    """Head kit. The crest grows with the level -- the fastest way to read a
+    troop's rank from a 46px icon."""
+    lv = L()
+    sphere(0.19, (0, 0, 1.03), T['metal'], metallic=0.55, rough=0.36)
+    box(0.4, 0.09, 0.05, (0, -0.13, 1.02), T['metalDark'],
+        metallic=0.6, rough=0.35, bevel=0.015)
+    box(0.2, 0.06, 0.12, (0, -0.16, 0.95), '#20222a', bevel=0.02)   # visor slot
+    if lv >= 4:
+        for i in range(2 + lv // 8):
+            box(0.05, 0.16, 0.05 + i * 0.03, (0, 0.02 + i * 0.05, 1.18 + i * 0.035),
+                crest_colour, bevel=0.012)
+    if lv >= 16:
+        for sx in (-1, 1):
+            cone(0.05, 0, 0.18, (sx * 0.17, 0, 1.14), T['trim'], verts=6,
+                 rot=(0, math.radians(sx * 26), 0), metallic=0.7, rough=0.3)
+    if lv >= 24:
+        sphere(0.045, (0, -0.18, 1.1), T['accent'], emission=2.2)
+
+
+def unit_body(tint, kind, T, tier, art=''):
+    """A chunky stylised figure with era kit and a per-troop weapon."""
+    lv = L()
     skin = '#e8c9a0'
-    metal = T['metal']
-    trim = T['trim']
+    metal, trim = T['metal'], T['trim']
+    troop_base(T)
 
     if kind == 'air':
-        sphere(0.34, (0, 0, 0.78), tint, rough=0.5)
+        # Winged: a body slung between two wings, with a harness and a tail.
+        sphere(0.32, (0, 0.04, 0.86), tint, rough=0.5)
+        sphere(0.2, (0, -0.26, 0.94), shade(tint, 1.12), rough=0.5)
+        sphere(0.08, (0.09, -0.4, 0.98), '#1a1a20', bevel=0)
+        sphere(0.08, (-0.09, -0.4, 0.98), '#1a1a20', bevel=0)
         for sx in (-1, 1):
-            w = box(0.5, 0.1, 0.28, (sx * 0.42, 0.05, 0.95), shade(tint, 1.18), bevel=0.02)
-            w.rotation_euler = (0, math.radians(sx * 22), 0)
-            if tier >= 2:
-                box(0.42, 0.04, 0.05, (sx * 0.42, 0.02, 1.08), metal,
-                    metallic=0.6, rough=0.35, bevel=0.01)
-        sphere(0.11, (0, -0.28, 0.82), '#1a1a20', bevel=0)
-        cyl(0.16, 0.14, (0, 0, 0.4), shade(tint, 0.72), verts=14)
-        if tier >= 3:
-            torus(0.3, 0.025, (0, 0, 1.16), trim, emission=1.2, rough=0.3)
+            w = box(0.62, 0.12, 0.3, (sx * 0.46, 0.1, 1.02), shade(tint, 1.2), bevel=0.03)
+            w.rotation_euler = (0, math.radians(sx * 24), 0)
+            for i in range(2 + lv // 9):     # wing ribs
+                box(0.5, 0.03, 0.03, (sx * 0.46, 0.02 + i * 0.07, 1.02 + i * 0.04),
+                    shade(tint, 0.8), bevel=0.01)
+            if lv >= 10:
+                cone(0.05, 0, 0.14, (sx * 0.74, 0.1, 1.16), trim, verts=6,
+                     metallic=0.7, rough=0.3)
+        for sx in (-1, 1):                    # legs tucked under
+            cyl(0.06, 0.22, (sx * 0.14, 0.02, 0.62), shade(tint, 0.74), verts=8)
+            sphere(0.07, (sx * 0.14, -0.04, 0.52), shade(tint, 0.7))
+        cyl(0.07, 0.4, (0, 0.34, 0.78), shade(tint, 0.8), verts=10,
+            rot=(math.radians(28), 0, 0))
+        if lv >= 6:                           # harness
+            box(0.5, 0.1, 0.07, (0, 0.04, 0.94), T['cloth'], bevel=0.02)
+        if lv >= 12:
+            torus(0.3, 0.025, (0, 0, 1.34), trim, emission=1.2, rough=0.3)
+        if lv >= 20:
+            sphere(0.06, (0, -0.42, 1.1), T['accent'], emission=2.2)
         return
 
     if kind == 'giant':
-        cyl(0.34, 0.6, (0, 0, 0.3), shade(tint, 0.84), verts=16)
-        box(0.68, 0.46, 0.62, (0, 0, 0.92), tint)
-        sphere(0.26, (0, 0, 1.42), skin)
+        # Heavy: no neck, huge shoulders, ground-shaking fists.
         for sx in (-1, 1):
-            cyl(0.14, 0.6, (sx * 0.44, 0, 0.95), shade(tint, 0.9), verts=12)
-            if tier >= 2:
-                sphere(0.17, (sx * 0.44, 0, 1.24), metal, metallic=0.55, rough=0.4)
-        if tier >= 2:
-            box(0.5, 0.12, 0.16, (0, -0.24, 1.05), metal, metallic=0.5, rough=0.4)
-        if tier >= 3:
-            cyl(0.3, 0.1, (0, 0, 1.58), trim, verts=14, metallic=0.7, rough=0.3)
-            sphere(0.07, (0, -0.2, 1.52), T['accent'], emission=1.5)
+            cyl(0.16, 0.36, (sx * 0.17, 0, 0.2), shade(tint, 0.74), verts=12)
+            box(0.24, 0.3, 0.12, (sx * 0.17, -0.04, 0.06), T['metalDark'],
+                metallic=0.5, rough=0.45, bevel=0.02)
+        box(0.72, 0.46, 0.6, (0, 0, 0.7), tint, bevel=0.05)
+        box(0.76, 0.5, 0.1, (0, 0, 0.62), T['cloth'], bevel=0.02)      # belt
+        sphere(0.24, (0, -0.02, 1.12), skin)
+        for sx in (-1, 1):
+            cyl(0.15, 0.52, (sx * 0.46, 0, 0.78), shade(tint, 0.9), verts=12)
+            sphere(0.18, (sx * 0.47, 0, 1.0), T['metalDark'], metallic=0.55, rough=0.4)
+            if lv >= 10:
+                for i in range(2):
+                    cone(0.06, 0, 0.14, (sx * 0.46, -0.08 + i * 0.16, 1.16), trim,
+                         verts=6, metallic=0.7, rough=0.3)
+            sphere(0.17, (sx * 0.48, -0.06, 0.5), shade(tint, 0.82))   # fists
+        if lv >= 5:
+            box(0.5, 0.12, 0.18, (0, -0.26, 0.84), metal, metallic=0.5, rough=0.4, bevel=0.03)
+        if lv >= 14:
+            cyl(0.26, 0.09, (0, 0, 1.3), trim, verts=14, metallic=0.7, rough=0.3)
+        if lv >= 20:
+            sphere(0.07, (0, -0.22, 1.24), T['accent'], emission=2.0)
+        weapon(WEAPONS.get(art, 'fist'), T, tint, hand=(0.56, -0.14, 0.62))
         return
 
     if kind == 'caster':
-        cone(0.34, 0.12, 0.78, (0, 0, 0.39), tint, verts=16)
-        sphere(0.2, (0, 0, 0.88), skin)
-        cone(0.25, 0, 0.44, (0, 0, 1.16), shade(tint, 0.76), verts=16)
-        sphere(0.09, (0.27, -0.16, 0.86), shade(tint, 1.4), emission=1.6)
-        if tier >= 2:
-            cyl(0.03, 0.7, (0.3, -0.1, 0.7), T['wood'], verts=6)
-            sphere(0.08, (0.3, -0.1, 1.08), T['accent'], emission=1.7)
-        if tier >= 3:
-            torus(0.2, 0.02, (0, 0, 1.42), trim, emission=1.3, rough=0.3)
+        # Robed: a cone body, a hood, and a staff that gets brighter with rank.
+        cone(0.36, 0.14, 0.8, (0, 0, 0.44), tint, verts=18)
+        for i in range(1 + lv // 7):                                   # robe hem bands
+            cyl(0.34 - i * 0.03, 0.035, (0, 0, 0.14 + i * 0.1), shade(tint, 0.82), verts=18)
+        box(0.16, 0.06, 0.5, (0, -0.24, 0.5), T['cloth'], bevel=0.02)  # stole
+        sphere(0.19, (0, 0, 0.94), skin)
+        cone(0.26, 0.02, 0.42, (0, 0.02, 1.16), shade(tint, 0.76), verts=16)
+        if lv >= 8:
+            for sx in (-1, 1):
+                sphere(0.09, (sx * 0.28, -0.04, 0.86), shade(tint, 1.1))
+        cyl(0.03, 1.1, (0.32, -0.08, 0.62), T['wood'], verts=8)
+        sphere(0.1, (0.32, -0.08, 1.2), T['accent'], emission=2.2)
+        if lv >= 12:
+            torus(0.15, 0.018, (0.32, -0.08, 1.2), trim, emission=1.6, rough=0.3)
+        if lv >= 18:
+            for i in range(3):
+                a = math.radians(i * 120 + 20)
+                sphere(0.04, (math.cos(a) * 0.34, math.sin(a) * 0.34, 1.44),
+                       T['glow'], emission=2.6)
+        if lv >= 22:
+            torus(0.22, 0.02, (0, 0, 1.5), trim, emission=1.4, rough=0.3)
         return
 
-    # default ground trooper
-    cyl(0.22, 0.42, (0, 0, 0.21), shade(tint, 0.82), verts=14)
-    box(0.44, 0.3, 0.42, (0, 0, 0.62), tint)
-    sphere(0.19, (0, 0, 0.98), skin)
+    # ---- default ground trooper: legs, torso, arms, head, weapon, shield
     for sx in (-1, 1):
-        cyl(0.085, 0.38, (sx * 0.29, 0, 0.66), shade(tint, 0.9), verts=10)
-    if tier == 1:
-        cone(0.22, 0.06, 0.16, (0, 0, 1.12), shade(tint, 1.2), verts=14)
+        cyl(0.1, 0.34, (sx * 0.12, 0, 0.22), shade(tint, 0.72), verts=10)
+        box(0.18, 0.24, 0.1, (sx * 0.12, -0.04, 0.08), T['metalDark'],
+            metallic=0.45, rough=0.5, bevel=0.02)
+    box(0.44, 0.3, 0.44, (0, 0, 0.63), tint, bevel=0.04)
+    box(0.14, 0.32, 0.4, (0, -0.02, 0.63), T['cloth'], bevel=0.02)      # tabard
+    box(0.47, 0.33, 0.08, (0, 0, 0.45), T['metalDark'], metallic=0.5, rough=0.4, bevel=0.02)
+    if lv >= 6:                                                          # chest plate
+        box(0.4, 0.1, 0.26, (0, -0.17, 0.72), metal, metallic=0.6, rough=0.34, bevel=0.03)
+    for sx in (-1, 1):
+        cyl(0.08, 0.4, (sx * 0.28, -0.02, 0.64), shade(tint, 0.9), verts=10)
+        sphere(0.115, (sx * 0.3, 0, 0.84), T['metalDark'], metallic=0.55, rough=0.38)
+        if lv >= 11:
+            cone(0.06, 0, 0.13, (sx * 0.31, 0, 0.95), trim, verts=6,
+                 rot=(0, math.radians(sx * 22), 0), metallic=0.7, rough=0.3)
+    sphere(0.185, (0, 0, 0.98), skin)
+    if lv <= 2:
+        cone(0.22, 0.06, 0.16, (0, 0, 1.1), shade(tint, 1.2), verts=14)
     else:
-        # helmet
-        sphere(0.21, (0, 0, 1.03), metal, metallic=0.55, rough=0.38)
-        box(0.44, 0.06, 0.07, (0, -0.16, 1.02), shade(metal, 0.8), metallic=0.6)
+        helmet(T, tint, shade(tint, 1.25))
+    if lv >= 9:
+        cape(T, tint)
+    if lv >= 5:
+        shield(T, lv)
+    weapon(WEAPONS.get(art, 'sword'), T, tint)
+    if lv >= 17:
         for sx in (-1, 1):
-            sphere(0.12, (sx * 0.29, 0, 0.86), metal, metallic=0.5, rough=0.4)
-    if tier >= 2:
-        cyl(0.028, 0.62, (0.34, -0.06, 0.72), T['wood'], verts=6)
-        box(0.1, 0.05, 0.22, (0.34, -0.06, 1.06), metal, metallic=0.7, rough=0.3)
-    if tier >= 3:
-        box(0.36, 0.08, 0.2, (0, -0.2, 0.74), trim, metallic=0.7, rough=0.3)
-        sphere(0.06, (0, -0.24, 0.86), T['accent'], emission=1.6)
-        cone(0.06, 0, 0.16, (0, 0, 1.24), T['accent'], verts=8, emission=1.4)
+            sphere(0.035, (sx * 0.14, -0.19, 0.45), T['accent'], emission=1.9)
 
 
 def unit_kind(art, air, housing):
@@ -1694,8 +1883,8 @@ def unit_kind(art, air, housing):
     return 'ground'
 
 
-def build_unit(tint, kind, T, tier, hero=False):
-    unit_body(tint, kind, T, tier)
+def build_unit(tint, kind, T, tier, hero=False, art=''):
+    unit_body(tint, kind, T, tier, art)
     if hero:
         torus(0.3, 0.03, (0, 0, 1.34), T['trim'], emission=1.6, rough=0.3)
         for i in range(5):
@@ -1799,7 +1988,8 @@ def main():
                 T, ornate = level_look(t_levels, lvl)
                 CUR_LEVEL[0] = int(round(lvl * 30.0 / len(t_levels)))
                 reset_scene()
-                build_unit(t['tint'], unit_kind(t['art'], t['air'], t['housing']), T, ornate)
+                build_unit(t['tint'], unit_kind(t['art'], t['air'], t['housing']), T, ornate,
+                           art=t['art'])
                 render(name, 1.4, samples=args.samples)
         for h in DATA['heroes']:
             if only_keys and h['key'] not in only_keys:
@@ -1814,7 +2004,8 @@ def main():
                 T, ornate = level_look(t_levels, lvl)
                 CUR_LEVEL[0] = int(round(lvl * 30.0 / len(t_levels)))
                 reset_scene()
-                build_unit(h['tint'], unit_kind(h['art'], False, 0), T, ornate, hero=True)
+                build_unit(h['tint'], unit_kind(h['art'], False, 0), T, ornate, hero=True,
+                           art=h['art'])
                 render(name, 1.4, samples=args.samples)
         for m in DATA['siege']:
             if only_keys and m['key'] not in only_keys:
