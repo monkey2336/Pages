@@ -976,12 +976,13 @@
   "w": 252
  },
  "b_archertower_L03": {
-  "anchorX": 126.0,
-  "anchorY": 186.3,
+  "anchorX": 121.0,
+  "anchorY": 177.2,
+  "drawnShadow": true,
   "file": "assets/sprites/b_archertower_L03.png",
   "footprint": 3,
-  "h": 252,
-  "w": 252
+  "h": 242,
+  "w": 242
  },
  "b_archertower_L04": {
   "anchorX": 126.0,
@@ -1064,12 +1065,13 @@
   "w": 249
  },
  "b_archertower_L14": {
-  "anchorX": 139.0,
-  "anchorY": 209.6,
+  "anchorX": 130.5,
+  "anchorY": 194.3,
+  "drawnShadow": true,
   "file": "assets/sprites/b_archertower_L14.png",
   "footprint": 3,
-  "h": 278,
-  "w": 278
+  "h": 261,
+  "w": 261
  },
  "b_archertower_L15": {
   "anchorX": 139.0,
@@ -1168,12 +1170,13 @@
   "w": 278
  },
  "b_archertower_L27": {
-  "anchorX": 139.0,
-  "anchorY": 209.6,
+  "anchorX": 135.0,
+  "anchorY": 202.5,
+  "drawnShadow": true,
   "file": "assets/sprites/b_archertower_L27.png",
   "footprint": 3,
-  "h": 278,
-  "w": 278
+  "h": 270,
+  "w": 270
  },
  "b_archertower_L28": {
   "anchorX": 139.0,
@@ -1546,6 +1549,7 @@
  "b_barracks_L14": {
   "anchorX": 103.0,
   "anchorY": 125.5,
+  "drawnShadow": true,
   "file": "assets/sprites/b_barracks_L14.png",
   "footprint": 3,
   "h": 206,
@@ -5626,6 +5630,7 @@
  "b_goldstorage_L14": {
   "anchorX": 103.0,
   "anchorY": 137.8,
+  "drawnShadow": true,
   "file": "assets/sprites/b_goldstorage_L14.png",
   "footprint": 3,
   "h": 206,
@@ -7306,6 +7311,7 @@
  "b_mortar_L14": {
   "anchorX": 106.5,
   "anchorY": 151.0,
+  "drawnShadow": true,
   "file": "assets/sprites/b_mortar_L14.png",
   "footprint": 3,
   "h": 213,

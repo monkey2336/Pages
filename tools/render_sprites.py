@@ -819,6 +819,167 @@ def level_look(table, level):
 
 
 # ------------------------------------------------------------ detail kit
+# ------------------------------------------------------- high-detail kit
+# The modelling language, chosen from the style demos: carved and ornate for
+# most of the game, turning engineered and machined as the Town Hall climbs.
+# `machined(level)` is the blend between the two, so the change happens across
+# the run rather than at a cutover, and every builder gets it for free.
+
+SIDES = 64          # segments on anything round: no countable facets
+COURSE = 0.042      # thickness of one stacked course
+
+
+def machined(level=None):
+    """0 = carved stone, 1 = engineered plate. Crosses over in the twenties."""
+    lv = L() if level is None else level
+    return max(0.0, min(1.0, (lv - 17) / 11.0))
+
+
+def lathe(profile, z0, T, color=None, rough=0.6, metallic=0.0, seg=COURSE):
+    """Build a curved surface by stacking thin discs along a radius profile.
+    `profile` is a list of radii from bottom to top. This is what separates a
+    turned column from a cone with twelve sides."""
+    col = color or T['stone']
+    for i, r in enumerate(profile):
+        cyl(r, seg * 1.06, (0, 0, z0 + i * seg),
+            shade(col, 1.0 + (i % 2) * 0.045), verts=SIDES,
+            rough=rough, metallic=metallic, bevel=0.005)
+    return z0 + len(profile) * seg
+
+
+def drum(r_bottom, r_top, height, z0, T, color=None, metallic=0.0):
+    """A tapered round tower body, coursed like real masonry."""
+    n = max(4, int(height / COURSE))
+    prof = [r_bottom + (r_top - r_bottom) * (i / max(1, n - 1.0)) for i in range(n)]
+    return lathe(prof, z0, T, color, metallic=metallic)
+
+
+def string_course(r, z, T, gilded=True):
+    """A projecting band around a tower -- the single cheapest way to make a
+    cylinder read as architecture rather than a pipe."""
+    m = machined()
+    col = T['trim'] if gilded else T['stoneDark']
+    cyl(r + 0.03, 0.026, (0, 0, z), col, verts=SIDES,
+        metallic=0.3 + m * 0.5, rough=0.34 - m * 0.1, bevel=0.006)
+    cyl(r + 0.045, 0.014, (0, 0, z + 0.02), shade(col, 1.12), verts=SIDES,
+        metallic=0.4 + m * 0.45, rough=0.3, bevel=0.004)
+    if gilded and m < 0.6:
+        studs = 20
+        for i in range(studs):
+            a = math.radians(i * (360.0 / studs))
+            sphere(0.019, (math.cos(a) * (r + 0.04), math.sin(a) * (r + 0.04), z),
+                   col, metallic=0.85, rough=0.2)
+
+
+def merlons(r, z, T, count=14):
+    """Crenellation with real gaps and capstones."""
+    m = machined()
+    for i in range(count):
+        a = math.radians(i * (360.0 / count))
+        x, y = math.cos(a) * r, math.sin(a) * r
+        box(0.115, 0.085, 0.16 + m * 0.03, (x, y, z + 0.08), T['stone'],
+            rot=(0, 0, a), bevel=0.013)
+        box(0.125, 0.095, 0.028, (x, y, z + 0.17), shade(T['stone'], 1.14),
+            rot=(0, 0, a), bevel=0.007)
+        if m > 0.45:                       # plate caps take over from stone
+            box(0.1, 0.07, 0.02, (x, y, z + 0.2), T['metalDark'],
+                rot=(0, 0, a), metallic=0.8, rough=0.28, bevel=0.004)
+
+
+def buttresses(r, z0, height, T, count=4, offset=45):
+    """Stepped supports climbing the wall. Carved when early, plated later."""
+    m = machined()
+    steps = max(4, int(height / 0.12))
+    for i in range(count):
+        a = math.radians(i * (360.0 / count) + offset)
+        cx, cy = math.cos(a), math.sin(a)
+        for j in range(steps):
+            t = j / float(steps)
+            box(0.17 - t * 0.06, 0.13, 0.11,
+                (cx * (r * (1 + t * 0.06)), cy * (r * (1 + t * 0.06)), z0 + j * (height / steps)),
+                shade(T['stone'] if m < 0.5 else T['metal'], 0.92 + t * 0.08),
+                rot=(0, 0, a), metallic=m * 0.6, rough=0.5 - m * 0.2, bevel=0.012)
+
+
+def balcony(r, z, T, rails=24):
+    """A gallery ring with a rail: reads instantly as somewhere people stand."""
+    m = machined()
+    cyl(r + 0.1, 0.03, (0, 0, z), T['trim'] if m < 0.5 else T['metalDark'],
+        verts=SIDES, metallic=0.5 + m * 0.35, rough=0.3, bevel=0.006)
+    for i in range(rails):
+        a = math.radians(i * (360.0 / rails))
+        cyl(0.015, 0.13, (math.cos(a) * (r + 0.07), math.sin(a) * (r + 0.07), z + 0.07),
+            T['trim'], verts=10, metallic=0.75, rough=0.26)
+    cyl(r + 0.09, 0.022, (0, 0, z + 0.14), T['trim'], verts=SIDES,
+        metallic=0.75, rough=0.26, bevel=0.005)
+
+
+def lanterns(r, z, T, count=8):
+    for i in range(count):
+        a = math.radians(i * (360.0 / count) + 22)
+        x, y = math.cos(a) * r, math.sin(a) * r
+        cyl(0.028, 0.09, (x, y, z - 0.06), T['metalDark'], verts=10,
+            metallic=0.7, rough=0.35)
+        sphere(0.047, (x, y, z), T['glow'], emission=1.8)
+
+
+def spire(r, height, z0, T, verts=SIDES):
+    """A lathed conical roof with a lip and a finial, not a twelve-sided cone."""
+    m = machined()
+    n = max(6, int(height / 0.032))
+    cyl(r + 0.06, 0.03, (0, 0, z0 - 0.01), shade(T['roofDark'], 1.05),
+        verts=verts, bevel=0.008)
+    for i in range(n):
+        t = i / float(n - 1)
+        cyl(r * (1 - t) + 0.028, 0.033, (0, 0, z0 + i * 0.032),
+            shade(T['roof'], 1.0 - t * 0.2), verts=verts, bevel=0.004)
+    top = z0 + n * 0.032
+    if m > 0.5:
+        cyl(0.075, 0.14, (0, 0, top + 0.06), T['accent'], verts=24, emission=1.5)
+    else:
+        sphere(0.05, (0, 0, top + 0.04), T['trim'], metallic=0.82, rough=0.2)
+    return top
+
+
+def arrow_slit(r, z, T, count=4, offset=45, h=0.26):
+    for i in range(count):
+        a = math.radians(i * (360.0 / count) + offset)
+        box(0.055, 0.1, h, (math.cos(a) * r, math.sin(a) * r, z), '#191c20',
+            rot=(0, 0, a), bevel=0.008)
+        box(0.09, 0.05, h + 0.06, (math.cos(a) * (r + 0.01), math.sin(a) * (r + 0.01), z),
+            shade(T['stoneDark'], 1.05), rot=(0, 0, a), bevel=0.008)
+
+
+def plated_column(r, height, z0, T, segs=None):
+    """The engineered counterpart to a coursed drum: plate segments with
+    recessed seams and bolt rows."""
+    segs = segs or max(4, int(height / 0.13))
+    for i in range(segs):
+        z = z0 + i * (height / segs)
+        cyl(r, (height / segs) * 0.86, (0, 0, z), T['metal'], verts=SIDES,
+            metallic=0.72, rough=0.33, bevel=0.012)
+        cyl(r * 1.04, 0.016, (0, 0, z + (height / segs) * 0.5), T['metalDark'],
+            verts=SIDES, metallic=0.8, rough=0.28)
+        for j in range(10):
+            a = math.radians(j * 36 + i * 11)
+            sphere(0.017, (math.cos(a) * r * 1.01, math.sin(a) * r * 1.01, z),
+                   T['metal'], metallic=0.9, rough=0.2)
+    for i in range(4):
+        a = math.radians(i * 90)
+        box(0.028, 0.045, height * 0.92,
+            (math.cos(a) * r * 1.01, math.sin(a) * r * 1.01, z0 + height / 2),
+            T['metalDark'], rot=(0, 0, a), metallic=0.75, rough=0.3, bevel=0.005)
+    return z0 + height
+
+
+def tower_body(r0, r1, height, z0, T):
+    """Whichever body the level calls for. Builders ask for a tower; the level
+    decides whether it is masonry or plate."""
+    if machined() > 0.55:
+        return plated_column(r1, height, z0, T)
+    return drum(r0, r1, height, z0, T)
+
+
 def pad(size, T, tier):
     """Dirt pad, dressed stone rim, corner blocks and yard clutter. The rim
     gains steps, the corners gain caps and the yard gains props as the level
@@ -868,14 +1029,29 @@ def yard_props(size, T):
 
 
 def courses(w, d, z0, h, rows, T, inset=0.02):
-    """Stacked stone bands: the single biggest readability win at small size.
-    Bands subdivide as the level rises."""
-    rows = rows + L() // 9
+    """Stacked masonry. Courses alternate in height and inset, every third one
+    projects slightly, and the wall finishes on a chamfered capstone -- the
+    difference between coursed stone and a pile of identical slabs."""
+    rows = rows + L() // 6
     step = h / rows
+    m = machined()
+    box(w + 0.05, d + 0.05, step * 0.5, (0, 0, z0 + step * 0.25),
+        shade(T['stoneDark'], 0.92), bevel=0.02)
     for i in range(rows):
-        s = 1.0 - i * inset
-        box(w * s, d * s, step * 0.94, (0, 0, z0 + step * (i + 0.5)),
-            T['stone'] if i % 2 == 0 else T['stoneDark'])
+        t = i / float(max(1, rows - 1))
+        s2 = 1.0 - inset * t
+        tall = step * (0.92 if i % 2 == 0 else 0.8)
+        proud = 0.018 if i % 3 == 2 else 0.0
+        box(w * s2 + proud, d * s2 + proud, tall, (0, 0, z0 + step * (i + 0.5)),
+            shade(T['stone'] if m < 0.55 else T['metal'], 1.0 + (i % 2) * 0.06 - t * 0.05),
+            metallic=m * 0.55, rough=0.62 - m * 0.25, bevel=0.014)
+        if i % 3 == 2 and m < 0.6:            # visible joints on the proud course
+            box(w * s2 + proud + 0.006, d * s2 + proud + 0.006, 0.012,
+                (0, 0, z0 + step * (i + 1.0)), shade(T['stoneDark'], 0.9), bevel=0.004)
+    cap = w * (1.0 - inset) + 0.05
+    box(cap, d * (1.0 - inset) + 0.05, step * 0.34, (0, 0, z0 + h + step * 0.1),
+        shade(T['stone'], 1.14), bevel=0.02)
+    return z0 + h + step * 0.3
 
 
 def trim_band(w, d, z, T, tier, thick=0.07):
@@ -922,18 +1098,9 @@ def rivets(r, z, T, n=8, size=0.045):
 
 
 def roof_cone(r, h, z, T, tier, verts=16):
-    lv = L()
-    cone(r, r * 0.12, h, (0, 0, z + h / 2), T['roof'], verts=verts)
-    cone(r * 0.72, r * 0.08, h * 0.4, (0, 0, z + h * 0.82), T['roofDark'], verts=verts)
-    # extra roof courses as the level climbs
-    for i in range(lv // 8):
-        torus(r * (0.9 - i * 0.16), 0.028, (0, 0, z + h * (0.3 + i * 0.22)),
-              shade(T['roofDark'], 1.1), metallic=0.4, rough=0.5)
-    if lv >= 5:
-        torus(r * 0.96, 0.035, (0, 0, z + 0.04), T['metalDark'], metallic=0.6, rough=0.35)
-    if lv >= 14:
-        cyl(0.05, 0.28, (0, 0, z + h + 0.14), T['trim'], verts=8, metallic=0.7, rough=0.3)
-        sphere(0.085, (0, 0, z + h + 0.3), T['accent'], emission=1.4)
+    """Kept for the builders that ask for a cone by name -- now a turned
+    surface with a lip and a finial, like everything else."""
+    return spire(r, h, z, T)
 
 
 def roof_pyramid(r, h, z, T, tier):
@@ -1371,20 +1538,31 @@ def b_cannon(T, tier):
 
 
 def b_archer(T, tier):
-    pad(1.6, T, tier)
-    courses(0.82, 0.82, 0.2, 0.95, 4, T)
-    cyl(0.55, 0.12, (0, 0, 1.21), T['stoneDark'], verts=16)
-    for i in range(6):
-        a = math.radians(i * 60)
-        box(0.15, 0.15, 0.2, (math.cos(a) * 0.44, math.sin(a) * 0.44, 1.37),
-            T['stone'], bevel=0.02)
-    roof_cone(0.5, 0.45, 1.44, T, tier, verts=12)
-    window(0, -0.44, 0.72, T, 0.1, 0.3)
-    box(0.16, 0.16, 0.36, (0.05, -0.2, 1.4), T['wood'])
-    if tier >= 2:
-        for i in range(3):
-            box(0.03, 0.03, 0.26, (-0.3 + i * 0.05, 0.34, 1.4), '#c9b48a')
-    tier_topper(2.1, T, tier, 0.42)
+    """A turned stone tower: coursed drum, string courses, recessed slits, a
+    gallery with a rail, and a lathed spire. Turns to plate in the late game."""
+    lv = L()
+    m = machined()
+    pad(1.7, T, tier)
+    top = tower_body(0.5, 0.44, 0.95, 0.26, T)
+    string_course(0.47, 0.55, T)
+    string_course(0.45, 0.9, T)
+    arrow_slit(0.44, 0.75, T, 4, 45, 0.28)
+    if lv >= 5:
+        buttresses(0.5, 0.28, 0.72, T, 4, 0)
+    balcony(0.46, top - 0.02, T)
+    merlons(0.5, top + 0.1, T, 14)
+    if lv >= 9:
+        lanterns(0.54, top + 0.2, T, 6 if m < 0.5 else 8)
+    spire(0.44, 0.5 + lv * 0.006, top + 0.28, T)
+    # the archer's post: a shuttered window facing the front
+    window(0, -0.46, 0.62, T, 0.12, 0.3)
+    if lv >= 14:
+        for sx in (-1, 1):
+            box(0.07, 0.2, 0.05, (sx * 0.5, -0.3, top + 0.06),
+                T['wood'] if m < 0.5 else T['metalDark'],
+                metallic=m * 0.7, rough=0.4, bevel=0.008)
+    yard_props(1.7, T)
+    tier_topper(top + 1.0, T, tier, 0.4)
 
 
 def b_mortar(T, tier):
