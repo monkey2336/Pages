@@ -18,6 +18,7 @@
   var pickedHero = false;
   var lastFrame = 0;
   var acc = 0;
+  var speed = 1;            // 0.5x to 4x, chosen from the top bar
 
   /* --------------------------------------------------------- image cache */
   var images = {};
@@ -272,11 +273,16 @@
     if (!host) { stop(); return; }
     var dt = Math.min(0.1, (now - lastFrame) / 1000 || 0);
     lastFrame = now;
-    acc += dt;
-    while (acc >= G.battle.TICK) {
+    acc += dt * speed;
+    // Capped so a slow frame at 4x cannot spiral into hundreds of catch-up
+    // steps and lock the tab up.
+    var steps = 0;
+    while (acc >= G.battle.TICK && steps < 12) {
       G.battle.step(live, G.battle.TICK);
       acc -= G.battle.TICK;
+      steps++;
     }
+    if (acc > G.battle.TICK * 12) acc = 0;
     var ctx = host.getContext('2d');
     draw(ctx, live, host);
     paintHud();
@@ -302,6 +308,18 @@
         }).join('') +
       '</div>' +
       '<div class="bt-stat"><span>Time</span><b>' + mins + ':' + (secs < 10 ? '0' : '') + secs + '</b></div>';
+  }
+
+  // Watching a raid at 1x is the point; watching the last forty seconds of a
+  // won one is not. Half speed is there for reading a messy fight.
+  var SPEEDS = [0.5, 1, 2, 4];
+
+  function speedButtons() {
+    return SPEEDS.map(function (v) {
+      return '<button class="bt-sp' + (speed === v ? ' on' : '') +
+        '" data-act="bt-speed" data-v="' + v + '">' +
+        (v === 0.5 ? '&frac12;' : v) + '&times;</button>';
+    }).join('');
   }
 
   function trayHTML(b) {
@@ -335,6 +353,7 @@
         '<div class="bt-target"><b>' + ui.esc(live.target.name) + '</b>' +
           '<span>Town Hall ' + live.target.th + '</span></div>' +
         '<div id="battleHud" class="bt-hud"></div>' +
+        '<div class="bt-speed" id="btSpeed">' + speedButtons() + '</div>' +
         '<button class="btn ghost sm" data-act="bt-end">End raid</button>' +
       '</div>' +
       '<div class="battle-stage"><canvas id="battleCanvas"></canvas>' +
@@ -421,6 +440,11 @@
     var tray = document.getElementById('btTray');
     if (tray && live) tray.innerHTML = trayHTML(live);
   };
+  ui.actions['bt-speed'] = function (el) {
+    speed = parseFloat(el.getAttribute('data-v')) || 1;
+    var host = document.getElementById('btSpeed');
+    if (host) host.innerHTML = speedButtons();
+  };
   ui.actions['bt-end'] = function () {
     if (live && !live.over) { live.over = true; finish(); }
   };
@@ -435,6 +459,7 @@
     live = G.battle.create(G.state, target);
     picked = null;
     pickedHero = false;
+    speed = 1;
     ui.go('battle');
   };
 
