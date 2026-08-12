@@ -160,6 +160,23 @@
       s.boosts = s.boosts || {};
       s.superTroops = s.superTroops || {};
       s.settings = s.settings || { instantBuild: false, godMode: false, unlockAll: false };
+      // The second Barracks used to unlock nothing, since troops are gated on
+      // Barracks level rather than count. That slot is a Dark Barracks now, so
+      // a village built under the old rules gets its surplus converted in
+      // place -- same tile, same level, and a roster of dark troops it could
+      // not train before.
+      (function convertSurplusBarracks() {
+        var spare = s.buildings.filter(function (b) { return b.key === 'barracks'; });
+        var allowed = G.allowedCount('barracks', s.th);
+        var wantsDark = s.th >= 3 &&
+          !s.buildings.some(function (b) { return b.key === 'darkbarracks'; });
+        if (spare.length > allowed && wantsDark) {
+          var victim = spare[spare.length - 1];
+          victim.key = 'darkbarracks';
+          victim.level = Math.max(1, Math.min(victim.level, G.buildingMaxLevel('darkbarracks', s.th)));
+        }
+      }());
+
       // ids must not collide with newly minted ones
       s.buildings.concat(s.walls).forEach(function (o) {
         var n = parseInt(String(o.id).replace(/^o/, ''), 10);

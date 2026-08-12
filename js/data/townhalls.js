@@ -404,7 +404,13 @@
     return Math.round(3000 * Math.pow(1.58, level - 1));
   }
   function darkStorageCap(level) {
-    if (level < 7) return 0;
+    // The Dark Barracks arrives at Town Hall 3, so the Town Hall itself holds
+    // a little dark elixir from then on -- otherwise dark troops could be
+    // fielded but never researched, because there would be nowhere to keep
+    // the resource their research is priced in. The Dark Elixir Storage at
+    // Town Hall 7 is still what makes the resource worth collecting.
+    if (level < 3) return 0;
+    if (level < 7) return Math.round(400 * Math.pow(1.5, level - 3));
     return Math.round(1000 * Math.pow(1.45, level - 7));
   }
 
@@ -412,7 +418,10 @@
   // the storage you will have when that level unlocks, which keeps every
   // upgrade in the game affordable at the Town Hall that gates it.
   G.capCurve = function (res, thFloat) {
-    if (res === 'dark') return Math.max(200, 1000 * Math.pow(1.45, thFloat - 7));
+    if (res === 'dark') {
+      if (thFloat < 7) return Math.max(200, 400 * Math.pow(1.5, thFloat - 3));
+      return Math.max(200, 1000 * Math.pow(1.45, thFloat - 7));
+    }
     return 3000 * Math.pow(1.58, thFloat - 1);
   };
   function heroSlots(level) {
