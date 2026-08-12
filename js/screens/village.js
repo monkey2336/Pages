@@ -559,6 +559,11 @@
     if (ui.report(r, 'Under construction')) { ui.closeModal(); ui.render(); }
   };
 
+  ui.actions['open-screen'] = function (el) {
+    ui.closeModal();
+    ui.go(el.getAttribute('data-screen'));
+  };
+
   ui.actions['upgrade-building'] = function (el) {
     var r = E.startUpgrade(G.state, el.getAttribute('data-id'));
     if (ui.report(r, 'Upgrade started')) { ui.closeModal(); ui.render(); }

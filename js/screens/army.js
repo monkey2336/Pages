@@ -134,6 +134,8 @@
   ui.actions['clear-spells'] = function () { E.clearSpells(G.state); ui.render(); };
 
   ui.register('army', {
+    // Reached by tapping the building that houses it, not from the nav.
+    hidden: function () { return true; },
     title: 'Army',
     render: render,
     badge: function (s) {

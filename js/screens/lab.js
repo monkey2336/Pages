@@ -30,7 +30,7 @@
 
   function slotsHTML(s) {
     if (!E.labUnlocked(s)) {
-      return '<div class="panel"><h3>Laboratory offline</h3><p class="hint">Build the Laboratory in the village (Town Hall 4) to start researching troops and spells. Wall and building upgrades below still work.</p></div>';
+      return '<div class="panel"><h3>Laboratory offline</h3><p class="hint">Build the Laboratory in the village (Town Hall 2) to start researching troops and spells. Wall and building upgrades below still work.</p></div>';
     }
     var running = s.labSlots.filter(function (sl) { return sl.job; });
     if (!running.length) {
@@ -235,6 +235,8 @@
   };
 
   ui.register('lab', {
+    // Reached by tapping the building that houses it, not from the nav.
+    hidden: function () { return true; },
     title: 'Laboratory',
     render: render,
     live: live,

@@ -159,6 +159,8 @@
   };
 
   ui.register('heroes', {
+    // Reached by tapping the building that houses it, not from the nav.
+    hidden: function () { return true; },
     title: 'Hero Hall',
     render: render,
     live: live,

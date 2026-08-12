@@ -68,9 +68,43 @@
   };
 
   /* --------------------------------------------------------- resources */
+  // What your storages actually hold.
+  //
+  // The Town Hall curve is the ceiling for your level; how much of it you get
+  // depends on the storages you have built and how far you have upgraded them.
+  // A quarter comes from the Town Hall's own vault, so a village with no
+  // storages still works; the rest is earned. Build and upgrade every storage
+  // your Town Hall allows and you reach the full curve -- which is the number
+  // every price in the game is quoted against.
+  var STORAGE_FOR = { gold: 'goldstorage', elixir: 'elixirstorage', dark: 'darkstorage' };
+  var TOWN_HALL_SHARE = 0.5;
+
+  function storageFraction(s, res) {
+    var key = STORAGE_FOR[res];
+    var allowed = G.allowedCount(key, s.th);
+    if (!allowed) return 1;                       // nothing to build yet
+    var maxLvl = Math.max(1, G.buildingMaxLevel(key, s.th));
+    var built = 0;
+    s.buildings.forEach(function (b) {
+      if (b.key !== key) return;
+      // Standing it up is most of the win; upgrading it is the rest. Weighted
+      // this way because prices are quoted against the full curve, and a
+      // player who has built their storages but not yet maxed them should
+      // still be able to afford what their Town Hall unlocked.
+      built += 0.5 + 0.5 * Math.min(1, b.level / maxLvl);
+    });
+    var frac = Math.min(1, built / allowed);
+    return TOWN_HALL_SHARE + (1 - TOWN_HALL_SHARE) * frac;
+  }
+  engine.storageFraction = storageFraction;
+
   function caps(s) {
     var th = G.thData(s.th);
-    return { gold: th.storageCap, elixir: th.storageCap, dark: th.darkStorageCap };
+    return {
+      gold: Math.round(th.storageCap * storageFraction(s, 'gold')),
+      elixir: Math.round(th.storageCap * storageFraction(s, 'elixir')),
+      dark: Math.round(th.darkStorageCap * storageFraction(s, 'dark'))
+    };
   }
   engine.caps = caps;
 

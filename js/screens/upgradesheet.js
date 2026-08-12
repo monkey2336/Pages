@@ -57,12 +57,14 @@
       });
     }
     if (bd.storage) {
-      // Storage capacity is held by the Town Hall and shared across the
-      // storages you own, so show this building's share of it.
+      // What this building adds to your cap, and what the cap is now. A
+      // storage that does nothing was the old behaviour and the thing worth
+      // being explicit about.
       Object.keys(bd.storage).forEach(function (r) {
         var caps = E.caps(s);
         var owned = Math.max(1, E.ownedCount(s, b.key));
-        rows += flat('Storage capacity', ui.fmt(Math.round((caps[r] || 0) / owned)));
+        rows += flat('Holds', ui.fmt(Math.round((caps[r] || 0) / owned)));
+        rows += flat('Your ' + r + ' cap', ui.fmt(caps[r] || 0));
       });
     }
     if (bd.range) rows += flat('Range', bd.range + ' tiles');
@@ -82,6 +84,32 @@
       if (G.buildingMaxLevel(key, th) >= level) return th;
     }
     return null;
+  }
+
+  // Which screen a building owns. Tapping the Laboratory should open the
+  // Laboratory -- the building is the door to it, the way it is in the game
+  // this is modelled on, rather than a tab that exists whether or not you have
+  // built the thing.
+  var OPENS = {
+    laboratory: { screen: 'lab', label: 'Open Laboratory' },
+    herohall: { screen: 'heroes', label: 'Open Hero Hall' },
+    blacksmith: { screen: 'heroes', label: 'Open Blacksmith' },
+    pethouse: { screen: 'heroes', label: 'Open Pet House' },
+    barracks: { screen: 'army', label: 'Train troops' },
+    darkbarracks: { screen: 'army', label: 'Train dark troops' },
+    armycamp: { screen: 'army', label: 'Open Army' },
+    spellfactory: { screen: 'army', label: 'Brew spells' },
+    darkspellfactory: { screen: 'army', label: 'Brew dark spells' },
+    siegeworkshop: { screen: 'army', label: 'Build siege machines' },
+    clocktower: { screen: 'items', label: 'Open boosts' },
+    treasury: { screen: 'items', label: 'Open Items' }
+  };
+
+  function openButton(b) {
+    var o = OPENS[b.key];
+    if (!o || b.level < 1) return '';
+    return '<button class="btn wide open-btn" data-act="open-screen" data-screen="' +
+      o.screen + '">' + ui.esc(o.label) + '</button>';
   }
 
   /* Full sheet for one building. `b` is the placed instance. */
@@ -165,6 +193,7 @@
     }
 
     return '<h3>' + title + '</h3>' +
+      openButton(b) +
       '<div class="level-bar"><i style="width:' + pct + '%"></i>' +
         '<span>level ' + b.level + ' / ' + (isTH ? 30 : maxLvl) + '</span></div>' +
       '<div class="unit-sheet">' +

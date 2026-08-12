@@ -897,3 +897,11 @@ body.in-battle main { padding: 0; max-width: none; }
   background: linear-gradient(180deg, var(--accent), var(--accent2));
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
 }
+
+/* "Open the Laboratory" and friends: the building is the door to its screen. */
+.btn.open-btn {
+  margin: 2px 0 12px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent2) 92%, white), var(--accent2));
+  color: #0c1a08; border-color: color-mix(in srgb, var(--accent2) 60%, black);
+  box-shadow: 0 3px 0 color-mix(in srgb, var(--accent2) 45%, black);
+}
