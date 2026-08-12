@@ -1897,6 +1897,143 @@ def build_siege_unit(T, tier):
     b_siege(T, tier)
 
 
+# ---------------------------------------------------------------- scenery
+# The woods around the base. Deliberately outside the era system: the village
+# changes with every Town Hall, the forest it stands in does not. One fixed
+# woodland palette, rendered once, used at every level.
+
+FOREST = {
+    'leaf': '#4e7a34', 'leafMid': '#3f6b2c', 'leafDark': '#2f5622',
+    'bark': '#6b4a2c', 'barkPale': '#9c8462', 'soil': '#4a6b34',
+    'stone': '#8b8778', 'stoneDark': '#5f5c50', 'bloom': '#e0b34d',
+}
+
+
+def _trunk(r, h, lean=0.0):
+    F = FOREST
+    cyl(r, h, (0, 0, h / 2), F['bark'], verts=8,
+        rot=(math.radians(lean), 0, 0), bevel=0.01)
+    for i in range(3):                                  # root flare
+        a = math.radians(i * 120 + 30)
+        box(r * 1.5, r * 1.5, 0.08, (math.cos(a) * r * 0.9, math.sin(a) * r * 0.9, 0.04),
+            shade(F['bark'], 0.85), bevel=0.02)
+
+
+def sc_pine():
+    """Conifer: three stacked skirts, the classic isometric tree."""
+    F = FOREST
+    _trunk(0.09, 0.5)
+    for i in range(3):
+        r = 0.46 - i * 0.11
+        z = 0.44 + i * 0.36
+        cone(r, r * 0.16, 0.46, (0, 0, z + 0.23),
+             F['leaf'] if i % 2 == 0 else F['leafMid'], verts=12)
+    cone(0.14, 0, 0.2, (0, 0, 1.62), F['leafDark'], verts=10)
+
+
+def sc_pine_tall():
+    """A taller, narrower conifer, so a stand of pines is not a row of clones."""
+    F = FOREST
+    _trunk(0.08, 0.6)
+    for i in range(4):
+        r = 0.4 - i * 0.08
+        z = 0.5 + i * 0.34
+        cone(r, r * 0.14, 0.44, (0, 0, z + 0.22),
+             F['leafMid'] if i % 2 == 0 else F['leafDark'], verts=12)
+    cone(0.11, 0, 0.22, (0, 0, 1.86), F['leafDark'], verts=10)
+
+
+def sc_oak():
+    """Broadleaf: a fat trunk under a canopy of overlapping blobs."""
+    F = FOREST
+    _trunk(0.12, 0.62)
+    for sx in (-1, 1):                                   # boughs
+        cyl(0.05, 0.34, (sx * 0.12, 0, 0.72), shade(F['bark'], 1.05), verts=6,
+            rot=(0, math.radians(sx * 34), 0))
+    blobs = ((0, 0, 1.16, 0.42), (-0.3, 0.06, 1.0, 0.28), (0.3, -0.05, 1.02, 0.3),
+             (0.05, 0.28, 1.06, 0.26), (0.02, -0.26, 1.08, 0.27))
+    for i, (x, y, z, r) in enumerate(blobs):
+        sphere(r, (x, y, z), F['leaf'] if i % 2 == 0 else F['leafMid'], rough=0.62)
+
+
+def sc_oak_old():
+    """A wider, older broadleaf with a leaning trunk."""
+    F = FOREST
+    _trunk(0.15, 0.5, lean=4)
+    blobs = ((0, 0, 1.02, 0.46), (-0.36, 0.04, 0.9, 0.3), (0.34, -0.06, 0.94, 0.32),
+             (0.04, 0.32, 0.96, 0.28), (-0.06, -0.3, 0.98, 0.29), (0, 0, 1.3, 0.3))
+    for i, (x, y, z, r) in enumerate(blobs):
+        sphere(r, (x, y, z), F['leafMid'] if i % 2 == 0 else F['leafDark'], rough=0.64)
+
+
+def sc_birch():
+    """A tall, thin pale tree to break up the greens."""
+    F = FOREST
+    cyl(0.07, 1.15, (0, 0, 0.58), F['barkPale'], verts=8)
+    for i in range(4):                                   # bark bands
+        box(0.16, 0.16, 0.035, (0, 0, 0.3 + i * 0.24), shade(F['bark'], 0.7), bevel=0.01)
+    for i, (x, y, z, r) in enumerate(((0, 0, 1.38, 0.3), (-0.2, 0.05, 1.24, 0.2),
+                                      (0.21, -0.04, 1.26, 0.21))):
+        sphere(r, (x, y, z), F['leaf'] if i % 2 == 0 else F['leafMid'], rough=0.6)
+
+
+def sc_bush():
+    F = FOREST
+    for i, (x, y, z, r) in enumerate(((0, 0, 0.22, 0.26), (-0.22, 0.04, 0.17, 0.19),
+                                      (0.2, -0.06, 0.18, 0.2))):
+        sphere(r, (x, y, z), F['leaf'] if i % 2 == 0 else F['leafMid'], rough=0.65)
+
+
+def sc_flowers():
+    F = FOREST
+    for i, (x, y, r) in enumerate(((0, 0, 0.2), (-0.18, 0.1, 0.15), (0.17, -0.08, 0.16))):
+        sphere(r, (x, y, 0.14), F['leafMid'], rough=0.68)
+    for i in range(5):
+        a = math.radians(i * 72 + 15)
+        sphere(0.045, (math.cos(a) * 0.16, math.sin(a) * 0.16, 0.28), F['bloom'], rough=0.5)
+
+
+def sc_rock():
+    F = FOREST
+    box(0.42, 0.36, 0.24, (0, 0, 0.12), F['stone'], bevel=0.05)
+    box(0.24, 0.2, 0.18, (0.16, 0.1, 0.3), shade(F['stone'], 1.1), bevel=0.04)
+    box(0.16, 0.14, 0.1, (-0.16, -0.08, 0.28), F['stoneDark'], bevel=0.03)
+    sphere(0.1, (-0.2, 0.14, 0.14), F['leafDark'], rough=0.7)      # moss
+
+
+def sc_stump():
+    F = FOREST
+    cyl(0.2, 0.26, (0, 0, 0.13), F['bark'], verts=12, bevel=0.02)
+    cyl(0.17, 0.04, (0, 0, 0.27), shade(F['bark'], 1.35), verts=12)
+    sphere(0.13, (0.24, 0.06, 0.1), F['leafDark'], rough=0.66)
+
+
+def sc_log():
+    F = FOREST
+    cyl(0.13, 0.8, (0, 0, 0.13), F['bark'], verts=10, rot=(0, math.radians(90), 0))
+    cyl(0.1, 0.04, (0.4, 0, 0.13), shade(F['bark'], 1.35), verts=10,
+        rot=(0, math.radians(90), 0))
+    sphere(0.11, (-0.22, 0.14, 0.1), F['leafMid'], rough=0.68)
+
+
+SCENERY = {
+    'pine': sc_pine, 'pinetall': sc_pine_tall, 'oak': sc_oak, 'oakold': sc_oak_old,
+    'birch': sc_birch, 'bush': sc_bush, 'flowers': sc_flowers, 'rock': sc_rock,
+    'stump': sc_stump, 'log': sc_log,
+}
+
+# Footprint each prop is framed at, so a tree towers over a bush.
+SCENERY_SIZE = {'pine': 1.8, 'pinetall': 2.0, 'oak': 1.8, 'oakold': 1.8,
+                'birch': 1.9, 'bush': 1.0, 'flowers': 0.9, 'rock': 1.1,
+                'stump': 0.9, 'log': 1.0}
+
+
+def build_scenery(kind):
+    """One prop standing on its own patch of forest floor."""
+    cyl(0.44, 0.06, (0, 0, 0.03), FOREST['soil'], verts=18, bevel=0.01)
+    SCENERY[kind]()
+
+
 # ------------------------------------------------------------------ ground
 def build_ground_tile():
     box(1.0, 1.0, 0.16, (0, 0, 0.08), '#6f9a4e')
@@ -1908,7 +2045,7 @@ def build_ground_tile():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--only', default='',
-                    help='groups to render: townhall,building,wall,unit,ground')
+                    help='groups: townhall,building,wall,unit,scenery,ground')
     ap.add_argument('--samples', type=int, default=24)
     ap.add_argument('--keys', default='', help='only these building/unit keys')
     ap.add_argument('--levels', default='', help='only these levels, e.g. 1,15,30')
@@ -1916,7 +2053,7 @@ def main():
                     help='leave sprites already on disk alone, for resuming a run')
     args = ap.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:])
     groups = set(g.strip() for g in args.only.split(',') if g.strip()) or \
-        {'townhall', 'building', 'wall', 'unit', 'ground'}
+        {'townhall', 'building', 'wall', 'unit', 'scenery', 'ground'}
     only_keys = set(k.strip() for k in args.keys.split(',') if k.strip())
     only_levels = set(int(x) for x in args.levels.split(',') if x.strip())
 
@@ -2017,6 +2154,16 @@ def main():
                 reset_scene()
                 build_siege_unit(T, ornate)
                 render('u_%s_L%02d' % (m['key'], lvl), 2, samples=args.samples)
+
+    if 'scenery' in groups:
+        print('Scenery...')
+        for kind in sorted(SCENERY):
+            name = 'sc_' + kind
+            if done(name):
+                continue
+            reset_scene()
+            build_scenery(kind)
+            render(name, SCENERY_SIZE[kind], samples=args.samples)
 
     if 'ground' in groups:
         print('Ground...')

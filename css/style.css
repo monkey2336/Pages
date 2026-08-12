@@ -281,6 +281,9 @@ main { flex: 1; padding: 18px; max-width: 1280px; width: 100%; margin: 0 auto; }
 .village-tools { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
 .hint { font-size: 12px; color: color-mix(in srgb, var(--ink) 62%, var(--dim)); }
 
+/* The board sits in a wood. The forest floor is fixed rather than themed --
+   the village changes with every Town Hall, the country around it does not --
+   with a wash of the current sky colour at the horizon so the two still meet. */
 .iso-viewport {
   position: relative;
   width: 100%;
@@ -289,11 +292,19 @@ main { flex: 1; padding: 18px; max-width: 1280px; width: 100%; margin: 0 auto; }
   border-radius: 18px;
   border: 3px solid color-mix(in srgb, var(--panelEdge) 85%, black);
   background:
-    radial-gradient(80% 60% at 50% 0%, color-mix(in srgb, var(--sky1) 70%, white 10%), transparent 70%),
-    linear-gradient(180deg, var(--sky1), var(--sky2));
-  box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.45), var(--shadow);
+    radial-gradient(70% 45% at 50% -6%, color-mix(in srgb, var(--sky1) 55%, #6f8c58), transparent 72%),
+    radial-gradient(120% 90% at 50% 45%, #52753f, transparent 70%),
+    linear-gradient(180deg, #3d5c31, #24391f 60%, #1b2b18);
+  box-shadow: inset 0 0 110px rgba(0, 0, 0, 0.5), var(--shadow);
   touch-action: none;
   user-select: none;
+}
+
+/* Scenery is background: it is never dragged, selected or clicked through. */
+.iso-prop { position: absolute; pointer-events: none; }
+.iso-prop img {
+  width: 100%; height: 100%; display: block;
+  filter: saturate(0.94) brightness(0.97);
 }
 
 .iso-stage { position: absolute; transform-origin: 0 0; }

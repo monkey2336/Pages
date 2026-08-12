@@ -90,7 +90,11 @@ Level** bar when nothing is left to buy at any Town Hall.
 - **Village** — a draggable layout on a 52×52 grid, in either the Clash-style
   isometric board or a flat 2D board (toggle on the Village screen); the
   buildings are the same 3D renders either way. New wall
-  segments lay themselves out as concentric rings around the Town Hall.
+  segments lay themselves out as concentric rings around the Town Hall. The
+  base stands in a wood — pines, oaks, birches, bushes, boulders and fallen
+  logs scattered from a seeded generator, so the treeline is the same every
+  time you open the game. The forest deliberately sits outside the era system:
+  the village re-themes with every Town Hall, the country around it does not.
 - **Raids** — resolved by power comparison (spec's build option A): your army,
   hero levels, research and brewed spells against a target rated at what a real
   base of that Town Hall would field. Stars, destruction, loot scaled by the

@@ -12009,6 +12009,86 @@
     "h": 96,
     "w": 96
    },
+   "sc_birch": {
+    "anchorX": 108.5,
+    "anchorY": 169.8,
+    "file": "assets/sprites/sc_birch.png",
+    "footprint": 1.9,
+    "h": 217,
+    "w": 217
+   },
+   "sc_bush": {
+    "anchorX": 48.0,
+    "anchorY": 62.0,
+    "file": "assets/sprites/sc_bush.png",
+    "footprint": 1.0,
+    "h": 96,
+    "w": 96
+   },
+   "sc_flowers": {
+    "anchorX": 48.0,
+    "anchorY": 58.8,
+    "file": "assets/sprites/sc_flowers.png",
+    "footprint": 0.9,
+    "h": 96,
+    "w": 96
+   },
+   "sc_log": {
+    "anchorX": 48.0,
+    "anchorY": 55.1,
+    "file": "assets/sprites/sc_log.png",
+    "footprint": 1.0,
+    "h": 96,
+    "w": 96
+   },
+   "sc_oak": {
+    "anchorX": 81.5,
+    "anchorY": 122.4,
+    "file": "assets/sprites/sc_oak.png",
+    "footprint": 1.8,
+    "h": 163,
+    "w": 163
+   },
+   "sc_oakold": {
+    "anchorX": 77.0,
+    "anchorY": 114.2,
+    "file": "assets/sprites/sc_oakold.png",
+    "footprint": 1.8,
+    "h": 154,
+    "w": 154
+   },
+   "sc_pine": {
+    "anchorX": 104.0,
+    "anchorY": 163.0,
+    "file": "assets/sprites/sc_pine.png",
+    "footprint": 1.8,
+    "h": 208,
+    "w": 208
+   },
+   "sc_pinetall": {
+    "anchorX": 128.5,
+    "anchorY": 204.5,
+    "file": "assets/sprites/sc_pinetall.png",
+    "footprint": 2.0,
+    "h": 257,
+    "w": 257
+   },
+   "sc_rock": {
+    "anchorX": 48.0,
+    "anchorY": 58.5,
+    "file": "assets/sprites/sc_rock.png",
+    "footprint": 1.1,
+    "h": 96,
+    "w": 96
+   },
+   "sc_stump": {
+    "anchorX": 48.0,
+    "anchorY": 56.6,
+    "file": "assets/sprites/sc_stump.png",
+    "footprint": 0.9,
+    "h": 96,
+    "w": 96
+   },
    "th01": {
     "anchorX": 137.0,
     "anchorY": 179.8,

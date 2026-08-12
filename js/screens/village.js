@@ -78,6 +78,83 @@
     return o.key === 'townhall' ? SP.townHallKey(o.level) : SP.buildingKey(o.key, o.level);
   }
 
+  /* ----------------------------------------------------------- scenery */
+  // The village stands in a wood. The forest is deliberately fixed -- it does
+  // not re-theme with the Town Hall the way the base does -- and it is
+  // scattered from a seeded generator so it stays put between renders instead
+  // of reshuffling every time a timer ticks.
+  var TREES = ['pine', 'pinetall', 'oak', 'oakold', 'birch'];
+  var UNDERGROWTH = ['bush', 'flowers', 'rock', 'stump', 'log'];
+  var BAND = 7;          // how many tiles of wood to grow beyond the plot
+  var Z_BASE = 1000;     // keeps every z-index positive, scenery included
+
+  // mulberry32: a real PRNG sequence. A sin-based hash keyed on the loop index
+  // lays trees out on visible diagonals, because neighbouring indices produce
+  // neighbouring values -- exactly the pattern a wood should not have.
+  function prng(seed) {
+    var a = seed >>> 0;
+    return function () {
+      a = (a + 0x6d2b79f5) >>> 0;
+      var t = a;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  var sceneryCache = { key: null, list: [] };
+
+  function sceneryFor(m, span) {
+    var key = m + span;
+    if (sceneryCache.key === key) return sceneryCache.list;
+    var rand = prng(0x5eed + span);
+    var list = [];
+    // The flat board is letterboxed left and right, so the wood has to run
+    // further out sideways there to reach the edge of the viewport.
+    var bandX = m === 'flat' ? BAND * 2.6 : BAND;
+    var bandY = m === 'flat' ? BAND * 1.2 : BAND;
+    var cap = m === 'flat' ? 260 : 165;
+    var loX = -bandX, hiX = span + bandX;
+    var loY = -bandY, hiY = span + bandY;
+    var edge = 0.9;                      // clearance kept around the plot
+    for (var i = 0; i < 2000 && list.length < cap; i++) {
+      var x = loX + rand() * (hiX - loX);
+      var y = loY + rand() * (hiY - loY);
+      var keep = rand(), pick = rand(), which = rand();
+      var sc = rand(), fl = rand();
+      if (x > -edge && x < span + edge && y > -edge && y < span + edge) continue;
+      // Thicker the further out you go, so the treeline reads as depth rather
+      // than a hedge planted round the base.
+      var out = Math.min(
+        Math.max(-x, x - span, 0) / bandX + Math.max(-y, y - span, 0) / bandY, 2) / 2;
+      if (keep > (m === 'flat' ? 0.4 : 0.3) + out * 0.9) continue;
+      var kind = pick < 0.6
+        ? TREES[Math.floor(which * TREES.length)]
+        : UNDERGROWTH[Math.floor(which * UNDERGROWTH.length)];
+      list.push({ kind: kind, x: x, y: y, scale: 0.8 + sc * 0.5, flip: fl > 0.5 });
+    }
+    sceneryCache = { key: key, list: list };
+    return list;
+  }
+
+  function propHTML(m, p) {
+    var sprite = SP.get('sc_' + p.kind);
+    if (!sprite) return '';
+    var scale = spriteScale(m) * p.scale;
+    var c = centreFor(m, p.x, p.y, 1);
+    var left = c.x - sprite.anchorX * scale;
+    var top = c.y - sprite.anchorY * scale;
+    return '<div class="iso-prop" style="left:' + left.toFixed(1) + 'px;top:' + top.toFixed(1) +
+      'px;width:' + (sprite.w * scale).toFixed(1) + 'px;height:' + (sprite.h * scale).toFixed(1) +
+      'px;z-index:' + (Z_BASE + Math.round((p.x + p.y + 1) * 10)) +
+      (p.flip ? ';transform:scaleX(-1)' : '') + '">' +
+      '<img src="' + sprite.file + '" draggable="false" alt="">' + '</div>';
+  }
+
+  function sceneryHTML(m, span) {
+    return sceneryFor(m, span).map(function (p) { return propHTML(m, p); }).join('');
+  }
+
   /* ------------------------------------------------------------ objects */
   function objectHTML(s, o, isWall) {
     var m = mode(s);
@@ -94,7 +171,7 @@
     var badge = (isWall ? '' : '<span class="lvl">' + o.level + '</span>') +
       (o.upgrading ? '<span class="clock"></span>' : '');
     var sprite = name && SP.get(name);
-    var z = Math.round((lx + ly + size) * 10);
+    var z = Z_BASE + Math.round((lx + ly + size) * 10);
 
     if (sprite) {
       var scale = spriteScale(m);
@@ -156,8 +233,9 @@
         }).join('') + '</div></div>';
     }
 
-    var objects = s.walls.map(function (w) { return objectHTML(s, w, true); })
-      .concat(s.buildings.map(function (b) { return objectHTML(s, b, false); })).join('');
+    var objects = sceneryHTML(m, view.span) +
+      s.walls.map(function (w) { return objectHTML(s, w, true); }).join('') +
+      s.buildings.map(function (b) { return objectHTML(s, b, false); }).join('');
 
     if (m === 'flat') {
       var side = view.span * FLAT_T;
