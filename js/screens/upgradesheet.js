@@ -178,10 +178,35 @@
       footer;
   }
 
+  // The same question for research and heroes: which Town Hall lifts the
+  // ceiling, or none at all. Shared so every screen phrases it identically.
+  function researchTHFor(unlockTH, level) {
+    for (var th = unlockTH; th <= 30; th++) {
+      if (G.researchMaxLevel(unlockTH, th) >= level) return th;
+    }
+    return null;
+  }
+
+  function heroTHFor(heroKey, unlockTH, level) {
+    for (var th = unlockTH; th <= 30; th++) {
+      if (G.heroMaxLevel(heroKey, th) >= level) return th;
+    }
+    return null;
+  }
+
+  function ceilingPill(neededTH) {
+    return neededTH
+      ? '<span class="pill">Town Hall ' + neededTH + ' for the next level</span>'
+      : '<span class="pill max">Max level</span>';
+  }
+
   G.upgradeSheet = {
     sheet: sheet,
     unlocksAtTH: unlocksAtTH,
     statRows: statRows,
-    townHallNeededFor: townHallNeededFor
+    townHallNeededFor: townHallNeededFor,
+    researchTHFor: researchTHFor,
+    heroTHFor: heroTHFor,
+    ceilingPill: ceilingPill
   };
 })(window.G = window.G || {});

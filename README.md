@@ -145,9 +145,17 @@ recording where world origin lands in every image. The game pins sprites to
 tiles by that anchor, which is also how level badges and build-timer clocks know
 where a building's base is.
 
-~2,500 sprites: 30 Town Halls, 50 buildings x 30 levels, 30 wall levels,
-28 troops and 8 heroes x 25 levels, siege machines and a ground tile. If a sprite is missing the game falls back to the vector art in
-`js/art.js`, so it still runs with no assets at all.
+2,510 sprites: 30 Town Halls, 50 buildings × 30 levels (1,500), 30 wall
+levels, 28 troops and 8 heroes × 25 levels, siege machines and a ground tile.
+If a sprite is missing the game falls back to the vector art in `js/art.js`,
+so it still runs with no assets at all.
+
+Detail is level-driven rather than hand-authored per level. A shared toolkit —
+pads with stepped rims, coursed stone, trim bands, rivets, windows, yard
+clutter, helmets, pauldrons, capes and weapons — reads the level being
+rendered and grows with it, so a level 1 Cannon is lashed timber on a dirt
+pad and a level 30 Cannon is alloy with gold ribs and a lit core, without
+fifty builders each having to spell out thirty variants.
 
 ---
 

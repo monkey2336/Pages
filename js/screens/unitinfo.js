@@ -87,6 +87,9 @@
       var hs = E.heroState(s, t.key);
       if (hs.upgrading) {
         action = ui.jobHTML(hs.upgrading, 'data-act="skip-hero" data-key="' + t.key + '"');
+      } else if (E.heroUnlocked(s, t.key) && hs.level >= max) {
+        action = G.upgradeSheet.ceilingPill(
+          G.upgradeSheet.heroTHFor(t.key, t.unlockTH, hs.level + 1));
       } else if (E.heroUnlocked(s, t.key) && hs.level < max) {
         action = '<button class="btn wide" data-act="upgrade-hero" data-key="' + t.key + '">' +
           (hs.level === 0 ? 'Summon' : 'Upgrade to ' + (hs.level + 1)) + ' · ' +
@@ -105,7 +108,8 @@
           'Research to ' + (rlvl + 1) + ' · ' + ui.fmt(E.researchCost(s, t.key, rlvl + 1)) + ' ' +
           (t.res || 'elixir') + ' · ' + ui.fmtTime(E.researchSeconds(s, t.key, rlvl + 1)) + '</button>';
       } else {
-        action = '<span class="pill ok">Maxed for Town Hall ' + s.th + '</span>';
+        action = G.upgradeSheet.ceilingPill(
+          G.upgradeSheet.researchTHFor(t.unlockTH, rlvl + 1));
       }
     }
 
