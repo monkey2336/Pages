@@ -23,8 +23,9 @@ concurrency:
 jobs:
   deploy:
     # Guarded so this never fires on the profile repo the game was developed
-    # in, where Pages is not set up and the run would only fail noisily.
-    if: github.repository == 'monkey2336/ascendancy'
+    # in, where Pages is not set up and the run would only fail noisily. Any
+    # other repository is the game's own home, whatever it ends up being called.
+    if: github.repository != 'monkey2336/monkey2336'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
