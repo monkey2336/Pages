@@ -85,7 +85,7 @@
       var bd = bdata(b.key);
       if (!bd || !bd.produces || b.upgrading) return;
       Object.keys(bd.produces).forEach(function (res) {
-        out[res] += bd.produces[res] * Math.pow(1.42, b.level - 1);
+        out[res] += bd.produces[res] * Math.pow(1.46, b.level - 1);
       });
     });
     var mult = 1;

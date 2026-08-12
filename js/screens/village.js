@@ -145,7 +145,7 @@
       ';--anchor-y:' + (sprite.anchorY * scale).toFixed(1) + 'px' +
       ';--shadow-w:' + shW.toFixed(1) + 'px;--shadow-h:' + (shW * 0.5).toFixed(1) + 'px' +
       (p.flip ? ';transform:scaleX(-1)' : '') + '">' +
-      '<i class="shade"></i>' +
+      (sprite.drawnShadow ? '<i class="shade"></i>' : '') +
       '<img src="' + sprite.file + '" draggable="false" alt="">' + '</div>';
   }
 
@@ -186,7 +186,7 @@
         ';--anchor-x:' + (sprite.anchorX * scale).toFixed(1) + 'px' +
         ';--anchor-y:' + (sprite.anchorY * scale).toFixed(1) + 'px' +
         ';--shadow-w:' + shW.toFixed(1) + 'px;--shadow-h:' + shH.toFixed(1) + 'px" ' + attrs + '>' +
-        '<i class="shade"></i>' +
+        (sprite.drawnShadow ? '<i class="shade"></i>' : '') +
         '<img src="' + sprite.file + '" draggable="false" alt="">' + badge + '</div>';
     }
 

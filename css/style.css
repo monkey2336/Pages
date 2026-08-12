@@ -68,6 +68,8 @@ img.sprite { object-fit: contain; display: block; }
 }
 
 .th-badge {
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
   display: flex;
   align-items: center;
   gap: 10px;

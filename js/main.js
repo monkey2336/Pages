@@ -54,22 +54,70 @@
     wireModeratorGesture();
   }
 
-  // Spec section 8: long-press the Town Hall to reach the dev menu.
+  /* The moderator panel is yours, not everyone's.
+
+     The game is served from a public URL, so anything the browser can check
+     is ultimately readable by anyone who opens the source -- there is no way
+     around that in a page with no server. What this does is keep the panel
+     out of reach of anyone who has not been told the code: the source carries
+     only a hash, so reading the JavaScript does not hand over the passcode.
+     Treat it as a lock on a door, not a vault.
+
+     Two ways in, both of which work on a touch screen: press and hold the
+     Town Hall badge, or tap it five times quickly. */
+  var GATE = 0xaa1fba28;     // hash of the passcode, never the passcode
+
+  function hash(str) {
+    var x = 0x811c9dc5;
+    for (var i = 0; i < str.length; i++) {
+      x ^= str.charCodeAt(i);
+      x = Math.imul(x, 0x01000193) >>> 0;
+    }
+    return x >>> 0;
+  }
+
+  function askForCode() {
+    // Remembered per device, so you enter it once on the iPad and not again.
+    try {
+      if (hash(localStorage.getItem('modKey') || '') === GATE) { G.revealMod(); return; }
+    } catch (e) { /* private browsing: fall through to the prompt */ }
+    var entered = window.prompt('Moderator passcode');
+    if (entered == null) return;
+    if (hash(entered.trim()) === GATE) {
+      try { localStorage.setItem('modKey', entered.trim()); } catch (e) {}
+      G.revealMod();
+    } else {
+      G.ui.toast('Wrong passcode', true);
+    }
+  }
+
   function wireModeratorGesture() {
     var badge = document.getElementById('thBadge');
-    var timer = null;
-    function start() {
+    var timer = null, taps = 0, tapTimer = null;
+
+    function start(ev) {
       clearTimeout(timer);
-      timer = setTimeout(function () { G.revealMod(); }, 1200);
+      timer = setTimeout(askForCode, 900);
+      // Five quick taps also opens it -- a long press is awkward on iOS,
+      // where it fights the system's own press-and-hold behaviour.
+      taps++;
+      clearTimeout(tapTimer);
+      tapTimer = setTimeout(function () { taps = 0; }, 2500);
+      if (taps >= 5) { taps = 0; clearTimeout(timer); askForCode(); }
+      if (ev && ev.pointerType === 'touch') ev.preventDefault();
     }
     function stop() { clearTimeout(timer); }
+
     badge.addEventListener('pointerdown', start);
     badge.addEventListener('pointerup', stop);
     badge.addEventListener('pointerleave', stop);
     badge.addEventListener('pointercancel', stop);
-    // Keyboard route for anyone not holding a pointer: Shift + M.
+    // Stop iOS turning the long press into a text-selection callout.
+    badge.addEventListener('contextmenu', function (ev) { ev.preventDefault(); });
+
+    // Keyboard route for anyone with one: Shift + M.
     document.addEventListener('keydown', function (ev) {
-      if (ev.shiftKey && (ev.key === 'M' || ev.key === 'm')) G.revealMod();
+      if (ev.shiftKey && (ev.key === 'M' || ev.key === 'm')) askForCode();
     });
   }
 

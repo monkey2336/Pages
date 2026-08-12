@@ -338,8 +338,12 @@ def render(name, footprint, samples=48):
     path = os.path.join(OUT_DIR, name + '.png')
     sc.render.filepath = path
     bpy.ops.render.render(write_still=True)
+    # drawnShadow marks a sprite rendered without a baked shadow, so the game
+    # knows to draw one. Sprites from the old set keep theirs until they are
+    # re-rendered, which lets the two sets coexist mid-rebuild.
     MANIFEST[name] = {'file': 'assets/sprites/%s.png' % name, 'w': px, 'h': px,
-                      'anchorX': ax, 'anchorY': ay, 'footprint': footprint}
+                      'anchorX': ax, 'anchorY': ay, 'footprint': footprint,
+                      'drawnShadow': True}
     print('  rendered %s (%dpx published, %dpx rendered)' % (name, px, px * ss))
 
 
