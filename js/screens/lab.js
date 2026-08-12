@@ -20,6 +20,14 @@
     return G.upgradeSheet.ceilingPill(neededTH);
   }
 
+  function tabsHTML() {
+    var tabs = [['walls', 'Walls'], ['buildings', 'Buildings'], ['troops', 'Troops'],
+                ['spells', 'Spells'], ['siege', 'Siege']];
+    return '<div class="tabs">' + tabs.map(function (t) {
+      return '<button data-act="lab-tab" data-tab="' + t[0] + '" class="' + (tab === t[0] ? 'active' : '') + '">' + t[1] + '</button>';
+    }).join('') + '</div>';
+  }
+
   function slotsHTML(s) {
     if (!E.labUnlocked(s)) {
       return '<div class="panel"><h3>Laboratory offline</h3><p class="hint">Build the Laboratory in the village (Town Hall 4) to start researching troops and spells. Wall and building upgrades below still work.</p></div>';
@@ -32,7 +40,7 @@
     return '<div class="panel"><h3>Research in progress</h3><div class="grid-cards">' +
       running.map(function (sl) {
         var t = E.researchTarget(sl.job.key);
-        return '<div class="card"><div class="icon">' + unitIcon(t, 46, sl.job.to) +
+        return '<div class="card"><div class="icon">' + unitIcon(t, 58, sl.job.to) +
           '</div><div class="body"><div class="title">' + ui.esc(t.name) + '<small>→ lvl ' + sl.job.to + '</small></div>' +
           ui.jobHTML(sl.job, 'data-act="skip-research" data-key="' + sl.job.key + '"') + '</div></div>';
       }).join('') + '</div></div>';
@@ -142,8 +150,8 @@
       var inLab = s.labSlots.some(function (sl) { return sl.job && sl.job.key === t.key; });
       var res = t.res || 'elixir';
       var short = cost > (s.resources[res] || 0);
-      var icon = unitIcon(t, 46, Math.max(1, lvl));
-      var nextIcon = (!locked && lvl < max) ? unitIcon(t, 40, next) : '';
+      var icon = unitIcon(t, 58, Math.max(1, lvl));
+      var nextIcon = (!locked && lvl < max) ? unitIcon(t, 44, next) : '';
       var superActive = s.superTroops[t.key] > Date.now();
       return '<div class="card' + (locked ? ' locked' : '') + '">' +
         '<div class="icon info-hit" data-act="unit-info" data-key="' + t.key + '" title="Stats">' +

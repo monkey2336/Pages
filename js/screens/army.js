@@ -35,7 +35,7 @@
       keys.map(function (k) {
         var t = G.troopData[k];
         return '<div class="card"><div class="icon">' +
-          unitIcon(t, 46, Math.max(1, E.researchLevel(s, k))) + '</div>' +
+          unitIcon(t, 58, Math.max(1, E.researchLevel(s, k))) + '</div>' +
           '<div class="body"><div class="title">' + ui.esc(t.name) + '<small>×' + s.army[k] + '</small></div>' +
           '<div class="desc">' + (t.housing * s.army[k]) + ' housing · lvl ' + Math.max(1, E.researchLevel(s, k)) + '</div>' +
           '</div></div>';
@@ -102,7 +102,7 @@
         var locked = s.th < m.unlockTH || E.ownedCount(s, 'siegeworkshop') === 0;
         return '<div class="card' + (locked ? ' locked' : '') + '">' +
           '<div class="icon info-hit" data-act="unit-info" data-key="' + m.key + '">' +
-            unitIcon(m, 46, Math.max(1, lvl)) + '</div><div class="body">' +
+            unitIcon(m, 58, Math.max(1, lvl)) + '</div><div class="body">' +
           '<div class="title"><span class="info-hit" data-act="unit-info" data-key="' + m.key + '">' +
             ui.esc(m.name) + '</span>' + '<small>' + (locked ? 'TH' + m.unlockTH : 'lvl ' + lvl) + '</small></div>' +
           '<div class="desc">' + ui.esc(m.role) + '</div>' +

@@ -195,7 +195,7 @@ main { flex: 1; padding: 18px; max-width: 1280px; width: 100%; margin: 0 auto; }
 }
 .card:hover { transform: translateY(-1px); border-color: color-mix(in srgb, var(--accent) 50%, transparent); }
 .card .icon {
-  flex: none; width: 54px; height: 54px; display: grid; place-items: center;
+  flex: none; width: 64px; height: 64px; display: grid; place-items: center;
   background: radial-gradient(circle at 50% 65%, rgba(0, 0, 0, 0.35), transparent 70%);
   border-radius: 10px;
 }
