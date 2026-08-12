@@ -12017,7 +12017,7 @@
  },
  "th02": {
   "anchorX": 137.0,
-  "anchorY": 185.4,
+  "anchorY": 181.4,
   "file": "assets/sprites/th02.png",
   "footprint": 4,
   "h": 274,
@@ -12025,7 +12025,7 @@
  },
  "th03": {
   "anchorX": 137.0,
-  "anchorY": 174.0,
+  "anchorY": 182.8,
   "file": "assets/sprites/th03.png",
   "footprint": 4,
   "h": 274,
@@ -12033,35 +12033,35 @@
  },
  "th04": {
   "anchorX": 137.0,
-  "anchorY": 190.6,
+  "anchorY": 188.4,
   "file": "assets/sprites/th04.png",
   "footprint": 4,
   "h": 274,
   "w": 274
  },
  "th05": {
-  "anchorX": 154.0,
-  "anchorY": 223.0,
+  "anchorX": 143.0,
+  "anchorY": 203.0,
   "file": "assets/sprites/th05.png",
   "footprint": 4,
-  "h": 308,
-  "w": 308
+  "h": 286,
+  "w": 286
  },
  "th06": {
-  "anchorX": 142.5,
-  "anchorY": 202.1,
+  "anchorX": 137.0,
+  "anchorY": 189.4,
   "file": "assets/sprites/th06.png",
   "footprint": 4,
-  "h": 285,
-  "w": 285
+  "h": 274,
+  "w": 274
  },
  "th07": {
-  "anchorX": 162.5,
-  "anchorY": 238.3,
+  "anchorX": 137.5,
+  "anchorY": 193.2,
   "file": "assets/sprites/th07.png",
   "footprint": 4,
-  "h": 325,
-  "w": 325
+  "h": 275,
+  "w": 275
  },
  "th08": {
   "anchorX": 137.0,
@@ -12072,52 +12072,52 @@
   "w": 274
  },
  "th09": {
-  "anchorX": 155.5,
-  "anchorY": 225.6,
+  "anchorX": 142.0,
+  "anchorY": 201.3,
   "file": "assets/sprites/th09.png",
   "footprint": 4,
-  "h": 311,
-  "w": 311
+  "h": 284,
+  "w": 284
  },
  "th10": {
-  "anchorX": 208.0,
-  "anchorY": 320.5,
+  "anchorX": 166.5,
+  "anchorY": 245.6,
   "file": "assets/sprites/th10.png",
   "footprint": 4,
-  "h": 416,
-  "w": 416
+  "h": 333,
+  "w": 333
  },
  "th11": {
-  "anchorX": 164.0,
-  "anchorY": 241.0,
+  "anchorX": 142.5,
+  "anchorY": 202.1,
   "file": "assets/sprites/th11.png",
   "footprint": 4,
-  "h": 328,
-  "w": 328
+  "h": 285,
+  "w": 285
  },
  "th12": {
-  "anchorX": 160.0,
-  "anchorY": 233.8,
+  "anchorX": 142.5,
+  "anchorY": 202.1,
   "file": "assets/sprites/th12.png",
   "footprint": 4,
-  "h": 320,
-  "w": 320
+  "h": 285,
+  "w": 285
  },
  "th13": {
-  "anchorX": 160.0,
-  "anchorY": 233.8,
+  "anchorX": 142.5,
+  "anchorY": 202.1,
   "file": "assets/sprites/th13.png",
   "footprint": 4,
-  "h": 320,
-  "w": 320
+  "h": 285,
+  "w": 285
  },
  "th14": {
-  "anchorX": 163.5,
-  "anchorY": 240.1,
+  "anchorX": 142.5,
+  "anchorY": 202.1,
   "file": "assets/sprites/th14.png",
   "footprint": 4,
-  "h": 327,
-  "w": 327
+  "h": 285,
+  "w": 285
  },
  "th15": {
   "anchorX": 155.0,
@@ -12128,116 +12128,116 @@
   "w": 310
  },
  "th16": {
-  "anchorX": 195.0,
-  "anchorY": 297.1,
+  "anchorX": 159.5,
+  "anchorY": 232.9,
   "file": "assets/sprites/th16.png",
   "footprint": 4,
-  "h": 390,
-  "w": 390
+  "h": 319,
+  "w": 319
  },
  "th17": {
-  "anchorX": 160.0,
-  "anchorY": 233.8,
+  "anchorX": 142.5,
+  "anchorY": 202.1,
   "file": "assets/sprites/th17.png",
   "footprint": 4,
-  "h": 320,
-  "w": 320
+  "h": 285,
+  "w": 285
  },
  "th18": {
-  "anchorX": 160.0,
-  "anchorY": 233.8,
+  "anchorX": 142.5,
+  "anchorY": 202.1,
   "file": "assets/sprites/th18.png",
   "footprint": 4,
-  "h": 320,
-  "w": 320
+  "h": 285,
+  "w": 285
  },
  "th19": {
-  "anchorX": 194.5,
-  "anchorY": 296.1,
-  "file": "assets/sprites/th19.png",
-  "footprint": 4,
-  "h": 389,
-  "w": 389
- },
- "th20": {
-  "anchorX": 203.5,
-  "anchorY": 312.4,
-  "file": "assets/sprites/th20.png",
-  "footprint": 4,
-  "h": 407,
-  "w": 407
- },
- "th21": {
   "anchorX": 164.0,
   "anchorY": 241.1,
-  "file": "assets/sprites/th21.png",
+  "file": "assets/sprites/th19.png",
   "footprint": 4,
   "h": 328,
   "w": 328
  },
+ "th20": {
+  "anchorX": 170.5,
+  "anchorY": 252.7,
+  "file": "assets/sprites/th20.png",
+  "footprint": 4,
+  "h": 341,
+  "w": 341
+ },
+ "th21": {
+  "anchorX": 147.0,
+  "anchorY": 210.3,
+  "file": "assets/sprites/th21.png",
+  "footprint": 4,
+  "h": 294,
+  "w": 294
+ },
  "th22": {
-  "anchorX": 172.5,
-  "anchorY": 256.4,
+  "anchorX": 154.0,
+  "anchorY": 222.9,
   "file": "assets/sprites/th22.png",
   "footprint": 4,
-  "h": 345,
-  "w": 345
+  "h": 308,
+  "w": 308
  },
  "th23": {
-  "anchorX": 183.5,
-  "anchorY": 276.3,
+  "anchorX": 152.5,
+  "anchorY": 220.2,
   "file": "assets/sprites/th23.png",
   "footprint": 4,
-  "h": 367,
-  "w": 367
+  "h": 305,
+  "w": 305
  },
  "th24": {
-  "anchorX": 164.5,
-  "anchorY": 241.9,
+  "anchorX": 147.0,
+  "anchorY": 210.3,
   "file": "assets/sprites/th24.png",
   "footprint": 4,
-  "h": 329,
-  "w": 329
+  "h": 294,
+  "w": 294
  },
  "th25": {
-  "anchorX": 198.5,
-  "anchorY": 303.3,
+  "anchorX": 165.0,
+  "anchorY": 242.9,
   "file": "assets/sprites/th25.png",
   "footprint": 4,
-  "h": 397,
-  "w": 397
+  "h": 330,
+  "w": 330
  },
  "th26": {
-  "anchorX": 188.0,
-  "anchorY": 284.3,
+  "anchorX": 158.5,
+  "anchorY": 231.0,
   "file": "assets/sprites/th26.png",
   "footprint": 4,
-  "h": 376,
-  "w": 376
+  "h": 317,
+  "w": 317
  },
  "th27": {
-  "anchorX": 164.5,
-  "anchorY": 241.9,
+  "anchorX": 147.0,
+  "anchorY": 210.3,
   "file": "assets/sprites/th27.png",
   "footprint": 4,
-  "h": 329,
-  "w": 329
+  "h": 294,
+  "w": 294
  },
  "th28": {
-  "anchorX": 188.5,
-  "anchorY": 285.2,
+  "anchorX": 168.5,
+  "anchorY": 249.2,
   "file": "assets/sprites/th28.png",
   "footprint": 4,
-  "h": 377,
-  "w": 377
+  "h": 337,
+  "w": 337
  },
  "th29": {
-  "anchorX": 151.5,
-  "anchorY": 218.3,
+  "anchorX": 147.0,
+  "anchorY": 210.3,
   "file": "assets/sprites/th29.png",
   "footprint": 4,
-  "h": 303,
-  "w": 303
+  "h": 294,
+  "w": 294
  },
  "th30": {
   "anchorX": 166.5,
@@ -12249,530 +12249,530 @@
  },
  "u_abyssal_L01": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_abyssal_L01.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_abyssal_L02": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_abyssal_L02.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_abyssal_L03": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_abyssal_L03.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_abyssal_L04": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_abyssal_L04.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_abyssal_L05": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_abyssal_L05.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_abyssal_L06": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_abyssal_L06.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_abyssal_L07": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_abyssal_L07.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_abyssal_L08": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_abyssal_L08.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_abyssal_L09": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_abyssal_L09.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_abyssal_L10": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_abyssal_L10.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_abyssal_L11": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_abyssal_L11.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_abyssal_L12": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_abyssal_L12.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_abyssal_L13": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_abyssal_L13.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_abyssal_L14": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_abyssal_L14.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_abyssal_L15": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_abyssal_L15.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_abyssal_L16": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_abyssal_L16.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_abyssal_L17": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_abyssal_L17.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_abyssal_L18": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_abyssal_L18.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_abyssal_L19": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_abyssal_L19.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_abyssal_L20": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_abyssal_L20.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_abyssal_L21": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_abyssal_L21.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_abyssal_L22": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_abyssal_L22.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_abyssal_L23": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_abyssal_L23.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_abyssal_L24": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_abyssal_L24.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_abyssal_L25": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_abyssal_L25.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_ascendant_L01": {
   "anchorX": 79.0,
-  "anchorY": 123.4,
+  "anchorY": 113.4,
   "file": "assets/sprites/u_ascendant_L01.png",
   "footprint": 1.4,
-  "h": 158,
+  "h": 148,
   "w": 158
  },
  "u_ascendant_L02": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L02.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L03": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L03.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L04": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L04.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L05": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L05.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L06": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L06.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L07": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L07.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L08": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L08.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L09": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L09.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L10": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L10.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L11": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L11.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L12": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L12.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L13": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L13.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L14": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L14.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L15": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L15.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L16": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L16.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L17": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L17.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L18": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L18.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L19": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L19.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L20": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L20.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L21": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L21.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L22": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L22.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L23": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L23.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L24": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L24.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ascendant_L25": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ascendant_L25.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_balloonier_L01": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_balloonier_L01.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_balloonier_L02": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_balloonier_L02.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_balloonier_L03": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_balloonier_L03.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_balloonier_L04": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_balloonier_L04.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_balloonier_L05": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_balloonier_L05.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_balloonier_L06": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_balloonier_L06.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_balloonier_L07": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_balloonier_L07.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_balloonier_L08": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_balloonier_L08.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_balloonier_L09": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_balloonier_L09.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_balloonier_L10": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_balloonier_L10.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_balloonier_L11": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_balloonier_L11.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_balloonier_L12": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_balloonier_L12.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_balloonier_L13": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_balloonier_L13.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_balloonier_L14": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_balloonier_L14.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_balloonier_L15": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_balloonier_L15.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_balloonier_L16": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_balloonier_L16.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_balloonier_L17": {
@@ -12848,131 +12848,131 @@
   "w": 97
  },
  "u_bannerman_L01": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 80.0,
+  "anchorY": 125.2,
   "file": "assets/sprites/u_bannerman_L01.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 160,
+  "w": 160
  },
  "u_bannerman_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_bannerman_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_bannerman_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_bannerman_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_bannerman_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_bannerman_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_bannerman_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_bannerman_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_bannerman_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_bannerman_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_bannerman_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_bannerman_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_bannerman_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_bannerman_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_bannerman_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_bannerman_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_bannerman_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_bannerman_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_bannerman_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_bannerman_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_bannerman_L12": {
-  "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorX": 83.0,
+  "anchorY": 130.6,
   "file": "assets/sprites/u_bannerman_L12.png",
   "footprint": 1.4,
-  "h": 121,
-  "w": 121
+  "h": 166,
+  "w": 166
  },
  "u_bannerman_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_bannerman_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_bannerman_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_bannerman_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_bannerman_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_bannerman_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_bannerman_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_bannerman_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_bannerman_L17": {
@@ -13040,12 +13040,12 @@
   "w": 143
  },
  "u_bannerman_L25": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 89.0,
+  "anchorY": 141.5,
   "file": "assets/sprites/u_bannerman_L25.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 178,
+  "w": 178
  },
  "u_barrackscarriage_L01": {
   "anchorX": 84.0,
@@ -13217,130 +13217,130 @@
  },
  "u_bonedrake_L01": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_bonedrake_L01.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_bonedrake_L02": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_bonedrake_L02.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_bonedrake_L03": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_bonedrake_L03.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_bonedrake_L04": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_bonedrake_L04.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_bonedrake_L05": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_bonedrake_L05.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_bonedrake_L06": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_bonedrake_L06.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_bonedrake_L07": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_bonedrake_L07.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_bonedrake_L08": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_bonedrake_L08.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_bonedrake_L09": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_bonedrake_L09.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_bonedrake_L10": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_bonedrake_L10.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_bonedrake_L11": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_bonedrake_L11.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_bonedrake_L12": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_bonedrake_L12.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_bonedrake_L13": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_bonedrake_L13.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_bonedrake_L14": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_bonedrake_L14.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_bonedrake_L15": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_bonedrake_L15.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_bonedrake_L16": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_bonedrake_L16.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_bonedrake_L17": {
@@ -13416,131 +13416,131 @@
   "w": 97
  },
  "u_brute_L01": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 61.0,
+  "anchorY": 90.9,
   "file": "assets/sprites/u_brute_L01.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 122,
+  "w": 122
  },
  "u_brute_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_brute_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_brute_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_brute_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_brute_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_brute_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_brute_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_brute_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_brute_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_brute_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_brute_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_brute_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_brute_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_brute_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_brute_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_brute_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_brute_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_brute_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_brute_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_brute_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_brute_L12": {
-  "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorX": 61.5,
+  "anchorY": 91.8,
   "file": "assets/sprites/u_brute_L12.png",
   "footprint": 1.4,
-  "h": 121,
-  "w": 121
+  "h": 123,
+  "w": 123
  },
  "u_brute_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_brute_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_brute_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_brute_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_brute_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_brute_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_brute_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_brute_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_brute_L17": {
@@ -13608,539 +13608,539 @@
   "w": 143
  },
  "u_brute_L25": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 68.5,
+  "anchorY": 104.4,
   "file": "assets/sprites/u_brute_L25.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 137,
+  "w": 137
  },
  "u_champion_L01": {
   "anchorX": 79.0,
-  "anchorY": 123.4,
+  "anchorY": 113.4,
   "file": "assets/sprites/u_champion_L01.png",
   "footprint": 1.4,
-  "h": 158,
+  "h": 148,
   "w": 158
  },
  "u_champion_L02": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L02.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L03": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L03.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L04": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L04.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L05": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L05.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L06": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L06.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L07": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L07.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L08": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L08.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L09": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L09.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L10": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L10.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L11": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L11.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L12": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L12.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L13": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L13.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L14": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L14.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L15": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L15.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L16": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L16.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L17": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L17.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L18": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L18.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L19": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L19.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L20": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L20.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L21": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L21.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L22": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L22.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L23": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L23.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L24": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L24.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_champion_L25": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_champion_L25.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_colossus_L01": {
-  "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorX": 52.5,
+  "anchorY": 75.4,
   "file": "assets/sprites/u_colossus_L01.png",
   "footprint": 1.4,
-  "h": 133,
-  "w": 133
+  "h": 105,
+  "w": 105
  },
  "u_colossus_L02": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_colossus_L02.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_colossus_L03": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_colossus_L03.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_colossus_L04": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_colossus_L04.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_colossus_L05": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_colossus_L05.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_colossus_L06": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_colossus_L06.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_colossus_L07": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_colossus_L07.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_colossus_L08": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_colossus_L08.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_colossus_L09": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_colossus_L09.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_colossus_L10": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_colossus_L10.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_colossus_L11": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_colossus_L11.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_colossus_L12": {
-  "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorX": 51.5,
+  "anchorY": 73.8,
   "file": "assets/sprites/u_colossus_L12.png",
   "footprint": 1.4,
-  "h": 129,
-  "w": 129
+  "h": 103,
+  "w": 103
  },
  "u_colossus_L13": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_colossus_L13.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_colossus_L14": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_colossus_L14.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_colossus_L15": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_colossus_L15.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_colossus_L16": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_colossus_L16.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_colossus_L17": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_colossus_L17.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_colossus_L18": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_colossus_L18.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_colossus_L19": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_colossus_L19.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_colossus_L20": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_colossus_L20.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_colossus_L21": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_colossus_L21.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_colossus_L22": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_colossus_L22.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_colossus_L23": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_colossus_L23.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_colossus_L24": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_colossus_L24.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_colossus_L25": {
-  "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorX": 51.0,
+  "anchorY": 72.8,
   "file": "assets/sprites/u_colossus_L25.png",
   "footprint": 1.4,
-  "h": 129,
-  "w": 129
+  "h": 102,
+  "w": 102
  },
  "u_duskwing_L01": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_duskwing_L01.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_duskwing_L02": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_duskwing_L02.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_duskwing_L03": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_duskwing_L03.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_duskwing_L04": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_duskwing_L04.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_duskwing_L05": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_duskwing_L05.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_duskwing_L06": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_duskwing_L06.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_duskwing_L07": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_duskwing_L07.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_duskwing_L08": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_duskwing_L08.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_duskwing_L09": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_duskwing_L09.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_duskwing_L10": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_duskwing_L10.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_duskwing_L11": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_duskwing_L11.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_duskwing_L12": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_duskwing_L12.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_duskwing_L13": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_duskwing_L13.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_duskwing_L14": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_duskwing_L14.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_duskwing_L15": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_duskwing_L15.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_duskwing_L16": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_duskwing_L16.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_duskwing_L17": {
@@ -14217,66 +14217,66 @@
  },
  "u_frostcaller_L01": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_frostcaller_L01.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_frostcaller_L02": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_frostcaller_L02.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_frostcaller_L03": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_frostcaller_L03.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_frostcaller_L04": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_frostcaller_L04.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_frostcaller_L05": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_frostcaller_L05.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_frostcaller_L06": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_frostcaller_L06.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_frostcaller_L07": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_frostcaller_L07.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_frostcaller_L08": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_frostcaller_L08.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_frostcaller_L09": {
@@ -14417,330 +14417,330 @@
  },
  "u_golem_L01": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_golem_L01.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_golem_L02": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_golem_L02.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_golem_L03": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_golem_L03.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_golem_L04": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_golem_L04.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_golem_L05": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_golem_L05.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_golem_L06": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_golem_L06.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_golem_L07": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_golem_L07.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_golem_L08": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_golem_L08.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_golem_L09": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_golem_L09.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_golem_L10": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_golem_L10.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_golem_L11": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_golem_L11.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_golem_L12": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_golem_L12.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_golem_L13": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_golem_L13.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_golem_L14": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_golem_L14.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_golem_L15": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_golem_L15.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_golem_L16": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_golem_L16.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_golem_L17": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_golem_L17.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_golem_L18": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_golem_L18.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_golem_L19": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_golem_L19.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_golem_L20": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_golem_L20.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_golem_L21": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_golem_L21.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_golem_L22": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_golem_L22.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_golem_L23": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_golem_L23.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_golem_L24": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_golem_L24.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_golem_L25": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_golem_L25.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_grunt_L01": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 57.5,
+  "anchorY": 84.5,
   "file": "assets/sprites/u_grunt_L01.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 115,
+  "w": 115
  },
  "u_grunt_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_grunt_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_grunt_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_grunt_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_grunt_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_grunt_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_grunt_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_grunt_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_grunt_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_grunt_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_grunt_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_grunt_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_grunt_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_grunt_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_grunt_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_grunt_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_grunt_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_grunt_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_grunt_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_grunt_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_grunt_L12": {
-  "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorX": 57.5,
+  "anchorY": 84.5,
   "file": "assets/sprites/u_grunt_L12.png",
   "footprint": 1.4,
-  "h": 121,
-  "w": 121
+  "h": 115,
+  "w": 115
  },
  "u_grunt_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_grunt_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_grunt_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_grunt_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_grunt_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_grunt_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_grunt_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_grunt_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_grunt_L17": {
@@ -14808,211 +14808,211 @@
   "w": 143
  },
  "u_grunt_L25": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 68.5,
+  "anchorY": 104.4,
   "file": "assets/sprites/u_grunt_L25.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 137,
+  "w": 137
  },
  "u_hexweaver_L01": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_hexweaver_L01.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_hexweaver_L02": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_hexweaver_L02.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_hexweaver_L03": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_hexweaver_L03.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_hexweaver_L04": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_hexweaver_L04.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_hexweaver_L05": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_hexweaver_L05.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_hexweaver_L06": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_hexweaver_L06.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_hexweaver_L07": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_hexweaver_L07.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_hexweaver_L08": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_hexweaver_L08.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_hexweaver_L09": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_hexweaver_L09.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_hexweaver_L10": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_hexweaver_L10.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_hexweaver_L11": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_hexweaver_L11.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_hexweaver_L12": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_hexweaver_L12.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_hexweaver_L13": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_hexweaver_L13.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_hexweaver_L14": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_hexweaver_L14.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_hexweaver_L15": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_hexweaver_L15.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_hexweaver_L16": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_hexweaver_L16.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_hexweaver_L17": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_hexweaver_L17.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_hexweaver_L18": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_hexweaver_L18.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_hexweaver_L19": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_hexweaver_L19.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_hexweaver_L20": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_hexweaver_L20.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_hexweaver_L21": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_hexweaver_L21.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_hexweaver_L22": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_hexweaver_L22.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_hexweaver_L23": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_hexweaver_L23.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_hexweaver_L24": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_hexweaver_L24.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_hexweaver_L25": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_hexweaver_L25.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_hogback_L01": {
@@ -15025,122 +15025,122 @@
  },
  "u_hogback_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_hogback_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_hogback_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_hogback_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_hogback_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_hogback_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_hogback_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_hogback_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_hogback_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_hogback_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_hogback_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_hogback_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_hogback_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_hogback_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_hogback_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_hogback_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_hogback_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_hogback_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_hogback_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_hogback_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_hogback_L12": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_hogback_L12.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_hogback_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_hogback_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_hogback_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_hogback_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_hogback_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_hogback_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_hogback_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_hogback_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_hogback_L17": {
@@ -15216,531 +15216,531 @@
   "w": 143
  },
  "u_huntress_L01": {
-  "anchorX": 79.0,
-  "anchorY": 123.4,
+  "anchorX": 73.0,
+  "anchorY": 113.4,
   "file": "assets/sprites/u_huntress_L01.png",
   "footprint": 1.4,
-  "h": 158,
-  "w": 158
+  "h": 148,
+  "w": 152
  },
  "u_huntress_L02": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L02.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L03": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L03.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L04": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L04.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L05": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L05.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L06": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L06.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L07": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L07.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L08": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L08.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L09": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L09.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L10": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L10.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L11": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L11.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L12": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L12.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L13": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L13.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L14": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L14.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L15": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L15.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L16": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L16.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L17": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L17.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L18": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L18.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L19": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L19.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L20": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L20.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L21": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L21.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L22": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L22.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L23": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L23.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L24": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L24.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_huntress_L25": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_huntress_L25.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L01": {
-  "anchorX": 79.0,
-  "anchorY": 123.4,
+  "anchorX": 77.0,
+  "anchorY": 113.4,
   "file": "assets/sprites/u_ironclad_L01.png",
   "footprint": 1.4,
-  "h": 158,
-  "w": 158
+  "h": 148,
+  "w": 156
  },
  "u_ironclad_L02": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L02.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L03": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L03.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L04": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L04.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L05": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L05.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L06": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L06.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L07": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L07.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L08": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L08.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L09": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L09.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L10": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L10.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L11": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L11.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L12": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L12.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L13": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L13.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L14": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L14.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L15": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L15.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L16": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L16.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L17": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L17.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L18": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L18.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L19": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L19.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L20": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L20.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L21": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L21.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L22": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L22.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L23": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L23.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L24": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L24.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_ironclad_L25": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_ironclad_L25.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_kiterider_L01": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_kiterider_L01.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_kiterider_L02": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_kiterider_L02.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_kiterider_L03": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_kiterider_L03.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_kiterider_L04": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_kiterider_L04.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_kiterider_L05": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_kiterider_L05.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_kiterider_L06": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_kiterider_L06.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_kiterider_L07": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_kiterider_L07.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_kiterider_L08": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_kiterider_L08.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_kiterider_L09": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_kiterider_L09.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_kiterider_L10": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_kiterider_L10.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_kiterider_L11": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_kiterider_L11.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_kiterider_L12": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_kiterider_L12.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_kiterider_L13": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_kiterider_L13.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_kiterider_L14": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_kiterider_L14.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_kiterider_L15": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_kiterider_L15.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_kiterider_L16": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_kiterider_L16.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_kiterider_L17": {
@@ -15872,67 +15872,67 @@
   "w": 168
  },
  "u_mage_L01": {
-  "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorX": 72.0,
+  "anchorY": 110.7,
   "file": "assets/sprites/u_mage_L01.png",
   "footprint": 1.4,
-  "h": 165,
-  "w": 165
+  "h": 144,
+  "w": 144
  },
  "u_mage_L02": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_mage_L02.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_mage_L03": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_mage_L03.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_mage_L04": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_mage_L04.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_mage_L05": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_mage_L05.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_mage_L06": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_mage_L06.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_mage_L07": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_mage_L07.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_mage_L08": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_mage_L08.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_mage_L09": {
@@ -15960,12 +15960,12 @@
   "w": 162
  },
  "u_mage_L12": {
-  "anchorX": 81.0,
-  "anchorY": 127.0,
+  "anchorX": 68.5,
+  "anchorY": 104.4,
   "file": "assets/sprites/u_mage_L12.png",
   "footprint": 1.4,
-  "h": 162,
-  "w": 162
+  "h": 137,
+  "w": 137
  },
  "u_mage_L13": {
   "anchorX": 81.0,
@@ -16064,139 +16064,139 @@
   "w": 167
  },
  "u_mage_L25": {
-  "anchorX": 83.5,
-  "anchorY": 131.5,
+  "anchorX": 73.0,
+  "anchorY": 112.6,
   "file": "assets/sprites/u_mage_L25.png",
   "footprint": 1.4,
-  "h": 167,
-  "w": 167
+  "h": 146,
+  "w": 146
  },
  "u_marauder_L01": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 60.0,
+  "anchorY": 89.1,
   "file": "assets/sprites/u_marauder_L01.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 120,
+  "w": 120
  },
  "u_marauder_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_marauder_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_marauder_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_marauder_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_marauder_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_marauder_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_marauder_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_marauder_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_marauder_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_marauder_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_marauder_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_marauder_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_marauder_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_marauder_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_marauder_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_marauder_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_marauder_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_marauder_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_marauder_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_marauder_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_marauder_L12": {
-  "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorX": 61.0,
+  "anchorY": 90.9,
   "file": "assets/sprites/u_marauder_L12.png",
   "footprint": 1.4,
-  "h": 121,
-  "w": 121
+  "h": 122,
+  "w": 122
  },
  "u_marauder_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_marauder_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_marauder_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_marauder_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_marauder_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_marauder_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_marauder_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_marauder_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_marauder_L17": {
@@ -16264,139 +16264,139 @@
   "w": 143
  },
  "u_marauder_L25": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 78.0,
+  "anchorY": 121.5,
   "file": "assets/sprites/u_marauder_L25.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 156,
+  "w": 156
  },
  "u_mender_L01": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_mender_L01.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_mender_L02": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_mender_L02.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_mender_L03": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_mender_L03.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_mender_L04": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_mender_L04.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_mender_L05": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_mender_L05.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_mender_L06": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_mender_L06.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_mender_L07": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_mender_L07.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_mender_L08": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_mender_L08.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_mender_L09": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_mender_L09.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_mender_L10": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_mender_L10.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_mender_L11": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_mender_L11.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_mender_L12": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_mender_L12.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_mender_L13": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_mender_L13.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_mender_L14": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_mender_L14.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_mender_L15": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_mender_L15.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_mender_L16": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_mender_L16.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_mender_L17": {
@@ -16481,122 +16481,122 @@
  },
  "u_nightstalker_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_nightstalker_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_nightstalker_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_nightstalker_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_nightstalker_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_nightstalker_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_nightstalker_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_nightstalker_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_nightstalker_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_nightstalker_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_nightstalker_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_nightstalker_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_nightstalker_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_nightstalker_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_nightstalker_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_nightstalker_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_nightstalker_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_nightstalker_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_nightstalker_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_nightstalker_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_nightstalker_L12": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_nightstalker_L12.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_nightstalker_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_nightstalker_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_nightstalker_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_nightstalker_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_nightstalker_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_nightstalker_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_nightstalker_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_nightstalker_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_nightstalker_L17": {
@@ -16673,66 +16673,66 @@
  },
  "u_oracle_L01": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_oracle_L01.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_oracle_L02": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_oracle_L02.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_oracle_L03": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_oracle_L03.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_oracle_L04": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_oracle_L04.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_oracle_L05": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_oracle_L05.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_oracle_L06": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_oracle_L06.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_oracle_L07": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_oracle_L07.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_oracle_L08": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_oracle_L08.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_oracle_L09": {
@@ -16873,202 +16873,202 @@
  },
  "u_prismknight_L01": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_prismknight_L01.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_prismknight_L02": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_prismknight_L02.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_prismknight_L03": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_prismknight_L03.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_prismknight_L04": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_prismknight_L04.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_prismknight_L05": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_prismknight_L05.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_prismknight_L06": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_prismknight_L06.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_prismknight_L07": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_prismknight_L07.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_prismknight_L08": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_prismknight_L08.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_prismknight_L09": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_prismknight_L09.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_prismknight_L10": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_prismknight_L10.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_prismknight_L11": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_prismknight_L11.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_prismknight_L12": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_prismknight_L12.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_prismknight_L13": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_prismknight_L13.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_prismknight_L14": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_prismknight_L14.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_prismknight_L15": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_prismknight_L15.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_prismknight_L16": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_prismknight_L16.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_prismknight_L17": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_prismknight_L17.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_prismknight_L18": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_prismknight_L18.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_prismknight_L19": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_prismknight_L19.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_prismknight_L20": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_prismknight_L20.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_prismknight_L21": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_prismknight_L21.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_prismknight_L22": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_prismknight_L22.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_prismknight_L23": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_prismknight_L23.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_prismknight_L24": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_prismknight_L24.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_prismknight_L25": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_prismknight_L25.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_ravager_L01": {
@@ -17081,122 +17081,122 @@
  },
  "u_ravager_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ravager_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ravager_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ravager_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ravager_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ravager_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ravager_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ravager_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ravager_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ravager_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ravager_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ravager_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ravager_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ravager_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ravager_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ravager_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ravager_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ravager_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ravager_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ravager_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ravager_L12": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ravager_L12.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ravager_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ravager_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ravager_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ravager_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ravager_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ravager_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ravager_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ravager_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ravager_L17": {
@@ -17272,131 +17272,131 @@
   "w": 143
  },
  "u_ripper_L01": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 60.0,
+  "anchorY": 89.1,
   "file": "assets/sprites/u_ripper_L01.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 120,
+  "w": 120
  },
  "u_ripper_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ripper_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ripper_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ripper_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ripper_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ripper_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ripper_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ripper_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ripper_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ripper_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ripper_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ripper_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ripper_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_ripper_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_ripper_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ripper_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ripper_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ripper_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ripper_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ripper_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ripper_L12": {
-  "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorX": 61.0,
+  "anchorY": 90.9,
   "file": "assets/sprites/u_ripper_L12.png",
   "footprint": 1.4,
-  "h": 121,
-  "w": 121
+  "h": 122,
+  "w": 122
  },
  "u_ripper_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ripper_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ripper_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ripper_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ripper_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ripper_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ripper_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_ripper_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_ripper_L17": {
@@ -17464,12 +17464,12 @@
   "w": 143
  },
  "u_ripper_L25": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 78.0,
+  "anchorY": 121.5,
   "file": "assets/sprites/u_ripper_L25.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 156,
+  "w": 156
  },
  "u_sapper_L01": {
   "anchorX": 71.5,
@@ -17481,122 +17481,122 @@
  },
  "u_sapper_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_sapper_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_sapper_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_sapper_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_sapper_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_sapper_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_sapper_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_sapper_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_sapper_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_sapper_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_sapper_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_sapper_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_sapper_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_sapper_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_sapper_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_sapper_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_sapper_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_sapper_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_sapper_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_sapper_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_sapper_L12": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_sapper_L12.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_sapper_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_sapper_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_sapper_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_sapper_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_sapper_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_sapper_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_sapper_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_sapper_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_sapper_L17": {
@@ -17673,66 +17673,66 @@
  },
  "u_seer_L01": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_seer_L01.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_seer_L02": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_seer_L02.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_seer_L03": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_seer_L03.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_seer_L04": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_seer_L04.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_seer_L05": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_seer_L05.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_seer_L06": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_seer_L06.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_seer_L07": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_seer_L07.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_seer_L08": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_seer_L08.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_seer_L09": {
@@ -17881,122 +17881,122 @@
  },
  "u_siegebeetle_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_siegebeetle_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_siegebeetle_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_siegebeetle_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_siegebeetle_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_siegebeetle_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_siegebeetle_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_siegebeetle_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_siegebeetle_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_siegebeetle_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_siegebeetle_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_siegebeetle_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_siegebeetle_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_siegebeetle_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_siegebeetle_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_siegebeetle_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_siegebeetle_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_siegebeetle_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_siegebeetle_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_siegebeetle_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_siegebeetle_L12": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_siegebeetle_L12.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_siegebeetle_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_siegebeetle_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_siegebeetle_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_siegebeetle_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_siegebeetle_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_siegebeetle_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_siegebeetle_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_siegebeetle_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_siegebeetle_L17": {
@@ -18128,131 +18128,131 @@
   "w": 168
  },
  "u_slinger_L01": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 63.5,
+  "anchorY": 95.4,
   "file": "assets/sprites/u_slinger_L01.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 127,
+  "w": 127
  },
  "u_slinger_L02": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_slinger_L02.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_slinger_L03": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_slinger_L03.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_slinger_L04": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_slinger_L04.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_slinger_L05": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_slinger_L05.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_slinger_L06": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_slinger_L06.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_slinger_L07": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_slinger_L07.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_slinger_L08": {
   "anchorX": 68.5,
-  "anchorY": 104.4,
+  "anchorY": 89.4,
   "file": "assets/sprites/u_slinger_L08.png",
   "footprint": 1.4,
-  "h": 137,
+  "h": 122,
   "w": 137
  },
  "u_slinger_L09": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_slinger_L09.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_slinger_L10": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_slinger_L10.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_slinger_L11": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_slinger_L11.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_slinger_L12": {
-  "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorX": 65.0,
+  "anchorY": 98.1,
   "file": "assets/sprites/u_slinger_L12.png",
   "footprint": 1.4,
-  "h": 121,
-  "w": 121
+  "h": 130,
+  "w": 130
  },
  "u_slinger_L13": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_slinger_L13.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_slinger_L14": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_slinger_L14.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_slinger_L15": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_slinger_L15.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_slinger_L16": {
   "anchorX": 60.5,
-  "anchorY": 90.0,
+  "anchorY": 75.0,
   "file": "assets/sprites/u_slinger_L16.png",
   "footprint": 1.4,
-  "h": 121,
+  "h": 106,
   "w": 121
  },
  "u_slinger_L17": {
@@ -18320,12 +18320,12 @@
   "w": 143
  },
  "u_slinger_L25": {
-  "anchorX": 71.5,
-  "anchorY": 109.8,
+  "anchorX": 65.5,
+  "anchorY": 99.0,
   "file": "assets/sprites/u_slinger_L25.png",
   "footprint": 1.4,
-  "h": 143,
-  "w": 143
+  "h": 131,
+  "w": 131
  },
  "u_stoneslinger_L01": {
   "anchorX": 84.0,
@@ -18385,466 +18385,466 @@
  },
  "u_titanborn_L01": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_titanborn_L01.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_titanborn_L02": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_titanborn_L02.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_titanborn_L03": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_titanborn_L03.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_titanborn_L04": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_titanborn_L04.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_titanborn_L05": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_titanborn_L05.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_titanborn_L06": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_titanborn_L06.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_titanborn_L07": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_titanborn_L07.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_titanborn_L08": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_titanborn_L08.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_titanborn_L09": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_titanborn_L09.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_titanborn_L10": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_titanborn_L10.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_titanborn_L11": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_titanborn_L11.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_titanborn_L12": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_titanborn_L12.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_titanborn_L13": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_titanborn_L13.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_titanborn_L14": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_titanborn_L14.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_titanborn_L15": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_titanborn_L15.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_titanborn_L16": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_titanborn_L16.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_titanborn_L17": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_titanborn_L17.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_titanborn_L18": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_titanborn_L18.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_titanborn_L19": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_titanborn_L19.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_titanborn_L20": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_titanborn_L20.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_titanborn_L21": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_titanborn_L21.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_titanborn_L22": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_titanborn_L22.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_titanborn_L23": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_titanborn_L23.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_titanborn_L24": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_titanborn_L24.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_titanborn_L25": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_titanborn_L25.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_vanguard_L01": {
   "anchorX": 79.0,
-  "anchorY": 123.4,
+  "anchorY": 113.4,
   "file": "assets/sprites/u_vanguard_L01.png",
   "footprint": 1.4,
-  "h": 158,
+  "h": 148,
   "w": 158
  },
  "u_vanguard_L02": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L02.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L03": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L03.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L04": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L04.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L05": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L05.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L06": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L06.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L07": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L07.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L08": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L08.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L09": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L09.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L10": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L10.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L11": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L11.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L12": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L12.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L13": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L13.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L14": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L14.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L15": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L15.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L16": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L16.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L17": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L17.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L18": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L18.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L19": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L19.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L20": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L20.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L21": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L21.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L22": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L22.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L23": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L23.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L24": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L24.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_vanguard_L25": {
   "anchorX": 73.5,
-  "anchorY": 113.5,
+  "anchorY": 102.5,
   "file": "assets/sprites/u_vanguard_L25.png",
   "footprint": 1.4,
-  "h": 147,
+  "h": 136,
   "w": 147
  },
  "u_voltaic_L01": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_voltaic_L01.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_voltaic_L02": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_voltaic_L02.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_voltaic_L03": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_voltaic_L03.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_voltaic_L04": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_voltaic_L04.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_voltaic_L05": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_voltaic_L05.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_voltaic_L06": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_voltaic_L06.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_voltaic_L07": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_voltaic_L07.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_voltaic_L08": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_voltaic_L08.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_voltaic_L09": {
@@ -19041,66 +19041,66 @@
  },
  "u_warden_L01": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_warden_L01.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_warden_L02": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_warden_L02.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_warden_L03": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_warden_L03.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_warden_L04": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_warden_L04.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_warden_L05": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_warden_L05.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_warden_L06": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_warden_L06.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_warden_L07": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_warden_L07.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_warden_L08": {
   "anchorX": 83.0,
-  "anchorY": 130.6,
+  "anchorY": 121.6,
   "file": "assets/sprites/u_warden_L08.png",
   "footprint": 1.4,
-  "h": 166,
+  "h": 157,
   "w": 166
  },
  "u_warden_L09": {
@@ -19241,266 +19241,266 @@
  },
  "u_warlock_L01": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_warlock_L01.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_warlock_L02": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_warlock_L02.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_warlock_L03": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_warlock_L03.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_warlock_L04": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_warlock_L04.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_warlock_L05": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_warlock_L05.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_warlock_L06": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_warlock_L06.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_warlock_L07": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_warlock_L07.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_warlock_L08": {
   "anchorX": 66.5,
-  "anchorY": 100.8,
+  "anchorY": 80.8,
   "file": "assets/sprites/u_warlock_L08.png",
   "footprint": 1.4,
-  "h": 133,
+  "h": 113,
   "w": 133
  },
  "u_warlock_L09": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_warlock_L09.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_warlock_L10": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_warlock_L10.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_warlock_L11": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_warlock_L11.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_warlock_L12": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_warlock_L12.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_warlock_L13": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_warlock_L13.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_warlock_L14": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_warlock_L14.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_warlock_L15": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_warlock_L15.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_warlock_L16": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 77.2,
   "file": "assets/sprites/u_warlock_L16.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 109,
   "w": 129
  },
  "u_warlock_L17": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_warlock_L17.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_warlock_L18": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_warlock_L18.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_warlock_L19": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_warlock_L19.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_warlock_L20": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_warlock_L20.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_warlock_L21": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_warlock_L21.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_warlock_L22": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_warlock_L22.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_warlock_L23": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_warlock_L23.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_warlock_L24": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_warlock_L24.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_warlock_L25": {
   "anchorX": 64.5,
-  "anchorY": 97.2,
+  "anchorY": 80.2,
   "file": "assets/sprites/u_warlock_L25.png",
   "footprint": 1.4,
-  "h": 129,
+  "h": 112,
   "w": 129
  },
  "u_witchling_L01": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_witchling_L01.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_witchling_L02": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_witchling_L02.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_witchling_L03": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_witchling_L03.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_witchling_L04": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_witchling_L04.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_witchling_L05": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_witchling_L05.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_witchling_L06": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_witchling_L06.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_witchling_L07": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_witchling_L07.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_witchling_L08": {
   "anchorX": 82.5,
-  "anchorY": 129.7,
+  "anchorY": 107.7,
   "file": "assets/sprites/u_witchling_L08.png",
   "footprint": 1.4,
-  "h": 165,
+  "h": 143,
   "w": 165
  },
  "u_witchling_L09": {
@@ -19640,131 +19640,131 @@
   "w": 167
  },
  "u_wyrm_L01": {
-  "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorX": 48.0,
+  "anchorY": 66.9,
   "file": "assets/sprites/u_wyrm_L01.png",
   "footprint": 1.4,
-  "h": 97,
-  "w": 97
+  "h": 96,
+  "w": 96
  },
  "u_wyrm_L02": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_wyrm_L02.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_wyrm_L03": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_wyrm_L03.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_wyrm_L04": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_wyrm_L04.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_wyrm_L05": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_wyrm_L05.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_wyrm_L06": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_wyrm_L06.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_wyrm_L07": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_wyrm_L07.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_wyrm_L08": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 53.3,
   "file": "assets/sprites/u_wyrm_L08.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 82,
   "w": 97
  },
  "u_wyrm_L09": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_wyrm_L09.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_wyrm_L10": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_wyrm_L10.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_wyrm_L11": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_wyrm_L11.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_wyrm_L12": {
-  "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorX": 49.0,
+  "anchorY": 69.1,
   "file": "assets/sprites/u_wyrm_L12.png",
   "footprint": 1.4,
-  "h": 97,
-  "w": 97
+  "h": 98,
+  "w": 98
  },
  "u_wyrm_L13": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_wyrm_L13.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_wyrm_L14": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_wyrm_L14.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_wyrm_L15": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_wyrm_L15.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_wyrm_L16": {
   "anchorX": 48.5,
-  "anchorY": 68.3,
+  "anchorY": 55.3,
   "file": "assets/sprites/u_wyrm_L16.png",
   "footprint": 1.4,
-  "h": 97,
+  "h": 84,
   "w": 97
  },
  "u_wyrm_L17": {
@@ -19832,12 +19832,12 @@
   "w": 97
  },
  "u_wyrm_L25": {
-  "anchorX": 48.5,
-  "anchorY": 68.4,
+  "anchorX": 49.0,
+  "anchorY": 69.1,
   "file": "assets/sprites/u_wyrm_L25.png",
   "footprint": 1.4,
-  "h": 97,
-  "w": 97
+  "h": 98,
+  "w": 98
  },
  "wall01": {
   "anchorX": 48.0,
