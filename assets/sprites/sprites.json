@@ -12087,6 +12087,42 @@
   "h": 96,
   "w": 96
  },
+ "style_a-stylised": {
+  "anchorX": 124.0,
+  "anchorY": 182.6,
+  "drawnShadow": true,
+  "file": "assets/sprites/style_a-stylised.png",
+  "footprint": 3,
+  "h": 248,
+  "w": 248
+ },
+ "style_b-smooth": {
+  "anchorX": 126.5,
+  "anchorY": 187.0,
+  "drawnShadow": true,
+  "file": "assets/sprites/style_b-smooth.png",
+  "footprint": 3,
+  "h": 253,
+  "w": 253
+ },
+ "style_c-ornate": {
+  "anchorX": 135.0,
+  "anchorY": 202.4,
+  "drawnShadow": true,
+  "file": "assets/sprites/style_c-ornate.png",
+  "footprint": 3,
+  "h": 270,
+  "w": 270
+ },
+ "style_d-machined": {
+  "anchorX": 120.0,
+  "anchorY": 175.4,
+  "drawnShadow": true,
+  "file": "assets/sprites/style_d-machined.png",
+  "footprint": 3,
+  "h": 240,
+  "w": 240
+ },
  "th01": {
   "anchorX": 137.0,
   "anchorY": 179.8,

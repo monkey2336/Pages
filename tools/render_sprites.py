@@ -2029,6 +2029,115 @@ def build_siege_unit(T, tier):
     b_siege(T, tier)
 
 
+# ------------------------------------------------------------ style demos
+# Four directions for the same building, so a choice can be made by looking
+# rather than by describing. Same subject (an Archer Tower), same materials,
+# same camera -- only the modelling language changes.
+
+def demo_chunky(T):
+    """A: stylised. Few, large forms; heavy bevels; readable at 40px."""
+    pad(1.6, T, 3.0)
+    courses(0.8, 0.8, 0.2, 0.9, 4, T)
+    cyl(0.54, 0.12, (0, 0, 1.16), T['stoneDark'], verts=16)
+    for i in range(6):
+        a = math.radians(i * 60)
+        box(0.15, 0.15, 0.2, (math.cos(a) * 0.44, math.sin(a) * 0.44, 1.32), T['stone'], bevel=0.03)
+    cone(0.5, 0.06, 0.45, (0, 0, 1.62), T['roof'], verts=12)
+
+
+def demo_smooth(T):
+    """B: high-poly realistic. Dense curved surfaces, tapered masonry, real
+    thickness everywhere, fine bevels. No facets you can count."""
+    pad(1.7, T, 3.0)
+    # tapered drum, built from many thin courses so the silhouette curves
+    for i in range(26):
+        t = i / 25.0
+        r = 0.52 - t * 0.08
+        cyl(r, 0.042, (0, 0, 0.26 + i * 0.04), shade(T['stone'], 1.0 + (i % 2) * 0.06),
+            verts=64, bevel=0.006)
+    cyl(0.575, 0.05, (0, 0, 1.3), T['stoneDark'], verts=64, bevel=0.01)
+    cyl(0.6, 0.035, (0, 0, 1.35), shade(T['stone'], 1.1), verts=64, bevel=0.01)
+    # merlons with real gaps and capstones
+    for i in range(14):
+        a = math.radians(i * (360 / 14))
+        x, y = math.cos(a) * 0.53, math.sin(a) * 0.53
+        box(0.12, 0.09, 0.17, (x, y, 1.45), T['stone'], rot=(0, 0, a), bevel=0.014)
+        box(0.13, 0.1, 0.03, (x, y, 1.55), shade(T['stone'], 1.14), rot=(0, 0, a), bevel=0.008)
+    # conical roof as a lathed surface, with a lip and a finial
+    for i in range(18):
+        t = i / 17.0
+        cyl(0.5 * (1 - t) + 0.03, 0.035, (0, 0, 1.6 + i * 0.032),
+            shade(T['roof'], 1.0 - t * 0.18), verts=64, bevel=0.004)
+    cyl(0.56, 0.03, (0, 0, 1.59), shade(T['roofDark'], 1.05), verts=64, bevel=0.008)
+    sphere(0.055, (0, 0, 2.2), T['trim'], metallic=0.8, rough=0.22)
+    # arrow slits, recessed
+    for i in range(4):
+        a = math.radians(i * 90 + 45)
+        box(0.06, 0.1, 0.28, (math.cos(a) * 0.48, math.sin(a) * 0.48, 0.85),
+            '#1b1e22', rot=(0, 0, a), bevel=0.01)
+
+
+def demo_ornate(T):
+    """C: ornate. The smooth build plus carved trim, gold banding, buttresses
+    and a balcony -- decoration as structure."""
+    demo_smooth(T)
+    for i in range(4):
+        a = math.radians(i * 90 + 45)
+        x, y = math.cos(a) * 0.5, math.sin(a) * 0.5
+        for j in range(7):                              # stepped buttress
+            box(0.17 - j * 0.012, 0.13, 0.1, (x * (1 + j * 0.03), y * (1 + j * 0.03), 0.3 + j * 0.12),
+                shade(T['stone'], 0.92), rot=(0, 0, a), bevel=0.012)
+    for z in (0.62, 0.98):                              # gold string courses
+        cyl(0.545, 0.028, (0, 0, z), T['trim'], verts=64, metallic=0.85, rough=0.22, bevel=0.006)
+        for i in range(20):
+            a = math.radians(i * 18)
+            sphere(0.022, (math.cos(a) * 0.55, math.sin(a) * 0.55, z), T['trim'],
+                   metallic=0.85, rough=0.2)
+    cyl(0.66, 0.03, (0, 0, 1.24), T['trim'], verts=64, metallic=0.8, rough=0.25, bevel=0.006)
+    for i in range(24):                                 # balcony rail
+        a = math.radians(i * 15)
+        cyl(0.016, 0.13, (math.cos(a) * 0.63, math.sin(a) * 0.63, 1.3), T['trim'],
+            verts=10, metallic=0.8, rough=0.25)
+    for i in range(8):                                  # lanterns
+        a = math.radians(i * 45 + 22)
+        sphere(0.05, (math.cos(a) * 0.62, math.sin(a) * 0.62, 1.42), T['glow'], emission=1.8)
+
+
+def demo_machined(T):
+    """D: engineered. Panelled plate, recessed seams, bolt rows, a machined
+    ring and a hard-edged canopy -- built, not carved."""
+    pad(1.7, T, 3.0)
+    cyl(0.6, 0.1, (0, 0, 0.25), T['metalDark'], verts=48, metallic=0.7, rough=0.4, bevel=0.02)
+    for i in range(8):                                  # plated column segments
+        z = 0.32 + i * 0.13
+        cyl(0.46, 0.11, (0, 0, z), T['metal'], verts=48, metallic=0.72, rough=0.33, bevel=0.014)
+        cyl(0.478, 0.018, (0, 0, z + 0.06), T['metalDark'], verts=48, metallic=0.8, rough=0.28)
+        for j in range(10):                             # bolt row
+            a = math.radians(j * 36 + i * 12)
+            sphere(0.019, (math.cos(a) * 0.47, math.sin(a) * 0.47, z), T['metal'],
+                   metallic=0.9, rough=0.2)
+    for i in range(4):                                  # vertical seams
+        a = math.radians(i * 90)
+        box(0.03, 0.05, 1.06, (math.cos(a) * 0.47, math.sin(a) * 0.47, 0.85),
+            T['metalDark'], rot=(0, 0, a), metallic=0.75, rough=0.3, bevel=0.006)
+    cyl(0.58, 0.06, (0, 0, 1.42), T['metalDark'], verts=48, metallic=0.8, rough=0.28, bevel=0.012)
+    cyl(0.5, 0.05, (0, 0, 1.48), T['metal'], verts=48, metallic=0.85, rough=0.22, bevel=0.01)
+    for i in range(6):                                  # canopy ribs
+        a = math.radians(i * 60)
+        box(0.5, 0.05, 0.04, (0, 0, 1.72), T['metalDark'], rot=(0, math.radians(-20), a),
+            metallic=0.75, rough=0.3, bevel=0.006)
+    cone(0.42, 0.1, 0.3, (0, 0, 1.66), shade(T['metal'], 0.9), verts=48, metallic=0.7, rough=0.35)
+    cyl(0.09, 0.16, (0, 0, 1.94), T['accent'], verts=24, emission=1.6)
+    for i in range(4):
+        a = math.radians(i * 90 + 45)
+        box(0.07, 0.16, 0.06, (math.cos(a) * 0.42, math.sin(a) * 0.42, 1.5),
+            T['accent'], rot=(0, 0, a), emission=1.3, bevel=0.008)
+
+
+STYLE_DEMOS = {'a-stylised': demo_chunky, 'b-smooth': demo_smooth,
+               'c-ornate': demo_ornate, 'd-machined': demo_machined}
+
+
 # ---------------------------------------------------------------- scenery
 # The woods around the base. Deliberately outside the era system: the village
 # changes with every Town Hall, the forest it stands in does not. One fixed
@@ -2286,6 +2395,15 @@ def main():
                 reset_scene()
                 build_siege_unit(T, ornate)
                 render('u_%s_L%02d' % (m['key'], lvl), 2, samples=args.samples)
+
+    if 'styles' in groups:
+        print('Style demos...')
+        T = b_levels[17]['mat']          # a mid-game palette, level 18
+        for name, fn in sorted(STYLE_DEMOS.items()):
+            reset_scene()
+            CUR_LEVEL[0] = 18
+            fn(T)
+            render('style_' + name, 3, samples=args.samples)
 
     if 'scenery' in groups:
         print('Scenery...')
