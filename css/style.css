@@ -33,7 +33,11 @@ html, body {
   min-height: 100%;
   font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
   color: var(--ink);
+  /* A scrim over the sky keeps light Town Hall palettes (Ivory, Gilded) from
+     washing out text that sits straight on the background. The palette still
+     colours the page -- it just stops competing with the type. */
   background:
+    linear-gradient(180deg, rgba(6, 8, 11, 0.5), rgba(3, 5, 8, 0.66)),
     radial-gradient(120% 80% at 50% -10%, color-mix(in srgb, var(--sky1) 85%, white), transparent 60%),
     linear-gradient(180deg, var(--sky1), var(--sky2) 55%, color-mix(in srgb, var(--sky2) 70%, black));
   background-attachment: fixed;
@@ -146,8 +150,15 @@ img.sprite { object-fit: contain; display: block; }
 /* --------------------------------------------------------------- main */
 main { flex: 1; padding: 18px; max-width: 1280px; width: 100%; margin: 0 auto; }
 
-.screen-head { margin: 0 0 4px; font-size: 26px; letter-spacing: 0.01em; text-shadow: 0 2px 0 rgba(0, 0, 0, 0.4); }
-.screen-sub { margin: 0 0 18px; color: var(--dim); font-size: 13px; max-width: 74ch; line-height: 1.5; }
+.screen-head {
+  margin: 0 0 4px; font-size: 26px; letter-spacing: 0.01em;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5), 0 3px 10px rgba(0, 0, 0, 0.45);
+}
+.screen-sub {
+  margin: 0 0 18px; font-size: 13px; max-width: 74ch; line-height: 1.5;
+  color: color-mix(in srgb, var(--ink) 74%, var(--dim));
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
+}
 
 .panel {
   background:
@@ -257,11 +268,18 @@ main { flex: 1; padding: 18px; max-width: 1280px; width: 100%; margin: 0 auto; }
 
 /* ------------------------------------------------------- village / iso */
 .village-head { display: flex; align-items: flex-end; gap: 14px; margin-bottom: 10px; }
-.village-title h2 { margin: 0; font-size: 26px; text-shadow: 0 2px 0 rgba(0, 0, 0, 0.45); }
-.village-title p { margin: 2px 0 0; color: var(--dim); font-size: 13px; }
+.village-title h2 {
+  margin: 0; font-size: 26px;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5), 0 3px 10px rgba(0, 0, 0, 0.45);
+}
+.village-title p {
+  margin: 2px 0 0; font-size: 13px;
+  color: color-mix(in srgb, var(--ink) 74%, var(--dim));
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
+}
 
 .village-tools { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
-.hint { font-size: 12px; color: var(--dim); }
+.hint { font-size: 12px; color: color-mix(in srgb, var(--ink) 62%, var(--dim)); }
 
 .iso-viewport {
   position: relative;

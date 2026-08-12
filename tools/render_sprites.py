@@ -651,18 +651,73 @@ TH_BUILDERS = {
 }
 
 
+def grow(before, factor, lift):
+    """Scale everything built since `before` about the origin and lift it.
+    The hall families were written around a 1.7-unit keep; the Town Hall owns
+    a 4x4 plot, so the body is grown to actually fill the ground it sits on."""
+    for o in bpy.data.objects:
+        if o in before or o.type != 'MESH':
+            continue
+        o.scale = tuple(s * factor for s in o.scale)
+        o.location = (o.location[0] * factor, o.location[1] * factor,
+                      o.location[2] * factor + lift)
+
+
+def hall_steps(T, side=-1):
+    """A flight of steps up the front of the plinth, so the hall is something
+    you approach rather than a block dropped on a slab."""
+    for i in range(4):
+        w = 1.15 - i * 0.06
+        box(w, 0.22, 0.12, (0, side * (1.5 + i * 0.2), 0.5 - i * 0.12),
+            shade(T['stone'], 1.0 + i * 0.03), bevel=0.02)
+    for sx in (-1, 1):
+        box(0.16, 0.9, 0.34, (sx * 0.72, side * 1.75, 0.42), T['stoneDark'], bevel=0.03)
+        if L() >= 10:
+            sphere(0.1, (sx * 0.72, side * 1.75, 0.64), T['accent'], emission=1.6)
+
+
 def build_town_hall(th):
+    """The centrepiece gets the same footprint treatment as every other
+    building -- dirt pad, dressed rim, corner blocks, yard clutter -- in the
+    materials of its own era, so the hall matches the walls and the rest of
+    the base, and only then puts its own architecture on top."""
+    lvl = th['level']
+    CUR_LEVEL[0] = lvl
+    b_levels = DATA['buildingLevels']
+    entry = b_levels[max(0, min(len(b_levels) - 1, lvl - 1))]
+    T = entry['mat']
+    ornate = 1.0 + entry.get('detail', 0.0) * 3.0
     p, d = th['palette'], th['design']
+
+    pad(3.6, T, ornate)
+    # Plinth: coursed stone in era materials, banded and stepped.
+    courses(2.7, 2.7, 0.2, 0.34, 3, T)
+    trim_band(2.7, 2.7, 0.56, T, ornate)
+    box(2.5, 2.5, 0.06, (0, 0, 0.6), shade(T['stone'], 1.06), bevel=0.02)
+    hall_steps(T)
+    rivets(1.38, 0.58, T, n=10, size=0.05)
+
+    before = set(bpy.data.objects)
     fn, variant = TH_BUILDERS.get(d['body'], (th_castle, 0))
     fn(p, d, variant)
+    grow(before, 1.16, 0.62)
+
+    # Braziers at the plinth corners: light that reads at village zoom.
+    for i in range(4):
+        a = math.radians(45 + i * 90)
+        cx, cy = math.cos(a) * 1.62, math.sin(a) * 1.62
+        cyl(0.11, 0.44, (cx, cy, 0.82), T['stoneDark'], verts=10)
+        cyl(0.16, 0.1, (cx, cy, 1.06), T['trim'], verts=10, metallic=0.7, rough=0.3)
+        sphere(0.12, (cx, cy, 1.16), p['glow'], emission=3.2)
+
     # Shared ornament layer: banners and floating orbs, counts vary per level.
     for i in range(min(4, d['banners'])):
         a = math.radians(35 + i * (360 / max(1, min(4, d['banners']))))
-        banner((math.cos(a) * 1.15, math.sin(a) * 1.15), 0.95 + (i % 2) * 0.12,
+        banner((math.cos(a) * 1.5, math.sin(a) * 1.5), 1.45 + (i % 2) * 0.17,
                p['accent'] if i % 2 == 0 else p['accent2'])
     for i in range(min(5, d['orbs'])):
         a = math.radians(i * (360 / max(1, min(5, d['orbs']))) + 20)
-        sphere(0.075, (math.cos(a) * 1.0, math.sin(a) * 1.0, 2.15 + (i % 3) * 0.16),
+        sphere(0.1, (math.cos(a) * 1.45, math.sin(a) * 1.45, 3.2 + (i % 3) * 0.22),
                p['glow'], emission=6.0)
 
 
