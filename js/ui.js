@@ -177,14 +177,39 @@
 
   /* --------------------------------------------------- shared widgets */
   // Progress + timer + gem-skip for anything with { ends, total }.
+  // Which book finishes which kind of job, so the dialog can offer it the way
+  // Clash offers a Book of Fighting on a running research.
+  var BOOK_FOR = { building: 'book_building', research: 'book_fighting', hero: 'book_heroes' };
+
   ui.jobHTML = function (job, extraAttrs) {
     var left = Math.max(0, (job.ends - Date.now()) / 1000);
     var pct = job.total ? Math.max(0, Math.min(100, (1 - left / job.total) * 100)) : 0;
+    var s = G.state;
+    var book = job.kind && BOOK_FOR[job.kind];
+    var hasBook = book && s && (s.items[book] || 0) > 0;
+    var hasEvery = s && (s.items.book_everything || 0) > 0;
     return '<div class="progress"><i style="width:' + pct.toFixed(1) + '%"></i></div>' +
       '<div class="timer" data-ends="' + job.ends + '" data-total="' + job.total + '">' +
       fmtTime(left) + ' left</div>' +
-      (extraAttrs ? '<button class="btn sm ghost" style="margin-top:6px" ' + extraAttrs + '>Finish · ' +
-        G.engine.gemsToSkip(left) + ' gems</button>' : '');
+      '<div class="finish-row">' +
+      (extraAttrs ? '<button class="btn sm ghost" ' + extraAttrs + '>Finish · ' +
+        G.engine.gemsToSkip(left) + ' gems</button>' : '') +
+      (hasBook
+        ? '<button class="btn sm ghost book" data-act="finish-with-book" data-book="' + book +
+          '" data-label="' + esc(job.label || '') + '">Finish · ' +
+          esc(G.itemData[book].name) + ' (' + s.items[book] + ')</button>'
+        : hasEvery
+          ? '<button class="btn sm ghost book" data-act="finish-with-book" data-book="book_everything"' +
+            ' data-label="' + esc(job.label || '') + '">Finish · Book of Everything (' +
+            s.items.book_everything + ')</button>'
+          : '') +
+      '</div>';
+  };
+
+  // Spending a book from wherever the job is shown.
+  ui.actions['finish-with-book'] = function (el) {
+    var r = G.engine.useItem(G.state, el.getAttribute('data-book'), el.getAttribute('data-label'));
+    if (ui.report(r)) { ui.closeModal(); ui.render(); }
   };
 
   // Re-tick any timer nodes in place without a full re-render.

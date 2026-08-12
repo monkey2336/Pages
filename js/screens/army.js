@@ -58,8 +58,10 @@
         var lvl = Math.max(1, E.researchLevel(s, t.key));
         var superOn = s.superTroops[t.key] > Date.now();
         return '<div class="card' + (unlocked ? '' : ' locked') + '">' +
-          '<div class="icon">' + unitIcon(t, 50, lvl) + '</div><div class="body">' +
-          '<div class="title">' + (superOn ? 'Super ' : '') + ui.esc(t.name) +
+          '<div class="icon info-hit" data-act="unit-info" data-key="' + t.key + '" title="Stats">' +
+            unitIcon(t, 50, lvl) + '</div><div class="body">' +
+          '<div class="title"><span class="info-hit" data-act="unit-info" data-key="' + t.key + '">' +
+            (superOn ? 'Super ' : '') + ui.esc(t.name) + '</span>' +
             '<small>' + t.housing + ' housing</small></div>' +
           '<div class="desc">' + ui.esc(t.role) + '</div>' +
           (unlocked
@@ -80,8 +82,10 @@
         var unlocked = E.spellUnlocked(s, sp.key);
         var cost = E.spellCost(s, sp.key);
         return '<div class="card' + (unlocked ? '' : ' locked') + '">' +
-          '<div class="icon">' + G.art.spellSVG(sp.tint, 40) + '</div><div class="body">' +
-          '<div class="title">' + ui.esc(sp.name) + '<small>' + sp.slots + ' slot' + (sp.slots === 1 ? '' : 's') + '</small></div>' +
+          '<div class="icon info-hit" data-act="unit-info" data-key="' + sp.key + '">' +
+            G.art.spellSVG(sp.tint, 40) + '</div><div class="body">' +
+          '<div class="title"><span class="info-hit" data-act="unit-info" data-key="' + sp.key + '">' +
+            ui.esc(sp.name) + '</span>' + '<small>' + sp.slots + ' slot' + (sp.slots === 1 ? '' : 's') + '</small></div>' +
           '<div class="desc">' + ui.esc(sp.role) + '</div>' +
           (unlocked
             ? '<button class="btn sm" data-act="brew" data-key="' + sp.key + '">Brew · ' + ui.fmt(cost) + ' ' + sp.res + '</button>'
@@ -97,8 +101,10 @@
         var lvl = E.researchLevel(s, m.key);
         var locked = s.th < m.unlockTH || E.ownedCount(s, 'siegeworkshop') === 0;
         return '<div class="card' + (locked ? ' locked' : '') + '">' +
-          '<div class="icon">' + unitIcon(m, 46, Math.max(1, lvl)) + '</div><div class="body">' +
-          '<div class="title">' + ui.esc(m.name) + '<small>' + (locked ? 'TH' + m.unlockTH : 'lvl ' + lvl) + '</small></div>' +
+          '<div class="icon info-hit" data-act="unit-info" data-key="' + m.key + '">' +
+            unitIcon(m, 46, Math.max(1, lvl)) + '</div><div class="body">' +
+          '<div class="title"><span class="info-hit" data-act="unit-info" data-key="' + m.key + '">' +
+            ui.esc(m.name) + '</span>' + '<small>' + (locked ? 'TH' + m.unlockTH : 'lvl ' + lvl) + '</small></div>' +
           '<div class="desc">' + ui.esc(m.role) + '</div>' +
           (locked ? '<span class="pill">Needs Siege Workshop · TH' + m.unlockTH + '</span>'
                   : '<span class="pill ok">Available</span>') +

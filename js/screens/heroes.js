@@ -27,9 +27,11 @@
 
     return '<div class="card' + (unlocked ? '' : ' locked') + '" style="flex-direction:column">' +
       '<div style="display:flex;gap:10px;width:100%">' +
-        '<div class="icon">' + heroIcon(h, 56, Math.max(1, hs.level)) + '</div>' +
+        '<div class="icon info-hit" data-act="unit-info" data-key="' + h.key + '" data-hero="1" title="Stats">' +
+          heroIcon(h, 56, Math.max(1, hs.level)) + '</div>' +
         '<div class="body">' +
-          '<div class="title">' + ui.esc(h.name) +
+          '<div class="title"><span class="info-hit" data-act="unit-info" data-key="' + h.key +
+            '" data-hero="1">' + ui.esc(h.name) + '</span>' +
             '<small>' + (unlocked ? 'lvl ' + hs.level + '/' + maxLvl : 'TH' + h.unlockTH) + '</small></div>' +
           '<div class="desc"><b>' + ui.esc(h.ability) + '</b> — ' + ui.esc(h.abilityText) + '</div>' +
           '<div class="stat-row" style="margin-bottom:6px">' +

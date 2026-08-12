@@ -147,8 +147,10 @@
       var nextIcon = (!locked && lvl < max) ? unitIcon(t, 40, next) : '';
       var superActive = s.superTroops[t.key] > Date.now();
       return '<div class="card' + (locked ? ' locked' : '') + '">' +
-        '<div class="icon">' + icon + '</div><div class="body">' +
-        '<div class="title">' + ui.esc(t.name) + '<small>' + (locked ? 'TH' + t.unlockTH : 'lvl ' + lvl + '/' + max) + '</small></div>' +
+        '<div class="icon info-hit" data-act="unit-info" data-key="' + t.key + '" title="Stats">' +
+          icon + '</div><div class="body">' +
+        '<div class="title"><span class="info-hit" data-act="unit-info" data-key="' + t.key + '">' +
+          ui.esc(t.name) + '</span><small>' + (locked ? 'TH' + t.unlockTH : 'lvl ' + lvl + '/' + max) + '</small></div>' +
         '<div class="desc">' + ui.esc(t.role) + (t.housing ? ' · ' + t.housing + ' housing' : '') + '</div>' +
         (locked
           ? '<span class="pill">Unlocks at Town Hall ' + t.unlockTH + '</span>'
