@@ -1397,37 +1397,66 @@ def b_camp(T, tier):
 
 
 def b_lab(T, tier):
-    pad(1.7, T, tier)
-    courses(1.2, 1.2, 0.2, 0.6, 3, T)
-    cyl(0.56, 0.34, (0, 0, 0.97), T['stoneDark'], verts=20)
-    sphere(0.42, (0, 0, 1.35), '#5de0c0', emission=1.6, rough=0.18)
-    ring_band(0.5, 1.35, T, max(2, tier))
-    for i in range(3):
-        a = math.radians(i * 120 + 30)
-        cyl(0.075, 0.55, (math.cos(a) * 0.46, math.sin(a) * 0.46, 1.16), T['metal'],
-            verts=8, metallic=0.65, rough=0.3)
-        sphere(0.07, (math.cos(a) * 0.46, math.sin(a) * 0.46, 1.46), T['glow'], emission=1.5)
-    window_row(2, -0.62, 0.6, T)
-    barrel(0.62, -0.5, 0.2, T, 0.11, 0.24)
-    tier_topper(1.85, T, tier, 0.44)
-
-
+    """A research hall: coursed base, a domed observatory on top, condensers
+    round the rim and a lit sphere under glass."""
+    lv = L()
+    pad(1.75, T, tier)
+    courses(1.2, 1.2, 0.2, 0.56, 3, T)
+    string_course(0.62, 0.8, T)
+    # observatory drum
+    top = drum(0.58, 0.54, 0.3, 0.84, T)
+    balcony(0.56, top - 0.02, T, 22)
+    # glass dome, lathed
+    for i in range(12):
+        t = i / 11.0
+        cyl(0.52 * math.cos(t * 1.4), 0.034, (0, 0, top + 0.06 + i * 0.033),
+            shade(T['metalDark'], 1.0 + t * 0.12), verts=SIDES, bevel=0.005)
+    sphere(0.34, (0, 0, top + 0.24), '#5de0c0', emission=1.6, rough=0.16)
+    # condenser rods round the rim
+    rods = 3 + lv // 8
+    for i in range(rods):
+        a = math.radians(i * (360.0 / rods) + 30)
+        x, y = math.cos(a) * 0.5, math.sin(a) * 0.5
+        cyl(0.055, 0.5, (x, y, top - 0.1), T['metal'], verts=20, metallic=0.72, rough=0.3)
+        cyl(0.08, 0.05, (x, y, top + 0.16), T['trim'], verts=20, metallic=0.8, rough=0.26)
+        sphere(0.06, (x, y, top + 0.24), T['glow'], emission=1.6)
+    window_row(2, -0.62, 0.55, T)
+    barrel(0.64, -0.5, 0.2, T, 0.11, 0.24)
+    if lv >= 12:
+        buttresses(0.62, 0.24, 0.5, T, 4, 45)
+    yard_props(1.75, T)
+    tier_topper(top + 0.9, T, tier, 0.42)
 def b_spellfac(T, tier, dark=False):
+    """A still: coursed footing, a turned vessel, a condenser coil climbing it
+    and the brew glowing through the glass."""
+    lv = L()
     tint = ELIXIR if not dark else DARK
-    pad(1.7, T, tier)
-    courses(1.15, 1.15, 0.2, 0.48, 2, T)
-    cyl(0.52, 0.55, (0, 0, 0.95), T['stone'], verts=20)
-    torus(0.54, 0.035, (0, 0, 1.2), T['metal'], metallic=0.7, rough=0.3)
-    sphere(0.44, (0, 0, 1.42), tint, emission=1.7, rough=0.18)
-    cyl(0.09, 0.45, (0, 0, 1.8), T['metal'], verts=8, metallic=0.65, rough=0.3)
+    pad(1.75, T, tier)
+    courses(1.15, 1.15, 0.2, 0.44, 2, T)
+    top = drum(0.54, 0.48, 0.56, 0.66, T)
+    string_course(0.52, 0.76, T)
+    string_course(0.5, 1.02, T)
+    # cauldron mouth and the brew
+    cyl(0.56, 0.06, (0, 0, top), T['metalDark'], verts=SIDES, metallic=0.75, rough=0.3)
+    sphere(0.4, (0, 0, top + 0.16), tint, emission=1.7, rough=0.16)
+    # condenser coil: a helix of short segments up the side
+    turns = 3 + lv // 10
+    for i in range(turns * 10):
+        a = math.radians(i * 36)
+        z = 0.72 + i * (0.5 / (turns * 10))
+        sphere(0.035, (math.cos(a) * 0.56, math.sin(a) * 0.56, z), T['metal'],
+               metallic=0.8, rough=0.26)
+    # chimney
+    cyl(0.09, 0.5, (0, 0, top + 0.42), T['metal'], verts=24, metallic=0.7, rough=0.3)
+    cyl(0.12, 0.05, (0, 0, top + 0.68), T['trim'], verts=24, metallic=0.78, rough=0.26)
     for i in range(4):
         a = math.radians(45 + i * 90)
-        sphere(0.085, (math.cos(a) * 0.6, math.sin(a) * 0.6, 1.42), tint, emission=1.5)
-        cyl(0.05, 0.5, (math.cos(a) * 0.6, math.sin(a) * 0.6, 0.94), T['metalDark'], verts=6)
-    barrel(-0.6, -0.52, 0.2, T, 0.1, 0.22)
-    tier_topper(2.1, T, tier, 0.46)
-
-
+        x, y = math.cos(a) * 0.62, math.sin(a) * 0.62
+        cyl(0.05, 0.46, (x, y, 0.9), T['metalDark'], verts=16, metallic=0.7, rough=0.32)
+        sphere(0.08, (x, y, top + 0.08), tint, emission=1.5)
+    barrel(-0.62, -0.52, 0.2, T, 0.1, 0.22)
+    yard_props(1.75, T)
+    tier_topper(top + 1.0, T, tier, 0.42)
 def b_siege(T, tier):
     pad(1.85, T, tier)
     box(1.4, 1.0, 0.5, (0, 0, 0.45), T['wood'])
@@ -1460,21 +1489,44 @@ def b_pethouse(T, tier):
 
 
 def b_herohall(T, tier):
-    pad(2.15, T, tier)
-    courses(1.55, 1.45, 0.2, 0.75, 3, T)
-    box(1.72, 1.6, 0.12, (0, 0, 1.02), T['stoneDark'])
-    roof_pyramid(1.28, 0.68, 1.08, T, tier)
-    for sx in (-0.6, 0.6):
-        cyl(0.2, 1.0, (sx, -0.52, 0.7), T['stone'], verts=14)
-        cone(0.27, 0, 0.38, (sx, -0.52, 1.39), T['roof'], verts=14)
-        flag(sx, -0.78, 0.2, T, 0.7)
-    box(0.44, 0.08, 0.55, (0, -0.78, 0.47), T['trim'], metallic=0.7, rough=0.3, emission=0.4)
-    window_row(3, -0.76, 0.8, T)
-    if tier >= 3:
-        trim_band(1.62, 1.5, 0.96, T, tier)
-    tier_topper(2.05, T, tier, 0.5)
-
-
+    """The hall the heroes answer to: a coursed keep between two turned
+    towers, a gilded doorway and banners on the parapet."""
+    lv = L()
+    m = machined()
+    pad(2.2, T, tier)
+    courses(1.5, 1.4, 0.2, 0.72, 3, T)
+    string_course(0.95, 0.6, T)
+    box(1.68, 1.56, 0.1, (0, 0, 1.0), T['stoneDark'], bevel=0.02)
+    roof_pyramid(1.24, 0.66, 1.06, T, tier)
+    # flanking towers, turned rather than faceted
+    for sx in (-0.62, 0.62):
+        n = 22
+        for i in range(n):
+            cyl(0.22 - (i / float(n)) * 0.02, COURSE * 1.06, (sx, -0.5, 0.24 + i * COURSE),
+                shade(T['stone'] if m < 0.55 else T['metal'], 1.0 + (i % 2) * 0.05),
+                verts=SIDES, metallic=m * 0.5, rough=0.55 - m * 0.2, bevel=0.005)
+        ztop = 0.24 + n * COURSE
+        cyl(0.26, 0.04, (sx, -0.5, ztop), T['trim'], verts=SIDES,
+            metallic=0.8, rough=0.26, bevel=0.006)
+        for j in range(9):                       # little merlons
+            a = math.radians(j * 40)
+            box(0.06, 0.05, 0.09, (sx + math.cos(a) * 0.22, -0.5 + math.sin(a) * 0.22, ztop + 0.06),
+                T['stone'], rot=(0, 0, a), bevel=0.008)
+        spire(0.24, 0.3, ztop + 0.12, T)
+        flag(sx, -0.8, 0.2, T, 0.72)
+    # doorway, arched with a gilded surround
+    box(0.46, 0.1, 0.56, (0, -0.74, 0.46), T['trim'], metallic=0.7, rough=0.3,
+        emission=0.35, bevel=0.02)
+    box(0.34, 0.08, 0.46, (0, -0.77, 0.42), '#1a1c20', bevel=0.02)
+    for i in range(7):                            # arch stones
+        a = math.radians(180 + i * 30)
+        box(0.1, 0.09, 0.09, (math.cos(a) * 0.26, -0.75, 0.7 + math.sin(a) * 0.26),
+            shade(T['stone'], 1.1), rot=(0, math.radians(i * 30), 0), bevel=0.012)
+    window_row(3, -0.74, 0.82, T)
+    if lv >= 10:
+        lanterns(0.86, 0.98, T, 6)
+    yard_props(2.2, T)
+    tier_topper(2.0, T, tier, 0.5)
 def b_smith(T, tier):
     pad(1.7, T, tier)
     courses(1.3, 1.1, 0.2, 0.55, 2, T)
