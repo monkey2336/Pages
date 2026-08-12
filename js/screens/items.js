@@ -13,20 +13,31 @@
     decoration: 'Decorations'
   };
 
+  // Item tile: art, count over cap, and a use action. Empty tiles grey out
+  // rather than disappearing, so the collection reads as a set.
+  var TYPE_GLYPH = {
+    hammer: '#c9a227', book: '#a8623c', rune: '#7f5fd8',
+    potion: '#c05cf0', ore: '#8fb6c9', decoration: '#5f9a6b'
+  };
+
   function itemCard(s, item) {
     var have = s.items[item.key] || 0;
     var usable = have > 0 && item.type !== 'ore' && item.type !== 'decoration';
     var active = item.type === 'potion' &&
       E.boostActive(s, item.key === 'potion_clock' ? 'clocktower' : item.key);
-    return '<div class="card' + (have ? '' : ' locked') + '"><div class="body">' +
-      '<div class="title">' + ui.esc(item.name) + '<small>×' + have + '</small></div>' +
-      '<div class="desc">' + ui.esc(item.effect) + '</div>' +
+    var full = have >= item.cap;
+    return '<div class="item-tile' + (have ? '' : ' empty') + (active ? ' active' : '') +
+      '" title="' + ui.esc(item.name + ' — ' + item.effect) + '">' +
+      '<div class="item-art" style="--item:' + (TYPE_GLYPH[item.type] || '#888') + '">' +
+        '<span class="item-type">' + ui.esc(item.type) + '</span></div>' +
+      '<div class="item-name">' + ui.esc(item.name) + '</div>' +
+      '<div class="item-count' + (full ? ' full' : '') + '">' + have + '/' + item.cap + '</div>' +
       (active
         ? '<span class="pill ok">Active</span>'
         : usable
           ? '<button class="btn sm" data-act="use-item" data-key="' + item.key + '">Use</button>'
-          : '<span class="pill">' + (have ? 'Spent elsewhere' : 'None') + '</span>') +
-      '</div></div>';
+          : '') +
+      '</div>';
   }
 
   function boostsPanel(s) {
@@ -72,12 +83,14 @@
       (byType[i.type] = byType[i.type] || []).push(i);
     });
     var panels = Object.keys(byType).map(function (type) {
-      return '<div class="panel"><h3>' + ui.esc(TYPE_LABEL[type] || type) + '</h3><div class="grid-cards">' +
+      return '<div class="panel"><h3>' + ui.esc(TYPE_LABEL[type] || type) + '</h3><div class="item-grid">' +
         byType[type].map(function (i) { return itemCard(s, i); }).join('') + '</div></div>';
     }).join('');
 
     return '<h2 class="screen-head">Items &amp; Gems</h2>' +
-      '<p class="screen-sub">Season rewards and event chests drop magic items — or set them yourself from the Moderator panel.</p>' +
+      '<p class="screen-sub">Magic items range from finishing an upgrade outright to boosting your village and army. ' +
+      'You can only hold a limited number of each at once — the number under each tile is what you hold against that limit. ' +
+      'Season rewards and event chests drop them, or set them yourself from the Moderator panel.</p>' +
       boostsPanel(s) + gemsPanel(s) + panels;
   }
 

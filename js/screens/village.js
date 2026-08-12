@@ -136,7 +136,7 @@
       '<div class="village-title"><h2>' + ui.esc(th.name) + '</h2>' +
       '<p>' + ui.esc(th.lore) + '</p></div></div>' +
       '<div class="village-tools">' +
-        '<button class="btn" data-act="open-build">Build</button>' +
+        '<button class="btn" data-act="open-build">Shop</button>' +
         '<button class="btn ghost" data-act="buy-wall">Buy wall · ' + ui.fmt(E.wallCost(1)) + ' gold</button>' +
         '<button class="btn ghost" data-act="toggle-view">' +
           (m === 'flat' ? 'Board: 2D' : 'Board: isometric') + '</button>' +
@@ -348,53 +348,11 @@
 
     var b = s.buildings.filter(function (x) { return x.id === id; })[0];
     if (!b) return;
-    var isTH = b.key === 'townhall';
-    var bd = E.bdata(b.key);
-    var name = isTH ? G.thData(b.level).name : bd.name;
-    var maxLvl = E.maxLevelFor(s, b.key);
-    var next = b.level + 1;
-    var body = '<h3>' + ui.esc(name) + '</h3>' +
-      '<p class="screen-sub">' + (isTH ? ui.esc(G.thData(b.level).lore) : ui.esc(bd.desc || '')) + '</p>' +
-      '<div style="display:flex;gap:14px;align-items:center;margin-bottom:12px">' +
-        '<div>' + buildingArt(b.key, b.level, isTH ? 150 : 110) + '</div>' +
-        '<div class="stat-row" style="flex-direction:column;gap:4px">' +
-          '<span>Level <b>' + b.level + '</b> / ' + maxLvl + '</span>' +
-          (bd.dps ? '<span>DPS <b>' + Math.round(bd.dps * Math.pow(1.16, b.level - 1)) + '</b></span>' : '') +
-          (bd.hp ? '<span>HP <b>' + Math.round(bd.hp * Math.pow(1.14, b.level - 1)) + '</b></span>' : '') +
-          (bd.produces ? '<span>Output <b>' + Object.keys(bd.produces).map(function (r) {
-            return ui.fmt(bd.produces[r] * Math.pow(1.35, b.level - 1)) + ' ' + r + '/hr';
-          }).join(', ') + '</b></span>' : '') +
-        '</div>' +
-      '</div>';
-
-    if (b.upgrading) {
-      body += '<div class="panel">' + ui.jobHTML(b.upgrading, 'data-act="skip-building" data-id="' + b.id + '"') + '</div>';
-    } else if (next <= maxLvl) {
-      var cost = E.buildingCost(s, b.key, next);
-      var res = E.buildingResource(b.key);
-      var secs = E.buildingSeconds(s, b.key, next);
-      body += '<button class="btn wide" data-act="upgrade-building" data-id="' + b.id + '">' +
-        'Upgrade to ' + next + ' · ' + ui.fmt(cost) + ' ' + res + ' · ' + ui.fmtTime(secs) + '</button>';
-      if (isTH) {
-        var t = G.thData(next);
-        body += '<div class="panel" style="margin-top:12px"><h3>Next: ' + ui.esc(t.name) + '</h3>' +
-          '<div style="display:flex;gap:12px;align-items:center">' +
-          (SP.townHallKey(next) ? SP.img(SP.townHallKey(next), 110, t.name) : G.art.townHallSVG(next, 100)) +
-          '<div><p class="hint" style="margin:0 0 6px">' + ui.esc(t.lore) + '</p>' +
-          '<p class="hint" style="margin:0">Unlocks: ' + ui.esc(t.unlocks.join(', ')) + '</p>' +
-          '<div class="swatches" style="justify-content:flex-start;margin-top:8px">' +
-            ['accent', 'accent2', 'roof', 'stone', 'wall', 'glow'].map(function (k) {
-              return '<i style="background:' + t.palette[k] + '"></i>';
-            }).join('') + '</div></div></div></div>';
-      }
-    } else {
-      body += '<p class="hint">Maxed for Town Hall ' + s.th + '.</p>';
-    }
-
-    body += appearancePanel(b.key, b.level, Math.max(maxLvl, b.level));
-
-    if (!isTH) {
-      body += '<button class="btn ghost wide" style="margin-top:8px" data-act="sell-building" data-id="' + b.id + '">Remove building</button>';
+    var body = G.upgradeSheet.sheet(s, b) +
+      appearancePanel(b.key, b.level, Math.max(E.maxLevelFor(s, b.key), b.level));
+    if (b.key !== 'townhall') {
+      body += '<button class="btn ghost wide" style="margin-top:8px" data-act="sell-building" data-id="' +
+        b.id + '">Remove building</button>';
     }
     ui.modal(body);
   }
@@ -407,35 +365,8 @@
     ui.render();
   };
 
-  ui.actions['open-build'] = function () {
-    var s = G.state;
-    var cats = [['resource', 'Resource'], ['army', 'Army'], ['defense', 'Defenses'], ['trap', 'Traps']];
-    var html = '<h3>Build</h3><p class="screen-sub">Everything your Town Hall allows. Greyed rows need a higher Town Hall.</p>';
-    cats.forEach(function (c) {
-      var rows = G.BUILDINGS.filter(function (bd) { return bd.cat === c[0]; }).map(function (bd) {
-        var allowed = G.allowedCount(bd.key, s.th);
-        var owned = E.ownedCount(s, bd.key);
-        var canB = allowed > owned;
-        var cost = E.buildingCost(s, bd.key, 1);
-        var afford = s.resources[bd.res] >= cost;
-        var locked = s.th < bd.unlockTH;
-        return '<div class="card' + (locked || !canB ? ' locked' : '') + '">' +
-          '<div class="icon">' + buildingArt(bd.key, 1, 46) + '</div>' +
-          '<div class="body"><div class="title">' + ui.esc(bd.name) +
-            '<small>' + owned + '/' + allowed + '</small></div>' +
-          '<div class="desc">' + ui.esc(bd.desc || '') + '</div>' +
-          (locked
-            ? '<span class="pill">Town Hall ' + bd.unlockTH + '</span>'
-            : canB
-              ? '<button class="btn sm" data-act="build-new" data-key="' + bd.key + '">Build · ' +
-                ui.fmt(cost) + ' ' + bd.res + '</button>' + (afford ? '' : ' <span class="cost short">short</span>')
-              : '<span class="pill">Limit reached</span>') +
-          '</div></div>';
-      }).join('');
-      html += '<div class="panel"><h3>' + c[1] + '</h3><div class="grid-cards">' + rows + '</div></div>';
-    });
-    ui.modal(html);
-  };
+  // Buying is its own screen now -- the board button just takes you there.
+  ui.actions['open-build'] = function () { ui.go('shop'); };
 
   ui.actions['build-new'] = function (el) {
     var r = E.buildNew(G.state, el.getAttribute('data-key'));

@@ -236,8 +236,10 @@
     var b = BY_KEY[key];
     if (!b || th < b.unlockTH) return 0;
     var span = th - b.unlockTH + 2;   // one level of headroom past the unlock
-    if (b.unlockTH >= 16 || b.cat === 'trap') return Math.max(1, Math.ceil(span / 1.5));
-    return span;
+    // 30 is a hard ceiling: there is exactly one design per level, and the
+    // art runs 1..30, so no building may outrun the set of looks it has.
+    if (b.unlockTH >= 16 || b.cat === 'trap') return Math.max(1, Math.min(30, Math.ceil(span / 1.5)));
+    return Math.min(30, span);
   }
 
   G.BUILDINGS = BUILDINGS;

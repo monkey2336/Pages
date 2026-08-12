@@ -897,9 +897,22 @@
     s.moderated = true;
   };
   mod.setItem = function (s, key, n) {
-    if (!G.itemData[key]) return;
+    var item = G.itemData[key];
+    if (!item) return;
+    // The moderator panel may exceed the normal hold limit; that is the point
+    // of it, but it still flags the save.
     s.items[key] = Math.max(0, Math.min(999, Math.round(n)));
     s.moderated = true;
+  };
+
+  // Normal gameplay grants respect the hold limit.
+  engine.grantItem = function (s, key, n) {
+    var item = G.itemData[key];
+    if (!item) return 0;
+    var before = s.items[key] || 0;
+    var after = Math.min(item.cap, before + (n || 1));
+    s.items[key] = after;
+    return after - before;
   };
   mod.setResource = function (s, res, n) {
     s.resources[res] = Math.max(0, Math.round(n));

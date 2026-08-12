@@ -161,6 +161,13 @@
     { key: 'deco_statue', name: 'Ascendant Statue', type: 'decoration', target: 'deco', effect: 'Cosmetic. Very heavy.' }
   ];
 
+  // How many of each item you may hold at once. Hammers and Books are scarce
+  // by design; potions and ore stack.
+  var ITEM_CAPS = { hammer: 1, book: 1, rune: 3, potion: 5, ore: 25, decoration: 10 };
+  MAGIC_ITEMS.forEach(function (i) {
+    i.cap = ITEM_CAPS[i.type] || 5;
+  });
+
   var byKey = function (arr) {
     var m = {};
     arr.forEach(function (x) { m[x.key] = x; });
