@@ -108,6 +108,7 @@
                      maxHp: Math.round(300 * Math.pow(1.18, w.level - 1)) });
     });
     b.totalCount = b.buildings.length;
+    buildGrid(b);
 
     Object.keys(state.army || {}).forEach(function (k) {
       if (state.army[k] > 0) b.hand[k] = state.army[k];
@@ -117,6 +118,93 @@
       if (hs && hs.level > 0) b.heroes[k] = 1;
     });
     return b;
+  }
+
+  /* -------------------------------------------------------------- paths */
+  // Troops used to walk straight at their target and chew through whatever
+  // wall got in the way. Real ones go round if there is a way round. A
+  // breadth-first flood from the target over the walkable tiles gives a
+  // distance field; a troop just steps to whichever neighbour is closer to
+  // the goal. It only falls back to hitting the wall when the base is sealed,
+  // which is exactly when hitting the wall is the right answer.
+  function gridIndex(b, gx, gy) {
+    var x = Math.floor(gx) - b.grid.x0, y = Math.floor(gy) - b.grid.y0;
+    if (x < 0 || y < 0 || x >= b.grid.w || y >= b.grid.h) return -1;
+    return y * b.grid.w + x;
+  }
+
+  function buildGrid(b) {
+    var pad = 6;
+    var x0 = Math.max(0, b.bounds.minX - pad), y0 = Math.max(0, b.bounds.minY - pad);
+    var w = (b.bounds.maxX + pad) - x0, h = (b.bounds.maxY + pad) - y0;
+    b.grid = { x0: x0, y0: y0, w: w, h: h };
+    b.blocked = new Uint8Array(w * h);
+    b.wallEpoch = 0;
+    b.fields = {};
+    refreshBlocked(b);
+  }
+
+  function refreshBlocked(b) {
+    b.blocked.fill(0);
+    for (var i = 0; i < b.walls.length; i++) {
+      var wl = b.walls[i];
+      if (wl.dead) continue;
+      var idx = gridIndex(b, wl.x, wl.y);
+      if (idx >= 0) b.blocked[idx] = 1;
+    }
+    b.fields = {};                 // every cached path is stale now
+  }
+
+  function fieldFor(b, target) {
+    var key = target.x + ',' + target.y + ',' + b.wallEpoch;
+    if (b.fields[key]) return b.fields[key];
+    var w = b.grid.w, h = b.grid.h;
+    var dist32 = new Int32Array(w * h).fill(-1);
+    var queue = [];
+    var size = target.size || 1;
+    for (var ty = 0; ty < size; ty++) {
+      for (var tx = 0; tx < size; tx++) {
+        var id = gridIndex(b, target.x + tx, target.y + ty);
+        if (id >= 0) { dist32[id] = 0; queue.push(id); }
+      }
+    }
+    for (var qi = 0; qi < queue.length; qi++) {
+      var cur = queue[qi];
+      var cx = cur % w, cy = (cur - cx) / w;
+      var d = dist32[cur];
+      for (var k = 0; k < 4; k++) {
+        var nx = cx + (k === 0 ? 1 : k === 1 ? -1 : 0);
+        var ny = cy + (k === 2 ? 1 : k === 3 ? -1 : 0);
+        if (nx < 0 || ny < 0 || nx >= w || ny >= h) continue;
+        var ni = ny * w + nx;
+        if (dist32[ni] !== -1 || b.blocked[ni]) continue;
+        dist32[ni] = d + 1;
+        queue.push(ni);
+      }
+    }
+    b.fields[key] = dist32;
+    return dist32;
+  }
+
+  // Where to step next: the neighbouring tile closest to the goal, or null if
+  // the goal cannot be reached without breaking something.
+  function nextStep(b, t, target) {
+    var f = fieldFor(b, target);
+    var here = gridIndex(b, t.x, t.y);
+    if (here < 0) return null;
+    var w = b.grid.w;
+    var best = null, bestD = f[here] === -1 ? Infinity : f[here];
+    var cx = here % w, cy = (here - cx) / w;
+    for (var k = 0; k < 8; k++) {
+      var dx = [1, -1, 0, 0, 1, 1, -1, -1][k];
+      var dy = [0, 0, 1, -1, 1, -1, 1, -1][k];
+      var nx = cx + dx, ny = cy + dy;
+      if (nx < 0 || ny < 0 || nx >= w || ny >= b.grid.h) continue;
+      var ni = ny * w + nx;
+      if (b.blocked[ni] || f[ni] === -1) continue;
+      if (f[ni] < bestD) { bestD = f[ni]; best = { x: nx + b.grid.x0 + 0.5, y: ny + b.grid.y0 + 0.5 }; }
+    }
+    return best;
   }
 
   /* ------------------------------------------------------------ helpers */
@@ -251,12 +339,30 @@
       var d = dist(t.x, t.y, c.x, c.y);
 
       if (d > reach) {
+        // Anything that walks follows the flow field; fliers and jumpers go
+        // straight, which is the whole point of being able to fly or jump.
+        var aim = c;
+        if (!t.air && !t.jumpsWalls) {
+          var stepTo = nextStep(b, t, t.target);
+          if (stepTo) aim = stepTo;
+        }
+        if (aim !== c) {
+          var ad = dist(t.x, t.y, aim.x, aim.y) || 1;
+          t.x += (aim.x - t.x) / ad * t.speed * dt;
+          t.y += (aim.y - t.y) / ad * t.speed * dt;
+          continue;
+        }
         var wall = wallBlocking(b, t, c.x, c.y);
         if (wall) {
           wall.hp -= t.dps * dt;
           t.hitTimer -= dt;
           if (t.hitTimer <= 0) { addEffect(b, 'hit', wall.x + 0.5, wall.y + 0.5); t.hitTimer = 0.35; }
-          if (wall.hp <= 0) { wall.dead = true; addEffect(b, 'boom', wall.x + 0.5, wall.y + 0.5, { ttl: 0.5 }); }
+          if (wall.hp <= 0) {
+            wall.dead = true;
+            b.wallEpoch++;
+            refreshBlocked(b);
+            addEffect(b, 'boom', wall.x + 0.5, wall.y + 0.5, { ttl: 0.5 });
+          }
           continue;
         }
         t.x += (c.x - t.x) / d * t.speed * dt;
