@@ -290,8 +290,34 @@
     var drag = null;
     var objects = stage.querySelector('.iso-objects');
 
+    // Which object is under the pointer. Sprites are rectangular PNGs whose
+    // empty corners overlap their neighbours, so hit-testing by element grabs
+    // whichever image happens to be on top -- usually not the building you
+    // aimed at. Resolve by tile instead, the way you actually see the board,
+    // and only fall back to the element when the pointer is off the grid
+    // (the spire of a tall tower rises well above its own tile).
+    function pickAt(clientX, clientY, fallbackEl) {
+      var s2 = G.state;
+      var rect = objects.getBoundingClientRect();
+      var scale = parseFloat(stage.dataset.scale) || 1;
+      var g = gridFromScreen(m, (clientX - rect.left) / scale, (clientY - rect.top) / scale);
+      var tx = Math.floor(g.x) + view.x0, ty = Math.floor(g.y) + view.y0;
+      var hit = null;
+      s2.buildings.forEach(function (b) {
+        var size = E.bdata(b.key).size;
+        if (tx >= b.x && tx < b.x + size && ty >= b.y && ty < b.y + size) hit = b;
+      });
+      if (!hit) {
+        s2.walls.forEach(function (w) {
+          if (tx === w.x && ty === w.y) hit = w;
+        });
+      }
+      if (!hit) return fallbackEl;
+      return objects.querySelector('.iso-obj[data-id="' + hit.id + '"]') || fallbackEl;
+    }
+
     objects.addEventListener('pointerdown', function (ev) {
-      var el = ev.target.closest('.iso-obj');
+      var el = pickAt(ev.clientX, ev.clientY, ev.target.closest('.iso-obj'));
       if (!el) return;
       drag = {
         el: el,
