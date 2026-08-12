@@ -1190,42 +1190,75 @@ def tier_topper(z, T, tier, r=0.5):
 
 # ---------------------------------------------------------- resource
 def b_mine(T, tier):
-    pad(1.7, T, tier)
-    courses(1.25, 1.25, 0.2, 0.42, 2, T)
-    box(1.35, 1.35, 0.08, (0, 0, 0.66), T['stoneDark'])
-    nuggets = 3 + int(tier)
-    for i in range(nuggets):
-        a = math.radians(i * (360.0 / nuggets))
-        sphere(0.13 - i * 0.005, (math.cos(a) * 0.3, math.sin(a) * 0.3, 0.78),
-               GOLD, metallic=0.7, rough=0.3, emission=0.35)
-    sphere(0.2, (0, 0, 0.86), GOLD, metallic=0.75, rough=0.25, emission=0.5)
-    crate(-0.62, -0.5, 0.2, T)
-    if tier >= 2:
-        cyl(0.06, 0.7, (0.6, 0.42, 0.55), T['wood'], verts=8)
-        box(0.4, 0.06, 0.06, (0.42, 0.42, 0.88), T['wood'])
-    if tier >= 3:
-        trim_band(1.3, 1.3, 0.68, T, tier)
-        flag(-0.68, 0.5, 0.2, T)
-    tier_topper(1.25, T, tier, 0.42)
-
-
+    """A shaft head: coursed collar, a winding frame with a pulley over it, and
+    the ore coming up in a cart."""
+    lv = L()
+    m = machined()
+    pad(1.75, T, tier)
+    courses(1.2, 1.2, 0.2, 0.4, 2, T)
+    # the shaft mouth, ringed in dressed stone
+    cyl(0.46, 0.1, (0, 0, 0.68), T['stoneDark'], verts=SIDES, bevel=0.01)
+    cyl(0.38, 0.06, (0, 0, 0.72), '#15171a', verts=SIDES)
+    string_course(0.48, 0.66, T)
+    # winding frame: four legs meeting a headgear beam with a pulley
+    for sx in (-1, 1):
+        for sy in (-1, 1):
+            cyl(0.04, 0.86, (sx * 0.34, sy * 0.3, 1.1), T['wood'] if m < 0.5 else T['metal'],
+                verts=12, rot=(math.radians(sy * 7), math.radians(-sx * 7), 0),
+                metallic=m * 0.7, rough=0.45)
+    box(0.72, 0.12, 0.08, (0, 0, 1.55), T['wood'] if m < 0.5 else T['metalDark'],
+        metallic=m * 0.6, rough=0.45, bevel=0.014)
+    cyl(0.17, 0.06, (0, 0, 1.62), T['metal'], verts=32, rot=(0, math.radians(90), 0),
+        metallic=0.8, rough=0.28)
+    cyl(0.05, 0.08, (0, 0, 1.62), T['metalDark'], verts=16, rot=(0, math.radians(90), 0),
+        metallic=0.85, rough=0.24)
+    cyl(0.012, 0.72, (0, 0.02, 1.26), '#3a3f45', verts=8)     # hoist rope
+    # ore heap, growing with the level
+    nug = 4 + min(8, lv // 3)
+    for i in range(nug):
+        a = math.radians(i * (360.0 / nug))
+        rr = 0.22 + (i % 3) * 0.05
+        sphere(0.1 - (i % 3) * 0.012, (math.cos(a) * rr, math.sin(a) * rr + 0.02, 0.78),
+               GOLD, metallic=0.72, rough=0.28, emission=0.3)
+    sphere(0.17, (0, 0.02, 0.85), GOLD, metallic=0.75, rough=0.24, emission=0.45)
+    # cart on a short rail
+    box(0.3, 0.22, 0.16, (0.56, 0.4, 0.5), T['metalDark'], metallic=0.6, rough=0.4, bevel=0.02)
+    for sx in (-1, 1):
+        cyl(0.06, 0.03, (0.56 + sx * 0.13, 0.4, 0.42), T['metal'], verts=16,
+            rot=(0, math.radians(90), 0), metallic=0.8, rough=0.3)
+    for sy in (-1, 1):
+        box(0.5, 0.03, 0.02, (0.56, 0.4 + sy * 0.09, 0.4), T['metalDark'],
+            metallic=0.7, rough=0.35)
+    if lv >= 8:
+        crate(-0.62, -0.5, 0.2, T)
+    yard_props(1.75, T)
+    tier_topper(1.9, T, tier, 0.44)
 def b_collector(T, tier):
-    pad(1.7, T, tier)
-    cyl(0.58, 0.85, (0, 0, 0.6), T['stone'], verts=22)
-    for zz in (0.34, 0.62, 0.9):
-        torus(0.6, 0.032, (0, 0, zz), T['metalDark'], metallic=0.65, rough=0.35)
-    cyl(0.63, 0.1, (0, 0, 1.06), T['stoneDark'], verts=22)
-    sphere(0.46, (0, 0, 1.24), ELIXIR, emission=1.5, rough=0.18)
+    """A pressure vessel on a coursed plinth: turned tank, welded bands, a
+    domed cap with a sight glass, and pipework running off the pad."""
+    lv = L()
+    m = machined()
+    pad(1.75, T, tier)
+    drum(0.6, 0.55, 0.86, 0.24, T)
+    for zz in (0.4, 0.68, 0.96):
+        string_course(0.57, zz, T, gilded=(m < 0.5))
+    rivets(0.58, 0.55, T, 16, size=0.028)
+    # domed cap, lathed
+    for i in range(10):
+        t = i / 9.0
+        cyl(0.58 * math.cos(t * 1.35), 0.035, (0, 0, 1.12 + i * 0.034),
+            shade(T['stoneDark'], 1.0 + t * 0.1), verts=SIDES, bevel=0.006)
+    sphere(0.4, (0, 0, 1.24), ELIXIR, emission=1.5, rough=0.16)
+    # sight glass down the side
+    box(0.07, 0.05, 0.44, (0, -0.56, 0.62), ELIXIR, emission=1.1, bevel=0.01)
+    box(0.11, 0.05, 0.5, (0, -0.575, 0.62), T['metalDark'], metallic=0.7, rough=0.3, bevel=0.01)
     for i in range(3):
-        a = math.radians(i * 120)
+        a = math.radians(i * 120 + 30)
         pipes(math.cos(a) * 0.66, math.sin(a) * 0.66, 0.2, T, 0.5, 1)
-    if tier >= 2:
-        rivets(0.62, 0.48, T, 10)
-    if tier >= 3:
-        ring_band(0.72, 1.24, T, tier)
-    tier_topper(1.66, T, tier, 0.44)
-
-
+    if lv >= 10:
+        balcony(0.58, 1.02, T, 22)
+    yard_props(1.75, T)
+    tier_topper(1.8, T, tier, 0.44)
 def b_drill(T, tier):
     pad(1.7, T, tier)
     courses(1.05, 1.05, 0.2, 0.4, 2, T)
@@ -1261,18 +1294,28 @@ def b_vault(T, tier, color=GOLD, accent='#8a6a1f'):
 
 
 def b_tank(T, tier):
-    pad(1.7, T, tier)
-    cyl(0.6, 1.05, (0, 0, 0.72), T['stone'], verts=24)
-    for zz in (0.36, 0.72, 1.08):
-        torus(0.62, 0.035, (0, 0, zz), T['metal'], metallic=0.7, rough=0.3)
-    sphere(0.5, (0, 0, 1.0), ELIXIR, emission=1.4, rough=0.18)
-    cyl(0.64, 0.1, (0, 0, 1.3), T['stoneDark'], verts=24)
-    pipes(0.6, -0.4, 0.2, T, 0.7, 2)
-    if tier >= 2:
-        rivets(0.63, 0.54, T, 12)
-    tier_topper(1.72, T, tier, 0.46)
-
-
+    """The bigger sibling of the collector: a tall turned tank, banded, with a
+    gantry ring near the top and a lit fill level."""
+    lv = L()
+    m = machined()
+    pad(1.75, T, tier)
+    drum(0.62, 0.56, 1.02, 0.24, T)
+    for zz in (0.42, 0.78, 1.14):
+        string_course(0.59, zz, T, gilded=(m < 0.5))
+    rivets(0.6, 0.6, T, 18, size=0.028)
+    for i in range(10):
+        t = i / 9.0
+        cyl(0.6 * math.cos(t * 1.3), 0.035, (0, 0, 1.28 + i * 0.034),
+            shade(T['stoneDark'], 1.0 + t * 0.1), verts=SIDES, bevel=0.006)
+    sphere(0.44, (0, 0, 1.06), ELIXIR, emission=1.4, rough=0.16)
+    box(0.08, 0.05, 0.6, (0, -0.58, 0.72), ELIXIR, emission=1.1, bevel=0.01)
+    box(0.12, 0.05, 0.66, (0, -0.595, 0.72), T['metalDark'], metallic=0.7, rough=0.3, bevel=0.01)
+    balcony(0.6, 1.18, T, 24)
+    pipes(0.62, -0.42, 0.2, T, 0.7, 2)
+    if lv >= 12:
+        buttresses(0.62, 0.26, 0.6, T, 4, 45)
+    yard_props(1.75, T)
+    tier_topper(2.0, T, tier, 0.46)
 def b_darkvault(T, tier):
     pad(1.7, T, tier)
     cyl(0.52, 0.36, (0, 0, 0.36), T['stoneDark'], verts=20)
@@ -1566,52 +1609,119 @@ def b_archer(T, tier):
 
 
 def b_mortar(T, tier):
-    pad(1.6, T, tier)
-    cyl(0.6, 0.26, (0, 0, 0.32), T['stone'], verts=18)
-    rivets(0.54, 0.32, T, 12)
-    cyl(0.46, 0.62, (0, -0.02, 0.76), T['stoneDark'], verts=18, rot=(math.radians(12), 0, 0))
-    cyl(0.4, 0.1, (0, -0.1, 1.1), T['metalDark'], verts=18, metallic=0.65, rough=0.35)
-    sphere(0.24, (0, -0.08, 1.16), '#2f343a', rough=0.4)
-    for sx in (-0.46, 0.46):
-        box(0.12, 0.12, 0.42, (sx, 0.42, 0.42), T['wood'])
+    """A short wide bore on a turned emplacement: heavy ring base, elevating
+    yoke, a barrel with a real muzzle, and shells stacked ready."""
+    lv = L()
+    m = machined()
+    pad(1.7, T, tier)
+    drum(0.62, 0.58, 0.3, 0.22, T)
+    string_course(0.6, 0.5, T)
+    rivets(0.54, 0.53, T, 14, size=0.032)
+
+    # elevating yoke the barrel swings in
+    for sx in (-1, 1):
+        box(0.11, 0.34, 0.46, (sx * 0.34, 0.04, 0.78),
+            T['stone'] if m < 0.5 else T['metal'],
+            metallic=m * 0.7, rough=0.5 - m * 0.2, bevel=0.02)
+        cyl(0.06, 0.12, (sx * 0.34, -0.02, 0.94), T['metal'], verts=16,
+            rot=(0, math.radians(90), 0), metallic=0.8, rough=0.28)
+
+    # bore: stacked rings so the taper is turned, not faceted
+    tilt = math.radians(14)
+    for i in range(14):
+        t = i / 13.0
+        cyl(0.42 - t * 0.06, 0.05, (0, -0.02 - t * 0.06, 0.72 + i * 0.049),
+            shade(T['stoneDark'] if m < 0.5 else T['metalDark'], 1.0 + (i % 2) * 0.05),
+            verts=SIDES, rot=(tilt, 0, 0), metallic=0.35 + m * 0.4, rough=0.45)
+    cyl(0.44, 0.07, (0, -0.12, 1.42), T['metal'], verts=SIDES, rot=(tilt, 0, 0),
+        metallic=0.75, rough=0.3, bevel=0.01)
+    cyl(0.34, 0.06, (0, -0.13, 1.45), '#14171b', verts=SIDES, rot=(tilt, 0, 0), rough=0.55)
+
+    # elevation screw and crew kit
+    cyl(0.04, 0.34, (0, 0.36, 0.82), T['metal'], verts=12, metallic=0.8, rough=0.3)
+    cyl(0.1, 0.05, (0, 0.36, 1.0), T['trim'], verts=16, metallic=0.75, rough=0.28)
     for i in range(3):
-        sphere(0.1, (-0.5 + i * 0.13, -0.5, 0.28), '#3a3f45', rough=0.45)
+        sphere(0.1, (-0.5 + i * 0.14, -0.52, 0.42), '#2f343a', rough=0.42)
+    if lv >= 6:
+        cyl(0.14, 0.22, (0.52, 0.44, 0.44), T['wood'], verts=16, bevel=0.02)
+    if lv >= 12:
+        buttresses(0.62, 0.24, 0.28, T, 4, 45)
     if tier >= 3:
-        trim_band(0.9, 0.9, 0.5, T, tier)
-    tier_topper(1.55, T, tier, 0.44)
+        string_course(0.6, 0.3, T)
+    yard_props(1.7, T)
+    tier_topper(1.8, T, tier, 0.44)
 
 
 def b_airdef(T, tier):
-    pad(1.6, T, tier)
-    cyl(0.52, 0.34, (0, 0, 0.36), T['stoneDark'], verts=18)
-    cyl(0.46, 0.16, (0, 0, 0.6), T['metalDark'], verts=18, metallic=0.6, rough=0.4)
-    box(0.5, 0.5, 0.26, (0, 0, 0.8), T['stone'])
-    for sx in (-0.17, 0.17):
-        cyl(0.13, 0.95, (sx, -0.08, 1.32), T['metal'], verts=12,
-            rot=(math.radians(20), 0, 0), metallic=0.65, rough=0.3)
-        cone(0.13, 0, 0.24, (sx, -0.26, 1.84), T['roof'], verts=12)
-        for zz in (1.05, 1.35):
-            torus(0.14, 0.02, (sx, -0.08 + (zz - 1.32) * 0.36, zz), T['metalDark'],
-                  rot=(math.radians(20), 0, 0), metallic=0.7)
-    cyl(0.09, 0.3, (0, 0.32, 1.0), T['metalDark'], verts=8, metallic=0.6)
+    """Twin launch tubes on a traversing mount, with the loader behind."""
+    lv = L()
+    m = machined()
+    pad(1.7, T, tier)
+    drum(0.56, 0.52, 0.34, 0.22, T)
+    string_course(0.54, 0.5, T)
+    # traverse ring
+    cyl(0.44, 0.07, (0, 0, 0.6), T['metalDark'], verts=SIDES, metallic=0.75, rough=0.34)
+    cyl(0.4, 0.04, (0, 0, 0.66), T['metal'], verts=SIDES, metallic=0.8, rough=0.28)
+    for i in range(12):
+        a = math.radians(i * 30)
+        sphere(0.02, (math.cos(a) * 0.42, math.sin(a) * 0.42, 0.63), T['metal'],
+               metallic=0.9, rough=0.2)
+    box(0.52, 0.5, 0.24, (0, 0.02, 0.8), T['stone'] if m < 0.5 else T['metal'],
+        metallic=m * 0.7, rough=0.5 - m * 0.2, bevel=0.03)
+
+    for sx in (-0.18, 0.18):
+        # tube, built as stacked rings so it reads as machined pipe
+        for i in range(18):
+            t = i / 17.0
+            cyl(0.125, 0.055, (sx, -0.08 - t * 0.3, 0.98 + i * 0.052), 
+                shade(T['metal'], 1.0 - (i % 3) * 0.05), verts=40,
+                rot=(math.radians(20), 0, 0), metallic=0.72, rough=0.3)
+        cone(0.13, 0.02, 0.24, (sx, -0.44, 1.94), T['roof'], verts=40)
+        for zz in (1.1, 1.42, 1.72):                       # collars
+            cyl(0.145, 0.035,
+                (sx, -0.08 - (zz - 0.98) * 0.34, zz), T['metalDark'], verts=40,
+                rot=(math.radians(20), 0, 0), metallic=0.8, rough=0.26)
+    # loader drum behind
+    cyl(0.16, 0.28, (0, 0.34, 0.98), T['metalDark'], verts=32, metallic=0.7, rough=0.34)
+    for i in range(4):
+        a = math.radians(i * 90 + 45)
+        sphere(0.05, (math.cos(a) * 0.16, 0.34 + math.sin(a) * 0.05, 1.1),
+               T['accent'], emission=1.2 if lv >= 8 else 0.0)
+    if lv >= 14:
+        buttresses(0.56, 0.24, 0.3, T, 4, 45)
     if tier >= 3:
-        box(0.24, 0.06, 0.06, (0, -0.4, 0.92), T['accent'], emission=1.4, bevel=0.01)
-    tier_topper(2.15, T, tier, 0.4)
+        box(0.24, 0.06, 0.06, (0, -0.42, 0.92), T['accent'], emission=1.4, bevel=0.01)
+    yard_props(1.7, T)
+    tier_topper(2.2, T, tier, 0.4)
 
 
 def b_wizard(T, tier):
-    pad(1.6, T, tier)
-    courses(0.8, 0.8, 0.2, 0.8, 3, T)
-    cyl(0.56, 0.12, (0, 0, 1.06), T['stoneDark'], verts=16)
-    cone(0.56, 0.06, 0.75, (0, 0, 1.5), T['roof'], verts=16)
-    sphere(0.14, (0, 0, 1.95), '#c9b8ff', emission=1.8)
-    for i in range(3):
-        a = math.radians(i * 120 + 40)
-        sphere(0.075, (math.cos(a) * 0.42, math.sin(a) * 0.42, 1.2), '#a48fd8', emission=1.5)
-    window(0, -0.42, 0.66, T, 0.12, 0.26)
-    if tier >= 3:
-        orbit(0.46, 1.5, T, 1)
-    tier_topper(2.25, T, tier, 0.4)
+    """A scholar's tower: turned drum, buttresses, a gallery of runes and a
+    lathed spire with a focus stone burning at the top."""
+    lv = L()
+    m = machined()
+    pad(1.7, T, tier)
+    top = tower_body(0.5, 0.42, 0.88, 0.24, T)
+    string_course(0.46, 0.52, T)
+    buttresses(0.48, 0.26, 0.66, T, 4, 45)
+    window(0, -0.44, 0.6, T, 0.13, 0.28)
+    # rune gallery: floating stones that orbit the shaft
+    ring = 4 + lv // 8
+    for i in range(ring):
+        a = math.radians(i * (360.0 / ring) + 20)
+        box(0.09, 0.09, 0.14, (math.cos(a) * 0.5, math.sin(a) * 0.5, top - 0.06),
+            T['glow'], rot=(0, 0, a), emission=1.5, bevel=0.02)
+    balcony(0.44, top - 0.02, T, 20)
+    z = spire(0.44, 0.6 + lv * 0.008, top + 0.16, T)
+    sphere(0.15, (0, 0, z + 0.16), T['glow'], emission=1.9)
+    if lv >= 10:
+        torus(0.28, 0.022, (0, 0, z + 0.16), T['trim'], emission=1.2,
+              rot=(math.radians(70), 0, 0), metallic=0.7, rough=0.3)
+    if lv >= 18:
+        torus(0.34, 0.02, (0, 0, z + 0.16), T['accent'], emission=1.3,
+              rot=(math.radians(20), math.radians(40), 0))
+    yard_props(1.7, T)
+    tier_topper(z + 0.9, T, tier, 0.4)
 
 
 def b_sweeper(T, tier):
