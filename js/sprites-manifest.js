@@ -542,274 +542,274 @@
     "w": 137
    },
    "b_airdefense_L01": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L01.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L02": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L02.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L03": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 121.0,
+    "anchorY": 177.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L03.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 242,
+    "w": 242
    },
    "b_airdefense_L04": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 120.5,
+    "anchorY": 176.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L04.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 241,
+    "w": 241
    },
    "b_airdefense_L05": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 120.5,
+    "anchorY": 176.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L05.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 241,
+    "w": 241
    },
    "b_airdefense_L06": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 121.0,
+    "anchorY": 177.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L06.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 242,
+    "w": 242
    },
    "b_airdefense_L07": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L07.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L08": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L08.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L09": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L09.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L10": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L10.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L11": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L11.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L12": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L12.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L13": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L13.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L14": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L14.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L15": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L15.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L16": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 120.5,
+    "anchorY": 176.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L16.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 241,
+    "w": 241
    },
    "b_airdefense_L17": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 120.5,
+    "anchorY": 176.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L17.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 241,
+    "w": 241
    },
    "b_airdefense_L18": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 120.5,
+    "anchorY": 176.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L18.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 241,
+    "w": 241
    },
    "b_airdefense_L19": {
-    "anchorX": 128.5,
-    "anchorY": 190.7,
+    "anchorX": 120.5,
+    "anchorY": 176.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L19.png",
     "footprint": 3,
-    "h": 257,
-    "w": 257
+    "h": 241,
+    "w": 241
    },
    "b_airdefense_L20": {
-    "anchorX": 141.0,
-    "anchorY": 213.3,
+    "anchorX": 137.5,
+    "anchorY": 207.0,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L20.png",
     "footprint": 3,
-    "h": 282,
-    "w": 282
+    "h": 275,
+    "w": 275
    },
    "b_airdefense_L21": {
-    "anchorX": 124.0,
-    "anchorY": 182.6,
+    "anchorX": 120.5,
+    "anchorY": 176.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L21.png",
     "footprint": 3,
-    "h": 248,
-    "w": 248
+    "h": 241,
+    "w": 241
    },
    "b_airdefense_L22": {
-    "anchorX": 124.0,
-    "anchorY": 182.6,
+    "anchorX": 117.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L22.png",
     "footprint": 3,
-    "h": 248,
-    "w": 248
+    "h": 235,
+    "w": 235
    },
    "b_airdefense_L23": {
-    "anchorX": 124.0,
-    "anchorY": 182.6,
+    "anchorX": 117.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L23.png",
     "footprint": 3,
-    "h": 248,
-    "w": 248
+    "h": 235,
+    "w": 235
    },
    "b_airdefense_L24": {
-    "anchorX": 124.0,
-    "anchorY": 182.6,
+    "anchorX": 117.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L24.png",
     "footprint": 3,
-    "h": 248,
-    "w": 248
+    "h": 235,
+    "w": 235
    },
    "b_airdefense_L25": {
-    "anchorX": 124.0,
-    "anchorY": 182.6,
+    "anchorX": 117.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L25.png",
     "footprint": 3,
-    "h": 248,
-    "w": 248
+    "h": 235,
+    "w": 235
    },
    "b_airdefense_L26": {
-    "anchorX": 124.0,
-    "anchorY": 182.6,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L26.png",
     "footprint": 3,
-    "h": 248,
-    "w": 248
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L27": {
-    "anchorX": 124.0,
-    "anchorY": 182.6,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L27.png",
     "footprint": 3,
-    "h": 248,
-    "w": 248
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L28": {
-    "anchorX": 124.0,
-    "anchorY": 182.6,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L28.png",
     "footprint": 3,
-    "h": 248,
-    "w": 248
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L29": {
-    "anchorX": 124.0,
-    "anchorY": 182.6,
+    "anchorX": 128.0,
+    "anchorY": 189.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L29.png",
     "footprint": 3,
-    "h": 248,
-    "w": 248
+    "h": 256,
+    "w": 256
    },
    "b_airdefense_L30": {
-    "anchorX": 150.5,
-    "anchorY": 230.4,
+    "anchorX": 146.5,
+    "anchorY": 223.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L30.png",
     "footprint": 3,
-    "h": 301,
-    "w": 301
+    "h": 293,
+    "w": 293
    },
    "b_airsweeper_L01": {
     "anchorX": 118.0,
@@ -3782,274 +3782,274 @@
     "w": 289
    },
    "b_darkspellfactory_L01": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L01.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L02": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L02.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L03": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 115.0,
+    "anchorY": 166.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L03.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 230,
+    "w": 230
    },
    "b_darkspellfactory_L04": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.5,
+    "anchorY": 165.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L04.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 229,
+    "w": 229
    },
    "b_darkspellfactory_L05": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.5,
+    "anchorY": 165.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L05.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 229,
+    "w": 229
    },
    "b_darkspellfactory_L06": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 115.0,
+    "anchorY": 166.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L06.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 230,
+    "w": 230
    },
    "b_darkspellfactory_L07": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L07.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L08": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L08.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L09": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L09.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L10": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L10.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L11": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L11.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L12": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L12.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L13": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L13.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L14": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L14.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L15": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L15.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L16": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.0,
+    "anchorY": 164.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L16.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 228,
+    "w": 228
    },
    "b_darkspellfactory_L17": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.0,
+    "anchorY": 164.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L17.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 228,
+    "w": 228
    },
    "b_darkspellfactory_L18": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.0,
+    "anchorY": 164.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L18.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 228,
+    "w": 228
    },
    "b_darkspellfactory_L19": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.0,
+    "anchorY": 164.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L19.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 228,
+    "w": 228
    },
    "b_darkspellfactory_L20": {
-    "anchorX": 134.0,
-    "anchorY": 200.6,
+    "anchorX": 135.5,
+    "anchorY": 203.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L20.png",
     "footprint": 3,
-    "h": 268,
-    "w": 268
+    "h": 271,
+    "w": 271
    },
    "b_darkspellfactory_L21": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.0,
+    "anchorY": 164.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L21.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 228,
+    "w": 228
    },
    "b_darkspellfactory_L22": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 111.5,
+    "anchorY": 159.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L22.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 223,
+    "w": 223
    },
    "b_darkspellfactory_L23": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 111.5,
+    "anchorY": 159.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L23.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 223,
+    "w": 223
    },
    "b_darkspellfactory_L24": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 111.5,
+    "anchorY": 159.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L24.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 223,
+    "w": 223
    },
    "b_darkspellfactory_L25": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 111.5,
+    "anchorY": 159.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L25.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 223,
+    "w": 223
    },
    "b_darkspellfactory_L26": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L26.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L27": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L27.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L28": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L28.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L29": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L29.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_darkspellfactory_L30": {
-    "anchorX": 144.0,
-    "anchorY": 218.7,
+    "anchorX": 144.5,
+    "anchorY": 219.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L30.png",
     "footprint": 3,
-    "h": 288,
-    "w": 288
+    "h": 289,
+    "w": 289
    },
    "b_darkstorage_L01": {
     "anchorX": 109.5,
@@ -4592,278 +4592,278 @@
     "w": 336
    },
    "b_elixircollector_L01": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 103.0,
+    "anchorY": 144.0,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L01.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 206,
+    "w": 206
    },
    "b_elixircollector_L02": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 103.0,
+    "anchorY": 144.0,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L02.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 206,
+    "w": 206
    },
    "b_elixircollector_L03": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 106.5,
+    "anchorY": 151.0,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L03.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 213,
+    "w": 213
    },
    "b_elixircollector_L04": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 106.5,
+    "anchorY": 150.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L04.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 213,
+    "w": 213
    },
    "b_elixircollector_L05": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 106.0,
+    "anchorY": 150.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L05.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 212,
+    "w": 212
    },
    "b_elixircollector_L06": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 106.5,
+    "anchorY": 151.0,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L06.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 213,
+    "w": 213
    },
    "b_elixircollector_L07": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L07.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L08": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L08.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L09": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L09.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L10": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L10.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L11": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L11.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L12": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L12.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L13": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L13.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L14": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L14.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L15": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L15.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L16": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 105.5,
+    "anchorY": 149.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L16.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 211,
+    "w": 211
    },
    "b_elixircollector_L17": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 105.5,
+    "anchorY": 149.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L17.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 211,
+    "w": 211
    },
    "b_elixircollector_L18": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 105.5,
+    "anchorY": 149.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L18.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 211,
+    "w": 211
    },
    "b_elixircollector_L19": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 105.5,
+    "anchorY": 149.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L19.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 211,
+    "w": 211
    },
    "b_elixircollector_L20": {
-    "anchorX": 117.5,
-    "anchorY": 170.8,
+    "anchorX": 120.5,
+    "anchorY": 176.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L20.png",
     "footprint": 3,
-    "h": 235,
-    "w": 235
+    "h": 241,
+    "w": 241
    },
    "b_elixircollector_L21": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 105.5,
+    "anchorY": 149.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L21.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 211,
+    "w": 211
    },
    "b_elixircollector_L22": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 103.0,
+    "anchorY": 144.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L22.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 206,
+    "w": 206
    },
    "b_elixircollector_L23": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 103.0,
+    "anchorY": 144.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L23.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 206,
+    "w": 206
    },
    "b_elixircollector_L24": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 103.0,
+    "anchorY": 144.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L24.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 206,
+    "w": 206
    },
    "b_elixircollector_L25": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 103.0,
+    "anchorY": 144.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L25.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 206,
+    "w": 206
    },
    "b_elixircollector_L26": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L26.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L27": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L27.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L28": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L28.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L29": {
-    "anchorX": 114.5,
-    "anchorY": 165.4,
+    "anchorX": 110.5,
+    "anchorY": 158.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L29.png",
     "footprint": 3,
-    "h": 229,
-    "w": 229
+    "h": 221,
+    "w": 221
    },
    "b_elixircollector_L30": {
-    "anchorX": 127.5,
-    "anchorY": 188.8,
+    "anchorX": 130.0,
+    "anchorY": 193.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L30.png",
     "footprint": 3,
-    "h": 255,
-    "w": 255
+    "h": 260,
+    "w": 260
    },
    "b_elixirstorage_L01": {
     "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorY": 142.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L01.png",
     "footprint": 3,
@@ -4872,7 +4872,7 @@
    },
    "b_elixirstorage_L02": {
     "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorY": 142.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L02.png",
     "footprint": 3,
@@ -4880,256 +4880,256 @@
     "w": 206
    },
    "b_elixirstorage_L03": {
-    "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorX": 105.5,
+    "anchorY": 149.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L03.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 211,
+    "w": 211
    },
    "b_elixirstorage_L04": {
-    "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorX": 105.5,
+    "anchorY": 149.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L04.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 211,
+    "w": 211
    },
    "b_elixirstorage_L05": {
-    "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorX": 105.0,
+    "anchorY": 148.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L05.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 210,
+    "w": 210
    },
    "b_elixirstorage_L06": {
-    "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorX": 105.5,
+    "anchorY": 149.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L06.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 211,
+    "w": 211
    },
    "b_elixirstorage_L07": {
-    "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L07.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L08": {
-    "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L08.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L09": {
-    "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L09.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L10": {
-    "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L10.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L11": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L11.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L12": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L12.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L13": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L13.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L14": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L14.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L15": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L15.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L16": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 104.5,
+    "anchorY": 147.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L16.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 209,
+    "w": 209
    },
    "b_elixirstorage_L17": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 104.5,
+    "anchorY": 147.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L17.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 209,
+    "w": 209
    },
    "b_elixirstorage_L18": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 104.5,
+    "anchorY": 147.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L18.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 209,
+    "w": 209
    },
    "b_elixirstorage_L19": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 104.5,
+    "anchorY": 147.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L19.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 209,
+    "w": 209
    },
    "b_elixirstorage_L20": {
-    "anchorX": 120.0,
-    "anchorY": 175.3,
+    "anchorX": 128.0,
+    "anchorY": 189.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L20.png",
     "footprint": 3,
-    "h": 240,
-    "w": 240
+    "h": 256,
+    "w": 256
    },
    "b_elixirstorage_L21": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 104.5,
+    "anchorY": 147.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L21.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 209,
+    "w": 209
    },
    "b_elixirstorage_L22": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 103.0,
+    "anchorY": 143.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L22.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 206,
+    "w": 206
    },
    "b_elixirstorage_L23": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 103.0,
+    "anchorY": 143.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L23.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 206,
+    "w": 206
    },
    "b_elixirstorage_L24": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 103.0,
+    "anchorY": 143.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L24.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 206,
+    "w": 206
    },
    "b_elixirstorage_L25": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 103.0,
+    "anchorY": 143.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L25.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 206,
+    "w": 206
    },
    "b_elixirstorage_L26": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L26.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L27": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L27.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L28": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L28.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L29": {
-    "anchorX": 107.0,
-    "anchorY": 151.8,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L29.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 218,
+    "w": 218
    },
    "b_elixirstorage_L30": {
-    "anchorX": 130.0,
-    "anchorY": 193.4,
+    "anchorX": 138.0,
+    "anchorY": 207.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L30.png",
     "footprint": 3,
-    "h": 260,
-    "w": 260
+    "h": 276,
+    "w": 276
    },
    "b_empmine_L01": {
     "anchorX": 68.5,
@@ -5942,274 +5942,274 @@
     "w": 137
    },
    "b_goldmine_L01": {
-    "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L01.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 226,
+    "w": 226
    },
    "b_goldmine_L02": {
-    "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L02.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 226,
+    "w": 226
    },
    "b_goldmine_L03": {
-    "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorX": 111.0,
+    "anchorY": 159.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L03.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 222,
+    "w": 222
    },
    "b_goldmine_L04": {
-    "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorX": 111.0,
+    "anchorY": 159.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L04.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 222,
+    "w": 222
    },
    "b_goldmine_L05": {
-    "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorX": 111.0,
+    "anchorY": 159.0,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L05.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 222,
+    "w": 222
    },
    "b_goldmine_L06": {
-    "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorX": 111.0,
+    "anchorY": 159.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L06.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 222,
+    "w": 222
    },
    "b_goldmine_L07": {
-    "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L07.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L08": {
-    "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L08.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L09": {
-    "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L09.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L10": {
-    "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L10.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L11": {
-    "anchorX": 103.0,
-    "anchorY": 142.7,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L11.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L12": {
-    "anchorX": 103.0,
-    "anchorY": 142.7,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L12.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L13": {
-    "anchorX": 103.0,
-    "anchorY": 142.7,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L13.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L14": {
-    "anchorX": 103.0,
-    "anchorY": 142.7,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L14.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L15": {
-    "anchorX": 103.0,
-    "anchorY": 142.7,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L15.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L16": {
-    "anchorX": 103.0,
-    "anchorY": 142.7,
+    "anchorX": 110.5,
+    "anchorY": 158.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L16.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 221,
+    "w": 221
    },
    "b_goldmine_L17": {
-    "anchorX": 103.0,
-    "anchorY": 142.7,
+    "anchorX": 110.5,
+    "anchorY": 158.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L17.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 221,
+    "w": 221
    },
    "b_goldmine_L18": {
-    "anchorX": 103.0,
-    "anchorY": 142.7,
+    "anchorX": 110.5,
+    "anchorY": 158.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L18.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 221,
+    "w": 221
    },
    "b_goldmine_L19": {
-    "anchorX": 103.0,
-    "anchorY": 142.7,
+    "anchorX": 110.5,
+    "anchorY": 158.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L19.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 221,
+    "w": 221
    },
    "b_goldmine_L20": {
-    "anchorX": 103.0,
-    "anchorY": 144.2,
+    "anchorX": 124.5,
+    "anchorY": 183.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L20.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 249,
+    "w": 249
    },
    "b_goldmine_L21": {
-    "anchorX": 103.0,
-    "anchorY": 131.3,
+    "anchorX": 110.5,
+    "anchorY": 158.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L21.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 221,
+    "w": 221
    },
    "b_goldmine_L22": {
-    "anchorX": 103.0,
-    "anchorY": 131.3,
+    "anchorX": 107.5,
+    "anchorY": 152.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L22.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 215,
+    "w": 215
    },
    "b_goldmine_L23": {
-    "anchorX": 103.0,
-    "anchorY": 131.3,
+    "anchorX": 107.5,
+    "anchorY": 152.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L23.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 215,
+    "w": 215
    },
    "b_goldmine_L24": {
-    "anchorX": 103.0,
-    "anchorY": 131.3,
+    "anchorX": 107.5,
+    "anchorY": 152.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L24.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 215,
+    "w": 215
    },
    "b_goldmine_L25": {
-    "anchorX": 103.0,
-    "anchorY": 131.3,
+    "anchorX": 107.5,
+    "anchorY": 152.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L25.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 215,
+    "w": 215
    },
    "b_goldmine_L26": {
-    "anchorX": 103.0,
-    "anchorY": 131.3,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L26.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L27": {
-    "anchorX": 103.0,
-    "anchorY": 131.3,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L27.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L28": {
-    "anchorX": 103.0,
-    "anchorY": 131.3,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L28.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L29": {
-    "anchorX": 103.0,
-    "anchorY": 131.3,
+    "anchorX": 116.0,
+    "anchorY": 168.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L29.png",
     "footprint": 3,
-    "h": 206,
-    "w": 206
+    "h": 232,
+    "w": 232
    },
    "b_goldmine_L30": {
-    "anchorX": 111.5,
-    "anchorY": 160.1,
+    "anchorX": 134.0,
+    "anchorY": 200.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L30.png",
     "footprint": 3,
-    "h": 223,
-    "w": 223
+    "h": 268,
+    "w": 268
    },
    "b_goldstorage_L01": {
     "anchorX": 103.0,
@@ -6753,7 +6753,7 @@
    },
    "b_herohall_L01": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L01.png",
     "footprint": 4,
@@ -6762,7 +6762,7 @@
    },
    "b_herohall_L02": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L02.png",
     "footprint": 4,
@@ -6771,7 +6771,7 @@
    },
    "b_herohall_L03": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 174.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L03.png",
     "footprint": 4,
@@ -6780,7 +6780,7 @@
    },
    "b_herohall_L04": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 174.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L04.png",
     "footprint": 4,
@@ -6789,7 +6789,7 @@
    },
    "b_herohall_L05": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 174.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L05.png",
     "footprint": 4,
@@ -6798,7 +6798,7 @@
    },
    "b_herohall_L06": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 174.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L06.png",
     "footprint": 4,
@@ -6807,7 +6807,7 @@
    },
    "b_herohall_L07": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L07.png",
     "footprint": 4,
@@ -6816,7 +6816,7 @@
    },
    "b_herohall_L08": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L08.png",
     "footprint": 4,
@@ -6825,7 +6825,7 @@
    },
    "b_herohall_L09": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L09.png",
     "footprint": 4,
@@ -6834,7 +6834,7 @@
    },
    "b_herohall_L10": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L10.png",
     "footprint": 4,
@@ -6843,7 +6843,7 @@
    },
    "b_herohall_L11": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L11.png",
     "footprint": 4,
@@ -6852,7 +6852,7 @@
    },
    "b_herohall_L12": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L12.png",
     "footprint": 4,
@@ -6861,7 +6861,7 @@
    },
    "b_herohall_L13": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L13.png",
     "footprint": 4,
@@ -6870,7 +6870,7 @@
    },
    "b_herohall_L14": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L14.png",
     "footprint": 4,
@@ -6879,7 +6879,7 @@
    },
    "b_herohall_L15": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L15.png",
     "footprint": 4,
@@ -6888,7 +6888,7 @@
    },
    "b_herohall_L16": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 171.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L16.png",
     "footprint": 4,
@@ -6897,7 +6897,7 @@
    },
    "b_herohall_L17": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 171.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L17.png",
     "footprint": 4,
@@ -6906,7 +6906,7 @@
    },
    "b_herohall_L18": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 171.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L18.png",
     "footprint": 4,
@@ -6915,7 +6915,7 @@
    },
    "b_herohall_L19": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 171.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L19.png",
     "footprint": 4,
@@ -6924,7 +6924,7 @@
    },
    "b_herohall_L20": {
     "anchorX": 137.0,
-    "anchorY": 178.8,
+    "anchorY": 179.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L20.png",
     "footprint": 4,
@@ -6933,7 +6933,7 @@
    },
    "b_herohall_L21": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 171.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L21.png",
     "footprint": 4,
@@ -6942,7 +6942,7 @@
    },
    "b_herohall_L22": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L22.png",
     "footprint": 4,
@@ -6951,7 +6951,7 @@
    },
    "b_herohall_L23": {
     "anchorX": 137.0,
-    "anchorY": 170.5,
+    "anchorY": 170.8,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L23.png",
     "footprint": 4,
@@ -6960,7 +6960,7 @@
    },
    "b_herohall_L24": {
     "anchorX": 137.0,
-    "anchorY": 173.5,
+    "anchorY": 173.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L24.png",
     "footprint": 4,
@@ -6969,7 +6969,7 @@
    },
    "b_herohall_L25": {
     "anchorX": 137.0,
-    "anchorY": 173.5,
+    "anchorY": 173.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L25.png",
     "footprint": 4,
@@ -6978,7 +6978,7 @@
    },
    "b_herohall_L26": {
     "anchorX": 137.0,
-    "anchorY": 173.5,
+    "anchorY": 173.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L26.png",
     "footprint": 4,
@@ -6987,7 +6987,7 @@
    },
    "b_herohall_L27": {
     "anchorX": 137.0,
-    "anchorY": 173.5,
+    "anchorY": 173.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L27.png",
     "footprint": 4,
@@ -6996,7 +6996,7 @@
    },
    "b_herohall_L28": {
     "anchorX": 137.0,
-    "anchorY": 173.5,
+    "anchorY": 173.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L28.png",
     "footprint": 4,
@@ -7005,7 +7005,7 @@
    },
    "b_herohall_L29": {
     "anchorX": 137.0,
-    "anchorY": 173.5,
+    "anchorY": 173.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L29.png",
     "footprint": 4,
@@ -7014,7 +7014,7 @@
    },
    "b_herohall_L30": {
     "anchorX": 137.0,
-    "anchorY": 184.6,
+    "anchorY": 185.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L30.png",
     "footprint": 4,
@@ -7292,274 +7292,274 @@
     "w": 305
    },
    "b_laboratory_L01": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L01.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L02": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L02.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L03": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 109.0,
+    "anchorY": 155.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L03.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 218,
+    "w": 218
    },
    "b_laboratory_L04": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 108.5,
+    "anchorY": 154.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L04.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 217,
+    "w": 217
    },
    "b_laboratory_L05": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 108.5,
+    "anchorY": 154.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L05.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 217,
+    "w": 217
    },
    "b_laboratory_L06": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 109.0,
+    "anchorY": 155.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L06.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 218,
+    "w": 218
    },
    "b_laboratory_L07": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L07.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L08": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L08.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L09": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L09.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L10": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L10.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L11": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L11.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L12": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L12.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L13": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L13.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L14": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L14.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L15": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L15.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L16": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 108.0,
+    "anchorY": 153.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L16.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 216,
+    "w": 216
    },
    "b_laboratory_L17": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 108.0,
+    "anchorY": 153.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L17.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 216,
+    "w": 216
    },
    "b_laboratory_L18": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 108.0,
+    "anchorY": 153.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L18.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 216,
+    "w": 216
    },
    "b_laboratory_L19": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 108.0,
+    "anchorY": 153.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L19.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 216,
+    "w": 216
    },
    "b_laboratory_L20": {
-    "anchorX": 124.5,
-    "anchorY": 183.5,
+    "anchorX": 129.0,
+    "anchorY": 191.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L20.png",
     "footprint": 3,
-    "h": 249,
-    "w": 249
+    "h": 258,
+    "w": 258
    },
    "b_laboratory_L21": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 108.0,
+    "anchorY": 153.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L21.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 216,
+    "w": 216
    },
    "b_laboratory_L22": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 105.0,
+    "anchorY": 148.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L22.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 210,
+    "w": 210
    },
    "b_laboratory_L23": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 105.0,
+    "anchorY": 148.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L23.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 210,
+    "w": 210
    },
    "b_laboratory_L24": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 105.0,
+    "anchorY": 148.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L24.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 210,
+    "w": 210
    },
    "b_laboratory_L25": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 105.0,
+    "anchorY": 148.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L25.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 210,
+    "w": 210
    },
    "b_laboratory_L26": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L26.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L27": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L27.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L28": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L28.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L29": {
-    "anchorX": 117.0,
-    "anchorY": 169.9,
+    "anchorX": 113.0,
+    "anchorY": 162.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L29.png",
     "footprint": 3,
-    "h": 234,
-    "w": 234
+    "h": 226,
+    "w": 226
    },
    "b_laboratory_L30": {
-    "anchorX": 134.5,
-    "anchorY": 201.5,
+    "anchorX": 138.0,
+    "anchorY": 207.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L30.png",
     "footprint": 3,
-    "h": 269,
-    "w": 269
+    "h": 276,
+    "w": 276
    },
    "b_mirrortrap_L01": {
     "anchorX": 68.5,
@@ -8102,274 +8102,274 @@
     "w": 412
    },
    "b_mortar_L01": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L01.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L02": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L02.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L03": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 105.5,
+    "anchorY": 149.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L03.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 211,
+    "w": 211
    },
    "b_mortar_L04": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 105.0,
+    "anchorY": 148.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L04.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 210,
+    "w": 210
    },
    "b_mortar_L05": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 105.0,
+    "anchorY": 148.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L05.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 210,
+    "w": 210
    },
    "b_mortar_L06": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 105.5,
+    "anchorY": 149.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L06.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 211,
+    "w": 211
    },
    "b_mortar_L07": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L07.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L08": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L08.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L09": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L09.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L10": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L10.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L11": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L11.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L12": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L12.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L13": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L13.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L14": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L14.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L15": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L15.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L16": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 104.0,
+    "anchorY": 146.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L16.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 208,
+    "w": 208
    },
    "b_mortar_L17": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 104.0,
+    "anchorY": 146.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L17.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 208,
+    "w": 208
    },
    "b_mortar_L18": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 104.0,
+    "anchorY": 146.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L18.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 208,
+    "w": 208
    },
    "b_mortar_L19": {
-    "anchorX": 106.5,
-    "anchorY": 151.0,
+    "anchorX": 104.0,
+    "anchorY": 146.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L19.png",
     "footprint": 3,
-    "h": 213,
-    "w": 213
+    "h": 208,
+    "w": 208
    },
    "b_mortar_L20": {
-    "anchorX": 117.5,
-    "anchorY": 170.8,
+    "anchorX": 123.0,
+    "anchorY": 180.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L20.png",
     "footprint": 3,
-    "h": 235,
-    "w": 235
+    "h": 246,
+    "w": 246
    },
    "b_mortar_L21": {
-    "anchorX": 111.0,
-    "anchorY": 159.0,
+    "anchorX": 104.0,
+    "anchorY": 146.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L21.png",
     "footprint": 3,
-    "h": 222,
-    "w": 222
+    "h": 208,
+    "w": 208
    },
    "b_mortar_L22": {
-    "anchorX": 111.0,
-    "anchorY": 159.0,
+    "anchorX": 103.0,
+    "anchorY": 143.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L22.png",
     "footprint": 3,
-    "h": 222,
-    "w": 222
+    "h": 206,
+    "w": 206
    },
    "b_mortar_L23": {
-    "anchorX": 111.0,
-    "anchorY": 159.0,
+    "anchorX": 103.0,
+    "anchorY": 143.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L23.png",
     "footprint": 3,
-    "h": 222,
-    "w": 222
+    "h": 206,
+    "w": 206
    },
    "b_mortar_L24": {
-    "anchorX": 111.0,
-    "anchorY": 159.0,
+    "anchorX": 103.0,
+    "anchorY": 143.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L24.png",
     "footprint": 3,
-    "h": 222,
-    "w": 222
+    "h": 206,
+    "w": 206
    },
    "b_mortar_L25": {
-    "anchorX": 111.0,
-    "anchorY": 159.0,
+    "anchorX": 103.0,
+    "anchorY": 143.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L25.png",
     "footprint": 3,
-    "h": 222,
-    "w": 222
+    "h": 206,
+    "w": 206
    },
    "b_mortar_L26": {
-    "anchorX": 111.0,
-    "anchorY": 159.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L26.png",
     "footprint": 3,
-    "h": 222,
-    "w": 222
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L27": {
-    "anchorX": 111.0,
-    "anchorY": 159.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L27.png",
     "footprint": 3,
-    "h": 222,
-    "w": 222
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L28": {
-    "anchorX": 111.0,
-    "anchorY": 159.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L28.png",
     "footprint": 3,
-    "h": 222,
-    "w": 222
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L29": {
-    "anchorX": 111.0,
-    "anchorY": 159.0,
+    "anchorX": 109.5,
+    "anchorY": 156.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L29.png",
     "footprint": 3,
-    "h": 222,
-    "w": 222
+    "h": 219,
+    "w": 219
    },
    "b_mortar_L30": {
-    "anchorX": 127.5,
-    "anchorY": 189.0,
+    "anchorX": 132.5,
+    "anchorY": 197.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L30.png",
     "footprint": 3,
-    "h": 255,
-    "w": 255
+    "h": 265,
+    "w": 265
    },
    "b_multiarcher_L01": {
     "anchorX": 126.0,
@@ -11612,274 +11612,274 @@
     "w": 137
    },
    "b_spellfactory_L01": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L01.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L02": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L02.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L03": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 115.0,
+    "anchorY": 166.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L03.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 230,
+    "w": 230
    },
    "b_spellfactory_L04": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.5,
+    "anchorY": 165.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L04.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 229,
+    "w": 229
    },
    "b_spellfactory_L05": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.5,
+    "anchorY": 165.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L05.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 229,
+    "w": 229
    },
    "b_spellfactory_L06": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 115.0,
+    "anchorY": 166.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L06.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 230,
+    "w": 230
    },
    "b_spellfactory_L07": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L07.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L08": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L08.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L09": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L09.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L10": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L10.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L11": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L11.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L12": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L12.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L13": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L13.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L14": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L14.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L15": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L15.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L16": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.0,
+    "anchorY": 164.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L16.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 228,
+    "w": 228
    },
    "b_spellfactory_L17": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.0,
+    "anchorY": 164.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L17.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 228,
+    "w": 228
    },
    "b_spellfactory_L18": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.0,
+    "anchorY": 164.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L18.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 228,
+    "w": 228
    },
    "b_spellfactory_L19": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.0,
+    "anchorY": 164.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L19.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 228,
+    "w": 228
    },
    "b_spellfactory_L20": {
-    "anchorX": 134.0,
-    "anchorY": 200.6,
+    "anchorX": 135.5,
+    "anchorY": 203.3,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L20.png",
     "footprint": 3,
-    "h": 268,
-    "w": 268
+    "h": 271,
+    "w": 271
    },
    "b_spellfactory_L21": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 114.0,
+    "anchorY": 164.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L21.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 228,
+    "w": 228
    },
    "b_spellfactory_L22": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 111.5,
+    "anchorY": 159.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L22.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 223,
+    "w": 223
    },
    "b_spellfactory_L23": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 111.5,
+    "anchorY": 159.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L23.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 223,
+    "w": 223
    },
    "b_spellfactory_L24": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 111.5,
+    "anchorY": 159.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L24.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 223,
+    "w": 223
    },
    "b_spellfactory_L25": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 111.5,
+    "anchorY": 159.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L25.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 223,
+    "w": 223
    },
    "b_spellfactory_L26": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L26.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L27": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L27.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L28": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L28.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L29": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 120.0,
+    "anchorY": 175.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L29.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 240,
+    "w": 240
    },
    "b_spellfactory_L30": {
-    "anchorX": 144.0,
-    "anchorY": 218.7,
+    "anchorX": 144.5,
+    "anchorY": 219.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L30.png",
     "footprint": 3,
-    "h": 288,
-    "w": 288
+    "h": 289,
+    "w": 289
    },
    "b_springtrap_L01": {
     "anchorX": 68.5,
@@ -12962,274 +12962,274 @@
     "w": 206
    },
    "b_wizardtower_L01": {
-    "anchorX": 127.0,
-    "anchorY": 188.0,
+    "anchorX": 131.5,
+    "anchorY": 196.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L01.png",
     "footprint": 3,
-    "h": 254,
-    "w": 254
+    "h": 263,
+    "w": 263
    },
    "b_wizardtower_L02": {
-    "anchorX": 127.0,
-    "anchorY": 188.0,
+    "anchorX": 131.5,
+    "anchorY": 196.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L02.png",
     "footprint": 3,
-    "h": 254,
-    "w": 254
+    "h": 263,
+    "w": 263
    },
    "b_wizardtower_L03": {
-    "anchorX": 127.0,
-    "anchorY": 188.0,
+    "anchorX": 124.0,
+    "anchorY": 182.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L03.png",
     "footprint": 3,
-    "h": 254,
-    "w": 254
+    "h": 248,
+    "w": 248
    },
    "b_wizardtower_L04": {
-    "anchorX": 127.0,
-    "anchorY": 188.0,
+    "anchorX": 124.0,
+    "anchorY": 182.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L04.png",
     "footprint": 3,
-    "h": 254,
-    "w": 254
+    "h": 248,
+    "w": 248
    },
    "b_wizardtower_L05": {
-    "anchorX": 127.0,
-    "anchorY": 188.0,
+    "anchorX": 124.5,
+    "anchorY": 183.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L05.png",
     "footprint": 3,
-    "h": 254,
-    "w": 254
+    "h": 249,
+    "w": 249
    },
    "b_wizardtower_L06": {
-    "anchorX": 127.0,
-    "anchorY": 188.0,
+    "anchorX": 125.0,
+    "anchorY": 184.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L06.png",
     "footprint": 3,
-    "h": 254,
-    "w": 254
+    "h": 250,
+    "w": 250
    },
    "b_wizardtower_L07": {
-    "anchorX": 127.0,
-    "anchorY": 188.0,
+    "anchorX": 132.5,
+    "anchorY": 197.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L07.png",
     "footprint": 3,
-    "h": 254,
-    "w": 254
+    "h": 265,
+    "w": 265
    },
    "b_wizardtower_L08": {
-    "anchorX": 127.0,
-    "anchorY": 188.0,
+    "anchorX": 132.5,
+    "anchorY": 197.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L08.png",
     "footprint": 3,
-    "h": 254,
-    "w": 254
+    "h": 265,
+    "w": 265
    },
    "b_wizardtower_L09": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 132.5,
+    "anchorY": 197.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L09.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 265,
+    "w": 265
    },
    "b_wizardtower_L10": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 139.0,
+    "anchorY": 209.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L10.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 278,
+    "w": 278
    },
    "b_wizardtower_L11": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 139.0,
+    "anchorY": 209.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L11.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 278,
+    "w": 278
    },
    "b_wizardtower_L12": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 139.0,
+    "anchorY": 209.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L12.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 278,
+    "w": 278
    },
    "b_wizardtower_L13": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 140.0,
+    "anchorY": 211.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L13.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 280,
+    "w": 280
    },
    "b_wizardtower_L14": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 140.0,
+    "anchorY": 211.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L14.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 280,
+    "w": 280
    },
    "b_wizardtower_L15": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 140.0,
+    "anchorY": 211.5,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L15.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 280,
+    "w": 280
    },
    "b_wizardtower_L16": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 131.5,
+    "anchorY": 196.0,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L16.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 263,
+    "w": 263
    },
    "b_wizardtower_L17": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 132.5,
+    "anchorY": 197.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L17.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 265,
+    "w": 265
    },
    "b_wizardtower_L18": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 134.0,
+    "anchorY": 200.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L18.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 268,
+    "w": 268
    },
    "b_wizardtower_L19": {
-    "anchorX": 126.5,
-    "anchorY": 187.1,
+    "anchorX": 134.0,
+    "anchorY": 200.6,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L19.png",
     "footprint": 3,
-    "h": 253,
-    "w": 253
+    "h": 268,
+    "w": 268
    },
    "b_wizardtower_L20": {
-    "anchorX": 145.0,
-    "anchorY": 220.5,
+    "anchorX": 162.5,
+    "anchorY": 252.2,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L20.png",
     "footprint": 3,
-    "h": 290,
-    "w": 290
+    "h": 325,
+    "w": 325
    },
    "b_wizardtower_L21": {
-    "anchorX": 133.5,
-    "anchorY": 199.8,
+    "anchorX": 135.0,
+    "anchorY": 202.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L21.png",
     "footprint": 3,
-    "h": 267,
-    "w": 267
+    "h": 270,
+    "w": 270
    },
    "b_wizardtower_L22": {
-    "anchorX": 133.5,
-    "anchorY": 199.8,
+    "anchorX": 132.0,
+    "anchorY": 197.0,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L22.png",
     "footprint": 3,
-    "h": 267,
-    "w": 267
+    "h": 264,
+    "w": 264
    },
    "b_wizardtower_L23": {
-    "anchorX": 133.5,
-    "anchorY": 199.8,
+    "anchorX": 132.0,
+    "anchorY": 197.0,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L23.png",
     "footprint": 3,
-    "h": 267,
-    "w": 267
+    "h": 264,
+    "w": 264
    },
    "b_wizardtower_L24": {
-    "anchorX": 133.5,
-    "anchorY": 199.8,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L24.png",
     "footprint": 3,
-    "h": 267,
-    "w": 267
+    "h": 266,
+    "w": 266
    },
    "b_wizardtower_L25": {
-    "anchorX": 133.5,
-    "anchorY": 199.8,
+    "anchorX": 134.0,
+    "anchorY": 200.7,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L25.png",
     "footprint": 3,
-    "h": 267,
-    "w": 267
+    "h": 268,
+    "w": 268
    },
    "b_wizardtower_L26": {
-    "anchorX": 133.5,
-    "anchorY": 199.8,
+    "anchorX": 147.0,
+    "anchorY": 224.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L26.png",
     "footprint": 3,
-    "h": 267,
-    "w": 267
+    "h": 294,
+    "w": 294
    },
    "b_wizardtower_L27": {
-    "anchorX": 133.5,
-    "anchorY": 199.8,
+    "anchorX": 147.0,
+    "anchorY": 224.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L27.png",
     "footprint": 3,
-    "h": 267,
-    "w": 267
+    "h": 294,
+    "w": 294
    },
    "b_wizardtower_L28": {
-    "anchorX": 133.5,
-    "anchorY": 199.8,
+    "anchorX": 147.0,
+    "anchorY": 224.1,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L28.png",
     "footprint": 3,
-    "h": 267,
-    "w": 267
+    "h": 294,
+    "w": 294
    },
    "b_wizardtower_L29": {
-    "anchorX": 133.5,
-    "anchorY": 199.8,
+    "anchorX": 148.0,
+    "anchorY": 226.0,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L29.png",
     "footprint": 3,
-    "h": 267,
-    "w": 267
+    "h": 296,
+    "w": 296
    },
    "b_wizardtower_L30": {
-    "anchorX": 154.5,
-    "anchorY": 237.6,
+    "anchorX": 176.5,
+    "anchorY": 277.4,
     "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L30.png",
     "footprint": 3,
-    "h": 309,
-    "w": 309
+    "h": 353,
+    "w": 353
    },
    "b_xbow_L01": {
     "anchorX": 105.5,

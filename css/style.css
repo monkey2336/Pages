@@ -390,6 +390,9 @@ main { flex: 1; padding: 18px; max-width: 1280px; width: 100%; margin: 0 auto; }
 
 .iso-obj .lvl {
   position: absolute;
+  /* Above the sprite: giving the image a stacking order for the drawn shadow
+     otherwise buries the badge behind it. */
+  z-index: 2;
   left: var(--anchor-x, 50%);
   top: var(--anchor-y, 90%);
   transform: translate(-50%, -2px);
@@ -400,6 +403,7 @@ main { flex: 1; padding: 18px; max-width: 1280px; width: 100%; margin: 0 auto; }
   border: 1px solid rgba(255, 255, 255, 0.14);
 }
 .iso-obj .clock {
+  z-index: 2;
   position: absolute;
   left: var(--anchor-x, 50%);
   top: var(--anchor-y, 20%);
