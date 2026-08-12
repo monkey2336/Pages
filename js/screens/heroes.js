@@ -4,6 +4,16 @@
 
   var ui = G.ui, E = G.engine, SP = G.sprites;
 
+
+  // The Town Hall that lifts a hero's ceiling past a given level, or null when
+  // the hero has nowhere left to go.
+  function thForHeroLevel(h, level) {
+    for (var th = h.unlockTH; th <= 30; th++) {
+      if (G.heroMaxLevel(h.key, th) >= level) return th;
+    }
+    return null;
+  }
+
   function heroIcon(h, px, level) {
     var key = SP.heroKey(h.key, level || 1);
     return key ? SP.img(key, px, h.name) : G.art.unitSVG(h.art, h.tint, px);
@@ -47,7 +57,9 @@
           : hs.upgrading
             ? ui.jobHTML(hs.upgrading, 'data-act="skip-hero" data-key="' + h.key + '"')
             : hs.level >= maxLvl
-              ? '<span class="pill ok">Maxed for Town Hall ' + s.th + '</span>'
+              ? thForHeroLevel(h, hs.level + 1)
+                ? '<span class="pill">Town Hall ' + thForHeroLevel(h, hs.level + 1) + ' for the next level</span>'
+                : '<span class="pill max">Max level</span>'
               : '<button class="btn sm" data-act="upgrade-hero" data-key="' + h.key + '">' +
                 (hs.level === 0 ? 'Summon' : 'Upgrade to ' + next) + ' · ' + ui.fmt(cost) + ' ' + h.res + '</button>' +
                 '<div class="timer">' + ui.fmtTime(secs) + (short ? ' · not enough ' + h.res : '') + '</div>') +

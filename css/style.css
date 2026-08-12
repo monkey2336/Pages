@@ -564,6 +564,11 @@ table.list td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .pill.ok { background: linear-gradient(180deg, #3a9a63, #2f7d4f); border-color: #256b42; }
 .pill.warn { background: linear-gradient(180deg, #a8842a, #8a6a1f); border-color: #6f5418; }
 .pill.bad { background: linear-gradient(180deg, #a83a4c, #8a2f3f); border-color: #6f2432; }
+/* Nothing left to buy, anywhere -- distinct from "your Town Hall is too low". */
+.pill.max {
+  background: linear-gradient(180deg, #ffdf87, #d5a12c); border-color: #a87f22;
+  color: #2a2205; font-weight: 800; letter-spacing: 0.04em;
+}
 
 input[type="number"], input[type="text"], select, textarea {
   background: rgba(0, 0, 0, 0.42); color: var(--ink);

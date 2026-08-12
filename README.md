@@ -70,6 +70,20 @@ the Blacksmith, and a **pet** from the Pet House. The Hall trains heroes on its
 own queue rather than consuming Builders, and gains a concurrent training slot
 every 12 Town Hall levels.
 
+### A Shop, and upgrade sheets that tell you why you cannot upgrade
+The **Shop** (Buildings & Traps) is where new structures are bought — Army,
+Resources, Defenses and Traps tabs, one card per building showing how many you
+own against your Town Hall allowance, the build time, and the price, with an
+info button that opens the full stat sheet and the allowance across all 30 Town
+Halls. Walls are on the Defenses tab.
+
+Upgrading is separate, and happens by tapping a building on the village board.
+The sheet shows the current design beside the one you are buying, every stat
+with its gain in green, the level bar, and one of three endings: a **Confirm**
+button with cost and time; a red **"You need to upgrade your Town Hall to level
+N"** note when the level exists but your Town Hall is too low; or a **Max
+Level** bar when nothing is left to buy at any Town Hall.
+
 ### Everything else from the spec
 - **Economy** — Gold, Elixir, Dark Elixir, Gems and Magic Items, with storage
   caps, collectors that run while you are away, and real-time upgrade timers.
@@ -151,7 +165,9 @@ js/sprites-manifest.js   generated sprite manifest
 js/state.js              save/load, the grid, placement, cost curves
 js/engine.js             all game rules
 js/ui.js                 shell: theming, nav, toasts, modals
-js/screens/*.js          one file per screen
+js/screens/*.js          one file per screen: village, shop, lab, heroes,
+                         army, raid, items, townhalls, mod, plus the shared
+                         upgrade and unit stat sheets
 js/main.js               boot, game clock, autosave, moderator gesture
 tools/                   Blender renderer and data export
 ```

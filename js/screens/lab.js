@@ -13,6 +13,21 @@
   }
   var tab = 'walls';
 
+  // "You cannot upgrade this" has two meanings, and the difference matters:
+  // either a higher Town Hall would let you, or the thing is finished for good.
+  function thNeededForResearch(t, level) {
+    for (var th = t.unlockTH; th <= 30; th++) {
+      if (G.researchMaxLevel(t.unlockTH, th) >= level) return th;
+    }
+    return null;
+  }
+
+  function ceilingPill(neededTH) {
+    return neededTH
+      ? '<span class="pill">Town Hall ' + neededTH + ' for the next level</span>'
+      : '<span class="pill max">Max level</span>';
+  }
+
   function tabsHTML() {
     var tabs = [['walls', 'Walls'], ['buildings', 'Buildings'], ['troops', 'Troops'],
                 ['spells', 'Spells'], ['siege', 'Siege']];
@@ -118,7 +133,7 @@
             (b.upgrading
               ? ui.jobHTML(b.upgrading, 'data-act="skip-building" data-id="' + b.id + '"')
               : next > maxLvl
-                ? '<span class="pill ok">Maxed for TH' + s.th + '</span>'
+                ? ceilingPill(G.upgradeSheet.townHallNeededFor(b.key, next))
                 : '<button class="btn sm" data-act="upgrade-building-inline" data-id="' + b.id + '">' +
                   'Upgrade · ' + ui.fmt(cost) + ' ' + res + '</button>' +
                   '<div class="timer">' + ui.fmtTime(secs) + (short ? ' · not enough ' + res : '') +
@@ -157,7 +172,7 @@
           : inLab
             ? '<span class="pill warn">In the lab</span>'
             : lvl >= max
-              ? '<span class="pill ok">Maxed for TH' + s.th + '</span>'
+              ? ceilingPill(thNeededForResearch(t, next))
               : '<button class="btn sm" data-act="start-research" data-key="' + t.key + '">Research ' + next + ' · ' +
                 ui.fmt(cost) + ' ' + res + '</button>' +
                 '<div class="timer">' + ui.fmtTime(secs) + (short ? ' · not enough ' + res : '') + '</div>') +
