@@ -81,23 +81,15 @@
     var s = G.state;
     var t = targets[parseInt(el.getAttribute('data-idx'), 10)];
     if (!t) return;
-    var r = E.raid(s, t);
-    if (!r.ok) { ui.toast(r.why, true); return; }
-    var res = r.result;
-    var stars = '★★★'.slice(0, res.stars) + '☆☆☆'.slice(0, 3 - res.stars);
-    ui.modal('<h3>Battle report — ' + ui.esc(res.target) + '</h3>' +
-      '<p class="screen-sub"><span class="stars" style="font-size:22px">' + stars + '</span> · ' +
-      res.destruction + '% destruction</p>' +
-      '<div class="panel"><h3>Loot</h3><div class="stat-row">' +
-        '<span>' + ui.costHTML('gold', res.loot.gold) + '</span>' +
-        '<span>' + ui.costHTML('elixir', res.loot.elixir) + '</span>' +
-        '<span>' + ui.costHTML('dark', res.loot.dark) + '</span>' +
-        '<span>Trophies <b>' + (res.trophies >= 0 ? '+' : '') + res.trophies + '</b></span>' +
-      '</div></div>' +
-      '<button class="btn wide" data-act="close-modal">Back to the village</button>');
-    rollTargets(s);
-    ui.render();
+    if (E.armyUsed(s) === 0 && !s.settings.godMode) {
+      ui.toast('Train an army first', true);
+      return;
+    }
+    // Fought rather than resolved: the base is laid out, you place the troops
+    // and the defenses shoot back.
+    G.startBattle(t);
   };
+
 
   ui.register('raid', {
     title: 'Raid',

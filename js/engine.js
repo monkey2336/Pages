@@ -741,6 +741,40 @@
     return { ok: true, result: entry };
   }
   engine.raid = raid;
+  // The result of a battle you actually fought, rather than one resolved by
+  // comparing two numbers. Loot scales with what got destroyed, and the army
+  // is spent either way.
+  function finishBattle(s, target, destruction, stars) {
+    var thDiff = target.th - s.th;
+    var lootScale = Math.max(0.25, Math.min(1.4, 1 + thDiff * 0.2)) * (destruction / 100);
+    var looted = {
+      gold: Math.round(target.loot.gold * lootScale),
+      elixir: Math.round(target.loot.elixir * lootScale),
+      dark: Math.round(target.loot.dark * lootScale)
+    };
+    addResource(s, 'gold', looted.gold);
+    addResource(s, 'elixir', looted.elixir);
+    addResource(s, 'dark', looted.dark);
+    var trophyDelta = stars > 0
+      ? Math.round((6 + thDiff * 4) * stars / 2)
+      : -Math.round(8 + Math.random() * 12);
+    s.trophies = Math.max(0, s.trophies + trophyDelta);
+    if (stars > 0) s.stats.raidsWon++; else s.stats.raidsLost++;
+    s.stats.goldLooted += looted.gold;
+    s.stats.elixirLooted += looted.elixir;
+    s.stats.darkLooted += looted.dark;
+    if (!s.settings.godMode) { s.army = {}; s.spellsBrewed = {}; }
+    var entry = {
+      at: Date.now(), kind: 'attack', target: target.name, targetTH: target.th,
+      stars: stars, destruction: destruction, loot: looted, trophies: trophyDelta
+    };
+    s.raidLog.unshift(entry);
+    s.raidLog = s.raidLog.slice(0, 30);
+    G.store.save(s);
+    return { ok: true, looted: looted, trophies: trophyDelta, result: entry };
+  }
+  engine.finishBattle = finishBattle;
+
 
   // Offline defense: while you were gone, someone tried the base.
   function simulateDefense(s, elapsedSeconds) {
