@@ -65,20 +65,64 @@ _materials = {}
 
 
 def material(color, rough=0.6, metallic=0.0, emission=0.0):
+    """A Principled surface with the roughness and colour broken up by noise.
+
+    Flat colour on a bevelled box reads as plastic no matter how good the
+    lighting is; a little variation across a surface is most of what separates
+    "3D shape" from "material". Emissive surfaces skip it -- they are lights,
+    not stone."""
     key = (color, round(rough, 2), round(metallic, 2), round(emission, 2))
     if key in _materials:
         return _materials[key]
     mat = bpy.data.materials.new('m_%d' % len(_materials))
     mat.use_nodes = True
-    bsdf = mat.node_tree.nodes['Principled BSDF']
+    nt = mat.node_tree
+    bsdf = nt.nodes['Principled BSDF']
     bsdf.inputs['Base Color'].default_value = hex_rgba(color)
     bsdf.inputs['Roughness'].default_value = rough
     bsdf.inputs['Metallic'].default_value = metallic
+
     if emission > 0:
         bsdf.inputs['Emission Color'].default_value = hex_rgba(color)
         # Clamped: under a Standard view transform anything much above this
         # clips to white and the glow loses its colour.
         bsdf.inputs['Emission Strength'].default_value = min(emission, 1.9)
+        _materials[key] = mat
+        return mat
+
+    tex = nt.nodes.new('ShaderNodeTexNoise')
+    tex.inputs['Scale'].default_value = 34.0
+    tex.inputs['Detail'].default_value = 6.0
+    tex.inputs['Roughness'].default_value = 0.62
+
+    # Roughness variation: the difference between a wall and a plastic slab.
+    rmap = nt.nodes.new('ShaderNodeMapRange')
+    rmap.inputs['To Min'].default_value = max(0.05, rough - 0.16)
+    rmap.inputs['To Max'].default_value = min(1.0, rough + 0.16)
+    nt.links.new(tex.outputs['Fac'], rmap.inputs['Value'])
+    nt.links.new(rmap.outputs['Result'], bsdf.inputs['Roughness'])
+
+    # Colour variation, kept subtle -- enough to catch the light, not enough
+    # to muddy a palette the whole game is keyed to.
+    hsv = nt.nodes.new('ShaderNodeHueSaturation')
+    hsv.inputs['Color'].default_value = hex_rgba(color)
+    val = nt.nodes.new('ShaderNodeMapRange')
+    val.inputs['To Min'].default_value = 0.9
+    val.inputs['To Max'].default_value = 1.1
+    nt.links.new(tex.outputs['Fac'], val.inputs['Value'])
+    nt.links.new(val.outputs['Result'], hsv.inputs['Value'])
+    nt.links.new(hsv.outputs['Color'], bsdf.inputs['Base Color'])
+
+    # Fine surface relief. Small scale, small strength: grain, not lumps.
+    fine = nt.nodes.new('ShaderNodeTexNoise')
+    fine.inputs['Scale'].default_value = 180.0
+    fine.inputs['Detail'].default_value = 4.0
+    bump = nt.nodes.new('ShaderNodeBump')
+    bump.inputs['Strength'].default_value = 0.14 if metallic < 0.5 else 0.07
+    bump.inputs['Distance'].default_value = 0.006
+    nt.links.new(fine.outputs['Fac'], bump.inputs['Height'])
+    nt.links.new(bump.outputs['Normal'], bsdf.inputs['Normal'])
+
     _materials[key] = mat
     return mat
 
@@ -88,7 +132,7 @@ def _finish(obj, color, bevel=0.03, rough=0.6, metallic=0.0, emission=0.0, smoot
     if bevel > 0:
         m = obj.modifiers.new('bev', 'BEVEL')
         m.width = bevel
-        m.segments = 2
+        m.segments = 3
         m.limit_method = 'ANGLE'
         m.angle_limit = math.radians(50)
     if smooth:
@@ -170,22 +214,33 @@ def reset_scene():
 
 
 def add_lights(scale):
+    """Three lights and a sky. The key is deliberately soft-edged -- hard sun
+    shadows on a 3-metre model read as a toy under a desk lamp."""
     # Warm key from the upper left, matching the light direction the sprites
     # are composited under in game.
     bpy.ops.object.light_add(type='SUN', location=(-4, -6, 8))
     key = bpy.context.object
-    key.data.energy = 4.2
-    key.data.angle = math.radians(9)
-    key.data.color = (1.0, 0.94, 0.82)
+    key.data.energy = 3.6
+    key.data.angle = math.radians(22)     # wide disc = soft shadow edges
+    key.data.color = (1.0, 0.95, 0.86)
     key.rotation_euler = (math.radians(48), 0, math.radians(-38))
 
     # Cool fill from the right keeps shadow sides readable.
     bpy.ops.object.light_add(type='AREA', location=(5 * scale, -2 * scale, 3 * scale))
     fill = bpy.context.object
-    fill.data.energy = 260 * scale * scale
-    fill.data.size = 6 * scale
-    fill.data.color = (0.72, 0.82, 1.0)
+    fill.data.energy = 300 * scale * scale
+    fill.data.size = 9 * scale
+    fill.data.color = (0.74, 0.83, 1.0)
     fill.rotation_euler = (math.radians(70), 0, math.radians(115))
+
+    # Bounce from below-front, standing in for light coming back off the
+    # ground. Without it the undersides go dead black.
+    bpy.ops.object.light_add(type='AREA', location=(0, -3.5 * scale, 0.4 * scale))
+    bounce = bpy.context.object
+    bounce.data.energy = 90 * scale * scale
+    bounce.data.size = 10 * scale
+    bounce.data.color = (1.0, 0.96, 0.86)
+    bounce.rotation_euler = (math.radians(96), 0, 0)
 
     # Rim from behind separates the model from the ground.
     bpy.ops.object.light_add(type='AREA', location=(-2 * scale, 5 * scale, 3 * scale))
@@ -211,12 +266,15 @@ def add_camera(ortho_scale, aim_z):
 
 
 def add_shadow_catcher(size):
-    bpy.ops.mesh.primitive_plane_add(size=size * 4, location=(0, 0, 0))
-    plane = bpy.context.object
-    plane.is_shadow_catcher = True
-    plane.visible_diffuse = False
-    plane.visible_glossy = False
-    return plane
+    """Deliberately does nothing.
+
+    Shadows used to be baked into each PNG by a catcher plane four tiles wide.
+    They were then clipped by the sprite frame, leaving a hard straight edge
+    across the grass, and a sprite's shadow could only ever fall on its own
+    transparent pixels -- never across the building next to it. The game draws
+    a ground shadow under each sprite instead, which clips to nothing and
+    layers correctly."""
+    return None
 
 
 def project_origin(scene, cam, px):
@@ -266,20 +324,23 @@ def render(name, footprint, samples=48):
     ortho, aim_z = fit_to_footprint(footprint)
     px = int(round(PX_PER_UNIT * ortho))
     px = max(96, min(int(os.environ.get('SPRITE_MAX_PX', '768')), px))
-    sc.render.resolution_x = px
-    sc.render.resolution_y = px
+    # Render at twice the published size. The board zooms to 5x now, and a
+    # sprite drawn at its natural pixel size goes soft the moment you zoom in.
+    ss = int(os.environ.get('SPRITE_SUPERSAMPLE', '2'))
+    sc.render.resolution_x = px * ss
+    sc.render.resolution_y = px * ss
     sc.cycles.samples = samples
     sc.cycles.use_denoising = True
     cam = add_camera(ortho, aim_z)
     add_lights(max(1.0, footprint * 0.6))
     add_shadow_catcher(footprint)
-    ax, ay = project_origin(sc, cam, px)
+    ax, ay = project_origin(sc, cam, px)   # in published (1x) pixels
     path = os.path.join(OUT_DIR, name + '.png')
     sc.render.filepath = path
     bpy.ops.render.render(write_still=True)
     MANIFEST[name] = {'file': 'assets/sprites/%s.png' % name, 'w': px, 'h': px,
                       'anchorX': ax, 'anchorY': ay, 'footprint': footprint}
-    print('  rendered %s (%dpx)' % (name, px))
+    print('  rendered %s (%dpx published, %dpx rendered)' % (name, px, px * ss))
 
 
 # ------------------------------------------------------------- town halls
@@ -1217,25 +1278,92 @@ def b_smith(T, tier):
 
 # ---------------------------------------------------------- defenses
 def b_cannon(T, tier):
+    """A gun on a carriage on a stone emplacement, built the way one would be:
+    dressed platform, turntable ring, trunnion cheeks holding the barrel, a
+    breech behind and a flared muzzle in front, with the crew's kit around it."""
+    lv = L()
     pad(1.6, T, tier)
-    cyl(0.56, 0.3, (0, 0, 0.34), T['stone'], verts=18)
-    rivets(0.5, 0.34, T, 10)
-    box(0.52, 0.52, 0.24, (0, 0, 0.6), T['stoneDark'])
-    barrel_len = 0.9 + tier * 0.06
-    cyl(0.2, barrel_len, (0.09, -0.26, 0.86), T['metalDark'], verts=16,
-        rot=(math.radians(76), 0, math.radians(18)), metallic=0.7, rough=0.35)
-    cyl(0.24, 0.12, (0.2, -0.6, 0.98), T['metal'], verts=16,
-        rot=(math.radians(76), 0, math.radians(18)), metallic=0.75, rough=0.3)
-    for sx in (-0.4, 0.4):
-        cyl(0.1, 0.16, (sx, 0.2, 0.62), T['metalDark'], verts=10, metallic=0.65)
+
+    # --- emplacement: a dressed drum with a chamfered cap and a kerb
+    cyl(0.6, 0.22, (0, 0, 0.3), T['stoneDark'], verts=24)
+    cyl(0.56, 0.14, (0, 0, 0.46), T['stone'], verts=24)
+    cyl(0.58, 0.05, (0, 0, 0.41), shade(T['stone'], 1.12), verts=24)
+    for i in range(12):                                   # kerb stones
+        a = math.radians(i * 30 + 15)
+        box(0.15, 0.1, 0.09, (math.cos(a) * 0.55, math.sin(a) * 0.55, 0.24),
+            shade(T['stoneDark'], 1.1 if i % 2 else 0.92),
+            rot=(0, 0, a), bevel=0.02)
+    rivets(0.48, 0.53, T, 10, size=0.035)
+
+    # --- turntable the carriage swivels on
+    cyl(0.34, 0.07, (0, 0, 0.56), T['metalDark'], verts=20, metallic=0.7, rough=0.4)
+    cyl(0.3, 0.04, (0, 0, 0.61), T['metal'], verts=20, metallic=0.75, rough=0.3)
+    for i in range(8):                                    # ring bolts
+        a = math.radians(i * 45)
+        sphere(0.028, (math.cos(a) * 0.32, math.sin(a) * 0.32, 0.6),
+               T['metal'], metallic=0.8, rough=0.25)
+
+    # --- carriage: two cheeks with a cross member, angled up behind the gun
+    for sx in (-1, 1):
+        box(0.1, 0.62, 0.3, (sx * 0.23, 0.06, 0.76), T['wood'], bevel=0.03)
+        box(0.11, 0.2, 0.1, (sx * 0.23, 0.3, 0.94), shade(T['wood'], 0.82), bevel=0.02)
+        # iron strap over the cheek
+        box(0.12, 0.07, 0.32, (sx * 0.23, -0.14, 0.76), T['metalDark'],
+            metallic=0.65, rough=0.4, bevel=0.01)
+    box(0.5, 0.12, 0.1, (0, 0.3, 0.68), shade(T['wood'], 0.78), bevel=0.02)
+
+    # --- barrel: breech, chase, reinforcing bands, flared muzzle
+    tilt = math.radians(74)
+    yaw = math.radians(16)
+    blen = 0.86 + min(0.34, lv * 0.014)
+    axis = (tilt, 0, yaw)
+    bx, by, bz = 0.08, -0.2, 0.9
+    cyl(0.155, blen, (bx, by, bz), T['metalDark'], verts=24, rot=axis,
+        metallic=0.72, rough=0.34)
+    # breech block behind the trunnions
+    cyl(0.19, 0.2, (bx - 0.07, by + 0.42, bz - 0.12), T['metal'], verts=20, rot=axis,
+        metallic=0.7, rough=0.32)
+    sphere(0.1, (bx - 0.1, by + 0.54, bz - 0.16), T['metalDark'], metallic=0.7, rough=0.35)
+    # reinforcing bands, more of them as the gun gets heavier
+    for i in range(2 + lv // 8):
+        t = 0.1 + i * (0.62 / max(1, 1 + lv // 8))
+        cyl(0.178, 0.05,
+            (bx + math.sin(yaw) * 0.0, by + 0.34 - t * 0.9, bz + 0.04 + t * 0.16),
+            T['metal'], verts=22, rot=axis, metallic=0.8, rough=0.28)
+    # muzzle
+    cyl(0.21, 0.11, (bx + 0.13, by - 0.52, bz + 0.16), T['metal'], verts=24, rot=axis,
+        metallic=0.78, rough=0.28)
+    cyl(0.15, 0.06, (bx + 0.14, by - 0.56, bz + 0.17), '#15181c', verts=20, rot=axis,
+        rough=0.55)
+    # trunnions: the pins the barrel actually pivots on
+    for sx in (-1, 1):
+        cyl(0.07, 0.14, (sx * 0.22, 0.02, 0.86), T['metal'], verts=14,
+            rot=(0, math.radians(90), 0), metallic=0.8, rough=0.3)
+
+    # --- elevation screw behind the breech
+    cyl(0.035, 0.26, (bx - 0.09, by + 0.62, bz - 0.3), T['metal'], verts=10,
+        metallic=0.8, rough=0.3)
+    cyl(0.09, 0.04, (bx - 0.09, by + 0.62, bz - 0.17), T['trim'], verts=14,
+        metallic=0.75, rough=0.3)
+
+    # --- crew kit on the pad: shot, rammer, powder
     for i in range(3):
-        sphere(0.09, (-0.5 + i * 0.12, 0.48, 0.28), '#2f343a', rough=0.4)
+        sphere(0.075, (-0.46 + i * 0.115, 0.46, 0.6), '#2b3036', rough=0.42)
+    sphere(0.075, (-0.4, 0.56, 0.6), '#2b3036', rough=0.42)
+    cyl(0.022, 0.66, (0.5, 0.3, 0.66), T['wood'], verts=8, rot=(0, math.radians(72), 0))
+    cyl(0.06, 0.1, (0.68, 0.3, 0.79), T['metalDark'], verts=12,
+        rot=(0, math.radians(72), 0), metallic=0.6, rough=0.45)
+    if lv >= 4:
+        cyl(0.13, 0.19, (0.44, 0.5, 0.62), T['wood'], verts=14, bevel=0.02)
+        cyl(0.135, 0.03, (0.44, 0.5, 0.72), T['metalDark'], verts=14, metallic=0.6)
+
     if tier >= 2:
         sandbags(0.5, 0.42, 0.2, T, 2)
     if tier >= 3:
         ring_band(0.5, 0.5, T, tier)
-        box(0.28, 0.06, 0.06, (0.2, -0.62, 1.06), T['accent'], emission=1.4, bevel=0.01)
-    tier_topper(1.35, T, tier, 0.4)
+        box(0.26, 0.05, 0.05, (bx + 0.16, by - 0.56, bz + 0.24), T['accent'],
+            emission=1.4, bevel=0.01)
+    tier_topper(1.42, T, tier, 0.4)
 
 
 def b_archer(T, tier):

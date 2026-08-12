@@ -137,10 +137,15 @@
     var c = centreFor(m, p.x, p.y, 1);
     var left = c.x - sprite.anchorX * scale;
     var top = c.y - sprite.anchorY * scale;
+    var shW = (m === 'flat' ? FLAT_T : TILE_W) * 0.7 * p.scale;
     return '<div class="iso-prop" style="left:' + left.toFixed(1) + 'px;top:' + top.toFixed(1) +
       'px;width:' + (sprite.w * scale).toFixed(1) + 'px;height:' + (sprite.h * scale).toFixed(1) +
       'px;z-index:' + (Z_BASE + Math.round((p.x + p.y + 1) * 10)) +
+      ';--anchor-x:' + (sprite.anchorX * scale).toFixed(1) + 'px' +
+      ';--anchor-y:' + (sprite.anchorY * scale).toFixed(1) + 'px' +
+      ';--shadow-w:' + shW.toFixed(1) + 'px;--shadow-h:' + (shW * 0.5).toFixed(1) + 'px' +
       (p.flip ? ';transform:scaleX(-1)' : '') + '">' +
+      '<i class="shade"></i>' +
       '<img src="' + sprite.file + '" draggable="false" alt="">' + '</div>';
   }
 
@@ -171,11 +176,17 @@
       var c = centreFor(m, lx, ly, size);
       var left = c.x - sprite.anchorX * scale;
       var top = c.y - sprite.anchorY * scale;
+      // Ground shadow is drawn, not baked. A baked shadow is clipped by the
+      // sprite's own frame and can never fall across the building beside it.
+      var shW = size * (m === 'flat' ? FLAT_T : TILE_W) * 0.92;
+      var shH = shW * (m === 'flat' ? 0.5 : 0.5);
       return '<div class="iso-obj" style="left:' + left.toFixed(1) + 'px;top:' + top.toFixed(1) +
         'px;width:' + (sprite.w * scale).toFixed(1) + 'px;height:' + (sprite.h * scale).toFixed(1) +
         'px;z-index:' + z +
         ';--anchor-x:' + (sprite.anchorX * scale).toFixed(1) + 'px' +
-        ';--anchor-y:' + (sprite.anchorY * scale).toFixed(1) + 'px" ' + attrs + '>' +
+        ';--anchor-y:' + (sprite.anchorY * scale).toFixed(1) + 'px' +
+        ';--shadow-w:' + shW.toFixed(1) + 'px;--shadow-h:' + shH.toFixed(1) + 'px" ' + attrs + '>' +
+        '<i class="shade"></i>' +
         '<img src="' + sprite.file + '" draggable="false" alt="">' + badge + '</div>';
     }
 

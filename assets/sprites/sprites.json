@@ -2537,7 +2537,7 @@
  },
  "b_cannon_L18": {
   "anchorX": 103.0,
-  "anchorY": 140.6,
+  "anchorY": 141.6,
   "file": "assets/sprites/b_cannon_L18.png",
   "footprint": 3,
   "h": 206,
@@ -2632,12 +2632,12 @@
   "w": 206
  },
  "b_cannon_L30": {
-  "anchorX": 115.0,
-  "anchorY": 166.4,
+  "anchorX": 118.0,
+  "anchorY": 171.8,
   "file": "assets/sprites/b_cannon_L30.png",
   "footprint": 3,
-  "h": 230,
-  "w": 230
+  "h": 236,
+  "w": 236
  },
  "b_clocktower_L01": {
   "anchorX": 131.0,

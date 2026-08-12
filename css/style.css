@@ -730,3 +730,21 @@ label.field { display: flex; flex-direction: column; gap: 5px; font-size: 12px; 
 /* Zoom controls for the fixed field. */
 .zoom-tools { display: inline-flex; gap: 4px; }
 .zoom-tools .btn { min-width: 34px; padding: 5px 9px; }
+
+/* Ground shadow, drawn under the sprite at its anchor -- the point where the
+   model meets its tile. Baked shadows were clipped by the sprite frame and
+   could never fall across a neighbour; this one does both. */
+.iso-obj .shade, .iso-prop .shade {
+  position: absolute;
+  left: var(--anchor-x); top: var(--anchor-y);
+  width: var(--shadow-w); height: var(--shadow-h);
+  margin-left: calc(var(--shadow-w) / -2);
+  margin-top: calc(var(--shadow-h) / -2);
+  border-radius: 50%;
+  background: radial-gradient(ellipse at 50% 50%, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.22) 55%, transparent 72%);
+  filter: blur(2px);
+  pointer-events: none;
+  z-index: 0;
+}
+.iso-obj img, .iso-prop img { position: relative; z-index: 1; }
+.iso-obj.dragging .shade { opacity: 0.35; }
