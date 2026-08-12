@@ -3,7 +3,8 @@
   G.SPRITES = {
    "b_aegisgrid_L01": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L01.png",
     "footprint": 4,
     "h": 276,
@@ -11,7 +12,8 @@
    },
    "b_aegisgrid_L02": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L02.png",
     "footprint": 4,
     "h": 276,
@@ -19,7 +21,8 @@
    },
    "b_aegisgrid_L03": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L03.png",
     "footprint": 4,
     "h": 276,
@@ -27,7 +30,8 @@
    },
    "b_aegisgrid_L04": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L04.png",
     "footprint": 4,
     "h": 276,
@@ -35,7 +39,8 @@
    },
    "b_aegisgrid_L05": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L05.png",
     "footprint": 4,
     "h": 276,
@@ -43,7 +48,8 @@
    },
    "b_aegisgrid_L06": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L06.png",
     "footprint": 4,
     "h": 276,
@@ -51,7 +57,8 @@
    },
    "b_aegisgrid_L07": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L07.png",
     "footprint": 4,
     "h": 276,
@@ -59,7 +66,8 @@
    },
    "b_aegisgrid_L08": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L08.png",
     "footprint": 4,
     "h": 276,
@@ -67,7 +75,8 @@
    },
    "b_aegisgrid_L09": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L09.png",
     "footprint": 4,
     "h": 276,
@@ -75,7 +84,8 @@
    },
    "b_aegisgrid_L10": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L10.png",
     "footprint": 4,
     "h": 276,
@@ -83,7 +93,8 @@
    },
    "b_aegisgrid_L11": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L11.png",
     "footprint": 4,
     "h": 276,
@@ -91,7 +102,8 @@
    },
    "b_aegisgrid_L12": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L12.png",
     "footprint": 4,
     "h": 276,
@@ -99,7 +111,8 @@
    },
    "b_aegisgrid_L13": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L13.png",
     "footprint": 4,
     "h": 276,
@@ -107,7 +120,8 @@
    },
    "b_aegisgrid_L14": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L14.png",
     "footprint": 4,
     "h": 276,
@@ -115,7 +129,8 @@
    },
    "b_aegisgrid_L15": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L15.png",
     "footprint": 4,
     "h": 276,
@@ -123,7 +138,8 @@
    },
    "b_aegisgrid_L16": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L16.png",
     "footprint": 4,
     "h": 276,
@@ -131,7 +147,8 @@
    },
    "b_aegisgrid_L17": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L17.png",
     "footprint": 4,
     "h": 276,
@@ -139,7 +156,8 @@
    },
    "b_aegisgrid_L18": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L18.png",
     "footprint": 4,
     "h": 276,
@@ -147,7 +165,8 @@
    },
    "b_aegisgrid_L19": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L19.png",
     "footprint": 4,
     "h": 276,
@@ -155,7 +174,8 @@
    },
    "b_aegisgrid_L20": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L20.png",
     "footprint": 4,
     "h": 276,
@@ -163,7 +183,8 @@
    },
    "b_aegisgrid_L21": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L21.png",
     "footprint": 4,
     "h": 276,
@@ -171,7 +192,8 @@
    },
    "b_aegisgrid_L22": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L22.png",
     "footprint": 4,
     "h": 276,
@@ -179,7 +201,8 @@
    },
    "b_aegisgrid_L23": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L23.png",
     "footprint": 4,
     "h": 276,
@@ -187,7 +210,8 @@
    },
    "b_aegisgrid_L24": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L24.png",
     "footprint": 4,
     "h": 276,
@@ -195,7 +219,8 @@
    },
    "b_aegisgrid_L25": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L25.png",
     "footprint": 4,
     "h": 276,
@@ -203,7 +228,8 @@
    },
    "b_aegisgrid_L26": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L26.png",
     "footprint": 4,
     "h": 276,
@@ -211,7 +237,8 @@
    },
    "b_aegisgrid_L27": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L27.png",
     "footprint": 4,
     "h": 276,
@@ -219,7 +246,8 @@
    },
    "b_aegisgrid_L28": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L28.png",
     "footprint": 4,
     "h": 276,
@@ -227,7 +255,8 @@
    },
    "b_aegisgrid_L29": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L29.png",
     "footprint": 4,
     "h": 276,
@@ -235,7 +264,8 @@
    },
    "b_aegisgrid_L30": {
     "anchorX": 138.0,
-    "anchorY": 193.9,
+    "anchorY": 194.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_aegisgrid_L30.png",
     "footprint": 4,
     "h": 276,
@@ -244,6 +274,7 @@
    "b_airbomb_L01": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L01.png",
     "footprint": 2,
     "h": 137,
@@ -252,6 +283,7 @@
    "b_airbomb_L02": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L02.png",
     "footprint": 2,
     "h": 137,
@@ -260,6 +292,7 @@
    "b_airbomb_L03": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L03.png",
     "footprint": 2,
     "h": 137,
@@ -268,6 +301,7 @@
    "b_airbomb_L04": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L04.png",
     "footprint": 2,
     "h": 137,
@@ -276,6 +310,7 @@
    "b_airbomb_L05": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L05.png",
     "footprint": 2,
     "h": 137,
@@ -284,6 +319,7 @@
    "b_airbomb_L06": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L06.png",
     "footprint": 2,
     "h": 137,
@@ -292,6 +328,7 @@
    "b_airbomb_L07": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L07.png",
     "footprint": 2,
     "h": 137,
@@ -300,6 +337,7 @@
    "b_airbomb_L08": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L08.png",
     "footprint": 2,
     "h": 137,
@@ -308,6 +346,7 @@
    "b_airbomb_L09": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L09.png",
     "footprint": 2,
     "h": 137,
@@ -316,6 +355,7 @@
    "b_airbomb_L10": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L10.png",
     "footprint": 2,
     "h": 137,
@@ -324,6 +364,7 @@
    "b_airbomb_L11": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L11.png",
     "footprint": 2,
     "h": 137,
@@ -332,6 +373,7 @@
    "b_airbomb_L12": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L12.png",
     "footprint": 2,
     "h": 137,
@@ -340,6 +382,7 @@
    "b_airbomb_L13": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L13.png",
     "footprint": 2,
     "h": 137,
@@ -348,6 +391,7 @@
    "b_airbomb_L14": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L14.png",
     "footprint": 2,
     "h": 137,
@@ -356,6 +400,7 @@
    "b_airbomb_L15": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L15.png",
     "footprint": 2,
     "h": 137,
@@ -364,6 +409,7 @@
    "b_airbomb_L16": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L16.png",
     "footprint": 2,
     "h": 137,
@@ -372,6 +418,7 @@
    "b_airbomb_L17": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L17.png",
     "footprint": 2,
     "h": 137,
@@ -380,6 +427,7 @@
    "b_airbomb_L18": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L18.png",
     "footprint": 2,
     "h": 137,
@@ -388,6 +436,7 @@
    "b_airbomb_L19": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L19.png",
     "footprint": 2,
     "h": 137,
@@ -396,6 +445,7 @@
    "b_airbomb_L20": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L20.png",
     "footprint": 2,
     "h": 137,
@@ -404,6 +454,7 @@
    "b_airbomb_L21": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L21.png",
     "footprint": 2,
     "h": 137,
@@ -412,6 +463,7 @@
    "b_airbomb_L22": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L22.png",
     "footprint": 2,
     "h": 137,
@@ -420,6 +472,7 @@
    "b_airbomb_L23": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L23.png",
     "footprint": 2,
     "h": 137,
@@ -428,6 +481,7 @@
    "b_airbomb_L24": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L24.png",
     "footprint": 2,
     "h": 137,
@@ -436,6 +490,7 @@
    "b_airbomb_L25": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L25.png",
     "footprint": 2,
     "h": 137,
@@ -444,6 +499,7 @@
    "b_airbomb_L26": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L26.png",
     "footprint": 2,
     "h": 137,
@@ -452,6 +508,7 @@
    "b_airbomb_L27": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L27.png",
     "footprint": 2,
     "h": 137,
@@ -460,6 +517,7 @@
    "b_airbomb_L28": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L28.png",
     "footprint": 2,
     "h": 137,
@@ -468,6 +526,7 @@
    "b_airbomb_L29": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L29.png",
     "footprint": 2,
     "h": 137,
@@ -476,6 +535,7 @@
    "b_airbomb_L30": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airbomb_L30.png",
     "footprint": 2,
     "h": 137,
@@ -484,6 +544,7 @@
    "b_airdefense_L01": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L01.png",
     "footprint": 3,
     "h": 257,
@@ -492,6 +553,7 @@
    "b_airdefense_L02": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L02.png",
     "footprint": 3,
     "h": 257,
@@ -500,6 +562,7 @@
    "b_airdefense_L03": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L03.png",
     "footprint": 3,
     "h": 257,
@@ -508,6 +571,7 @@
    "b_airdefense_L04": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L04.png",
     "footprint": 3,
     "h": 257,
@@ -516,6 +580,7 @@
    "b_airdefense_L05": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L05.png",
     "footprint": 3,
     "h": 257,
@@ -524,6 +589,7 @@
    "b_airdefense_L06": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L06.png",
     "footprint": 3,
     "h": 257,
@@ -532,6 +598,7 @@
    "b_airdefense_L07": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L07.png",
     "footprint": 3,
     "h": 257,
@@ -540,6 +607,7 @@
    "b_airdefense_L08": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L08.png",
     "footprint": 3,
     "h": 257,
@@ -548,6 +616,7 @@
    "b_airdefense_L09": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L09.png",
     "footprint": 3,
     "h": 257,
@@ -556,6 +625,7 @@
    "b_airdefense_L10": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L10.png",
     "footprint": 3,
     "h": 257,
@@ -564,6 +634,7 @@
    "b_airdefense_L11": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L11.png",
     "footprint": 3,
     "h": 257,
@@ -572,6 +643,7 @@
    "b_airdefense_L12": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L12.png",
     "footprint": 3,
     "h": 257,
@@ -580,6 +652,7 @@
    "b_airdefense_L13": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L13.png",
     "footprint": 3,
     "h": 257,
@@ -588,6 +661,7 @@
    "b_airdefense_L14": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L14.png",
     "footprint": 3,
     "h": 257,
@@ -596,6 +670,7 @@
    "b_airdefense_L15": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L15.png",
     "footprint": 3,
     "h": 257,
@@ -604,6 +679,7 @@
    "b_airdefense_L16": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L16.png",
     "footprint": 3,
     "h": 257,
@@ -612,6 +688,7 @@
    "b_airdefense_L17": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L17.png",
     "footprint": 3,
     "h": 257,
@@ -620,6 +697,7 @@
    "b_airdefense_L18": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L18.png",
     "footprint": 3,
     "h": 257,
@@ -628,6 +706,7 @@
    "b_airdefense_L19": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L19.png",
     "footprint": 3,
     "h": 257,
@@ -636,6 +715,7 @@
    "b_airdefense_L20": {
     "anchorX": 141.0,
     "anchorY": 213.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L20.png",
     "footprint": 3,
     "h": 282,
@@ -644,6 +724,7 @@
    "b_airdefense_L21": {
     "anchorX": 124.0,
     "anchorY": 182.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L21.png",
     "footprint": 3,
     "h": 248,
@@ -652,6 +733,7 @@
    "b_airdefense_L22": {
     "anchorX": 124.0,
     "anchorY": 182.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L22.png",
     "footprint": 3,
     "h": 248,
@@ -660,6 +742,7 @@
    "b_airdefense_L23": {
     "anchorX": 124.0,
     "anchorY": 182.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L23.png",
     "footprint": 3,
     "h": 248,
@@ -668,6 +751,7 @@
    "b_airdefense_L24": {
     "anchorX": 124.0,
     "anchorY": 182.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L24.png",
     "footprint": 3,
     "h": 248,
@@ -676,6 +760,7 @@
    "b_airdefense_L25": {
     "anchorX": 124.0,
     "anchorY": 182.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L25.png",
     "footprint": 3,
     "h": 248,
@@ -684,6 +769,7 @@
    "b_airdefense_L26": {
     "anchorX": 124.0,
     "anchorY": 182.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L26.png",
     "footprint": 3,
     "h": 248,
@@ -692,6 +778,7 @@
    "b_airdefense_L27": {
     "anchorX": 124.0,
     "anchorY": 182.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L27.png",
     "footprint": 3,
     "h": 248,
@@ -700,6 +787,7 @@
    "b_airdefense_L28": {
     "anchorX": 124.0,
     "anchorY": 182.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L28.png",
     "footprint": 3,
     "h": 248,
@@ -708,6 +796,7 @@
    "b_airdefense_L29": {
     "anchorX": 124.0,
     "anchorY": 182.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L29.png",
     "footprint": 3,
     "h": 248,
@@ -716,6 +805,7 @@
    "b_airdefense_L30": {
     "anchorX": 150.5,
     "anchorY": 230.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airdefense_L30.png",
     "footprint": 3,
     "h": 301,
@@ -724,6 +814,7 @@
    "b_airsweeper_L01": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L01.png",
     "footprint": 3,
     "h": 236,
@@ -732,6 +823,7 @@
    "b_airsweeper_L02": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L02.png",
     "footprint": 3,
     "h": 236,
@@ -740,6 +832,7 @@
    "b_airsweeper_L03": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L03.png",
     "footprint": 3,
     "h": 236,
@@ -748,6 +841,7 @@
    "b_airsweeper_L04": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L04.png",
     "footprint": 3,
     "h": 236,
@@ -756,6 +850,7 @@
    "b_airsweeper_L05": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L05.png",
     "footprint": 3,
     "h": 236,
@@ -764,6 +859,7 @@
    "b_airsweeper_L06": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L06.png",
     "footprint": 3,
     "h": 236,
@@ -772,6 +868,7 @@
    "b_airsweeper_L07": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L07.png",
     "footprint": 3,
     "h": 236,
@@ -780,6 +877,7 @@
    "b_airsweeper_L08": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L08.png",
     "footprint": 3,
     "h": 236,
@@ -788,6 +886,7 @@
    "b_airsweeper_L09": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L09.png",
     "footprint": 3,
     "h": 236,
@@ -796,6 +895,7 @@
    "b_airsweeper_L10": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L10.png",
     "footprint": 3,
     "h": 236,
@@ -804,6 +904,7 @@
    "b_airsweeper_L11": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L11.png",
     "footprint": 3,
     "h": 236,
@@ -812,6 +913,7 @@
    "b_airsweeper_L12": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L12.png",
     "footprint": 3,
     "h": 236,
@@ -820,6 +922,7 @@
    "b_airsweeper_L13": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L13.png",
     "footprint": 3,
     "h": 236,
@@ -828,6 +931,7 @@
    "b_airsweeper_L14": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L14.png",
     "footprint": 3,
     "h": 236,
@@ -836,6 +940,7 @@
    "b_airsweeper_L15": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L15.png",
     "footprint": 3,
     "h": 236,
@@ -844,6 +949,7 @@
    "b_airsweeper_L16": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L16.png",
     "footprint": 3,
     "h": 236,
@@ -852,6 +958,7 @@
    "b_airsweeper_L17": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L17.png",
     "footprint": 3,
     "h": 236,
@@ -860,6 +967,7 @@
    "b_airsweeper_L18": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L18.png",
     "footprint": 3,
     "h": 236,
@@ -868,6 +976,7 @@
    "b_airsweeper_L19": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L19.png",
     "footprint": 3,
     "h": 236,
@@ -876,6 +985,7 @@
    "b_airsweeper_L20": {
     "anchorX": 121.5,
     "anchorY": 178.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L20.png",
     "footprint": 3,
     "h": 243,
@@ -884,6 +994,7 @@
    "b_airsweeper_L21": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L21.png",
     "footprint": 3,
     "h": 236,
@@ -892,6 +1003,7 @@
    "b_airsweeper_L22": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L22.png",
     "footprint": 3,
     "h": 236,
@@ -900,6 +1012,7 @@
    "b_airsweeper_L23": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L23.png",
     "footprint": 3,
     "h": 236,
@@ -908,6 +1021,7 @@
    "b_airsweeper_L24": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L24.png",
     "footprint": 3,
     "h": 236,
@@ -916,6 +1030,7 @@
    "b_airsweeper_L25": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L25.png",
     "footprint": 3,
     "h": 236,
@@ -924,6 +1039,7 @@
    "b_airsweeper_L26": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L26.png",
     "footprint": 3,
     "h": 236,
@@ -932,6 +1048,7 @@
    "b_airsweeper_L27": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L27.png",
     "footprint": 3,
     "h": 236,
@@ -940,6 +1057,7 @@
    "b_airsweeper_L28": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L28.png",
     "footprint": 3,
     "h": 236,
@@ -948,6 +1066,7 @@
    "b_airsweeper_L29": {
     "anchorX": 118.0,
     "anchorY": 171.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L29.png",
     "footprint": 3,
     "h": 236,
@@ -956,26 +1075,29 @@
    "b_airsweeper_L30": {
     "anchorX": 131.5,
     "anchorY": 196.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_airsweeper_L30.png",
     "footprint": 3,
     "h": 263,
     "w": 263
    },
    "b_archertower_L01": {
-    "anchorX": 126.0,
-    "anchorY": 186.3,
+    "anchorX": 121.5,
+    "anchorY": 178.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L01.png",
     "footprint": 3,
-    "h": 252,
-    "w": 252
+    "h": 243,
+    "w": 243
    },
    "b_archertower_L02": {
-    "anchorX": 126.0,
-    "anchorY": 186.3,
+    "anchorX": 122.5,
+    "anchorY": 179.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L02.png",
     "footprint": 3,
-    "h": 252,
-    "w": 252
+    "h": 245,
+    "w": 245
    },
    "b_archertower_L03": {
     "anchorX": 121.0,
@@ -987,84 +1109,94 @@
     "w": 242
    },
    "b_archertower_L04": {
-    "anchorX": 126.0,
-    "anchorY": 186.3,
+    "anchorX": 121.0,
+    "anchorY": 177.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L04.png",
     "footprint": 3,
-    "h": 252,
-    "w": 252
+    "h": 242,
+    "w": 242
    },
    "b_archertower_L05": {
-    "anchorX": 126.0,
-    "anchorY": 186.3,
+    "anchorX": 120.5,
+    "anchorY": 176.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L05.png",
     "footprint": 3,
-    "h": 252,
-    "w": 252
+    "h": 241,
+    "w": 241
    },
    "b_archertower_L06": {
-    "anchorX": 126.0,
-    "anchorY": 186.3,
+    "anchorX": 121.0,
+    "anchorY": 177.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L06.png",
     "footprint": 3,
-    "h": 252,
-    "w": 252
+    "h": 242,
+    "w": 242
    },
    "b_archertower_L07": {
-    "anchorX": 126.0,
-    "anchorY": 186.3,
+    "anchorX": 128.0,
+    "anchorY": 189.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L07.png",
     "footprint": 3,
-    "h": 252,
-    "w": 252
+    "h": 256,
+    "w": 256
    },
    "b_archertower_L08": {
-    "anchorX": 126.0,
-    "anchorY": 186.3,
+    "anchorX": 129.0,
+    "anchorY": 191.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L08.png",
     "footprint": 3,
-    "h": 252,
-    "w": 252
+    "h": 258,
+    "w": 258
    },
    "b_archertower_L09": {
-    "anchorX": 126.0,
-    "anchorY": 186.3,
+    "anchorX": 129.0,
+    "anchorY": 191.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L09.png",
     "footprint": 3,
-    "h": 252,
-    "w": 252
+    "h": 258,
+    "w": 258
    },
    "b_archertower_L10": {
-    "anchorX": 126.0,
-    "anchorY": 186.3,
+    "anchorX": 129.0,
+    "anchorY": 191.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L10.png",
     "footprint": 3,
-    "h": 252,
-    "w": 252
+    "h": 258,
+    "w": 258
    },
    "b_archertower_L11": {
-    "anchorX": 124.5,
-    "anchorY": 183.4,
+    "anchorX": 129.0,
+    "anchorY": 191.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L11.png",
     "footprint": 3,
-    "h": 249,
-    "w": 249
+    "h": 258,
+    "w": 258
    },
    "b_archertower_L12": {
-    "anchorX": 124.5,
-    "anchorY": 183.4,
+    "anchorX": 129.0,
+    "anchorY": 191.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L12.png",
     "footprint": 3,
-    "h": 249,
-    "w": 249
+    "h": 258,
+    "w": 258
    },
    "b_archertower_L13": {
-    "anchorX": 124.5,
-    "anchorY": 183.4,
+    "anchorX": 130.5,
+    "anchorY": 194.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L13.png",
     "footprint": 3,
-    "h": 249,
-    "w": 249
+    "h": 261,
+    "w": 261
    },
    "b_archertower_L14": {
     "anchorX": 130.5,
@@ -1076,100 +1208,112 @@
     "w": 261
    },
    "b_archertower_L15": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 130.5,
+    "anchorY": 194.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L15.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 261,
+    "w": 261
    },
    "b_archertower_L16": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 122.5,
+    "anchorY": 179.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L16.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 245,
+    "w": 245
    },
    "b_archertower_L17": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 122.5,
+    "anchorY": 179.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L17.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 245,
+    "w": 245
    },
    "b_archertower_L18": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 123.5,
+    "anchorY": 181.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L18.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 247,
+    "w": 247
    },
    "b_archertower_L19": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 123.5,
+    "anchorY": 181.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L19.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 247,
+    "w": 247
    },
    "b_archertower_L20": {
-    "anchorX": 141.0,
-    "anchorY": 213.3,
+    "anchorX": 137.0,
+    "anchorY": 206.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L20.png",
     "footprint": 3,
-    "h": 282,
-    "w": 282
+    "h": 274,
+    "w": 274
    },
    "b_archertower_L21": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 123.5,
+    "anchorY": 181.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L21.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 247,
+    "w": 247
    },
    "b_archertower_L22": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 120.5,
+    "anchorY": 176.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L22.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 241,
+    "w": 241
    },
    "b_archertower_L23": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 122.0,
+    "anchorY": 179.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L23.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 244,
+    "w": 244
    },
    "b_archertower_L24": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 124.0,
+    "anchorY": 182.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L24.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 248,
+    "w": 248
    },
    "b_archertower_L25": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 124.0,
+    "anchorY": 182.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L25.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 248,
+    "w": 248
    },
    "b_archertower_L26": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 135.0,
+    "anchorY": 202.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L26.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 270,
+    "w": 270
    },
    "b_archertower_L27": {
     "anchorX": 135.0,
@@ -1181,32 +1325,36 @@
     "w": 270
    },
    "b_archertower_L28": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 135.0,
+    "anchorY": 202.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L28.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 270,
+    "w": 270
    },
    "b_archertower_L29": {
-    "anchorX": 139.0,
-    "anchorY": 209.6,
+    "anchorX": 136.5,
+    "anchorY": 205.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L29.png",
     "footprint": 3,
-    "h": 278,
-    "w": 278
+    "h": 273,
+    "w": 273
    },
    "b_archertower_L30": {
-    "anchorX": 149.0,
-    "anchorY": 227.7,
+    "anchorX": 147.0,
+    "anchorY": 224.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_archertower_L30.png",
     "footprint": 3,
-    "h": 298,
-    "w": 298
+    "h": 294,
+    "w": 294
    },
    "b_armycamp_L01": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L01.png",
     "footprint": 4,
     "h": 274,
@@ -1215,6 +1363,7 @@
    "b_armycamp_L02": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L02.png",
     "footprint": 4,
     "h": 274,
@@ -1223,6 +1372,7 @@
    "b_armycamp_L03": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L03.png",
     "footprint": 4,
     "h": 274,
@@ -1231,6 +1381,7 @@
    "b_armycamp_L04": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L04.png",
     "footprint": 4,
     "h": 274,
@@ -1239,6 +1390,7 @@
    "b_armycamp_L05": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L05.png",
     "footprint": 4,
     "h": 274,
@@ -1247,6 +1399,7 @@
    "b_armycamp_L06": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L06.png",
     "footprint": 4,
     "h": 274,
@@ -1255,6 +1408,7 @@
    "b_armycamp_L07": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L07.png",
     "footprint": 4,
     "h": 274,
@@ -1263,6 +1417,7 @@
    "b_armycamp_L08": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L08.png",
     "footprint": 4,
     "h": 274,
@@ -1271,6 +1426,7 @@
    "b_armycamp_L09": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L09.png",
     "footprint": 4,
     "h": 274,
@@ -1279,6 +1435,7 @@
    "b_armycamp_L10": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L10.png",
     "footprint": 4,
     "h": 274,
@@ -1287,6 +1444,7 @@
    "b_armycamp_L11": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L11.png",
     "footprint": 4,
     "h": 274,
@@ -1295,6 +1453,7 @@
    "b_armycamp_L12": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L12.png",
     "footprint": 4,
     "h": 274,
@@ -1303,6 +1462,7 @@
    "b_armycamp_L13": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L13.png",
     "footprint": 4,
     "h": 274,
@@ -1311,6 +1471,7 @@
    "b_armycamp_L14": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L14.png",
     "footprint": 4,
     "h": 274,
@@ -1319,6 +1480,7 @@
    "b_armycamp_L15": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L15.png",
     "footprint": 4,
     "h": 274,
@@ -1327,6 +1489,7 @@
    "b_armycamp_L16": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L16.png",
     "footprint": 4,
     "h": 274,
@@ -1335,6 +1498,7 @@
    "b_armycamp_L17": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L17.png",
     "footprint": 4,
     "h": 274,
@@ -1343,6 +1507,7 @@
    "b_armycamp_L18": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L18.png",
     "footprint": 4,
     "h": 274,
@@ -1351,6 +1516,7 @@
    "b_armycamp_L19": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L19.png",
     "footprint": 4,
     "h": 274,
@@ -1359,6 +1525,7 @@
    "b_armycamp_L20": {
     "anchorX": 137.0,
     "anchorY": 192.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L20.png",
     "footprint": 4,
     "h": 274,
@@ -1367,6 +1534,7 @@
    "b_armycamp_L21": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L21.png",
     "footprint": 4,
     "h": 274,
@@ -1375,6 +1543,7 @@
    "b_armycamp_L22": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L22.png",
     "footprint": 4,
     "h": 274,
@@ -1383,6 +1552,7 @@
    "b_armycamp_L23": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L23.png",
     "footprint": 4,
     "h": 274,
@@ -1391,6 +1561,7 @@
    "b_armycamp_L24": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L24.png",
     "footprint": 4,
     "h": 274,
@@ -1399,6 +1570,7 @@
    "b_armycamp_L25": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L25.png",
     "footprint": 4,
     "h": 274,
@@ -1407,6 +1579,7 @@
    "b_armycamp_L26": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L26.png",
     "footprint": 4,
     "h": 274,
@@ -1415,6 +1588,7 @@
    "b_armycamp_L27": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L27.png",
     "footprint": 4,
     "h": 274,
@@ -1423,6 +1597,7 @@
    "b_armycamp_L28": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L28.png",
     "footprint": 4,
     "h": 274,
@@ -1431,6 +1606,7 @@
    "b_armycamp_L29": {
     "anchorX": 137.0,
     "anchorY": 179.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L29.png",
     "footprint": 4,
     "h": 274,
@@ -1439,6 +1615,7 @@
    "b_armycamp_L30": {
     "anchorX": 149.5,
     "anchorY": 214.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_armycamp_L30.png",
     "footprint": 4,
     "h": 299,
@@ -1447,6 +1624,7 @@
    "b_barracks_L01": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L01.png",
     "footprint": 3,
     "h": 206,
@@ -1455,6 +1633,7 @@
    "b_barracks_L02": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L02.png",
     "footprint": 3,
     "h": 206,
@@ -1463,6 +1642,7 @@
    "b_barracks_L03": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L03.png",
     "footprint": 3,
     "h": 206,
@@ -1471,6 +1651,7 @@
    "b_barracks_L04": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L04.png",
     "footprint": 3,
     "h": 206,
@@ -1479,6 +1660,7 @@
    "b_barracks_L05": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L05.png",
     "footprint": 3,
     "h": 206,
@@ -1487,6 +1669,7 @@
    "b_barracks_L06": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L06.png",
     "footprint": 3,
     "h": 206,
@@ -1495,6 +1678,7 @@
    "b_barracks_L07": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L07.png",
     "footprint": 3,
     "h": 206,
@@ -1503,6 +1687,7 @@
    "b_barracks_L08": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L08.png",
     "footprint": 3,
     "h": 206,
@@ -1511,6 +1696,7 @@
    "b_barracks_L09": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L09.png",
     "footprint": 3,
     "h": 206,
@@ -1519,6 +1705,7 @@
    "b_barracks_L10": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L10.png",
     "footprint": 3,
     "h": 206,
@@ -1527,6 +1714,7 @@
    "b_barracks_L11": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L11.png",
     "footprint": 3,
     "h": 206,
@@ -1535,6 +1723,7 @@
    "b_barracks_L12": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L12.png",
     "footprint": 3,
     "h": 206,
@@ -1543,6 +1732,7 @@
    "b_barracks_L13": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L13.png",
     "footprint": 3,
     "h": 206,
@@ -1560,6 +1750,7 @@
    "b_barracks_L15": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L15.png",
     "footprint": 3,
     "h": 206,
@@ -1568,6 +1759,7 @@
    "b_barracks_L16": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L16.png",
     "footprint": 3,
     "h": 206,
@@ -1576,6 +1768,7 @@
    "b_barracks_L17": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L17.png",
     "footprint": 3,
     "h": 206,
@@ -1584,6 +1777,7 @@
    "b_barracks_L18": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L18.png",
     "footprint": 3,
     "h": 206,
@@ -1592,6 +1786,7 @@
    "b_barracks_L19": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L19.png",
     "footprint": 3,
     "h": 206,
@@ -1600,6 +1795,7 @@
    "b_barracks_L20": {
     "anchorX": 103.0,
     "anchorY": 132.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L20.png",
     "footprint": 3,
     "h": 206,
@@ -1608,6 +1804,7 @@
    "b_barracks_L21": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L21.png",
     "footprint": 3,
     "h": 206,
@@ -1616,6 +1813,7 @@
    "b_barracks_L22": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L22.png",
     "footprint": 3,
     "h": 206,
@@ -1624,6 +1822,7 @@
    "b_barracks_L23": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L23.png",
     "footprint": 3,
     "h": 206,
@@ -1632,6 +1831,7 @@
    "b_barracks_L24": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L24.png",
     "footprint": 3,
     "h": 206,
@@ -1640,6 +1840,7 @@
    "b_barracks_L25": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L25.png",
     "footprint": 3,
     "h": 206,
@@ -1648,6 +1849,7 @@
    "b_barracks_L26": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L26.png",
     "footprint": 3,
     "h": 206,
@@ -1656,6 +1858,7 @@
    "b_barracks_L27": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L27.png",
     "footprint": 3,
     "h": 206,
@@ -1664,6 +1867,7 @@
    "b_barracks_L28": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L28.png",
     "footprint": 3,
     "h": 206,
@@ -1672,6 +1876,7 @@
    "b_barracks_L29": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L29.png",
     "footprint": 3,
     "h": 206,
@@ -1679,7 +1884,8 @@
    },
    "b_barracks_L30": {
     "anchorX": 103.0,
-    "anchorY": 136.5,
+    "anchorY": 136.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_barracks_L30.png",
     "footprint": 3,
     "h": 206,
@@ -1687,7 +1893,8 @@
    },
    "b_blacksmith_L01": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L01.png",
     "footprint": 3,
     "h": 206,
@@ -1695,7 +1902,8 @@
    },
    "b_blacksmith_L02": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L02.png",
     "footprint": 3,
     "h": 206,
@@ -1703,7 +1911,8 @@
    },
    "b_blacksmith_L03": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L03.png",
     "footprint": 3,
     "h": 206,
@@ -1711,7 +1920,8 @@
    },
    "b_blacksmith_L04": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L04.png",
     "footprint": 3,
     "h": 206,
@@ -1719,7 +1929,8 @@
    },
    "b_blacksmith_L05": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L05.png",
     "footprint": 3,
     "h": 206,
@@ -1727,7 +1938,8 @@
    },
    "b_blacksmith_L06": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L06.png",
     "footprint": 3,
     "h": 206,
@@ -1735,7 +1947,8 @@
    },
    "b_blacksmith_L07": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L07.png",
     "footprint": 3,
     "h": 206,
@@ -1743,7 +1956,8 @@
    },
    "b_blacksmith_L08": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L08.png",
     "footprint": 3,
     "h": 206,
@@ -1751,7 +1965,8 @@
    },
    "b_blacksmith_L09": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L09.png",
     "footprint": 3,
     "h": 206,
@@ -1759,7 +1974,8 @@
    },
    "b_blacksmith_L10": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L10.png",
     "footprint": 3,
     "h": 206,
@@ -1767,7 +1983,8 @@
    },
    "b_blacksmith_L11": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L11.png",
     "footprint": 3,
     "h": 206,
@@ -1775,7 +1992,8 @@
    },
    "b_blacksmith_L12": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L12.png",
     "footprint": 3,
     "h": 206,
@@ -1783,7 +2001,8 @@
    },
    "b_blacksmith_L13": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L13.png",
     "footprint": 3,
     "h": 206,
@@ -1791,7 +2010,8 @@
    },
    "b_blacksmith_L14": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L14.png",
     "footprint": 3,
     "h": 206,
@@ -1799,7 +2019,8 @@
    },
    "b_blacksmith_L15": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L15.png",
     "footprint": 3,
     "h": 206,
@@ -1807,7 +2028,8 @@
    },
    "b_blacksmith_L16": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L16.png",
     "footprint": 3,
     "h": 206,
@@ -1815,7 +2037,8 @@
    },
    "b_blacksmith_L17": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L17.png",
     "footprint": 3,
     "h": 206,
@@ -1823,7 +2046,8 @@
    },
    "b_blacksmith_L18": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L18.png",
     "footprint": 3,
     "h": 206,
@@ -1831,7 +2055,8 @@
    },
    "b_blacksmith_L19": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L19.png",
     "footprint": 3,
     "h": 206,
@@ -1839,7 +2064,8 @@
    },
    "b_blacksmith_L20": {
     "anchorX": 103.0,
-    "anchorY": 134.3,
+    "anchorY": 134.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L20.png",
     "footprint": 3,
     "h": 206,
@@ -1847,7 +2073,8 @@
    },
    "b_blacksmith_L21": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L21.png",
     "footprint": 3,
     "h": 206,
@@ -1855,7 +2082,8 @@
    },
    "b_blacksmith_L22": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L22.png",
     "footprint": 3,
     "h": 206,
@@ -1863,7 +2091,8 @@
    },
    "b_blacksmith_L23": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L23.png",
     "footprint": 3,
     "h": 206,
@@ -1871,7 +2100,8 @@
    },
    "b_blacksmith_L24": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L24.png",
     "footprint": 3,
     "h": 206,
@@ -1879,7 +2109,8 @@
    },
    "b_blacksmith_L25": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L25.png",
     "footprint": 3,
     "h": 206,
@@ -1887,7 +2118,8 @@
    },
    "b_blacksmith_L26": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L26.png",
     "footprint": 3,
     "h": 206,
@@ -1895,7 +2127,8 @@
    },
    "b_blacksmith_L27": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L27.png",
     "footprint": 3,
     "h": 206,
@@ -1903,7 +2136,8 @@
    },
    "b_blacksmith_L28": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L28.png",
     "footprint": 3,
     "h": 206,
@@ -1911,7 +2145,8 @@
    },
    "b_blacksmith_L29": {
     "anchorX": 103.0,
-    "anchorY": 130.4,
+    "anchorY": 130.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L29.png",
     "footprint": 3,
     "h": 206,
@@ -1920,6 +2155,7 @@
    "b_blacksmith_L30": {
     "anchorX": 103.0,
     "anchorY": 138.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_blacksmith_L30.png",
     "footprint": 3,
     "h": 206,
@@ -1928,6 +2164,7 @@
    "b_bomb_L01": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L01.png",
     "footprint": 2,
     "h": 137,
@@ -1936,6 +2173,7 @@
    "b_bomb_L02": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L02.png",
     "footprint": 2,
     "h": 137,
@@ -1944,6 +2182,7 @@
    "b_bomb_L03": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L03.png",
     "footprint": 2,
     "h": 137,
@@ -1952,6 +2191,7 @@
    "b_bomb_L04": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L04.png",
     "footprint": 2,
     "h": 137,
@@ -1960,6 +2200,7 @@
    "b_bomb_L05": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L05.png",
     "footprint": 2,
     "h": 137,
@@ -1968,6 +2209,7 @@
    "b_bomb_L06": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L06.png",
     "footprint": 2,
     "h": 137,
@@ -1976,6 +2218,7 @@
    "b_bomb_L07": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L07.png",
     "footprint": 2,
     "h": 137,
@@ -1984,6 +2227,7 @@
    "b_bomb_L08": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L08.png",
     "footprint": 2,
     "h": 137,
@@ -1992,6 +2236,7 @@
    "b_bomb_L09": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L09.png",
     "footprint": 2,
     "h": 137,
@@ -2000,6 +2245,7 @@
    "b_bomb_L10": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L10.png",
     "footprint": 2,
     "h": 137,
@@ -2008,6 +2254,7 @@
    "b_bomb_L11": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L11.png",
     "footprint": 2,
     "h": 137,
@@ -2016,6 +2263,7 @@
    "b_bomb_L12": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L12.png",
     "footprint": 2,
     "h": 137,
@@ -2024,6 +2272,7 @@
    "b_bomb_L13": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L13.png",
     "footprint": 2,
     "h": 137,
@@ -2032,6 +2281,7 @@
    "b_bomb_L14": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L14.png",
     "footprint": 2,
     "h": 137,
@@ -2040,6 +2290,7 @@
    "b_bomb_L15": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L15.png",
     "footprint": 2,
     "h": 137,
@@ -2048,6 +2299,7 @@
    "b_bomb_L16": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L16.png",
     "footprint": 2,
     "h": 137,
@@ -2056,6 +2308,7 @@
    "b_bomb_L17": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L17.png",
     "footprint": 2,
     "h": 137,
@@ -2064,6 +2317,7 @@
    "b_bomb_L18": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L18.png",
     "footprint": 2,
     "h": 137,
@@ -2072,6 +2326,7 @@
    "b_bomb_L19": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L19.png",
     "footprint": 2,
     "h": 137,
@@ -2080,6 +2335,7 @@
    "b_bomb_L20": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L20.png",
     "footprint": 2,
     "h": 137,
@@ -2088,6 +2344,7 @@
    "b_bomb_L21": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L21.png",
     "footprint": 2,
     "h": 137,
@@ -2096,6 +2353,7 @@
    "b_bomb_L22": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L22.png",
     "footprint": 2,
     "h": 137,
@@ -2104,6 +2362,7 @@
    "b_bomb_L23": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L23.png",
     "footprint": 2,
     "h": 137,
@@ -2112,6 +2371,7 @@
    "b_bomb_L24": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L24.png",
     "footprint": 2,
     "h": 137,
@@ -2120,6 +2380,7 @@
    "b_bomb_L25": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L25.png",
     "footprint": 2,
     "h": 137,
@@ -2128,6 +2389,7 @@
    "b_bomb_L26": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L26.png",
     "footprint": 2,
     "h": 137,
@@ -2136,6 +2398,7 @@
    "b_bomb_L27": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L27.png",
     "footprint": 2,
     "h": 137,
@@ -2144,6 +2407,7 @@
    "b_bomb_L28": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L28.png",
     "footprint": 2,
     "h": 137,
@@ -2152,6 +2416,7 @@
    "b_bomb_L29": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L29.png",
     "footprint": 2,
     "h": 137,
@@ -2160,6 +2425,7 @@
    "b_bomb_L30": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bomb_L30.png",
     "footprint": 2,
     "h": 137,
@@ -2168,6 +2434,7 @@
    "b_bombtower_L01": {
     "anchorX": 120.5,
     "anchorY": 176.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L01.png",
     "footprint": 3,
     "h": 241,
@@ -2176,6 +2443,7 @@
    "b_bombtower_L02": {
     "anchorX": 120.5,
     "anchorY": 176.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L02.png",
     "footprint": 3,
     "h": 241,
@@ -2184,6 +2452,7 @@
    "b_bombtower_L03": {
     "anchorX": 120.5,
     "anchorY": 176.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L03.png",
     "footprint": 3,
     "h": 241,
@@ -2192,6 +2461,7 @@
    "b_bombtower_L04": {
     "anchorX": 120.5,
     "anchorY": 176.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L04.png",
     "footprint": 3,
     "h": 241,
@@ -2200,6 +2470,7 @@
    "b_bombtower_L05": {
     "anchorX": 120.5,
     "anchorY": 176.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L05.png",
     "footprint": 3,
     "h": 241,
@@ -2208,6 +2479,7 @@
    "b_bombtower_L06": {
     "anchorX": 120.5,
     "anchorY": 176.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L06.png",
     "footprint": 3,
     "h": 241,
@@ -2216,6 +2488,7 @@
    "b_bombtower_L07": {
     "anchorX": 120.5,
     "anchorY": 176.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L07.png",
     "footprint": 3,
     "h": 241,
@@ -2224,6 +2497,7 @@
    "b_bombtower_L08": {
     "anchorX": 120.5,
     "anchorY": 176.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L08.png",
     "footprint": 3,
     "h": 241,
@@ -2232,6 +2506,7 @@
    "b_bombtower_L09": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L09.png",
     "footprint": 3,
     "h": 240,
@@ -2240,6 +2515,7 @@
    "b_bombtower_L10": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L10.png",
     "footprint": 3,
     "h": 240,
@@ -2248,6 +2524,7 @@
    "b_bombtower_L11": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L11.png",
     "footprint": 3,
     "h": 240,
@@ -2256,6 +2533,7 @@
    "b_bombtower_L12": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L12.png",
     "footprint": 3,
     "h": 240,
@@ -2264,6 +2542,7 @@
    "b_bombtower_L13": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L13.png",
     "footprint": 3,
     "h": 240,
@@ -2272,6 +2551,7 @@
    "b_bombtower_L14": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L14.png",
     "footprint": 3,
     "h": 240,
@@ -2280,6 +2560,7 @@
    "b_bombtower_L15": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L15.png",
     "footprint": 3,
     "h": 240,
@@ -2288,6 +2569,7 @@
    "b_bombtower_L16": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L16.png",
     "footprint": 3,
     "h": 240,
@@ -2296,6 +2578,7 @@
    "b_bombtower_L17": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L17.png",
     "footprint": 3,
     "h": 240,
@@ -2304,6 +2587,7 @@
    "b_bombtower_L18": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L18.png",
     "footprint": 3,
     "h": 240,
@@ -2312,6 +2596,7 @@
    "b_bombtower_L19": {
     "anchorX": 120.0,
     "anchorY": 175.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L19.png",
     "footprint": 3,
     "h": 240,
@@ -2320,6 +2605,7 @@
    "b_bombtower_L20": {
     "anchorX": 137.0,
     "anchorY": 206.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L20.png",
     "footprint": 3,
     "h": 274,
@@ -2328,6 +2614,7 @@
    "b_bombtower_L21": {
     "anchorX": 121.0,
     "anchorY": 177.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L21.png",
     "footprint": 3,
     "h": 242,
@@ -2336,6 +2623,7 @@
    "b_bombtower_L22": {
     "anchorX": 121.0,
     "anchorY": 177.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L22.png",
     "footprint": 3,
     "h": 242,
@@ -2344,6 +2632,7 @@
    "b_bombtower_L23": {
     "anchorX": 121.0,
     "anchorY": 177.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L23.png",
     "footprint": 3,
     "h": 242,
@@ -2352,6 +2641,7 @@
    "b_bombtower_L24": {
     "anchorX": 121.0,
     "anchorY": 177.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L24.png",
     "footprint": 3,
     "h": 242,
@@ -2360,6 +2650,7 @@
    "b_bombtower_L25": {
     "anchorX": 121.0,
     "anchorY": 177.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L25.png",
     "footprint": 3,
     "h": 242,
@@ -2368,6 +2659,7 @@
    "b_bombtower_L26": {
     "anchorX": 121.0,
     "anchorY": 177.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L26.png",
     "footprint": 3,
     "h": 242,
@@ -2376,6 +2668,7 @@
    "b_bombtower_L27": {
     "anchorX": 121.0,
     "anchorY": 177.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L27.png",
     "footprint": 3,
     "h": 242,
@@ -2384,6 +2677,7 @@
    "b_bombtower_L28": {
     "anchorX": 121.0,
     "anchorY": 177.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L28.png",
     "footprint": 3,
     "h": 242,
@@ -2392,6 +2686,7 @@
    "b_bombtower_L29": {
     "anchorX": 121.0,
     "anchorY": 177.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L29.png",
     "footprint": 3,
     "h": 242,
@@ -2400,6 +2695,7 @@
    "b_bombtower_L30": {
     "anchorX": 147.0,
     "anchorY": 224.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_bombtower_L30.png",
     "footprint": 3,
     "h": 294,
@@ -2407,7 +2703,8 @@
    },
    "b_cannon_L01": {
     "anchorX": 103.0,
-    "anchorY": 141.8,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L01.png",
     "footprint": 3,
     "h": 206,
@@ -2415,7 +2712,8 @@
    },
    "b_cannon_L02": {
     "anchorX": 103.0,
-    "anchorY": 141.7,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L02.png",
     "footprint": 3,
     "h": 206,
@@ -2424,6 +2722,7 @@
    "b_cannon_L03": {
     "anchorX": 103.0,
     "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L03.png",
     "footprint": 3,
     "h": 206,
@@ -2432,6 +2731,7 @@
    "b_cannon_L04": {
     "anchorX": 103.0,
     "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L04.png",
     "footprint": 3,
     "h": 206,
@@ -2439,7 +2739,8 @@
    },
    "b_cannon_L05": {
     "anchorX": 103.0,
-    "anchorY": 141.5,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L05.png",
     "footprint": 3,
     "h": 206,
@@ -2447,7 +2748,8 @@
    },
    "b_cannon_L06": {
     "anchorX": 103.0,
-    "anchorY": 141.4,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L06.png",
     "footprint": 3,
     "h": 206,
@@ -2455,7 +2757,8 @@
    },
    "b_cannon_L07": {
     "anchorX": 103.0,
-    "anchorY": 141.4,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L07.png",
     "footprint": 3,
     "h": 206,
@@ -2463,7 +2766,8 @@
    },
    "b_cannon_L08": {
     "anchorX": 103.0,
-    "anchorY": 141.3,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L08.png",
     "footprint": 3,
     "h": 206,
@@ -2471,7 +2775,8 @@
    },
    "b_cannon_L09": {
     "anchorX": 103.0,
-    "anchorY": 141.2,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L09.png",
     "footprint": 3,
     "h": 206,
@@ -2479,7 +2784,8 @@
    },
    "b_cannon_L10": {
     "anchorX": 103.0,
-    "anchorY": 141.2,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L10.png",
     "footprint": 3,
     "h": 206,
@@ -2487,7 +2793,8 @@
    },
    "b_cannon_L11": {
     "anchorX": 103.0,
-    "anchorY": 141.1,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L11.png",
     "footprint": 3,
     "h": 206,
@@ -2495,7 +2802,8 @@
    },
    "b_cannon_L12": {
     "anchorX": 103.0,
-    "anchorY": 141.0,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L12.png",
     "footprint": 3,
     "h": 206,
@@ -2503,7 +2811,8 @@
    },
    "b_cannon_L13": {
     "anchorX": 103.0,
-    "anchorY": 141.0,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L13.png",
     "footprint": 3,
     "h": 206,
@@ -2511,7 +2820,8 @@
    },
    "b_cannon_L14": {
     "anchorX": 103.0,
-    "anchorY": 140.9,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L14.png",
     "footprint": 3,
     "h": 206,
@@ -2519,7 +2829,8 @@
    },
    "b_cannon_L15": {
     "anchorX": 103.0,
-    "anchorY": 140.8,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L15.png",
     "footprint": 3,
     "h": 206,
@@ -2527,7 +2838,8 @@
    },
    "b_cannon_L16": {
     "anchorX": 103.0,
-    "anchorY": 140.8,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L16.png",
     "footprint": 3,
     "h": 206,
@@ -2535,7 +2847,8 @@
    },
    "b_cannon_L17": {
     "anchorX": 103.0,
-    "anchorY": 140.7,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L17.png",
     "footprint": 3,
     "h": 206,
@@ -2544,6 +2857,7 @@
    "b_cannon_L18": {
     "anchorX": 103.0,
     "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L18.png",
     "footprint": 3,
     "h": 206,
@@ -2551,23 +2865,26 @@
    },
    "b_cannon_L19": {
     "anchorX": 103.0,
-    "anchorY": 140.6,
+    "anchorY": 141.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L19.png",
     "footprint": 3,
     "h": 206,
     "w": 206
    },
    "b_cannon_L20": {
-    "anchorX": 107.0,
-    "anchorY": 151.9,
+    "anchorX": 109.0,
+    "anchorY": 155.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L20.png",
     "footprint": 3,
-    "h": 214,
-    "w": 214
+    "h": 218,
+    "w": 218
    },
    "b_cannon_L21": {
     "anchorX": 103.0,
-    "anchorY": 144.4,
+    "anchorY": 143.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L21.png",
     "footprint": 3,
     "h": 206,
@@ -2575,7 +2892,8 @@
    },
    "b_cannon_L22": {
     "anchorX": 103.0,
-    "anchorY": 144.4,
+    "anchorY": 143.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L22.png",
     "footprint": 3,
     "h": 206,
@@ -2583,7 +2901,8 @@
    },
    "b_cannon_L23": {
     "anchorX": 103.0,
-    "anchorY": 144.4,
+    "anchorY": 143.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L23.png",
     "footprint": 3,
     "h": 206,
@@ -2591,7 +2910,8 @@
    },
    "b_cannon_L24": {
     "anchorX": 103.0,
-    "anchorY": 144.4,
+    "anchorY": 143.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L24.png",
     "footprint": 3,
     "h": 206,
@@ -2599,7 +2919,8 @@
    },
    "b_cannon_L25": {
     "anchorX": 103.0,
-    "anchorY": 144.4,
+    "anchorY": 143.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L25.png",
     "footprint": 3,
     "h": 206,
@@ -2607,7 +2928,8 @@
    },
    "b_cannon_L26": {
     "anchorX": 103.0,
-    "anchorY": 144.4,
+    "anchorY": 143.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L26.png",
     "footprint": 3,
     "h": 206,
@@ -2615,7 +2937,8 @@
    },
    "b_cannon_L27": {
     "anchorX": 103.0,
-    "anchorY": 144.4,
+    "anchorY": 143.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L27.png",
     "footprint": 3,
     "h": 206,
@@ -2623,7 +2946,8 @@
    },
    "b_cannon_L28": {
     "anchorX": 103.0,
-    "anchorY": 144.4,
+    "anchorY": 143.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L28.png",
     "footprint": 3,
     "h": 206,
@@ -2631,7 +2955,8 @@
    },
    "b_cannon_L29": {
     "anchorX": 103.0,
-    "anchorY": 144.4,
+    "anchorY": 143.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L29.png",
     "footprint": 3,
     "h": 206,
@@ -2640,246 +2965,277 @@
    "b_cannon_L30": {
     "anchorX": 118.0,
     "anchorY": 171.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_cannon_L30.png",
     "footprint": 3,
     "h": 236,
     "w": 236
    },
    "b_clocktower_L01": {
-    "anchorX": 131.0,
-    "anchorY": 195.3,
+    "anchorX": 134.0,
+    "anchorY": 200.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L01.png",
     "footprint": 3,
-    "h": 262,
-    "w": 262
+    "h": 268,
+    "w": 268
    },
    "b_clocktower_L02": {
-    "anchorX": 131.0,
-    "anchorY": 195.3,
+    "anchorX": 134.0,
+    "anchorY": 200.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L02.png",
     "footprint": 3,
-    "h": 262,
-    "w": 262
+    "h": 268,
+    "w": 268
    },
    "b_clocktower_L03": {
-    "anchorX": 131.0,
-    "anchorY": 195.3,
+    "anchorX": 134.0,
+    "anchorY": 200.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L03.png",
     "footprint": 3,
-    "h": 262,
-    "w": 262
+    "h": 268,
+    "w": 268
    },
    "b_clocktower_L04": {
-    "anchorX": 131.0,
-    "anchorY": 195.3,
+    "anchorX": 134.0,
+    "anchorY": 200.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L04.png",
     "footprint": 3,
-    "h": 262,
-    "w": 262
+    "h": 268,
+    "w": 268
    },
    "b_clocktower_L05": {
-    "anchorX": 131.0,
-    "anchorY": 195.3,
+    "anchorX": 134.0,
+    "anchorY": 200.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L05.png",
     "footprint": 3,
-    "h": 262,
-    "w": 262
+    "h": 268,
+    "w": 268
    },
    "b_clocktower_L06": {
-    "anchorX": 131.0,
-    "anchorY": 195.2,
+    "anchorX": 133.5,
+    "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L06.png",
     "footprint": 3,
-    "h": 262,
-    "w": 262
+    "h": 267,
+    "w": 267
    },
    "b_clocktower_L07": {
-    "anchorX": 131.0,
-    "anchorY": 195.2,
+    "anchorX": 133.5,
+    "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L07.png",
     "footprint": 3,
-    "h": 262,
-    "w": 262
+    "h": 267,
+    "w": 267
    },
    "b_clocktower_L08": {
-    "anchorX": 131.0,
-    "anchorY": 195.2,
+    "anchorX": 133.5,
+    "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L08.png",
     "footprint": 3,
-    "h": 262,
-    "w": 262
+    "h": 267,
+    "w": 267
    },
    "b_clocktower_L09": {
-    "anchorX": 130.5,
-    "anchorY": 194.3,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L09.png",
     "footprint": 3,
-    "h": 261,
-    "w": 261
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L10": {
-    "anchorX": 130.5,
-    "anchorY": 194.3,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L10.png",
     "footprint": 3,
-    "h": 261,
-    "w": 261
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L11": {
-    "anchorX": 130.5,
-    "anchorY": 194.3,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L11.png",
     "footprint": 3,
-    "h": 261,
-    "w": 261
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L12": {
-    "anchorX": 130.5,
-    "anchorY": 194.3,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L12.png",
     "footprint": 3,
-    "h": 261,
-    "w": 261
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L13": {
-    "anchorX": 130.5,
-    "anchorY": 194.3,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L13.png",
     "footprint": 3,
-    "h": 261,
-    "w": 261
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L14": {
-    "anchorX": 144.5,
-    "anchorY": 219.6,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L14.png",
     "footprint": 3,
-    "h": 289,
-    "w": 289
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L15": {
-    "anchorX": 144.5,
-    "anchorY": 219.6,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L15.png",
     "footprint": 3,
-    "h": 289,
-    "w": 289
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L16": {
-    "anchorX": 144.5,
-    "anchorY": 219.6,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L16.png",
     "footprint": 3,
-    "h": 289,
-    "w": 289
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L17": {
-    "anchorX": 144.5,
-    "anchorY": 219.6,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L17.png",
     "footprint": 3,
-    "h": 289,
-    "w": 289
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L18": {
-    "anchorX": 144.5,
-    "anchorY": 219.6,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L18.png",
     "footprint": 3,
-    "h": 289,
-    "w": 289
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L19": {
-    "anchorX": 144.5,
-    "anchorY": 219.6,
+    "anchorX": 133.0,
+    "anchorY": 198.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L19.png",
     "footprint": 3,
-    "h": 289,
-    "w": 289
+    "h": 266,
+    "w": 266
    },
    "b_clocktower_L20": {
-    "anchorX": 156.5,
-    "anchorY": 241.3,
+    "anchorX": 154.5,
+    "anchorY": 237.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L20.png",
     "footprint": 3,
-    "h": 313,
-    "w": 313
+    "h": 309,
+    "w": 309
    },
    "b_clocktower_L21": {
-    "anchorX": 145.5,
-    "anchorY": 221.4,
+    "anchorX": 134.0,
+    "anchorY": 200.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L21.png",
     "footprint": 3,
-    "h": 291,
-    "w": 291
+    "h": 268,
+    "w": 268
    },
    "b_clocktower_L22": {
-    "anchorX": 145.5,
-    "anchorY": 221.4,
+    "anchorX": 134.0,
+    "anchorY": 200.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L22.png",
     "footprint": 3,
-    "h": 291,
-    "w": 291
+    "h": 268,
+    "w": 268
    },
    "b_clocktower_L23": {
-    "anchorX": 145.5,
-    "anchorY": 221.4,
+    "anchorX": 135.5,
+    "anchorY": 203.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L23.png",
     "footprint": 3,
-    "h": 291,
-    "w": 291
+    "h": 271,
+    "w": 271
    },
    "b_clocktower_L24": {
-    "anchorX": 145.5,
-    "anchorY": 221.4,
+    "anchorX": 135.5,
+    "anchorY": 203.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L24.png",
     "footprint": 3,
-    "h": 291,
-    "w": 291
+    "h": 271,
+    "w": 271
    },
    "b_clocktower_L25": {
-    "anchorX": 145.5,
-    "anchorY": 221.4,
+    "anchorX": 135.5,
+    "anchorY": 203.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L25.png",
     "footprint": 3,
-    "h": 291,
-    "w": 291
+    "h": 271,
+    "w": 271
    },
    "b_clocktower_L26": {
-    "anchorX": 145.5,
-    "anchorY": 221.4,
+    "anchorX": 135.5,
+    "anchorY": 203.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L26.png",
     "footprint": 3,
-    "h": 291,
-    "w": 291
+    "h": 271,
+    "w": 271
    },
    "b_clocktower_L27": {
-    "anchorX": 145.5,
-    "anchorY": 221.4,
+    "anchorX": 135.5,
+    "anchorY": 203.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L27.png",
     "footprint": 3,
-    "h": 291,
-    "w": 291
+    "h": 271,
+    "w": 271
    },
    "b_clocktower_L28": {
-    "anchorX": 145.5,
-    "anchorY": 221.4,
+    "anchorX": 135.5,
+    "anchorY": 203.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L28.png",
     "footprint": 3,
-    "h": 291,
-    "w": 291
+    "h": 271,
+    "w": 271
    },
    "b_clocktower_L29": {
-    "anchorX": 145.5,
-    "anchorY": 221.4,
+    "anchorX": 135.5,
+    "anchorY": 203.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L29.png",
     "footprint": 3,
-    "h": 291,
-    "w": 291
+    "h": 271,
+    "w": 271
    },
    "b_clocktower_L30": {
     "anchorX": 164.5,
     "anchorY": 255.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_clocktower_L30.png",
     "footprint": 3,
     "h": 329,
@@ -2888,6 +3244,7 @@
    "b_darkbarracks_L01": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L01.png",
     "footprint": 3,
     "h": 206,
@@ -2896,6 +3253,7 @@
    "b_darkbarracks_L02": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L02.png",
     "footprint": 3,
     "h": 206,
@@ -2904,6 +3262,7 @@
    "b_darkbarracks_L03": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L03.png",
     "footprint": 3,
     "h": 206,
@@ -2912,6 +3271,7 @@
    "b_darkbarracks_L04": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L04.png",
     "footprint": 3,
     "h": 206,
@@ -2920,6 +3280,7 @@
    "b_darkbarracks_L05": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L05.png",
     "footprint": 3,
     "h": 206,
@@ -2928,6 +3289,7 @@
    "b_darkbarracks_L06": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L06.png",
     "footprint": 3,
     "h": 206,
@@ -2936,6 +3298,7 @@
    "b_darkbarracks_L07": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L07.png",
     "footprint": 3,
     "h": 206,
@@ -2944,6 +3307,7 @@
    "b_darkbarracks_L08": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L08.png",
     "footprint": 3,
     "h": 206,
@@ -2952,6 +3316,7 @@
    "b_darkbarracks_L09": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L09.png",
     "footprint": 3,
     "h": 206,
@@ -2960,6 +3325,7 @@
    "b_darkbarracks_L10": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L10.png",
     "footprint": 3,
     "h": 206,
@@ -2968,6 +3334,7 @@
    "b_darkbarracks_L11": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L11.png",
     "footprint": 3,
     "h": 206,
@@ -2976,6 +3343,7 @@
    "b_darkbarracks_L12": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L12.png",
     "footprint": 3,
     "h": 206,
@@ -2984,6 +3352,7 @@
    "b_darkbarracks_L13": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L13.png",
     "footprint": 3,
     "h": 206,
@@ -2992,6 +3361,7 @@
    "b_darkbarracks_L14": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L14.png",
     "footprint": 3,
     "h": 206,
@@ -3000,6 +3370,7 @@
    "b_darkbarracks_L15": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L15.png",
     "footprint": 3,
     "h": 206,
@@ -3008,6 +3379,7 @@
    "b_darkbarracks_L16": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L16.png",
     "footprint": 3,
     "h": 206,
@@ -3016,6 +3388,7 @@
    "b_darkbarracks_L17": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L17.png",
     "footprint": 3,
     "h": 206,
@@ -3024,6 +3397,7 @@
    "b_darkbarracks_L18": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L18.png",
     "footprint": 3,
     "h": 206,
@@ -3032,6 +3406,7 @@
    "b_darkbarracks_L19": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L19.png",
     "footprint": 3,
     "h": 206,
@@ -3040,6 +3415,7 @@
    "b_darkbarracks_L20": {
     "anchorX": 103.0,
     "anchorY": 132.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L20.png",
     "footprint": 3,
     "h": 206,
@@ -3048,6 +3424,7 @@
    "b_darkbarracks_L21": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L21.png",
     "footprint": 3,
     "h": 206,
@@ -3056,6 +3433,7 @@
    "b_darkbarracks_L22": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L22.png",
     "footprint": 3,
     "h": 206,
@@ -3064,6 +3442,7 @@
    "b_darkbarracks_L23": {
     "anchorX": 103.0,
     "anchorY": 125.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L23.png",
     "footprint": 3,
     "h": 206,
@@ -3072,6 +3451,7 @@
    "b_darkbarracks_L24": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L24.png",
     "footprint": 3,
     "h": 206,
@@ -3080,6 +3460,7 @@
    "b_darkbarracks_L25": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L25.png",
     "footprint": 3,
     "h": 206,
@@ -3088,6 +3469,7 @@
    "b_darkbarracks_L26": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L26.png",
     "footprint": 3,
     "h": 206,
@@ -3096,6 +3478,7 @@
    "b_darkbarracks_L27": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L27.png",
     "footprint": 3,
     "h": 206,
@@ -3104,6 +3487,7 @@
    "b_darkbarracks_L28": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L28.png",
     "footprint": 3,
     "h": 206,
@@ -3112,6 +3496,7 @@
    "b_darkbarracks_L29": {
     "anchorX": 103.0,
     "anchorY": 127.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L29.png",
     "footprint": 3,
     "h": 206,
@@ -3119,7 +3504,8 @@
    },
    "b_darkbarracks_L30": {
     "anchorX": 103.0,
-    "anchorY": 136.5,
+    "anchorY": 136.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkbarracks_L30.png",
     "footprint": 3,
     "h": 206,
@@ -3128,6 +3514,7 @@
    "b_darkdrill_L01": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L01.png",
     "footprint": 3,
     "h": 255,
@@ -3136,6 +3523,7 @@
    "b_darkdrill_L02": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L02.png",
     "footprint": 3,
     "h": 255,
@@ -3144,6 +3532,7 @@
    "b_darkdrill_L03": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L03.png",
     "footprint": 3,
     "h": 255,
@@ -3152,6 +3541,7 @@
    "b_darkdrill_L04": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L04.png",
     "footprint": 3,
     "h": 255,
@@ -3160,6 +3550,7 @@
    "b_darkdrill_L05": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L05.png",
     "footprint": 3,
     "h": 255,
@@ -3168,6 +3559,7 @@
    "b_darkdrill_L06": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L06.png",
     "footprint": 3,
     "h": 255,
@@ -3176,6 +3568,7 @@
    "b_darkdrill_L07": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L07.png",
     "footprint": 3,
     "h": 255,
@@ -3184,6 +3577,7 @@
    "b_darkdrill_L08": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L08.png",
     "footprint": 3,
     "h": 255,
@@ -3192,6 +3586,7 @@
    "b_darkdrill_L09": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L09.png",
     "footprint": 3,
     "h": 255,
@@ -3200,6 +3595,7 @@
    "b_darkdrill_L10": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L10.png",
     "footprint": 3,
     "h": 255,
@@ -3208,6 +3604,7 @@
    "b_darkdrill_L11": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L11.png",
     "footprint": 3,
     "h": 255,
@@ -3216,6 +3613,7 @@
    "b_darkdrill_L12": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L12.png",
     "footprint": 3,
     "h": 255,
@@ -3224,6 +3622,7 @@
    "b_darkdrill_L13": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L13.png",
     "footprint": 3,
     "h": 255,
@@ -3232,6 +3631,7 @@
    "b_darkdrill_L14": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L14.png",
     "footprint": 3,
     "h": 255,
@@ -3240,6 +3640,7 @@
    "b_darkdrill_L15": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L15.png",
     "footprint": 3,
     "h": 255,
@@ -3248,6 +3649,7 @@
    "b_darkdrill_L16": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L16.png",
     "footprint": 3,
     "h": 255,
@@ -3256,6 +3658,7 @@
    "b_darkdrill_L17": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L17.png",
     "footprint": 3,
     "h": 255,
@@ -3264,6 +3667,7 @@
    "b_darkdrill_L18": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L18.png",
     "footprint": 3,
     "h": 255,
@@ -3272,6 +3676,7 @@
    "b_darkdrill_L19": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L19.png",
     "footprint": 3,
     "h": 255,
@@ -3280,6 +3685,7 @@
    "b_darkdrill_L20": {
     "anchorX": 135.5,
     "anchorY": 203.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L20.png",
     "footprint": 3,
     "h": 271,
@@ -3288,6 +3694,7 @@
    "b_darkdrill_L21": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L21.png",
     "footprint": 3,
     "h": 255,
@@ -3296,6 +3703,7 @@
    "b_darkdrill_L22": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L22.png",
     "footprint": 3,
     "h": 255,
@@ -3304,6 +3712,7 @@
    "b_darkdrill_L23": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L23.png",
     "footprint": 3,
     "h": 255,
@@ -3312,6 +3721,7 @@
    "b_darkdrill_L24": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L24.png",
     "footprint": 3,
     "h": 255,
@@ -3320,6 +3730,7 @@
    "b_darkdrill_L25": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L25.png",
     "footprint": 3,
     "h": 255,
@@ -3328,6 +3739,7 @@
    "b_darkdrill_L26": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L26.png",
     "footprint": 3,
     "h": 255,
@@ -3336,6 +3748,7 @@
    "b_darkdrill_L27": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L27.png",
     "footprint": 3,
     "h": 255,
@@ -3344,6 +3757,7 @@
    "b_darkdrill_L28": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L28.png",
     "footprint": 3,
     "h": 255,
@@ -3352,6 +3766,7 @@
    "b_darkdrill_L29": {
     "anchorX": 127.5,
     "anchorY": 188.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L29.png",
     "footprint": 3,
     "h": 255,
@@ -3360,6 +3775,7 @@
    "b_darkdrill_L30": {
     "anchorX": 144.5,
     "anchorY": 219.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkdrill_L30.png",
     "footprint": 3,
     "h": 289,
@@ -3368,6 +3784,7 @@
    "b_darkspellfactory_L01": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L01.png",
     "footprint": 3,
     "h": 253,
@@ -3376,6 +3793,7 @@
    "b_darkspellfactory_L02": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L02.png",
     "footprint": 3,
     "h": 253,
@@ -3384,6 +3802,7 @@
    "b_darkspellfactory_L03": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L03.png",
     "footprint": 3,
     "h": 253,
@@ -3392,6 +3811,7 @@
    "b_darkspellfactory_L04": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L04.png",
     "footprint": 3,
     "h": 253,
@@ -3400,6 +3820,7 @@
    "b_darkspellfactory_L05": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L05.png",
     "footprint": 3,
     "h": 253,
@@ -3408,6 +3829,7 @@
    "b_darkspellfactory_L06": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L06.png",
     "footprint": 3,
     "h": 253,
@@ -3416,6 +3838,7 @@
    "b_darkspellfactory_L07": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L07.png",
     "footprint": 3,
     "h": 253,
@@ -3424,6 +3847,7 @@
    "b_darkspellfactory_L08": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L08.png",
     "footprint": 3,
     "h": 253,
@@ -3432,6 +3856,7 @@
    "b_darkspellfactory_L09": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L09.png",
     "footprint": 3,
     "h": 253,
@@ -3440,6 +3865,7 @@
    "b_darkspellfactory_L10": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L10.png",
     "footprint": 3,
     "h": 253,
@@ -3448,6 +3874,7 @@
    "b_darkspellfactory_L11": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L11.png",
     "footprint": 3,
     "h": 253,
@@ -3456,6 +3883,7 @@
    "b_darkspellfactory_L12": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L12.png",
     "footprint": 3,
     "h": 253,
@@ -3464,6 +3892,7 @@
    "b_darkspellfactory_L13": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L13.png",
     "footprint": 3,
     "h": 253,
@@ -3472,6 +3901,7 @@
    "b_darkspellfactory_L14": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L14.png",
     "footprint": 3,
     "h": 253,
@@ -3480,6 +3910,7 @@
    "b_darkspellfactory_L15": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L15.png",
     "footprint": 3,
     "h": 253,
@@ -3488,6 +3919,7 @@
    "b_darkspellfactory_L16": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L16.png",
     "footprint": 3,
     "h": 253,
@@ -3496,6 +3928,7 @@
    "b_darkspellfactory_L17": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L17.png",
     "footprint": 3,
     "h": 253,
@@ -3504,6 +3937,7 @@
    "b_darkspellfactory_L18": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L18.png",
     "footprint": 3,
     "h": 253,
@@ -3512,6 +3946,7 @@
    "b_darkspellfactory_L19": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L19.png",
     "footprint": 3,
     "h": 253,
@@ -3520,6 +3955,7 @@
    "b_darkspellfactory_L20": {
     "anchorX": 134.0,
     "anchorY": 200.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L20.png",
     "footprint": 3,
     "h": 268,
@@ -3528,6 +3964,7 @@
    "b_darkspellfactory_L21": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L21.png",
     "footprint": 3,
     "h": 253,
@@ -3536,6 +3973,7 @@
    "b_darkspellfactory_L22": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L22.png",
     "footprint": 3,
     "h": 253,
@@ -3544,6 +3982,7 @@
    "b_darkspellfactory_L23": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L23.png",
     "footprint": 3,
     "h": 253,
@@ -3552,6 +3991,7 @@
    "b_darkspellfactory_L24": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L24.png",
     "footprint": 3,
     "h": 253,
@@ -3560,6 +4000,7 @@
    "b_darkspellfactory_L25": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L25.png",
     "footprint": 3,
     "h": 253,
@@ -3568,6 +4009,7 @@
    "b_darkspellfactory_L26": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L26.png",
     "footprint": 3,
     "h": 253,
@@ -3576,6 +4018,7 @@
    "b_darkspellfactory_L27": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L27.png",
     "footprint": 3,
     "h": 253,
@@ -3584,6 +4027,7 @@
    "b_darkspellfactory_L28": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L28.png",
     "footprint": 3,
     "h": 253,
@@ -3592,6 +4036,7 @@
    "b_darkspellfactory_L29": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L29.png",
     "footprint": 3,
     "h": 253,
@@ -3600,6 +4045,7 @@
    "b_darkspellfactory_L30": {
     "anchorX": 144.0,
     "anchorY": 218.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkspellfactory_L30.png",
     "footprint": 3,
     "h": 288,
@@ -3608,6 +4054,7 @@
    "b_darkstorage_L01": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L01.png",
     "footprint": 3,
     "h": 219,
@@ -3616,6 +4063,7 @@
    "b_darkstorage_L02": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L02.png",
     "footprint": 3,
     "h": 219,
@@ -3624,6 +4072,7 @@
    "b_darkstorage_L03": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L03.png",
     "footprint": 3,
     "h": 219,
@@ -3632,6 +4081,7 @@
    "b_darkstorage_L04": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L04.png",
     "footprint": 3,
     "h": 219,
@@ -3640,6 +4090,7 @@
    "b_darkstorage_L05": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L05.png",
     "footprint": 3,
     "h": 219,
@@ -3648,6 +4099,7 @@
    "b_darkstorage_L06": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L06.png",
     "footprint": 3,
     "h": 219,
@@ -3656,6 +4108,7 @@
    "b_darkstorage_L07": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L07.png",
     "footprint": 3,
     "h": 219,
@@ -3664,6 +4117,7 @@
    "b_darkstorage_L08": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L08.png",
     "footprint": 3,
     "h": 219,
@@ -3672,6 +4126,7 @@
    "b_darkstorage_L09": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L09.png",
     "footprint": 3,
     "h": 219,
@@ -3680,6 +4135,7 @@
    "b_darkstorage_L10": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L10.png",
     "footprint": 3,
     "h": 219,
@@ -3688,6 +4144,7 @@
    "b_darkstorage_L11": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L11.png",
     "footprint": 3,
     "h": 219,
@@ -3696,6 +4153,7 @@
    "b_darkstorage_L12": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L12.png",
     "footprint": 3,
     "h": 219,
@@ -3704,6 +4162,7 @@
    "b_darkstorage_L13": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L13.png",
     "footprint": 3,
     "h": 219,
@@ -3712,6 +4171,7 @@
    "b_darkstorage_L14": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L14.png",
     "footprint": 3,
     "h": 219,
@@ -3720,6 +4180,7 @@
    "b_darkstorage_L15": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L15.png",
     "footprint": 3,
     "h": 219,
@@ -3728,6 +4189,7 @@
    "b_darkstorage_L16": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L16.png",
     "footprint": 3,
     "h": 219,
@@ -3736,6 +4198,7 @@
    "b_darkstorage_L17": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L17.png",
     "footprint": 3,
     "h": 219,
@@ -3744,6 +4207,7 @@
    "b_darkstorage_L18": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L18.png",
     "footprint": 3,
     "h": 219,
@@ -3752,6 +4216,7 @@
    "b_darkstorage_L19": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L19.png",
     "footprint": 3,
     "h": 219,
@@ -3760,6 +4225,7 @@
    "b_darkstorage_L20": {
     "anchorX": 119.5,
     "anchorY": 174.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L20.png",
     "footprint": 3,
     "h": 239,
@@ -3768,6 +4234,7 @@
    "b_darkstorage_L21": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L21.png",
     "footprint": 3,
     "h": 219,
@@ -3776,6 +4243,7 @@
    "b_darkstorage_L22": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L22.png",
     "footprint": 3,
     "h": 219,
@@ -3784,6 +4252,7 @@
    "b_darkstorage_L23": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L23.png",
     "footprint": 3,
     "h": 219,
@@ -3792,6 +4261,7 @@
    "b_darkstorage_L24": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L24.png",
     "footprint": 3,
     "h": 219,
@@ -3800,6 +4270,7 @@
    "b_darkstorage_L25": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L25.png",
     "footprint": 3,
     "h": 219,
@@ -3808,6 +4279,7 @@
    "b_darkstorage_L26": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L26.png",
     "footprint": 3,
     "h": 219,
@@ -3816,6 +4288,7 @@
    "b_darkstorage_L27": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L27.png",
     "footprint": 3,
     "h": 219,
@@ -3824,6 +4297,7 @@
    "b_darkstorage_L28": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L28.png",
     "footprint": 3,
     "h": 219,
@@ -3832,6 +4306,7 @@
    "b_darkstorage_L29": {
     "anchorX": 109.5,
     "anchorY": 156.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L29.png",
     "footprint": 3,
     "h": 219,
@@ -3840,6 +4315,7 @@
    "b_darkstorage_L30": {
     "anchorX": 129.0,
     "anchorY": 191.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_darkstorage_L30.png",
     "footprint": 3,
     "h": 258,
@@ -3848,6 +4324,7 @@
    "b_eagle_L01": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L01.png",
     "footprint": 4,
     "h": 298,
@@ -3856,6 +4333,7 @@
    "b_eagle_L02": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L02.png",
     "footprint": 4,
     "h": 298,
@@ -3864,6 +4342,7 @@
    "b_eagle_L03": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L03.png",
     "footprint": 4,
     "h": 298,
@@ -3872,6 +4351,7 @@
    "b_eagle_L04": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L04.png",
     "footprint": 4,
     "h": 298,
@@ -3880,6 +4360,7 @@
    "b_eagle_L05": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L05.png",
     "footprint": 4,
     "h": 298,
@@ -3888,6 +4369,7 @@
    "b_eagle_L06": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L06.png",
     "footprint": 4,
     "h": 298,
@@ -3896,6 +4378,7 @@
    "b_eagle_L07": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L07.png",
     "footprint": 4,
     "h": 298,
@@ -3904,6 +4387,7 @@
    "b_eagle_L08": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L08.png",
     "footprint": 4,
     "h": 298,
@@ -3912,6 +4396,7 @@
    "b_eagle_L09": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L09.png",
     "footprint": 4,
     "h": 298,
@@ -3920,6 +4405,7 @@
    "b_eagle_L10": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L10.png",
     "footprint": 4,
     "h": 298,
@@ -3928,6 +4414,7 @@
    "b_eagle_L11": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L11.png",
     "footprint": 4,
     "h": 298,
@@ -3936,6 +4423,7 @@
    "b_eagle_L12": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L12.png",
     "footprint": 4,
     "h": 298,
@@ -3944,6 +4432,7 @@
    "b_eagle_L13": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L13.png",
     "footprint": 4,
     "h": 298,
@@ -3952,6 +4441,7 @@
    "b_eagle_L14": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L14.png",
     "footprint": 4,
     "h": 298,
@@ -3960,6 +4450,7 @@
    "b_eagle_L15": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L15.png",
     "footprint": 4,
     "h": 298,
@@ -3968,6 +4459,7 @@
    "b_eagle_L16": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L16.png",
     "footprint": 4,
     "h": 298,
@@ -3976,6 +4468,7 @@
    "b_eagle_L17": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L17.png",
     "footprint": 4,
     "h": 298,
@@ -3984,6 +4477,7 @@
    "b_eagle_L18": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L18.png",
     "footprint": 4,
     "h": 298,
@@ -3992,6 +4486,7 @@
    "b_eagle_L19": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L19.png",
     "footprint": 4,
     "h": 298,
@@ -4000,6 +4495,7 @@
    "b_eagle_L20": {
     "anchorX": 155.5,
     "anchorY": 225.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L20.png",
     "footprint": 4,
     "h": 311,
@@ -4008,6 +4504,7 @@
    "b_eagle_L21": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L21.png",
     "footprint": 4,
     "h": 298,
@@ -4016,6 +4513,7 @@
    "b_eagle_L22": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L22.png",
     "footprint": 4,
     "h": 298,
@@ -4024,6 +4522,7 @@
    "b_eagle_L23": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L23.png",
     "footprint": 4,
     "h": 298,
@@ -4032,6 +4531,7 @@
    "b_eagle_L24": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L24.png",
     "footprint": 4,
     "h": 298,
@@ -4040,6 +4540,7 @@
    "b_eagle_L25": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L25.png",
     "footprint": 4,
     "h": 298,
@@ -4048,6 +4549,7 @@
    "b_eagle_L26": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L26.png",
     "footprint": 4,
     "h": 298,
@@ -4056,6 +4558,7 @@
    "b_eagle_L27": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L27.png",
     "footprint": 4,
     "h": 298,
@@ -4064,6 +4567,7 @@
    "b_eagle_L28": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L28.png",
     "footprint": 4,
     "h": 298,
@@ -4072,6 +4576,7 @@
    "b_eagle_L29": {
     "anchorX": 149.0,
     "anchorY": 213.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L29.png",
     "footprint": 4,
     "h": 298,
@@ -4080,6 +4585,7 @@
    "b_eagle_L30": {
     "anchorX": 168.0,
     "anchorY": 248.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_eagle_L30.png",
     "footprint": 4,
     "h": 336,
@@ -4088,6 +4594,7 @@
    "b_elixircollector_L01": {
     "anchorX": 107.0,
     "anchorY": 151.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L01.png",
     "footprint": 3,
     "h": 214,
@@ -4096,6 +4603,7 @@
    "b_elixircollector_L02": {
     "anchorX": 107.0,
     "anchorY": 151.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L02.png",
     "footprint": 3,
     "h": 214,
@@ -4104,6 +4612,7 @@
    "b_elixircollector_L03": {
     "anchorX": 107.0,
     "anchorY": 151.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L03.png",
     "footprint": 3,
     "h": 214,
@@ -4112,6 +4621,7 @@
    "b_elixircollector_L04": {
     "anchorX": 107.0,
     "anchorY": 151.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L04.png",
     "footprint": 3,
     "h": 214,
@@ -4120,6 +4630,7 @@
    "b_elixircollector_L05": {
     "anchorX": 107.0,
     "anchorY": 151.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L05.png",
     "footprint": 3,
     "h": 214,
@@ -4128,6 +4639,7 @@
    "b_elixircollector_L06": {
     "anchorX": 107.0,
     "anchorY": 151.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L06.png",
     "footprint": 3,
     "h": 214,
@@ -4136,6 +4648,7 @@
    "b_elixircollector_L07": {
     "anchorX": 107.0,
     "anchorY": 151.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L07.png",
     "footprint": 3,
     "h": 214,
@@ -4144,6 +4657,7 @@
    "b_elixircollector_L08": {
     "anchorX": 107.0,
     "anchorY": 151.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L08.png",
     "footprint": 3,
     "h": 214,
@@ -4152,6 +4666,7 @@
    "b_elixircollector_L09": {
     "anchorX": 107.0,
     "anchorY": 151.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L09.png",
     "footprint": 3,
     "h": 214,
@@ -4160,6 +4675,7 @@
    "b_elixircollector_L10": {
     "anchorX": 107.0,
     "anchorY": 151.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L10.png",
     "footprint": 3,
     "h": 214,
@@ -4168,6 +4684,7 @@
    "b_elixircollector_L11": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L11.png",
     "footprint": 3,
     "h": 229,
@@ -4176,6 +4693,7 @@
    "b_elixircollector_L12": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L12.png",
     "footprint": 3,
     "h": 229,
@@ -4184,6 +4702,7 @@
    "b_elixircollector_L13": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L13.png",
     "footprint": 3,
     "h": 229,
@@ -4192,6 +4711,7 @@
    "b_elixircollector_L14": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L14.png",
     "footprint": 3,
     "h": 229,
@@ -4200,6 +4720,7 @@
    "b_elixircollector_L15": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L15.png",
     "footprint": 3,
     "h": 229,
@@ -4208,6 +4729,7 @@
    "b_elixircollector_L16": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L16.png",
     "footprint": 3,
     "h": 229,
@@ -4216,6 +4738,7 @@
    "b_elixircollector_L17": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L17.png",
     "footprint": 3,
     "h": 229,
@@ -4224,6 +4747,7 @@
    "b_elixircollector_L18": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L18.png",
     "footprint": 3,
     "h": 229,
@@ -4232,6 +4756,7 @@
    "b_elixircollector_L19": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L19.png",
     "footprint": 3,
     "h": 229,
@@ -4240,6 +4765,7 @@
    "b_elixircollector_L20": {
     "anchorX": 117.5,
     "anchorY": 170.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L20.png",
     "footprint": 3,
     "h": 235,
@@ -4248,6 +4774,7 @@
    "b_elixircollector_L21": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L21.png",
     "footprint": 3,
     "h": 229,
@@ -4256,6 +4783,7 @@
    "b_elixircollector_L22": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L22.png",
     "footprint": 3,
     "h": 229,
@@ -4264,6 +4792,7 @@
    "b_elixircollector_L23": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L23.png",
     "footprint": 3,
     "h": 229,
@@ -4272,6 +4801,7 @@
    "b_elixircollector_L24": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L24.png",
     "footprint": 3,
     "h": 229,
@@ -4280,6 +4810,7 @@
    "b_elixircollector_L25": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L25.png",
     "footprint": 3,
     "h": 229,
@@ -4288,6 +4819,7 @@
    "b_elixircollector_L26": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L26.png",
     "footprint": 3,
     "h": 229,
@@ -4296,6 +4828,7 @@
    "b_elixircollector_L27": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L27.png",
     "footprint": 3,
     "h": 229,
@@ -4304,6 +4837,7 @@
    "b_elixircollector_L28": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L28.png",
     "footprint": 3,
     "h": 229,
@@ -4312,6 +4846,7 @@
    "b_elixircollector_L29": {
     "anchorX": 114.5,
     "anchorY": 165.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L29.png",
     "footprint": 3,
     "h": 229,
@@ -4320,6 +4855,7 @@
    "b_elixircollector_L30": {
     "anchorX": 127.5,
     "anchorY": 188.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixircollector_L30.png",
     "footprint": 3,
     "h": 255,
@@ -4328,6 +4864,7 @@
    "b_elixirstorage_L01": {
     "anchorX": 103.0,
     "anchorY": 140.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L01.png",
     "footprint": 3,
     "h": 206,
@@ -4336,6 +4873,7 @@
    "b_elixirstorage_L02": {
     "anchorX": 103.0,
     "anchorY": 140.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L02.png",
     "footprint": 3,
     "h": 206,
@@ -4344,6 +4882,7 @@
    "b_elixirstorage_L03": {
     "anchorX": 103.0,
     "anchorY": 140.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L03.png",
     "footprint": 3,
     "h": 206,
@@ -4352,6 +4891,7 @@
    "b_elixirstorage_L04": {
     "anchorX": 103.0,
     "anchorY": 140.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L04.png",
     "footprint": 3,
     "h": 206,
@@ -4360,6 +4900,7 @@
    "b_elixirstorage_L05": {
     "anchorX": 103.0,
     "anchorY": 140.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L05.png",
     "footprint": 3,
     "h": 206,
@@ -4368,6 +4909,7 @@
    "b_elixirstorage_L06": {
     "anchorX": 103.0,
     "anchorY": 140.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L06.png",
     "footprint": 3,
     "h": 206,
@@ -4376,6 +4918,7 @@
    "b_elixirstorage_L07": {
     "anchorX": 103.0,
     "anchorY": 140.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L07.png",
     "footprint": 3,
     "h": 206,
@@ -4384,6 +4927,7 @@
    "b_elixirstorage_L08": {
     "anchorX": 103.0,
     "anchorY": 140.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L08.png",
     "footprint": 3,
     "h": 206,
@@ -4392,6 +4936,7 @@
    "b_elixirstorage_L09": {
     "anchorX": 103.0,
     "anchorY": 140.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L09.png",
     "footprint": 3,
     "h": 206,
@@ -4400,6 +4945,7 @@
    "b_elixirstorage_L10": {
     "anchorX": 103.0,
     "anchorY": 140.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L10.png",
     "footprint": 3,
     "h": 206,
@@ -4408,6 +4954,7 @@
    "b_elixirstorage_L11": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L11.png",
     "footprint": 3,
     "h": 214,
@@ -4416,6 +4963,7 @@
    "b_elixirstorage_L12": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L12.png",
     "footprint": 3,
     "h": 214,
@@ -4424,6 +4972,7 @@
    "b_elixirstorage_L13": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L13.png",
     "footprint": 3,
     "h": 214,
@@ -4432,6 +4981,7 @@
    "b_elixirstorage_L14": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L14.png",
     "footprint": 3,
     "h": 214,
@@ -4440,6 +4990,7 @@
    "b_elixirstorage_L15": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L15.png",
     "footprint": 3,
     "h": 214,
@@ -4448,6 +4999,7 @@
    "b_elixirstorage_L16": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L16.png",
     "footprint": 3,
     "h": 214,
@@ -4456,6 +5008,7 @@
    "b_elixirstorage_L17": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L17.png",
     "footprint": 3,
     "h": 214,
@@ -4464,6 +5017,7 @@
    "b_elixirstorage_L18": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L18.png",
     "footprint": 3,
     "h": 214,
@@ -4472,6 +5026,7 @@
    "b_elixirstorage_L19": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L19.png",
     "footprint": 3,
     "h": 214,
@@ -4480,6 +5035,7 @@
    "b_elixirstorage_L20": {
     "anchorX": 120.0,
     "anchorY": 175.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L20.png",
     "footprint": 3,
     "h": 240,
@@ -4488,6 +5044,7 @@
    "b_elixirstorage_L21": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L21.png",
     "footprint": 3,
     "h": 214,
@@ -4496,6 +5053,7 @@
    "b_elixirstorage_L22": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L22.png",
     "footprint": 3,
     "h": 214,
@@ -4504,6 +5062,7 @@
    "b_elixirstorage_L23": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L23.png",
     "footprint": 3,
     "h": 214,
@@ -4512,6 +5071,7 @@
    "b_elixirstorage_L24": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L24.png",
     "footprint": 3,
     "h": 214,
@@ -4520,6 +5080,7 @@
    "b_elixirstorage_L25": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L25.png",
     "footprint": 3,
     "h": 214,
@@ -4528,6 +5089,7 @@
    "b_elixirstorage_L26": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L26.png",
     "footprint": 3,
     "h": 214,
@@ -4536,6 +5098,7 @@
    "b_elixirstorage_L27": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L27.png",
     "footprint": 3,
     "h": 214,
@@ -4544,6 +5107,7 @@
    "b_elixirstorage_L28": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L28.png",
     "footprint": 3,
     "h": 214,
@@ -4552,6 +5116,7 @@
    "b_elixirstorage_L29": {
     "anchorX": 107.0,
     "anchorY": 151.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L29.png",
     "footprint": 3,
     "h": 214,
@@ -4560,6 +5125,7 @@
    "b_elixirstorage_L30": {
     "anchorX": 130.0,
     "anchorY": 193.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_elixirstorage_L30.png",
     "footprint": 3,
     "h": 260,
@@ -4568,6 +5134,7 @@
    "b_empmine_L01": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L01.png",
     "footprint": 2,
     "h": 137,
@@ -4576,6 +5143,7 @@
    "b_empmine_L02": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L02.png",
     "footprint": 2,
     "h": 137,
@@ -4584,6 +5152,7 @@
    "b_empmine_L03": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L03.png",
     "footprint": 2,
     "h": 137,
@@ -4592,6 +5161,7 @@
    "b_empmine_L04": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L04.png",
     "footprint": 2,
     "h": 137,
@@ -4600,6 +5170,7 @@
    "b_empmine_L05": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L05.png",
     "footprint": 2,
     "h": 137,
@@ -4608,6 +5179,7 @@
    "b_empmine_L06": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L06.png",
     "footprint": 2,
     "h": 137,
@@ -4616,6 +5188,7 @@
    "b_empmine_L07": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L07.png",
     "footprint": 2,
     "h": 137,
@@ -4624,6 +5197,7 @@
    "b_empmine_L08": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L08.png",
     "footprint": 2,
     "h": 137,
@@ -4632,6 +5206,7 @@
    "b_empmine_L09": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L09.png",
     "footprint": 2,
     "h": 137,
@@ -4640,6 +5215,7 @@
    "b_empmine_L10": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L10.png",
     "footprint": 2,
     "h": 137,
@@ -4648,6 +5224,7 @@
    "b_empmine_L11": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L11.png",
     "footprint": 2,
     "h": 137,
@@ -4656,6 +5233,7 @@
    "b_empmine_L12": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L12.png",
     "footprint": 2,
     "h": 137,
@@ -4664,6 +5242,7 @@
    "b_empmine_L13": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L13.png",
     "footprint": 2,
     "h": 137,
@@ -4672,6 +5251,7 @@
    "b_empmine_L14": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L14.png",
     "footprint": 2,
     "h": 137,
@@ -4680,6 +5260,7 @@
    "b_empmine_L15": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L15.png",
     "footprint": 2,
     "h": 137,
@@ -4688,6 +5269,7 @@
    "b_empmine_L16": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L16.png",
     "footprint": 2,
     "h": 137,
@@ -4696,6 +5278,7 @@
    "b_empmine_L17": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L17.png",
     "footprint": 2,
     "h": 137,
@@ -4704,6 +5287,7 @@
    "b_empmine_L18": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L18.png",
     "footprint": 2,
     "h": 137,
@@ -4712,6 +5296,7 @@
    "b_empmine_L19": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L19.png",
     "footprint": 2,
     "h": 137,
@@ -4720,6 +5305,7 @@
    "b_empmine_L20": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L20.png",
     "footprint": 2,
     "h": 137,
@@ -4728,6 +5314,7 @@
    "b_empmine_L21": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L21.png",
     "footprint": 2,
     "h": 137,
@@ -4736,6 +5323,7 @@
    "b_empmine_L22": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L22.png",
     "footprint": 2,
     "h": 137,
@@ -4744,6 +5332,7 @@
    "b_empmine_L23": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L23.png",
     "footprint": 2,
     "h": 137,
@@ -4752,6 +5341,7 @@
    "b_empmine_L24": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L24.png",
     "footprint": 2,
     "h": 137,
@@ -4760,6 +5350,7 @@
    "b_empmine_L25": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L25.png",
     "footprint": 2,
     "h": 137,
@@ -4768,6 +5359,7 @@
    "b_empmine_L26": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L26.png",
     "footprint": 2,
     "h": 137,
@@ -4776,6 +5368,7 @@
    "b_empmine_L27": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L27.png",
     "footprint": 2,
     "h": 137,
@@ -4784,6 +5377,7 @@
    "b_empmine_L28": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L28.png",
     "footprint": 2,
     "h": 137,
@@ -4792,6 +5386,7 @@
    "b_empmine_L29": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L29.png",
     "footprint": 2,
     "h": 137,
@@ -4800,6 +5395,7 @@
    "b_empmine_L30": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_empmine_L30.png",
     "footprint": 2,
     "h": 137,
@@ -4808,6 +5404,7 @@
    "b_fracture_L01": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L01.png",
     "footprint": 4,
     "h": 274,
@@ -4816,6 +5413,7 @@
    "b_fracture_L02": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L02.png",
     "footprint": 4,
     "h": 274,
@@ -4824,6 +5422,7 @@
    "b_fracture_L03": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L03.png",
     "footprint": 4,
     "h": 274,
@@ -4832,6 +5431,7 @@
    "b_fracture_L04": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L04.png",
     "footprint": 4,
     "h": 274,
@@ -4840,6 +5440,7 @@
    "b_fracture_L05": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L05.png",
     "footprint": 4,
     "h": 274,
@@ -4848,6 +5449,7 @@
    "b_fracture_L06": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L06.png",
     "footprint": 4,
     "h": 274,
@@ -4856,6 +5458,7 @@
    "b_fracture_L07": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L07.png",
     "footprint": 4,
     "h": 274,
@@ -4864,6 +5467,7 @@
    "b_fracture_L08": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L08.png",
     "footprint": 4,
     "h": 274,
@@ -4872,6 +5476,7 @@
    "b_fracture_L09": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L09.png",
     "footprint": 4,
     "h": 274,
@@ -4880,6 +5485,7 @@
    "b_fracture_L10": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L10.png",
     "footprint": 4,
     "h": 274,
@@ -4888,6 +5494,7 @@
    "b_fracture_L11": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L11.png",
     "footprint": 4,
     "h": 274,
@@ -4896,6 +5503,7 @@
    "b_fracture_L12": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L12.png",
     "footprint": 4,
     "h": 274,
@@ -4904,6 +5512,7 @@
    "b_fracture_L13": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L13.png",
     "footprint": 4,
     "h": 274,
@@ -4912,6 +5521,7 @@
    "b_fracture_L14": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L14.png",
     "footprint": 4,
     "h": 274,
@@ -4920,6 +5530,7 @@
    "b_fracture_L15": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L15.png",
     "footprint": 4,
     "h": 274,
@@ -4928,6 +5539,7 @@
    "b_fracture_L16": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L16.png",
     "footprint": 4,
     "h": 274,
@@ -4936,6 +5548,7 @@
    "b_fracture_L17": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L17.png",
     "footprint": 4,
     "h": 274,
@@ -4944,6 +5557,7 @@
    "b_fracture_L18": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L18.png",
     "footprint": 4,
     "h": 274,
@@ -4952,6 +5566,7 @@
    "b_fracture_L19": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L19.png",
     "footprint": 4,
     "h": 274,
@@ -4960,6 +5575,7 @@
    "b_fracture_L20": {
     "anchorX": 144.0,
     "anchorY": 204.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L20.png",
     "footprint": 4,
     "h": 288,
@@ -4968,6 +5584,7 @@
    "b_fracture_L21": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L21.png",
     "footprint": 4,
     "h": 274,
@@ -4976,6 +5593,7 @@
    "b_fracture_L22": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L22.png",
     "footprint": 4,
     "h": 274,
@@ -4984,6 +5602,7 @@
    "b_fracture_L23": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L23.png",
     "footprint": 4,
     "h": 274,
@@ -4992,6 +5611,7 @@
    "b_fracture_L24": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L24.png",
     "footprint": 4,
     "h": 274,
@@ -5000,6 +5620,7 @@
    "b_fracture_L25": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L25.png",
     "footprint": 4,
     "h": 274,
@@ -5008,6 +5629,7 @@
    "b_fracture_L26": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L26.png",
     "footprint": 4,
     "h": 274,
@@ -5016,6 +5638,7 @@
    "b_fracture_L27": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L27.png",
     "footprint": 4,
     "h": 274,
@@ -5024,6 +5647,7 @@
    "b_fracture_L28": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L28.png",
     "footprint": 4,
     "h": 274,
@@ -5032,6 +5656,7 @@
    "b_fracture_L29": {
     "anchorX": 137.0,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L29.png",
     "footprint": 4,
     "h": 274,
@@ -5040,6 +5665,7 @@
    "b_fracture_L30": {
     "anchorX": 156.5,
     "anchorY": 227.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_fracture_L30.png",
     "footprint": 4,
     "h": 313,
@@ -5048,6 +5674,7 @@
    "b_giantbomb_L01": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L01.png",
     "footprint": 2,
     "h": 137,
@@ -5056,6 +5683,7 @@
    "b_giantbomb_L02": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L02.png",
     "footprint": 2,
     "h": 137,
@@ -5064,6 +5692,7 @@
    "b_giantbomb_L03": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L03.png",
     "footprint": 2,
     "h": 137,
@@ -5072,6 +5701,7 @@
    "b_giantbomb_L04": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L04.png",
     "footprint": 2,
     "h": 137,
@@ -5080,6 +5710,7 @@
    "b_giantbomb_L05": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L05.png",
     "footprint": 2,
     "h": 137,
@@ -5088,6 +5719,7 @@
    "b_giantbomb_L06": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L06.png",
     "footprint": 2,
     "h": 137,
@@ -5096,6 +5728,7 @@
    "b_giantbomb_L07": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L07.png",
     "footprint": 2,
     "h": 137,
@@ -5104,6 +5737,7 @@
    "b_giantbomb_L08": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L08.png",
     "footprint": 2,
     "h": 137,
@@ -5112,6 +5746,7 @@
    "b_giantbomb_L09": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L09.png",
     "footprint": 2,
     "h": 137,
@@ -5120,6 +5755,7 @@
    "b_giantbomb_L10": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L10.png",
     "footprint": 2,
     "h": 137,
@@ -5128,6 +5764,7 @@
    "b_giantbomb_L11": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L11.png",
     "footprint": 2,
     "h": 137,
@@ -5136,6 +5773,7 @@
    "b_giantbomb_L12": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L12.png",
     "footprint": 2,
     "h": 137,
@@ -5144,6 +5782,7 @@
    "b_giantbomb_L13": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L13.png",
     "footprint": 2,
     "h": 137,
@@ -5152,6 +5791,7 @@
    "b_giantbomb_L14": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L14.png",
     "footprint": 2,
     "h": 137,
@@ -5160,6 +5800,7 @@
    "b_giantbomb_L15": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L15.png",
     "footprint": 2,
     "h": 137,
@@ -5168,6 +5809,7 @@
    "b_giantbomb_L16": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L16.png",
     "footprint": 2,
     "h": 137,
@@ -5176,6 +5818,7 @@
    "b_giantbomb_L17": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L17.png",
     "footprint": 2,
     "h": 137,
@@ -5184,6 +5827,7 @@
    "b_giantbomb_L18": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L18.png",
     "footprint": 2,
     "h": 137,
@@ -5192,6 +5836,7 @@
    "b_giantbomb_L19": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L19.png",
     "footprint": 2,
     "h": 137,
@@ -5200,6 +5845,7 @@
    "b_giantbomb_L20": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L20.png",
     "footprint": 2,
     "h": 137,
@@ -5208,6 +5854,7 @@
    "b_giantbomb_L21": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L21.png",
     "footprint": 2,
     "h": 137,
@@ -5216,6 +5863,7 @@
    "b_giantbomb_L22": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L22.png",
     "footprint": 2,
     "h": 137,
@@ -5224,6 +5872,7 @@
    "b_giantbomb_L23": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L23.png",
     "footprint": 2,
     "h": 137,
@@ -5232,6 +5881,7 @@
    "b_giantbomb_L24": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L24.png",
     "footprint": 2,
     "h": 137,
@@ -5240,6 +5890,7 @@
    "b_giantbomb_L25": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L25.png",
     "footprint": 2,
     "h": 137,
@@ -5248,6 +5899,7 @@
    "b_giantbomb_L26": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L26.png",
     "footprint": 2,
     "h": 137,
@@ -5256,6 +5908,7 @@
    "b_giantbomb_L27": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L27.png",
     "footprint": 2,
     "h": 137,
@@ -5264,6 +5917,7 @@
    "b_giantbomb_L28": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L28.png",
     "footprint": 2,
     "h": 137,
@@ -5272,6 +5926,7 @@
    "b_giantbomb_L29": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L29.png",
     "footprint": 2,
     "h": 137,
@@ -5280,6 +5935,7 @@
    "b_giantbomb_L30": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_giantbomb_L30.png",
     "footprint": 2,
     "h": 137,
@@ -5288,6 +5944,7 @@
    "b_goldmine_L01": {
     "anchorX": 103.0,
     "anchorY": 134.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L01.png",
     "footprint": 3,
     "h": 206,
@@ -5296,6 +5953,7 @@
    "b_goldmine_L02": {
     "anchorX": 103.0,
     "anchorY": 134.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L02.png",
     "footprint": 3,
     "h": 206,
@@ -5304,6 +5962,7 @@
    "b_goldmine_L03": {
     "anchorX": 103.0,
     "anchorY": 134.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L03.png",
     "footprint": 3,
     "h": 206,
@@ -5312,6 +5971,7 @@
    "b_goldmine_L04": {
     "anchorX": 103.0,
     "anchorY": 134.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L04.png",
     "footprint": 3,
     "h": 206,
@@ -5320,6 +5980,7 @@
    "b_goldmine_L05": {
     "anchorX": 103.0,
     "anchorY": 134.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L05.png",
     "footprint": 3,
     "h": 206,
@@ -5328,6 +5989,7 @@
    "b_goldmine_L06": {
     "anchorX": 103.0,
     "anchorY": 134.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L06.png",
     "footprint": 3,
     "h": 206,
@@ -5336,6 +5998,7 @@
    "b_goldmine_L07": {
     "anchorX": 103.0,
     "anchorY": 134.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L07.png",
     "footprint": 3,
     "h": 206,
@@ -5344,6 +6007,7 @@
    "b_goldmine_L08": {
     "anchorX": 103.0,
     "anchorY": 134.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L08.png",
     "footprint": 3,
     "h": 206,
@@ -5352,6 +6016,7 @@
    "b_goldmine_L09": {
     "anchorX": 103.0,
     "anchorY": 134.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L09.png",
     "footprint": 3,
     "h": 206,
@@ -5360,6 +6025,7 @@
    "b_goldmine_L10": {
     "anchorX": 103.0,
     "anchorY": 134.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L10.png",
     "footprint": 3,
     "h": 206,
@@ -5368,6 +6034,7 @@
    "b_goldmine_L11": {
     "anchorX": 103.0,
     "anchorY": 142.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L11.png",
     "footprint": 3,
     "h": 206,
@@ -5376,6 +6043,7 @@
    "b_goldmine_L12": {
     "anchorX": 103.0,
     "anchorY": 142.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L12.png",
     "footprint": 3,
     "h": 206,
@@ -5384,6 +6052,7 @@
    "b_goldmine_L13": {
     "anchorX": 103.0,
     "anchorY": 142.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L13.png",
     "footprint": 3,
     "h": 206,
@@ -5392,6 +6061,7 @@
    "b_goldmine_L14": {
     "anchorX": 103.0,
     "anchorY": 142.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L14.png",
     "footprint": 3,
     "h": 206,
@@ -5400,6 +6070,7 @@
    "b_goldmine_L15": {
     "anchorX": 103.0,
     "anchorY": 142.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L15.png",
     "footprint": 3,
     "h": 206,
@@ -5408,6 +6079,7 @@
    "b_goldmine_L16": {
     "anchorX": 103.0,
     "anchorY": 142.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L16.png",
     "footprint": 3,
     "h": 206,
@@ -5416,6 +6088,7 @@
    "b_goldmine_L17": {
     "anchorX": 103.0,
     "anchorY": 142.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L17.png",
     "footprint": 3,
     "h": 206,
@@ -5424,6 +6097,7 @@
    "b_goldmine_L18": {
     "anchorX": 103.0,
     "anchorY": 142.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L18.png",
     "footprint": 3,
     "h": 206,
@@ -5432,6 +6106,7 @@
    "b_goldmine_L19": {
     "anchorX": 103.0,
     "anchorY": 142.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L19.png",
     "footprint": 3,
     "h": 206,
@@ -5440,6 +6115,7 @@
    "b_goldmine_L20": {
     "anchorX": 103.0,
     "anchorY": 144.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L20.png",
     "footprint": 3,
     "h": 206,
@@ -5448,6 +6124,7 @@
    "b_goldmine_L21": {
     "anchorX": 103.0,
     "anchorY": 131.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L21.png",
     "footprint": 3,
     "h": 206,
@@ -5456,6 +6133,7 @@
    "b_goldmine_L22": {
     "anchorX": 103.0,
     "anchorY": 131.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L22.png",
     "footprint": 3,
     "h": 206,
@@ -5464,6 +6142,7 @@
    "b_goldmine_L23": {
     "anchorX": 103.0,
     "anchorY": 131.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L23.png",
     "footprint": 3,
     "h": 206,
@@ -5472,6 +6151,7 @@
    "b_goldmine_L24": {
     "anchorX": 103.0,
     "anchorY": 131.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L24.png",
     "footprint": 3,
     "h": 206,
@@ -5480,6 +6160,7 @@
    "b_goldmine_L25": {
     "anchorX": 103.0,
     "anchorY": 131.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L25.png",
     "footprint": 3,
     "h": 206,
@@ -5488,6 +6169,7 @@
    "b_goldmine_L26": {
     "anchorX": 103.0,
     "anchorY": 131.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L26.png",
     "footprint": 3,
     "h": 206,
@@ -5496,6 +6178,7 @@
    "b_goldmine_L27": {
     "anchorX": 103.0,
     "anchorY": 131.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L27.png",
     "footprint": 3,
     "h": 206,
@@ -5504,6 +6187,7 @@
    "b_goldmine_L28": {
     "anchorX": 103.0,
     "anchorY": 131.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L28.png",
     "footprint": 3,
     "h": 206,
@@ -5512,6 +6196,7 @@
    "b_goldmine_L29": {
     "anchorX": 103.0,
     "anchorY": 131.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L29.png",
     "footprint": 3,
     "h": 206,
@@ -5520,6 +6205,7 @@
    "b_goldmine_L30": {
     "anchorX": 111.5,
     "anchorY": 160.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldmine_L30.png",
     "footprint": 3,
     "h": 223,
@@ -5528,6 +6214,7 @@
    "b_goldstorage_L01": {
     "anchorX": 103.0,
     "anchorY": 134.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L01.png",
     "footprint": 3,
     "h": 206,
@@ -5536,6 +6223,7 @@
    "b_goldstorage_L02": {
     "anchorX": 103.0,
     "anchorY": 135.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L02.png",
     "footprint": 3,
     "h": 206,
@@ -5544,6 +6232,7 @@
    "b_goldstorage_L03": {
     "anchorX": 103.0,
     "anchorY": 135.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L03.png",
     "footprint": 3,
     "h": 206,
@@ -5552,6 +6241,7 @@
    "b_goldstorage_L04": {
     "anchorX": 103.0,
     "anchorY": 135.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L04.png",
     "footprint": 3,
     "h": 206,
@@ -5560,6 +6250,7 @@
    "b_goldstorage_L05": {
     "anchorX": 103.0,
     "anchorY": 135.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L05.png",
     "footprint": 3,
     "h": 206,
@@ -5568,6 +6259,7 @@
    "b_goldstorage_L06": {
     "anchorX": 103.0,
     "anchorY": 135.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L06.png",
     "footprint": 3,
     "h": 206,
@@ -5576,6 +6268,7 @@
    "b_goldstorage_L07": {
     "anchorX": 103.0,
     "anchorY": 135.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L07.png",
     "footprint": 3,
     "h": 206,
@@ -5584,6 +6277,7 @@
    "b_goldstorage_L08": {
     "anchorX": 103.0,
     "anchorY": 135.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L08.png",
     "footprint": 3,
     "h": 206,
@@ -5592,6 +6286,7 @@
    "b_goldstorage_L09": {
     "anchorX": 103.0,
     "anchorY": 135.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L09.png",
     "footprint": 3,
     "h": 206,
@@ -5600,6 +6295,7 @@
    "b_goldstorage_L10": {
     "anchorX": 103.0,
     "anchorY": 135.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L10.png",
     "footprint": 3,
     "h": 206,
@@ -5608,6 +6304,7 @@
    "b_goldstorage_L11": {
     "anchorX": 103.0,
     "anchorY": 137.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L11.png",
     "footprint": 3,
     "h": 206,
@@ -5616,6 +6313,7 @@
    "b_goldstorage_L12": {
     "anchorX": 103.0,
     "anchorY": 137.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L12.png",
     "footprint": 3,
     "h": 206,
@@ -5624,6 +6322,7 @@
    "b_goldstorage_L13": {
     "anchorX": 103.0,
     "anchorY": 137.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L13.png",
     "footprint": 3,
     "h": 206,
@@ -5641,6 +6340,7 @@
    "b_goldstorage_L15": {
     "anchorX": 103.0,
     "anchorY": 137.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L15.png",
     "footprint": 3,
     "h": 206,
@@ -5649,6 +6349,7 @@
    "b_goldstorage_L16": {
     "anchorX": 103.0,
     "anchorY": 137.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L16.png",
     "footprint": 3,
     "h": 206,
@@ -5657,6 +6358,7 @@
    "b_goldstorage_L17": {
     "anchorX": 103.0,
     "anchorY": 137.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L17.png",
     "footprint": 3,
     "h": 206,
@@ -5665,6 +6367,7 @@
    "b_goldstorage_L18": {
     "anchorX": 103.0,
     "anchorY": 137.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L18.png",
     "footprint": 3,
     "h": 206,
@@ -5673,6 +6376,7 @@
    "b_goldstorage_L19": {
     "anchorX": 103.0,
     "anchorY": 137.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L19.png",
     "footprint": 3,
     "h": 206,
@@ -5681,6 +6385,7 @@
    "b_goldstorage_L20": {
     "anchorX": 107.5,
     "anchorY": 152.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L20.png",
     "footprint": 3,
     "h": 215,
@@ -5689,6 +6394,7 @@
    "b_goldstorage_L21": {
     "anchorX": 103.0,
     "anchorY": 134.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L21.png",
     "footprint": 3,
     "h": 206,
@@ -5697,6 +6403,7 @@
    "b_goldstorage_L22": {
     "anchorX": 103.0,
     "anchorY": 134.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L22.png",
     "footprint": 3,
     "h": 206,
@@ -5705,6 +6412,7 @@
    "b_goldstorage_L23": {
     "anchorX": 103.0,
     "anchorY": 134.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L23.png",
     "footprint": 3,
     "h": 206,
@@ -5713,6 +6421,7 @@
    "b_goldstorage_L24": {
     "anchorX": 103.0,
     "anchorY": 134.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L24.png",
     "footprint": 3,
     "h": 206,
@@ -5721,6 +6430,7 @@
    "b_goldstorage_L25": {
     "anchorX": 103.0,
     "anchorY": 134.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L25.png",
     "footprint": 3,
     "h": 206,
@@ -5729,6 +6439,7 @@
    "b_goldstorage_L26": {
     "anchorX": 103.0,
     "anchorY": 134.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L26.png",
     "footprint": 3,
     "h": 206,
@@ -5737,6 +6448,7 @@
    "b_goldstorage_L27": {
     "anchorX": 103.0,
     "anchorY": 134.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L27.png",
     "footprint": 3,
     "h": 206,
@@ -5745,6 +6457,7 @@
    "b_goldstorage_L28": {
     "anchorX": 103.0,
     "anchorY": 134.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L28.png",
     "footprint": 3,
     "h": 206,
@@ -5753,6 +6466,7 @@
    "b_goldstorage_L29": {
     "anchorX": 103.0,
     "anchorY": 134.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L29.png",
     "footprint": 3,
     "h": 206,
@@ -5761,6 +6475,7 @@
    "b_goldstorage_L30": {
     "anchorX": 117.0,
     "anchorY": 170.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_goldstorage_L30.png",
     "footprint": 3,
     "h": 234,
@@ -5769,6 +6484,7 @@
    "b_gravitywell_L01": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L01.png",
     "footprint": 4,
     "h": 346,
@@ -5777,6 +6493,7 @@
    "b_gravitywell_L02": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L02.png",
     "footprint": 4,
     "h": 346,
@@ -5785,6 +6502,7 @@
    "b_gravitywell_L03": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L03.png",
     "footprint": 4,
     "h": 346,
@@ -5793,6 +6511,7 @@
    "b_gravitywell_L04": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L04.png",
     "footprint": 4,
     "h": 346,
@@ -5801,6 +6520,7 @@
    "b_gravitywell_L05": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L05.png",
     "footprint": 4,
     "h": 346,
@@ -5809,6 +6529,7 @@
    "b_gravitywell_L06": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L06.png",
     "footprint": 4,
     "h": 346,
@@ -5817,6 +6538,7 @@
    "b_gravitywell_L07": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L07.png",
     "footprint": 4,
     "h": 346,
@@ -5825,6 +6547,7 @@
    "b_gravitywell_L08": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L08.png",
     "footprint": 4,
     "h": 346,
@@ -5833,6 +6556,7 @@
    "b_gravitywell_L09": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L09.png",
     "footprint": 4,
     "h": 346,
@@ -5841,6 +6565,7 @@
    "b_gravitywell_L10": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L10.png",
     "footprint": 4,
     "h": 346,
@@ -5849,6 +6574,7 @@
    "b_gravitywell_L11": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L11.png",
     "footprint": 4,
     "h": 346,
@@ -5857,6 +6583,7 @@
    "b_gravitywell_L12": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L12.png",
     "footprint": 4,
     "h": 346,
@@ -5865,6 +6592,7 @@
    "b_gravitywell_L13": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L13.png",
     "footprint": 4,
     "h": 346,
@@ -5873,6 +6601,7 @@
    "b_gravitywell_L14": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L14.png",
     "footprint": 4,
     "h": 346,
@@ -5881,6 +6610,7 @@
    "b_gravitywell_L15": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L15.png",
     "footprint": 4,
     "h": 346,
@@ -5889,6 +6619,7 @@
    "b_gravitywell_L16": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L16.png",
     "footprint": 4,
     "h": 346,
@@ -5897,6 +6628,7 @@
    "b_gravitywell_L17": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L17.png",
     "footprint": 4,
     "h": 346,
@@ -5905,6 +6637,7 @@
    "b_gravitywell_L18": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L18.png",
     "footprint": 4,
     "h": 346,
@@ -5913,6 +6646,7 @@
    "b_gravitywell_L19": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L19.png",
     "footprint": 4,
     "h": 346,
@@ -5921,6 +6655,7 @@
    "b_gravitywell_L20": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L20.png",
     "footprint": 4,
     "h": 346,
@@ -5929,6 +6664,7 @@
    "b_gravitywell_L21": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L21.png",
     "footprint": 4,
     "h": 346,
@@ -5937,6 +6673,7 @@
    "b_gravitywell_L22": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L22.png",
     "footprint": 4,
     "h": 346,
@@ -5945,6 +6682,7 @@
    "b_gravitywell_L23": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L23.png",
     "footprint": 4,
     "h": 346,
@@ -5953,6 +6691,7 @@
    "b_gravitywell_L24": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L24.png",
     "footprint": 4,
     "h": 346,
@@ -5961,6 +6700,7 @@
    "b_gravitywell_L25": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L25.png",
     "footprint": 4,
     "h": 346,
@@ -5969,6 +6709,7 @@
    "b_gravitywell_L26": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L26.png",
     "footprint": 4,
     "h": 346,
@@ -5977,6 +6718,7 @@
    "b_gravitywell_L27": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L27.png",
     "footprint": 4,
     "h": 346,
@@ -5985,6 +6727,7 @@
    "b_gravitywell_L28": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L28.png",
     "footprint": 4,
     "h": 346,
@@ -5993,6 +6736,7 @@
    "b_gravitywell_L29": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L29.png",
     "footprint": 4,
     "h": 346,
@@ -6001,6 +6745,7 @@
    "b_gravitywell_L30": {
     "anchorX": 173.0,
     "anchorY": 257.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_gravitywell_L30.png",
     "footprint": 4,
     "h": 346,
@@ -6008,7 +6753,8 @@
    },
    "b_herohall_L01": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L01.png",
     "footprint": 4,
     "h": 274,
@@ -6016,7 +6762,8 @@
    },
    "b_herohall_L02": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L02.png",
     "footprint": 4,
     "h": 274,
@@ -6024,7 +6771,8 @@
    },
    "b_herohall_L03": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L03.png",
     "footprint": 4,
     "h": 274,
@@ -6032,7 +6780,8 @@
    },
    "b_herohall_L04": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L04.png",
     "footprint": 4,
     "h": 274,
@@ -6040,7 +6789,8 @@
    },
    "b_herohall_L05": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L05.png",
     "footprint": 4,
     "h": 274,
@@ -6048,7 +6798,8 @@
    },
    "b_herohall_L06": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L06.png",
     "footprint": 4,
     "h": 274,
@@ -6056,7 +6807,8 @@
    },
    "b_herohall_L07": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L07.png",
     "footprint": 4,
     "h": 274,
@@ -6064,7 +6816,8 @@
    },
    "b_herohall_L08": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L08.png",
     "footprint": 4,
     "h": 274,
@@ -6072,7 +6825,8 @@
    },
    "b_herohall_L09": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L09.png",
     "footprint": 4,
     "h": 274,
@@ -6080,7 +6834,8 @@
    },
    "b_herohall_L10": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L10.png",
     "footprint": 4,
     "h": 274,
@@ -6088,7 +6843,8 @@
    },
    "b_herohall_L11": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L11.png",
     "footprint": 4,
     "h": 274,
@@ -6096,7 +6852,8 @@
    },
    "b_herohall_L12": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L12.png",
     "footprint": 4,
     "h": 274,
@@ -6104,7 +6861,8 @@
    },
    "b_herohall_L13": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L13.png",
     "footprint": 4,
     "h": 274,
@@ -6112,7 +6870,8 @@
    },
    "b_herohall_L14": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L14.png",
     "footprint": 4,
     "h": 274,
@@ -6120,7 +6879,8 @@
    },
    "b_herohall_L15": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L15.png",
     "footprint": 4,
     "h": 274,
@@ -6128,7 +6888,8 @@
    },
    "b_herohall_L16": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L16.png",
     "footprint": 4,
     "h": 274,
@@ -6136,7 +6897,8 @@
    },
    "b_herohall_L17": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L17.png",
     "footprint": 4,
     "h": 274,
@@ -6144,7 +6906,8 @@
    },
    "b_herohall_L18": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L18.png",
     "footprint": 4,
     "h": 274,
@@ -6152,7 +6915,8 @@
    },
    "b_herohall_L19": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L19.png",
     "footprint": 4,
     "h": 274,
@@ -6160,7 +6924,8 @@
    },
    "b_herohall_L20": {
     "anchorX": 137.0,
-    "anchorY": 178.9,
+    "anchorY": 178.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L20.png",
     "footprint": 4,
     "h": 274,
@@ -6168,7 +6933,8 @@
    },
    "b_herohall_L21": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L21.png",
     "footprint": 4,
     "h": 274,
@@ -6176,7 +6942,8 @@
    },
    "b_herohall_L22": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L22.png",
     "footprint": 4,
     "h": 274,
@@ -6184,7 +6951,8 @@
    },
    "b_herohall_L23": {
     "anchorX": 137.0,
-    "anchorY": 170.6,
+    "anchorY": 170.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L23.png",
     "footprint": 4,
     "h": 274,
@@ -6193,6 +6961,7 @@
    "b_herohall_L24": {
     "anchorX": 137.0,
     "anchorY": 173.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L24.png",
     "footprint": 4,
     "h": 274,
@@ -6201,6 +6970,7 @@
    "b_herohall_L25": {
     "anchorX": 137.0,
     "anchorY": 173.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L25.png",
     "footprint": 4,
     "h": 274,
@@ -6209,6 +6979,7 @@
    "b_herohall_L26": {
     "anchorX": 137.0,
     "anchorY": 173.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L26.png",
     "footprint": 4,
     "h": 274,
@@ -6217,6 +6988,7 @@
    "b_herohall_L27": {
     "anchorX": 137.0,
     "anchorY": 173.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L27.png",
     "footprint": 4,
     "h": 274,
@@ -6225,6 +6997,7 @@
    "b_herohall_L28": {
     "anchorX": 137.0,
     "anchorY": 173.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L28.png",
     "footprint": 4,
     "h": 274,
@@ -6233,6 +7006,7 @@
    "b_herohall_L29": {
     "anchorX": 137.0,
     "anchorY": 173.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L29.png",
     "footprint": 4,
     "h": 274,
@@ -6240,7 +7014,8 @@
    },
    "b_herohall_L30": {
     "anchorX": 137.0,
-    "anchorY": 184.7,
+    "anchorY": 184.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_herohall_L30.png",
     "footprint": 4,
     "h": 274,
@@ -6249,6 +7024,7 @@
    "b_inferno_L01": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L01.png",
     "footprint": 3,
     "h": 267,
@@ -6257,6 +7033,7 @@
    "b_inferno_L02": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L02.png",
     "footprint": 3,
     "h": 267,
@@ -6265,6 +7042,7 @@
    "b_inferno_L03": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L03.png",
     "footprint": 3,
     "h": 267,
@@ -6273,6 +7051,7 @@
    "b_inferno_L04": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L04.png",
     "footprint": 3,
     "h": 267,
@@ -6281,6 +7060,7 @@
    "b_inferno_L05": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L05.png",
     "footprint": 3,
     "h": 267,
@@ -6289,6 +7069,7 @@
    "b_inferno_L06": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L06.png",
     "footprint": 3,
     "h": 267,
@@ -6297,6 +7078,7 @@
    "b_inferno_L07": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L07.png",
     "footprint": 3,
     "h": 267,
@@ -6305,6 +7087,7 @@
    "b_inferno_L08": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L08.png",
     "footprint": 3,
     "h": 267,
@@ -6313,6 +7096,7 @@
    "b_inferno_L09": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L09.png",
     "footprint": 3,
     "h": 267,
@@ -6321,6 +7105,7 @@
    "b_inferno_L10": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L10.png",
     "footprint": 3,
     "h": 267,
@@ -6329,6 +7114,7 @@
    "b_inferno_L11": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L11.png",
     "footprint": 3,
     "h": 267,
@@ -6337,6 +7123,7 @@
    "b_inferno_L12": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L12.png",
     "footprint": 3,
     "h": 267,
@@ -6345,6 +7132,7 @@
    "b_inferno_L13": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L13.png",
     "footprint": 3,
     "h": 267,
@@ -6353,6 +7141,7 @@
    "b_inferno_L14": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L14.png",
     "footprint": 3,
     "h": 267,
@@ -6361,6 +7150,7 @@
    "b_inferno_L15": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L15.png",
     "footprint": 3,
     "h": 267,
@@ -6369,6 +7159,7 @@
    "b_inferno_L16": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L16.png",
     "footprint": 3,
     "h": 267,
@@ -6377,6 +7168,7 @@
    "b_inferno_L17": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L17.png",
     "footprint": 3,
     "h": 267,
@@ -6385,6 +7177,7 @@
    "b_inferno_L18": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L18.png",
     "footprint": 3,
     "h": 267,
@@ -6393,6 +7186,7 @@
    "b_inferno_L19": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L19.png",
     "footprint": 3,
     "h": 267,
@@ -6401,6 +7195,7 @@
    "b_inferno_L20": {
     "anchorX": 143.0,
     "anchorY": 216.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L20.png",
     "footprint": 3,
     "h": 286,
@@ -6409,6 +7204,7 @@
    "b_inferno_L21": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L21.png",
     "footprint": 3,
     "h": 267,
@@ -6417,6 +7213,7 @@
    "b_inferno_L22": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L22.png",
     "footprint": 3,
     "h": 267,
@@ -6425,6 +7222,7 @@
    "b_inferno_L23": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L23.png",
     "footprint": 3,
     "h": 267,
@@ -6433,6 +7231,7 @@
    "b_inferno_L24": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L24.png",
     "footprint": 3,
     "h": 267,
@@ -6441,6 +7240,7 @@
    "b_inferno_L25": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L25.png",
     "footprint": 3,
     "h": 267,
@@ -6449,6 +7249,7 @@
    "b_inferno_L26": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L26.png",
     "footprint": 3,
     "h": 267,
@@ -6457,6 +7258,7 @@
    "b_inferno_L27": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L27.png",
     "footprint": 3,
     "h": 267,
@@ -6465,6 +7267,7 @@
    "b_inferno_L28": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L28.png",
     "footprint": 3,
     "h": 267,
@@ -6473,6 +7276,7 @@
    "b_inferno_L29": {
     "anchorX": 133.5,
     "anchorY": 199.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L29.png",
     "footprint": 3,
     "h": 267,
@@ -6481,6 +7285,7 @@
    "b_inferno_L30": {
     "anchorX": 152.5,
     "anchorY": 234.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_inferno_L30.png",
     "footprint": 3,
     "h": 305,
@@ -6489,6 +7294,7 @@
    "b_laboratory_L01": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L01.png",
     "footprint": 3,
     "h": 234,
@@ -6497,6 +7303,7 @@
    "b_laboratory_L02": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L02.png",
     "footprint": 3,
     "h": 234,
@@ -6505,6 +7312,7 @@
    "b_laboratory_L03": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L03.png",
     "footprint": 3,
     "h": 234,
@@ -6513,6 +7321,7 @@
    "b_laboratory_L04": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L04.png",
     "footprint": 3,
     "h": 234,
@@ -6521,6 +7330,7 @@
    "b_laboratory_L05": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L05.png",
     "footprint": 3,
     "h": 234,
@@ -6529,6 +7339,7 @@
    "b_laboratory_L06": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L06.png",
     "footprint": 3,
     "h": 234,
@@ -6537,6 +7348,7 @@
    "b_laboratory_L07": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L07.png",
     "footprint": 3,
     "h": 234,
@@ -6545,6 +7357,7 @@
    "b_laboratory_L08": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L08.png",
     "footprint": 3,
     "h": 234,
@@ -6553,6 +7366,7 @@
    "b_laboratory_L09": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L09.png",
     "footprint": 3,
     "h": 234,
@@ -6561,6 +7375,7 @@
    "b_laboratory_L10": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L10.png",
     "footprint": 3,
     "h": 234,
@@ -6569,6 +7384,7 @@
    "b_laboratory_L11": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L11.png",
     "footprint": 3,
     "h": 234,
@@ -6577,6 +7393,7 @@
    "b_laboratory_L12": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L12.png",
     "footprint": 3,
     "h": 234,
@@ -6585,6 +7402,7 @@
    "b_laboratory_L13": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L13.png",
     "footprint": 3,
     "h": 234,
@@ -6593,6 +7411,7 @@
    "b_laboratory_L14": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L14.png",
     "footprint": 3,
     "h": 234,
@@ -6601,6 +7420,7 @@
    "b_laboratory_L15": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L15.png",
     "footprint": 3,
     "h": 234,
@@ -6609,6 +7429,7 @@
    "b_laboratory_L16": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L16.png",
     "footprint": 3,
     "h": 234,
@@ -6617,6 +7438,7 @@
    "b_laboratory_L17": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L17.png",
     "footprint": 3,
     "h": 234,
@@ -6625,6 +7447,7 @@
    "b_laboratory_L18": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L18.png",
     "footprint": 3,
     "h": 234,
@@ -6633,6 +7456,7 @@
    "b_laboratory_L19": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L19.png",
     "footprint": 3,
     "h": 234,
@@ -6641,6 +7465,7 @@
    "b_laboratory_L20": {
     "anchorX": 124.5,
     "anchorY": 183.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L20.png",
     "footprint": 3,
     "h": 249,
@@ -6649,6 +7474,7 @@
    "b_laboratory_L21": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L21.png",
     "footprint": 3,
     "h": 234,
@@ -6657,6 +7483,7 @@
    "b_laboratory_L22": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L22.png",
     "footprint": 3,
     "h": 234,
@@ -6665,6 +7492,7 @@
    "b_laboratory_L23": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L23.png",
     "footprint": 3,
     "h": 234,
@@ -6673,6 +7501,7 @@
    "b_laboratory_L24": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L24.png",
     "footprint": 3,
     "h": 234,
@@ -6681,6 +7510,7 @@
    "b_laboratory_L25": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L25.png",
     "footprint": 3,
     "h": 234,
@@ -6689,6 +7519,7 @@
    "b_laboratory_L26": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L26.png",
     "footprint": 3,
     "h": 234,
@@ -6697,6 +7528,7 @@
    "b_laboratory_L27": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L27.png",
     "footprint": 3,
     "h": 234,
@@ -6705,6 +7537,7 @@
    "b_laboratory_L28": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L28.png",
     "footprint": 3,
     "h": 234,
@@ -6713,6 +7546,7 @@
    "b_laboratory_L29": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L29.png",
     "footprint": 3,
     "h": 234,
@@ -6721,6 +7555,7 @@
    "b_laboratory_L30": {
     "anchorX": 134.5,
     "anchorY": 201.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_laboratory_L30.png",
     "footprint": 3,
     "h": 269,
@@ -6729,6 +7564,7 @@
    "b_mirrortrap_L01": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L01.png",
     "footprint": 2,
     "h": 137,
@@ -6737,6 +7573,7 @@
    "b_mirrortrap_L02": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L02.png",
     "footprint": 2,
     "h": 137,
@@ -6745,6 +7582,7 @@
    "b_mirrortrap_L03": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L03.png",
     "footprint": 2,
     "h": 137,
@@ -6753,6 +7591,7 @@
    "b_mirrortrap_L04": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L04.png",
     "footprint": 2,
     "h": 137,
@@ -6761,6 +7600,7 @@
    "b_mirrortrap_L05": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L05.png",
     "footprint": 2,
     "h": 137,
@@ -6769,6 +7609,7 @@
    "b_mirrortrap_L06": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L06.png",
     "footprint": 2,
     "h": 137,
@@ -6777,6 +7618,7 @@
    "b_mirrortrap_L07": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L07.png",
     "footprint": 2,
     "h": 137,
@@ -6785,6 +7627,7 @@
    "b_mirrortrap_L08": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L08.png",
     "footprint": 2,
     "h": 137,
@@ -6793,6 +7636,7 @@
    "b_mirrortrap_L09": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L09.png",
     "footprint": 2,
     "h": 137,
@@ -6801,6 +7645,7 @@
    "b_mirrortrap_L10": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L10.png",
     "footprint": 2,
     "h": 137,
@@ -6809,6 +7654,7 @@
    "b_mirrortrap_L11": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L11.png",
     "footprint": 2,
     "h": 137,
@@ -6817,6 +7663,7 @@
    "b_mirrortrap_L12": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L12.png",
     "footprint": 2,
     "h": 137,
@@ -6825,6 +7672,7 @@
    "b_mirrortrap_L13": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L13.png",
     "footprint": 2,
     "h": 137,
@@ -6833,6 +7681,7 @@
    "b_mirrortrap_L14": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L14.png",
     "footprint": 2,
     "h": 137,
@@ -6841,6 +7690,7 @@
    "b_mirrortrap_L15": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L15.png",
     "footprint": 2,
     "h": 137,
@@ -6849,6 +7699,7 @@
    "b_mirrortrap_L16": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L16.png",
     "footprint": 2,
     "h": 137,
@@ -6857,6 +7708,7 @@
    "b_mirrortrap_L17": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L17.png",
     "footprint": 2,
     "h": 137,
@@ -6865,6 +7717,7 @@
    "b_mirrortrap_L18": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L18.png",
     "footprint": 2,
     "h": 137,
@@ -6873,6 +7726,7 @@
    "b_mirrortrap_L19": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L19.png",
     "footprint": 2,
     "h": 137,
@@ -6881,6 +7735,7 @@
    "b_mirrortrap_L20": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L20.png",
     "footprint": 2,
     "h": 137,
@@ -6889,6 +7744,7 @@
    "b_mirrortrap_L21": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L21.png",
     "footprint": 2,
     "h": 137,
@@ -6897,6 +7753,7 @@
    "b_mirrortrap_L22": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L22.png",
     "footprint": 2,
     "h": 137,
@@ -6905,6 +7762,7 @@
    "b_mirrortrap_L23": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L23.png",
     "footprint": 2,
     "h": 137,
@@ -6913,6 +7771,7 @@
    "b_mirrortrap_L24": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L24.png",
     "footprint": 2,
     "h": 137,
@@ -6921,6 +7780,7 @@
    "b_mirrortrap_L25": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L25.png",
     "footprint": 2,
     "h": 137,
@@ -6929,6 +7789,7 @@
    "b_mirrortrap_L26": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L26.png",
     "footprint": 2,
     "h": 137,
@@ -6937,6 +7798,7 @@
    "b_mirrortrap_L27": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L27.png",
     "footprint": 2,
     "h": 137,
@@ -6945,6 +7807,7 @@
    "b_mirrortrap_L28": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L28.png",
     "footprint": 2,
     "h": 137,
@@ -6953,6 +7816,7 @@
    "b_mirrortrap_L29": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L29.png",
     "footprint": 2,
     "h": 137,
@@ -6961,6 +7825,7 @@
    "b_mirrortrap_L30": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mirrortrap_L30.png",
     "footprint": 2,
     "h": 137,
@@ -6969,6 +7834,7 @@
    "b_monolith_L01": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L01.png",
     "footprint": 4,
     "h": 369,
@@ -6977,6 +7843,7 @@
    "b_monolith_L02": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L02.png",
     "footprint": 4,
     "h": 369,
@@ -6985,6 +7852,7 @@
    "b_monolith_L03": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L03.png",
     "footprint": 4,
     "h": 369,
@@ -6993,6 +7861,7 @@
    "b_monolith_L04": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L04.png",
     "footprint": 4,
     "h": 369,
@@ -7001,6 +7870,7 @@
    "b_monolith_L05": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L05.png",
     "footprint": 4,
     "h": 369,
@@ -7009,6 +7879,7 @@
    "b_monolith_L06": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L06.png",
     "footprint": 4,
     "h": 369,
@@ -7017,6 +7888,7 @@
    "b_monolith_L07": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L07.png",
     "footprint": 4,
     "h": 369,
@@ -7025,6 +7897,7 @@
    "b_monolith_L08": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L08.png",
     "footprint": 4,
     "h": 369,
@@ -7033,6 +7906,7 @@
    "b_monolith_L09": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L09.png",
     "footprint": 4,
     "h": 369,
@@ -7041,6 +7915,7 @@
    "b_monolith_L10": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L10.png",
     "footprint": 4,
     "h": 369,
@@ -7049,6 +7924,7 @@
    "b_monolith_L11": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L11.png",
     "footprint": 4,
     "h": 369,
@@ -7057,6 +7933,7 @@
    "b_monolith_L12": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L12.png",
     "footprint": 4,
     "h": 369,
@@ -7065,6 +7942,7 @@
    "b_monolith_L13": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L13.png",
     "footprint": 4,
     "h": 369,
@@ -7073,6 +7951,7 @@
    "b_monolith_L14": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L14.png",
     "footprint": 4,
     "h": 369,
@@ -7081,6 +7960,7 @@
    "b_monolith_L15": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L15.png",
     "footprint": 4,
     "h": 369,
@@ -7089,6 +7969,7 @@
    "b_monolith_L16": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L16.png",
     "footprint": 4,
     "h": 369,
@@ -7097,6 +7978,7 @@
    "b_monolith_L17": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L17.png",
     "footprint": 4,
     "h": 369,
@@ -7105,6 +7987,7 @@
    "b_monolith_L18": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L18.png",
     "footprint": 4,
     "h": 369,
@@ -7113,6 +7996,7 @@
    "b_monolith_L19": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L19.png",
     "footprint": 4,
     "h": 369,
@@ -7121,6 +8005,7 @@
    "b_monolith_L20": {
     "anchorX": 194.5,
     "anchorY": 296.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L20.png",
     "footprint": 4,
     "h": 389,
@@ -7129,6 +8014,7 @@
    "b_monolith_L21": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L21.png",
     "footprint": 4,
     "h": 369,
@@ -7137,6 +8023,7 @@
    "b_monolith_L22": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L22.png",
     "footprint": 4,
     "h": 369,
@@ -7145,6 +8032,7 @@
    "b_monolith_L23": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L23.png",
     "footprint": 4,
     "h": 369,
@@ -7153,6 +8041,7 @@
    "b_monolith_L24": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L24.png",
     "footprint": 4,
     "h": 369,
@@ -7161,6 +8050,7 @@
    "b_monolith_L25": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L25.png",
     "footprint": 4,
     "h": 369,
@@ -7169,6 +8059,7 @@
    "b_monolith_L26": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L26.png",
     "footprint": 4,
     "h": 369,
@@ -7177,6 +8068,7 @@
    "b_monolith_L27": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L27.png",
     "footprint": 4,
     "h": 369,
@@ -7185,6 +8077,7 @@
    "b_monolith_L28": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L28.png",
     "footprint": 4,
     "h": 369,
@@ -7193,6 +8086,7 @@
    "b_monolith_L29": {
     "anchorX": 184.5,
     "anchorY": 278.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L29.png",
     "footprint": 4,
     "h": 369,
@@ -7201,6 +8095,7 @@
    "b_monolith_L30": {
     "anchorX": 206.0,
     "anchorY": 316.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_monolith_L30.png",
     "footprint": 4,
     "h": 412,
@@ -7209,6 +8104,7 @@
    "b_mortar_L01": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L01.png",
     "footprint": 3,
     "h": 213,
@@ -7217,6 +8113,7 @@
    "b_mortar_L02": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L02.png",
     "footprint": 3,
     "h": 213,
@@ -7225,6 +8122,7 @@
    "b_mortar_L03": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L03.png",
     "footprint": 3,
     "h": 213,
@@ -7233,6 +8131,7 @@
    "b_mortar_L04": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L04.png",
     "footprint": 3,
     "h": 213,
@@ -7241,6 +8140,7 @@
    "b_mortar_L05": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L05.png",
     "footprint": 3,
     "h": 213,
@@ -7249,6 +8149,7 @@
    "b_mortar_L06": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L06.png",
     "footprint": 3,
     "h": 213,
@@ -7257,6 +8158,7 @@
    "b_mortar_L07": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L07.png",
     "footprint": 3,
     "h": 213,
@@ -7265,6 +8167,7 @@
    "b_mortar_L08": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L08.png",
     "footprint": 3,
     "h": 213,
@@ -7273,6 +8176,7 @@
    "b_mortar_L09": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L09.png",
     "footprint": 3,
     "h": 213,
@@ -7281,6 +8185,7 @@
    "b_mortar_L10": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L10.png",
     "footprint": 3,
     "h": 213,
@@ -7289,6 +8194,7 @@
    "b_mortar_L11": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L11.png",
     "footprint": 3,
     "h": 213,
@@ -7297,6 +8203,7 @@
    "b_mortar_L12": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L12.png",
     "footprint": 3,
     "h": 213,
@@ -7305,6 +8212,7 @@
    "b_mortar_L13": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L13.png",
     "footprint": 3,
     "h": 213,
@@ -7322,6 +8230,7 @@
    "b_mortar_L15": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L15.png",
     "footprint": 3,
     "h": 213,
@@ -7330,6 +8239,7 @@
    "b_mortar_L16": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L16.png",
     "footprint": 3,
     "h": 213,
@@ -7338,6 +8248,7 @@
    "b_mortar_L17": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L17.png",
     "footprint": 3,
     "h": 213,
@@ -7346,6 +8257,7 @@
    "b_mortar_L18": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L18.png",
     "footprint": 3,
     "h": 213,
@@ -7354,6 +8266,7 @@
    "b_mortar_L19": {
     "anchorX": 106.5,
     "anchorY": 151.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L19.png",
     "footprint": 3,
     "h": 213,
@@ -7362,6 +8275,7 @@
    "b_mortar_L20": {
     "anchorX": 117.5,
     "anchorY": 170.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L20.png",
     "footprint": 3,
     "h": 235,
@@ -7370,6 +8284,7 @@
    "b_mortar_L21": {
     "anchorX": 111.0,
     "anchorY": 159.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L21.png",
     "footprint": 3,
     "h": 222,
@@ -7378,6 +8293,7 @@
    "b_mortar_L22": {
     "anchorX": 111.0,
     "anchorY": 159.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L22.png",
     "footprint": 3,
     "h": 222,
@@ -7386,6 +8302,7 @@
    "b_mortar_L23": {
     "anchorX": 111.0,
     "anchorY": 159.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L23.png",
     "footprint": 3,
     "h": 222,
@@ -7394,6 +8311,7 @@
    "b_mortar_L24": {
     "anchorX": 111.0,
     "anchorY": 159.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L24.png",
     "footprint": 3,
     "h": 222,
@@ -7402,6 +8320,7 @@
    "b_mortar_L25": {
     "anchorX": 111.0,
     "anchorY": 159.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L25.png",
     "footprint": 3,
     "h": 222,
@@ -7410,6 +8329,7 @@
    "b_mortar_L26": {
     "anchorX": 111.0,
     "anchorY": 159.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L26.png",
     "footprint": 3,
     "h": 222,
@@ -7418,6 +8338,7 @@
    "b_mortar_L27": {
     "anchorX": 111.0,
     "anchorY": 159.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L27.png",
     "footprint": 3,
     "h": 222,
@@ -7426,6 +8347,7 @@
    "b_mortar_L28": {
     "anchorX": 111.0,
     "anchorY": 159.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L28.png",
     "footprint": 3,
     "h": 222,
@@ -7434,6 +8356,7 @@
    "b_mortar_L29": {
     "anchorX": 111.0,
     "anchorY": 159.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L29.png",
     "footprint": 3,
     "h": 222,
@@ -7442,6 +8365,7 @@
    "b_mortar_L30": {
     "anchorX": 127.5,
     "anchorY": 189.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_mortar_L30.png",
     "footprint": 3,
     "h": 255,
@@ -7450,6 +8374,7 @@
    "b_multiarcher_L01": {
     "anchorX": 126.0,
     "anchorY": 186.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L01.png",
     "footprint": 3,
     "h": 252,
@@ -7458,6 +8383,7 @@
    "b_multiarcher_L02": {
     "anchorX": 126.0,
     "anchorY": 186.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L02.png",
     "footprint": 3,
     "h": 252,
@@ -7466,6 +8392,7 @@
    "b_multiarcher_L03": {
     "anchorX": 126.0,
     "anchorY": 186.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L03.png",
     "footprint": 3,
     "h": 252,
@@ -7474,6 +8401,7 @@
    "b_multiarcher_L04": {
     "anchorX": 126.0,
     "anchorY": 186.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L04.png",
     "footprint": 3,
     "h": 252,
@@ -7482,6 +8410,7 @@
    "b_multiarcher_L05": {
     "anchorX": 126.0,
     "anchorY": 186.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L05.png",
     "footprint": 3,
     "h": 252,
@@ -7490,6 +8419,7 @@
    "b_multiarcher_L06": {
     "anchorX": 126.0,
     "anchorY": 186.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L06.png",
     "footprint": 3,
     "h": 252,
@@ -7498,6 +8428,7 @@
    "b_multiarcher_L07": {
     "anchorX": 126.0,
     "anchorY": 186.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L07.png",
     "footprint": 3,
     "h": 252,
@@ -7506,6 +8437,7 @@
    "b_multiarcher_L08": {
     "anchorX": 126.0,
     "anchorY": 186.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L08.png",
     "footprint": 3,
     "h": 252,
@@ -7514,6 +8446,7 @@
    "b_multiarcher_L09": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L09.png",
     "footprint": 3,
     "h": 251,
@@ -7522,6 +8455,7 @@
    "b_multiarcher_L10": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L10.png",
     "footprint": 3,
     "h": 251,
@@ -7530,6 +8464,7 @@
    "b_multiarcher_L11": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L11.png",
     "footprint": 3,
     "h": 251,
@@ -7538,6 +8473,7 @@
    "b_multiarcher_L12": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L12.png",
     "footprint": 3,
     "h": 251,
@@ -7546,6 +8482,7 @@
    "b_multiarcher_L13": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L13.png",
     "footprint": 3,
     "h": 251,
@@ -7554,6 +8491,7 @@
    "b_multiarcher_L14": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L14.png",
     "footprint": 3,
     "h": 251,
@@ -7562,6 +8500,7 @@
    "b_multiarcher_L15": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L15.png",
     "footprint": 3,
     "h": 251,
@@ -7570,6 +8509,7 @@
    "b_multiarcher_L16": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L16.png",
     "footprint": 3,
     "h": 251,
@@ -7578,6 +8518,7 @@
    "b_multiarcher_L17": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L17.png",
     "footprint": 3,
     "h": 251,
@@ -7586,6 +8527,7 @@
    "b_multiarcher_L18": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L18.png",
     "footprint": 3,
     "h": 251,
@@ -7594,6 +8536,7 @@
    "b_multiarcher_L19": {
     "anchorX": 125.5,
     "anchorY": 185.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L19.png",
     "footprint": 3,
     "h": 251,
@@ -7602,6 +8545,7 @@
    "b_multiarcher_L20": {
     "anchorX": 143.0,
     "anchorY": 216.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L20.png",
     "footprint": 3,
     "h": 286,
@@ -7610,6 +8554,7 @@
    "b_multiarcher_L21": {
     "anchorX": 131.0,
     "anchorY": 195.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L21.png",
     "footprint": 3,
     "h": 262,
@@ -7618,6 +8563,7 @@
    "b_multiarcher_L22": {
     "anchorX": 131.0,
     "anchorY": 195.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L22.png",
     "footprint": 3,
     "h": 262,
@@ -7626,6 +8572,7 @@
    "b_multiarcher_L23": {
     "anchorX": 131.0,
     "anchorY": 195.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L23.png",
     "footprint": 3,
     "h": 262,
@@ -7634,6 +8581,7 @@
    "b_multiarcher_L24": {
     "anchorX": 131.0,
     "anchorY": 195.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L24.png",
     "footprint": 3,
     "h": 262,
@@ -7642,6 +8590,7 @@
    "b_multiarcher_L25": {
     "anchorX": 131.0,
     "anchorY": 195.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L25.png",
     "footprint": 3,
     "h": 262,
@@ -7650,6 +8599,7 @@
    "b_multiarcher_L26": {
     "anchorX": 131.0,
     "anchorY": 195.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L26.png",
     "footprint": 3,
     "h": 262,
@@ -7658,6 +8608,7 @@
    "b_multiarcher_L27": {
     "anchorX": 131.0,
     "anchorY": 195.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L27.png",
     "footprint": 3,
     "h": 262,
@@ -7666,6 +8617,7 @@
    "b_multiarcher_L28": {
     "anchorX": 131.0,
     "anchorY": 195.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L28.png",
     "footprint": 3,
     "h": 262,
@@ -7674,6 +8626,7 @@
    "b_multiarcher_L29": {
     "anchorX": 131.0,
     "anchorY": 195.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L29.png",
     "footprint": 3,
     "h": 262,
@@ -7682,6 +8635,7 @@
    "b_multiarcher_L30": {
     "anchorX": 153.0,
     "anchorY": 234.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_multiarcher_L30.png",
     "footprint": 3,
     "h": 306,
@@ -7690,6 +8644,7 @@
    "b_nullfield_L01": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L01.png",
     "footprint": 3,
     "h": 251,
@@ -7698,6 +8653,7 @@
    "b_nullfield_L02": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L02.png",
     "footprint": 3,
     "h": 251,
@@ -7706,6 +8662,7 @@
    "b_nullfield_L03": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L03.png",
     "footprint": 3,
     "h": 251,
@@ -7714,6 +8671,7 @@
    "b_nullfield_L04": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L04.png",
     "footprint": 3,
     "h": 251,
@@ -7722,6 +8680,7 @@
    "b_nullfield_L05": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L05.png",
     "footprint": 3,
     "h": 251,
@@ -7730,6 +8689,7 @@
    "b_nullfield_L06": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L06.png",
     "footprint": 3,
     "h": 251,
@@ -7738,6 +8698,7 @@
    "b_nullfield_L07": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L07.png",
     "footprint": 3,
     "h": 251,
@@ -7746,6 +8707,7 @@
    "b_nullfield_L08": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L08.png",
     "footprint": 3,
     "h": 251,
@@ -7754,6 +8716,7 @@
    "b_nullfield_L09": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L09.png",
     "footprint": 3,
     "h": 251,
@@ -7762,6 +8725,7 @@
    "b_nullfield_L10": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L10.png",
     "footprint": 3,
     "h": 251,
@@ -7770,6 +8734,7 @@
    "b_nullfield_L11": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L11.png",
     "footprint": 3,
     "h": 251,
@@ -7778,6 +8743,7 @@
    "b_nullfield_L12": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L12.png",
     "footprint": 3,
     "h": 251,
@@ -7786,6 +8752,7 @@
    "b_nullfield_L13": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L13.png",
     "footprint": 3,
     "h": 251,
@@ -7794,6 +8761,7 @@
    "b_nullfield_L14": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L14.png",
     "footprint": 3,
     "h": 251,
@@ -7802,6 +8770,7 @@
    "b_nullfield_L15": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L15.png",
     "footprint": 3,
     "h": 251,
@@ -7810,6 +8779,7 @@
    "b_nullfield_L16": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L16.png",
     "footprint": 3,
     "h": 251,
@@ -7818,6 +8788,7 @@
    "b_nullfield_L17": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L17.png",
     "footprint": 3,
     "h": 251,
@@ -7826,6 +8797,7 @@
    "b_nullfield_L18": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L18.png",
     "footprint": 3,
     "h": 251,
@@ -7834,6 +8806,7 @@
    "b_nullfield_L19": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L19.png",
     "footprint": 3,
     "h": 251,
@@ -7842,6 +8815,7 @@
    "b_nullfield_L20": {
     "anchorX": 137.5,
     "anchorY": 207.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L20.png",
     "footprint": 3,
     "h": 275,
@@ -7850,6 +8824,7 @@
    "b_nullfield_L21": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L21.png",
     "footprint": 3,
     "h": 251,
@@ -7858,6 +8833,7 @@
    "b_nullfield_L22": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L22.png",
     "footprint": 3,
     "h": 251,
@@ -7866,6 +8842,7 @@
    "b_nullfield_L23": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L23.png",
     "footprint": 3,
     "h": 251,
@@ -7874,6 +8851,7 @@
    "b_nullfield_L24": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L24.png",
     "footprint": 3,
     "h": 251,
@@ -7882,6 +8860,7 @@
    "b_nullfield_L25": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L25.png",
     "footprint": 3,
     "h": 251,
@@ -7890,6 +8869,7 @@
    "b_nullfield_L26": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L26.png",
     "footprint": 3,
     "h": 251,
@@ -7898,6 +8878,7 @@
    "b_nullfield_L27": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L27.png",
     "footprint": 3,
     "h": 251,
@@ -7906,6 +8887,7 @@
    "b_nullfield_L28": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L28.png",
     "footprint": 3,
     "h": 251,
@@ -7914,6 +8896,7 @@
    "b_nullfield_L29": {
     "anchorX": 125.5,
     "anchorY": 185.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L29.png",
     "footprint": 3,
     "h": 251,
@@ -7922,6 +8905,7 @@
    "b_nullfield_L30": {
     "anchorX": 147.5,
     "anchorY": 225.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_nullfield_L30.png",
     "footprint": 3,
     "h": 295,
@@ -7930,6 +8914,7 @@
    "b_orbitalbeacon_L01": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L01.png",
     "footprint": 4,
     "h": 358,
@@ -7938,6 +8923,7 @@
    "b_orbitalbeacon_L02": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L02.png",
     "footprint": 4,
     "h": 358,
@@ -7946,6 +8932,7 @@
    "b_orbitalbeacon_L03": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L03.png",
     "footprint": 4,
     "h": 358,
@@ -7954,6 +8941,7 @@
    "b_orbitalbeacon_L04": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L04.png",
     "footprint": 4,
     "h": 358,
@@ -7962,6 +8950,7 @@
    "b_orbitalbeacon_L05": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L05.png",
     "footprint": 4,
     "h": 358,
@@ -7970,6 +8959,7 @@
    "b_orbitalbeacon_L06": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L06.png",
     "footprint": 4,
     "h": 358,
@@ -7978,6 +8968,7 @@
    "b_orbitalbeacon_L07": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L07.png",
     "footprint": 4,
     "h": 358,
@@ -7986,6 +8977,7 @@
    "b_orbitalbeacon_L08": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L08.png",
     "footprint": 4,
     "h": 358,
@@ -7994,6 +8986,7 @@
    "b_orbitalbeacon_L09": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L09.png",
     "footprint": 4,
     "h": 358,
@@ -8002,6 +8995,7 @@
    "b_orbitalbeacon_L10": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L10.png",
     "footprint": 4,
     "h": 358,
@@ -8010,6 +9004,7 @@
    "b_orbitalbeacon_L11": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L11.png",
     "footprint": 4,
     "h": 358,
@@ -8018,6 +9013,7 @@
    "b_orbitalbeacon_L12": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L12.png",
     "footprint": 4,
     "h": 358,
@@ -8026,6 +9022,7 @@
    "b_orbitalbeacon_L13": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L13.png",
     "footprint": 4,
     "h": 358,
@@ -8034,6 +9031,7 @@
    "b_orbitalbeacon_L14": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L14.png",
     "footprint": 4,
     "h": 358,
@@ -8042,6 +9040,7 @@
    "b_orbitalbeacon_L15": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L15.png",
     "footprint": 4,
     "h": 358,
@@ -8050,6 +9049,7 @@
    "b_orbitalbeacon_L16": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L16.png",
     "footprint": 4,
     "h": 358,
@@ -8058,6 +9058,7 @@
    "b_orbitalbeacon_L17": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L17.png",
     "footprint": 4,
     "h": 358,
@@ -8066,6 +9067,7 @@
    "b_orbitalbeacon_L18": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L18.png",
     "footprint": 4,
     "h": 358,
@@ -8074,6 +9076,7 @@
    "b_orbitalbeacon_L19": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L19.png",
     "footprint": 4,
     "h": 358,
@@ -8082,6 +9085,7 @@
    "b_orbitalbeacon_L20": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L20.png",
     "footprint": 4,
     "h": 358,
@@ -8090,6 +9094,7 @@
    "b_orbitalbeacon_L21": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L21.png",
     "footprint": 4,
     "h": 358,
@@ -8098,6 +9103,7 @@
    "b_orbitalbeacon_L22": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L22.png",
     "footprint": 4,
     "h": 358,
@@ -8106,6 +9112,7 @@
    "b_orbitalbeacon_L23": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L23.png",
     "footprint": 4,
     "h": 358,
@@ -8114,6 +9121,7 @@
    "b_orbitalbeacon_L24": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L24.png",
     "footprint": 4,
     "h": 358,
@@ -8122,6 +9130,7 @@
    "b_orbitalbeacon_L25": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L25.png",
     "footprint": 4,
     "h": 358,
@@ -8130,6 +9139,7 @@
    "b_orbitalbeacon_L26": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L26.png",
     "footprint": 4,
     "h": 358,
@@ -8138,6 +9148,7 @@
    "b_orbitalbeacon_L27": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L27.png",
     "footprint": 4,
     "h": 358,
@@ -8146,6 +9157,7 @@
    "b_orbitalbeacon_L28": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L28.png",
     "footprint": 4,
     "h": 358,
@@ -8154,6 +9166,7 @@
    "b_orbitalbeacon_L29": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L29.png",
     "footprint": 4,
     "h": 358,
@@ -8162,6 +9175,7 @@
    "b_orbitalbeacon_L30": {
     "anchorX": 179.0,
     "anchorY": 268.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_orbitalbeacon_L30.png",
     "footprint": 4,
     "h": 358,
@@ -8170,6 +9184,7 @@
    "b_pethouse_L01": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L01.png",
     "footprint": 3,
     "h": 221,
@@ -8178,6 +9193,7 @@
    "b_pethouse_L02": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L02.png",
     "footprint": 3,
     "h": 221,
@@ -8186,6 +9202,7 @@
    "b_pethouse_L03": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L03.png",
     "footprint": 3,
     "h": 221,
@@ -8194,6 +9211,7 @@
    "b_pethouse_L04": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L04.png",
     "footprint": 3,
     "h": 221,
@@ -8202,6 +9220,7 @@
    "b_pethouse_L05": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L05.png",
     "footprint": 3,
     "h": 221,
@@ -8210,6 +9229,7 @@
    "b_pethouse_L06": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L06.png",
     "footprint": 3,
     "h": 221,
@@ -8218,6 +9238,7 @@
    "b_pethouse_L07": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L07.png",
     "footprint": 3,
     "h": 221,
@@ -8226,6 +9247,7 @@
    "b_pethouse_L08": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L08.png",
     "footprint": 3,
     "h": 221,
@@ -8234,6 +9256,7 @@
    "b_pethouse_L09": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L09.png",
     "footprint": 3,
     "h": 221,
@@ -8242,6 +9265,7 @@
    "b_pethouse_L10": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L10.png",
     "footprint": 3,
     "h": 221,
@@ -8250,6 +9274,7 @@
    "b_pethouse_L11": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L11.png",
     "footprint": 3,
     "h": 221,
@@ -8258,6 +9283,7 @@
    "b_pethouse_L12": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L12.png",
     "footprint": 3,
     "h": 221,
@@ -8266,6 +9292,7 @@
    "b_pethouse_L13": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L13.png",
     "footprint": 3,
     "h": 221,
@@ -8274,6 +9301,7 @@
    "b_pethouse_L14": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L14.png",
     "footprint": 3,
     "h": 221,
@@ -8282,6 +9310,7 @@
    "b_pethouse_L15": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L15.png",
     "footprint": 3,
     "h": 221,
@@ -8290,6 +9319,7 @@
    "b_pethouse_L16": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L16.png",
     "footprint": 3,
     "h": 221,
@@ -8298,6 +9328,7 @@
    "b_pethouse_L17": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L17.png",
     "footprint": 3,
     "h": 221,
@@ -8306,6 +9337,7 @@
    "b_pethouse_L18": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L18.png",
     "footprint": 3,
     "h": 221,
@@ -8314,6 +9346,7 @@
    "b_pethouse_L19": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L19.png",
     "footprint": 3,
     "h": 221,
@@ -8322,6 +9355,7 @@
    "b_pethouse_L20": {
     "anchorX": 118.5,
     "anchorY": 172.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L20.png",
     "footprint": 3,
     "h": 237,
@@ -8330,6 +9364,7 @@
    "b_pethouse_L21": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L21.png",
     "footprint": 3,
     "h": 221,
@@ -8338,6 +9373,7 @@
    "b_pethouse_L22": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L22.png",
     "footprint": 3,
     "h": 221,
@@ -8346,6 +9382,7 @@
    "b_pethouse_L23": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L23.png",
     "footprint": 3,
     "h": 221,
@@ -8354,6 +9391,7 @@
    "b_pethouse_L24": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L24.png",
     "footprint": 3,
     "h": 221,
@@ -8362,6 +9400,7 @@
    "b_pethouse_L25": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L25.png",
     "footprint": 3,
     "h": 221,
@@ -8370,6 +9409,7 @@
    "b_pethouse_L26": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L26.png",
     "footprint": 3,
     "h": 221,
@@ -8378,6 +9418,7 @@
    "b_pethouse_L27": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L27.png",
     "footprint": 3,
     "h": 221,
@@ -8386,6 +9427,7 @@
    "b_pethouse_L28": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L28.png",
     "footprint": 3,
     "h": 221,
@@ -8394,6 +9436,7 @@
    "b_pethouse_L29": {
     "anchorX": 110.5,
     "anchorY": 158.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L29.png",
     "footprint": 3,
     "h": 221,
@@ -8402,6 +9445,7 @@
    "b_pethouse_L30": {
     "anchorX": 128.5,
     "anchorY": 190.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_pethouse_L30.png",
     "footprint": 3,
     "h": 257,
@@ -8410,6 +9454,7 @@
    "b_prismtower_L01": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L01.png",
     "footprint": 3,
     "h": 281,
@@ -8418,6 +9463,7 @@
    "b_prismtower_L02": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L02.png",
     "footprint": 3,
     "h": 281,
@@ -8426,6 +9472,7 @@
    "b_prismtower_L03": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L03.png",
     "footprint": 3,
     "h": 281,
@@ -8434,6 +9481,7 @@
    "b_prismtower_L04": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L04.png",
     "footprint": 3,
     "h": 281,
@@ -8442,6 +9490,7 @@
    "b_prismtower_L05": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L05.png",
     "footprint": 3,
     "h": 281,
@@ -8450,6 +9499,7 @@
    "b_prismtower_L06": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L06.png",
     "footprint": 3,
     "h": 281,
@@ -8458,6 +9508,7 @@
    "b_prismtower_L07": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L07.png",
     "footprint": 3,
     "h": 281,
@@ -8466,6 +9517,7 @@
    "b_prismtower_L08": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L08.png",
     "footprint": 3,
     "h": 281,
@@ -8474,6 +9526,7 @@
    "b_prismtower_L09": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L09.png",
     "footprint": 3,
     "h": 281,
@@ -8482,6 +9535,7 @@
    "b_prismtower_L10": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L10.png",
     "footprint": 3,
     "h": 281,
@@ -8490,6 +9544,7 @@
    "b_prismtower_L11": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L11.png",
     "footprint": 3,
     "h": 281,
@@ -8498,6 +9553,7 @@
    "b_prismtower_L12": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L12.png",
     "footprint": 3,
     "h": 281,
@@ -8506,6 +9562,7 @@
    "b_prismtower_L13": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L13.png",
     "footprint": 3,
     "h": 281,
@@ -8514,6 +9571,7 @@
    "b_prismtower_L14": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L14.png",
     "footprint": 3,
     "h": 281,
@@ -8522,6 +9580,7 @@
    "b_prismtower_L15": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L15.png",
     "footprint": 3,
     "h": 281,
@@ -8530,6 +9589,7 @@
    "b_prismtower_L16": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L16.png",
     "footprint": 3,
     "h": 281,
@@ -8538,6 +9598,7 @@
    "b_prismtower_L17": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L17.png",
     "footprint": 3,
     "h": 281,
@@ -8546,6 +9607,7 @@
    "b_prismtower_L18": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L18.png",
     "footprint": 3,
     "h": 281,
@@ -8554,6 +9616,7 @@
    "b_prismtower_L19": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L19.png",
     "footprint": 3,
     "h": 281,
@@ -8562,6 +9625,7 @@
    "b_prismtower_L20": {
     "anchorX": 152.5,
     "anchorY": 234.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L20.png",
     "footprint": 3,
     "h": 305,
@@ -8570,6 +9634,7 @@
    "b_prismtower_L21": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L21.png",
     "footprint": 3,
     "h": 281,
@@ -8578,6 +9643,7 @@
    "b_prismtower_L22": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L22.png",
     "footprint": 3,
     "h": 281,
@@ -8586,6 +9652,7 @@
    "b_prismtower_L23": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L23.png",
     "footprint": 3,
     "h": 281,
@@ -8594,6 +9661,7 @@
    "b_prismtower_L24": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L24.png",
     "footprint": 3,
     "h": 281,
@@ -8602,6 +9670,7 @@
    "b_prismtower_L25": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L25.png",
     "footprint": 3,
     "h": 281,
@@ -8610,6 +9679,7 @@
    "b_prismtower_L26": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L26.png",
     "footprint": 3,
     "h": 281,
@@ -8618,6 +9688,7 @@
    "b_prismtower_L27": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L27.png",
     "footprint": 3,
     "h": 281,
@@ -8626,6 +9697,7 @@
    "b_prismtower_L28": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L28.png",
     "footprint": 3,
     "h": 281,
@@ -8634,6 +9706,7 @@
    "b_prismtower_L29": {
     "anchorX": 140.5,
     "anchorY": 212.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L29.png",
     "footprint": 3,
     "h": 281,
@@ -8642,6 +9715,7 @@
    "b_prismtower_L30": {
     "anchorX": 162.0,
     "anchorY": 251.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_prismtower_L30.png",
     "footprint": 3,
     "h": 324,
@@ -8650,6 +9724,7 @@
    "b_quicksand_L01": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L01.png",
     "footprint": 2,
     "h": 137,
@@ -8658,6 +9733,7 @@
    "b_quicksand_L02": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L02.png",
     "footprint": 2,
     "h": 137,
@@ -8666,6 +9742,7 @@
    "b_quicksand_L03": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L03.png",
     "footprint": 2,
     "h": 137,
@@ -8674,6 +9751,7 @@
    "b_quicksand_L04": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L04.png",
     "footprint": 2,
     "h": 137,
@@ -8682,6 +9760,7 @@
    "b_quicksand_L05": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L05.png",
     "footprint": 2,
     "h": 137,
@@ -8690,6 +9769,7 @@
    "b_quicksand_L06": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L06.png",
     "footprint": 2,
     "h": 137,
@@ -8698,6 +9778,7 @@
    "b_quicksand_L07": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L07.png",
     "footprint": 2,
     "h": 137,
@@ -8706,6 +9787,7 @@
    "b_quicksand_L08": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L08.png",
     "footprint": 2,
     "h": 137,
@@ -8714,6 +9796,7 @@
    "b_quicksand_L09": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L09.png",
     "footprint": 2,
     "h": 137,
@@ -8722,6 +9805,7 @@
    "b_quicksand_L10": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L10.png",
     "footprint": 2,
     "h": 137,
@@ -8730,6 +9814,7 @@
    "b_quicksand_L11": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L11.png",
     "footprint": 2,
     "h": 137,
@@ -8738,6 +9823,7 @@
    "b_quicksand_L12": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L12.png",
     "footprint": 2,
     "h": 137,
@@ -8746,6 +9832,7 @@
    "b_quicksand_L13": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L13.png",
     "footprint": 2,
     "h": 137,
@@ -8754,6 +9841,7 @@
    "b_quicksand_L14": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L14.png",
     "footprint": 2,
     "h": 137,
@@ -8762,6 +9850,7 @@
    "b_quicksand_L15": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L15.png",
     "footprint": 2,
     "h": 137,
@@ -8770,6 +9859,7 @@
    "b_quicksand_L16": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L16.png",
     "footprint": 2,
     "h": 137,
@@ -8778,6 +9868,7 @@
    "b_quicksand_L17": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L17.png",
     "footprint": 2,
     "h": 137,
@@ -8786,6 +9877,7 @@
    "b_quicksand_L18": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L18.png",
     "footprint": 2,
     "h": 137,
@@ -8794,6 +9886,7 @@
    "b_quicksand_L19": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L19.png",
     "footprint": 2,
     "h": 137,
@@ -8802,6 +9895,7 @@
    "b_quicksand_L20": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L20.png",
     "footprint": 2,
     "h": 137,
@@ -8810,6 +9904,7 @@
    "b_quicksand_L21": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L21.png",
     "footprint": 2,
     "h": 137,
@@ -8818,6 +9913,7 @@
    "b_quicksand_L22": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L22.png",
     "footprint": 2,
     "h": 137,
@@ -8826,6 +9922,7 @@
    "b_quicksand_L23": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L23.png",
     "footprint": 2,
     "h": 137,
@@ -8834,6 +9931,7 @@
    "b_quicksand_L24": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L24.png",
     "footprint": 2,
     "h": 137,
@@ -8842,6 +9940,7 @@
    "b_quicksand_L25": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L25.png",
     "footprint": 2,
     "h": 137,
@@ -8850,6 +9949,7 @@
    "b_quicksand_L26": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L26.png",
     "footprint": 2,
     "h": 137,
@@ -8858,6 +9958,7 @@
    "b_quicksand_L27": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L27.png",
     "footprint": 2,
     "h": 137,
@@ -8866,6 +9967,7 @@
    "b_quicksand_L28": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L28.png",
     "footprint": 2,
     "h": 137,
@@ -8874,6 +9976,7 @@
    "b_quicksand_L29": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L29.png",
     "footprint": 2,
     "h": 137,
@@ -8882,6 +9985,7 @@
    "b_quicksand_L30": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_quicksand_L30.png",
     "footprint": 2,
     "h": 137,
@@ -8890,6 +9994,7 @@
    "b_ricochet_L01": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L01.png",
     "footprint": 4,
     "h": 274,
@@ -8898,6 +10003,7 @@
    "b_ricochet_L02": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L02.png",
     "footprint": 4,
     "h": 274,
@@ -8906,6 +10012,7 @@
    "b_ricochet_L03": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L03.png",
     "footprint": 4,
     "h": 274,
@@ -8914,6 +10021,7 @@
    "b_ricochet_L04": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L04.png",
     "footprint": 4,
     "h": 274,
@@ -8922,6 +10030,7 @@
    "b_ricochet_L05": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L05.png",
     "footprint": 4,
     "h": 274,
@@ -8930,6 +10039,7 @@
    "b_ricochet_L06": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L06.png",
     "footprint": 4,
     "h": 274,
@@ -8938,6 +10048,7 @@
    "b_ricochet_L07": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L07.png",
     "footprint": 4,
     "h": 274,
@@ -8946,6 +10057,7 @@
    "b_ricochet_L08": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L08.png",
     "footprint": 4,
     "h": 274,
@@ -8954,6 +10066,7 @@
    "b_ricochet_L09": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L09.png",
     "footprint": 4,
     "h": 274,
@@ -8962,6 +10075,7 @@
    "b_ricochet_L10": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L10.png",
     "footprint": 4,
     "h": 274,
@@ -8970,6 +10084,7 @@
    "b_ricochet_L11": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L11.png",
     "footprint": 4,
     "h": 274,
@@ -8978,6 +10093,7 @@
    "b_ricochet_L12": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L12.png",
     "footprint": 4,
     "h": 274,
@@ -8986,6 +10102,7 @@
    "b_ricochet_L13": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L13.png",
     "footprint": 4,
     "h": 274,
@@ -8994,6 +10111,7 @@
    "b_ricochet_L14": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L14.png",
     "footprint": 4,
     "h": 274,
@@ -9002,6 +10120,7 @@
    "b_ricochet_L15": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L15.png",
     "footprint": 4,
     "h": 274,
@@ -9010,6 +10129,7 @@
    "b_ricochet_L16": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L16.png",
     "footprint": 4,
     "h": 274,
@@ -9018,6 +10138,7 @@
    "b_ricochet_L17": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L17.png",
     "footprint": 4,
     "h": 274,
@@ -9026,6 +10147,7 @@
    "b_ricochet_L18": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L18.png",
     "footprint": 4,
     "h": 274,
@@ -9034,6 +10156,7 @@
    "b_ricochet_L19": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L19.png",
     "footprint": 4,
     "h": 274,
@@ -9042,6 +10165,7 @@
    "b_ricochet_L20": {
     "anchorX": 142.5,
     "anchorY": 202.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L20.png",
     "footprint": 4,
     "h": 285,
@@ -9050,6 +10174,7 @@
    "b_ricochet_L21": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L21.png",
     "footprint": 4,
     "h": 274,
@@ -9058,6 +10183,7 @@
    "b_ricochet_L22": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L22.png",
     "footprint": 4,
     "h": 274,
@@ -9066,6 +10192,7 @@
    "b_ricochet_L23": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L23.png",
     "footprint": 4,
     "h": 274,
@@ -9074,6 +10201,7 @@
    "b_ricochet_L24": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L24.png",
     "footprint": 4,
     "h": 274,
@@ -9082,6 +10210,7 @@
    "b_ricochet_L25": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L25.png",
     "footprint": 4,
     "h": 274,
@@ -9090,6 +10219,7 @@
    "b_ricochet_L26": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L26.png",
     "footprint": 4,
     "h": 274,
@@ -9098,6 +10228,7 @@
    "b_ricochet_L27": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L27.png",
     "footprint": 4,
     "h": 274,
@@ -9106,6 +10237,7 @@
    "b_ricochet_L28": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L28.png",
     "footprint": 4,
     "h": 274,
@@ -9114,6 +10246,7 @@
    "b_ricochet_L29": {
     "anchorX": 137.0,
     "anchorY": 186.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L29.png",
     "footprint": 4,
     "h": 274,
@@ -9122,6 +10255,7 @@
    "b_ricochet_L30": {
     "anchorX": 154.5,
     "anchorY": 223.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_ricochet_L30.png",
     "footprint": 4,
     "h": 309,
@@ -9130,6 +10264,7 @@
    "b_scattershot_L01": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L01.png",
     "footprint": 4,
     "h": 274,
@@ -9138,6 +10273,7 @@
    "b_scattershot_L02": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L02.png",
     "footprint": 4,
     "h": 274,
@@ -9146,6 +10282,7 @@
    "b_scattershot_L03": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L03.png",
     "footprint": 4,
     "h": 274,
@@ -9154,6 +10291,7 @@
    "b_scattershot_L04": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L04.png",
     "footprint": 4,
     "h": 274,
@@ -9162,6 +10300,7 @@
    "b_scattershot_L05": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L05.png",
     "footprint": 4,
     "h": 274,
@@ -9170,6 +10309,7 @@
    "b_scattershot_L06": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L06.png",
     "footprint": 4,
     "h": 274,
@@ -9178,6 +10318,7 @@
    "b_scattershot_L07": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L07.png",
     "footprint": 4,
     "h": 274,
@@ -9186,6 +10327,7 @@
    "b_scattershot_L08": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L08.png",
     "footprint": 4,
     "h": 274,
@@ -9194,6 +10336,7 @@
    "b_scattershot_L09": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L09.png",
     "footprint": 4,
     "h": 274,
@@ -9202,6 +10345,7 @@
    "b_scattershot_L10": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L10.png",
     "footprint": 4,
     "h": 274,
@@ -9210,6 +10354,7 @@
    "b_scattershot_L11": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L11.png",
     "footprint": 4,
     "h": 274,
@@ -9218,6 +10363,7 @@
    "b_scattershot_L12": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L12.png",
     "footprint": 4,
     "h": 274,
@@ -9226,6 +10372,7 @@
    "b_scattershot_L13": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L13.png",
     "footprint": 4,
     "h": 274,
@@ -9234,6 +10381,7 @@
    "b_scattershot_L14": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L14.png",
     "footprint": 4,
     "h": 274,
@@ -9242,6 +10390,7 @@
    "b_scattershot_L15": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L15.png",
     "footprint": 4,
     "h": 274,
@@ -9250,6 +10399,7 @@
    "b_scattershot_L16": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L16.png",
     "footprint": 4,
     "h": 274,
@@ -9258,6 +10408,7 @@
    "b_scattershot_L17": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L17.png",
     "footprint": 4,
     "h": 274,
@@ -9266,6 +10417,7 @@
    "b_scattershot_L18": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L18.png",
     "footprint": 4,
     "h": 274,
@@ -9274,6 +10426,7 @@
    "b_scattershot_L19": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L19.png",
     "footprint": 4,
     "h": 274,
@@ -9282,6 +10435,7 @@
    "b_scattershot_L20": {
     "anchorX": 142.5,
     "anchorY": 202.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L20.png",
     "footprint": 4,
     "h": 285,
@@ -9290,6 +10444,7 @@
    "b_scattershot_L21": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L21.png",
     "footprint": 4,
     "h": 274,
@@ -9298,6 +10453,7 @@
    "b_scattershot_L22": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L22.png",
     "footprint": 4,
     "h": 274,
@@ -9306,6 +10462,7 @@
    "b_scattershot_L23": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L23.png",
     "footprint": 4,
     "h": 274,
@@ -9314,6 +10471,7 @@
    "b_scattershot_L24": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L24.png",
     "footprint": 4,
     "h": 274,
@@ -9322,6 +10480,7 @@
    "b_scattershot_L25": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L25.png",
     "footprint": 4,
     "h": 274,
@@ -9330,6 +10489,7 @@
    "b_scattershot_L26": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L26.png",
     "footprint": 4,
     "h": 274,
@@ -9338,6 +10498,7 @@
    "b_scattershot_L27": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L27.png",
     "footprint": 4,
     "h": 274,
@@ -9346,6 +10507,7 @@
    "b_scattershot_L28": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L28.png",
     "footprint": 4,
     "h": 274,
@@ -9354,6 +10516,7 @@
    "b_scattershot_L29": {
     "anchorX": 137.0,
     "anchorY": 187.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L29.png",
     "footprint": 4,
     "h": 274,
@@ -9362,6 +10525,7 @@
    "b_scattershot_L30": {
     "anchorX": 154.5,
     "anchorY": 223.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_scattershot_L30.png",
     "footprint": 4,
     "h": 309,
@@ -9370,6 +10534,7 @@
    "b_seekingmine_L01": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L01.png",
     "footprint": 2,
     "h": 137,
@@ -9378,6 +10543,7 @@
    "b_seekingmine_L02": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L02.png",
     "footprint": 2,
     "h": 137,
@@ -9386,6 +10552,7 @@
    "b_seekingmine_L03": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L03.png",
     "footprint": 2,
     "h": 137,
@@ -9394,6 +10561,7 @@
    "b_seekingmine_L04": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L04.png",
     "footprint": 2,
     "h": 137,
@@ -9402,6 +10570,7 @@
    "b_seekingmine_L05": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L05.png",
     "footprint": 2,
     "h": 137,
@@ -9410,6 +10579,7 @@
    "b_seekingmine_L06": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L06.png",
     "footprint": 2,
     "h": 137,
@@ -9418,6 +10588,7 @@
    "b_seekingmine_L07": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L07.png",
     "footprint": 2,
     "h": 137,
@@ -9426,6 +10597,7 @@
    "b_seekingmine_L08": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L08.png",
     "footprint": 2,
     "h": 137,
@@ -9434,6 +10606,7 @@
    "b_seekingmine_L09": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L09.png",
     "footprint": 2,
     "h": 137,
@@ -9442,6 +10615,7 @@
    "b_seekingmine_L10": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L10.png",
     "footprint": 2,
     "h": 137,
@@ -9450,6 +10624,7 @@
    "b_seekingmine_L11": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L11.png",
     "footprint": 2,
     "h": 137,
@@ -9458,6 +10633,7 @@
    "b_seekingmine_L12": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L12.png",
     "footprint": 2,
     "h": 137,
@@ -9466,6 +10642,7 @@
    "b_seekingmine_L13": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L13.png",
     "footprint": 2,
     "h": 137,
@@ -9474,6 +10651,7 @@
    "b_seekingmine_L14": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L14.png",
     "footprint": 2,
     "h": 137,
@@ -9482,6 +10660,7 @@
    "b_seekingmine_L15": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L15.png",
     "footprint": 2,
     "h": 137,
@@ -9490,6 +10669,7 @@
    "b_seekingmine_L16": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L16.png",
     "footprint": 2,
     "h": 137,
@@ -9498,6 +10678,7 @@
    "b_seekingmine_L17": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L17.png",
     "footprint": 2,
     "h": 137,
@@ -9506,6 +10687,7 @@
    "b_seekingmine_L18": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L18.png",
     "footprint": 2,
     "h": 137,
@@ -9514,6 +10696,7 @@
    "b_seekingmine_L19": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L19.png",
     "footprint": 2,
     "h": 137,
@@ -9522,6 +10705,7 @@
    "b_seekingmine_L20": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L20.png",
     "footprint": 2,
     "h": 137,
@@ -9530,6 +10714,7 @@
    "b_seekingmine_L21": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L21.png",
     "footprint": 2,
     "h": 137,
@@ -9538,6 +10723,7 @@
    "b_seekingmine_L22": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L22.png",
     "footprint": 2,
     "h": 137,
@@ -9546,6 +10732,7 @@
    "b_seekingmine_L23": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L23.png",
     "footprint": 2,
     "h": 137,
@@ -9554,6 +10741,7 @@
    "b_seekingmine_L24": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L24.png",
     "footprint": 2,
     "h": 137,
@@ -9562,6 +10750,7 @@
    "b_seekingmine_L25": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L25.png",
     "footprint": 2,
     "h": 137,
@@ -9570,6 +10759,7 @@
    "b_seekingmine_L26": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L26.png",
     "footprint": 2,
     "h": 137,
@@ -9578,6 +10768,7 @@
    "b_seekingmine_L27": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L27.png",
     "footprint": 2,
     "h": 137,
@@ -9586,6 +10777,7 @@
    "b_seekingmine_L28": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L28.png",
     "footprint": 2,
     "h": 137,
@@ -9594,6 +10786,7 @@
    "b_seekingmine_L29": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L29.png",
     "footprint": 2,
     "h": 137,
@@ -9602,6 +10795,7 @@
    "b_seekingmine_L30": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_seekingmine_L30.png",
     "footprint": 2,
     "h": 137,
@@ -9610,6 +10804,7 @@
    "b_siegeworkshop_L01": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L01.png",
     "footprint": 3,
     "h": 206,
@@ -9618,6 +10813,7 @@
    "b_siegeworkshop_L02": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L02.png",
     "footprint": 3,
     "h": 206,
@@ -9626,6 +10822,7 @@
    "b_siegeworkshop_L03": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L03.png",
     "footprint": 3,
     "h": 206,
@@ -9634,6 +10831,7 @@
    "b_siegeworkshop_L04": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L04.png",
     "footprint": 3,
     "h": 206,
@@ -9642,6 +10840,7 @@
    "b_siegeworkshop_L05": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L05.png",
     "footprint": 3,
     "h": 206,
@@ -9650,6 +10849,7 @@
    "b_siegeworkshop_L06": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L06.png",
     "footprint": 3,
     "h": 206,
@@ -9658,6 +10858,7 @@
    "b_siegeworkshop_L07": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L07.png",
     "footprint": 3,
     "h": 206,
@@ -9666,6 +10867,7 @@
    "b_siegeworkshop_L08": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L08.png",
     "footprint": 3,
     "h": 206,
@@ -9674,6 +10876,7 @@
    "b_siegeworkshop_L09": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L09.png",
     "footprint": 3,
     "h": 206,
@@ -9682,6 +10885,7 @@
    "b_siegeworkshop_L10": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L10.png",
     "footprint": 3,
     "h": 206,
@@ -9690,6 +10894,7 @@
    "b_siegeworkshop_L11": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L11.png",
     "footprint": 3,
     "h": 206,
@@ -9698,6 +10903,7 @@
    "b_siegeworkshop_L12": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L12.png",
     "footprint": 3,
     "h": 206,
@@ -9706,6 +10912,7 @@
    "b_siegeworkshop_L13": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L13.png",
     "footprint": 3,
     "h": 206,
@@ -9714,6 +10921,7 @@
    "b_siegeworkshop_L14": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L14.png",
     "footprint": 3,
     "h": 206,
@@ -9722,6 +10930,7 @@
    "b_siegeworkshop_L15": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L15.png",
     "footprint": 3,
     "h": 206,
@@ -9730,6 +10939,7 @@
    "b_siegeworkshop_L16": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L16.png",
     "footprint": 3,
     "h": 206,
@@ -9738,6 +10948,7 @@
    "b_siegeworkshop_L17": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L17.png",
     "footprint": 3,
     "h": 206,
@@ -9746,6 +10957,7 @@
    "b_siegeworkshop_L18": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L18.png",
     "footprint": 3,
     "h": 206,
@@ -9754,6 +10966,7 @@
    "b_siegeworkshop_L19": {
     "anchorX": 103.0,
     "anchorY": 144.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L19.png",
     "footprint": 3,
     "h": 206,
@@ -9762,6 +10975,7 @@
    "b_siegeworkshop_L20": {
     "anchorX": 117.0,
     "anchorY": 169.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L20.png",
     "footprint": 3,
     "h": 234,
@@ -9770,6 +10984,7 @@
    "b_siegeworkshop_L21": {
     "anchorX": 104.0,
     "anchorY": 146.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L21.png",
     "footprint": 3,
     "h": 208,
@@ -9778,6 +10993,7 @@
    "b_siegeworkshop_L22": {
     "anchorX": 104.0,
     "anchorY": 146.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L22.png",
     "footprint": 3,
     "h": 208,
@@ -9786,6 +11002,7 @@
    "b_siegeworkshop_L23": {
     "anchorX": 104.0,
     "anchorY": 146.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L23.png",
     "footprint": 3,
     "h": 208,
@@ -9794,6 +11011,7 @@
    "b_siegeworkshop_L24": {
     "anchorX": 104.0,
     "anchorY": 146.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L24.png",
     "footprint": 3,
     "h": 208,
@@ -9802,6 +11020,7 @@
    "b_siegeworkshop_L25": {
     "anchorX": 104.0,
     "anchorY": 146.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L25.png",
     "footprint": 3,
     "h": 208,
@@ -9810,6 +11029,7 @@
    "b_siegeworkshop_L26": {
     "anchorX": 104.0,
     "anchorY": 146.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L26.png",
     "footprint": 3,
     "h": 208,
@@ -9818,6 +11038,7 @@
    "b_siegeworkshop_L27": {
     "anchorX": 104.0,
     "anchorY": 146.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L27.png",
     "footprint": 3,
     "h": 208,
@@ -9826,6 +11047,7 @@
    "b_siegeworkshop_L28": {
     "anchorX": 104.0,
     "anchorY": 146.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L28.png",
     "footprint": 3,
     "h": 208,
@@ -9834,6 +11056,7 @@
    "b_siegeworkshop_L29": {
     "anchorX": 104.0,
     "anchorY": 146.4,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L29.png",
     "footprint": 3,
     "h": 208,
@@ -9842,6 +11065,7 @@
    "b_siegeworkshop_L30": {
     "anchorX": 126.5,
     "anchorY": 187.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_siegeworkshop_L30.png",
     "footprint": 3,
     "h": 253,
@@ -9850,6 +11074,7 @@
    "b_singularity_L01": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L01.png",
     "footprint": 5,
     "h": 416,
@@ -9858,6 +11083,7 @@
    "b_singularity_L02": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L02.png",
     "footprint": 5,
     "h": 416,
@@ -9866,6 +11092,7 @@
    "b_singularity_L03": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L03.png",
     "footprint": 5,
     "h": 416,
@@ -9874,6 +11101,7 @@
    "b_singularity_L04": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L04.png",
     "footprint": 5,
     "h": 416,
@@ -9882,6 +11110,7 @@
    "b_singularity_L05": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L05.png",
     "footprint": 5,
     "h": 416,
@@ -9890,6 +11119,7 @@
    "b_singularity_L06": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L06.png",
     "footprint": 5,
     "h": 416,
@@ -9898,6 +11128,7 @@
    "b_singularity_L07": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L07.png",
     "footprint": 5,
     "h": 416,
@@ -9906,6 +11137,7 @@
    "b_singularity_L08": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L08.png",
     "footprint": 5,
     "h": 416,
@@ -9914,6 +11146,7 @@
    "b_singularity_L09": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L09.png",
     "footprint": 5,
     "h": 416,
@@ -9922,6 +11155,7 @@
    "b_singularity_L10": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L10.png",
     "footprint": 5,
     "h": 416,
@@ -9930,6 +11164,7 @@
    "b_singularity_L11": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L11.png",
     "footprint": 5,
     "h": 416,
@@ -9938,6 +11173,7 @@
    "b_singularity_L12": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L12.png",
     "footprint": 5,
     "h": 416,
@@ -9946,6 +11182,7 @@
    "b_singularity_L13": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L13.png",
     "footprint": 5,
     "h": 416,
@@ -9954,6 +11191,7 @@
    "b_singularity_L14": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L14.png",
     "footprint": 5,
     "h": 416,
@@ -9962,6 +11200,7 @@
    "b_singularity_L15": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L15.png",
     "footprint": 5,
     "h": 416,
@@ -9970,6 +11209,7 @@
    "b_singularity_L16": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L16.png",
     "footprint": 5,
     "h": 416,
@@ -9978,6 +11218,7 @@
    "b_singularity_L17": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L17.png",
     "footprint": 5,
     "h": 416,
@@ -9986,6 +11227,7 @@
    "b_singularity_L18": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L18.png",
     "footprint": 5,
     "h": 416,
@@ -9994,6 +11236,7 @@
    "b_singularity_L19": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L19.png",
     "footprint": 5,
     "h": 416,
@@ -10002,6 +11245,7 @@
    "b_singularity_L20": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L20.png",
     "footprint": 5,
     "h": 416,
@@ -10010,6 +11254,7 @@
    "b_singularity_L21": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L21.png",
     "footprint": 5,
     "h": 416,
@@ -10018,6 +11263,7 @@
    "b_singularity_L22": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L22.png",
     "footprint": 5,
     "h": 416,
@@ -10026,6 +11272,7 @@
    "b_singularity_L23": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L23.png",
     "footprint": 5,
     "h": 416,
@@ -10034,6 +11281,7 @@
    "b_singularity_L24": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L24.png",
     "footprint": 5,
     "h": 416,
@@ -10042,6 +11290,7 @@
    "b_singularity_L25": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L25.png",
     "footprint": 5,
     "h": 416,
@@ -10050,6 +11299,7 @@
    "b_singularity_L26": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L26.png",
     "footprint": 5,
     "h": 416,
@@ -10058,6 +11308,7 @@
    "b_singularity_L27": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L27.png",
     "footprint": 5,
     "h": 416,
@@ -10066,6 +11317,7 @@
    "b_singularity_L28": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L28.png",
     "footprint": 5,
     "h": 416,
@@ -10074,6 +11326,7 @@
    "b_singularity_L29": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L29.png",
     "footprint": 5,
     "h": 416,
@@ -10082,6 +11335,7 @@
    "b_singularity_L30": {
     "anchorX": 208.0,
     "anchorY": 306.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_singularity_L30.png",
     "footprint": 5,
     "h": 416,
@@ -10090,6 +11344,7 @@
    "b_skeletontrap_L01": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L01.png",
     "footprint": 2,
     "h": 137,
@@ -10098,6 +11353,7 @@
    "b_skeletontrap_L02": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L02.png",
     "footprint": 2,
     "h": 137,
@@ -10106,6 +11362,7 @@
    "b_skeletontrap_L03": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L03.png",
     "footprint": 2,
     "h": 137,
@@ -10114,6 +11371,7 @@
    "b_skeletontrap_L04": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L04.png",
     "footprint": 2,
     "h": 137,
@@ -10122,6 +11380,7 @@
    "b_skeletontrap_L05": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L05.png",
     "footprint": 2,
     "h": 137,
@@ -10130,6 +11389,7 @@
    "b_skeletontrap_L06": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L06.png",
     "footprint": 2,
     "h": 137,
@@ -10138,6 +11398,7 @@
    "b_skeletontrap_L07": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L07.png",
     "footprint": 2,
     "h": 137,
@@ -10146,6 +11407,7 @@
    "b_skeletontrap_L08": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L08.png",
     "footprint": 2,
     "h": 137,
@@ -10154,6 +11416,7 @@
    "b_skeletontrap_L09": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L09.png",
     "footprint": 2,
     "h": 137,
@@ -10162,6 +11425,7 @@
    "b_skeletontrap_L10": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L10.png",
     "footprint": 2,
     "h": 137,
@@ -10170,6 +11434,7 @@
    "b_skeletontrap_L11": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L11.png",
     "footprint": 2,
     "h": 137,
@@ -10178,6 +11443,7 @@
    "b_skeletontrap_L12": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L12.png",
     "footprint": 2,
     "h": 137,
@@ -10186,6 +11452,7 @@
    "b_skeletontrap_L13": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L13.png",
     "footprint": 2,
     "h": 137,
@@ -10194,6 +11461,7 @@
    "b_skeletontrap_L14": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L14.png",
     "footprint": 2,
     "h": 137,
@@ -10202,6 +11470,7 @@
    "b_skeletontrap_L15": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L15.png",
     "footprint": 2,
     "h": 137,
@@ -10210,6 +11479,7 @@
    "b_skeletontrap_L16": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L16.png",
     "footprint": 2,
     "h": 137,
@@ -10218,6 +11488,7 @@
    "b_skeletontrap_L17": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L17.png",
     "footprint": 2,
     "h": 137,
@@ -10226,6 +11497,7 @@
    "b_skeletontrap_L18": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L18.png",
     "footprint": 2,
     "h": 137,
@@ -10234,6 +11506,7 @@
    "b_skeletontrap_L19": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L19.png",
     "footprint": 2,
     "h": 137,
@@ -10242,6 +11515,7 @@
    "b_skeletontrap_L20": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L20.png",
     "footprint": 2,
     "h": 137,
@@ -10250,6 +11524,7 @@
    "b_skeletontrap_L21": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L21.png",
     "footprint": 2,
     "h": 137,
@@ -10258,6 +11533,7 @@
    "b_skeletontrap_L22": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L22.png",
     "footprint": 2,
     "h": 137,
@@ -10266,6 +11542,7 @@
    "b_skeletontrap_L23": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L23.png",
     "footprint": 2,
     "h": 137,
@@ -10274,6 +11551,7 @@
    "b_skeletontrap_L24": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L24.png",
     "footprint": 2,
     "h": 137,
@@ -10282,6 +11560,7 @@
    "b_skeletontrap_L25": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L25.png",
     "footprint": 2,
     "h": 137,
@@ -10290,6 +11569,7 @@
    "b_skeletontrap_L26": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L26.png",
     "footprint": 2,
     "h": 137,
@@ -10298,6 +11578,7 @@
    "b_skeletontrap_L27": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L27.png",
     "footprint": 2,
     "h": 137,
@@ -10306,6 +11587,7 @@
    "b_skeletontrap_L28": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L28.png",
     "footprint": 2,
     "h": 137,
@@ -10314,6 +11596,7 @@
    "b_skeletontrap_L29": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L29.png",
     "footprint": 2,
     "h": 137,
@@ -10322,6 +11605,7 @@
    "b_skeletontrap_L30": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_skeletontrap_L30.png",
     "footprint": 2,
     "h": 137,
@@ -10330,6 +11614,7 @@
    "b_spellfactory_L01": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L01.png",
     "footprint": 3,
     "h": 253,
@@ -10338,6 +11623,7 @@
    "b_spellfactory_L02": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L02.png",
     "footprint": 3,
     "h": 253,
@@ -10346,6 +11632,7 @@
    "b_spellfactory_L03": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L03.png",
     "footprint": 3,
     "h": 253,
@@ -10354,6 +11641,7 @@
    "b_spellfactory_L04": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L04.png",
     "footprint": 3,
     "h": 253,
@@ -10362,6 +11650,7 @@
    "b_spellfactory_L05": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L05.png",
     "footprint": 3,
     "h": 253,
@@ -10370,6 +11659,7 @@
    "b_spellfactory_L06": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L06.png",
     "footprint": 3,
     "h": 253,
@@ -10378,6 +11668,7 @@
    "b_spellfactory_L07": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L07.png",
     "footprint": 3,
     "h": 253,
@@ -10386,6 +11677,7 @@
    "b_spellfactory_L08": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L08.png",
     "footprint": 3,
     "h": 253,
@@ -10394,6 +11686,7 @@
    "b_spellfactory_L09": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L09.png",
     "footprint": 3,
     "h": 253,
@@ -10402,6 +11695,7 @@
    "b_spellfactory_L10": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L10.png",
     "footprint": 3,
     "h": 253,
@@ -10410,6 +11704,7 @@
    "b_spellfactory_L11": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L11.png",
     "footprint": 3,
     "h": 253,
@@ -10418,6 +11713,7 @@
    "b_spellfactory_L12": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L12.png",
     "footprint": 3,
     "h": 253,
@@ -10426,6 +11722,7 @@
    "b_spellfactory_L13": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L13.png",
     "footprint": 3,
     "h": 253,
@@ -10434,6 +11731,7 @@
    "b_spellfactory_L14": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L14.png",
     "footprint": 3,
     "h": 253,
@@ -10442,6 +11740,7 @@
    "b_spellfactory_L15": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L15.png",
     "footprint": 3,
     "h": 253,
@@ -10450,6 +11749,7 @@
    "b_spellfactory_L16": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L16.png",
     "footprint": 3,
     "h": 253,
@@ -10458,6 +11758,7 @@
    "b_spellfactory_L17": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L17.png",
     "footprint": 3,
     "h": 253,
@@ -10466,6 +11767,7 @@
    "b_spellfactory_L18": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L18.png",
     "footprint": 3,
     "h": 253,
@@ -10474,6 +11776,7 @@
    "b_spellfactory_L19": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L19.png",
     "footprint": 3,
     "h": 253,
@@ -10482,6 +11785,7 @@
    "b_spellfactory_L20": {
     "anchorX": 134.0,
     "anchorY": 200.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L20.png",
     "footprint": 3,
     "h": 268,
@@ -10490,6 +11794,7 @@
    "b_spellfactory_L21": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L21.png",
     "footprint": 3,
     "h": 253,
@@ -10498,6 +11803,7 @@
    "b_spellfactory_L22": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L22.png",
     "footprint": 3,
     "h": 253,
@@ -10506,6 +11812,7 @@
    "b_spellfactory_L23": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L23.png",
     "footprint": 3,
     "h": 253,
@@ -10514,6 +11821,7 @@
    "b_spellfactory_L24": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L24.png",
     "footprint": 3,
     "h": 253,
@@ -10522,6 +11830,7 @@
    "b_spellfactory_L25": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L25.png",
     "footprint": 3,
     "h": 253,
@@ -10530,6 +11839,7 @@
    "b_spellfactory_L26": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L26.png",
     "footprint": 3,
     "h": 253,
@@ -10538,6 +11848,7 @@
    "b_spellfactory_L27": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L27.png",
     "footprint": 3,
     "h": 253,
@@ -10546,6 +11857,7 @@
    "b_spellfactory_L28": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L28.png",
     "footprint": 3,
     "h": 253,
@@ -10554,6 +11866,7 @@
    "b_spellfactory_L29": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L29.png",
     "footprint": 3,
     "h": 253,
@@ -10562,6 +11875,7 @@
    "b_spellfactory_L30": {
     "anchorX": 144.0,
     "anchorY": 218.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_spellfactory_L30.png",
     "footprint": 3,
     "h": 288,
@@ -10570,6 +11884,7 @@
    "b_springtrap_L01": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L01.png",
     "footprint": 2,
     "h": 137,
@@ -10578,6 +11893,7 @@
    "b_springtrap_L02": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L02.png",
     "footprint": 2,
     "h": 137,
@@ -10586,6 +11902,7 @@
    "b_springtrap_L03": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L03.png",
     "footprint": 2,
     "h": 137,
@@ -10594,6 +11911,7 @@
    "b_springtrap_L04": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L04.png",
     "footprint": 2,
     "h": 137,
@@ -10602,6 +11920,7 @@
    "b_springtrap_L05": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L05.png",
     "footprint": 2,
     "h": 137,
@@ -10610,6 +11929,7 @@
    "b_springtrap_L06": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L06.png",
     "footprint": 2,
     "h": 137,
@@ -10618,6 +11938,7 @@
    "b_springtrap_L07": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L07.png",
     "footprint": 2,
     "h": 137,
@@ -10626,6 +11947,7 @@
    "b_springtrap_L08": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L08.png",
     "footprint": 2,
     "h": 137,
@@ -10634,6 +11956,7 @@
    "b_springtrap_L09": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L09.png",
     "footprint": 2,
     "h": 137,
@@ -10642,6 +11965,7 @@
    "b_springtrap_L10": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L10.png",
     "footprint": 2,
     "h": 137,
@@ -10650,6 +11974,7 @@
    "b_springtrap_L11": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L11.png",
     "footprint": 2,
     "h": 137,
@@ -10658,6 +11983,7 @@
    "b_springtrap_L12": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L12.png",
     "footprint": 2,
     "h": 137,
@@ -10666,6 +11992,7 @@
    "b_springtrap_L13": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L13.png",
     "footprint": 2,
     "h": 137,
@@ -10674,6 +12001,7 @@
    "b_springtrap_L14": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L14.png",
     "footprint": 2,
     "h": 137,
@@ -10682,6 +12010,7 @@
    "b_springtrap_L15": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L15.png",
     "footprint": 2,
     "h": 137,
@@ -10690,6 +12019,7 @@
    "b_springtrap_L16": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L16.png",
     "footprint": 2,
     "h": 137,
@@ -10698,6 +12028,7 @@
    "b_springtrap_L17": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L17.png",
     "footprint": 2,
     "h": 137,
@@ -10706,6 +12037,7 @@
    "b_springtrap_L18": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L18.png",
     "footprint": 2,
     "h": 137,
@@ -10714,6 +12046,7 @@
    "b_springtrap_L19": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L19.png",
     "footprint": 2,
     "h": 137,
@@ -10722,6 +12055,7 @@
    "b_springtrap_L20": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L20.png",
     "footprint": 2,
     "h": 137,
@@ -10730,6 +12064,7 @@
    "b_springtrap_L21": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L21.png",
     "footprint": 2,
     "h": 137,
@@ -10738,6 +12073,7 @@
    "b_springtrap_L22": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L22.png",
     "footprint": 2,
     "h": 137,
@@ -10746,6 +12082,7 @@
    "b_springtrap_L23": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L23.png",
     "footprint": 2,
     "h": 137,
@@ -10754,6 +12091,7 @@
    "b_springtrap_L24": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L24.png",
     "footprint": 2,
     "h": 137,
@@ -10762,6 +12100,7 @@
    "b_springtrap_L25": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L25.png",
     "footprint": 2,
     "h": 137,
@@ -10770,6 +12109,7 @@
    "b_springtrap_L26": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L26.png",
     "footprint": 2,
     "h": 137,
@@ -10778,6 +12118,7 @@
    "b_springtrap_L27": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L27.png",
     "footprint": 2,
     "h": 137,
@@ -10786,6 +12127,7 @@
    "b_springtrap_L28": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L28.png",
     "footprint": 2,
     "h": 137,
@@ -10794,6 +12136,7 @@
    "b_springtrap_L29": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L29.png",
     "footprint": 2,
     "h": 137,
@@ -10802,6 +12145,7 @@
    "b_springtrap_L30": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_springtrap_L30.png",
     "footprint": 2,
     "h": 137,
@@ -10810,6 +12154,7 @@
    "b_tesla_L01": {
     "anchorX": 91.5,
     "anchorY": 137.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L01.png",
     "footprint": 2,
     "h": 183,
@@ -10818,6 +12163,7 @@
    "b_tesla_L02": {
     "anchorX": 91.5,
     "anchorY": 137.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L02.png",
     "footprint": 2,
     "h": 183,
@@ -10826,6 +12172,7 @@
    "b_tesla_L03": {
     "anchorX": 91.5,
     "anchorY": 137.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L03.png",
     "footprint": 2,
     "h": 183,
@@ -10834,6 +12181,7 @@
    "b_tesla_L04": {
     "anchorX": 91.5,
     "anchorY": 137.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L04.png",
     "footprint": 2,
     "h": 183,
@@ -10842,6 +12190,7 @@
    "b_tesla_L05": {
     "anchorX": 91.5,
     "anchorY": 137.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L05.png",
     "footprint": 2,
     "h": 183,
@@ -10850,6 +12199,7 @@
    "b_tesla_L06": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L06.png",
     "footprint": 2,
     "h": 178,
@@ -10858,6 +12208,7 @@
    "b_tesla_L07": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L07.png",
     "footprint": 2,
     "h": 178,
@@ -10866,6 +12217,7 @@
    "b_tesla_L08": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L08.png",
     "footprint": 2,
     "h": 178,
@@ -10874,6 +12226,7 @@
    "b_tesla_L09": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L09.png",
     "footprint": 2,
     "h": 178,
@@ -10882,6 +12235,7 @@
    "b_tesla_L10": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L10.png",
     "footprint": 2,
     "h": 178,
@@ -10890,6 +12244,7 @@
    "b_tesla_L11": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L11.png",
     "footprint": 2,
     "h": 178,
@@ -10898,6 +12253,7 @@
    "b_tesla_L12": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L12.png",
     "footprint": 2,
     "h": 178,
@@ -10906,6 +12262,7 @@
    "b_tesla_L13": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L13.png",
     "footprint": 2,
     "h": 178,
@@ -10914,6 +12271,7 @@
    "b_tesla_L14": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L14.png",
     "footprint": 2,
     "h": 178,
@@ -10922,6 +12280,7 @@
    "b_tesla_L15": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L15.png",
     "footprint": 2,
     "h": 178,
@@ -10930,6 +12289,7 @@
    "b_tesla_L16": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L16.png",
     "footprint": 2,
     "h": 178,
@@ -10938,6 +12298,7 @@
    "b_tesla_L17": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L17.png",
     "footprint": 2,
     "h": 178,
@@ -10946,6 +12307,7 @@
    "b_tesla_L18": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L18.png",
     "footprint": 2,
     "h": 178,
@@ -10954,6 +12316,7 @@
    "b_tesla_L19": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L19.png",
     "footprint": 2,
     "h": 178,
@@ -10962,6 +12325,7 @@
    "b_tesla_L20": {
     "anchorX": 95.5,
     "anchorY": 144.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L20.png",
     "footprint": 2,
     "h": 191,
@@ -10970,6 +12334,7 @@
    "b_tesla_L21": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L21.png",
     "footprint": 2,
     "h": 178,
@@ -10978,6 +12343,7 @@
    "b_tesla_L22": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L22.png",
     "footprint": 2,
     "h": 178,
@@ -10986,6 +12352,7 @@
    "b_tesla_L23": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L23.png",
     "footprint": 2,
     "h": 178,
@@ -10994,6 +12361,7 @@
    "b_tesla_L24": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L24.png",
     "footprint": 2,
     "h": 178,
@@ -11002,6 +12370,7 @@
    "b_tesla_L25": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L25.png",
     "footprint": 2,
     "h": 178,
@@ -11010,6 +12379,7 @@
    "b_tesla_L26": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L26.png",
     "footprint": 2,
     "h": 178,
@@ -11018,6 +12388,7 @@
    "b_tesla_L27": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L27.png",
     "footprint": 2,
     "h": 178,
@@ -11026,6 +12397,7 @@
    "b_tesla_L28": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L28.png",
     "footprint": 2,
     "h": 178,
@@ -11034,6 +12406,7 @@
    "b_tesla_L29": {
     "anchorX": 89.0,
     "anchorY": 133.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L29.png",
     "footprint": 2,
     "h": 178,
@@ -11042,6 +12415,7 @@
    "b_tesla_L30": {
     "anchorX": 101.5,
     "anchorY": 155.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tesla_L30.png",
     "footprint": 2,
     "h": 203,
@@ -11050,6 +12424,7 @@
    "b_tornadotrap_L01": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L01.png",
     "footprint": 2,
     "h": 137,
@@ -11058,6 +12433,7 @@
    "b_tornadotrap_L02": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L02.png",
     "footprint": 2,
     "h": 137,
@@ -11066,6 +12442,7 @@
    "b_tornadotrap_L03": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L03.png",
     "footprint": 2,
     "h": 137,
@@ -11074,6 +12451,7 @@
    "b_tornadotrap_L04": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L04.png",
     "footprint": 2,
     "h": 137,
@@ -11082,6 +12460,7 @@
    "b_tornadotrap_L05": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L05.png",
     "footprint": 2,
     "h": 137,
@@ -11090,6 +12469,7 @@
    "b_tornadotrap_L06": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L06.png",
     "footprint": 2,
     "h": 137,
@@ -11098,6 +12478,7 @@
    "b_tornadotrap_L07": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L07.png",
     "footprint": 2,
     "h": 137,
@@ -11106,6 +12487,7 @@
    "b_tornadotrap_L08": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L08.png",
     "footprint": 2,
     "h": 137,
@@ -11114,6 +12496,7 @@
    "b_tornadotrap_L09": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L09.png",
     "footprint": 2,
     "h": 137,
@@ -11122,6 +12505,7 @@
    "b_tornadotrap_L10": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L10.png",
     "footprint": 2,
     "h": 137,
@@ -11130,6 +12514,7 @@
    "b_tornadotrap_L11": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L11.png",
     "footprint": 2,
     "h": 137,
@@ -11138,6 +12523,7 @@
    "b_tornadotrap_L12": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L12.png",
     "footprint": 2,
     "h": 137,
@@ -11146,6 +12532,7 @@
    "b_tornadotrap_L13": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L13.png",
     "footprint": 2,
     "h": 137,
@@ -11154,6 +12541,7 @@
    "b_tornadotrap_L14": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L14.png",
     "footprint": 2,
     "h": 137,
@@ -11162,6 +12550,7 @@
    "b_tornadotrap_L15": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L15.png",
     "footprint": 2,
     "h": 137,
@@ -11170,6 +12559,7 @@
    "b_tornadotrap_L16": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L16.png",
     "footprint": 2,
     "h": 137,
@@ -11178,6 +12568,7 @@
    "b_tornadotrap_L17": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L17.png",
     "footprint": 2,
     "h": 137,
@@ -11186,6 +12577,7 @@
    "b_tornadotrap_L18": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L18.png",
     "footprint": 2,
     "h": 137,
@@ -11194,6 +12586,7 @@
    "b_tornadotrap_L19": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L19.png",
     "footprint": 2,
     "h": 137,
@@ -11202,6 +12595,7 @@
    "b_tornadotrap_L20": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L20.png",
     "footprint": 2,
     "h": 137,
@@ -11210,6 +12604,7 @@
    "b_tornadotrap_L21": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L21.png",
     "footprint": 2,
     "h": 137,
@@ -11218,6 +12613,7 @@
    "b_tornadotrap_L22": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L22.png",
     "footprint": 2,
     "h": 137,
@@ -11226,6 +12622,7 @@
    "b_tornadotrap_L23": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L23.png",
     "footprint": 2,
     "h": 137,
@@ -11234,6 +12631,7 @@
    "b_tornadotrap_L24": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L24.png",
     "footprint": 2,
     "h": 137,
@@ -11242,6 +12640,7 @@
    "b_tornadotrap_L25": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L25.png",
     "footprint": 2,
     "h": 137,
@@ -11250,6 +12649,7 @@
    "b_tornadotrap_L26": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L26.png",
     "footprint": 2,
     "h": 137,
@@ -11258,6 +12658,7 @@
    "b_tornadotrap_L27": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L27.png",
     "footprint": 2,
     "h": 137,
@@ -11266,6 +12667,7 @@
    "b_tornadotrap_L28": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L28.png",
     "footprint": 2,
     "h": 137,
@@ -11274,6 +12676,7 @@
    "b_tornadotrap_L29": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L29.png",
     "footprint": 2,
     "h": 137,
@@ -11282,6 +12685,7 @@
    "b_tornadotrap_L30": {
     "anchorX": 68.5,
     "anchorY": 89.2,
+    "drawnShadow": true,
     "file": "assets/sprites/b_tornadotrap_L30.png",
     "footprint": 2,
     "h": 137,
@@ -11290,6 +12694,7 @@
    "b_treasury_L01": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L01.png",
     "footprint": 3,
     "h": 206,
@@ -11298,6 +12703,7 @@
    "b_treasury_L02": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L02.png",
     "footprint": 3,
     "h": 206,
@@ -11306,6 +12712,7 @@
    "b_treasury_L03": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L03.png",
     "footprint": 3,
     "h": 206,
@@ -11314,6 +12721,7 @@
    "b_treasury_L04": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L04.png",
     "footprint": 3,
     "h": 206,
@@ -11322,6 +12730,7 @@
    "b_treasury_L05": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L05.png",
     "footprint": 3,
     "h": 206,
@@ -11330,6 +12739,7 @@
    "b_treasury_L06": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L06.png",
     "footprint": 3,
     "h": 206,
@@ -11338,6 +12748,7 @@
    "b_treasury_L07": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L07.png",
     "footprint": 3,
     "h": 206,
@@ -11346,6 +12757,7 @@
    "b_treasury_L08": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L08.png",
     "footprint": 3,
     "h": 206,
@@ -11354,6 +12766,7 @@
    "b_treasury_L09": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L09.png",
     "footprint": 3,
     "h": 206,
@@ -11362,6 +12775,7 @@
    "b_treasury_L10": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L10.png",
     "footprint": 3,
     "h": 206,
@@ -11370,6 +12784,7 @@
    "b_treasury_L11": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L11.png",
     "footprint": 3,
     "h": 206,
@@ -11378,6 +12793,7 @@
    "b_treasury_L12": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L12.png",
     "footprint": 3,
     "h": 206,
@@ -11386,6 +12802,7 @@
    "b_treasury_L13": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L13.png",
     "footprint": 3,
     "h": 206,
@@ -11394,6 +12811,7 @@
    "b_treasury_L14": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L14.png",
     "footprint": 3,
     "h": 206,
@@ -11402,6 +12820,7 @@
    "b_treasury_L15": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L15.png",
     "footprint": 3,
     "h": 206,
@@ -11410,6 +12829,7 @@
    "b_treasury_L16": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L16.png",
     "footprint": 3,
     "h": 206,
@@ -11418,6 +12838,7 @@
    "b_treasury_L17": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L17.png",
     "footprint": 3,
     "h": 206,
@@ -11426,6 +12847,7 @@
    "b_treasury_L18": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L18.png",
     "footprint": 3,
     "h": 206,
@@ -11434,6 +12856,7 @@
    "b_treasury_L19": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L19.png",
     "footprint": 3,
     "h": 206,
@@ -11442,6 +12865,7 @@
    "b_treasury_L20": {
     "anchorX": 103.0,
     "anchorY": 132.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L20.png",
     "footprint": 3,
     "h": 206,
@@ -11450,6 +12874,7 @@
    "b_treasury_L21": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L21.png",
     "footprint": 3,
     "h": 206,
@@ -11458,6 +12883,7 @@
    "b_treasury_L22": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L22.png",
     "footprint": 3,
     "h": 206,
@@ -11466,6 +12892,7 @@
    "b_treasury_L23": {
     "anchorX": 103.0,
     "anchorY": 128.3,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L23.png",
     "footprint": 3,
     "h": 206,
@@ -11474,6 +12901,7 @@
    "b_treasury_L24": {
     "anchorX": 103.0,
     "anchorY": 130.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L24.png",
     "footprint": 3,
     "h": 206,
@@ -11482,6 +12910,7 @@
    "b_treasury_L25": {
     "anchorX": 103.0,
     "anchorY": 130.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L25.png",
     "footprint": 3,
     "h": 206,
@@ -11490,6 +12919,7 @@
    "b_treasury_L26": {
     "anchorX": 103.0,
     "anchorY": 130.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L26.png",
     "footprint": 3,
     "h": 206,
@@ -11498,6 +12928,7 @@
    "b_treasury_L27": {
     "anchorX": 103.0,
     "anchorY": 130.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L27.png",
     "footprint": 3,
     "h": 206,
@@ -11506,6 +12937,7 @@
    "b_treasury_L28": {
     "anchorX": 103.0,
     "anchorY": 130.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L28.png",
     "footprint": 3,
     "h": 206,
@@ -11514,6 +12946,7 @@
    "b_treasury_L29": {
     "anchorX": 103.0,
     "anchorY": 130.7,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L29.png",
     "footprint": 3,
     "h": 206,
@@ -11522,6 +12955,7 @@
    "b_treasury_L30": {
     "anchorX": 103.0,
     "anchorY": 136.9,
+    "drawnShadow": true,
     "file": "assets/sprites/b_treasury_L30.png",
     "footprint": 3,
     "h": 206,
@@ -11530,6 +12964,7 @@
    "b_wizardtower_L01": {
     "anchorX": 127.0,
     "anchorY": 188.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L01.png",
     "footprint": 3,
     "h": 254,
@@ -11538,6 +12973,7 @@
    "b_wizardtower_L02": {
     "anchorX": 127.0,
     "anchorY": 188.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L02.png",
     "footprint": 3,
     "h": 254,
@@ -11546,6 +12982,7 @@
    "b_wizardtower_L03": {
     "anchorX": 127.0,
     "anchorY": 188.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L03.png",
     "footprint": 3,
     "h": 254,
@@ -11554,6 +12991,7 @@
    "b_wizardtower_L04": {
     "anchorX": 127.0,
     "anchorY": 188.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L04.png",
     "footprint": 3,
     "h": 254,
@@ -11562,6 +13000,7 @@
    "b_wizardtower_L05": {
     "anchorX": 127.0,
     "anchorY": 188.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L05.png",
     "footprint": 3,
     "h": 254,
@@ -11570,6 +13009,7 @@
    "b_wizardtower_L06": {
     "anchorX": 127.0,
     "anchorY": 188.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L06.png",
     "footprint": 3,
     "h": 254,
@@ -11578,6 +13018,7 @@
    "b_wizardtower_L07": {
     "anchorX": 127.0,
     "anchorY": 188.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L07.png",
     "footprint": 3,
     "h": 254,
@@ -11586,6 +13027,7 @@
    "b_wizardtower_L08": {
     "anchorX": 127.0,
     "anchorY": 188.0,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L08.png",
     "footprint": 3,
     "h": 254,
@@ -11594,6 +13036,7 @@
    "b_wizardtower_L09": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L09.png",
     "footprint": 3,
     "h": 253,
@@ -11602,6 +13045,7 @@
    "b_wizardtower_L10": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L10.png",
     "footprint": 3,
     "h": 253,
@@ -11610,6 +13054,7 @@
    "b_wizardtower_L11": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L11.png",
     "footprint": 3,
     "h": 253,
@@ -11618,6 +13063,7 @@
    "b_wizardtower_L12": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L12.png",
     "footprint": 3,
     "h": 253,
@@ -11626,6 +13072,7 @@
    "b_wizardtower_L13": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L13.png",
     "footprint": 3,
     "h": 253,
@@ -11634,6 +13081,7 @@
    "b_wizardtower_L14": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L14.png",
     "footprint": 3,
     "h": 253,
@@ -11642,6 +13090,7 @@
    "b_wizardtower_L15": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L15.png",
     "footprint": 3,
     "h": 253,
@@ -11650,6 +13099,7 @@
    "b_wizardtower_L16": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L16.png",
     "footprint": 3,
     "h": 253,
@@ -11658,6 +13108,7 @@
    "b_wizardtower_L17": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L17.png",
     "footprint": 3,
     "h": 253,
@@ -11666,6 +13117,7 @@
    "b_wizardtower_L18": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L18.png",
     "footprint": 3,
     "h": 253,
@@ -11674,6 +13126,7 @@
    "b_wizardtower_L19": {
     "anchorX": 126.5,
     "anchorY": 187.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L19.png",
     "footprint": 3,
     "h": 253,
@@ -11682,6 +13135,7 @@
    "b_wizardtower_L20": {
     "anchorX": 145.0,
     "anchorY": 220.5,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L20.png",
     "footprint": 3,
     "h": 290,
@@ -11690,6 +13144,7 @@
    "b_wizardtower_L21": {
     "anchorX": 133.5,
     "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L21.png",
     "footprint": 3,
     "h": 267,
@@ -11698,6 +13153,7 @@
    "b_wizardtower_L22": {
     "anchorX": 133.5,
     "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L22.png",
     "footprint": 3,
     "h": 267,
@@ -11706,6 +13162,7 @@
    "b_wizardtower_L23": {
     "anchorX": 133.5,
     "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L23.png",
     "footprint": 3,
     "h": 267,
@@ -11714,6 +13171,7 @@
    "b_wizardtower_L24": {
     "anchorX": 133.5,
     "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L24.png",
     "footprint": 3,
     "h": 267,
@@ -11722,6 +13180,7 @@
    "b_wizardtower_L25": {
     "anchorX": 133.5,
     "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L25.png",
     "footprint": 3,
     "h": 267,
@@ -11730,6 +13189,7 @@
    "b_wizardtower_L26": {
     "anchorX": 133.5,
     "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L26.png",
     "footprint": 3,
     "h": 267,
@@ -11738,6 +13198,7 @@
    "b_wizardtower_L27": {
     "anchorX": 133.5,
     "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L27.png",
     "footprint": 3,
     "h": 267,
@@ -11746,6 +13207,7 @@
    "b_wizardtower_L28": {
     "anchorX": 133.5,
     "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L28.png",
     "footprint": 3,
     "h": 267,
@@ -11754,6 +13216,7 @@
    "b_wizardtower_L29": {
     "anchorX": 133.5,
     "anchorY": 199.8,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L29.png",
     "footprint": 3,
     "h": 267,
@@ -11762,6 +13225,7 @@
    "b_wizardtower_L30": {
     "anchorX": 154.5,
     "anchorY": 237.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_wizardtower_L30.png",
     "footprint": 3,
     "h": 309,
@@ -11770,6 +13234,7 @@
    "b_xbow_L01": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L01.png",
     "footprint": 3,
     "h": 211,
@@ -11778,6 +13243,7 @@
    "b_xbow_L02": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L02.png",
     "footprint": 3,
     "h": 211,
@@ -11786,6 +13252,7 @@
    "b_xbow_L03": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L03.png",
     "footprint": 3,
     "h": 211,
@@ -11794,6 +13261,7 @@
    "b_xbow_L04": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L04.png",
     "footprint": 3,
     "h": 211,
@@ -11802,6 +13270,7 @@
    "b_xbow_L05": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L05.png",
     "footprint": 3,
     "h": 211,
@@ -11810,6 +13279,7 @@
    "b_xbow_L06": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L06.png",
     "footprint": 3,
     "h": 211,
@@ -11818,6 +13288,7 @@
    "b_xbow_L07": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L07.png",
     "footprint": 3,
     "h": 211,
@@ -11826,6 +13297,7 @@
    "b_xbow_L08": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L08.png",
     "footprint": 3,
     "h": 211,
@@ -11834,6 +13306,7 @@
    "b_xbow_L09": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L09.png",
     "footprint": 3,
     "h": 211,
@@ -11842,6 +13315,7 @@
    "b_xbow_L10": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L10.png",
     "footprint": 3,
     "h": 211,
@@ -11850,6 +13324,7 @@
    "b_xbow_L11": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L11.png",
     "footprint": 3,
     "h": 211,
@@ -11858,6 +13333,7 @@
    "b_xbow_L12": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L12.png",
     "footprint": 3,
     "h": 211,
@@ -11866,6 +13342,7 @@
    "b_xbow_L13": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L13.png",
     "footprint": 3,
     "h": 211,
@@ -11874,6 +13351,7 @@
    "b_xbow_L14": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L14.png",
     "footprint": 3,
     "h": 211,
@@ -11882,6 +13360,7 @@
    "b_xbow_L15": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L15.png",
     "footprint": 3,
     "h": 211,
@@ -11890,6 +13369,7 @@
    "b_xbow_L16": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L16.png",
     "footprint": 3,
     "h": 211,
@@ -11898,6 +13378,7 @@
    "b_xbow_L17": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L17.png",
     "footprint": 3,
     "h": 211,
@@ -11906,6 +13387,7 @@
    "b_xbow_L18": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L18.png",
     "footprint": 3,
     "h": 211,
@@ -11914,6 +13396,7 @@
    "b_xbow_L19": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L19.png",
     "footprint": 3,
     "h": 211,
@@ -11922,6 +13405,7 @@
    "b_xbow_L20": {
     "anchorX": 113.5,
     "anchorY": 163.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L20.png",
     "footprint": 3,
     "h": 227,
@@ -11930,6 +13414,7 @@
    "b_xbow_L21": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L21.png",
     "footprint": 3,
     "h": 211,
@@ -11938,6 +13423,7 @@
    "b_xbow_L22": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L22.png",
     "footprint": 3,
     "h": 211,
@@ -11946,6 +13432,7 @@
    "b_xbow_L23": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L23.png",
     "footprint": 3,
     "h": 211,
@@ -11954,6 +13441,7 @@
    "b_xbow_L24": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L24.png",
     "footprint": 3,
     "h": 211,
@@ -11962,6 +13450,7 @@
    "b_xbow_L25": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L25.png",
     "footprint": 3,
     "h": 211,
@@ -11970,6 +13459,7 @@
    "b_xbow_L26": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L26.png",
     "footprint": 3,
     "h": 211,
@@ -11978,6 +13468,7 @@
    "b_xbow_L27": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L27.png",
     "footprint": 3,
     "h": 211,
@@ -11986,6 +13477,7 @@
    "b_xbow_L28": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L28.png",
     "footprint": 3,
     "h": 211,
@@ -11994,6 +13486,7 @@
    "b_xbow_L29": {
     "anchorX": 105.5,
     "anchorY": 149.1,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L29.png",
     "footprint": 3,
     "h": 211,
@@ -12002,6 +13495,7 @@
    "b_xbow_L30": {
     "anchorX": 123.5,
     "anchorY": 181.6,
+    "drawnShadow": true,
     "file": "assets/sprites/b_xbow_L30.png",
     "footprint": 3,
     "h": 247,
@@ -12134,6 +13628,7 @@
    "th01": {
     "anchorX": 137.0,
     "anchorY": 179.8,
+    "drawnShadow": true,
     "file": "assets/sprites/th01.png",
     "footprint": 4,
     "h": 274,
@@ -12142,6 +13637,7 @@
    "th02": {
     "anchorX": 137.0,
     "anchorY": 181.4,
+    "drawnShadow": true,
     "file": "assets/sprites/th02.png",
     "footprint": 4,
     "h": 274,
@@ -12149,7 +13645,8 @@
    },
    "th03": {
     "anchorX": 137.0,
-    "anchorY": 182.8,
+    "anchorY": 182.7,
+    "drawnShadow": true,
     "file": "assets/sprites/th03.png",
     "footprint": 4,
     "h": 274,
@@ -12157,7 +13654,8 @@
    },
    "th04": {
     "anchorX": 137.0,
-    "anchorY": 188.4,
+    "anchorY": 188.3,
+    "drawnShadow": true,
     "file": "assets/sprites/th04.png",
     "footprint": 4,
     "h": 274,
@@ -12166,6 +13664,7 @@
    "th05": {
     "anchorX": 143.0,
     "anchorY": 203.0,
+    "drawnShadow": true,
     "file": "assets/sprites/th05.png",
     "footprint": 4,
     "h": 286,
@@ -12174,6 +13673,7 @@
    "th06": {
     "anchorX": 137.0,
     "anchorY": 189.4,
+    "drawnShadow": true,
     "file": "assets/sprites/th06.png",
     "footprint": 4,
     "h": 274,
@@ -12182,6 +13682,7 @@
    "th07": {
     "anchorX": 137.5,
     "anchorY": 193.2,
+    "drawnShadow": true,
     "file": "assets/sprites/th07.png",
     "footprint": 4,
     "h": 275,
@@ -12190,6 +13691,7 @@
    "th08": {
     "anchorX": 137.0,
     "anchorY": 190.0,
+    "drawnShadow": true,
     "file": "assets/sprites/th08.png",
     "footprint": 4,
     "h": 274,
@@ -12197,7 +13699,8 @@
    },
    "th09": {
     "anchorX": 142.0,
-    "anchorY": 201.3,
+    "anchorY": 201.2,
+    "drawnShadow": true,
     "file": "assets/sprites/th09.png",
     "footprint": 4,
     "h": 284,
@@ -12206,6 +13709,7 @@
    "th10": {
     "anchorX": 166.5,
     "anchorY": 245.6,
+    "drawnShadow": true,
     "file": "assets/sprites/th10.png",
     "footprint": 4,
     "h": 333,
@@ -12214,6 +13718,7 @@
    "th11": {
     "anchorX": 142.5,
     "anchorY": 202.1,
+    "drawnShadow": true,
     "file": "assets/sprites/th11.png",
     "footprint": 4,
     "h": 285,
@@ -12222,6 +13727,7 @@
    "th12": {
     "anchorX": 142.5,
     "anchorY": 202.1,
+    "drawnShadow": true,
     "file": "assets/sprites/th12.png",
     "footprint": 4,
     "h": 285,
@@ -12230,6 +13736,7 @@
    "th13": {
     "anchorX": 142.5,
     "anchorY": 202.1,
+    "drawnShadow": true,
     "file": "assets/sprites/th13.png",
     "footprint": 4,
     "h": 285,
@@ -12238,6 +13745,7 @@
    "th14": {
     "anchorX": 142.5,
     "anchorY": 202.1,
+    "drawnShadow": true,
     "file": "assets/sprites/th14.png",
     "footprint": 4,
     "h": 285,
@@ -12246,6 +13754,7 @@
    "th15": {
     "anchorX": 155.0,
     "anchorY": 224.7,
+    "drawnShadow": true,
     "file": "assets/sprites/th15.png",
     "footprint": 4,
     "h": 310,
@@ -12254,6 +13763,7 @@
    "th16": {
     "anchorX": 159.5,
     "anchorY": 232.9,
+    "drawnShadow": true,
     "file": "assets/sprites/th16.png",
     "footprint": 4,
     "h": 319,
@@ -12262,6 +13772,7 @@
    "th17": {
     "anchorX": 142.5,
     "anchorY": 202.1,
+    "drawnShadow": true,
     "file": "assets/sprites/th17.png",
     "footprint": 4,
     "h": 285,
@@ -12270,6 +13781,7 @@
    "th18": {
     "anchorX": 142.5,
     "anchorY": 202.1,
+    "drawnShadow": true,
     "file": "assets/sprites/th18.png",
     "footprint": 4,
     "h": 285,
@@ -12278,6 +13790,7 @@
    "th19": {
     "anchorX": 164.0,
     "anchorY": 241.1,
+    "drawnShadow": true,
     "file": "assets/sprites/th19.png",
     "footprint": 4,
     "h": 328,
@@ -12286,6 +13799,7 @@
    "th20": {
     "anchorX": 170.5,
     "anchorY": 252.7,
+    "drawnShadow": true,
     "file": "assets/sprites/th20.png",
     "footprint": 4,
     "h": 341,
@@ -12294,6 +13808,7 @@
    "th21": {
     "anchorX": 147.0,
     "anchorY": 210.3,
+    "drawnShadow": true,
     "file": "assets/sprites/th21.png",
     "footprint": 4,
     "h": 294,
@@ -12302,6 +13817,7 @@
    "th22": {
     "anchorX": 154.0,
     "anchorY": 222.9,
+    "drawnShadow": true,
     "file": "assets/sprites/th22.png",
     "footprint": 4,
     "h": 308,
@@ -12310,6 +13826,7 @@
    "th23": {
     "anchorX": 152.5,
     "anchorY": 220.2,
+    "drawnShadow": true,
     "file": "assets/sprites/th23.png",
     "footprint": 4,
     "h": 305,
@@ -12318,6 +13835,7 @@
    "th24": {
     "anchorX": 147.0,
     "anchorY": 210.3,
+    "drawnShadow": true,
     "file": "assets/sprites/th24.png",
     "footprint": 4,
     "h": 294,
@@ -12326,22 +13844,25 @@
    "th25": {
     "anchorX": 165.0,
     "anchorY": 242.9,
+    "drawnShadow": true,
     "file": "assets/sprites/th25.png",
     "footprint": 4,
     "h": 330,
     "w": 330
    },
    "th26": {
-    "anchorX": 158.5,
-    "anchorY": 231.0,
+    "anchorX": 158.0,
+    "anchorY": 230.2,
+    "drawnShadow": true,
     "file": "assets/sprites/th26.png",
     "footprint": 4,
-    "h": 317,
-    "w": 317
+    "h": 316,
+    "w": 316
    },
    "th27": {
     "anchorX": 147.0,
     "anchorY": 210.3,
+    "drawnShadow": true,
     "file": "assets/sprites/th27.png",
     "footprint": 4,
     "h": 294,
@@ -12350,6 +13871,7 @@
    "th28": {
     "anchorX": 168.5,
     "anchorY": 249.2,
+    "drawnShadow": true,
     "file": "assets/sprites/th28.png",
     "footprint": 4,
     "h": 337,
@@ -12358,6 +13880,7 @@
    "th29": {
     "anchorX": 147.0,
     "anchorY": 210.3,
+    "drawnShadow": true,
     "file": "assets/sprites/th29.png",
     "footprint": 4,
     "h": 294,
@@ -12366,6 +13889,7 @@
    "th30": {
     "anchorX": 166.5,
     "anchorY": 245.6,
+    "drawnShadow": true,
     "file": "assets/sprites/th30.png",
     "footprint": 4,
     "h": 333,
@@ -19966,6 +21490,7 @@
    "wall01": {
     "anchorX": 48.0,
     "anchorY": 67.5,
+    "drawnShadow": true,
     "file": "assets/sprites/wall01.png",
     "footprint": 1,
     "h": 96,
@@ -19974,6 +21499,7 @@
    "wall02": {
     "anchorX": 48.0,
     "anchorY": 67.5,
+    "drawnShadow": true,
     "file": "assets/sprites/wall02.png",
     "footprint": 1,
     "h": 96,
@@ -19982,6 +21508,7 @@
    "wall03": {
     "anchorX": 48.0,
     "anchorY": 67.5,
+    "drawnShadow": true,
     "file": "assets/sprites/wall03.png",
     "footprint": 1,
     "h": 96,
@@ -19990,6 +21517,7 @@
    "wall04": {
     "anchorX": 48.0,
     "anchorY": 67.5,
+    "drawnShadow": true,
     "file": "assets/sprites/wall04.png",
     "footprint": 1,
     "h": 96,
@@ -19998,6 +21526,7 @@
    "wall05": {
     "anchorX": 48.0,
     "anchorY": 67.5,
+    "drawnShadow": true,
     "file": "assets/sprites/wall05.png",
     "footprint": 1,
     "h": 96,
@@ -20006,6 +21535,7 @@
    "wall06": {
     "anchorX": 48.0,
     "anchorY": 67.5,
+    "drawnShadow": true,
     "file": "assets/sprites/wall06.png",
     "footprint": 1,
     "h": 96,
@@ -20014,6 +21544,7 @@
    "wall07": {
     "anchorX": 48.0,
     "anchorY": 67.5,
+    "drawnShadow": true,
     "file": "assets/sprites/wall07.png",
     "footprint": 1,
     "h": 96,
@@ -20022,6 +21553,7 @@
    "wall08": {
     "anchorX": 48.0,
     "anchorY": 67.5,
+    "drawnShadow": true,
     "file": "assets/sprites/wall08.png",
     "footprint": 1,
     "h": 96,
@@ -20030,6 +21562,7 @@
    "wall09": {
     "anchorX": 48.0,
     "anchorY": 67.5,
+    "drawnShadow": true,
     "file": "assets/sprites/wall09.png",
     "footprint": 1,
     "h": 96,
@@ -20038,6 +21571,7 @@
    "wall10": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall10.png",
     "footprint": 1,
     "h": 96,
@@ -20046,6 +21580,7 @@
    "wall11": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall11.png",
     "footprint": 1,
     "h": 96,
@@ -20054,6 +21589,7 @@
    "wall12": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall12.png",
     "footprint": 1,
     "h": 96,
@@ -20062,6 +21598,7 @@
    "wall13": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall13.png",
     "footprint": 1,
     "h": 96,
@@ -20070,6 +21607,7 @@
    "wall14": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall14.png",
     "footprint": 1,
     "h": 96,
@@ -20078,6 +21616,7 @@
    "wall15": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall15.png",
     "footprint": 1,
     "h": 96,
@@ -20086,6 +21625,7 @@
    "wall16": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall16.png",
     "footprint": 1,
     "h": 96,
@@ -20094,6 +21634,7 @@
    "wall17": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall17.png",
     "footprint": 1,
     "h": 96,
@@ -20102,6 +21643,7 @@
    "wall18": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall18.png",
     "footprint": 1,
     "h": 96,
@@ -20110,6 +21652,7 @@
    "wall19": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall19.png",
     "footprint": 1,
     "h": 96,
@@ -20118,6 +21661,7 @@
    "wall20": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall20.png",
     "footprint": 1,
     "h": 96,
@@ -20126,6 +21670,7 @@
    "wall21": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall21.png",
     "footprint": 1,
     "h": 96,
@@ -20134,6 +21679,7 @@
    "wall22": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall22.png",
     "footprint": 1,
     "h": 96,
@@ -20142,6 +21688,7 @@
    "wall23": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall23.png",
     "footprint": 1,
     "h": 96,
@@ -20150,6 +21697,7 @@
    "wall24": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall24.png",
     "footprint": 1,
     "h": 96,
@@ -20158,6 +21706,7 @@
    "wall25": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall25.png",
     "footprint": 1,
     "h": 96,
@@ -20166,6 +21715,7 @@
    "wall26": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall26.png",
     "footprint": 1,
     "h": 96,
@@ -20174,6 +21724,7 @@
    "wall27": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall27.png",
     "footprint": 1,
     "h": 96,
@@ -20182,6 +21733,7 @@
    "wall28": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall28.png",
     "footprint": 1,
     "h": 96,
@@ -20190,6 +21742,7 @@
    "wall29": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall29.png",
     "footprint": 1,
     "h": 96,
@@ -20198,6 +21751,7 @@
    "wall30": {
     "anchorX": 48.0,
     "anchorY": 68.1,
+    "drawnShadow": true,
     "file": "assets/sprites/wall30.png",
     "footprint": 1,
     "h": 96,
