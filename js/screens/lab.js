@@ -161,6 +161,8 @@
         '<div class="desc">' + ui.esc(t.role) + (t.housing ? ' · ' + t.housing + ' housing' : '') + '</div>' +
         (locked
           ? '<span class="pill">Unlocks at Town Hall ' + t.unlockTH + '</span>'
+          : (kind === 'troops' && !E.troopUnlocked(s, t.key))
+            ? '<span class="pill">Needs ' + ui.esc(E.troopBlockedBy(s, t.key)) + '</span>'
           : inLab
             ? '<span class="pill warn">In the lab</span>'
             : lvl >= max

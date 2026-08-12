@@ -51,6 +51,22 @@
     { key: 'skyanchor', name: 'Sky Anchor', unlockTH: 24, res: 'elixir', housing: 1, role: 'Deploys air troops mid-base', labCost: 20000000, labTime: 6 * DAY, art: 'anchor', tint: '#8f3fff' }
   ];
 
+  // Which Barracks level each troop needs. A troop's place in its own roster
+  // decides it -- the first Grunt out of a level 1 Barracks, the Titanborn out
+  // of a fully upgraded one -- which is what gives upgrading the building a
+  // point. Clamped so a troop is never gated behind a Barracks level its own
+  // Town Hall cannot reach.
+  (function assignBarracksLevels() {
+    var seen = { elixir: 0, dark: 0 };
+    TROOPS.forEach(function (t) {
+      var home = t.res === 'dark' ? 'darkbarracks' : 'barracks';
+      seen[t.res] += 1;
+      var reachable = G.buildingMaxLevel(home, t.unlockTH);
+      t.barracks = home;
+      t.barracksLevel = Math.max(1, Math.min(seen[t.res], reachable));
+    });
+  }());
+
   /* ------------------------------------------------------------- spells */
   var SPELLS = [
     { key: 'rage', name: 'Rage', res: 'elixir', slots: 1, unlockTH: 5, role: 'Troops inside hit faster and harder', labCost: 60000, labTime: 4 * HOUR, art: 'rage', tint: '#a48fd8' },

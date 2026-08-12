@@ -63,14 +63,13 @@
             (superOn ? 'Super ' : '') + ui.esc(t.name) + '</span>' +
             '<small>' + t.housing + ' housing</small></div>' +
           '<div class="desc">' + ui.esc(t.role) + '</div>' +
-          (unlocked
-            ? '<div style="display:flex;gap:5px;flex-wrap:wrap">' +
+          (!unlocked
+            ? '<span class="pill">' + ui.esc(E.troopBlockedBy(s, t.key)) + '</span>'
+            : '<div style="display:flex;gap:5px;flex-wrap:wrap">' +
               '<button class="btn sm" data-act="train" data-key="' + t.key + '" data-n="1">+1</button>' +
               '<button class="btn sm ghost" data-act="train" data-key="' + t.key + '" data-n="5">+5</button>' +
               '<button class="btn sm ghost" data-act="train" data-key="' + t.key + '" data-n="999">Fill</button>' +
-              '</div><div class="timer">level ' + lvl + ' · ' + t.res + '</div>'
-            : '<span class="pill">' + (s.th < t.unlockTH ? 'Town Hall ' + t.unlockTH
-                : 'Needs ' + (t.res === 'dark' ? 'Dark Barracks' : 'Barracks')) + '</span>') +
+              '</div><div class="timer">level ' + lvl + ' · ' + t.res + '</div>') +
           '</div></div>';
       }).join('') + '</div></div>';
   }

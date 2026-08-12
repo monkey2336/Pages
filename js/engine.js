@@ -478,14 +478,37 @@
   }
   engine.armyUsed = armyUsed;
 
+  // The best level you own of a building, which is what gates troops: two
+  // level 3 Barracks unlock what one level 3 Barracks unlocks.
+  function bestLevel(s, key) {
+    var best = 0;
+    s.buildings.forEach(function (b) {
+      if (b.key === key && b.level > best) best = b.level;
+    });
+    return best;
+  }
+  engine.bestLevel = bestLevel;
+
   function troopUnlocked(s, key) {
     var t = G.troopData[key];
     if (!t) return false;
     if (s.th < t.unlockTH) return false;
-    if (t.res === 'dark') return ownedCount(s, 'darkbarracks') > 0;
-    return ownedCount(s, 'barracks') > 0;
+    return bestLevel(s, t.barracks) >= t.barracksLevel;
   }
   engine.troopUnlocked = troopUnlocked;
+
+  // Why a troop is locked, in the words the player needs to act on.
+  function troopBlockedBy(s, key) {
+    var t = G.troopData[key];
+    if (!t) return 'Unknown troop';
+    if (s.th < t.unlockTH) return 'Town Hall ' + t.unlockTH;
+    var have = bestLevel(s, t.barracks);
+    var name = t.barracks === 'darkbarracks' ? 'Dark Barracks' : 'Barracks';
+    if (have === 0) return 'Build a ' + name;
+    if (have < t.barracksLevel) return name + ' level ' + t.barracksLevel;
+    return '';
+  }
+  engine.troopBlockedBy = troopBlockedBy;
 
   // Training costs nothing. Camp space is the only limit on an army, so the
   // resources you collect go into upgrading the base rather than into

@@ -112,25 +112,46 @@
   };
 
   /* ---------------------------------------------------- resource row */
+  // The HUD. Resources read as gauges rather than text: a filled bar, the
+  // amount over its cap, and the rate it is climbing at. Gems and builders sit
+  // apart from the three storages, because they behave differently -- neither
+  // has a cap that matters, and builders are the thing you actually run out of.
   function renderResources() {
     var s = G.state;
-    var caps = G.engine.caps(s);
-    var prod = G.engine.productionPerHour(s);
+    var E = G.engine;
+    var caps = E.caps(s);
+    var prod = E.productionPerHour(s);
     var row = document.getElementById('resRow');
-    function chip(kind, label, value, cap, rate) {
+
+    function gauge(kind, label, value, cap, rate) {
       var pct = cap ? Math.min(100, (value / cap) * 100) : 0;
-      return '<div class="res ' + kind + '" title="' + label +
+      var full = cap && value >= cap;
+      return '<div class="res ' + kind + (full ? ' full' : '') + '" title="' + label +
+        (cap ? ' — ' + fmt(value) + ' of ' + fmt(cap) : '') +
         (rate ? ' · +' + fmt(rate) + '/hr' : '') + '">' +
-        '<i class="dot"></i><span>' + fmt(value) + '</span>' +
-        (cap ? '<span class="cap">/ ' + fmt(cap) + '</span>' +
-          '<span class="bar" style="color:var(--' + kind + ')"><i style="width:' + pct + '%"></i></span>' : '') +
+        '<i class="dot"></i>' +
+        '<div class="res-body">' +
+          '<div class="res-nums"><b>' + fmt(value) + '</b>' +
+            (cap ? '<span class="cap">' + fmt(cap) + '</span>' : '') + '</div>' +
+          (cap ? '<span class="bar"><i style="width:' + pct + '%"></i></span>' : '') +
+        '</div>' +
+        (rate ? '<span class="rate">+' + fmt(rate) + '</span>' : '') +
         '</div>';
     }
+
+    var busy = E.busyBuilders(s), total = s.builders.length;
+    var free = total - busy;
     row.innerHTML =
-      chip('gold', 'Gold', s.resources.gold, caps.gold, prod.gold) +
-      chip('elixir', 'Elixir', s.resources.elixir, caps.elixir, prod.elixir) +
-      (s.th >= 7 ? chip('dark', 'Dark Elixir', s.resources.dark, caps.dark, prod.dark) : '') +
-      chip('gems', 'Gems', s.resources.gems, 0, 0);
+      gauge('gold', 'Gold', s.resources.gold, caps.gold, prod.gold) +
+      gauge('elixir', 'Elixir', s.resources.elixir, caps.elixir, prod.elixir) +
+      (s.th >= 7 ? gauge('dark', 'Dark Elixir', s.resources.dark, caps.dark, prod.dark) : '') +
+      '<div class="hud-side">' +
+        '<div class="res gems" title="Gems"><i class="dot"></i>' +
+          '<div class="res-body"><div class="res-nums"><b>' + fmt(s.resources.gems) + '</b></div></div></div>' +
+        '<div class="builders' + (free ? '' : ' none') + '" title="' + free + ' of ' + total +
+          ' builders free" data-nav="village">' +
+          '<i class="hammer"></i><b>' + free + '</b><span>/' + total + '</span></div>' +
+      '</div>';
   }
 
   /* ----------------------------------------------------------- render */

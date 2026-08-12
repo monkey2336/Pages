@@ -613,10 +613,6 @@
     title: 'Village',
     render: render,
     mount: mount,
-    live: live,
-    badge: function (s) {
-      var free = s.builders.length - E.busyBuilders(s);
-      return free ? free + ' free' : '';
-    }
+    live: live
   });
 })(window.G = window.G || {});

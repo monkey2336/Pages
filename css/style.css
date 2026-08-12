@@ -94,29 +94,78 @@ img.sprite { object-fit: contain; display: block; }
 .th-badge .meta b { font-size: 15px; color: var(--accent); letter-spacing: 0.01em; }
 .th-badge .meta span { display: block; font-size: 11px; color: var(--dim); }
 
-.res-row { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
+.res-row { display: flex; gap: 8px; flex-wrap: wrap; margin-left: auto; align-items: center; }
+
+/* A resource is a gauge, not a line of text: amount over cap, a fill bar, and
+   the rate it is climbing at. */
 .res {
-  display: flex; align-items: center; gap: 7px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.5));
+  display: flex; align-items: center; gap: 9px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55));
   border: 1px solid color-mix(in srgb, var(--panelEdge) 90%, white 6%);
-  border-radius: 999px;
-  padding: 4px 13px;
+  border-radius: 12px;
+  padding: 6px 12px 6px 9px;
   font-size: 13px;
   font-variant-numeric: tabular-nums;
-  min-width: 112px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  min-width: 148px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 2px 6px rgba(0, 0, 0, 0.35);
 }
 .res .dot {
-  width: 13px; height: 13px; border-radius: 50%; flex: none;
-  box-shadow: inset 0 -2px 3px rgba(0, 0, 0, 0.4), 0 0 6px currentColor;
+  width: 20px; height: 20px; border-radius: 50%; flex: none;
+  box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.45), inset 0 2px 3px rgba(255, 255, 255, 0.35),
+    0 0 9px currentColor;
 }
-.res.gold .dot { background: radial-gradient(circle at 35% 30%, #ffe9a0, var(--gold)); color: var(--gold); }
-.res.elixir .dot { background: radial-gradient(circle at 35% 30%, #f0c2ff, var(--elixir)); color: var(--elixir); }
-.res.dark .dot { background: radial-gradient(circle at 35% 30%, #c4a8ff, var(--dark)); color: var(--dark); }
-.res.gems .dot { background: radial-gradient(circle at 35% 30%, #a8ffd0, var(--gem)); color: var(--gem); }
-.res .cap { color: var(--dim); font-size: 11px; }
-.res .bar { flex: 1; height: 3px; background: rgba(0, 0, 0, 0.55); border-radius: 2px; overflow: hidden; min-width: 22px; }
-.res .bar i { display: block; height: 100%; background: currentColor; }
+.res-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.res-nums { display: flex; align-items: baseline; justify-content: space-between; gap: 6px; line-height: 1; }
+.res-nums b { font-size: 14px; letter-spacing: 0.01em; }
+.res .cap { color: var(--dim); font-size: 10.5px; }
+.res .cap::before { content: "/ "; opacity: 0.6; }
+.res .bar {
+  height: 4px; background: rgba(0, 0, 0, 0.6); border-radius: 3px; overflow: hidden;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+.res .bar i {
+  display: block; height: 100%; border-radius: 3px;
+  background: linear-gradient(90deg, color-mix(in srgb, currentColor 65%, black), currentColor);
+  transition: width 400ms ease;
+}
+.res .rate { font-size: 10px; color: var(--dim); white-space: nowrap; }
+.res .rate::after { content: "/hr"; opacity: 0.65; margin-left: 1px; }
+.res.full .bar i { background: linear-gradient(90deg, #ffd76a, #ff9c3c); }
+.res.full .cap { color: #ffc86a; }
+
+.res.gold { color: var(--gold); }
+.res.elixir { color: var(--elixir); }
+.res.dark { color: var(--dark); }
+.res.gems { color: var(--gem); min-width: 0; padding-right: 13px; }
+.res.gold .dot { background: radial-gradient(circle at 35% 28%, #fff0bd, var(--gold)); }
+.res.elixir .dot { background: radial-gradient(circle at 35% 28%, #f6d4ff, var(--elixir)); }
+.res.dark .dot { background: radial-gradient(circle at 35% 28%, #cdb6ff, var(--dark)); }
+.res.gems .dot { background: radial-gradient(circle at 35% 28%, #b6ffdc, var(--gem)); }
+.res b, .res .res-nums b { color: var(--ink); }
+
+.hud-side { display: flex; gap: 8px; align-items: center; }
+
+/* Builders: the resource you actually run out of. */
+.builders {
+  display: flex; align-items: center; gap: 5px; cursor: pointer;
+  padding: 7px 13px; border-radius: 12px; font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  background: linear-gradient(180deg, rgba(78, 150, 92, 0.35), rgba(0, 0, 0, 0.5));
+  border: 1px solid #3f7d4e;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+.builders.none { background: linear-gradient(180deg, rgba(150, 78, 78, 0.32), rgba(0, 0, 0, 0.5)); border-color: #7d3f3f; }
+.builders span { color: var(--dim); font-size: 11px; }
+.builders .hammer {
+  width: 14px; height: 14px; flex: none;
+  background: currentColor;
+  -webkit-mask: var(--hammer) center / contain no-repeat;
+  mask: var(--hammer) center / contain no-repeat;
+  color: #cfe6d3;
+}
+:root {
+  --hammer: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M13.2 2.5 9.4 6.3l1.4 1.4-1.4 1.4-1.4-1.4-2.8 2.8 1.4 1.4-4.9 4.9a2 2 0 0 0 0 2.8l.7.7a2 2 0 0 0 2.8 0l4.9-4.9 1.4 1.4 2.8-2.8-1.4-1.4 1.4-1.4 1.4 1.4 3.8-3.8z'/%3E%3C/svg%3E");
+}
 
 /* ---------------------------------------------------------------- nav */
 .nav {

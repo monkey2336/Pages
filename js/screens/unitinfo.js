@@ -103,6 +103,8 @@
         action = '<span class="pill warn">In the Laboratory</span>';
       } else if (s.th < t.unlockTH) {
         action = '<span class="pill">Unlocks at Town Hall ' + t.unlockTH + '</span>';
+      } else if (G.troopData[t.key] && !E.troopUnlocked(s, t.key)) {
+        action = '<span class="pill">Needs ' + ui.esc(E.troopBlockedBy(s, t.key)) + '</span>';
       } else if (rlvl < rmax) {
         action = '<button class="btn wide" data-act="start-research" data-key="' + t.key + '">' +
           'Research to ' + (rlvl + 1) + ' · ' + ui.fmt(E.researchCost(s, t.key, rlvl + 1)) + ' ' +
