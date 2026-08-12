@@ -805,59 +805,68 @@ label.field { display: flex; flex-direction: column; gap: 5px; font-size: 12px; 
 .iso-obj.dragging .shade { opacity: 0.35; }
 
 /* ----------------------------------------------------------------- battle */
-.battle-wrap { display: flex; flex-direction: column; gap: 10px; }
-.battle-top {
-  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
-  padding: 9px 14px; border-radius: 12px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.6));
-  border: 1px solid var(--panelEdge);
+/* A raid takes the whole screen. The base is the screen; the HUD and the troop
+   tray float on top of it. The site header, the nav and a scrolling page are
+   all in the way during a battle, so they are covered. */
+body.in-battle { overflow: hidden; }
+body.in-battle .topbar,
+body.in-battle .nav { display: none; }
+body.in-battle main { padding: 0; max-width: none; }
+
+.battle-wrap {
+  position: fixed; inset: 0; z-index: 60;
+  background: linear-gradient(180deg, #3d5c31, #24391f 60%, #1b2b18);
+  overflow: hidden;
+  touch-action: none;
+  user-select: none;
 }
-.bt-target b { display: block; font-size: 15px; }
+.battle-wrap canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+
+.battle-top {
+  position: absolute; left: 0; right: 0; top: 0;
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  padding: 10px 14px;
+  background: linear-gradient(180deg, rgba(6, 10, 8, 0.86), rgba(6, 10, 8, 0.3) 70%, transparent);
+  pointer-events: none;
+}
+.battle-top > * { pointer-events: auto; }
+.bt-target b { display: block; font-size: 16px; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); }
 .bt-target span { font-size: 11px; color: var(--dim); }
 .bt-hud { display: flex; align-items: center; gap: 18px; margin-left: auto; }
-.bt-stat { text-align: center; line-height: 1.15; }
+.bt-stat { text-align: center; line-height: 1.15; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); }
 .bt-stat span { display: block; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--dim); }
-.bt-stat b { font-size: 17px; font-variant-numeric: tabular-nums; }
+.bt-stat b { font-size: 19px; font-variant-numeric: tabular-nums; }
 .bt-stars { display: flex; gap: 4px; }
 .bt-stars i {
-  width: 20px; height: 20px; display: block;
-  background: rgba(255, 255, 255, 0.16);
+  width: 24px; height: 24px; display: block;
+  background: rgba(255, 255, 255, 0.2);
   -webkit-mask: var(--star) center / contain no-repeat;
   mask: var(--star) center / contain no-repeat;
 }
-.bt-stars i.on { background: linear-gradient(180deg, #ffe9a0, #ffb52e); box-shadow: none; }
-.bt-stars.big i { width: 44px; height: 44px; }
+.bt-stars i.on { background: linear-gradient(180deg, #ffe9a0, #ffb52e); }
+.bt-stars.big i { width: 48px; height: 48px; }
 :root {
   --star: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z'/%3E%3C/svg%3E");
 }
 
-.battle-stage {
-  position: relative;
-  height: clamp(360px, 62vh, 760px);
-  border-radius: 16px; overflow: hidden;
-  border: 3px solid color-mix(in srgb, var(--panelEdge) 85%, black);
-  background: linear-gradient(180deg, #3d5c31, #24391f 60%, #1b2b18);
-  box-shadow: inset 0 0 110px rgba(0, 0, 0, 0.5), var(--shadow);
-  touch-action: none;
-}
-.battle-stage canvas { display: block; width: 100%; height: 100%; }
 .bt-hint {
-  position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%);
+  position: absolute; left: 50%; bottom: 108px; transform: translateX(-50%);
   padding: 7px 14px; border-radius: 999px; font-size: 12px;
-  background: rgba(0, 0, 0, 0.6); border: 1px solid var(--panelEdge);
+  background: rgba(0, 0, 0, 0.62); border: 1px solid var(--panelEdge);
   transition: opacity 400ms ease; pointer-events: none;
 }
 
 .bt-tray {
-  display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
-  padding: 10px; border-radius: 12px; min-height: 74px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
-  border: 1px solid var(--panelEdge);
+  position: absolute; left: 0; right: 0; bottom: 0;
+  display: flex; gap: 8px; flex-wrap: nowrap; overflow-x: auto; align-items: center;
+  padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
+  min-height: 92px;
+  background: linear-gradient(0deg, rgba(6, 10, 8, 0.9), rgba(6, 10, 8, 0.5) 70%, transparent);
 }
 .bt-troop {
-  position: relative; width: 72px; padding: 5px 3px 4px;
+  position: relative; flex: none; width: 76px; padding: 6px 3px 5px;
   border-radius: 10px; text-align: center; cursor: pointer;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(0, 0, 0, 0.3));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.45));
   border: 1px solid var(--panelEdge); color: var(--ink);
 }
 .bt-troop.on { border-color: var(--accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 55%, transparent); }

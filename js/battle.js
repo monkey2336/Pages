@@ -19,7 +19,7 @@
   // building hitpoints and defense damage directly, so both need lifting to
   // land a raid in the two-minute range rather than wiping in twenty seconds.
   // Exposed for tuning rather than buried.
-  var TUNE = { hp: 7, dps: 3.5, defense: 1.5, growth: 1.18 };
+  var TUNE = { hp: 9, dps: 5, defense: 1.1, growth: 1.18 };
 
   /* --------------------------------------------------------- enemy base */
   // Built on the same grid and the same rules the player's own village uses,

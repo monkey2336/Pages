@@ -43,19 +43,21 @@
   }
 
   function fitView(b, canvas) {
-    var span = Math.max(12, Math.max(b.bounds.maxX - b.bounds.minX, b.bounds.maxY - b.bounds.minY) + 6);
+    var span = Math.max(12, Math.max(b.bounds.maxX - b.bounds.minX, b.bounds.maxY - b.bounds.minY) + 3);
     var cx = (b.bounds.minX + b.bounds.maxX) / 2;
     var cy = (b.bounds.minY + b.bounds.maxY) / 2;
+    // Room for the tallest halls above the grid, and for the tray below it,
+    // but no more than that -- the base should fill the screen it is on.
     var wNeeded = span * TILE_W;
-    var hNeeded = span * TILE_H + 260;
+    var hNeeded = span * TILE_H + 210;
     var scale = Math.min(canvas.width / wNeeded, canvas.height / hNeeded);
     var mid = { x: (cx - cy) * (TILE_W / 2) * scale, y: (cx + cy) * (TILE_H / 2) * scale };
-    return { scale: scale, ox: canvas.width / 2 - mid.x, oy: canvas.height / 2 - mid.y + 40 };
+    return { scale: scale, ox: canvas.width / 2 - mid.x, oy: canvas.height / 2 - mid.y + 24 };
   }
 
   /* ------------------------------------------------------------ drawing */
   function drawGround(ctx, b, view) {
-    var pad = 5;
+    var pad = 3;
     var pts = [
       project(view, b.bounds.minX - pad, b.bounds.minY - pad),
       project(view, b.bounds.maxX + pad, b.bounds.minY - pad),
@@ -343,12 +345,16 @@
     return out || '<span class="hint">Everything is deployed.</span>';
   }
 
-  function render(s) {
+  function render() {
     if (!live) {
       return '<h2 class="screen-head">No battle</h2>' +
         '<p class="screen-sub">Pick a target on the Raid screen.</p>';
     }
-    return '<div class="battle-wrap">' +
+    // The battle takes the whole screen: the base is the screen, and the HUD
+    // and the troop tray sit on top of it. Anything else -- the site header,
+    // the nav, a page that scrolls -- is in the way during a raid.
+    return '<div class="battle-wrap" id="battleWrap">' +
+      '<canvas id="battleCanvas"></canvas>' +
       '<div class="battle-top">' +
         '<div class="bt-target"><b>' + ui.esc(live.target.name) + '</b>' +
           '<span>Town Hall ' + live.target.th + '</span></div>' +
@@ -356,9 +362,7 @@
         '<div class="bt-speed" id="btSpeed">' + speedButtons() + '</div>' +
         '<button class="btn ghost sm" data-act="bt-end">End raid</button>' +
       '</div>' +
-      '<div class="battle-stage"><canvas id="battleCanvas"></canvas>' +
-        '<div class="bt-hint" id="btHint">Pick a troop, then tap the ground to drop it</div>' +
-      '</div>' +
+      '<div class="bt-hint" id="btHint">Pick a troop, then tap the ground to drop it</div>' +
       '<div class="bt-tray" id="btTray">' + trayHTML(live) + '</div>' +
       '</div>';
   }
@@ -367,6 +371,7 @@
     if (!live) return;
     var canvas = host.querySelector('#battleCanvas');
     if (!canvas) return;
+    document.body.classList.add('in-battle');
     function size() {
       var r = canvas.parentElement.getBoundingClientRect();
       var dpr = Math.min(2, window.devicePixelRatio || 1);
@@ -446,12 +451,18 @@
     if (host) host.innerHTML = speedButtons();
   };
   ui.actions['bt-end'] = function () {
-    if (live && !live.over) { live.over = true; finish(); }
+    if (!live) return;
+    if (!live.over) { live.over = true; finish(); return; }
+    // Already finished and the result was dismissed: just leave.
+    document.body.classList.remove('in-battle');
+    live = null;
+    ui.go('village');
   };
   ui.actions['bt-leave'] = function () {
     ui.closeModal();
     live = null;
     picked = null;
+    document.body.classList.remove('in-battle');
     ui.go('village');
   };
 
