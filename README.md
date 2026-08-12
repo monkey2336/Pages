@@ -14,6 +14,30 @@ including resources earned while the tab was closed.
 
 ## What is in it
 
+### One design per level, not per tier
+
+Nothing in this game shares a model between levels:
+
+- **Buildings** have **30 designs each** — one per Town Hall level. A level 4
+  Cannon is timber and river stone; a level 18 Cannon is pale ashlar with gold
+  ribs; a level 29 Cannon is dark composite with a lit core.
+- **Walls** have 30 designs, cut from the *same materials* as buildings at that
+  level, so the wall you are standing behind always matches the base behind it.
+- **Troops** have **25 designs each** — one per research level. Same silhouette,
+  better kit: a helmet replaces the cap, then pauldrons, then a lit sigil.
+- **Heroes** share a design every 4 levels across their 100-level climb.
+
+The materials are five anchor eras — Timber &amp; Thatch, Cut Stone &amp; Steel,
+Gilded Masonry, Arcane Alloy, Ascendant Core — blended continuously in
+`js/data/themes.js`, with a small deterministic nudge per level so no two
+levels share a palette. Ornament density rises with level too: rivets, trim
+bands, banners, lit windows and orbit rings all scale in.
+
+Because the game and the renderer read the same table, the sprite you see is
+always the design the UI says you have. Upgrade dialogs show the current design
+next to the one you are buying, and the Town Halls tab shows the matching
+wall, buildings and troop kit for every level.
+
 ### Thirty distinct Town Halls
 Each Town Hall level is its own identity rather than the same building with a
 bigger number on it:
@@ -49,7 +73,9 @@ every 12 Town Hall levels.
 ### Everything else from the spec
 - **Economy** — Gold, Elixir, Dark Elixir, Gems and Magic Items, with storage
   caps, collectors that run while you are away, and real-time upgrade timers.
-- **Village** — an isometric, draggable layout on a 52×52 grid. New wall
+- **Village** — a draggable layout on a 52×52 grid, in either the Clash-style
+  isometric board or a flat 2D board (toggle on the Village screen); the
+  buildings are the same 3D renders either way. New wall
   segments lay themselves out as concentric rings around the Town Hall.
 - **Raids** — resolved by power comparison (spec's build option A): your army,
   hero levels, research and brewed spells against a target rated at what a real
@@ -105,8 +131,8 @@ recording where world origin lands in every image. The game pins sprites to
 tiles by that anchor, which is also how level badges and build-timer clocks know
 where a building's base is.
 
-154 sprites: 30 Town Halls, 50 buildings, 30 wall skins, 43 units and a ground
-tile. If a sprite is missing the game falls back to the vector art in
+~2,500 sprites: 30 Town Halls, 50 buildings x 30 levels, 30 wall levels,
+28 troops and 8 heroes x 25 levels, siege machines and a ground tile. If a sprite is missing the game falls back to the vector art in
 `js/art.js`, so it still runs with no assets at all.
 
 ---

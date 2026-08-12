@@ -1363,216 +1363,1758 @@
    "unlockTH": 17
   }
  ],
+ "eras": [
+  {
+   "key": "timber",
+   "at": 1,
+   "name": "Timber & Thatch",
+   "blurb": "Lashed logs, straw, river stone and hammered iron."
+  },
+  {
+   "key": "stonework",
+   "at": 8,
+   "name": "Cut Stone & Steel",
+   "blurb": "Dressed blocks, banded steel, slate roofs and forge-light."
+  },
+  {
+   "key": "gilded",
+   "at": 15,
+   "name": "Gilded Masonry",
+   "blurb": "Pale ashlar with gold leaf, verdigris copper and lantern glass."
+  },
+  {
+   "key": "arcane",
+   "at": 22,
+   "name": "Arcane Alloy",
+   "blurb": "Violet alloy, floating trim and rune-cut channels that hum."
+  },
+  {
+   "key": "ascendant",
+   "at": 30,
+   "name": "Ascendant Core",
+   "blurb": "Dark composite, cyan cores, gold ribs and contained light."
+  }
+ ],
+ "spans": {
+  "building": 30,
+  "troop": 25,
+  "hero": 25,
+  "heroLevelsPerDesign": 4
+ },
+ "buildingLevels": [
+  {
+   "level": 1,
+   "mat": {
+    "stone": "#ae9e81",
+    "stoneDark": "#80725b",
+    "trim": "#865a32",
+    "trimDark": "#5e3f22",
+    "roof": "#b94630",
+    "roofDark": "#792b1c",
+    "metal": "#9ea8b2",
+    "metalDark": "#606771",
+    "accent": "#eac667",
+    "glow": "#fad587",
+    "wood": "#8e6035",
+    "cloth": "#c0523c"
+   },
+   "detail": 0,
+   "era": "Timber & Thatch"
+  },
+  {
+   "level": 2,
+   "mat": {
+    "stone": "#9f947e",
+    "stoneDark": "#7b715f",
+    "trim": "#835f3d",
+    "trimDark": "#583f28",
+    "roof": "#a44638",
+    "roofDark": "#6d2c23",
+    "metal": "#99a2ac",
+    "metalDark": "#6b737e",
+    "accent": "#deb759",
+    "glow": "#fdd687",
+    "wood": "#8c5f35",
+    "cloth": "#c3583c"
+   },
+   "detail": 0.034482758620689655,
+   "era": "Timber & Thatch"
+  },
+  {
+   "level": 3,
+   "mat": {
+    "stone": "#a59c8b",
+    "stoneDark": "#787163",
+    "trim": "#7c6147",
+    "trimDark": "#584331",
+    "roof": "#8d463f",
+    "roofDark": "#68302c",
+    "metal": "#9fa7b1",
+    "metalDark": "#6b747e",
+    "accent": "#e3b652",
+    "glow": "#ffd685",
+    "wood": "#865b32",
+    "cloth": "#cb5f3f"
+   },
+   "detail": 0.06896551724137931,
+   "era": "Timber & Thatch"
+  },
+  {
+   "level": 4,
+   "mat": {
+    "stone": "#a09b8f",
+    "stoneDark": "#736f66",
+    "trim": "#7d6855",
+    "trimDark": "#514337",
+    "roof": "#7d4848",
+    "roofDark": "#573031",
+    "metal": "#b1bac5",
+    "metalDark": "#727b86",
+    "accent": "#e3b049",
+    "glow": "#f6cd7e",
+    "wood": "#7a532f",
+    "cloth": "#cc643f"
+   },
+   "detail": 0.10344827586206896,
+   "era": "Timber & Thatch"
+  },
+  {
+   "level": 5,
+   "mat": {
+    "stone": "#9f9d97",
+    "stoneDark": "#767571",
+    "trim": "#72655c",
+    "trimDark": "#4f443f",
+    "roof": "#6f4b52",
+    "roofDark": "#4a3136",
+    "metal": "#aab3bd",
+    "metalDark": "#727c87",
+    "accent": "#e9af42",
+    "glow": "#ffd582",
+    "wood": "#76512d",
+    "cloth": "#ce693f"
+   },
+   "detail": 0.13793103448275862,
+   "era": "Timber & Thatch"
+  },
+  {
+   "level": 6,
+   "mat": {
+    "stone": "#a0a2a1",
+    "stoneDark": "#737576",
+    "trim": "#6d6867",
+    "trimDark": "#484445",
+    "roof": "#645261",
+    "roofDark": "#413540",
+    "metal": "#b3bcc6",
+    "metalDark": "#7a8490",
+    "accent": "#f8b53d",
+    "glow": "#fbcf7d",
+    "wood": "#77522e",
+    "cloth": "#c5693b"
+   },
+   "detail": 0.1724137931034483,
+   "era": "Timber & Thatch"
+  },
+  {
+   "level": 7,
+   "mat": {
+    "stone": "#979ca1",
+    "stoneDark": "#6e7378",
+    "trim": "#666a71",
+    "trimDark": "#404247",
+    "roof": "#4f5166",
+    "roofDark": "#363749",
+    "metal": "#b7c0c9",
+    "metalDark": "#76818b",
+    "accent": "#ffb838",
+    "glow": "#ffd17c",
+    "wood": "#6f4d2b",
+    "cloth": "#c66d3c"
+   },
+   "detail": 0.20689655172413793,
+   "era": "Timber & Thatch"
+  },
+  {
+   "level": 8,
+   "mat": {
+    "stone": "#98a0aa",
+    "stoneDark": "#6b737d",
+    "trim": "#606c7b",
+    "trimDark": "#3f4754",
+    "roof": "#3c506b",
+    "roofDark": "#29384e",
+    "metal": "#c6cfd9",
+    "metalDark": "#838e9b",
+    "accent": "#ffb12e",
+    "glow": "#fdcd79",
+    "wood": "#6d4b2b",
+    "cloth": "#ca753d"
+   },
+   "detail": 0.2413793103448276,
+   "era": "Cut Stone & Steel"
+  },
+  {
+   "level": 9,
+   "mat": {
+    "stone": "#a1a8ad",
+    "stoneDark": "#70767b",
+    "trim": "#6f746f",
+    "trimDark": "#454745",
+    "roof": "#3d576e",
+    "roofDark": "#283b4e",
+    "metal": "#c5cacd",
+    "metalDark": "#878f96",
+    "accent": "#f5ae30",
+    "glow": "#fbd07f",
+    "wood": "#65472a",
+    "cloth": "#ae7544"
+   },
+   "detail": 0.27586206896551724,
+   "era": "Cut Stone & Steel"
+  },
+  {
+   "level": 10,
+   "mat": {
+    "stone": "#acb1b3",
+    "stoneDark": "#707474",
+    "trim": "#7c7a61",
+    "trimDark": "#514e3f",
+    "roof": "#3a5c6c",
+    "roofDark": "#263e4b",
+    "metal": "#cdd1cd",
+    "metalDark": "#818685",
+    "accent": "#ffbc38",
+    "glow": "#ffdb8a",
+    "wood": "#66492e",
+    "cloth": "#98774c"
+   },
+   "detail": 0.3103448275862069,
+   "era": "Cut Stone & Steel"
+  },
+  {
+   "level": 11,
+   "mat": {
+    "stone": "#b0b3b0",
+    "stoneDark": "#7b7d78",
+    "trim": "#918859",
+    "trimDark": "#605738",
+    "roof": "#39606b",
+    "roofDark": "#233e47",
+    "metal": "#d2d3c8",
+    "metalDark": "#8d8f88",
+    "accent": "#f9ba3a",
+    "glow": "#fad68b",
+    "wood": "#684c33",
+    "cloth": "#817954"
+   },
+   "detail": 0.3448275862068966,
+   "era": "Cut Stone & Steel"
+  },
+  {
+   "level": 12,
+   "mat": {
+    "stone": "#acaca5",
+    "stoneDark": "#7f8076",
+    "trim": "#a08e4d",
+    "trimDark": "#6a5b30",
+    "roof": "#376268",
+    "roofDark": "#224249",
+    "metal": "#d3d2bf",
+    "metalDark": "#868478",
+    "accent": "#ffc340",
+    "glow": "#ffe498",
+    "wood": "#634b34",
+    "cloth": "#718362"
+   },
+   "detail": 0.3793103448275862,
+   "era": "Cut Stone & Steel"
+  },
+  {
+   "level": 13,
+   "mat": {
+    "stone": "#bfbdb1",
+    "stoneDark": "#828172",
+    "trim": "#a68e3d",
+    "trimDark": "#705c25",
+    "roof": "#326061",
+    "roofDark": "#1f4244",
+    "metal": "#d9d5bb",
+    "metalDark": "#8e8977",
+    "accent": "#f6c142",
+    "glow": "#ffe9a0",
+    "wood": "#634c37",
+    "cloth": "#5a8469"
+   },
+   "detail": 0.41379310344827586,
+   "era": "Cut Stone & Steel"
+  },
+  {
+   "level": 14,
+   "mat": {
+    "stone": "#c1bdae",
+    "stoneDark": "#8c8975",
+    "trim": "#be9d34",
+    "trimDark": "#7a611d",
+    "roof": "#316761",
+    "roofDark": "#1e4441",
+    "metal": "#d5cfaf",
+    "metalDark": "#968e74",
+    "accent": "#f8c847",
+    "glow": "#ffefa8",
+    "wood": "#5c4837",
+    "cloth": "#468a74"
+   },
+   "detail": 0.4482758620689655,
+   "era": "Cut Stone & Steel"
+  },
+  {
+   "level": 15,
+   "mat": {
+    "stone": "#c1bba7",
+    "stoneDark": "#8b866d",
+    "trim": "#cca428",
+    "trimDark": "#866714",
+    "roof": "#2e6a5f",
+    "roofDark": "#1c4841",
+    "metal": "#dfd5ad",
+    "metalDark": "#958a6b",
+    "accent": "#ffd54e",
+    "glow": "#fce6a6",
+    "wood": "#5f4c3c",
+    "cloth": "#318f7e"
+   },
+   "detail": 0.4827586206896552,
+   "era": "Gilded Masonry"
+  },
+  {
+   "level": 16,
+   "mat": {
+    "stone": "#bdb7aa",
+    "stoneDark": "#827d6c",
+    "trim": "#cb9e49",
+    "trimDark": "#86632b",
+    "roof": "#30615d",
+    "roofDark": "#1d413f",
+    "metal": "#d1caad",
+    "metalDark": "#938a73",
+    "accent": "#f6c666",
+    "glow": "#f7e0b1",
+    "wood": "#5b4a41",
+    "cloth": "#3a8187"
+   },
+   "detail": 0.5172413793103449,
+   "era": "Gilded Masonry"
+  },
+  {
+   "level": 17,
+   "mat": {
+    "stone": "#a9a49f",
+    "stoneDark": "#767168",
+    "trim": "#bc8d65",
+    "trimDark": "#805c41",
+    "roof": "#325b5e",
+    "roofDark": "#1e3c3e",
+    "metal": "#d6d2be",
+    "metalDark": "#8f8a7c",
+    "accent": "#f8c186",
+    "glow": "#eed7bb",
+    "wood": "#594845",
+    "cloth": "#477c98"
+   },
+   "detail": 0.5517241379310345,
+   "era": "Gilded Masonry"
+  },
+  {
+   "level": 18,
+   "mat": {
+    "stone": "#a09b9e",
+    "stoneDark": "#746f6e",
+    "trim": "#be8989",
+    "trimDark": "#795254",
+    "roof": "#33525c",
+    "roofDark": "#1e343a",
+    "metal": "#ceccc3",
+    "metalDark": "#8a8882",
+    "accent": "#e9b19c",
+    "glow": "#ecd3c8",
+    "wood": "#524347",
+    "cloth": "#5273a5"
+   },
+   "detail": 0.5862068965517241,
+   "era": "Gilded Masonry"
+  },
+  {
+   "level": 19,
+   "mat": {
+    "stone": "#918b96",
+    "stoneDark": "#676368",
+    "trim": "#b27aa2",
+    "trimDark": "#734b69",
+    "roof": "#384e5e",
+    "roofDark": "#22323f",
+    "metal": "#ced0d0",
+    "metalDark": "#89898d",
+    "accent": "#e2a5b8",
+    "glow": "#f2d8df",
+    "wood": "#52444d",
+    "cloth": "#5b68b0"
+   },
+   "detail": 0.6206896551724138,
+   "era": "Gilded Masonry"
+  },
+  {
+   "level": 20,
+   "mat": {
+    "stone": "#8a8497",
+    "stoneDark": "#5e5a67",
+    "trim": "#ac70c1",
+    "trimDark": "#704580",
+    "roof": "#3a455d",
+    "roofDark": "#232c3e",
+    "metal": "#c3c7d2",
+    "metalDark": "#7c7f8a",
+    "accent": "#db9ad5",
+    "glow": "#e1c6de",
+    "wood": "#514354",
+    "cloth": "#625bb7"
+   },
+   "detail": 0.6551724137931034,
+   "era": "Gilded Masonry"
+  },
+  {
+   "level": 21,
+   "mat": {
+    "stone": "#7c7791",
+    "stoneDark": "#544f65",
+    "trim": "#a666e0",
+    "trimDark": "#70419c",
+    "roof": "#393b58",
+    "roofDark": "#23253c",
+    "metal": "#c4cbe0",
+    "metalDark": "#7c8297",
+    "accent": "#c484e0",
+    "glow": "#dabfe8",
+    "wood": "#4e4258",
+    "cloth": "#7157cb"
+   },
+   "detail": 0.6896551724137931,
+   "era": "Gilded Masonry"
+  },
+  {
+   "level": 22,
+   "mat": {
+    "stone": "#716c8e",
+    "stoneDark": "#44405c",
+    "trim": "#9a59f6",
+    "trimDark": "#6e3ab5",
+    "roof": "#3d355c",
+    "roofDark": "#25203b",
+    "metal": "#b4bdda",
+    "metalDark": "#727b97",
+    "accent": "#c27cff",
+    "glow": "#e4c5ff",
+    "wood": "#493e5a",
+    "cloth": "#764acc"
+   },
+   "detail": 0.7241379310344828,
+   "era": "Arcane Alloy"
+  },
+  {
+   "level": 23,
+   "mat": {
+    "stone": "#686786",
+    "stoneDark": "#44425d",
+    "trim": "#a666de",
+    "trimDark": "#71419b",
+    "roof": "#363354",
+    "roofDark": "#211f39",
+    "metal": "#afbcd7",
+    "metalDark": "#6d7892",
+    "accent": "#b38dff",
+    "glow": "#deccff",
+    "wood": "#463e59",
+    "cloth": "#6858c7"
+   },
+   "detail": 0.7586206896551724,
+   "era": "Arcane Alloy"
+  },
+  {
+   "level": 24,
+   "mat": {
+    "stone": "#60627f",
+    "stoneDark": "#40425c",
+    "trim": "#b776cc",
+    "trimDark": "#794a8b",
+    "roof": "#323354",
+    "roofDark": "#1f2037",
+    "metal": "#b1c1dc",
+    "metalDark": "#6d7c96",
+    "accent": "#9b96ff",
+    "glow": "#d1cdfe",
+    "wood": "#454159",
+    "cloth": "#5a67c6"
+   },
+   "detail": 0.7931034482758621,
+   "era": "Arcane Alloy"
+  },
+  {
+   "level": 25,
+   "mat": {
+    "stone": "#5c617c",
+    "stoneDark": "#393c53",
+    "trim": "#cb8abc",
+    "trimDark": "#815379",
+    "roof": "#2c324f",
+    "roofDark": "#1b2035",
+    "metal": "#a3b7cf",
+    "metalDark": "#697b93",
+    "accent": "#89a6ff",
+    "glow": "#cdd6ff",
+    "wood": "#424157",
+    "cloth": "#507ecd"
+   },
+   "detail": 0.8275862068965517,
+   "era": "Arcane Alloy"
+  },
+  {
+   "level": 26,
+   "mat": {
+    "stone": "#576079",
+    "stoneDark": "#373e53",
+    "trim": "#d1949f",
+    "trimDark": "#956472",
+    "roof": "#29344f",
+    "roofDark": "#171e31",
+    "metal": "#aac3dd",
+    "metalDark": "#667991",
+    "accent": "#6ca6f4",
+    "glow": "#c3d9fd",
+    "wood": "#424459",
+    "cloth": "#3c84ba"
+   },
+   "detail": 0.8620689655172413,
+   "era": "Arcane Alloy"
+  },
+  {
+   "level": 27,
+   "mat": {
+    "stone": "#4d5a6f",
+    "stoneDark": "#2f394b",
+    "trim": "#d49b81",
+    "trimDark": "#926558",
+    "roof": "#213147",
+    "roofDark": "#131d2e",
+    "metal": "#a3c0d8",
+    "metalDark": "#5b7185",
+    "accent": "#61c1ff",
+    "glow": "#bfe2ff",
+    "wood": "#3c4153",
+    "cloth": "#2e97ba"
+   },
+   "detail": 0.896551724137931,
+   "era": "Arcane Alloy"
+  },
+  {
+   "level": 28,
+   "mat": {
+    "stone": "#49586d",
+    "stoneDark": "#2f3b4d",
+    "trim": "#e8af6d",
+    "trimDark": "#a5764e",
+    "roof": "#1c3145",
+    "roofDark": "#121f2f",
+    "metal": "#9fbfd5",
+    "metalDark": "#587083",
+    "accent": "#4cceff",
+    "glow": "#b0def6",
+    "wood": "#373f4e",
+    "cloth": "#1ea2b1"
+   },
+   "detail": 0.9310344827586207,
+   "era": "Arcane Alloy"
+  },
+  {
+   "level": 29,
+   "mat": {
+    "stone": "#45586a",
+    "stoneDark": "#273644",
+    "trim": "#f9c056",
+    "trimDark": "#a87b3a",
+    "roof": "#173042",
+    "roofDark": "#0e1f2d",
+    "metal": "#91b4c7",
+    "metalDark": "#526d7e",
+    "accent": "#38d9ff",
+    "glow": "#b6f5ff",
+    "wood": "#34404d",
+    "cloth": "#0fb5b0"
+   },
+   "detail": 0.9655172413793104,
+   "era": "Arcane Alloy"
+  },
+  {
+   "level": 30,
+   "mat": {
+    "stone": "#425a6a",
+    "stoneDark": "#233541",
+    "trim": "#f4c039",
+    "trimDark": "#b7892b",
+    "roof": "#122f3e",
+    "roofDark": "#0a1e2a",
+    "metal": "#8db3c6",
+    "metalDark": "#4c6878",
+    "accent": "#23e3ff",
+    "glow": "#a8f1fe",
+    "wood": "#34434e",
+    "cloth": "#00c1a8"
+   },
+   "detail": 1,
+   "era": "Ascendant Core"
+  }
+ ],
+ "troopLevels": [
+  {
+   "level": 1,
+   "mat": {
+    "stone": "#ae9e81",
+    "stoneDark": "#80725b",
+    "trim": "#865a32",
+    "trimDark": "#5e3f22",
+    "roof": "#b94630",
+    "roofDark": "#792b1c",
+    "metal": "#9ea8b2",
+    "metalDark": "#606771",
+    "accent": "#eac667",
+    "glow": "#fad587",
+    "wood": "#8e6035",
+    "cloth": "#c0523c"
+   },
+   "detail": 0
+  },
+  {
+   "level": 2,
+   "mat": {
+    "stone": "#9f947f",
+    "stoneDark": "#7b7260",
+    "trim": "#815f3f",
+    "trimDark": "#573f29",
+    "roof": "#a1473a",
+    "roofDark": "#6a2c24",
+    "metal": "#9aa3ac",
+    "metalDark": "#6c747f",
+    "accent": "#dfb758",
+    "glow": "#fdd586",
+    "wood": "#8b5f34",
+    "cloth": "#c3583c"
+   },
+   "detail": 0.041666666666666664
+  },
+  {
+   "level": 3,
+   "mat": {
+    "stone": "#a49d8e",
+    "stoneDark": "#777165",
+    "trim": "#7a614b",
+    "trimDark": "#564334",
+    "roof": "#864742",
+    "roofDark": "#63312f",
+    "metal": "#a1a9b3",
+    "metalDark": "#6d7680",
+    "accent": "#e5b54f",
+    "glow": "#ffd684",
+    "wood": "#845932",
+    "cloth": "#cb613e"
+   },
+   "detail": 0.08333333333333333
+  },
+  {
+   "level": 4,
+   "mat": {
+    "stone": "#9f9c93",
+    "stoneDark": "#72706a",
+    "trim": "#79695b",
+    "trimDark": "#4e433b",
+    "roof": "#73494e",
+    "roofDark": "#4f3135",
+    "metal": "#b4bdc8",
+    "metalDark": "#757e8a",
+    "accent": "#e6af45",
+    "glow": "#f6cd7d",
+    "wood": "#77522e",
+    "cloth": "#cb663e"
+   },
+   "detail": 0.125
+  },
+  {
+   "level": 5,
+   "mat": {
+    "stone": "#9d9f9d",
+    "stoneDark": "#747575",
+    "trim": "#6d6764",
+    "trimDark": "#4b4544",
+    "roof": "#614d5a",
+    "roofDark": "#40333c",
+    "metal": "#afb8c2",
+    "metalDark": "#757f8a",
+    "accent": "#ebad3c",
+    "glow": "#ffd480",
+    "wood": "#734e2c",
+    "cloth": "#cd6d3f"
+   },
+   "detail": 0.16666666666666666
+  },
+  {
+   "level": 6,
+   "mat": {
+    "stone": "#9ea3a8",
+    "stoneDark": "#6f767b",
+    "trim": "#666a71",
+    "trimDark": "#43454c",
+    "roof": "#52556b",
+    "roofDark": "#353647",
+    "metal": "#b9c2cc",
+    "metalDark": "#7e8994",
+    "accent": "#fdb335",
+    "glow": "#fbcd7a",
+    "wood": "#724f2c",
+    "cloth": "#c46c3b"
+   },
+   "detail": 0.20833333333333334
+  },
+  {
+   "level": 7,
+   "mat": {
+    "stone": "#969fa8",
+    "stoneDark": "#6c747d",
+    "trim": "#646e78",
+    "trimDark": "#3e444c",
+    "roof": "#3e546e",
+    "roofDark": "#2a3a50",
+    "metal": "#bec5cd",
+    "metalDark": "#7b848e",
+    "accent": "#ffb731",
+    "glow": "#ffd17c",
+    "wood": "#694a2b",
+    "cloth": "#bf723d"
+   },
+   "detail": 0.25
+  },
+  {
+   "level": 8,
+   "mat": {
+    "stone": "#a0a5a9",
+    "stoneDark": "#72777a",
+    "trim": "#76776a",
+    "trimDark": "#4f4f47",
+    "roof": "#395568",
+    "roofDark": "#273b4b",
+    "metal": "#cad0cf",
+    "metalDark": "#878e91",
+    "accent": "#ffb834",
+    "glow": "#fdd283",
+    "wood": "#6a4b2e",
+    "cloth": "#aa7a4a"
+   },
+   "detail": 0.2916666666666667
+  },
+  {
+   "level": 9,
+   "mat": {
+    "stone": "#aaaeac",
+    "stoneDark": "#787b78",
+    "trim": "#88815b",
+    "trimDark": "#565038",
+    "roof": "#395d6a",
+    "roofDark": "#24404b",
+    "metal": "#c9cbc3",
+    "metalDark": "#8c8f8a",
+    "accent": "#f5b638",
+    "glow": "#fbd68a",
+    "wood": "#61472e",
+    "cloth": "#8b7b53"
+   },
+   "detail": 0.3333333333333333
+  },
+  {
+   "level": 10,
+   "mat": {
+    "stone": "#b7b9b1",
+    "stoneDark": "#797a70",
+    "trim": "#98874b",
+    "trimDark": "#66572f",
+    "roof": "#366268",
+    "roofDark": "#224248",
+    "metal": "#d3d2c1",
+    "metalDark": "#87857a",
+    "accent": "#ffc540",
+    "glow": "#ffe297",
+    "wood": "#624932",
+    "cloth": "#717e5d"
+   },
+   "detail": 0.375
+  },
+  {
+   "level": 11,
+   "mat": {
+    "stone": "#bcbaae",
+    "stoneDark": "#858374",
+    "trim": "#b29940",
+    "trimDark": "#786226",
+    "roof": "#346766",
+    "roofDark": "#1f4344",
+    "metal": "#d9d4bb",
+    "metalDark": "#938e7a",
+    "accent": "#f9c443",
+    "glow": "#fade98",
+    "wood": "#634c38",
+    "cloth": "#568167"
+   },
+   "detail": 0.4166666666666667
+  },
+  {
+   "level": 12,
+   "mat": {
+    "stone": "#b9b4a4",
+    "stoneDark": "#8b8771",
+    "trim": "#c3a030",
+    "trimDark": "#84671b",
+    "roof": "#326a63",
+    "roofDark": "#1e4843",
+    "metal": "#dad3b0",
+    "metalDark": "#8d846a",
+    "accent": "#ffcf4a",
+    "glow": "#ffeda8",
+    "wood": "#5f4b39",
+    "cloth": "#408b77"
+   },
+   "detail": 0.4583333333333333
+  },
+  {
+   "level": 13,
+   "mat": {
+    "stone": "#c4bead",
+    "stoneDark": "#87826d",
+    "trim": "#c19935",
+    "trimDark": "#84641f",
+    "roof": "#2e635b",
+    "roofDark": "#1d4440",
+    "metal": "#ddd5b2",
+    "metalDark": "#92886e",
+    "accent": "#f3c557",
+    "glow": "#ffedb3",
+    "wood": "#5e4b3e",
+    "cloth": "#358782"
+   },
+   "detail": 0.5
+  },
+  {
+   "level": 14,
+   "mat": {
+    "stone": "#b3ada6",
+    "stoneDark": "#807b6e",
+    "trim": "#c3945e",
+    "trimDark": "#7d5a39",
+    "roof": "#325c5d",
+    "roofDark": "#1e3c3e",
+    "metal": "#d0ccb6",
+    "metalDark": "#928c7a",
+    "accent": "#eab875",
+    "glow": "#ffe9c5",
+    "wood": "#564641",
+    "cloth": "#447e94"
+   },
+   "detail": 0.5416666666666666
+  },
+  {
+   "level": 15,
+   "mat": {
+    "stone": "#9e999b",
+    "stoneDark": "#6e6967",
+    "trim": "#bb8783",
+    "trimDark": "#7a5454",
+    "roof": "#33535c",
+    "roofDark": "#20373f",
+    "metal": "#d1d0c5",
+    "metalDark": "#898680",
+    "accent": "#e8b099",
+    "glow": "#efd7ca",
+    "wood": "#57474a",
+    "cloth": "#5275a5"
+   },
+   "detail": 0.5833333333333334
+  },
+  {
+   "level": 16,
+   "mat": {
+    "stone": "#97919e",
+    "stoneDark": "#635e65",
+    "trim": "#b87ead",
+    "trimDark": "#784d70",
+    "roof": "#354859",
+    "roofDark": "#212f3c",
+    "metal": "#c3c4c6",
+    "metalDark": "#848589",
+    "accent": "#da9fb6",
+    "glow": "#e9cfd8",
+    "wood": "#534650",
+    "cloth": "#5c66b0"
+   },
+   "detail": 0.625
+  },
+  {
+   "level": 17,
+   "mat": {
+    "stone": "#827d92",
+    "stoneDark": "#565162",
+    "trim": "#a96dcb",
+    "trimDark": "#71458a",
+    "roof": "#38405a",
+    "roofDark": "#22293b",
+    "metal": "#c7ccda",
+    "metalDark": "#818594",
+    "accent": "#d896df",
+    "glow": "#dfc4e2",
+    "wood": "#504356",
+    "cloth": "#6c5ec5"
+   },
+   "detail": 0.6666666666666666
+  },
+  {
+   "level": 18,
+   "mat": {
+    "stone": "#767090",
+    "stoneDark": "#4f4b65",
+    "trim": "#a965fa",
+    "trimDark": "#6a3aa1",
+    "roof": "#393658",
+    "roofDark": "#222138",
+    "metal": "#bec6e0",
+    "metalDark": "#7a839c",
+    "accent": "#c884f8",
+    "glow": "#dcc0f3",
+    "wood": "#493e58",
+    "cloth": "#7953d5"
+   },
+   "detail": 0.7083333333333334
+  },
+  {
+   "level": 19,
+   "mat": {
+    "stone": "#696686",
+    "stoneDark": "#45435f",
+    "trim": "#a966ed",
+    "trimDark": "#6d3d9c",
+    "roof": "#393559",
+    "roofDark": "#23203a",
+    "metal": "#bcc9e7",
+    "metalDark": "#7782a0",
+    "accent": "#b688ff",
+    "glow": "#e0cbff",
+    "wood": "#483f5b",
+    "cloth": "#7059d3"
+   },
+   "detail": 0.75
+  },
+  {
+   "level": 20,
+   "mat": {
+    "stone": "#656786",
+    "stoneDark": "#40425c",
+    "trim": "#b777cf",
+    "trimDark": "#794a8a",
+    "roof": "#323354",
+    "roofDark": "#1f2038",
+    "metal": "#b0c0dc",
+    "metalDark": "#697890",
+    "accent": "#a09aff",
+    "glow": "#cac7f6",
+    "wood": "#45415a",
+    "cloth": "#5a67c5"
+   },
+   "detail": 0.7916666666666666
+  },
+  {
+   "level": 21,
+   "mat": {
+    "stone": "#5c627e",
+    "stoneDark": "#3b4057",
+    "trim": "#c687b2",
+    "trimDark": "#88587c",
+    "roof": "#2b324d",
+    "roofDark": "#1a1f34",
+    "metal": "#aec4df",
+    "metalDark": "#697a92",
+    "accent": "#7e9ff9",
+    "glow": "#c1cbf4",
+    "wood": "#424157",
+    "cloth": "#4b7cc6"
+   },
+   "detail": 0.8333333333333334
+  },
+  {
+   "level": 22,
+   "mat": {
+    "stone": "#566079",
+    "stoneDark": "#323a4d",
+    "trim": "#cc938f",
+    "trimDark": "#96666a",
+    "roof": "#27334d",
+    "roofDark": "#171f32",
+    "metal": "#9eb6cd",
+    "metalDark": "#5e7287",
+    "accent": "#6bb4ff",
+    "glow": "#c4dfff",
+    "wood": "#3c4053",
+    "cloth": "#3687b5"
+   },
+   "detail": 0.875
+  },
+  {
+   "level": 23,
+   "mat": {
+    "stone": "#4d5b70",
+    "stoneDark": "#303b4c",
+    "trim": "#daa273",
+    "trimDark": "#996c50",
+    "roof": "#1e3147",
+    "roofDark": "#121e2f",
+    "metal": "#98b5ca",
+    "metalDark": "#586e81",
+    "accent": "#55c9ff",
+    "glow": "#bde9ff",
+    "wood": "#394051",
+    "cloth": "#2398af"
+   },
+   "detail": 0.9166666666666666
+  },
+  {
+   "level": 24,
+   "mat": {
+    "stone": "#445668",
+    "stoneDark": "#2b3a4a",
+    "trim": "#efb858",
+    "trimDark": "#a3763c",
+    "roof": "#193145",
+    "roofDark": "#0e1f2d",
+    "metal": "#97bace",
+    "metalDark": "#567183",
+    "accent": "#3bd4ff",
+    "glow": "#b0eafe",
+    "wood": "#364350",
+    "cloth": "#13acab"
+   },
+   "detail": 0.9583333333333334
+  },
+  {
+   "level": 25,
+   "mat": {
+    "stone": "#3e5564",
+    "stoneDark": "#233540",
+    "trim": "#ffd03e",
+    "trimDark": "#ad8128",
+    "roof": "#12303f",
+    "roofDark": "#0a1f2a",
+    "metal": "#8aafc1",
+    "metalDark": "#517080",
+    "accent": "#23e6ff",
+    "glow": "#aaf5ff",
+    "wood": "#34434e",
+    "cloth": "#00caaf"
+   },
+   "detail": 1
+  }
+ ],
  "wallSkins": [
   {
    "level": 1,
    "name": "Wooden Palisade",
    "fill": "#a9763f",
    "edge": "#6f4a24",
-   "glow": null
+   "glow": null,
+   "mat": {
+    "stone": "#ae9e81",
+    "stoneDark": "#80725b",
+    "trim": "#865a32",
+    "trimDark": "#5e3f22",
+    "roof": "#b94630",
+    "roofDark": "#792b1c",
+    "metal": "#9ea8b2",
+    "metalDark": "#606771",
+    "accent": "#eac667",
+    "glow": "#fad587",
+    "wood": "#8e6035",
+    "cloth": "#c0523c"
+   },
+   "detail": 0,
+   "era": "Timber & Thatch"
   },
   {
    "level": 2,
    "name": "Stacked Stone",
    "fill": "#9a9585",
    "edge": "#5f5c52",
-   "glow": null
+   "glow": null,
+   "mat": {
+    "stone": "#9f947e",
+    "stoneDark": "#7b715f",
+    "trim": "#835f3d",
+    "trimDark": "#583f28",
+    "roof": "#a44638",
+    "roofDark": "#6d2c23",
+    "metal": "#99a2ac",
+    "metalDark": "#6b737e",
+    "accent": "#deb759",
+    "glow": "#fdd687",
+    "wood": "#8c5f35",
+    "cloth": "#c3583c"
+   },
+   "detail": 0.034482758620689655,
+   "era": "Timber & Thatch"
   },
   {
    "level": 3,
    "name": "Cut Granite",
    "fill": "#b6b2a6",
    "edge": "#6f6c62",
-   "glow": null
+   "glow": null,
+   "mat": {
+    "stone": "#a59c8b",
+    "stoneDark": "#787163",
+    "trim": "#7c6147",
+    "trimDark": "#584331",
+    "roof": "#8d463f",
+    "roofDark": "#68302c",
+    "metal": "#9fa7b1",
+    "metalDark": "#6b747e",
+    "accent": "#e3b652",
+    "glow": "#ffd685",
+    "wood": "#865b32",
+    "cloth": "#cb5f3f"
+   },
+   "detail": 0.06896551724137931,
+   "era": "Timber & Thatch"
   },
   {
    "level": 4,
    "name": "Iron-Banded",
    "fill": "#8b949b",
    "edge": "#4a5057",
-   "glow": null
+   "glow": null,
+   "mat": {
+    "stone": "#a09b8f",
+    "stoneDark": "#736f66",
+    "trim": "#7d6855",
+    "trimDark": "#514337",
+    "roof": "#7d4848",
+    "roofDark": "#573031",
+    "metal": "#b1bac5",
+    "metalDark": "#727b86",
+    "accent": "#e3b049",
+    "glow": "#f6cd7e",
+    "wood": "#7a532f",
+    "cloth": "#cc643f"
+   },
+   "detail": 0.10344827586206896,
+   "era": "Timber & Thatch"
   },
   {
    "level": 5,
    "name": "Studded Iron",
    "fill": "#7f8b9c",
    "edge": "#3f4754",
-   "glow": null
+   "glow": null,
+   "mat": {
+    "stone": "#9f9d97",
+    "stoneDark": "#767571",
+    "trim": "#72655c",
+    "trimDark": "#4f443f",
+    "roof": "#6f4b52",
+    "roofDark": "#4a3136",
+    "metal": "#aab3bd",
+    "metalDark": "#727c87",
+    "accent": "#e9af42",
+    "glow": "#ffd582",
+    "wood": "#76512d",
+    "cloth": "#ce693f"
+   },
+   "detail": 0.13793103448275862,
+   "era": "Timber & Thatch"
   },
   {
    "level": 6,
    "name": "Blackstone",
    "fill": "#5c5768",
    "edge": "#2f2b38",
-   "glow": null
+   "glow": null,
+   "mat": {
+    "stone": "#a0a2a1",
+    "stoneDark": "#737576",
+    "trim": "#6d6867",
+    "trimDark": "#484445",
+    "roof": "#645261",
+    "roofDark": "#413540",
+    "metal": "#b3bcc6",
+    "metalDark": "#7a8490",
+    "accent": "#f8b53d",
+    "glow": "#fbcf7d",
+    "wood": "#77522e",
+    "cloth": "#c5693b"
+   },
+   "detail": 0.1724137931034483,
+   "era": "Timber & Thatch"
   },
   {
    "level": 7,
    "name": "Emberstone",
    "fill": "#9c6f4f",
    "edge": "#5c3a24",
-   "glow": null
+   "glow": null,
+   "mat": {
+    "stone": "#979ca1",
+    "stoneDark": "#6e7378",
+    "trim": "#666a71",
+    "trimDark": "#404247",
+    "roof": "#4f5166",
+    "roofDark": "#363749",
+    "metal": "#b7c0c9",
+    "metalDark": "#76818b",
+    "accent": "#ffb838",
+    "glow": "#ffd17c",
+    "wood": "#6f4d2b",
+    "cloth": "#c66d3c"
+   },
+   "detail": 0.20689655172413793,
+   "era": "Timber & Thatch"
   },
   {
    "level": 8,
    "name": "Forged Ember",
    "fill": "#b5713c",
    "edge": "#6b3d16",
-   "glow": null
+   "glow": null,
+   "mat": {
+    "stone": "#98a0aa",
+    "stoneDark": "#6b737d",
+    "trim": "#606c7b",
+    "trimDark": "#3f4754",
+    "roof": "#3c506b",
+    "roofDark": "#29384e",
+    "metal": "#c6cfd9",
+    "metalDark": "#838e9b",
+    "accent": "#ffb12e",
+    "glow": "#fdcd79",
+    "wood": "#6d4b2b",
+    "cloth": "#ca753d"
+   },
+   "detail": 0.2413793103448276,
+   "era": "Cut Stone & Steel"
   },
   {
    "level": 9,
    "name": "Cobalt Plate",
    "fill": "#6b81a1",
    "edge": "#33415c",
-   "glow": null
+   "glow": null,
+   "mat": {
+    "stone": "#a1a8ad",
+    "stoneDark": "#70767b",
+    "trim": "#6f746f",
+    "trimDark": "#454745",
+    "roof": "#3d576e",
+    "roofDark": "#283b4e",
+    "metal": "#c5cacd",
+    "metalDark": "#878f96",
+    "accent": "#f5ae30",
+    "glow": "#fbd07f",
+    "wood": "#65472a",
+    "cloth": "#ae7544"
+   },
+   "detail": 0.27586206896551724,
+   "era": "Cut Stone & Steel"
   },
   {
    "level": 10,
    "name": "Molten Core",
    "fill": "#985c46",
    "edge": "#5c2a1c",
-   "glow": "#ff7a3c"
+   "glow": "#ff7a3c",
+   "mat": {
+    "stone": "#acb1b3",
+    "stoneDark": "#707474",
+    "trim": "#7c7a61",
+    "trimDark": "#514e3f",
+    "roof": "#3a5c6c",
+    "roofDark": "#263e4b",
+    "metal": "#cdd1cd",
+    "metalDark": "#818685",
+    "accent": "#ffbc38",
+    "glow": "#ffdb8a",
+    "wood": "#66492e",
+    "cloth": "#98774c"
+   },
+   "detail": 0.3103448275862069,
+   "era": "Cut Stone & Steel"
   },
   {
    "level": 11,
    "name": "Warded Jade",
    "fill": "#5f8b78",
    "edge": "#2c4a3e",
-   "glow": "#3fe0a0"
+   "glow": "#3fe0a0",
+   "mat": {
+    "stone": "#b0b3b0",
+    "stoneDark": "#7b7d78",
+    "trim": "#918859",
+    "trimDark": "#605738",
+    "roof": "#39606b",
+    "roofDark": "#233e47",
+    "metal": "#d2d3c8",
+    "metalDark": "#8d8f88",
+    "accent": "#f9ba3a",
+    "glow": "#fad68b",
+    "wood": "#684c33",
+    "cloth": "#817954"
+   },
+   "detail": 0.3448275862068966,
+   "era": "Cut Stone & Steel"
   },
   {
    "level": 12,
    "name": "Gilded",
    "fill": "#b89c5e",
    "edge": "#6b5522",
-   "glow": "#ffc93c"
+   "glow": "#ffc93c",
+   "mat": {
+    "stone": "#acaca5",
+    "stoneDark": "#7f8076",
+    "trim": "#a08e4d",
+    "trimDark": "#6a5b30",
+    "roof": "#376268",
+    "roofDark": "#224249",
+    "metal": "#d3d2bf",
+    "metalDark": "#868478",
+    "accent": "#ffc340",
+    "glow": "#ffe498",
+    "wood": "#634b34",
+    "cloth": "#718362"
+   },
+   "detail": 0.3793103448275862,
+   "era": "Cut Stone & Steel"
   },
   {
    "level": 13,
    "name": "Skyglass",
    "fill": "#7c929a",
    "edge": "#3d4c52",
-   "glow": "#7fd0e8"
+   "glow": "#7fd0e8",
+   "mat": {
+    "stone": "#bfbdb1",
+    "stoneDark": "#828172",
+    "trim": "#a68e3d",
+    "trimDark": "#705c25",
+    "roof": "#326061",
+    "roofDark": "#1f4244",
+    "metal": "#d9d5bb",
+    "metalDark": "#8e8977",
+    "accent": "#f6c142",
+    "glow": "#ffe9a0",
+    "wood": "#634c37",
+    "cloth": "#5a8469"
+   },
+   "detail": 0.41379310344827586,
+   "era": "Cut Stone & Steel"
   },
   {
    "level": 14,
    "name": "Overgrown",
    "fill": "#6f9066",
    "edge": "#33482f",
-   "glow": "#7ce05a"
+   "glow": "#7ce05a",
+   "mat": {
+    "stone": "#c1bdae",
+    "stoneDark": "#8c8975",
+    "trim": "#be9d34",
+    "trimDark": "#7a611d",
+    "roof": "#316761",
+    "roofDark": "#1e4441",
+    "metal": "#d5cfaf",
+    "metalDark": "#968e74",
+    "accent": "#f8c847",
+    "glow": "#ffefa8",
+    "wood": "#5c4837",
+    "cloth": "#468a74"
+   },
+   "detail": 0.4482758620689655,
+   "era": "Cut Stone & Steel"
   },
   {
    "level": 15,
    "name": "Ivory",
    "fill": "#c2baa8",
    "edge": "#7a7263",
-   "glow": "#fff4d8"
+   "glow": "#fff4d8",
+   "mat": {
+    "stone": "#c1bba7",
+    "stoneDark": "#8b866d",
+    "trim": "#cca428",
+    "trimDark": "#866714",
+    "roof": "#2e6a5f",
+    "roofDark": "#1c4841",
+    "metal": "#dfd5ad",
+    "metalDark": "#958a6b",
+    "accent": "#ffd54e",
+    "glow": "#fce6a6",
+    "wood": "#5f4c3c",
+    "cloth": "#318f7e"
+   },
+   "detail": 0.4827586206896552,
+   "era": "Gilded Masonry"
   },
   {
    "level": 16,
    "name": "Runed Obsidian",
    "fill": "#63657a",
    "edge": "#2b2c38",
-   "glow": "#a05cff"
+   "glow": "#a05cff",
+   "mat": {
+    "stone": "#bdb7aa",
+    "stoneDark": "#827d6c",
+    "trim": "#cb9e49",
+    "trimDark": "#86632b",
+    "roof": "#30615d",
+    "roofDark": "#1d413f",
+    "metal": "#d1caad",
+    "metalDark": "#938a73",
+    "accent": "#f6c666",
+    "glow": "#f7e0b1",
+    "wood": "#5b4a41",
+    "cloth": "#3a8187"
+   },
+   "detail": 0.5172413793103449,
+   "era": "Gilded Masonry"
   },
   {
    "level": 17,
    "name": "Quiverwall",
    "fill": "#5f9089",
    "edge": "#2b4a45",
-   "glow": "#35d6c0"
+   "glow": "#35d6c0",
+   "mat": {
+    "stone": "#a9a49f",
+    "stoneDark": "#767168",
+    "trim": "#bc8d65",
+    "trimDark": "#805c41",
+    "roof": "#325b5e",
+    "roofDark": "#1e3c3e",
+    "metal": "#d6d2be",
+    "metalDark": "#8f8a7c",
+    "accent": "#f8c186",
+    "glow": "#eed7bb",
+    "wood": "#594845",
+    "cloth": "#477c98"
+   },
+   "detail": 0.5517241379310345,
+   "era": "Gilded Masonry"
   },
   {
    "level": 18,
    "name": "Foundry Steel",
    "fill": "#9c7654",
    "edge": "#513723",
-   "glow": "#ff9a4d"
+   "glow": "#ff9a4d",
+   "mat": {
+    "stone": "#a09b9e",
+    "stoneDark": "#746f6e",
+    "trim": "#be8989",
+    "trimDark": "#795254",
+    "roof": "#33525c",
+    "roofDark": "#1e343a",
+    "metal": "#ceccc3",
+    "metalDark": "#8a8882",
+    "accent": "#e9b19c",
+    "glow": "#ecd3c8",
+    "wood": "#524347",
+    "cloth": "#5273a5"
+   },
+   "detail": 0.5862068965517241,
+   "era": "Gilded Masonry"
   },
   {
    "level": 19,
    "name": "Prismatic",
    "fill": "#7a86b3",
    "edge": "#39406b",
-   "glow": "#6fa8ff"
+   "glow": "#6fa8ff",
+   "mat": {
+    "stone": "#918b96",
+    "stoneDark": "#676368",
+    "trim": "#b27aa2",
+    "trimDark": "#734b69",
+    "roof": "#384e5e",
+    "roofDark": "#22323f",
+    "metal": "#ced0d0",
+    "metalDark": "#89898d",
+    "accent": "#e2a5b8",
+    "glow": "#f2d8df",
+    "wood": "#52444d",
+    "cloth": "#5b68b0"
+   },
+   "detail": 0.6206896551724138,
+   "era": "Gilded Masonry"
   },
   {
    "level": 20,
    "name": "Auroral",
    "fill": "#5c8697",
    "edge": "#2a4652",
-   "glow": "#40e0d0"
+   "glow": "#40e0d0",
+   "mat": {
+    "stone": "#8a8497",
+    "stoneDark": "#5e5a67",
+    "trim": "#ac70c1",
+    "trimDark": "#704580",
+    "roof": "#3a455d",
+    "roofDark": "#232c3e",
+    "metal": "#c3c7d2",
+    "metalDark": "#7c7f8a",
+    "accent": "#db9ad5",
+    "glow": "#e1c6de",
+    "wood": "#514354",
+    "cloth": "#625bb7"
+   },
+   "detail": 0.6551724137931034,
+   "era": "Gilded Masonry"
   },
   {
    "level": 21,
    "name": "Nexus Link",
    "fill": "#72639a",
    "edge": "#372c52",
-   "glow": "#c07bff"
+   "glow": "#c07bff",
+   "mat": {
+    "stone": "#7c7791",
+    "stoneDark": "#544f65",
+    "trim": "#a666e0",
+    "trimDark": "#70419c",
+    "roof": "#393b58",
+    "roofDark": "#23253c",
+    "metal": "#c4cbe0",
+    "metalDark": "#7c8297",
+    "accent": "#c484e0",
+    "glow": "#dabfe8",
+    "wood": "#4e4258",
+    "cloth": "#7157cb"
+   },
+   "detail": 0.6896551724137931,
+   "era": "Gilded Masonry"
   },
   {
    "level": 22,
    "name": "Gravitic",
    "fill": "#526889",
    "edge": "#243247",
-   "glow": "#5f8cff"
+   "glow": "#5f8cff",
+   "mat": {
+    "stone": "#716c8e",
+    "stoneDark": "#44405c",
+    "trim": "#9a59f6",
+    "trimDark": "#6e3ab5",
+    "roof": "#3d355c",
+    "roofDark": "#25203b",
+    "metal": "#b4bdda",
+    "metalDark": "#727b97",
+    "accent": "#c27cff",
+    "glow": "#e4c5ff",
+    "wood": "#493e5a",
+    "cloth": "#764acc"
+   },
+   "detail": 0.7241379310344828,
+   "era": "Arcane Alloy"
   },
   {
    "level": 23,
    "name": "Null Alloy",
    "fill": "#5b606c",
    "edge": "#282c33",
-   "glow": "#c8ccd8"
+   "glow": "#c8ccd8",
+   "mat": {
+    "stone": "#686786",
+    "stoneDark": "#44425d",
+    "trim": "#a666de",
+    "trimDark": "#71419b",
+    "roof": "#363354",
+    "roofDark": "#211f39",
+    "metal": "#afbcd7",
+    "metalDark": "#6d7892",
+    "accent": "#b38dff",
+    "glow": "#deccff",
+    "wood": "#463e59",
+    "cloth": "#6858c7"
+   },
+   "detail": 0.7586206896551724,
+   "era": "Arcane Alloy"
   },
   {
    "level": 24,
    "name": "Voidglass",
    "fill": "#4f4266",
    "edge": "#211a2e",
-   "glow": "#8f3fff"
+   "glow": "#8f3fff",
+   "mat": {
+    "stone": "#60627f",
+    "stoneDark": "#40425c",
+    "trim": "#b776cc",
+    "trimDark": "#794a8b",
+    "roof": "#323354",
+    "roofDark": "#1f2037",
+    "metal": "#b1c1dc",
+    "metalDark": "#6d7c96",
+    "accent": "#9b96ff",
+    "glow": "#d1cdfe",
+    "wood": "#454159",
+    "cloth": "#5a67c6"
+   },
+   "detail": 0.7931034482758621,
+   "era": "Arcane Alloy"
   },
   {
    "level": 25,
    "name": "Orbital Alloy",
    "fill": "#516194",
    "edge": "#232c47",
-   "glow": "#4d7fff"
+   "glow": "#4d7fff",
+   "mat": {
+    "stone": "#5c617c",
+    "stoneDark": "#393c53",
+    "trim": "#cb8abc",
+    "trimDark": "#815379",
+    "roof": "#2c324f",
+    "roofDark": "#1b2035",
+    "metal": "#a3b7cf",
+    "metalDark": "#697b93",
+    "accent": "#89a6ff",
+    "glow": "#cdd6ff",
+    "wood": "#424157",
+    "cloth": "#507ecd"
+   },
+   "detail": 0.8275862068965517,
+   "era": "Arcane Alloy"
   },
   {
    "level": 26,
    "name": "Fractured",
    "fill": "#955c6d",
    "edge": "#4a2632",
-   "glow": "#ff4d6d"
+   "glow": "#ff4d6d",
+   "mat": {
+    "stone": "#576079",
+    "stoneDark": "#373e53",
+    "trim": "#d1949f",
+    "trimDark": "#956472",
+    "roof": "#29344f",
+    "roofDark": "#171e31",
+    "metal": "#aac3dd",
+    "metalDark": "#667991",
+    "accent": "#6ca6f4",
+    "glow": "#c3d9fd",
+    "wood": "#424459",
+    "cloth": "#3c84ba"
+   },
+   "detail": 0.8620689655172413,
+   "era": "Arcane Alloy"
   },
   {
    "level": 27,
    "name": "Titanforged",
    "fill": "#997d43",
    "edge": "#4f3d18",
-   "glow": "#ffb02e"
+   "glow": "#ffb02e",
+   "mat": {
+    "stone": "#4d5a6f",
+    "stoneDark": "#2f394b",
+    "trim": "#d49b81",
+    "trimDark": "#926558",
+    "roof": "#213147",
+    "roofDark": "#131d2e",
+    "metal": "#a3c0d8",
+    "metalDark": "#5b7185",
+    "accent": "#61c1ff",
+    "glow": "#bfe2ff",
+    "wood": "#3c4153",
+    "cloth": "#2e97ba"
+   },
+   "detail": 0.896551724137931,
+   "era": "Arcane Alloy"
   },
   {
    "level": 28,
    "name": "Corebound",
    "fill": "#457b8f",
    "edge": "#1c3b47",
-   "glow": "#22e0ff"
+   "glow": "#22e0ff",
+   "mat": {
+    "stone": "#49586d",
+    "stoneDark": "#2f3b4d",
+    "trim": "#e8af6d",
+    "trimDark": "#a5764e",
+    "roof": "#1c3145",
+    "roofDark": "#121f2f",
+    "metal": "#9fbfd5",
+    "metalDark": "#587083",
+    "accent": "#4cceff",
+    "glow": "#b0def6",
+    "wood": "#373f4e",
+    "cloth": "#1ea2b1"
+   },
+   "detail": 0.9310344827586207,
+   "era": "Arcane Alloy"
   },
   {
    "level": 29,
    "name": "Aegis Lattice",
    "fill": "#4a8c83",
    "edge": "#1c423c",
-   "glow": "#00ffc2"
+   "glow": "#00ffc2",
+   "mat": {
+    "stone": "#45586a",
+    "stoneDark": "#273644",
+    "trim": "#f9c056",
+    "trimDark": "#a87b3a",
+    "roof": "#173042",
+    "roofDark": "#0e1f2d",
+    "metal": "#91b4c7",
+    "metalDark": "#526d7e",
+    "accent": "#38d9ff",
+    "glow": "#b6f5ff",
+    "wood": "#34404d",
+    "cloth": "#0fb5b0"
+   },
+   "detail": 0.9655172413793104,
+   "era": "Arcane Alloy"
   },
   {
    "level": 30,
    "name": "Ascendant",
    "fill": "#66528c",
    "edge": "#2b2047",
-   "glow": "#ffd24d"
+   "glow": "#ffd24d",
+   "mat": {
+    "stone": "#425a6a",
+    "stoneDark": "#233541",
+    "trim": "#f4c039",
+    "trimDark": "#b7892b",
+    "roof": "#122f3e",
+    "roofDark": "#0a1e2a",
+    "metal": "#8db3c6",
+    "metalDark": "#4c6878",
+    "accent": "#23e3ff",
+    "glow": "#a8f1fe",
+    "wood": "#34434e",
+    "cloth": "#00c1a8"
+   },
+   "detail": 1,
+   "era": "Ascendant Core"
   }
  ],
  "troops": [

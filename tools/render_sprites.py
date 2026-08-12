@@ -265,7 +265,7 @@ def render(name, footprint, samples=48):
     sc = bpy.context.scene
     ortho, aim_z = fit_to_footprint(footprint)
     px = int(round(PX_PER_UNIT * ortho))
-    px = max(96, min(768, px))
+    px = max(96, min(int(os.environ.get('SPRITE_MAX_PX', '768')), px))
     sc.render.resolution_x = px
     sc.render.resolution_y = px
     sc.cycles.samples = samples
@@ -667,447 +667,850 @@ def build_town_hall(th):
 
 
 # --------------------------------------------------------------- buildings
-# Buildings keep their own thematic colours so they read the same in every
-# village; the Town Hall carries the level's identity.
-STONE = '#9aa3ad'
-STONE_D = '#6f7883'
-WOOD = '#8b5e34'
-WOOD_D = '#5f3f22'
-ROOF_RED = '#b4442f'
+# Every building is built from the materials of the era its level belongs to,
+# and gains ornament as its art tier rises: a tier 1 Cannon is lashed timber on
+# a dirt pad, a tier 4 Cannon is alloy with gold ribs and a lit core. The
+# shared detail toolkit below is what gives all of them their density.
+
+# Resource colours stay constant across eras: gold is gold at every Town Hall.
 GOLD = '#f0b429'
 ELIXIR = '#c05cf0'
 DARK = '#7a4dd6'
-STEEL = '#c3ccd6'
 
 
-def plinth(size, color='#6b573c', h=0.18):
-    box(size, size, h, (0, 0, h / 2), color)
+# The level currently being rendered. The shared detail helpers below read it,
+# which is how every building gains structure level by level rather than only
+# changing colour.
+CUR_LEVEL = [1]
 
 
-def b_mine(p):
-    plinth(1.6, '#6b5a3f')
-    box(1.3, 1.3, 0.4, (0, 0, 0.38), '#7a6647')
-    for i in range(3):
-        box(1.15 - i * 0.28, 1.15 - i * 0.28, 0.2, (0, 0, 0.62 + i * 0.2), shade(GOLD, 0.9 + i * 0.05))
-    sphere(0.2, (0, 0, 1.32), GOLD, emission=1.2, rough=0.35, metallic=0.6)
-    box(0.12, 0.7, 0.12, (0.55, 0, 0.75), WOOD_D)
+def L():
+    return CUR_LEVEL[0]
 
 
-def b_collector(p):
-    plinth(1.6, '#4a3f5c')
-    cyl(0.6, 0.9, (0, 0, 0.62), '#5f4f7a', verts=20)
-    cyl(0.64, 0.1, (0, 0, 1.12), '#7a68a0', verts=20)
-    sphere(0.46, (0, 0, 1.3), ELIXIR, emission=1.6, rough=0.25)
+def level_look(table, level):
+    """Materials + ornament density for one level. There are no shared tiers:
+    every level in the table has its own blended palette."""
+    entry = table[max(0, min(len(table) - 1, level - 1))]
+    detail = entry.get('detail', 0.0)
+    # Builders were written against a 1..4 ornateness scale; detail drives it
+    # continuously so ornament grows level by level rather than in jumps.
+    return entry['mat'], 1.0 + detail * 3.0
+
+
+# ------------------------------------------------------------ detail kit
+def pad(size, T, tier):
+    """Dirt pad, dressed stone rim, corner blocks and yard clutter. The rim
+    gains steps, the corners gain caps and the yard gains props as the level
+    rises, so two adjacent levels never have the same footprint detail."""
+    lv = L()
+    box(size, size, 0.12, (0, 0, 0.06), '#6b573c')
+    box(size * 0.94, size * 0.94, 0.1, (0, 0, 0.15), T['stoneDark'])
+    # extra rim steps every few levels
+    for i in range(lv // 9):
+        s2 = size * (0.99 - i * 0.03)
+        box(s2, s2, 0.05, (0, 0, 0.2 + i * 0.05), shade(T['stoneDark'], 1.08 + i * 0.05))
+    r = size * 0.44
+    corners = 4 if lv < 6 else 8
+    for i in range(corners):
+        a = math.radians(45 + i * (360.0 / corners))
+        box(0.19, 0.19, 0.13 + (lv % 5) * 0.012,
+            (math.cos(a) * r, math.sin(a) * r, 0.19), T['stone'], bevel=0.02)
+        if lv >= 12:
+            box(0.11, 0.11, 0.05, (math.cos(a) * r, math.sin(a) * r, 0.27), T['trim'],
+                metallic=0.6, rough=0.35, bevel=0.01)
+    if lv >= 20:
+        for i in range(4):
+            a = math.radians(45 + i * 90)
+            sphere(0.05, (math.cos(a) * r, math.sin(a) * r, 0.33), T['accent'], emission=1.4)
+    yard_props(size, T)
+
+
+def yard_props(size, T):
+    """Crates, barrels and sandbags around the base. Which props appear is a
+    function of the level, so the yard fills up as a building is upgraded."""
+    lv = L()
+    r = size * 0.4
+    if lv >= 3:
+        crate(-r, -r * 0.85, 0.2, T, 0.16 + (lv % 3) * 0.01)
+    if lv >= 7:
+        barrel(r * 0.95, -r * 0.8, 0.2, T, 0.1, 0.22)
+    if lv >= 11:
+        sandbags(-r * 0.2, -r * 1.02, 0.2, T, 2)
+    if lv >= 16:
+        crate(r * 0.9, r * 0.85, 0.2, T, 0.15)
+        crate(r * 0.72, r * 0.86, 0.36, T, 0.11)
+    if lv >= 22:
+        pipes(-r * 1.0, r * 0.6, 0.2, T, 0.34, 2)
+    if lv >= 26:
+        for i in range(3):
+            sphere(0.055, (-r + i * 0.13, r * 0.95, 0.26), T['accent'], emission=1.3)
+
+
+def courses(w, d, z0, h, rows, T, inset=0.02):
+    """Stacked stone bands: the single biggest readability win at small size.
+    Bands subdivide as the level rises."""
+    rows = rows + L() // 9
+    step = h / rows
+    for i in range(rows):
+        s = 1.0 - i * inset
+        box(w * s, d * s, step * 0.94, (0, 0, z0 + step * (i + 0.5)),
+            T['stone'] if i % 2 == 0 else T['stoneDark'])
+
+
+def trim_band(w, d, z, T, tier, thick=0.07):
+    lv = L()
+    col = T['trim'] if lv >= 13 else T['metalDark']
+    box(w + 0.04, d + 0.04, thick + (lv % 4) * 0.006, (0, 0, z), col,
+        metallic=0.55, rough=0.35, bevel=0.02)
+    # a second, thinner band once the building is well up its curve
+    if lv >= 17:
+        box(w + 0.08, d + 0.08, 0.035, (0, 0, z - 0.11), shade(col, 0.85),
+            metallic=0.6, rough=0.3, bevel=0.01)
+
+
+def ring_band(r, z, T, tier, minor=0.035):
+    col = T['trim'] if tier >= 3 else T['metal']
+    torus(r, minor, (0, 0, z), col, metallic=0.6, rough=0.3)
+
+
+def window(x, y, z, T, w=0.16, h=0.22, lit=True):
+    lv = L()
+    box(w + 0.06, 0.05, h + 0.06, (x, y, z), T['stoneDark'], bevel=0.01)
+    box(w, 0.04, h, (x, y - 0.02, z), T['glow'] if lit else T['metalDark'],
+        emission=1.3 if lit else 0, bevel=0.01)
+    if lv >= 9:   # mullion
+        box(0.02, 0.05, h, (x, y - 0.03, z), T['stoneDark'], bevel=0)
+    if lv >= 21:  # lintel
+        box(w + 0.12, 0.05, 0.04, (x, y - 0.01, z + h / 2 + 0.05), T['trim'],
+            metallic=0.6, rough=0.3, bevel=0.01)
+
+
+def window_row(count, y, z, T, spread=0.9):
+    count = count + L() // 11
+    for i in range(count):
+        x = -spread / 2 + (spread * i / max(1, count - 1)) if count > 1 else 0
+        window(x, y, z, T)
+
+
+def rivets(r, z, T, n=8, size=0.045):
+    n = n + L() // 2
+    for i in range(n):
+        a = math.radians(i * (360.0 / n))
+        sphere(size, (math.cos(a) * r, math.sin(a) * r, z), T['metalDark'],
+               metallic=0.7, rough=0.35)
+
+
+def roof_cone(r, h, z, T, tier, verts=16):
+    lv = L()
+    cone(r, r * 0.12, h, (0, 0, z + h / 2), T['roof'], verts=verts)
+    cone(r * 0.72, r * 0.08, h * 0.4, (0, 0, z + h * 0.82), T['roofDark'], verts=verts)
+    # extra roof courses as the level climbs
+    for i in range(lv // 8):
+        torus(r * (0.9 - i * 0.16), 0.028, (0, 0, z + h * (0.3 + i * 0.22)),
+              shade(T['roofDark'], 1.1), metallic=0.4, rough=0.5)
+    if lv >= 5:
+        torus(r * 0.96, 0.035, (0, 0, z + 0.04), T['metalDark'], metallic=0.6, rough=0.35)
+    if lv >= 14:
+        cyl(0.05, 0.28, (0, 0, z + h + 0.14), T['trim'], verts=8, metallic=0.7, rough=0.3)
+        sphere(0.085, (0, 0, z + h + 0.3), T['accent'], emission=1.4)
+
+
+def roof_pyramid(r, h, z, T, tier):
+    lv = L()
+    pyramid(r, h, (0, 0, z + h / 2), T['roof'])
+    box(r * 1.5, r * 1.5, 0.07, (0, 0, z + 0.02), T['roofDark'])
+    for i in range(lv // 10):   # stepped eaves
+        box(r * (1.3 - i * 0.2), r * (1.3 - i * 0.2), 0.05,
+            (0, 0, z + 0.1 + i * 0.09), shade(T['roofDark'], 1.12))
+    if lv >= 6:
+        box(0.06, r * 1.5, 0.05, (0, 0, z + h * 0.5), shade(T['roof'], 0.8))
+    if lv >= 13:
+        for i in range(4):
+            a = math.radians(45 + i * 90)
+            box(0.07, 0.07, 0.2, (math.cos(a) * r * 0.62, math.sin(a) * r * 0.62, z + 0.16),
+                T['trim'], metallic=0.6, rough=0.35, bevel=0.01)
+    if lv >= 24:
+        sphere(0.075, (0, 0, z + h + 0.06), T['accent'], emission=1.5)
+
+
+def flag(x, y, z, T, h=0.55):
+    cyl(0.028, h, (x, y, z + h / 2), T['wood'], verts=8, bevel=0)
+    box(0.02, 0.24, 0.17, (x, y + 0.13, z + h - 0.12), T['cloth'], bevel=0.01)
+
+
+def crate(x, y, z, T, s=0.2):
+    box(s, s, s, (x, y, z + s / 2), T['wood'])
+    box(s * 1.04, 0.03, 0.03, (x, y, z + s * 0.75), T['metalDark'], metallic=0.6)
+
+
+def barrel(x, y, z, T, r=0.12, h=0.28):
+    cyl(r, h, (x, y, z + h / 2), T['wood'], verts=12)
+    for zz in (0.3, 0.7):
+        torus(r * 1.02, 0.02, (x, y, z + h * zz), T['metalDark'], metallic=0.7, rough=0.35)
+
+
+def sandbags(x, y, z, T, n=3):
+    for i in range(n):
+        sphere(0.11, (x + i * 0.12 - 0.12, y, z + 0.07), '#9a8a68', rough=0.85)
+        sphere(0.1, (x + i * 0.12 - 0.06, y, z + 0.2), '#8d7d5c', rough=0.85)
+
+
+def pipes(x, y, z, T, h=0.5, n=2):
+    for i in range(n):
+        cyl(0.055, h, (x + i * 0.13, y, z + h / 2), T['metal'], verts=10,
+            metallic=0.6, rough=0.35)
+    box(0.13 * n + 0.06, 0.09, 0.06, (x + (n - 1) * 0.065, y, z + h), T['metalDark'],
+        metallic=0.6)
+
+
+def cog(x, y, z, T, r=0.16, teeth=8):
+    cyl(r, 0.06, (x, y, z), T['metalDark'], verts=16, rot=(math.radians(90), 0, 0),
+        metallic=0.7, rough=0.35)
+    for i in range(teeth):
+        a = math.radians(i * (360.0 / teeth))
+        box(0.055, 0.05, 0.055, (x + math.cos(a) * r, y, z + math.sin(a) * r),
+            T['metal'], metallic=0.7, rough=0.35, bevel=0.01)
+
+
+def core(r, loc, T, strength=1.6):
+    sphere(r * 1.35, loc, '#0b1016', rough=0.2)
+    sphere(r, loc, T['accent'], emission=strength, rough=0.15)
+
+
+def orbit(r, z, T, count=2):
+    for i in range(count):
+        t = torus(r + i * 0.16, 0.03, (0, 0, z), T['accent'] if i % 2 == 0 else T['glow'],
+                  emission=1.5, rough=0.25)
+        t.rotation_euler = (math.radians(68 + i * 20), 0, math.radians(i * 50))
+
+
+def tier_topper(z, T, tier, r=0.5):
+    """The thing that tells you at a glance this building has been upgraded.
+    Deliberately small: a halo, not a second building."""
+    tier = 1 + L() / 10.0
+    if tier >= 4:
+        for i in range(2):
+            t = torus(r * 0.6 + i * 0.11, 0.026,
+                      (0, 0, z), T['accent'] if i % 2 == 0 else T['glow'],
+                      emission=1.5, rough=0.25)
+            t.rotation_euler = (math.radians(72), 0, math.radians(i * 45))
+        sphere(0.08, (0, 0, z), T['accent'], emission=1.8)
+    elif tier == 3:
+        ring_band(r * 0.72, z, T, tier)
+        sphere(0.075, (0, 0, z + 0.05), T['accent'], emission=1.5)
+
+
+# ---------------------------------------------------------- resource
+def b_mine(T, tier):
+    pad(1.7, T, tier)
+    courses(1.25, 1.25, 0.2, 0.42, 2, T)
+    box(1.35, 1.35, 0.08, (0, 0, 0.66), T['stoneDark'])
+    nuggets = 3 + int(tier)
+    for i in range(nuggets):
+        a = math.radians(i * (360.0 / nuggets))
+        sphere(0.13 - i * 0.005, (math.cos(a) * 0.3, math.sin(a) * 0.3, 0.78),
+               GOLD, metallic=0.7, rough=0.3, emission=0.35)
+    sphere(0.2, (0, 0, 0.86), GOLD, metallic=0.75, rough=0.25, emission=0.5)
+    crate(-0.62, -0.5, 0.2, T)
+    if tier >= 2:
+        cyl(0.06, 0.7, (0.6, 0.42, 0.55), T['wood'], verts=8)
+        box(0.4, 0.06, 0.06, (0.42, 0.42, 0.88), T['wood'])
+    if tier >= 3:
+        trim_band(1.3, 1.3, 0.68, T, tier)
+        flag(-0.68, 0.5, 0.2, T)
+    tier_topper(1.25, T, tier, 0.42)
+
+
+def b_collector(T, tier):
+    pad(1.7, T, tier)
+    cyl(0.58, 0.85, (0, 0, 0.6), T['stone'], verts=22)
+    for zz in (0.34, 0.62, 0.9):
+        torus(0.6, 0.032, (0, 0, zz), T['metalDark'], metallic=0.65, rough=0.35)
+    cyl(0.63, 0.1, (0, 0, 1.06), T['stoneDark'], verts=22)
+    sphere(0.46, (0, 0, 1.24), ELIXIR, emission=1.5, rough=0.18)
     for i in range(3):
         a = math.radians(i * 120)
-        cyl(0.07, 0.7, (math.cos(a) * 0.68, math.sin(a) * 0.68, 0.45), STONE_D, verts=8)
+        pipes(math.cos(a) * 0.66, math.sin(a) * 0.66, 0.2, T, 0.5, 1)
+    if tier >= 2:
+        rivets(0.62, 0.48, T, 10)
+    if tier >= 3:
+        ring_band(0.72, 1.24, T, tier)
+    tier_topper(1.66, T, tier, 0.44)
 
 
-def b_drill(p):
-    plinth(1.6, '#3a2f4a')
-    box(1.1, 1.1, 0.5, (0, 0, 0.42), '#463a5c')
-    cyl(0.34, 1.0, (0, 0, 1.05), '#5a4a75', verts=16)
-    cone(0.34, 0.06, 0.6, (0, 0, 1.85), DARK, verts=16, emission=1.4)
-    for sx in (-0.5, 0.5):
-        cyl(0.1, 0.8, (sx, 0.35, 0.75), STONE_D, verts=8)
+def b_drill(T, tier):
+    pad(1.7, T, tier)
+    courses(1.05, 1.05, 0.2, 0.4, 2, T)
+    cyl(0.36, 0.9, (0, 0, 1.05), T['metalDark'], verts=16, metallic=0.5, rough=0.4)
+    for zz in (0.75, 1.05, 1.35):
+        torus(0.38, 0.03, (0, 0, zz), T['metal'], metallic=0.7, rough=0.3)
+    cone(0.34, 0.05, 0.55, (0, 0, 1.78), DARK, verts=16, emission=1.2)
+    for sx in (-0.55, 0.55):
+        pipes(sx, 0.34, 0.2, T, 0.62, 2)
+    barrel(-0.6, -0.48, 0.2, T)
+    if tier >= 3:
+        trim_band(1.1, 1.1, 0.62, T, tier)
+    tier_topper(2.15, T, tier, 0.4)
 
 
-def b_vault(p, color=GOLD, accent='#8a6a1f'):
-    plinth(1.6, '#6b573c')
-    box(1.35, 1.15, 0.85, (0, 0, 0.6), accent)
-    box(1.42, 1.2, 0.14, (0, 0, 1.08), shade(accent, 1.2))
+def b_vault(T, tier, color=GOLD, accent='#8a6a1f'):
+    pad(1.7, T, tier)
+    courses(1.3, 1.1, 0.2, 0.55, 3, T)
+    box(1.42, 1.22, 0.12, (0, 0, 0.81), accent, metallic=0.5, rough=0.4)
     for i in range(3):
-        sphere(0.22, (-0.35 + i * 0.35, 0, 1.24), color, emission=1.1, rough=0.3, metallic=0.5)
-    box(0.36, 0.06, 0.42, (0, -0.6, 0.38), shade(accent, 0.7))
+        sphere(0.2, (-0.34 + i * 0.34, 0, 0.98), color, metallic=0.6, rough=0.28, emission=0.45)
+    box(0.4, 0.06, 0.42, (0, -0.58, 0.42), T['metalDark'], metallic=0.6)
+    rivets(0.0, 0.0, T, 0)
+    for sx in (-0.5, 0.5):
+        box(0.1, 0.1, 0.6, (sx, -0.56, 0.5), T['stoneDark'])
+    if tier >= 2:
+        for sx in (-0.62, 0.62):
+            crate(sx, 0.5, 0.2, T, 0.18)
+    if tier >= 3:
+        trim_band(1.34, 1.14, 0.78, T, tier)
+        flag(0.66, -0.5, 0.2, T)
+    tier_topper(1.34, T, tier, 0.44)
 
 
-def b_tank(p):
-    plinth(1.6, '#6b573c')
-    cyl(0.6, 1.1, (0, 0, 0.72), '#4f4468', verts=22)
-    cyl(0.64, 0.12, (0, 0, 1.3), '#6f5f92', verts=22)
-    sphere(0.5, (0, 0, 1.02), ELIXIR, emission=1.4, rough=0.2)
-    for sz in (0.45, 0.95):
-        torus(0.62, 0.05, (0, 0, sz), STEEL, rough=0.35, metallic=0.7)
+def b_tank(T, tier):
+    pad(1.7, T, tier)
+    cyl(0.6, 1.05, (0, 0, 0.72), T['stone'], verts=24)
+    for zz in (0.36, 0.72, 1.08):
+        torus(0.62, 0.035, (0, 0, zz), T['metal'], metallic=0.7, rough=0.3)
+    sphere(0.5, (0, 0, 1.0), ELIXIR, emission=1.4, rough=0.18)
+    cyl(0.64, 0.1, (0, 0, 1.3), T['stoneDark'], verts=24)
+    pipes(0.6, -0.4, 0.2, T, 0.7, 2)
+    if tier >= 2:
+        rivets(0.63, 0.54, T, 12)
+    tier_topper(1.72, T, tier, 0.46)
 
 
-def b_darkvault(p):
-    plinth(1.6, '#2e2440')
-    cyl(0.5, 0.4, (0, 0, 0.36), '#3f3356', verts=20)
-    sphere(0.58, (0, 0, 1.05), '#241c33', rough=0.3)
-    sphere(0.46, (0, 0, 1.05), DARK, emission=2.2, rough=0.15)
+def b_darkvault(T, tier):
+    pad(1.7, T, tier)
+    cyl(0.52, 0.36, (0, 0, 0.36), T['stoneDark'], verts=20)
+    sphere(0.56, (0, 0, 1.0), '#241c33', rough=0.28)
+    sphere(0.44, (0, 0, 1.0), DARK, emission=1.7, rough=0.15)
     for i in range(4):
         a = math.radians(45 + i * 90)
-        cyl(0.08, 1.0, (math.cos(a) * 0.62, math.sin(a) * 0.62, 0.5), '#4a3f66', verts=8)
+        cyl(0.075, 1.05, (math.cos(a) * 0.6, math.sin(a) * 0.6, 0.52), T['metalDark'],
+            verts=8, metallic=0.6, rough=0.35)
+        sphere(0.07, (math.cos(a) * 0.6, math.sin(a) * 0.6, 1.08), T['accent'], emission=1.3)
+    if tier >= 3:
+        orbit(0.7, 1.0, T, 1)
+    tier_topper(1.7, T, tier, 0.44)
 
 
-def b_treasury(p):
-    plinth(1.6, '#6b573c')
-    box(1.3, 1.1, 0.75, (0, 0, 0.55), '#7a6647')
-    pyramid(1.05, 0.5, (0, 0, 1.15), ROOF_RED)
-    box(0.4, 0.08, 0.45, (0, -0.58, 0.4), GOLD, emission=0.8, metallic=0.7, rough=0.3)
+def b_treasury(T, tier):
+    pad(1.7, T, tier)
+    courses(1.25, 1.1, 0.2, 0.5, 2, T)
+    roof_pyramid(1.02, 0.5, 0.72, T, tier)
+    window_row(2, -0.58, 0.5, T)
+    box(0.34, 0.07, 0.4, (0, -0.6, 0.4), T['trim'], metallic=0.7, rough=0.3, emission=0.4)
+    crate(0.62, 0.5, 0.2, T)
+    crate(-0.6, 0.46, 0.2, T, 0.16)
+    tier_topper(1.5, T, tier, 0.42)
 
 
-def b_clock(p):
-    plinth(1.5, '#6b573c')
-    box(0.8, 0.8, 1.5, (0, 0, 0.95), STONE)
-    box(0.95, 0.95, 0.14, (0, 0, 1.76), shade(STONE, 0.8))
-    pyramid(0.7, 0.55, (0, 0, 2.08), ROOF_RED)
+def b_clock(T, tier):
+    pad(1.5, T, tier)
+    courses(0.8, 0.8, 0.2, 1.25, 5, T)
+    box(0.98, 0.98, 0.12, (0, 0, 1.52), T['stoneDark'])
+    roof_cone(0.66, 0.55, 1.58, T, tier, verts=8)
     for sy in (-0.42, 0.42):
-        cyl(0.26, 0.06, (0, sy, 1.45), '#f4efdf', rot=(math.radians(90), 0, 0), verts=20)
-    sphere(0.12, (0, 0, 2.42), GOLD, emission=1.5)
+        cyl(0.25, 0.05, (0, sy, 1.15), '#f4efdf', rot=(math.radians(90), 0, 0), verts=20)
+        cyl(0.27, 0.03, (0, sy, 1.15), T['trim'], rot=(math.radians(90), 0, 0),
+            verts=20, metallic=0.7, rough=0.3)
+        box(0.03, 0.02, 0.16, (0, sy - 0.02, 1.21), '#2a2a2a')
+        box(0.12, 0.02, 0.03, (0.05, sy - 0.02, 1.15), '#2a2a2a')
+    window(0, -0.42, 0.62, T)
+    tier_topper(2.35, T, tier, 0.4)
 
 
-def b_barracks(p, dark=False):
-    plinth(1.7, '#6b573c')
-    box(1.45, 1.15, 0.75, (0, 0, 0.55), WOOD if not dark else '#3f3356')
-    box(1.55, 1.25, 0.12, (0, 0, 0.99), WOOD_D if not dark else '#2b2340')
-    pyramid(1.15, 0.55, (0, 0, 1.32), ROOF_RED if not dark else DARK)
-    box(0.4, 0.08, 0.5, (0, -0.62, 0.3), WOOD_D)
-    for sx in (-0.62, 0.62):
-        banner((sx, -0.62), 0.9, GOLD if not dark else DARK)
+# -------------------------------------------------------------- army
+def b_barracks(T, tier, dark=False):
+    pad(1.85, T, tier)
+    body = T['stone'] if not dark else '#3f3356'
+    courses(1.45, 1.15, 0.2, 0.62, 3, T)
+    box(1.55, 1.25, 0.1, (0, 0, 0.87), T['roofDark'] if not dark else '#2b2340')
+    roof_pyramid(1.16, 0.5, 0.92, T, tier)
+    box(0.4, 0.07, 0.5, (0, -0.6, 0.45), T['wood'])
+    window_row(2, -0.6, 0.66, T)
+    sandbags(-0.55, -0.7, 0.2, T)
+    for sx in (-0.68, 0.68):
+        flag(sx, -0.55, 0.2, T, 0.62)
+    if tier >= 2:
+        crate(0.66, 0.52, 0.2, T)
+        box(0.3, 0.05, 0.05, (-0.5, -0.78, 0.5), T['metalDark'], metallic=0.6)
+    if tier >= 3:
+        trim_band(1.5, 1.2, 0.84, T, tier)
+    tier_topper(1.72, T, tier, 0.46)
 
 
-def b_camp(p):
-    plinth(1.9, '#5c6b45')
-    for (x, y, r) in ((-0.4, -0.3, 0.45), (0.42, -0.25, 0.4), (0, 0.45, 0.5)):
-        cone(r, 0.06, 0.7, (x, y, 0.42), '#c9b48a', verts=12)
-        cyl(0.03, 0.25, (x, y, 0.85), WOOD_D, verts=6)
-    box(0.5, 0.5, 0.1, (0, 0, 0.22), '#6b4a2a')
-    sphere(0.14, (0, 0, 0.34), '#ff8a3c', emission=3.0)
-
-
-def b_lab(p):
-    plinth(1.6, '#6b573c')
-    box(1.25, 1.25, 0.8, (0, 0, 0.58), '#4f5a6b')
-    cyl(0.55, 0.35, (0, 0, 1.15), '#63708a', verts=20)
-    sphere(0.4, (0, 0, 1.5), '#5de0c0', emission=2.2, rough=0.2)
-    for i in range(3):
-        a = math.radians(i * 120)
-        cyl(0.09, 0.55, (math.cos(a) * 0.45, math.sin(a) * 0.45, 1.3), STEEL, verts=8, metallic=0.6)
-
-
-def b_spellfac(p, dark=False):
-    tint = ELIXIR if not dark else DARK
-    plinth(1.6, '#6b573c')
-    box(1.2, 1.2, 0.6, (0, 0, 0.48), '#4a4258')
-    cyl(0.52, 0.6, (0, 0, 1.05), '#5f5674', verts=20)
-    sphere(0.44, (0, 0, 1.5), tint, emission=2.4, rough=0.2)
-    cyl(0.1, 0.5, (0, 0, 1.9), STEEL, verts=8, metallic=0.6)
+def b_camp(T, tier):
+    pad(2.0, T, tier)
+    for (x, y, r) in ((-0.42, -0.32, 0.46), (0.44, -0.26, 0.4), (0.02, 0.46, 0.5)):
+        cone(r, 0.05, 0.72, (x, y, 0.56), '#c9b48a', verts=12)
+        cone(r * 0.55, 0.04, 0.3, (x, y, 1.0), T['cloth'], verts=12)
+        cyl(0.025, 0.22, (x, y, 1.12), T['wood'], verts=6)
+        box(0.16, 0.03, 0.2, (x, y - r * 0.9, 0.42), '#2f2418')
+    box(0.42, 0.42, 0.06, (0.05, -0.02, 0.23), '#5c4630')
     for i in range(4):
-        a = math.radians(45 + i * 90)
-        sphere(0.09, (math.cos(a) * 0.6, math.sin(a) * 0.6, 1.55), tint, emission=3.0)
+        a = math.radians(i * 90 + 20)
+        cyl(0.03, 0.3, (0.05 + math.cos(a) * 0.12, -0.02 + math.sin(a) * 0.12, 0.32),
+            T['wood'], verts=6, rot=(math.radians(20), 0, a))
+    sphere(0.13, (0.05, -0.02, 0.34), '#ff8a3c', emission=1.8)
+    for sx in (-0.8, 0.8):
+        flag(sx, 0.6, 0.2, T, 0.6)
+    crate(0.72, -0.6, 0.2, T, 0.18)
+    tier_topper(1.5, T, tier, 0.5)
 
 
-def b_siege(p):
-    plinth(1.7, '#6b573c')
-    box(1.4, 1.0, 0.55, (0, 0, 0.45), WOOD)
-    box(1.5, 1.1, 0.1, (0, 0, 0.78), WOOD_D)
-    for sx in (-0.5, 0.5):
-        cyl(0.28, 0.12, (sx, -0.55, 0.28), '#4a3a26', rot=(math.radians(90), 0, 0), verts=14)
-    box(0.3, 0.3, 0.8, (0.15, 0.3, 1.0), STEEL, metallic=0.6, rough=0.4)
-    cyl(0.08, 0.9, (-0.3, 0.2, 1.1), WOOD_D, verts=8, rot=(0, math.radians(25), 0))
-
-
-def b_pethouse(p):
-    plinth(1.6, '#4a6b3f')
-    box(1.25, 1.15, 0.65, (0, 0, 0.5), '#6b8a4f')
-    sphere(0.72, (0, 0, 0.95), '#7ce05a', rough=0.75)
-    cyl(0.28, 0.06, (0, -0.62, 0.5), '#2f4a24', rot=(math.radians(90), 0, 0), verts=18)
-    for sx in (-0.3, 0.3):
-        sphere(0.09, (sx, -0.5, 1.15), '#ffe9a8', emission=2.5)
-
-
-def b_herohall(p):
-    plinth(2.0, '#6b573c')
-    box(1.6, 1.5, 0.9, (0, 0, 0.63), STONE)
-    box(1.75, 1.6, 0.14, (0, 0, 1.14), shade(STONE, 0.82))
-    pyramid(1.3, 0.7, (0, 0, 1.55), '#3f5470')
-    for sx in (-0.62, 0.62):
-        cyl(0.2, 1.15, (sx, -0.5, 0.72), shade(STONE, 1.1), verts=12)
-        cone(0.27, 0, 0.4, (sx, -0.5, 1.48), '#3f5470', verts=12)
-    box(0.42, 0.08, 0.55, (0, -0.78, 0.4), GOLD, emission=0.6, metallic=0.7, rough=0.3)
-    sphere(0.16, (0, 0, 2.05), GOLD, emission=2.5)
-
-
-def b_smith(p):
-    plinth(1.6, '#6b573c')
-    box(1.3, 1.1, 0.7, (0, 0, 0.52), '#5c4a3a')
-    box(1.4, 1.2, 0.12, (0, 0, 0.93), '#3f3128')
-    cyl(0.22, 0.7, (0.45, 0.35, 1.25), '#4a3a2e', verts=12)
-    cyl(0.24, 0.08, (0.45, 0.35, 1.62), '#ff8a3c', verts=12, emission=2.6)
-    box(0.5, 0.3, 0.16, (-0.25, -0.2, 1.0), STEEL, metallic=0.8, rough=0.3)
-    box(0.14, 0.14, 0.34, (-0.25, -0.2, 1.24), WOOD_D)
-
-
-def b_cannon(p):
-    plinth(1.5, '#6b573c')
-    cyl(0.55, 0.35, (0, 0, 0.35), STONE, verts=18)
-    box(0.5, 0.5, 0.25, (0, 0, 0.62), shade(STONE, 0.85))
-    barrel = cyl(0.2, 1.0, (0.1, -0.28, 0.85), '#4a5058', verts=16,
-                 rot=(math.radians(76), 0, math.radians(20)), metallic=0.7, rough=0.35)
-    cyl(0.24, 0.12, (0.22, -0.62, 0.98), '#2f343a', verts=16,
-        rot=(math.radians(76), 0, math.radians(20)), metallic=0.7)
-    for sx in (-0.42, 0.42):
-        cyl(0.1, 0.16, (sx, 0.2, 0.62), '#3f454d', verts=10, metallic=0.6)
-
-
-def b_archer(p):
-    plinth(1.5, '#6b573c')
-    cyl(0.42, 1.15, (0, 0, 0.72), STONE, verts=16)
-    cyl(0.55, 0.14, (0, 0, 1.36), shade(STONE, 1.1), verts=16)
-    for i in range(6):
-        a = math.radians(i * 60)
-        box(0.14, 0.14, 0.2, (math.cos(a) * 0.44, math.sin(a) * 0.44, 1.52), shade(STONE, 1.15), bevel=0.02)
-    cone(0.5, 0, 0.5, (0, 0, 1.85), ROOF_RED, verts=12)
-    box(0.18, 0.18, 0.4, (0, -0.2, 1.55), WOOD_D)
-
-
-def b_mortar(p):
-    plinth(1.5, '#6b573c')
-    cyl(0.6, 0.3, (0, 0, 0.32), STONE, verts=18)
-    cyl(0.45, 0.7, (0, 0, 0.8), shade(STONE, 0.9), verts=18,
-        rot=(math.radians(12), 0, 0))
-    cyl(0.38, 0.1, (0, -0.1, 1.16), '#3f454d', verts=18, metallic=0.6)
-    sphere(0.24, (0, -0.06, 1.2), '#2f343a', rough=0.4)
-    for sx in (-0.5, 0.5):
-        box(0.14, 0.14, 0.45, (sx, 0.42, 0.42), WOOD_D)
-
-
-def b_airdef(p):
-    plinth(1.5, '#6b573c')
-    cyl(0.5, 0.4, (0, 0, 0.38), '#4f5a6b', verts=18)
-    box(0.55, 0.55, 0.3, (0, 0, 0.72), '#63708a')
-    for sx in (-0.16, 0.16):
-        cyl(0.13, 1.0, (sx, -0.1, 1.25), STEEL, verts=12,
-            rot=(math.radians(20), 0, 0), metallic=0.6, rough=0.35)
-        cone(0.13, 0, 0.25, (sx, -0.28, 1.8), ROOF_RED, verts=12)
-    cyl(0.1, 0.3, (0, 0.3, 0.95), '#3f454d', verts=8)
-
-
-def b_wizard(p):
-    plinth(1.5, '#6b573c')
-    cyl(0.44, 1.0, (0, 0, 0.65), '#5f5674', verts=16)
-    cyl(0.56, 0.12, (0, 0, 1.22), '#7a6f96', verts=16)
-    cone(0.56, 0, 0.8, (0, 0, 1.68), '#4a3f7a', verts=16)
-    sphere(0.16, (0, 0, 2.14), '#c9b8ff', emission=4.0)
-    for i in range(3):
-        a = math.radians(i * 120)
-        sphere(0.08, (math.cos(a) * 0.4, math.sin(a) * 0.4, 1.35), '#a48fd8', emission=3.0)
-
-
-def b_sweeper(p):
-    plinth(1.5, '#6b573c')
-    cyl(0.45, 0.55, (0, 0, 0.46), STONE, verts=16)
-    box(0.5, 0.5, 0.3, (0, 0, 0.88), shade(STONE, 0.9))
-    fan = cone(0.5, 0.16, 0.7, (0, -0.3, 1.15), '#63708a', verts=18,
-               rot=(math.radians(70), 0, 0))
-    cyl(0.12, 0.5, (0, 0.25, 1.1), '#3f454d', verts=10, metallic=0.6)
-    for i in range(4):
-        a = math.radians(45 + i * 90)
-        box(0.1, 0.1, 0.5, (math.cos(a) * 0.36, math.sin(a) * 0.36, 0.6), WOOD_D)
-
-
-def b_tesla(p):
-    plinth(1.1, STONE_D)
-    cyl(0.34, 0.7, (0, 0, 0.5), '#3f454d', verts=14, metallic=0.5)
-    cyl(0.14, 0.6, (0, 0, 1.1), STEEL, verts=10, metallic=0.8, rough=0.25)
-    sphere(0.22, (0, 0, 1.5), '#7fd0e8', emission=6.0)
-    for i in range(3):
-        a = math.radians(i * 120)
-        cyl(0.05, 0.4, (math.cos(a) * 0.24, math.sin(a) * 0.24, 1.28), STEEL, verts=6, metallic=0.8)
-
-
-def b_bombtower(p):
-    plinth(1.5, '#6b573c')
-    cyl(0.46, 0.85, (0, 0, 0.6), '#4a4a52', verts=16)
-    cyl(0.54, 0.12, (0, 0, 1.08), '#5f5f6a', verts=16)
-    sphere(0.42, (0, 0, 1.45), '#2f2f36', rough=0.4)
-    cyl(0.07, 0.3, (0, 0, 1.9), '#8a7f6a', verts=6)
-    sphere(0.1, (0, 0, 2.08), '#ff8a3c', emission=5.0)
-
-
-def b_xbow(p):
-    plinth(1.6, '#6b573c')
-    cyl(0.55, 0.35, (0, 0, 0.35), '#4f5a6b', verts=20)
-    box(0.6, 0.6, 0.3, (0, 0, 0.66), '#63708a')
-    for sy in (-0.34, 0.34):
-        b = torus(0.42, 0.06, (0, sy, 1.05), STEEL, rot=(math.radians(90), 0, 0),
-                  metallic=0.7, rough=0.3)
-    cyl(0.08, 1.1, (0, -0.1, 1.05), '#3f454d', verts=10,
-        rot=(math.radians(90), 0, 0), metallic=0.6)
-    sphere(0.12, (0, -0.62, 1.05), '#9fd8ff', emission=3.5)
-
-
-def b_inferno(p):
-    plinth(1.6, '#6b573c')
-    cyl(0.5, 0.5, (0, 0, 0.42), '#3f3038', verts=18)
-    cyl(0.34, 1.1, (0, 0, 1.2), '#5c3a3a', verts=16)
-    cyl(0.42, 0.14, (0, 0, 1.8), '#7a4a42', verts=16)
-    cone(0.3, 0.08, 0.5, (0, 0, 2.1), '#ff5a2b', verts=16, emission=4.0)
-    for i in range(3):
-        a = math.radians(i * 120)
-        cyl(0.07, 0.9, (math.cos(a) * 0.4, math.sin(a) * 0.4, 0.95), '#4a3a3a', verts=8)
-
-
-def b_eagle(p):
-    plinth(2.2, '#6b573c')
-    cyl(0.85, 0.4, (0, 0, 0.4), STONE, verts=24)
-    cyl(0.6, 0.35, (0, 0, 0.78), shade(STONE, 1.08), verts=24)
-    barrel = cyl(0.42, 1.5, (0, -0.2, 1.5), '#5f6b7a', verts=20,
-                 rot=(math.radians(28), 0, 0), metallic=0.5, rough=0.4)
-    cyl(0.5, 0.15, (0, -0.55, 2.15), GOLD, verts=20, rot=(math.radians(28), 0, 0),
-        metallic=0.8, rough=0.3, emission=0.5)
-    for i in range(4):
-        a = math.radians(45 + i * 90)
-        box(0.18, 0.18, 0.55, (math.cos(a) * 0.78, math.sin(a) * 0.78, 0.5), shade(STONE, 0.9))
-
-
-def b_scatter(p):
-    plinth(2.2, '#6b573c')
-    cyl(0.8, 0.45, (0, 0, 0.42), STONE, verts=22)
-    box(0.9, 0.9, 0.4, (0, 0, 0.85), shade(STONE, 1.05))
-    for sx in (-0.34, 0.34):
-        cyl(0.3, 0.8, (sx, -0.1, 1.4), '#5f6b7a', verts=16,
-            rot=(math.radians(24), 0, math.radians(10 if sx > 0 else -10)), metallic=0.4)
-    for i in range(5):
-        sphere(0.12, (-0.4 + i * 0.2, 0.45, 1.15), '#8a9099', rough=0.6)
-
-
-def b_monolithdef(p):
-    plinth(2.0, '#2f2b3a')
-    for i in range(3):
-        s = 1.5 - i * 0.24
-        box(s, s, 0.2, (0, 0, 0.28 + i * 0.2), shade('#4a4458', 0.9 + i * 0.06))
-    slab = box(0.6, 0.36, 2.0, (0, 0, 1.85), '#332e42', rough=0.35)
-    box(0.16, 0.05, 1.5, (0, -0.2, 1.85), '#a05cff', emission=4.5, bevel=0.01)
-    sphere(0.16, (0, 0, 2.95), '#c9b8ff', emission=6.0)
-
-
-def b_multiarcher(p):
-    plinth(1.6, '#6b573c')
-    cyl(0.46, 1.2, (0, 0, 0.75), STONE, verts=18)
-    cyl(0.62, 0.14, (0, 0, 1.42), shade(STONE, 1.1), verts=18)
-    for i in range(3):
-        a = math.radians(i * 120)
-        cyl(0.16, 0.5, (math.cos(a) * 0.34, math.sin(a) * 0.34, 1.72), shade(STONE, 1.16), verts=10)
-        cone(0.2, 0, 0.3, (math.cos(a) * 0.34, math.sin(a) * 0.34, 2.1), '#35d6c0', verts=10, emission=1.2)
-
-
-def b_ricochet(p):
-    plinth(2.1, '#6b573c')
-    cyl(0.75, 0.4, (0, 0, 0.4), '#5c4a3a', verts=22)
-    box(0.8, 0.8, 0.35, (0, 0, 0.78), '#6b5744')
-    cyl(0.26, 1.3, (0.1, -0.35, 1.25), '#4a5058', verts=16,
-        rot=(math.radians(80), 0, math.radians(16)), metallic=0.7, rough=0.35)
-    cyl(0.32, 0.14, (0.25, -0.85, 1.4), '#ff9a4d', verts=16,
-        rot=(math.radians(80), 0, math.radians(16)), emission=2.0)
-    for sx in (-0.5, 0.5):
-        cyl(0.14, 0.2, (sx, 0.35, 0.62), '#3f454d', verts=12, metallic=0.6)
-
-
-def b_prism(p):
-    plinth(1.6, '#6b573c')
-    cyl(0.5, 0.4, (0, 0, 0.38), '#3f4770', verts=20)
-    cyl(0.34, 1.0, (0, 0, 1.05), '#4f5a92', verts=6)
-    cone(0.42, 0.1, 0.75, (0, 0, 1.95), '#6fa8ff', verts=6, emission=2.0, rough=0.2)
-    sphere(0.14, (0, 0, 2.4), '#ff9ae0', emission=6.0)
+def b_lab(T, tier):
+    pad(1.7, T, tier)
+    courses(1.2, 1.2, 0.2, 0.6, 3, T)
+    cyl(0.56, 0.34, (0, 0, 0.97), T['stoneDark'], verts=20)
+    sphere(0.42, (0, 0, 1.35), '#5de0c0', emission=1.6, rough=0.18)
+    ring_band(0.5, 1.35, T, max(2, tier))
     for i in range(3):
         a = math.radians(i * 120 + 30)
-        sphere(0.08, (math.cos(a) * 0.5, math.sin(a) * 0.5, 1.7), '#6fa8ff', emission=4.0)
+        cyl(0.075, 0.55, (math.cos(a) * 0.46, math.sin(a) * 0.46, 1.16), T['metal'],
+            verts=8, metallic=0.65, rough=0.3)
+        sphere(0.07, (math.cos(a) * 0.46, math.sin(a) * 0.46, 1.46), T['glow'], emission=1.5)
+    window_row(2, -0.62, 0.6, T)
+    barrel(0.62, -0.5, 0.2, T, 0.11, 0.24)
+    tier_topper(1.85, T, tier, 0.44)
 
 
-def b_gravity(p):
-    plinth(2.1, '#26314a')
-    cyl(0.8, 0.45, (0, 0, 0.42), '#33405c', verts=24)
-    cyl(0.4, 0.7, (0, 0, 1.0), '#455470', verts=20)
-    sphere(0.44, (0, 0, 1.7), '#0d1426', rough=0.25)
-    sphere(0.26, (0, 0, 1.7), '#5f8cff', emission=5.0)
+def b_spellfac(T, tier, dark=False):
+    tint = ELIXIR if not dark else DARK
+    pad(1.7, T, tier)
+    courses(1.15, 1.15, 0.2, 0.48, 2, T)
+    cyl(0.52, 0.55, (0, 0, 0.95), T['stone'], verts=20)
+    torus(0.54, 0.035, (0, 0, 1.2), T['metal'], metallic=0.7, rough=0.3)
+    sphere(0.44, (0, 0, 1.42), tint, emission=1.7, rough=0.18)
+    cyl(0.09, 0.45, (0, 0, 1.8), T['metal'], verts=8, metallic=0.65, rough=0.3)
+    for i in range(4):
+        a = math.radians(45 + i * 90)
+        sphere(0.085, (math.cos(a) * 0.6, math.sin(a) * 0.6, 1.42), tint, emission=1.5)
+        cyl(0.05, 0.5, (math.cos(a) * 0.6, math.sin(a) * 0.6, 0.94), T['metalDark'], verts=6)
+    barrel(-0.6, -0.52, 0.2, T, 0.1, 0.22)
+    tier_topper(2.1, T, tier, 0.46)
+
+
+def b_siege(T, tier):
+    pad(1.85, T, tier)
+    box(1.4, 1.0, 0.5, (0, 0, 0.45), T['wood'])
+    box(1.5, 1.1, 0.09, (0, 0, 0.74), T['stoneDark'])
+    for sx in (-0.52, 0.52):
+        cyl(0.28, 0.11, (sx, -0.52, 0.34), T['wood'], rot=(math.radians(90), 0, 0), verts=14)
+        torus(0.28, 0.03, (sx, -0.52, 0.34), T['metalDark'], rot=(math.radians(90), 0, 0),
+              metallic=0.7, rough=0.35)
+    box(0.34, 0.34, 0.75, (0.18, 0.3, 1.15), T['metal'], metallic=0.6, rough=0.4)
+    cyl(0.075, 0.9, (-0.3, 0.2, 1.1), T['wood'], verts=8, rot=(0, math.radians(25), 0))
+    cog(-0.05, -0.56, 0.62, T, 0.15)
+    crate(0.66, 0.52, 0.2, T, 0.18)
+    if tier >= 3:
+        trim_band(1.44, 1.04, 0.72, T, tier)
+    tier_topper(1.8, T, tier, 0.46)
+
+
+def b_pethouse(T, tier):
+    pad(1.7, T, tier)
+    courses(1.2, 1.1, 0.2, 0.45, 2, T)
+    sphere(0.7, (0, 0, 0.9), '#7ce05a', rough=0.8)
+    sphere(0.34, (-0.42, 0.3, 1.15), '#93e86f', rough=0.85)
+    sphere(0.28, (0.44, 0.24, 1.1), '#6bd44c', rough=0.85)
+    cyl(0.26, 0.06, (0, -0.6, 0.5), '#2f4a24', rot=(math.radians(90), 0, 0), verts=18)
+    for sx in (-0.26, 0.26):
+        sphere(0.07, (sx, -0.6, 0.86), T['glow'], emission=1.4)
+    for sx in (-0.68, 0.68):
+        cyl(0.07, 0.4, (sx, -0.42, 0.4), T['wood'], verts=8)
+    tier_topper(1.68, T, tier, 0.46)
+
+
+def b_herohall(T, tier):
+    pad(2.15, T, tier)
+    courses(1.55, 1.45, 0.2, 0.75, 3, T)
+    box(1.72, 1.6, 0.12, (0, 0, 1.02), T['stoneDark'])
+    roof_pyramid(1.28, 0.68, 1.08, T, tier)
+    for sx in (-0.6, 0.6):
+        cyl(0.2, 1.0, (sx, -0.52, 0.7), T['stone'], verts=14)
+        cone(0.27, 0, 0.38, (sx, -0.52, 1.39), T['roof'], verts=14)
+        flag(sx, -0.78, 0.2, T, 0.7)
+    box(0.44, 0.08, 0.55, (0, -0.78, 0.47), T['trim'], metallic=0.7, rough=0.3, emission=0.4)
+    window_row(3, -0.76, 0.8, T)
+    if tier >= 3:
+        trim_band(1.62, 1.5, 0.96, T, tier)
+    tier_topper(2.05, T, tier, 0.5)
+
+
+def b_smith(T, tier):
+    pad(1.7, T, tier)
+    courses(1.3, 1.1, 0.2, 0.55, 2, T)
+    box(1.4, 1.2, 0.1, (0, 0, 0.8), T['roofDark'])
+    roof_pyramid(1.06, 0.42, 0.85, T, tier)
+    cyl(0.2, 0.62, (0.46, 0.36, 1.1), T['stoneDark'], verts=12)
+    cyl(0.22, 0.08, (0.46, 0.36, 1.44), '#ff8a3c', verts=12, emission=1.8)
+    box(0.46, 0.28, 0.14, (-0.24, -0.2, 0.9), T['metal'], metallic=0.8, rough=0.3)
+    box(0.13, 0.13, 0.3, (-0.24, -0.2, 1.11), T['wood'])
+    cog(0.6, -0.5, 0.5, T, 0.17)
     for i in range(3):
-        t = torus(0.75 + i * 0.16, 0.035, (0, 0, 1.7), '#00e5c0' if i % 2 else '#5f8cff',
-                  emission=2.6, rough=0.3)
-        t.rotation_euler = (math.radians(74 + i * 12), 0, math.radians(i * 45))
+        box(0.06, 0.06, 0.32, (-0.6 + i * 0.1, 0.5, 0.4), T['metal'], metallic=0.75, rough=0.3)
+    tier_topper(1.68, T, tier, 0.44)
 
 
-def b_nullfield(p):
-    plinth(1.6, '#2b2e36')
-    cyl(0.55, 0.5, (0, 0, 0.44), '#3b3f49', verts=22)
-    for i in range(4):
-        a = math.radians(45 + i * 90)
-        cyl(0.08, 1.4, (math.cos(a) * 0.42, math.sin(a) * 0.42, 1.1), STEEL, verts=8, metallic=0.7)
-    torus(0.5, 0.06, (0, 0, 1.85), '#c8ccd8', emission=2.0, rough=0.3)
-    sphere(0.2, (0, 0, 1.85), '#5fd0ff', emission=5.0)
+# ---------------------------------------------------------- defenses
+def b_cannon(T, tier):
+    pad(1.6, T, tier)
+    cyl(0.56, 0.3, (0, 0, 0.34), T['stone'], verts=18)
+    rivets(0.5, 0.34, T, 10)
+    box(0.52, 0.52, 0.24, (0, 0, 0.6), T['stoneDark'])
+    barrel_len = 0.9 + tier * 0.06
+    cyl(0.2, barrel_len, (0.09, -0.26, 0.86), T['metalDark'], verts=16,
+        rot=(math.radians(76), 0, math.radians(18)), metallic=0.7, rough=0.35)
+    cyl(0.24, 0.12, (0.2, -0.6, 0.98), T['metal'], verts=16,
+        rot=(math.radians(76), 0, math.radians(18)), metallic=0.75, rough=0.3)
+    for sx in (-0.4, 0.4):
+        cyl(0.1, 0.16, (sx, 0.2, 0.62), T['metalDark'], verts=10, metallic=0.65)
+    for i in range(3):
+        sphere(0.09, (-0.5 + i * 0.12, 0.48, 0.28), '#2f343a', rough=0.4)
+    if tier >= 2:
+        sandbags(0.5, 0.42, 0.2, T, 2)
+    if tier >= 3:
+        ring_band(0.5, 0.5, T, tier)
+        box(0.28, 0.06, 0.06, (0.2, -0.62, 1.06), T['accent'], emission=1.4, bevel=0.01)
+    tier_topper(1.35, T, tier, 0.4)
 
 
-def b_orbitalbeacon(p):
-    plinth(2.2, '#26314a')
-    cyl(0.85, 0.4, (0, 0, 0.4), '#34405f', verts=24)
-    cyl(0.45, 1.3, (0, 0, 1.25), '#45557f', verts=18)
-    sphere(0.4, (0, 0, 2.1), '#111a3a', rough=0.3)
-    sphere(0.22, (0, 0, 2.1), '#ffd24d', emission=7.0)
-    t = torus(0.85, 0.04, (0, 0, 2.1), '#4d7fff', emission=3.0, rough=0.3)
-    t.rotation_euler = (math.radians(70), 0, 0)
-    for i in range(4):
-        a = math.radians(45 + i * 90)
-        box(0.16, 0.16, 0.5, (math.cos(a) * 0.75, math.sin(a) * 0.75, 0.5), '#2f3a55')
-
-
-def b_fracturecannon(p):
-    plinth(2.1, '#3a2430')
-    cyl(0.75, 0.42, (0, 0, 0.42), '#4f2f3d', verts=22)
-    box(0.85, 0.85, 0.35, (0, 0, 0.8), '#5f3a48')
-    cyl(0.24, 1.5, (0, -0.4, 1.35), '#7a4a58', verts=16,
-        rot=(math.radians(78), 0, 0), metallic=0.4)
-    cyl(0.3, 0.14, (0, -0.95, 1.5), '#ff4d6d', verts=16,
-        rot=(math.radians(78), 0, 0), emission=4.0)
-    for sx in (-0.5, 0.5):
-        box(0.14, 0.14, 0.45, (sx, 0.4, 0.62), '#4a2b36')
-
-
-def b_aegisgrid(p):
-    plinth(2.2, '#1c423c')
-    cyl(0.9, 0.35, (0, 0, 0.38), '#25574f', verts=6, rot=(0, 0, math.radians(30)))
-    cyl(0.6, 0.6, (0, 0, 0.85), '#2f6b60', verts=6, rot=(0, 0, math.radians(30)))
-    sphere(0.42, (0, 0, 1.55), '#00ffc2', emission=4.5, rough=0.2)
+def b_archer(T, tier):
+    pad(1.6, T, tier)
+    courses(0.82, 0.82, 0.2, 0.95, 4, T)
+    cyl(0.55, 0.12, (0, 0, 1.21), T['stoneDark'], verts=16)
     for i in range(6):
         a = math.radians(i * 60)
-        cone(0.13, 0, 0.45, (math.cos(a) * 0.62, math.sin(a) * 0.62, 1.4), '#00ffc2',
-             verts=4, rot=(0, 0, math.radians(45)), emission=2.0)
-    torus(0.95, 0.05, (0, 0, 1.2), '#ffe066', emission=2.4, rough=0.3)
+        box(0.15, 0.15, 0.2, (math.cos(a) * 0.44, math.sin(a) * 0.44, 1.37),
+            T['stone'], bevel=0.02)
+    roof_cone(0.5, 0.45, 1.44, T, tier, verts=12)
+    window(0, -0.44, 0.72, T, 0.1, 0.3)
+    box(0.16, 0.16, 0.36, (0.05, -0.2, 1.4), T['wood'])
+    if tier >= 2:
+        for i in range(3):
+            box(0.03, 0.03, 0.26, (-0.3 + i * 0.05, 0.34, 1.4), '#c9b48a')
+    tier_topper(2.1, T, tier, 0.42)
 
 
-def b_singularity(p):
-    plinth(2.6, '#0d2233')
-    cyl(1.1, 0.45, (0, 0, 0.42), '#123447', verts=28)
+def b_mortar(T, tier):
+    pad(1.6, T, tier)
+    cyl(0.6, 0.26, (0, 0, 0.32), T['stone'], verts=18)
+    rivets(0.54, 0.32, T, 12)
+    cyl(0.46, 0.62, (0, -0.02, 0.76), T['stoneDark'], verts=18, rot=(math.radians(12), 0, 0))
+    cyl(0.4, 0.1, (0, -0.1, 1.1), T['metalDark'], verts=18, metallic=0.65, rough=0.35)
+    sphere(0.24, (0, -0.08, 1.16), '#2f343a', rough=0.4)
+    for sx in (-0.46, 0.46):
+        box(0.12, 0.12, 0.42, (sx, 0.42, 0.42), T['wood'])
     for i in range(3):
-        cyl(0.18, 1.4, (math.cos(math.radians(i * 120)) * 0.62,
-                        math.sin(math.radians(i * 120)) * 0.62, 1.1), '#1c4d63', verts=10)
-    sphere(0.55, (0, 0, 2.05), '#04070c', rough=0.15)
-    sphere(0.3, (0, 0, 2.05), '#22e0ff', emission=9.0)
+        sphere(0.1, (-0.5 + i * 0.13, -0.5, 0.28), '#3a3f45', rough=0.45)
+    if tier >= 3:
+        trim_band(0.9, 0.9, 0.5, T, tier)
+    tier_topper(1.55, T, tier, 0.44)
+
+
+def b_airdef(T, tier):
+    pad(1.6, T, tier)
+    cyl(0.52, 0.34, (0, 0, 0.36), T['stoneDark'], verts=18)
+    cyl(0.46, 0.16, (0, 0, 0.6), T['metalDark'], verts=18, metallic=0.6, rough=0.4)
+    box(0.5, 0.5, 0.26, (0, 0, 0.8), T['stone'])
+    for sx in (-0.17, 0.17):
+        cyl(0.13, 0.95, (sx, -0.08, 1.32), T['metal'], verts=12,
+            rot=(math.radians(20), 0, 0), metallic=0.65, rough=0.3)
+        cone(0.13, 0, 0.24, (sx, -0.26, 1.84), T['roof'], verts=12)
+        for zz in (1.05, 1.35):
+            torus(0.14, 0.02, (sx, -0.08 + (zz - 1.32) * 0.36, zz), T['metalDark'],
+                  rot=(math.radians(20), 0, 0), metallic=0.7)
+    cyl(0.09, 0.3, (0, 0.32, 1.0), T['metalDark'], verts=8, metallic=0.6)
+    if tier >= 3:
+        box(0.24, 0.06, 0.06, (0, -0.4, 0.92), T['accent'], emission=1.4, bevel=0.01)
+    tier_topper(2.15, T, tier, 0.4)
+
+
+def b_wizard(T, tier):
+    pad(1.6, T, tier)
+    courses(0.8, 0.8, 0.2, 0.8, 3, T)
+    cyl(0.56, 0.12, (0, 0, 1.06), T['stoneDark'], verts=16)
+    cone(0.56, 0.06, 0.75, (0, 0, 1.5), T['roof'], verts=16)
+    sphere(0.14, (0, 0, 1.95), '#c9b8ff', emission=1.8)
     for i in range(3):
-        t = torus(0.95 + i * 0.2, 0.04, (0, 0, 2.05),
-                  '#22e0ff' if i % 2 == 0 else '#c2ff4d', emission=3.2, rough=0.25)
-        t.rotation_euler = (math.radians(68 + i * 16), 0, math.radians(i * 60))
+        a = math.radians(i * 120 + 40)
+        sphere(0.075, (math.cos(a) * 0.42, math.sin(a) * 0.42, 1.2), '#a48fd8', emission=1.5)
+    window(0, -0.42, 0.66, T, 0.12, 0.26)
+    if tier >= 3:
+        orbit(0.46, 1.5, T, 1)
+    tier_topper(2.25, T, tier, 0.4)
 
 
-def trap_generic(p, color, spikes=False, dome=True):
-    plinth(0.9, '#5f6b45', h=0.1)
+def b_sweeper(T, tier):
+    pad(1.6, T, tier)
+    cyl(0.48, 0.5, (0, 0, 0.44), T['stone'], verts=16)
+    rivets(0.44, 0.44, T, 10)
+    box(0.5, 0.5, 0.28, (0, 0, 0.83), T['stoneDark'])
+    cone(0.52, 0.16, 0.66, (0, -0.28, 1.1), T['metal'], verts=18,
+         rot=(math.radians(70), 0, 0), metallic=0.6, rough=0.35)
+    torus(0.5, 0.035, (0, -0.4, 1.16), T['metalDark'], rot=(math.radians(70), 0, 0),
+          metallic=0.7)
+    cyl(0.11, 0.45, (0, 0.26, 1.06), T['metalDark'], verts=10, metallic=0.6)
+    for i in range(4):
+        a = math.radians(45 + i * 90)
+        box(0.09, 0.09, 0.45, (math.cos(a) * 0.36, math.sin(a) * 0.36, 0.55), T['wood'])
+    tier_topper(1.66, T, tier, 0.42)
+
+
+def b_tesla(T, tier):
+    pad(1.15, T, tier)
+    cyl(0.33, 0.55, (0, 0, 0.46), T['stoneDark'], verts=14)
+    rivets(0.3, 0.46, T, 8, 0.035)
+    cyl(0.13, 0.55, (0, 0, 0.98), T['metal'], verts=10, metallic=0.8, rough=0.25)
+    for zz in (0.86, 1.12):
+        torus(0.17, 0.025, (0, 0, zz), T['metalDark'], metallic=0.7)
+    sphere(0.2, (0, 0, 1.36), '#7fd0e8', emission=1.9)
+    for i in range(3):
+        a = math.radians(i * 120)
+        cyl(0.04, 0.34, (math.cos(a) * 0.2, math.sin(a) * 0.2, 1.18), T['metal'],
+            verts=6, metallic=0.8)
+    tier_topper(1.62, T, tier, 0.3)
+
+
+def b_bombtower(T, tier):
+    pad(1.6, T, tier)
+    courses(0.86, 0.86, 0.2, 0.62, 3, T)
+    cyl(0.52, 0.12, (0, 0, 0.88), T['stoneDark'], verts=16)
+    sphere(0.42, (0, 0, 1.22), '#2f2f36', rough=0.4)
+    torus(0.42, 0.035, (0, 0, 1.22), T['metalDark'], metallic=0.7, rough=0.3)
+    cyl(0.06, 0.26, (0, 0, 1.68), '#8a7f6a', verts=6)
+    sphere(0.09, (0, 0, 1.84), '#ff8a3c', emission=1.9)
+    for i in range(2):
+        sphere(0.13, (-0.45 + i * 0.9, -0.4, 0.3), '#2f2f36', rough=0.45)
+    window(0, -0.44, 0.56, T, 0.1, 0.2)
+    tier_topper(2.05, T, tier, 0.42)
+
+
+def b_xbow(T, tier):
+    pad(1.7, T, tier)
+    cyl(0.56, 0.32, (0, 0, 0.34), T['stoneDark'], verts=20)
+    rivets(0.5, 0.34, T, 12)
+    box(0.58, 0.58, 0.28, (0, 0, 0.63), T['stone'])
+    for sy in (-0.32, 0.32):
+        torus(0.4, 0.055, (0, sy, 1.0), T['metal'], rot=(math.radians(90), 0, 0),
+              metallic=0.75, rough=0.28)
+    cyl(0.075, 1.05, (0, -0.08, 1.0), T['metalDark'], verts=10,
+        rot=(math.radians(90), 0, 0), metallic=0.65)
+    sphere(0.11, (0, -0.6, 1.0), '#9fd8ff', emission=1.7)
+    box(0.3, 0.16, 0.1, (0, 0.42, 1.02), T['metalDark'], metallic=0.6)
+    if tier >= 3:
+        trim_band(0.66, 0.66, 0.78, T, tier)
+    tier_topper(1.55, T, tier, 0.44)
+
+
+def b_inferno(T, tier):
+    pad(1.7, T, tier)
+    cyl(0.52, 0.42, (0, 0, 0.4), '#3f3038', verts=18)
+    cyl(0.34, 1.0, (0, 0, 1.1), T['stoneDark'], verts=16)
+    for zz in (0.78, 1.1, 1.42):
+        torus(0.37, 0.03, (0, 0, zz), T['metalDark'], metallic=0.7, rough=0.3)
+    cyl(0.42, 0.12, (0, 0, 1.66), T['stone'], verts=16)
+    cone(0.3, 0.07, 0.5, (0, 0, 1.96), '#ff5a2b', verts=16, emission=1.8)
+    for i in range(3):
+        a = math.radians(i * 120)
+        cyl(0.06, 0.85, (math.cos(a) * 0.42, math.sin(a) * 0.42, 0.9), T['metal'],
+            verts=8, metallic=0.6, rough=0.35)
+    tier_topper(2.35, T, tier, 0.42)
+
+
+def b_eagle(T, tier):
+    pad(2.35, T, tier)
+    cyl(0.88, 0.34, (0, 0, 0.37), T['stone'], verts=24)
+    rivets(0.8, 0.37, T, 16)
+    cyl(0.62, 0.32, (0, 0, 0.7), T['stoneDark'], verts=24)
+    cyl(0.42, 1.35, (0, -0.18, 1.35), T['metal'], verts=20,
+        rot=(math.radians(28), 0, 0), metallic=0.5, rough=0.4)
+    cyl(0.5, 0.14, (0, -0.5, 1.95), T['trim'], verts=20, rot=(math.radians(28), 0, 0),
+        metallic=0.8, rough=0.28, emission=0.4)
+    for i in range(4):
+        a = math.radians(45 + i * 90)
+        box(0.17, 0.17, 0.5, (math.cos(a) * 0.76, math.sin(a) * 0.76, 0.5), T['stoneDark'])
+        sphere(0.08, (math.cos(a) * 0.76, math.sin(a) * 0.76, 0.78), T['accent'], emission=1.3)
+    tier_topper(2.3, T, tier, 0.6)
+
+
+def b_scatter(T, tier):
+    pad(2.35, T, tier)
+    cyl(0.82, 0.4, (0, 0, 0.4), T['stone'], verts=22)
+    box(0.92, 0.92, 0.34, (0, 0, 0.78), T['stoneDark'])
+    for sx in (-0.32, 0.32):
+        cyl(0.29, 0.75, (sx, -0.08, 1.3), T['metal'], verts=16,
+            rot=(math.radians(24), 0, math.radians(10 if sx > 0 else -10)),
+            metallic=0.55, rough=0.4)
+        torus(0.3, 0.03, (sx, -0.2, 1.5), T['metalDark'],
+              rot=(math.radians(24), 0, 0), metallic=0.7)
+    for i in range(5):
+        sphere(0.11, (-0.38 + i * 0.19, 0.5, 1.02), T['stone'], rough=0.6)
+    tier_topper(1.95, T, tier, 0.56)
+
+
+def b_monolithdef(T, tier):
+    pad(2.15, T, tier)
+    for i in range(3):
+        s = 1.45 - i * 0.22
+        box(s, s, 0.19, (0, 0, 0.26 + i * 0.19), T['stone'] if i % 2 else T['stoneDark'])
+    box(0.58, 0.34, 1.9, (0, 0, 1.78), T['roof'], rough=0.35)
+    box(0.16, 0.05, 1.45, (0, -0.19, 1.78), T['accent'], emission=1.8, bevel=0.01)
+    for i in range(4):
+        a = math.radians(45 + i * 90)
+        box(0.12, 0.12, 0.55, (math.cos(a) * 0.62, math.sin(a) * 0.62, 0.6), T['stoneDark'])
+    sphere(0.15, (0, 0, 2.82), T['glow'], emission=1.8)
+    tier_topper(3.1, T, tier, 0.5)
+
+
+def b_multiarcher(T, tier):
+    pad(1.7, T, tier)
+    courses(0.86, 0.86, 0.2, 1.05, 4, T)
+    cyl(0.62, 0.13, (0, 0, 1.32), T['stoneDark'], verts=18)
+    for i in range(3):
+        a = math.radians(i * 120)
+        cyl(0.16, 0.5, (math.cos(a) * 0.34, math.sin(a) * 0.34, 1.63), T['stone'], verts=10)
+        cone(0.2, 0, 0.28, (math.cos(a) * 0.34, math.sin(a) * 0.34, 2.0), T['roof'], verts=10)
+        window(math.cos(a) * 0.34, math.sin(a) * 0.34 - 0.16, 1.66, T, 0.08, 0.16)
+    tier_topper(2.35, T, tier, 0.44)
+
+
+def b_ricochet(T, tier):
+    pad(2.25, T, tier)
+    cyl(0.78, 0.38, (0, 0, 0.39), T['stone'], verts=22)
+    rivets(0.7, 0.39, T, 14)
+    box(0.84, 0.84, 0.32, (0, 0, 0.74), T['stoneDark'])
+    cyl(0.25, 1.2, (0.08, -0.32, 1.2), T['metalDark'], verts=16,
+        rot=(math.radians(80), 0, math.radians(16)), metallic=0.7, rough=0.35)
+    cyl(0.31, 0.13, (0.22, -0.8, 1.34), T['accent'], verts=16,
+        rot=(math.radians(80), 0, math.radians(16)), emission=1.5)
+    for sx in (-0.48, 0.48):
+        cog(sx, 0.42, 0.72, T, 0.15)
+    tier_topper(1.85, T, tier, 0.55)
+
+
+def b_prism(T, tier):
+    pad(1.7, T, tier)
+    cyl(0.52, 0.36, (0, 0, 0.38), T['stoneDark'], verts=20)
+    cyl(0.34, 0.95, (0, 0, 1.03), T['stone'], verts=6)
+    cone(0.42, 0.09, 0.7, (0, 0, 1.85), '#6fa8ff', verts=6, emission=1.6, rough=0.2)
+    sphere(0.13, (0, 0, 2.28), '#ff9ae0', emission=1.9)
+    for i in range(3):
+        a = math.radians(i * 120 + 30)
+        sphere(0.075, (math.cos(a) * 0.48, math.sin(a) * 0.48, 1.6), '#6fa8ff', emission=1.6)
+    tier_topper(2.6, T, tier, 0.44)
+
+
+def b_gravity(T, tier):
+    pad(2.25, T, tier)
+    cyl(0.82, 0.42, (0, 0, 0.41), T['stoneDark'], verts=24)
+    cyl(0.42, 0.65, (0, 0, 0.95), T['stone'], verts=20)
+    cone(0.95, 0.34, 0.5, (0, 0, 1.42), T['metal'], verts=26, metallic=0.5, rough=0.4)
+    core(0.24, (0, 0, 1.85), T, 1.8)
+    orbit(0.78, 1.85, T, 3)
+    for i in range(4):
+        a = math.radians(45 + i * 90)
+        cyl(0.12, 0.8, (math.cos(a) * 0.78, math.sin(a) * 0.78, 0.6), T['stoneDark'], verts=10)
+
+
+def b_nullfield(T, tier):
+    pad(1.7, T, tier)
+    cyl(0.56, 0.46, (0, 0, 0.42), T['stoneDark'], verts=22)
+    for i in range(4):
+        a = math.radians(45 + i * 90)
+        cyl(0.075, 1.3, (math.cos(a) * 0.42, math.sin(a) * 0.42, 1.05), T['metal'],
+            verts=8, metallic=0.7, rough=0.3)
+    torus(0.5, 0.055, (0, 0, 1.75), T['metal'], metallic=0.75, rough=0.28)
+    core(0.18, (0, 0, 1.75), T, 1.8)
+    tier_topper(2.2, T, tier, 0.44)
+
+
+def b_orbitalbeacon(T, tier):
+    pad(2.35, T, tier)
+    cyl(0.88, 0.38, (0, 0, 0.38), T['stoneDark'], verts=24)
+    cyl(0.46, 1.2, (0, 0, 1.18), T['stone'], verts=18)
+    for zz in (0.8, 1.2, 1.6):
+        torus(0.49, 0.03, (0, 0, zz), T['trim'], metallic=0.7, rough=0.3)
+    core(0.26, (0, 0, 2.1), T, 1.9)
+    orbit(0.8, 2.1, T, 2)
+    for i in range(4):
+        a = math.radians(45 + i * 90)
+        box(0.15, 0.15, 0.46, (math.cos(a) * 0.72, math.sin(a) * 0.72, 0.5), T['stone'])
+
+
+def b_fracturecannon(T, tier):
+    pad(2.25, T, tier)
+    cyl(0.78, 0.4, (0, 0, 0.4), '#4f2f3d', verts=22)
+    box(0.86, 0.86, 0.32, (0, 0, 0.76), T['stoneDark'])
+    cyl(0.23, 1.35, (0, -0.36, 1.28), T['metalDark'], verts=16,
+        rot=(math.radians(78), 0, 0), metallic=0.6, rough=0.38)
+    cyl(0.3, 0.13, (0, -0.88, 1.42), '#ff4d6d', verts=16,
+        rot=(math.radians(78), 0, 0), emission=1.8)
+    for sx in (-0.46, 0.46):
+        box(0.13, 0.13, 0.42, (sx, 0.4, 0.6), '#4a2b36')
+        sphere(0.07, (sx, 0.4, 0.84), '#ff4d6d', emission=1.4)
+    tier_topper(1.9, T, tier, 0.55)
+
+
+def b_aegisgrid(T, tier):
+    pad(2.35, T, tier)
+    cyl(0.92, 0.34, (0, 0, 0.37), T['stoneDark'], verts=6, rot=(0, 0, math.radians(30)))
+    cyl(0.62, 0.58, (0, 0, 0.83), T['stone'], verts=6, rot=(0, 0, math.radians(30)))
+    core(0.34, (0, 0, 1.5), T, 1.9)
+    for i in range(6):
+        a = math.radians(i * 60)
+        cone(0.13, 0, 0.44, (math.cos(a) * 0.66, math.sin(a) * 0.66, 1.35),
+             T['accent'], verts=4, rot=(0, 0, math.radians(45)), emission=1.4)
+    torus(0.98, 0.045, (0, 0, 1.18), T['trim'], emission=1.4, rough=0.3)
+
+
+def b_singularity(T, tier):
+    pad(2.7, T, tier)
+    cyl(1.1, 0.42, (0, 0, 0.4), T['stoneDark'], verts=28)
+    for i in range(3):
+        a = math.radians(i * 120)
+        cyl(0.17, 1.3, (math.cos(a) * 0.62, math.sin(a) * 0.62, 1.05), T['stone'], verts=10)
+        sphere(0.09, (math.cos(a) * 0.62, math.sin(a) * 0.62, 1.72), T['accent'], emission=1.5)
+    core(0.4, (0, 0, 2.0), T, 1.9)
+    orbit(0.95, 2.0, T, 3)
+
+
+def trap_generic(T, tier, color, spikes=False, dome=True):
+    box(0.95, 0.95, 0.1, (0, 0, 0.05), '#6b573c')
+    box(0.86, 0.86, 0.07, (0, 0, 0.13), T['stoneDark'])
     if dome:
-        cyl(0.32, 0.16, (0, 0, 0.18), '#4a4a52', verts=16)
-        sphere(0.26, (0, 0, 0.3), color, rough=0.4, emission=0.6)
+        cyl(0.3, 0.14, (0, 0, 0.22), T['metalDark'], verts=16, metallic=0.6, rough=0.4)
+        sphere(0.25, (0, 0, 0.33), color, rough=0.4, emission=0.5)
+        torus(0.26, 0.02, (0, 0, 0.3), T['metal'], metallic=0.7, rough=0.3)
     if spikes:
         for i in range(4):
             a = math.radians(45 + i * 90)
-            cone(0.07, 0, 0.3, (math.cos(a) * 0.2, math.sin(a) * 0.2, 0.4), STEEL,
-                 verts=8, metallic=0.7)
+            cone(0.06, 0, 0.28, (math.cos(a) * 0.2, math.sin(a) * 0.2, 0.42), T['metal'],
+                 verts=8, metallic=0.75, rough=0.28)
+    if tier >= 3:
+        for i in range(4):
+            a = math.radians(i * 90)
+            sphere(0.035, (math.cos(a) * 0.34, math.sin(a) * 0.34, 0.2), T['accent'],
+                   emission=1.4)
 
 
 BUILDING_BUILDERS = {
     'mine': b_mine, 'collector': b_collector, 'drill': b_drill,
-    'vault': lambda p: b_vault(p, GOLD, '#8a6a1f'),
+    'vault': lambda T, n: b_vault(T, n, GOLD, '#8a6a1f'),
     'tank': b_tank, 'darkvault': b_darkvault, 'treasury': b_treasury, 'clock': b_clock,
-    'barracks': lambda p: b_barracks(p, False), 'darkbarracks': lambda p: b_barracks(p, True),
+    'barracks': lambda T, n: b_barracks(T, n, False),
+    'darkbarracks': lambda T, n: b_barracks(T, n, True),
     'camp': b_camp, 'lab': b_lab,
-    'spell': lambda p: b_spellfac(p, False), 'darkspell': lambda p: b_spellfac(p, True),
+    'spell': lambda T, n: b_spellfac(T, n, False),
+    'darkspell': lambda T, n: b_spellfac(T, n, True),
     'siege': b_siege, 'pethouse': b_pethouse, 'herohall': b_herohall, 'smith': b_smith,
     'cannon': b_cannon, 'archer': b_archer, 'mortar': b_mortar, 'airdef': b_airdef,
     'wizard': b_wizard, 'sweeper': b_sweeper, 'tesla': b_tesla, 'bombtower': b_bombtower,
@@ -1116,63 +1519,113 @@ BUILDING_BUILDERS = {
     'prism': b_prism, 'gravity': b_gravity, 'nullfield': b_nullfield,
     'orbital': b_orbitalbeacon, 'fracturecannon': b_fracturecannon,
     'aegis': b_aegisgrid, 'singularity': b_singularity,
-    'trapbomb': lambda p: trap_generic(p, '#2f2f36', spikes=False),
-    'trapspring': lambda p: trap_generic(p, '#8a7f3a', spikes=True),
-    'trapair': lambda p: trap_generic(p, '#7fd0e8'),
-    'trapgiant': lambda p: trap_generic(p, '#3a2f2f', spikes=True),
-    'trapseek': lambda p: trap_generic(p, '#ff8a3c'),
-    'trapskull': lambda p: trap_generic(p, '#e8e2d2'),
-    'traptornado': lambda p: trap_generic(p, '#9fd8ff'),
-    'trapmirror': lambda p: trap_generic(p, '#c8ccd8'),
-    'trapemp': lambda p: trap_generic(p, '#a05cff'),
-    'trapsand': lambda p: trap_generic(p, '#c9b48a', dome=True),
+    'trapbomb': lambda T, n: trap_generic(T, n, '#2f2f36'),
+    'trapspring': lambda T, n: trap_generic(T, n, '#8a7f3a', spikes=True),
+    'trapair': lambda T, n: trap_generic(T, n, '#7fd0e8'),
+    'trapgiant': lambda T, n: trap_generic(T, n, '#3a2f2f', spikes=True),
+    'trapseek': lambda T, n: trap_generic(T, n, '#ff8a3c'),
+    'trapskull': lambda T, n: trap_generic(T, n, '#e8e2d2'),
+    'traptornado': lambda T, n: trap_generic(T, n, '#9fd8ff'),
+    'trapmirror': lambda T, n: trap_generic(T, n, '#c8ccd8'),
+    'trapemp': lambda T, n: trap_generic(T, n, '#a05cff'),
+    'trapsand': lambda T, n: trap_generic(T, n, '#c9b48a'),
 }
 
 
 # ------------------------------------------------------------------ walls
-def build_wall(skin):
-    box(0.94, 0.94, 0.62, (0, 0, 0.31), skin['fill'])
-    box(0.98, 0.98, 0.12, (0, 0, 0.66), shade(skin['fill'], 1.15))
-    for sx in (-0.3, 0.3):
-        for sy in (-0.3, 0.3):
-            box(0.24, 0.24, 0.16, (sx, sy, 0.78), shade(skin['fill'], 1.22), bevel=0.02)
-    box(0.86, 0.06, 0.4, (0, -0.46, 0.3), skin['edge'], bevel=0.01)
+def build_wall(skin, T, detail):
+    """Wall segment in its era's materials; `step` shades within the era."""
+    base = shade(skin['fill'], 0.94 + detail * 0.2)
+    cap = shade(skin['fill'], 1.1 + detail * 0.16)
+    box(0.94, 0.94, 0.52, (0, 0, 0.26), base)
+    # coursed blocks make the wall read as masonry rather than a lump
+    for i in range(2):
+        box(0.9 - i * 0.03, 0.9 - i * 0.03, 0.2, (0, 0, 0.14 + i * 0.22),
+            shade(base, 1.0 - i * 0.08))
+    box(1.0, 1.0, 0.13, (0, 0, 0.6), cap)
+    for sx in (-0.31, 0.31):
+        for sy in (-0.31, 0.31):
+            box(0.26, 0.26, 0.17, (sx, sy, 0.74), shade(cap, 1.06), bevel=0.02)
+    box(0.86, 0.05, 0.34, (0, -0.46, 0.3), skin['edge'], bevel=0.01)
     if skin.get('glow'):
-        box(0.5, 0.06, 0.08, (0, -0.48, 0.42), skin['glow'], emission=3.0, bevel=0)
+        box(0.46, 0.05, 0.07, (0, -0.48, 0.44), skin['glow'], emission=1.7, bevel=0)
+        for sx in (-0.31, 0.31):
+            sphere(0.045, (sx, -0.34, 0.84), skin['glow'], emission=1.6)
+    else:
+        for sx in (-0.2, 0.2):
+            sphere(0.035, (sx, -0.46, 0.5), T['metalDark'], metallic=0.7, rough=0.35)
 
 
 # ------------------------------------------------------------------ units
-def unit_body(tint, kind):
-    """A chunky stylised figure; the silhouette changes with the role."""
+def unit_body(tint, kind, T, tier):
+    """A chunky stylised figure. Tier adds kit: helmet, pauldrons, a better
+    weapon -- the same way a troop earns gear as it is researched."""
     skin = '#e8c9a0'
+    metal = T['metal']
+    trim = T['trim']
+
     if kind == 'air':
-        sphere(0.34, (0, 0, 0.75), tint, rough=0.5)
+        sphere(0.34, (0, 0, 0.78), tint, rough=0.5)
         for sx in (-1, 1):
-            w = box(0.5, 0.1, 0.28, (sx * 0.42, 0.05, 0.92), shade(tint, 1.2), bevel=0.02)
+            w = box(0.5, 0.1, 0.28, (sx * 0.42, 0.05, 0.95), shade(tint, 1.18), bevel=0.02)
             w.rotation_euler = (0, math.radians(sx * 22), 0)
-        sphere(0.12, (0, -0.28, 0.8), '#1a1a20', bevel=0)
-        cyl(0.16, 0.14, (0, 0, 0.38), shade(tint, 0.7), verts=14)
+            if tier >= 2:
+                box(0.42, 0.04, 0.05, (sx * 0.42, 0.02, 1.08), metal,
+                    metallic=0.6, rough=0.35, bevel=0.01)
+        sphere(0.11, (0, -0.28, 0.82), '#1a1a20', bevel=0)
+        cyl(0.16, 0.14, (0, 0, 0.4), shade(tint, 0.72), verts=14)
+        if tier >= 3:
+            torus(0.3, 0.025, (0, 0, 1.16), trim, emission=1.2, rough=0.3)
         return
+
     if kind == 'giant':
-        cyl(0.34, 0.62, (0, 0, 0.31), shade(tint, 0.85), verts=16)
-        box(0.66, 0.44, 0.62, (0, 0, 0.92), tint)
+        cyl(0.34, 0.6, (0, 0, 0.3), shade(tint, 0.84), verts=16)
+        box(0.68, 0.46, 0.62, (0, 0, 0.92), tint)
         sphere(0.26, (0, 0, 1.42), skin)
         for sx in (-1, 1):
-            cyl(0.13, 0.6, (sx * 0.42, 0, 0.95), shade(tint, 0.9), verts=12)
+            cyl(0.14, 0.6, (sx * 0.44, 0, 0.95), shade(tint, 0.9), verts=12)
+            if tier >= 2:
+                sphere(0.17, (sx * 0.44, 0, 1.24), metal, metallic=0.55, rough=0.4)
+        if tier >= 2:
+            box(0.5, 0.12, 0.16, (0, -0.24, 1.05), metal, metallic=0.5, rough=0.4)
+        if tier >= 3:
+            cyl(0.3, 0.1, (0, 0, 1.58), trim, verts=14, metallic=0.7, rough=0.3)
+            sphere(0.07, (0, -0.2, 1.52), T['accent'], emission=1.5)
         return
+
     if kind == 'caster':
         cone(0.34, 0.12, 0.78, (0, 0, 0.39), tint, verts=16)
         sphere(0.2, (0, 0, 0.88), skin)
-        cone(0.24, 0, 0.42, (0, 0, 1.15), shade(tint, 0.75), verts=16)
-        sphere(0.1, (0.26, -0.16, 0.85), shade(tint, 1.4), emission=4.0)
+        cone(0.25, 0, 0.44, (0, 0, 1.16), shade(tint, 0.76), verts=16)
+        sphere(0.09, (0.27, -0.16, 0.86), shade(tint, 1.4), emission=1.6)
+        if tier >= 2:
+            cyl(0.03, 0.7, (0.3, -0.1, 0.7), T['wood'], verts=6)
+            sphere(0.08, (0.3, -0.1, 1.08), T['accent'], emission=1.7)
+        if tier >= 3:
+            torus(0.2, 0.02, (0, 0, 1.42), trim, emission=1.3, rough=0.3)
         return
+
     # default ground trooper
-    cyl(0.22, 0.44, (0, 0, 0.22), shade(tint, 0.8), verts=14)
-    box(0.42, 0.3, 0.42, (0, 0, 0.62), tint)
+    cyl(0.22, 0.42, (0, 0, 0.21), shade(tint, 0.82), verts=14)
+    box(0.44, 0.3, 0.42, (0, 0, 0.62), tint)
     sphere(0.19, (0, 0, 0.98), skin)
-    cone(0.22, 0.06, 0.18, (0, 0, 1.14), shade(tint, 1.2), verts=14)
     for sx in (-1, 1):
-        cyl(0.08, 0.38, (sx * 0.28, 0, 0.66), shade(tint, 0.9), verts=10)
+        cyl(0.085, 0.38, (sx * 0.29, 0, 0.66), shade(tint, 0.9), verts=10)
+    if tier == 1:
+        cone(0.22, 0.06, 0.16, (0, 0, 1.12), shade(tint, 1.2), verts=14)
+    else:
+        # helmet
+        sphere(0.21, (0, 0, 1.03), metal, metallic=0.55, rough=0.38)
+        box(0.44, 0.06, 0.07, (0, -0.16, 1.02), shade(metal, 0.8), metallic=0.6)
+        for sx in (-1, 1):
+            sphere(0.12, (sx * 0.29, 0, 0.86), metal, metallic=0.5, rough=0.4)
+    if tier >= 2:
+        cyl(0.028, 0.62, (0.34, -0.06, 0.72), T['wood'], verts=6)
+        box(0.1, 0.05, 0.22, (0.34, -0.06, 1.06), metal, metallic=0.7, rough=0.3)
+    if tier >= 3:
+        box(0.36, 0.08, 0.2, (0, -0.2, 0.74), trim, metallic=0.7, rough=0.3)
+        sphere(0.06, (0, -0.24, 0.86), T['accent'], emission=1.6)
+        cone(0.06, 0, 0.16, (0, 0, 1.24), T['accent'], verts=8, emission=1.4)
 
 
 def unit_kind(art, air, housing):
@@ -1180,18 +1633,24 @@ def unit_kind(art, air, housing):
         return 'air'
     if housing and housing >= 18:
         return 'giant'
-    if art in ('mage', 'warlock', 'hexweaver', 'witchling', 'frost', 'voltaic', 'oracle', 'seer', 'warden'):
+    if art in ('mage', 'warlock', 'hexweaver', 'witchling', 'frost', 'voltaic',
+               'oracle', 'seer', 'warden'):
         return 'caster'
     return 'ground'
 
 
-def build_unit(tint, kind, hero=False):
-    unit_body(tint, kind)
+def build_unit(tint, kind, T, tier, hero=False):
+    unit_body(tint, kind, T, tier)
     if hero:
-        torus(0.3, 0.03, (0, 0, 1.3), '#ffd24d', emission=3.0, rough=0.3)
+        torus(0.3, 0.03, (0, 0, 1.34), T['trim'], emission=1.6, rough=0.3)
         for i in range(5):
             a = math.radians(i * 72)
-            sphere(0.05, (math.cos(a) * 0.3, math.sin(a) * 0.3, 1.3), '#ffd24d', emission=4.0)
+            sphere(0.045, (math.cos(a) * 0.3, math.sin(a) * 0.3, 1.34), T['accent'],
+                   emission=1.7)
+
+
+def build_siege_unit(T, tier):
+    b_siege(T, tier)
 
 
 # ------------------------------------------------------------------ ground
@@ -1204,56 +1663,114 @@ def build_ground_tile():
 # -------------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--only', default='', help='render only this group: townhall,building,wall,unit,ground')
-    ap.add_argument('--samples', type=int, default=48)
+    ap.add_argument('--only', default='',
+                    help='groups to render: townhall,building,wall,unit,ground')
+    ap.add_argument('--samples', type=int, default=24)
+    ap.add_argument('--keys', default='', help='only these building/unit keys')
+    ap.add_argument('--levels', default='', help='only these levels, e.g. 1,15,30')
+    ap.add_argument('--skip-existing', action='store_true',
+                    help='leave sprites already on disk alone, for resuming a run')
     args = ap.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else sys.argv[1:])
     groups = set(g.strip() for g in args.only.split(',') if g.strip()) or \
         {'townhall', 'building', 'wall', 'unit', 'ground'}
+    only_keys = set(k.strip() for k in args.keys.split(',') if k.strip())
+    only_levels = set(int(x) for x in args.levels.split(',') if x.strip())
 
     os.makedirs(OUT_DIR, exist_ok=True)
     manifest_path = os.path.join(OUT_DIR, 'sprites.json')
     if os.path.exists(manifest_path):
         MANIFEST.update(json.load(open(manifest_path)))
 
+    b_levels = DATA['buildingLevels']
+    t_levels = DATA['troopLevels']
+
+    def wanted(level):
+        return not only_levels or level in only_levels
+
+    def done(name):
+        return args.skip_existing and name in MANIFEST and \
+            os.path.exists(os.path.join(ROOT, MANIFEST[name]['file']))
+
     if 'townhall' in groups:
         print('Town Halls...')
         for th in DATA['townHalls']:
+            if not wanted(th['level']):
+                continue
             reset_scene()
             build_town_hall(th)
             render('th%02d' % th['level'], 4, samples=args.samples)
 
     if 'building' in groups:
-        print('Buildings...')
+        print('Buildings: %d levels each...' % len(b_levels))
         for b in DATA['buildings']:
             fn = BUILDING_BUILDERS.get(b['art'])
-            if not fn:
-                print('  (no model for %s, skipping)' % b['art'])
+            if not fn or (only_keys and b['key'] not in only_keys):
                 continue
-            reset_scene()
-            fn(None)
-            render('b_' + b['key'], max(2, b['size']), samples=args.samples)
+            for entry in b_levels:
+                lvl = entry['level']
+                if not wanted(lvl):
+                    continue
+                name = 'b_%s_L%02d' % (b['key'], lvl)
+                if done(name):
+                    continue
+                T, ornate = level_look(b_levels, lvl)
+                CUR_LEVEL[0] = lvl
+                reset_scene()
+                fn(T, ornate)
+                render(name, max(2, b['size']), samples=args.samples)
 
     if 'wall' in groups:
         print('Walls...')
         for skin in DATA['wallSkins']:
+            if not wanted(skin['level']):
+                continue
+            CUR_LEVEL[0] = skin['level']
             reset_scene()
-            build_wall(skin)
-            render('wall%02d' % skin['level'], 1, samples=max(24, args.samples // 2))
+            build_wall(skin, skin['mat'], skin['detail'])
+            render('wall%02d' % skin['level'], 1, samples=max(18, args.samples // 2))
 
     if 'unit' in groups:
-        print('Units...')
+        print('Units: %d levels each...' % len(t_levels))
         for t in DATA['troops']:
-            reset_scene()
-            build_unit(t['tint'], unit_kind(t['art'], t['air'], t['housing']))
-            render('u_' + t['key'], 1.4, samples=args.samples)
+            if only_keys and t['key'] not in only_keys:
+                continue
+            for entry in t_levels:
+                lvl = entry['level']
+                if not wanted(lvl):
+                    continue
+                name = 'u_%s_L%02d' % (t['key'], lvl)
+                if done(name):
+                    continue
+                T, ornate = level_look(t_levels, lvl)
+                CUR_LEVEL[0] = int(round(lvl * 30.0 / len(t_levels)))
+                reset_scene()
+                build_unit(t['tint'], unit_kind(t['art'], t['air'], t['housing']), T, ornate)
+                render(name, 1.4, samples=args.samples)
         for h in DATA['heroes']:
-            reset_scene()
-            build_unit(h['tint'], unit_kind(h['art'], False, 0), hero=True)
-            render('u_' + h['key'], 1.4, samples=args.samples)
+            if only_keys and h['key'] not in only_keys:
+                continue
+            for entry in t_levels:
+                lvl = entry['level']
+                if not wanted(lvl):
+                    continue
+                name = 'u_%s_L%02d' % (h['key'], lvl)
+                if done(name):
+                    continue
+                T, ornate = level_look(t_levels, lvl)
+                CUR_LEVEL[0] = int(round(lvl * 30.0 / len(t_levels)))
+                reset_scene()
+                build_unit(h['tint'], unit_kind(h['art'], False, 0), T, ornate, hero=True)
+                render(name, 1.4, samples=args.samples)
         for m in DATA['siege']:
-            reset_scene()
-            b_siege(None)
-            render('u_' + m['key'], 2, samples=args.samples)
+            if only_keys and m['key'] not in only_keys:
+                continue
+            for lvl in range(1, len(t_levels) + 1, 4):
+                if not wanted(lvl):
+                    continue
+                T, ornate = level_look(t_levels, lvl)
+                reset_scene()
+                build_siege_unit(T, ornate)
+                render('u_%s_L%02d' % (m['key'], lvl), 2, samples=args.samples)
 
     if 'ground' in groups:
         print('Ground...')

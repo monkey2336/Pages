@@ -5,8 +5,8 @@
   var ui = G.ui, E = G.engine, SP = G.sprites;
 
   // Blender render when we have one, vector silhouette otherwise.
-  function unitIcon(u, px) {
-    var key = SP.unitKey(u.key);
+  function unitIcon(u, px, level) {
+    var key = SP.unitKey(u.key, level || 1);
     return key ? SP.img(key, px, u.name) : G.art.unitSVG(u.art, u.tint, px, u.air);
   }
 
@@ -34,7 +34,8 @@
     return '<div class="panel"><h3>Ready to deploy</h3><div class="grid-cards">' +
       keys.map(function (k) {
         var t = G.troopData[k];
-        return '<div class="card"><div class="icon">' + unitIcon(t, 46) + '</div>' +
+        return '<div class="card"><div class="icon">' +
+          unitIcon(t, 46, Math.max(1, E.researchLevel(s, k))) + '</div>' +
           '<div class="body"><div class="title">' + ui.esc(t.name) + '<small>×' + s.army[k] + '</small></div>' +
           '<div class="desc">' + (t.housing * s.army[k]) + ' housing · lvl ' + Math.max(1, E.researchLevel(s, k)) + '</div>' +
           '</div></div>';
@@ -57,7 +58,7 @@
         var lvl = Math.max(1, E.researchLevel(s, t.key));
         var superOn = s.superTroops[t.key] > Date.now();
         return '<div class="card' + (unlocked ? '' : ' locked') + '">' +
-          '<div class="icon">' + unitIcon(t, 50) + '</div><div class="body">' +
+          '<div class="icon">' + unitIcon(t, 50, lvl) + '</div><div class="body">' +
           '<div class="title">' + (superOn ? 'Super ' : '') + ui.esc(t.name) +
             '<small>' + t.housing + ' housing</small></div>' +
           '<div class="desc">' + ui.esc(t.role) + '</div>' +
@@ -96,7 +97,7 @@
         var lvl = E.researchLevel(s, m.key);
         var locked = s.th < m.unlockTH || E.ownedCount(s, 'siegeworkshop') === 0;
         return '<div class="card' + (locked ? ' locked' : '') + '">' +
-          '<div class="icon">' + unitIcon(m, 46) + '</div><div class="body">' +
+          '<div class="icon">' + unitIcon(m, 46, Math.max(1, lvl)) + '</div><div class="body">' +
           '<div class="title">' + ui.esc(m.name) + '<small>' + (locked ? 'TH' + m.unlockTH : 'lvl ' + lvl) + '</small></div>' +
           '<div class="desc">' + ui.esc(m.role) + '</div>' +
           (locked ? '<span class="pill">Needs Siege Workshop · TH' + m.unlockTH + '</span>'

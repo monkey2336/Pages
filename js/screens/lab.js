@@ -6,9 +6,9 @@
 
   var ui = G.ui, E = G.engine, SP = G.sprites;
 
-  function unitIcon(u, px) {
+  function unitIcon(u, px, level) {
     if (G.spellData[u.key]) return G.art.spellSVG(u.tint, px);
-    var key = SP.unitKey(u.key);
+    var key = SP.unitKey(u.key, level || 1);
     return key ? SP.img(key, px, u.name) : G.art.unitSVG(u.art, u.tint, px, u.air);
   }
   var tab = 'walls';
@@ -33,7 +33,7 @@
     return '<div class="panel"><h3>Research in progress</h3><div class="grid-cards">' +
       running.map(function (sl) {
         var t = E.researchTarget(sl.job.key);
-        return '<div class="card"><div class="icon">' + unitIcon(t, 46) +
+        return '<div class="card"><div class="icon">' + unitIcon(t, 46, sl.job.to) +
           '</div><div class="body"><div class="title">' + ui.esc(t.name) + '<small>→ lvl ' + sl.job.to + '</small></div>' +
           ui.jobHTML(sl.job, 'data-act="skip-research" data-key="' + sl.job.key + '"') + '</div></div>';
       }).join('') + '</div></div>';
@@ -81,7 +81,8 @@
         '<button class="btn ghost" data-act="wall-bulk" data-n="9999">Spend all gold</button>' +
         '<button class="btn ghost" data-act="buy-wall">Buy segment</button>' +
       '</div>' +
-      '<p class="hint">Bulk upgrades always take the lowest-level segments first, and stop when gold runs out.</p>' +
+      '<p class="hint">Bulk upgrades always take the lowest-level segments first, and stop when gold runs out. ' +
+      'Each wall level is cut from the same materials as your buildings at that level, so the base stays one piece.</p>' +
       '</div>';
   }
 
@@ -111,7 +112,7 @@
           return '<div class="card">' +
             '<div class="icon">' + (b.key === 'townhall'
               ? (SP.townHallKey(b.level) ? SP.img(SP.townHallKey(b.level), 46, '') : G.art.townHallSVG(b.level, 44))
-              : (SP.buildingKey(b.key) ? SP.img(SP.buildingKey(b.key), 46, bd.name)
+              : (SP.buildingKey(b.key, b.level) ? SP.img(SP.buildingKey(b.key, b.level), 46, bd.name)
                  : G.art.buildingSVG(bd.art, G.thData(s.th).palette, 40))) + '</div>' +
             '<div class="body"><div class="title">' + ui.esc(name) + '<small>lvl ' + b.level + '/' + maxLvl + '</small></div>' +
             (b.upgrading
@@ -120,7 +121,8 @@
                 ? '<span class="pill ok">Maxed for TH' + s.th + '</span>'
                 : '<button class="btn sm" data-act="upgrade-building-inline" data-id="' + b.id + '">' +
                   'Upgrade · ' + ui.fmt(cost) + ' ' + res + '</button>' +
-                  '<div class="timer">' + ui.fmtTime(secs) + (short ? ' · not enough ' + res : '') + '</div>') +
+                  '<div class="timer">' + ui.fmtTime(secs) + (short ? ' · not enough ' + res : '') +
+                  (b.key !== 'townhall' ? ' · new design at ' + next : '') + '</div>') +
             '</div></div>';
         }).join('') + '</div></div>';
     });
@@ -141,7 +143,8 @@
       var inLab = s.labSlots.some(function (sl) { return sl.job && sl.job.key === t.key; });
       var res = t.res || 'elixir';
       var short = cost > (s.resources[res] || 0);
-      var icon = unitIcon(t, 46);
+      var icon = unitIcon(t, 46, Math.max(1, lvl));
+      var nextIcon = (!locked && lvl < max) ? unitIcon(t, 40, next) : '';
       var superActive = s.superTroops[t.key] > Date.now();
       return '<div class="card' + (locked ? ' locked' : '') + '">' +
         '<div class="icon">' + icon + '</div><div class="body">' +
@@ -156,6 +159,10 @@
               : '<button class="btn sm" data-act="start-research" data-key="' + t.key + '">Research ' + next + ' · ' +
                 ui.fmt(cost) + ' ' + res + '</button>' +
                 '<div class="timer">' + ui.fmtTime(secs) + (short ? ' · not enough ' + res : '') + '</div>') +
+        (nextIcon
+          ? '<div class="art-next" title="Design at level ' + next + '">' +
+            '<span class="hint">next design</span>' + nextIcon + '</div>'
+          : '') +
         (kind === 'troops' && s.th >= 11 && !locked
           ? '<div style="margin-top:6px">' + (superActive
               ? '<span class="pill ok">Super active · ' + ui.fmtTime((s.superTroops[t.key] - Date.now()) / 1000) + '</span>'

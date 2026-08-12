@@ -55,6 +55,70 @@
   "h": 206,
   "w": 206
  },
+ "b_barracks_L01": {
+  "anchorX": 103.0,
+  "anchorY": 125.5,
+  "file": "assets/sprites/b_barracks_L01.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_barracks_L03": {
+  "anchorX": 103.0,
+  "anchorY": 125.5,
+  "file": "assets/sprites/b_barracks_L03.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_barracks_L05": {
+  "anchorX": 103.0,
+  "anchorY": 125.5,
+  "file": "assets/sprites/b_barracks_L05.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_barracks_L07": {
+  "anchorX": 103.0,
+  "anchorY": 125.5,
+  "file": "assets/sprites/b_barracks_L07.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_barracks_L09": {
+  "anchorX": 103.0,
+  "anchorY": 125.5,
+  "file": "assets/sprites/b_barracks_L09.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_barracks_L11": {
+  "anchorX": 103.0,
+  "anchorY": 125.5,
+  "file": "assets/sprites/b_barracks_L11.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_barracks_L13": {
+  "anchorX": 103.0,
+  "anchorY": 125.5,
+  "file": "assets/sprites/b_barracks_L13.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_barracks_L15": {
+  "anchorX": 103.0,
+  "anchorY": 125.5,
+  "file": "assets/sprites/b_barracks_L15.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
  "b_blacksmith": {
   "anchorX": 120.0,
   "anchorY": 175.3,
@@ -87,6 +151,78 @@
   "h": 206,
   "w": 206
  },
+ "b_cannon_L01": {
+  "anchorX": 103.0,
+  "anchorY": 141.8,
+  "file": "assets/sprites/b_cannon_L01.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_cannon_L08": {
+  "anchorX": 103.0,
+  "anchorY": 141.3,
+  "file": "assets/sprites/b_cannon_L08.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_cannon_L15": {
+  "anchorX": 103.0,
+  "anchorY": 140.8,
+  "file": "assets/sprites/b_cannon_L15.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_cannon_L22": {
+  "anchorX": 103.0,
+  "anchorY": 144.4,
+  "file": "assets/sprites/b_cannon_L22.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_cannon_L30": {
+  "anchorX": 115.0,
+  "anchorY": 166.4,
+  "file": "assets/sprites/b_cannon_L30.png",
+  "footprint": 3,
+  "h": 230,
+  "w": 230
+ },
+ "b_cannon_t1": {
+  "anchorX": 103.0,
+  "anchorY": 141.8,
+  "file": "assets/sprites/b_cannon_t1.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_cannon_t2": {
+  "anchorX": 103.0,
+  "anchorY": 141.1,
+  "file": "assets/sprites/b_cannon_t2.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_cannon_t3": {
+  "anchorX": 108.5,
+  "anchorY": 154.6,
+  "file": "assets/sprites/b_cannon_t3.png",
+  "footprint": 3,
+  "h": 217,
+  "w": 217
+ },
+ "b_cannon_t4": {
+  "anchorX": 123.5,
+  "anchorY": 181.7,
+  "file": "assets/sprites/b_cannon_t4.png",
+  "footprint": 3,
+  "h": 247,
+  "w": 247
+ },
  "b_clocktower": {
   "anchorX": 136.5,
   "anchorY": 205.1,
@@ -94,6 +230,14 @@
   "footprint": 3,
   "h": 273,
   "w": 273
+ },
+ "b_clocktower_L15": {
+  "anchorX": 144.5,
+  "anchorY": 219.6,
+  "file": "assets/sprites/b_clocktower_L15.png",
+  "footprint": 3,
+  "h": 289,
+  "w": 289
  },
  "b_darkbarracks": {
   "anchorX": 103.0,
@@ -183,6 +327,54 @@
   "h": 206,
   "w": 206
  },
+ "b_goldmine_L01": {
+  "anchorX": 103.0,
+  "anchorY": 134.3,
+  "file": "assets/sprites/b_goldmine_L01.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_goldmine_L30": {
+  "anchorX": 111.5,
+  "anchorY": 160.1,
+  "file": "assets/sprites/b_goldmine_L30.png",
+  "footprint": 3,
+  "h": 223,
+  "w": 223
+ },
+ "b_goldmine_t1": {
+  "anchorX": 103.0,
+  "anchorY": 134.3,
+  "file": "assets/sprites/b_goldmine_t1.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_goldmine_t2": {
+  "anchorX": 103.0,
+  "anchorY": 142.7,
+  "file": "assets/sprites/b_goldmine_t2.png",
+  "footprint": 3,
+  "h": 206,
+  "w": 206
+ },
+ "b_goldmine_t3": {
+  "anchorX": 103.5,
+  "anchorY": 145.6,
+  "file": "assets/sprites/b_goldmine_t3.png",
+  "footprint": 3,
+  "h": 207,
+  "w": 207
+ },
+ "b_goldmine_t4": {
+  "anchorX": 120.5,
+  "anchorY": 176.2,
+  "file": "assets/sprites/b_goldmine_t4.png",
+  "footprint": 3,
+  "h": 241,
+  "w": 241
+ },
  "b_goldstorage": {
   "anchorX": 104.0,
   "anchorY": 146.3,
@@ -203,6 +395,22 @@
   "anchorX": 137.0,
   "anchorY": 178.9,
   "file": "assets/sprites/b_herohall.png",
+  "footprint": 4,
+  "h": 274,
+  "w": 274
+ },
+ "b_herohall_L01": {
+  "anchorX": 137.0,
+  "anchorY": 170.6,
+  "file": "assets/sprites/b_herohall_L01.png",
+  "footprint": 4,
+  "h": 274,
+  "w": 274
+ },
+ "b_herohall_L30": {
+  "anchorX": 137.0,
+  "anchorY": 184.7,
+  "file": "assets/sprites/b_herohall_L30.png",
   "footprint": 4,
   "h": 274,
   "w": 274
@@ -331,6 +539,22 @@
   "anchorX": 208.0,
   "anchorY": 306.7,
   "file": "assets/sprites/b_singularity.png",
+  "footprint": 5,
+  "h": 416,
+  "w": 416
+ },
+ "b_singularity_L01": {
+  "anchorX": 208.0,
+  "anchorY": 306.6,
+  "file": "assets/sprites/b_singularity_L01.png",
+  "footprint": 5,
+  "h": 416,
+  "w": 416
+ },
+ "b_singularity_L30": {
+  "anchorX": 208.0,
+  "anchorY": 306.6,
+  "file": "assets/sprites/b_singularity_L30.png",
   "footprint": 5,
   "h": 416,
   "w": 416
@@ -719,6 +943,30 @@
   "h": 130,
   "w": 150
  },
+ "u_brute_t1": {
+  "anchorX": 71.5,
+  "anchorY": 109.8,
+  "file": "assets/sprites/u_brute_t1.png",
+  "footprint": 1.4,
+  "h": 143,
+  "w": 143
+ },
+ "u_brute_t2": {
+  "anchorX": 60.5,
+  "anchorY": 90.0,
+  "file": "assets/sprites/u_brute_t2.png",
+  "footprint": 1.4,
+  "h": 121,
+  "w": 121
+ },
+ "u_brute_t3": {
+  "anchorX": 71.5,
+  "anchorY": 109.8,
+  "file": "assets/sprites/u_brute_t3.png",
+  "footprint": 1.4,
+  "h": 143,
+  "w": 143
+ },
  "u_champion": {
   "anchorX": 79.5,
   "anchorY": 124.3,
@@ -766,6 +1014,62 @@
   "footprint": 1.4,
   "h": 130,
   "w": 150
+ },
+ "u_grunt_L01": {
+  "anchorX": 71.5,
+  "anchorY": 109.8,
+  "file": "assets/sprites/u_grunt_L01.png",
+  "footprint": 1.4,
+  "h": 143,
+  "w": 143
+ },
+ "u_grunt_L08": {
+  "anchorX": 68.5,
+  "anchorY": 104.4,
+  "file": "assets/sprites/u_grunt_L08.png",
+  "footprint": 1.4,
+  "h": 137,
+  "w": 137
+ },
+ "u_grunt_L15": {
+  "anchorX": 60.5,
+  "anchorY": 90.0,
+  "file": "assets/sprites/u_grunt_L15.png",
+  "footprint": 1.4,
+  "h": 121,
+  "w": 121
+ },
+ "u_grunt_L22": {
+  "anchorX": 71.5,
+  "anchorY": 109.8,
+  "file": "assets/sprites/u_grunt_L22.png",
+  "footprint": 1.4,
+  "h": 143,
+  "w": 143
+ },
+ "u_grunt_t1": {
+  "anchorX": 71.5,
+  "anchorY": 109.8,
+  "file": "assets/sprites/u_grunt_t1.png",
+  "footprint": 1.4,
+  "h": 143,
+  "w": 143
+ },
+ "u_grunt_t2": {
+  "anchorX": 60.5,
+  "anchorY": 90.0,
+  "file": "assets/sprites/u_grunt_t2.png",
+  "footprint": 1.4,
+  "h": 121,
+  "w": 121
+ },
+ "u_grunt_t3": {
+  "anchorX": 71.5,
+  "anchorY": 109.8,
+  "file": "assets/sprites/u_grunt_t3.png",
+  "footprint": 1.4,
+  "h": 143,
+  "w": 143
  },
  "u_hexweaver": {
   "anchorX": 69.0,

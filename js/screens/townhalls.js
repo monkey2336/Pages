@@ -20,6 +20,13 @@
         : G.art.townHallSVG(t.level, 190)) +
       '<b>' + ui.esc(t.name) + '</b>' +
       '<span>' + ui.fmt(t.campCapacity) + ' housing · ' + t.builders + ' builders</span>' +
+      '<div class="th-match">' +
+        (G.sprites.wallKey(t.wallMaxLevel) ? G.sprites.img(G.sprites.wallKey(t.wallMaxLevel), 34, 'wall') : '') +
+        (G.sprites.buildingKey('cannon', t.wallMaxLevel)
+          ? G.sprites.img(G.sprites.buildingKey('cannon', t.wallMaxLevel), 40, 'cannon') : '') +
+        (G.sprites.unitKey('grunt', Math.min(25, t.level))
+          ? G.sprites.img(G.sprites.unitKey('grunt', Math.min(25, t.level)), 30, 'troop') : '') +
+      '</div>' +
       '<div class="swatches">' +
         ['accent', 'accent2', 'roof', 'stone', 'wall', 'glow'].map(function (k) {
           return '<i style="background:' + t.palette[k] + '" title="' + k + ' ' + t.palette[k] + '"></i>';
@@ -49,6 +56,26 @@
       '<div style="text-align:center">' + (G.sprites.townHallKey(t.level)
         ? G.sprites.img(G.sprites.townHallKey(t.level), 240, t.name)
         : G.art.townHallSVG(t.level, 220)) + '</div>' +
+      '<div class="panel"><h3>Matching set at this Town Hall</h3>' +
+        '<p class="hint" style="margin:0 0 10px">Walls, buildings and troops are all built from this level\'s materials, ' +
+        'so everything in the village reads as one thing.</p>' +
+        '<div class="art-compare" style="justify-content:space-around">' +
+          '<figure>' + (G.sprites.wallKey(t.wallMaxLevel)
+            ? G.sprites.img(G.sprites.wallKey(t.wallMaxLevel), 78, 'wall') : '') +
+            '<figcaption>wall ' + t.wallMaxLevel + '<br>' + ui.esc(G.WALL.skin(t.wallMaxLevel).name) + '</figcaption></figure>' +
+          '<figure>' + (G.sprites.buildingKey('cannon', t.wallMaxLevel)
+            ? G.sprites.img(G.sprites.buildingKey('cannon', t.wallMaxLevel), 86, 'cannon') : '') +
+            '<figcaption>cannon ' + t.wallMaxLevel + '</figcaption></figure>' +
+          '<figure>' + (G.sprites.buildingKey('archertower', t.wallMaxLevel)
+            ? G.sprites.img(G.sprites.buildingKey('archertower', t.wallMaxLevel), 86, 'archer tower') : '') +
+            '<figcaption>archer tower</figcaption></figure>' +
+          '<figure>' + (G.sprites.unitKey('grunt', Math.min(25, t.level))
+            ? G.sprites.img(G.sprites.unitKey('grunt', Math.min(25, t.level)), 70, 'grunt') : '') +
+            '<figcaption>troop kit</figcaption></figure>' +
+        '</div>' +
+        '<p class="hint" style="margin:0">Materials: ' + ui.esc(G.eraFor(t.level, 30).name) + ' — ' +
+        ui.esc(G.eraFor(t.level, 30).blurb) + '</p>' +
+      '</div>' +
       '<div class="panel"><h3>Design</h3><div class="stat-row">' +
         '<span>Body <b>' + d.body + '</b></span>' +
         '<span>Roof <b>' + d.roof + '</b></span>' +

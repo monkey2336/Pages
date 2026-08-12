@@ -4,8 +4,8 @@
 
   var ui = G.ui, E = G.engine, SP = G.sprites;
 
-  function heroIcon(h, px) {
-    var key = SP.unitKey(h.key);
+  function heroIcon(h, px, level) {
+    var key = SP.heroKey(h.key, level || 1);
     return key ? SP.img(key, px, h.name) : G.art.unitSVG(h.art, h.tint, px);
   }
 
@@ -27,7 +27,7 @@
 
     return '<div class="card' + (unlocked ? '' : ' locked') + '" style="flex-direction:column">' +
       '<div style="display:flex;gap:10px;width:100%">' +
-        '<div class="icon">' + heroIcon(h, 56) + '</div>' +
+        '<div class="icon">' + heroIcon(h, 56, Math.max(1, hs.level)) + '</div>' +
         '<div class="body">' +
           '<div class="title">' + ui.esc(h.name) +
             '<small>' + (unlocked ? 'lvl ' + hs.level + '/' + maxLvl : 'TH' + h.unlockTH) + '</small></div>' +

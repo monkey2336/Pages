@@ -331,6 +331,46 @@ main { flex: 1; padding: 18px; max-width: 1280px; width: 100%; margin: 0 auto; }
   pointer-events: none;
 }
 
+/* The flat 2D board: same buildings, straight-on square grid. */
+.flat-ground {
+  position: absolute;
+  left: 0;
+  --cell: 54px;
+  background:
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.13) 0 1px, transparent 1px var(--cell)),
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0 1px, transparent 1px var(--cell)),
+    radial-gradient(circle at 45% 40%, color-mix(in srgb, var(--ground) 88%, white 12%), var(--groundAlt));
+  border: 2px solid color-mix(in srgb, var(--groundAlt) 70%, black);
+  box-shadow: 0 0 0 6px color-mix(in srgb, var(--groundAlt) 60%, black),
+              inset 0 0 70px rgba(0, 0, 0, 0.45);
+  border-radius: 6px;
+}
+
+.art-next {
+  display: flex; align-items: center; gap: 6px; margin-top: 6px;
+  padding: 4px 8px; border-radius: 9px;
+  background: rgba(0, 0, 0, 0.28); border: 1px solid var(--panelEdge);
+  width: fit-content;
+}
+.art-next img { width: 34px; height: 34px; }
+
+/* Before / after art on an upgrade, so you can see what you are buying. */
+.art-compare {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 14px;
+  margin: 6px 0 12px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--panelEdge);
+  border-radius: 12px;
+}
+.art-compare figure { margin: 0; text-align: center; }
+.art-compare figcaption { font-size: 11px; color: var(--dim); margin-top: 4px; }
+.art-compare img { margin: 0 auto; }
+.art-arrow { color: var(--accent); font-size: 22px; align-self: center; }
+
 /* ------------------------------------------------------- th gallery */
 .th-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(184px, 1fr)); gap: 13px; }
 .th-tile {
@@ -361,6 +401,12 @@ main { flex: 1; padding: 18px; max-width: 1280px; width: 100%; margin: 0 auto; }
   border-radius: 7px; padding: 1px 8px; font-size: 10px; text-transform: uppercase;
   letter-spacing: 0.06em;
 }
+
+.th-match {
+  display: flex; align-items: flex-end; justify-content: center; gap: 4px;
+  margin-top: 6px; min-height: 40px;
+}
+.th-match img { filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.4)); }
 
 .swatches { display: flex; gap: 3px; justify-content: center; margin-top: 6px; }
 .swatches i { width: 13px; height: 13px; border-radius: 4px; display: block; border: 1px solid rgba(0, 0, 0, 0.45); }

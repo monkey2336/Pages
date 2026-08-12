@@ -1,19 +1,27 @@
-/* Village screen: an isometric base you can drag buildings around, plus the
-   build menu and building details.
+/* Village screen: the base you drag buildings around on, the build menu and
+   the building details.
 
-   Sprites are Blender renders pinned to the grid via the manifest anchors; if
-   a sprite is missing the vector art stands in so the game still works. */
+   Two board modes share one set of sprites:
+     iso  - the Clash-style 2:1 diamond board (default)
+     flat - a straight-on square grid, the same 3D buildings standing on it
+   Both pin sprites by the manifest anchor, so a building's base always sits on
+   its own tile whichever board is showing. */
 (function (G) {
   'use strict';
 
   var ui = G.ui, E = G.engine, SP = G.sprites;
   var TILE_W = SP.TILE_W, TILE_H = SP.TILE_H;
-  var CELL = TILE_W / Math.SQRT2;      // pre-transform size of a ground cell
-  var HEAD = 190;                       // headroom above the grid for tall halls
+  var CELL = TILE_W / Math.SQRT2;      // pre-transform size of an iso ground cell
+  var FLAT_T = 54;                     // tile size on the flat board
+  var HEAD = 190;                      // headroom above the grid for tall halls
   var FOOT = 70;
 
   var selectedId = null;
   var view = { x0: 0, y0: 0, span: 16 };
+
+  function mode(s) {
+    return (s.settings && s.settings.view) === 'flat' ? 'flat' : 'iso';
+  }
 
   /* ------------------------------------------------------------ framing */
   function computeView(s) {
@@ -37,6 +45,25 @@
     };
   }
 
+  /* --------------------------------------------------------- projection */
+  function centreFor(m, lx, ly, size) {
+    if (m === 'flat') {
+      return { x: (lx + size / 2) * FLAT_T, y: (ly + size / 2) * FLAT_T };
+    }
+    return SP.tileCentre(lx, ly, size);
+  }
+
+  function gridFromScreen(m, x, y) {
+    if (m === 'flat') return { x: x / FLAT_T, y: y / FLAT_T };
+    return SP.screenToGrid(x, y);
+  }
+
+  // Sprites are authored at 64px per tile for the iso board; the flat board
+  // uses smaller tiles, so scale to match.
+  function spriteScale(m) {
+    return m === 'flat' ? (FLAT_T / TILE_W) * 1.3 : 1;
+  }
+
   function tintFor(bd) {
     var p = G.thData(G.state.th).palette;
     if (bd.cat === 'defense') return p.stone;
@@ -46,44 +73,64 @@
     return p.stone;
   }
 
+  function spriteNameFor(o, isWall) {
+    if (isWall) return SP.wallKey(o.level);
+    return o.key === 'townhall' ? SP.townHallKey(o.level) : SP.buildingKey(o.key, o.level);
+  }
+
   /* ------------------------------------------------------------ objects */
   function objectHTML(s, o, isWall) {
+    var m = mode(s);
     var bd = isWall ? null : E.bdata(o.key);
     var size = isWall ? 1 : bd.size;
     var lx = o.x - view.x0, ly = o.y - view.y0;
-    var name = isWall ? SP.wallKey(o.level)
-      : o.key === 'townhall' ? SP.townHallKey(o.level) : SP.buildingKey(o.key);
-    var label = isWall ? 'Wall level ' + o.level + ' · ' + G.WALL.skin(o.level).name
+    var name = spriteNameFor(o, isWall);
+    var label = isWall
+      ? 'Wall level ' + o.level + ' · ' + G.WALL.skin(o.level).name
       : (o.key === 'townhall' ? G.thData(o.level).name : bd.name) + ' · level ' + o.level;
     var attrs = 'data-id="' + o.id + '"' + (isWall ? ' data-wall="1"' : '') +
       ' title="' + ui.esc(label) + '"' +
       (selectedId === o.id ? ' data-selected="1"' : '');
     var badge = (isWall ? '' : '<span class="lvl">' + o.level + '</span>') +
       (o.upgrading ? '<span class="clock"></span>' : '');
+    var sprite = name && SP.get(name);
+    var z = Math.round((lx + ly + size) * 10);
 
-    var html = name ? SP.stageSprite(name, lx, ly, size, 1, attrs, badge) : null;
-    if (html) return html;
+    if (sprite) {
+      var scale = spriteScale(m);
+      var c = centreFor(m, lx, ly, size);
+      var left = c.x - sprite.anchorX * scale;
+      var top = c.y - sprite.anchorY * scale;
+      return '<div class="iso-obj" style="left:' + left.toFixed(1) + 'px;top:' + top.toFixed(1) +
+        'px;width:' + (sprite.w * scale).toFixed(1) + 'px;height:' + (sprite.h * scale).toFixed(1) +
+        'px;z-index:' + z +
+        ';--anchor-x:' + (sprite.anchorX * scale).toFixed(1) + 'px' +
+        ';--anchor-y:' + (sprite.anchorY * scale).toFixed(1) + 'px" ' + attrs + '>' +
+        '<img src="' + sprite.file + '" draggable="false" alt="">' + badge + '</div>';
+    }
 
-    // Vector fallback: sit the SVG on the tile's diamond.
-    var c = SP.tileCentre(lx, ly, size);
-    var w = size * TILE_W * 0.92;
+    // Vector fallback: sit the SVG on the tile.
+    var c2 = centreFor(m, lx, ly, size);
+    var w = size * (m === 'flat' ? FLAT_T : TILE_W) * 0.92;
     var svg = isWall
       ? '<div class="wall-fallback" style="background:' + G.WALL.skin(o.level).fill + '"></div>'
       : (o.key === 'townhall'
         ? G.art.townHallSVG(o.level, w, true)
         : G.art.buildingSVG(bd.art, G.thData(s.th).palette, w, tintFor(bd)));
-    return '<div class="iso-obj fallback" style="left:' + (c.x - w / 2) + 'px;top:' +
-      (c.y - w * 0.8) + 'px;width:' + w + 'px;height:' + w + 'px;z-index:' +
-      Math.round((lx + ly + size) * 10) + '" ' + attrs + '>' + svg + badge + '</div>';
+    return '<div class="iso-obj fallback" style="left:' + (c2.x - w / 2) + 'px;top:' +
+      (c2.y - w * 0.8) + 'px;width:' + w + 'px;height:' + w + 'px;z-index:' + z +
+      '" ' + attrs + '>' + svg + badge + '</div>';
   }
 
   /* ------------------------------------------------------------- render */
   function render(s) {
     view = computeView(s);
+    var m = mode(s);
     var busy = E.busyBuilders(s), total = s.builders.length;
     var jobs = E.inProgressJobs(s);
     var shield = s.shieldUntil > Date.now();
     var th = G.thData(s.th);
+    var era = G.eraForTH(s.th);
 
     var html = '<div class="village-head">' +
       '<div class="village-title"><h2>' + ui.esc(th.name) + '</h2>' +
@@ -91,10 +138,12 @@
       '<div class="village-tools">' +
         '<button class="btn" data-act="open-build">Build</button>' +
         '<button class="btn ghost" data-act="buy-wall">Buy wall · ' + ui.fmt(E.wallCost(1)) + ' gold</button>' +
+        '<button class="btn ghost" data-act="toggle-view">' +
+          (m === 'flat' ? 'Board: 2D' : 'Board: isometric') + '</button>' +
         '<span class="pill' + (busy === total ? ' warn' : ' ok') + '">Builders ' + (total - busy) + '/' + total + '</span>' +
         (shield ? '<span class="pill ok">Shield ' + ui.fmtTime((s.shieldUntil - Date.now()) / 1000) + '</span>' : '') +
         '<span class="pill">Walls ' + s.walls.length + '/' + G.WALL.countAt(s.th) + '</span>' +
-        '<span class="pill">Trophies ' + s.trophies + '</span>' +
+        '<span class="pill" title="' + ui.esc(era.blurb) + '">' + ui.esc(era.name) + '</span>' +
         '<span class="hint">Drag to rearrange · click for details</span>' +
       '</div>';
 
@@ -107,23 +156,33 @@
         }).join('') + '</div></div>';
     }
 
-    var stageW = view.span * TILE_W;
-    var stageH = view.span * TILE_H + HEAD + FOOT;
-    var originX = view.span * TILE_W / 2;
-    var groundSide = view.span * CELL;
-
     var objects = s.walls.map(function (w) { return objectHTML(s, w, true); })
       .concat(s.buildings.map(function (b) { return objectHTML(s, b, false); })).join('');
 
-    html += '<div class="iso-viewport" id="village">' +
-      '<div class="iso-stage" id="isoStage" style="width:' + stageW + 'px;height:' + stageH + 'px">' +
-        '<div class="iso-ground" style="width:' + groundSide + 'px;height:' + groundSide +
-          'px;--cell:' + CELL.toFixed(3) + 'px;transform:translate(' + originX + 'px,' + HEAD +
-          'px) scaleY(0.5) rotate(45deg)"></div>' +
-        '<div class="iso-objects" style="left:' + originX + 'px;top:' + HEAD + 'px">' +
-          objects +
-        '</div>' +
-      '</div></div>';
+    if (m === 'flat') {
+      var side = view.span * FLAT_T;
+      html += '<div class="iso-viewport" id="village">' +
+        '<div class="iso-stage" id="isoStage" style="width:' + side + 'px;height:' +
+          (side + HEAD) + 'px">' +
+          '<div class="flat-ground" style="width:' + side + 'px;height:' + side +
+            'px;top:' + HEAD + 'px;--cell:' + FLAT_T + 'px"></div>' +
+          '<div class="iso-objects" style="left:0px;top:' + HEAD + 'px">' + objects + '</div>' +
+        '</div></div>';
+    } else {
+      var stageW = view.span * TILE_W;
+      var stageH = view.span * TILE_H + HEAD + FOOT;
+      var originX = view.span * TILE_W / 2;
+      var groundSide = view.span * CELL;
+      html += '<div class="iso-viewport" id="village">' +
+        '<div class="iso-stage" id="isoStage" style="width:' + stageW + 'px;height:' + stageH + 'px">' +
+          '<div class="iso-ground" style="width:' + groundSide + 'px;height:' + groundSide +
+            'px;--cell:' + CELL.toFixed(3) + 'px;transform:translate(' + originX + 'px,' + HEAD +
+            'px) scaleY(0.5) rotate(45deg)"></div>' +
+          '<div class="iso-objects" style="left:' + originX + 'px;top:' + HEAD + 'px">' +
+            objects +
+          '</div>' +
+        '</div></div>';
+    }
     return html;
   }
 
@@ -132,8 +191,8 @@
     var viewport = host.querySelector('#village');
     var stage = host.querySelector('#isoStage');
     if (!viewport || !stage) return;
+    var m = mode(s);
 
-    // Scale the stage so the whole base fits the viewport width.
     function fit() {
       var stageW = parseFloat(stage.style.width);
       var stageH = parseFloat(stage.style.height);
@@ -199,12 +258,13 @@
       if (!obj) { ui.render(); return; }
       var size = d.isWall ? 1 : E.bdata(obj.key).size;
       // Convert the sprite's new anchor position back into grid coordinates.
-      var name = d.isWall ? SP.wallKey(obj.level)
-        : obj.key === 'townhall' ? SP.townHallKey(obj.level) : SP.buildingKey(obj.key);
+      var name = spriteNameFor(obj, d.isWall);
       var sprite = name && SP.get(name);
-      var ax = sprite ? sprite.anchorX : size * TILE_W * 0.46;
-      var ay = sprite ? sprite.anchorY : size * TILE_W * 0.8;
-      var g = SP.screenToGrid(parseFloat(d.el.style.left) + ax, parseFloat(d.el.style.top) + ay);
+      var scale = spriteScale(m);
+      var tile = m === 'flat' ? FLAT_T : TILE_W;
+      var ax = sprite ? sprite.anchorX * scale : size * tile * 0.46;
+      var ay = sprite ? sprite.anchorY * scale : size * tile * 0.8;
+      var g = gridFromScreen(m, parseFloat(d.el.style.left) + ax, parseFloat(d.el.style.top) + ay);
       var x = Math.round(g.x - size / 2) + view.x0;
       var y = Math.round(g.y - size / 2) + view.y0;
       x = Math.max(0, Math.min(G.GRID - size, x));
@@ -224,14 +284,37 @@
   function live(host) { ui.tickTimers(host); }
 
   /* ---------------------------------------------------------- details */
-  function portrait(s, o, isWall, px) {
-    if (isWall) return '';
-    var name = o.key === 'townhall' ? SP.townHallKey(o.level) : SP.buildingKey(o.key);
+  function buildingArt(key, level, px) {
+    var name = key === 'townhall' ? SP.townHallKey(level) : SP.buildingKey(key, level);
     if (name) return SP.img(name, px, '');
-    var bd = E.bdata(o.key);
-    return o.key === 'townhall'
-      ? G.art.townHallSVG(o.level, px)
-      : G.art.buildingSVG(bd.art, G.thData(s.th).palette, px, tintFor(bd));
+    var bd = E.bdata(key);
+    return key === 'townhall'
+      ? G.art.townHallSVG(level, px)
+      : G.art.buildingSVG(bd.art, G.thData(G.state.th).palette, px, tintFor(bd));
+  }
+  G.villageArt = buildingArt;
+
+  // Every level has its own design, so the upgrade button can always show you
+  // exactly what you are buying.
+  function appearancePanel(key, level, maxLevel) {
+    if (key === 'townhall') return '';
+    var era = G.eraFor(level, G.BUILDING_ART_SPAN);
+    var next = level + 1;
+    var html = '<div class="panel"><h3>Appearance</h3>' +
+      '<div class="stat-row" style="margin-bottom:8px">' +
+        '<span>Design <b>' + level + ' of ' + G.BUILDING_ART_SPAN + '</b></span>' +
+        '<span>Built from <b>' + ui.esc(era.name) + '</b></span>' +
+      '</div>' +
+      '<p class="hint" style="margin:0 0 10px">' + ui.esc(era.blurb) +
+      ' Every level is its own design — materials and ornament change with each upgrade.</p>';
+    if (next <= Math.min(G.BUILDING_ART_SPAN, maxLevel)) {
+      html += '<div class="art-compare">' +
+        '<figure>' + buildingArt(key, level, 92) + '<figcaption>level ' + level + '</figcaption></figure>' +
+        '<span class="art-arrow">→</span>' +
+        '<figure>' + buildingArt(key, next, 92) + '<figcaption>level ' + next + '</figcaption></figure>' +
+        '</div>';
+    }
+    return html + '</div>';
   }
 
   function openDetails(id, isWall) {
@@ -241,16 +324,25 @@
       if (!w) return;
       var skin = G.WALL.skin(w.level);
       var max = E.wallMax(s);
+      var wEra = G.wallEra(w.level);
+      var nextW = w.level < max ? w.level + 1 : null;
       ui.modal('<h3>Wall segment</h3>' +
-        '<p class="screen-sub">Level ' + w.level + ' · ' + ui.esc(skin.name) +
-        (w.level >= max ? ' · maxed for Town Hall ' + s.th : '') + '</p>' +
-        '<div style="text-align:center">' + (SP.wallKey(w.level) ? SP.img(SP.wallKey(w.level), 120, 'wall') :
-          '<div style="height:26px;border-radius:5px;background:' + skin.fill + '"></div>') + '</div>' +
-        (w.level < max
-          ? '<button class="btn wide" data-act="upgrade-wall" data-id="' + w.id + '">Upgrade to ' +
-            (w.level + 1) + ' · ' + ui.fmt(E.wallCost(w.level + 1)) + ' gold</button>'
-          : '<p class="hint">Raise the Town Hall to unlock wall level ' + (max + 1) + '.</p>') +
-        '<p class="hint" style="margin-top:10px">Upgrade hundreds at a time from the Laboratory → Walls.</p>');
+        '<p class="screen-sub">Level ' + w.level + ' · ' + ui.esc(skin.name) + ' · ' +
+        ui.esc(wEra.name) + (w.level >= max ? ' · maxed for Town Hall ' + s.th : '') + '</p>' +
+        (nextW
+          ? '<div class="art-compare">' +
+            '<figure>' + (SP.wallKey(w.level) ? SP.img(SP.wallKey(w.level), 96, 'wall') : '') +
+              '<figcaption>level ' + w.level + '</figcaption></figure>' +
+            '<span class="art-arrow">→</span>' +
+            '<figure>' + (SP.wallKey(nextW) ? SP.img(SP.wallKey(nextW), 96, 'wall') : '') +
+              '<figcaption>level ' + nextW + ' · ' + ui.esc(G.WALL.skin(nextW).name) + '</figcaption></figure>' +
+            '</div>' +
+            '<button class="btn wide" data-act="upgrade-wall" data-id="' + w.id + '">Upgrade to ' +
+            nextW + ' · ' + ui.fmt(E.wallCost(nextW)) + ' gold</button>'
+          : '<div style="text-align:center">' +
+            (SP.wallKey(w.level) ? SP.img(SP.wallKey(w.level), 110, 'wall') : '') + '</div>' +
+            '<p class="hint">Raise the Town Hall to unlock wall level ' + (max + 1) + '.</p>') +
+        '<p class="hint" style="margin-top:10px">Walls are cut from the same materials as your buildings at that level, so a base always matches. Upgrade hundreds at a time from the Laboratory → Walls.</p>');
       return;
     }
 
@@ -264,7 +356,7 @@
     var body = '<h3>' + ui.esc(name) + '</h3>' +
       '<p class="screen-sub">' + (isTH ? ui.esc(G.thData(b.level).lore) : ui.esc(bd.desc || '')) + '</p>' +
       '<div style="display:flex;gap:14px;align-items:center;margin-bottom:12px">' +
-        '<div>' + portrait(s, b, false, isTH ? 150 : 110) + '</div>' +
+        '<div>' + buildingArt(b.key, b.level, isTH ? 150 : 110) + '</div>' +
         '<div class="stat-row" style="flex-direction:column;gap:4px">' +
           '<span>Level <b>' + b.level + '</b> / ' + maxLvl + '</span>' +
           (bd.dps ? '<span>DPS <b>' + Math.round(bd.dps * Math.pow(1.16, b.level - 1)) + '</b></span>' : '') +
@@ -299,6 +391,8 @@
       body += '<p class="hint">Maxed for Town Hall ' + s.th + '.</p>';
     }
 
+    body += appearancePanel(b.key, b.level, Math.max(maxLvl, b.level));
+
     if (!isTH) {
       body += '<button class="btn ghost wide" style="margin-top:8px" data-act="sell-building" data-id="' + b.id + '">Remove building</button>';
     }
@@ -306,6 +400,13 @@
   }
 
   /* ---------------------------------------------------------- actions */
+  ui.actions['toggle-view'] = function () {
+    var s = G.state;
+    s.settings.view = mode(s) === 'flat' ? 'iso' : 'flat';
+    ui.toast(s.settings.view === 'flat' ? 'Flat 2D board' : 'Isometric board');
+    ui.render();
+  };
+
   ui.actions['open-build'] = function () {
     var s = G.state;
     var cats = [['resource', 'Resource'], ['army', 'Army'], ['defense', 'Defenses'], ['trap', 'Traps']];
@@ -318,11 +419,8 @@
         var cost = E.buildingCost(s, bd.key, 1);
         var afford = s.resources[bd.res] >= cost;
         var locked = s.th < bd.unlockTH;
-        var icon = SP.buildingKey(bd.key)
-          ? SP.img(SP.buildingKey(bd.key), 46, bd.name)
-          : G.art.buildingSVG(bd.art, G.thData(s.th).palette, 40, tintFor(bd));
         return '<div class="card' + (locked || !canB ? ' locked' : '') + '">' +
-          '<div class="icon">' + icon + '</div>' +
+          '<div class="icon">' + buildingArt(bd.key, 1, 46) + '</div>' +
           '<div class="body"><div class="title">' + ui.esc(bd.name) +
             '<small>' + owned + '/' + allowed + '</small></div>' +
           '<div class="desc">' + ui.esc(bd.desc || '') + '</div>' +

@@ -19,16 +19,46 @@
     return key('th' + String(Math.max(1, Math.min(30, level))).padStart(2, '0'));
   }
 
-  function buildingKey(bKey) {
-    return bKey === 'townhall' ? null : key('b_' + bKey);
+  function pad2(n) {
+    return String(n).length < 2 ? '0' + n : String(n);
+  }
+
+  /* Every level has its own render. The lookup walks down from the level you
+     asked for to the nearest one that exists, so a partial asset set still
+     draws the closest design rather than nothing. */
+  function perLevel(prefix, itemKey, level, span) {
+    var want = Math.max(1, Math.min(span, Math.round(level || 1)));
+    for (var l = want; l >= 1; l--) {
+      var k = key(prefix + itemKey + '_L' + pad2(l));
+      if (k) return k;
+    }
+    for (var u = want + 1; u <= span; u++) {
+      var k2 = key(prefix + itemKey + '_L' + pad2(u));
+      if (k2) return k2;
+    }
+    return key(prefix + itemKey);
+  }
+
+  function buildingKey(bKey, level) {
+    if (bKey === 'townhall') return null;
+    return perLevel('b_', bKey, G.buildingArtLevel ? G.buildingArtLevel(level) : level,
+      G.BUILDING_ART_SPAN || 30);
   }
 
   function wallKey(level) {
-    return key('wall' + String(Math.max(1, Math.min(30, level))).padStart(2, '0'));
+    return key('wall' + pad2(Math.max(1, Math.min(30, level))));
   }
 
-  function unitKey(uKey) {
-    return key('u_' + uKey);
+  function unitKey(uKey, level) {
+    return perLevel('u_', uKey, G.troopArtLevel ? G.troopArtLevel(level) : level,
+      G.TROOP_ART_SPAN || 25);
+  }
+
+  // Heroes climb far higher than troops, so their level maps onto the design
+  // set before lookup.
+  function heroKey(hKey, level) {
+    return perLevel('u_', hKey, G.heroArtLevel ? G.heroArtLevel(level) : level,
+      G.HERO_ART_SPAN || 25);
   }
 
   /* A plain <img> sized to a given height, for cards and lists. */
@@ -86,6 +116,7 @@
     buildingKey: buildingKey,
     wallKey: wallKey,
     unitKey: unitKey,
+    heroKey: heroKey,
     img: img,
     stageSprite: stageSprite,
     tileCentre: tileCentre,
