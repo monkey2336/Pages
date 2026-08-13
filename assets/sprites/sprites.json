@@ -1023,6 +1023,134 @@
   "outlined": true,
   "w": 456
  },
+ "anim_hogback_L13": {
+  "anim": true,
+  "clips": {
+   "attack": {
+    "ax": 21.5,
+    "ay": 41.7,
+    "fh": 58,
+    "fw": 56,
+    "n": 8,
+    "x": 0,
+    "y": 0
+   },
+   "attackBack": {
+    "ax": 34.5,
+    "ay": 41.7,
+    "fh": 61,
+    "fw": 56,
+    "n": 8,
+    "x": 0,
+    "y": 58
+   },
+   "death": {
+    "ax": 19.5,
+    "ay": 50.7,
+    "fh": 61,
+    "fw": 55,
+    "n": 6,
+    "x": 0,
+    "y": 119
+   },
+   "deathBack": {
+    "ax": 34.5,
+    "ay": 40.7,
+    "fh": 63,
+    "fw": 54,
+    "n": 6,
+    "x": 0,
+    "y": 180
+   },
+   "walk": {
+    "ax": 19.5,
+    "ay": 50.7,
+    "fh": 62,
+    "fw": 55,
+    "n": 8,
+    "x": 0,
+    "y": 243
+   },
+   "walkBack": {
+    "ax": 35.5,
+    "ay": 37.7,
+    "fh": 49,
+    "fw": 55,
+    "n": 8,
+    "x": 0,
+    "y": 305
+   }
+  },
+  "drawnShadow": true,
+  "file": "assets/sprites/anim_hogback_L13.png",
+  "h": 354,
+  "outlined": true,
+  "w": 448
+ },
+ "anim_hogback_L22": {
+  "anim": true,
+  "clips": {
+   "attack": {
+    "ax": 20.5,
+    "ay": 40.4,
+    "fh": 60,
+    "fw": 57,
+    "n": 8,
+    "x": 0,
+    "y": 0
+   },
+   "attackBack": {
+    "ax": 36.5,
+    "ay": 39.4,
+    "fh": 62,
+    "fw": 57,
+    "n": 8,
+    "x": 0,
+    "y": 60
+   },
+   "death": {
+    "ax": 23.5,
+    "ay": 52.4,
+    "fh": 63,
+    "fw": 57,
+    "n": 6,
+    "x": 0,
+    "y": 122
+   },
+   "deathBack": {
+    "ax": 33.5,
+    "ay": 40.4,
+    "fh": 65,
+    "fw": 56,
+    "n": 6,
+    "x": 0,
+    "y": 185
+   },
+   "walk": {
+    "ax": 18.5,
+    "ay": 51.4,
+    "fh": 62,
+    "fw": 55,
+    "n": 8,
+    "x": 0,
+    "y": 250
+   },
+   "walkBack": {
+    "ax": 36.5,
+    "ay": 37.4,
+    "fh": 48,
+    "fw": 55,
+    "n": 8,
+    "x": 0,
+    "y": 312
+   }
+  },
+  "drawnShadow": true,
+  "file": "assets/sprites/anim_hogback_L22.png",
+  "h": 360,
+  "outlined": true,
+  "w": 456
+ },
  "anim_mage_L04": {
   "anim": true,
   "clips": {
