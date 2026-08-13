@@ -769,6 +769,134 @@
     "outlined": true,
     "w": 464
    },
+   "anim_golem_L04": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 48.5,
+      "ay": 56.9,
+      "fh": 73,
+      "fw": 72,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 23.5,
+      "ay": 62.9,
+      "fh": 79,
+      "fw": 72,
+      "n": 8,
+      "x": 0,
+      "y": 73
+     },
+     "death": {
+      "ax": 26.5,
+      "ay": 63.9,
+      "fh": 77,
+      "fw": 88,
+      "n": 6,
+      "x": 0,
+      "y": 152
+     },
+     "deathBack": {
+      "ax": 61.5,
+      "ay": 55.9,
+      "fh": 81,
+      "fw": 88,
+      "n": 6,
+      "x": 0,
+      "y": 229
+     },
+     "walk": {
+      "ax": 25.5,
+      "ay": 58.9,
+      "fh": 73,
+      "fw": 60,
+      "n": 8,
+      "x": 0,
+      "y": 310
+     },
+     "walkBack": {
+      "ax": 34.5,
+      "ay": 55.9,
+      "fh": 70,
+      "fw": 61,
+      "n": 8,
+      "x": 0,
+      "y": 383
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_golem_L04.png",
+    "h": 453,
+    "outlined": true,
+    "w": 576
+   },
+   "anim_golem_L13": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 46.5,
+      "ay": 60.3,
+      "fh": 76,
+      "fw": 69,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 22.5,
+      "ay": 65.3,
+      "fh": 81,
+      "fw": 69,
+      "n": 8,
+      "x": 0,
+      "y": 76
+     },
+     "death": {
+      "ax": 25.5,
+      "ay": 67.3,
+      "fh": 81,
+      "fw": 86,
+      "n": 6,
+      "x": 0,
+      "y": 157
+     },
+     "deathBack": {
+      "ax": 60.5,
+      "ay": 56.3,
+      "fh": 82,
+      "fw": 86,
+      "n": 6,
+      "x": 0,
+      "y": 238
+     },
+     "walk": {
+      "ax": 25.5,
+      "ay": 61.3,
+      "fh": 75,
+      "fw": 60,
+      "n": 8,
+      "x": 0,
+      "y": 320
+     },
+     "walkBack": {
+      "ax": 34.5,
+      "ay": 56.3,
+      "fh": 70,
+      "fw": 60,
+      "n": 8,
+      "x": 0,
+      "y": 395
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_golem_L13.png",
+    "h": 465,
+    "outlined": true,
+    "w": 552
+   },
    "anim_grunt_L04": {
     "anim": true,
     "clips": {
@@ -960,6 +1088,198 @@
     "h": 433,
     "outlined": true,
     "w": 536
+   },
+   "anim_hexweaver_L04": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 32.5,
+      "ay": 58.8,
+      "fh": 72,
+      "fw": 69,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 36.5,
+      "ay": 58.8,
+      "fh": 70,
+      "fw": 69,
+      "n": 8,
+      "x": 0,
+      "y": 72
+     },
+     "death": {
+      "ax": 26.5,
+      "ay": 63.8,
+      "fh": 77,
+      "fw": 88,
+      "n": 6,
+      "x": 0,
+      "y": 142
+     },
+     "deathBack": {
+      "ax": 61.5,
+      "ay": 55.8,
+      "fh": 81,
+      "fw": 88,
+      "n": 6,
+      "x": 0,
+      "y": 219
+     },
+     "walk": {
+      "ax": 25.5,
+      "ay": 58.8,
+      "fh": 73,
+      "fw": 60,
+      "n": 8,
+      "x": 0,
+      "y": 300
+     },
+     "walkBack": {
+      "ax": 34.5,
+      "ay": 55.8,
+      "fh": 70,
+      "fw": 61,
+      "n": 8,
+      "x": 0,
+      "y": 373
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_hexweaver_L04.png",
+    "h": 443,
+    "outlined": true,
+    "w": 552
+   },
+   "anim_hexweaver_L13": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 31.5,
+      "ay": 61.4,
+      "fh": 74,
+      "fw": 68,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 36.5,
+      "ay": 60.4,
+      "fh": 72,
+      "fw": 68,
+      "n": 8,
+      "x": 0,
+      "y": 74
+     },
+     "death": {
+      "ax": 25.5,
+      "ay": 67.4,
+      "fh": 81,
+      "fw": 86,
+      "n": 6,
+      "x": 0,
+      "y": 146
+     },
+     "deathBack": {
+      "ax": 60.5,
+      "ay": 56.4,
+      "fh": 82,
+      "fw": 86,
+      "n": 6,
+      "x": 0,
+      "y": 227
+     },
+     "walk": {
+      "ax": 25.5,
+      "ay": 61.4,
+      "fh": 75,
+      "fw": 60,
+      "n": 8,
+      "x": 0,
+      "y": 309
+     },
+     "walkBack": {
+      "ax": 34.5,
+      "ay": 56.4,
+      "fh": 70,
+      "fw": 60,
+      "n": 8,
+      "x": 0,
+      "y": 384
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_hexweaver_L13.png",
+    "h": 454,
+    "outlined": true,
+    "w": 544
+   },
+   "anim_hexweaver_L22": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 30.5,
+      "ay": 61.8,
+      "fh": 74,
+      "fw": 66,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 35.5,
+      "ay": 59.8,
+      "fh": 71,
+      "fw": 66,
+      "n": 8,
+      "x": 0,
+      "y": 74
+     },
+     "death": {
+      "ax": 24.5,
+      "ay": 66.8,
+      "fh": 80,
+      "fw": 84,
+      "n": 6,
+      "x": 0,
+      "y": 145
+     },
+     "deathBack": {
+      "ax": 59.5,
+      "ay": 55.8,
+      "fh": 83,
+      "fw": 84,
+      "n": 6,
+      "x": 0,
+      "y": 225
+     },
+     "walk": {
+      "ax": 24.5,
+      "ay": 61.8,
+      "fh": 76,
+      "fw": 59,
+      "n": 8,
+      "x": 0,
+      "y": 308
+     },
+     "walkBack": {
+      "ax": 34.5,
+      "ay": 54.8,
+      "fh": 68,
+      "fw": 59,
+      "n": 8,
+      "x": 0,
+      "y": 384
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_hexweaver_L22.png",
+    "h": 452,
+    "outlined": true,
+    "w": 528
    },
    "anim_hogback_L04": {
     "anim": true,
@@ -1537,6 +1857,198 @@
     "outlined": true,
     "w": 464
    },
+   "anim_nightstalker_L04": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 36.0,
+      "ay": 61.8,
+      "fh": 75,
+      "fw": 70,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 33.0,
+      "ay": 62.8,
+      "fh": 75,
+      "fw": 69,
+      "n": 8,
+      "x": 0,
+      "y": 75
+     },
+     "death": {
+      "ax": 29.0,
+      "ay": 67.8,
+      "fh": 82,
+      "fw": 86,
+      "n": 6,
+      "x": 0,
+      "y": 150
+     },
+     "deathBack": {
+      "ax": 57.0,
+      "ay": 59.8,
+      "fh": 85,
+      "fw": 86,
+      "n": 6,
+      "x": 0,
+      "y": 232
+     },
+     "walk": {
+      "ax": 29.0,
+      "ay": 61.8,
+      "fh": 77,
+      "fw": 69,
+      "n": 8,
+      "x": 0,
+      "y": 317
+     },
+     "walkBack": {
+      "ax": 40.0,
+      "ay": 58.8,
+      "fh": 73,
+      "fw": 69,
+      "n": 8,
+      "x": 0,
+      "y": 394
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_nightstalker_L04.png",
+    "h": 467,
+    "outlined": true,
+    "w": 560
+   },
+   "anim_nightstalker_L13": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 35.5,
+      "ay": 67.5,
+      "fh": 81,
+      "fw": 70,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 34.5,
+      "ay": 66.5,
+      "fh": 79,
+      "fw": 70,
+      "n": 8,
+      "x": 0,
+      "y": 81
+     },
+     "death": {
+      "ax": 29.5,
+      "ay": 73.5,
+      "fh": 87,
+      "fw": 88,
+      "n": 6,
+      "x": 0,
+      "y": 160
+     },
+     "deathBack": {
+      "ax": 58.5,
+      "ay": 61.5,
+      "fh": 89,
+      "fw": 88,
+      "n": 6,
+      "x": 0,
+      "y": 247
+     },
+     "walk": {
+      "ax": 29.5,
+      "ay": 68.5,
+      "fh": 83,
+      "fw": 70,
+      "n": 8,
+      "x": 0,
+      "y": 336
+     },
+     "walkBack": {
+      "ax": 40.5,
+      "ay": 61.5,
+      "fh": 76,
+      "fw": 70,
+      "n": 8,
+      "x": 0,
+      "y": 419
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_nightstalker_L13.png",
+    "h": 495,
+    "outlined": true,
+    "w": 560
+   },
+   "anim_nightstalker_L22": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 36.0,
+      "ay": 71.1,
+      "fh": 84,
+      "fw": 71,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 35.0,
+      "ay": 68.1,
+      "fh": 80,
+      "fw": 71,
+      "n": 8,
+      "x": 0,
+      "y": 84
+     },
+     "death": {
+      "ax": 29.0,
+      "ay": 77.1,
+      "fh": 91,
+      "fw": 90,
+      "n": 6,
+      "x": 0,
+      "y": 164
+     },
+     "deathBack": {
+      "ax": 61.0,
+      "ay": 63.1,
+      "fh": 94,
+      "fw": 90,
+      "n": 6,
+      "x": 0,
+      "y": 255
+     },
+     "walk": {
+      "ax": 29.0,
+      "ay": 71.1,
+      "fh": 86,
+      "fw": 70,
+      "n": 8,
+      "x": 0,
+      "y": 349
+     },
+     "walkBack": {
+      "ax": 41.0,
+      "ay": 63.1,
+      "fh": 78,
+      "fw": 70,
+      "n": 8,
+      "x": 0,
+      "y": 435
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_nightstalker_L22.png",
+    "h": 513,
+    "outlined": true,
+    "w": 568
+   },
    "anim_prismknight_L04": {
     "anim": true,
     "clips": {
@@ -1728,6 +2240,198 @@
     "h": 359,
     "outlined": true,
     "w": 456
+   },
+   "anim_ravager_L04": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 29.0,
+      "ay": 52.8,
+      "fh": 67,
+      "fw": 66,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 37.0,
+      "ay": 52.8,
+      "fh": 64,
+      "fw": 66,
+      "n": 8,
+      "x": 0,
+      "y": 67
+     },
+     "death": {
+      "ax": 25.0,
+      "ay": 54.8,
+      "fh": 67,
+      "fw": 69,
+      "n": 6,
+      "x": 0,
+      "y": 131
+     },
+     "deathBack": {
+      "ax": 44.0,
+      "ay": 48.8,
+      "fh": 70,
+      "fw": 69,
+      "n": 6,
+      "x": 0,
+      "y": 198
+     },
+     "walk": {
+      "ax": 25.0,
+      "ay": 50.8,
+      "fh": 64,
+      "fw": 66,
+      "n": 8,
+      "x": 0,
+      "y": 268
+     },
+     "walkBack": {
+      "ax": 42.0,
+      "ay": 47.8,
+      "fh": 61,
+      "fw": 67,
+      "n": 8,
+      "x": 0,
+      "y": 332
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_ravager_L04.png",
+    "h": 393,
+    "outlined": true,
+    "w": 536
+   },
+   "anim_ravager_L13": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 27.0,
+      "ay": 54.2,
+      "fh": 68,
+      "fw": 64,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 36.0,
+      "ay": 52.2,
+      "fh": 63,
+      "fw": 63,
+      "n": 8,
+      "x": 0,
+      "y": 68
+     },
+     "death": {
+      "ax": 23.0,
+      "ay": 55.2,
+      "fh": 67,
+      "fw": 68,
+      "n": 6,
+      "x": 0,
+      "y": 131
+     },
+     "deathBack": {
+      "ax": 44.0,
+      "ay": 48.2,
+      "fh": 71,
+      "fw": 67,
+      "n": 6,
+      "x": 0,
+      "y": 198
+     },
+     "walk": {
+      "ax": 23.0,
+      "ay": 51.2,
+      "fh": 64,
+      "fw": 64,
+      "n": 8,
+      "x": 0,
+      "y": 269
+     },
+     "walkBack": {
+      "ax": 41.0,
+      "ay": 46.2,
+      "fh": 59,
+      "fw": 64,
+      "n": 8,
+      "x": 0,
+      "y": 333
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_ravager_L13.png",
+    "h": 392,
+    "outlined": true,
+    "w": 512
+   },
+   "anim_ravager_L22": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 25.5,
+      "ay": 52.5,
+      "fh": 66,
+      "fw": 61,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 35.5,
+      "ay": 51.5,
+      "fh": 63,
+      "fw": 61,
+      "n": 8,
+      "x": 0,
+      "y": 66
+     },
+     "death": {
+      "ax": 22.5,
+      "ay": 54.5,
+      "fh": 66,
+      "fw": 66,
+      "n": 6,
+      "x": 0,
+      "y": 129
+     },
+     "deathBack": {
+      "ax": 43.5,
+      "ay": 46.5,
+      "fh": 69,
+      "fw": 66,
+      "n": 6,
+      "x": 0,
+      "y": 195
+     },
+     "walk": {
+      "ax": 22.5,
+      "ay": 50.5,
+      "fh": 63,
+      "fw": 63,
+      "n": 8,
+      "x": 0,
+      "y": 264
+     },
+     "walkBack": {
+      "ax": 40.5,
+      "ay": 44.5,
+      "fh": 57,
+      "fw": 63,
+      "n": 8,
+      "x": 0,
+      "y": 327
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_ravager_L22.png",
+    "h": 384,
+    "outlined": true,
+    "w": 504
    },
    "anim_ripper_L04": {
     "anim": true,
@@ -2877,6 +3581,390 @@
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_voltaic_L22.png",
+    "h": 335,
+    "outlined": true,
+    "w": 464
+   },
+   "anim_warlock_L04": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 32.5,
+      "ay": 58.8,
+      "fh": 72,
+      "fw": 69,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 36.5,
+      "ay": 58.8,
+      "fh": 70,
+      "fw": 69,
+      "n": 8,
+      "x": 0,
+      "y": 72
+     },
+     "death": {
+      "ax": 26.5,
+      "ay": 63.8,
+      "fh": 77,
+      "fw": 88,
+      "n": 6,
+      "x": 0,
+      "y": 142
+     },
+     "deathBack": {
+      "ax": 61.5,
+      "ay": 55.8,
+      "fh": 81,
+      "fw": 88,
+      "n": 6,
+      "x": 0,
+      "y": 219
+     },
+     "walk": {
+      "ax": 25.5,
+      "ay": 58.8,
+      "fh": 73,
+      "fw": 60,
+      "n": 8,
+      "x": 0,
+      "y": 300
+     },
+     "walkBack": {
+      "ax": 34.5,
+      "ay": 55.8,
+      "fh": 70,
+      "fw": 61,
+      "n": 8,
+      "x": 0,
+      "y": 373
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_warlock_L04.png",
+    "h": 443,
+    "outlined": true,
+    "w": 552
+   },
+   "anim_warlock_L13": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 31.5,
+      "ay": 61.4,
+      "fh": 74,
+      "fw": 68,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 36.5,
+      "ay": 60.4,
+      "fh": 72,
+      "fw": 68,
+      "n": 8,
+      "x": 0,
+      "y": 74
+     },
+     "death": {
+      "ax": 25.5,
+      "ay": 67.4,
+      "fh": 81,
+      "fw": 86,
+      "n": 6,
+      "x": 0,
+      "y": 146
+     },
+     "deathBack": {
+      "ax": 60.5,
+      "ay": 56.4,
+      "fh": 82,
+      "fw": 86,
+      "n": 6,
+      "x": 0,
+      "y": 227
+     },
+     "walk": {
+      "ax": 25.5,
+      "ay": 61.4,
+      "fh": 75,
+      "fw": 60,
+      "n": 8,
+      "x": 0,
+      "y": 309
+     },
+     "walkBack": {
+      "ax": 34.5,
+      "ay": 56.4,
+      "fh": 70,
+      "fw": 60,
+      "n": 8,
+      "x": 0,
+      "y": 384
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_warlock_L13.png",
+    "h": 454,
+    "outlined": true,
+    "w": 544
+   },
+   "anim_warlock_L22": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 30.5,
+      "ay": 61.8,
+      "fh": 74,
+      "fw": 66,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 35.5,
+      "ay": 59.8,
+      "fh": 71,
+      "fw": 66,
+      "n": 8,
+      "x": 0,
+      "y": 74
+     },
+     "death": {
+      "ax": 24.5,
+      "ay": 66.8,
+      "fh": 80,
+      "fw": 84,
+      "n": 6,
+      "x": 0,
+      "y": 145
+     },
+     "deathBack": {
+      "ax": 59.5,
+      "ay": 55.8,
+      "fh": 83,
+      "fw": 84,
+      "n": 6,
+      "x": 0,
+      "y": 225
+     },
+     "walk": {
+      "ax": 24.5,
+      "ay": 61.8,
+      "fh": 76,
+      "fw": 59,
+      "n": 8,
+      "x": 0,
+      "y": 308
+     },
+     "walkBack": {
+      "ax": 34.5,
+      "ay": 54.8,
+      "fh": 68,
+      "fw": 59,
+      "n": 8,
+      "x": 0,
+      "y": 384
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_warlock_L22.png",
+    "h": 452,
+    "outlined": true,
+    "w": 528
+   },
+   "anim_witchling_L04": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 23.0,
+      "ay": 40.6,
+      "fh": 52,
+      "fw": 58,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 35.0,
+      "ay": 40.6,
+      "fh": 52,
+      "fw": 58,
+      "n": 8,
+      "x": 0,
+      "y": 52
+     },
+     "death": {
+      "ax": 18.0,
+      "ay": 44.6,
+      "fh": 63,
+      "fw": 54,
+      "n": 6,
+      "x": 0,
+      "y": 104
+     },
+     "deathBack": {
+      "ax": 36.0,
+      "ay": 40.6,
+      "fh": 61,
+      "fw": 54,
+      "n": 6,
+      "x": 0,
+      "y": 167
+     },
+     "walk": {
+      "ax": 18.0,
+      "ay": 40.6,
+      "fh": 53,
+      "fw": 51,
+      "n": 8,
+      "x": 0,
+      "y": 228
+     },
+     "walkBack": {
+      "ax": 33.0,
+      "ay": 40.6,
+      "fh": 53,
+      "fw": 51,
+      "n": 8,
+      "x": 0,
+      "y": 281
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_witchling_L04.png",
+    "h": 334,
+    "outlined": true,
+    "w": 464
+   },
+   "anim_witchling_L13": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 23.0,
+      "ay": 40.6,
+      "fh": 52,
+      "fw": 58,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 35.0,
+      "ay": 40.6,
+      "fh": 52,
+      "fw": 58,
+      "n": 8,
+      "x": 0,
+      "y": 52
+     },
+     "death": {
+      "ax": 18.0,
+      "ay": 44.6,
+      "fh": 63,
+      "fw": 56,
+      "n": 6,
+      "x": 0,
+      "y": 104
+     },
+     "deathBack": {
+      "ax": 38.0,
+      "ay": 40.6,
+      "fh": 62,
+      "fw": 56,
+      "n": 6,
+      "x": 0,
+      "y": 167
+     },
+     "walk": {
+      "ax": 18.0,
+      "ay": 40.6,
+      "fh": 53,
+      "fw": 52,
+      "n": 8,
+      "x": 0,
+      "y": 229
+     },
+     "walkBack": {
+      "ax": 34.0,
+      "ay": 40.6,
+      "fh": 53,
+      "fw": 52,
+      "n": 8,
+      "x": 0,
+      "y": 282
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_witchling_L13.png",
+    "h": 335,
+    "outlined": true,
+    "w": 464
+   },
+   "anim_witchling_L22": {
+    "anim": true,
+    "clips": {
+     "attack": {
+      "ax": 23.0,
+      "ay": 40.6,
+      "fh": 52,
+      "fw": 58,
+      "n": 8,
+      "x": 0,
+      "y": 0
+     },
+     "attackBack": {
+      "ax": 35.0,
+      "ay": 40.6,
+      "fh": 52,
+      "fw": 58,
+      "n": 8,
+      "x": 0,
+      "y": 52
+     },
+     "death": {
+      "ax": 18.0,
+      "ay": 44.6,
+      "fh": 63,
+      "fw": 56,
+      "n": 6,
+      "x": 0,
+      "y": 104
+     },
+     "deathBack": {
+      "ax": 38.0,
+      "ay": 40.6,
+      "fh": 62,
+      "fw": 56,
+      "n": 6,
+      "x": 0,
+      "y": 167
+     },
+     "walk": {
+      "ax": 18.0,
+      "ay": 40.6,
+      "fh": 53,
+      "fw": 52,
+      "n": 8,
+      "x": 0,
+      "y": 229
+     },
+     "walkBack": {
+      "ax": 34.0,
+      "ay": 40.6,
+      "fh": 53,
+      "fw": 52,
+      "n": 8,
+      "x": 0,
+      "y": 282
+     }
+    },
+    "drawnShadow": true,
+    "file": "assets/sprites/anim_witchling_L22.png",
     "h": 335,
     "outlined": true,
     "w": 464
