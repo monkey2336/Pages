@@ -98,10 +98,67 @@
     return true;
   }
 
-  function drawShadow(ctx, view, gx, gy, size) {
+  /* ---------------------------------------------------------- animation */
+  // Animated troops ship as one atlas per troop: a row per clip, a column per
+  // frame, and a rect in the manifest saying where each row sits and where the
+  // troop's feet are inside a cell.
+  //
+  // Only two facings are rendered -- towards the camera and away from it --
+  // and each is mirrored at draw time, which covers the four diagonals an
+  // isometric board moves along for half the art. The unmirrored front sprite
+  // walks down-left and the unmirrored back sprite walks up-right, so a
+  // heading needs mirroring whenever it runs against its own clip's grain.
+  var CLIP_SECONDS = { walk: 0.72, attack: 0.55, death: 0.6 };
+  var DEATH_LINGER = 1.4;        // seconds a body stays before it fades out
+
+  function troopLevel(t) {
+    return t.lvl || 1;
+  }
+
+  function animState(t) {
+    var dx = (t.faceX - t.faceY), dy = (t.faceX + t.faceY);   // screen-ish
+    var back = dy < 0;
+    var mirror = (dx > 0) !== back;
+    var strip = t.dead ? 'death' : (t.swinging ? 'attack' : 'walk');
+    var elapsed = t.dead ? t.deathT : t.animT;
+    return { clip: strip + (back ? 'Back' : ''), strip: strip,
+             mirror: mirror, elapsed: elapsed };
+  }
+
+  function drawAnim(ctx, view, sheet, t, opts) {
+    var sp = SP.get(sheet);
+    if (!sp || !sp.clips) return false;
+    var im = img(sheet);
+    if (!im || !im.complete || !im.naturalWidth) return false;
+    var st = animState(t);
+    var c = sp.clips[st.clip] || sp.clips[st.strip];
+    if (!c) return false;
+
+    var span = CLIP_SECONDS[st.strip] || 0.7;
+    var i;
+    if (st.strip === 'death') {
+      // A death plays once and holds its last pose while the body fades.
+      i = Math.min(c.n - 1, Math.floor(st.elapsed / span * c.n));
+    } else {
+      i = Math.floor(st.elapsed / span * c.n) % c.n;
+    }
+
+    var p = project(view, t.x, t.y);
+    var w = c.fw * view.scale, h = c.fh * view.scale;
+    var ax = (st.mirror ? c.fw - c.ax : c.ax) * view.scale;
+    ctx.save();
+    if (opts && opts.alpha != null) ctx.globalAlpha = opts.alpha;
+    ctx.translate(p.x - ax, p.y - c.ay * view.scale);
+    if (st.mirror) { ctx.translate(w, 0); ctx.scale(-1, 1); }
+    ctx.drawImage(im, c.x + i * c.fw, c.y, c.fw, c.fh, 0, 0, w, h);
+    ctx.restore();
+    return true;
+  }
+
+  function drawShadow(ctx, view, gx, gy, size, alpha) {
     var c = project(view, gx, gy);
     ctx.save();
-    ctx.globalAlpha = 0.3;
+    ctx.globalAlpha = 0.3 * (alpha == null ? 1 : alpha);
     ctx.fillStyle = '#000';
     ctx.beginPath();
     ctx.ellipse(c.x, c.y, size * TILE_W * 0.36 * view.scale, size * TILE_H * 0.36 * view.scale, 0, 0, Math.PI * 2);
@@ -136,7 +193,9 @@
       items.push({ z: o.x + o.y + o.size, kind: 'building', o: o });
     });
     b.troops.forEach(function (t) {
-      if (t.dead) return;
+      // The dead stay on the field long enough to fall over. Past that they
+      // are gone, so a long raid does not end up paved with bodies.
+      if (t.dead && t.deathT > DEATH_LINGER) return;
       items.push({ z: t.x + t.y, kind: 'troop', o: t });
     });
     items.sort(function (a, c) { return a.z - c.z; });
@@ -179,16 +238,21 @@
         }
         healthBar(ctx, view, o.x + o.size / 2, o.y + o.size / 2, o.hp / o.maxHp, o.size * 20, '#7ee08a');
       } else {
-        var tk = o.hero ? SP.heroKey(o.key, 1) : SP.unitKey(o.key, 1);
-        drawShadow(ctx, view, o.x, o.y, 0.6);
-        if (!drawSprite(ctx, view, tk, o.x - 0.5, o.y - 0.5, 1, { alpha: o.spawn < 0.25 ? o.spawn / 0.25 : 1 })) {
-          var tc = project(view, o.x, o.y);
-          ctx.fillStyle = (G.troopData[o.key] || {}).tint || '#fff';
-          ctx.beginPath();
-          ctx.arc(tc.x, tc.y - 8 * view.scale, 7 * view.scale, 0, Math.PI * 2);
-          ctx.fill();
+        var lvl = troopLevel(o);
+        var fade = o.dead ? Math.max(0, 1 - o.deathT / DEATH_LINGER) : 1;
+        var alpha = Math.min(fade, o.spawn < 0.25 ? o.spawn / 0.25 : 1);
+        drawShadow(ctx, view, o.x, o.y, 0.6, alpha);
+        if (!drawAnim(ctx, view, SP.animKey(o.key, lvl), o, { alpha: alpha })) {
+          var tk = o.hero ? SP.heroKey(o.key, lvl) : SP.unitKey(o.key, lvl);
+          if (!drawSprite(ctx, view, tk, o.x - 0.5, o.y - 0.5, 1, { alpha: alpha })) {
+            var tc = project(view, o.x, o.y);
+            ctx.fillStyle = (G.troopData[o.key] || {}).tint || '#fff';
+            ctx.beginPath();
+            ctx.arc(tc.x, tc.y - 8 * view.scale, 7 * view.scale, 0, Math.PI * 2);
+            ctx.fill();
+          }
         }
-        healthBar(ctx, view, o.x, o.y, o.hp / o.maxHp, 22, '#8fd8ff');
+        if (!o.dead) healthBar(ctx, view, o.x, o.y, o.hp / o.maxHp, 22, '#8fd8ff');
       }
     });
 

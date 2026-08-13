@@ -18,7 +18,7 @@ import sys
 import argparse
 
 import bpy
-from mathutils import Vector
+from mathutils import Euler, Matrix, Vector
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(ROOT, 'assets', 'sprites')
@@ -180,6 +180,8 @@ def material(color, rough=0.6, metallic=0.0, emission=0.0):
 
 
 def _finish(obj, color, bevel=0.03, rough=0.6, metallic=0.0, emission=0.0, smooth=False):
+    if BIND[0]:
+        obj['bind'] = BIND[0]
     obj.data.materials.append(material(color, rough, metallic, emission))
     if bevel > 0:
         m = obj.modifiers.new('bev', 'BEVEL')
@@ -858,6 +860,28 @@ CUR_LEVEL = [1]
 
 def L():
     return CUR_LEVEL[0]
+
+
+# ------------------------------------------------------------ rigging tags
+# Troops can be built in two poses. The normal one is a relaxed standing pose
+# for icons and the village. The rigged one is a T-pose that matches the
+# KayKit skeleton's rest pose, so render_troops_anim.py can bone-parent each
+# part and play a real walk or attack cycle through it.
+#
+# BIND names the bone the next primitive belongs to. It is written onto the
+# object as a custom property and ignored by every other render, so tagging
+# costs nothing when animation is not being built.
+
+BIND = [None]
+RIGGED = [False]
+
+
+def bind(name):
+    BIND[0] = name
+
+
+def rigged():
+    return RIGGED[0]
 
 
 def level_look(table, level):
@@ -2163,10 +2187,35 @@ def troop_base(T):
         torus(0.39, 0.014, (0, 0, 0.07), T['trim'], metallic=0.7, rough=0.3)
 
 
+# Weapons are modelled pointing up (+z) from the fist. When the figure is
+# built in the skeleton's T-pose the fist faces out along the arm instead, so
+# the whole weapon is turned about the grip by this much before it is bound to
+# the hand. Set by render_troops_anim.py; zero for ordinary icon renders.
+WEAPON_ROT = [(0.0, 0.0, 0.0)]
+
+
 def weapon(kind, T, tint, hand=(0.42, -0.14, 0.6)):
     """The hand-held silhouette, held out to the side of the body so it reads
     at icon size instead of merging with the head. Scale creeps up with the
     level, so a maxed troop is visibly better armed than a fresh one."""
+    if any(WEAPON_ROT[0]):
+        before = set(bpy.context.scene.objects)
+        _weapon(kind, T, tint, hand)
+        # matrix_world is only recomputed on a depsgraph update. Reading it
+        # straight after building leaves the most recent object reporting the
+        # scale it had at creation, and writing that back flattens it.
+        bpy.context.view_layer.update()
+        pivot = Vector(hand)
+        rot = Euler(WEAPON_ROT[0], 'XYZ').to_matrix().to_4x4()
+        turn = Matrix.Translation(pivot) @ rot @ Matrix.Translation(-pivot)
+        for o in bpy.context.scene.objects:
+            if o not in before and o.type == 'MESH':
+                o.matrix_world = turn @ o.matrix_world
+        return
+    _weapon(kind, T, tint, hand)
+
+
+def _weapon(kind, T, tint, hand):
     lv = L()
     g = 1.0 + lv * 0.012
     x, y, z = hand
@@ -2415,6 +2464,161 @@ def build_unit(tint, kind, T, tier, hero=False, art=''):
             a = math.radians(i * 72)
             sphere(0.045, (math.cos(a) * 0.3, math.sin(a) * 0.3, 1.34), T['accent'],
                    emission=1.7)
+
+
+# ------------------------------------------------------- rigged troop body
+# The same troop, rebuilt in the skeleton's rest pose so it can be animated.
+#
+# Two things have to line up for bone-parenting to work. The figure has to
+# stand in a T-pose, because that is the pose the clips were authored against
+# and any difference is applied on top of every frame. And each limb has to be
+# split at the joints the skeleton bends at, or a walk cycle swings a rigid
+# peg from the hip. Everything below is in our own units; the animation pass
+# scales the whole figure by RIG_SCALE to land on the skeleton.
+
+RIG_SCALE = 1.31        # our 1.14-tall troop -> the rig's 1.49
+
+# Joint positions, rig space divided by RIG_SCALE.
+J = {
+    'hip_z': 0.396, 'knee_z': 0.223, 'ankle_z': 0.111, 'leg_x': 0.131,
+    'shoulder_z': 0.845, 'shoulder_x': 0.162, 'elbow_x': 0.347,
+    'wrist_x': 0.545, 'hand_x': 0.601, 'chest_z': 0.743, 'head_z': 1.02,
+}
+
+
+def side(sx):
+    """+x is the skeleton's left."""
+    return '.l' if sx > 0 else '.r'
+
+
+def rig_legs(tint, T, lv):
+    """Thigh, shin and boot, split at the knee and ankle."""
+    for sx in (-1, 1):
+        s = side(sx)
+        bind('upperleg' + s)
+        cyl(0.10, J['hip_z'] - J['knee_z'] + 0.04,
+            (sx * J['leg_x'], 0, (J['hip_z'] + J['knee_z']) / 2), shade(tint, 0.72), verts=10)
+        bind('lowerleg' + s)
+        cyl(0.088, J['knee_z'] - J['ankle_z'] + 0.04,
+            (sx * J['leg_x'], 0, (J['knee_z'] + J['ankle_z']) / 2), shade(tint, 0.76), verts=10)
+        bind('foot' + s)
+        box(0.18, 0.26, 0.1, (sx * J['leg_x'], -0.05, 0.055), T['metalDark'],
+            metallic=0.45, rough=0.5, bevel=0.02)
+
+
+def rig_arms(tint, T, lv):
+    """Upper arm, forearm and fist, laid out along the arm axis."""
+    for sx in (-1, 1):
+        s = side(sx)
+        bind('upperarm' + s)
+        sphere(0.115, (sx * (J['shoulder_x'] + 0.02), 0, J['shoulder_z'] + 0.01),
+               T['metalDark'], metallic=0.55, rough=0.38)
+        cyl(0.078, J['elbow_x'] - J['shoulder_x'] + 0.04,
+            (sx * (J['shoulder_x'] + J['elbow_x']) / 2, 0, J['shoulder_z']),
+            shade(tint, 0.9), verts=10, rot=(0, math.radians(90), 0))
+        if lv >= 11:
+            cone(0.06, 0, 0.13, (sx * (J['shoulder_x'] + 0.02), 0, J['shoulder_z'] + 0.12),
+                 T['trim'], verts=6, rot=(0, math.radians(sx * 22), 0),
+                 metallic=0.7, rough=0.3)
+        bind('lowerarm' + s)
+        cyl(0.07, J['wrist_x'] - J['elbow_x'] + 0.03,
+            (sx * (J['elbow_x'] + J['wrist_x']) / 2, 0, J['shoulder_z']),
+            shade(tint, 0.86), verts=10, rot=(0, math.radians(90), 0))
+        bind('hand' + s)
+        sphere(0.075, (sx * J['hand_x'], 0, J['shoulder_z']), shade(tint, 0.7))
+
+
+def rig_shield(T, lv):
+    """Round shield strapped to the off hand, facing out along the arm."""
+    bind('lowerarm.r')
+    x = -(J['wrist_x'] - 0.03)
+    cyl(0.18, 0.05, (x, -0.02, J['shoulder_z']), T['metal'], verts=16,
+        rot=(math.radians(90), 0, 0), metallic=0.6, rough=0.38)
+    cyl(0.12, 0.03, (x, -0.06, J['shoulder_z']), T['trim'], verts=16,
+        rot=(math.radians(90), 0, 0), metallic=0.7, rough=0.3)
+    sphere(0.055, (x, -0.09, J['shoulder_z']), shade(T['metal'], 1.25),
+           metallic=0.8, rough=0.2)
+    if lv >= 20:
+        sphere(0.035, (x, -0.1, J['shoulder_z'] + 0.11), T['accent'], emission=1.8)
+
+
+def unit_body_rigged(tint, kind, T, tier, art=''):
+    """The troop kit again, in T-pose, with every part tagged with its bone."""
+    lv = L()
+    skin = '#e8c9a0'
+    metal, trim = T['metal'], T['trim']
+    hand = (J['hand_x'], 0, J['shoulder_z'])
+
+    if kind == 'caster':
+        # Robed: the skirt is one piece hung off the hips, so it glides rather
+        # than splitting at knees it does not have.
+        bind('hips')
+        cone(0.36, 0.14, 0.8, (0, 0, 0.44), tint, verts=18)
+        for i in range(1 + lv // 7):
+            cyl(0.34 - i * 0.03, 0.035, (0, 0, 0.14 + i * 0.1), shade(tint, 0.82), verts=18)
+        bind('chest')
+        box(0.16, 0.06, 0.34, (0, -0.2, 0.78), T['cloth'], bevel=0.02)     # stole
+        rig_arms(tint, T, lv)
+        bind('head')
+        sphere(0.19, (0, 0, J['head_z']), skin)
+        cone(0.26, 0.02, 0.42, (0, 0.02, J['head_z'] + 0.22), shade(tint, 0.76), verts=16)
+        bind('hand.l')
+        cyl(0.03, 1.1, (J['hand_x'], 0, J['shoulder_z']), T['wood'], verts=8)
+        sphere(0.1, (J['hand_x'], 0, J['shoulder_z'] + 0.58), T['accent'], emission=2.2)
+        if lv >= 12:
+            torus(0.15, 0.018, (J['hand_x'], 0, J['shoulder_z'] + 0.58), trim,
+                  emission=1.6, rough=0.3)
+        bind(None)
+        return
+
+    heavy = kind == 'giant'
+    girth = 1.34 if heavy else 1.0
+
+    rig_legs(tint, T, lv)
+    bind('hips')
+    box(0.42 * girth, 0.3, 0.22, (0, 0, 0.5), tint, bevel=0.04)
+    box(0.45 * girth, 0.33, 0.08, (0, 0, 0.44), T['cloth'], bevel=0.02)     # belt
+    bind('chest')
+    box(0.46 * girth, 0.32, 0.32, (0, 0, 0.76), tint, bevel=0.04)
+    box(0.14, 0.34, 0.28, (0, -0.02, 0.74), T['cloth'], bevel=0.02)         # tabard
+    if lv >= 6:
+        box(0.4 * girth, 0.1, 0.24, (0, -0.18, 0.78), metal,
+            metallic=0.6, rough=0.34, bevel=0.03)
+    if lv >= 9:
+        box(0.3 * girth, 0.05, 0.4, (0, 0.19, 0.7), T['cloth'], bevel=0.03)  # cloak
+        box(0.36 * girth, 0.05, 0.07, (0, 0.18, 0.9), shade(T['cloth'], 0.78), bevel=0.02)
+    if lv >= 17:
+        for sx in (-1, 1):
+            sphere(0.035, (sx * 0.14, -0.19, 0.66), T['accent'], emission=1.9)
+
+    rig_arms(tint, T, lv)
+
+    bind('head')
+    sphere(0.185, (0, 0, J['head_z']), skin)
+    if lv <= 2:
+        cone(0.22, 0.06, 0.16, (0, 0, J['head_z'] + 0.12), shade(tint, 1.2), verts=14)
+    else:
+        # helmet() is authored around z = 1.0; the rigged head sits at the
+        # same height, so it drops straight in.
+        helmet(T, tint, shade(tint, 1.25))
+
+    if lv >= 5 and not heavy:
+        rig_shield(T, lv)
+    bind('hand.l')
+    weapon(WEAPONS.get(art, 'fist' if heavy else 'sword'), T, tint, hand=hand)
+    bind(None)
+
+
+def build_unit_rigged(tint, kind, T, tier, hero=False, art=''):
+    unit_body_rigged(tint, kind, T, tier, art)
+    if hero:
+        bind('head')
+        torus(0.3, 0.03, (0, 0, J['head_z'] + 0.32), T['trim'], emission=1.6, rough=0.3)
+        for i in range(5):
+            a = math.radians(i * 72)
+            sphere(0.045, (math.cos(a) * 0.3, math.sin(a) * 0.3, J['head_z'] + 0.32),
+                   T['accent'], emission=1.7)
+        bind(None)
 
 
 def build_siege_unit(T, tier):

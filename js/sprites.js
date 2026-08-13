@@ -61,6 +61,22 @@
       G.HERO_ART_SPAN || 25);
   }
 
+  /* Animation sheets exist for a handful of levels rather than all of them --
+     a walk cycle at every troop level would be forty times the art for a
+     difference nobody can see on a moving 40px figure. This picks the nearest
+     rendered level, so the material era still tracks the troop's rank. */
+  function animKey(uKey, level) {
+    var want = Math.max(1, Math.round(level || 1));
+    var best = null, bestGap = Infinity;
+    for (var l = 1; l <= 30; l++) {
+      var k = 'anim_' + uKey + '_L' + pad2(l);
+      if (!M[k]) continue;
+      var gap = Math.abs(l - want);
+      if (gap < bestGap) { bestGap = gap; best = k; }
+    }
+    return best;
+  }
+
   /* A plain <img> sized to a given height, for cards and lists. */
   function img(name, px, alt, extraClass) {
     var s = M[name];
@@ -117,6 +133,7 @@
     wallKey: wallKey,
     unitKey: unitKey,
     heroKey: heroKey,
+    animKey: animKey,
     img: img,
     stageSprite: stageSprite,
     tileCentre: tileCentre,

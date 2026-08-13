@@ -187,3 +187,11 @@ tools/                   Blender renderer and data export
 Screens register themselves with `G.ui.register()`, so adding one is a single
 file; the engine never touches the DOM and the UI never mutates state except
 through `G.engine`.
+
+## Credits
+
+Troop animation uses the **KayKit Character Animations** skeleton and clips by
+[Kay Lousberg](https://www.kaylousberg.com), released under Creative Commons
+Zero (CC0). Only the rig and the motion are used — every visible surface is
+procedural geometry rendered by `tools/render_sprites.py`. Source files and the
+licence are in `assets/source/kaykit/`.

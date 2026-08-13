@@ -216,6 +216,16 @@
     return Math.sqrt(dx * dx + dy * dy);
   }
 
+  /* Remember which way a troop is pointing. Kept as a unit vector in grid
+     space so the renderer can work out the facing without re-deriving it from
+     positions that have already moved on. */
+  function face(t, dx, dy) {
+    var len = Math.hypot(dx, dy);
+    if (len < 1e-4) return;
+    t.faceX = dx / len;
+    t.faceY = dy / len;
+  }
+
   // What a troop wants to hit. Falls back to anything once its preference is
   // gone, which is what stops an army standing still at the end of a raid.
   function pickTarget(b, t) {
@@ -268,7 +278,7 @@
       if (b.hand[key] <= 0) delete b.hand[key];
     }
     var d = isHero ? G.heroData[key] : G.troopData[key];
-    var lvl = isHero ? 1 : 1;
+    var lvl = 1;
     var hp = (d.hp || 200) * TUNE.hp;
     var dps = (d.dps || 20) * TUNE.dps;
     if (!isHero) {
@@ -277,23 +287,29 @@
       // steeper curve to arrive in the same place, or a maxed army at Town
       // Hall 30 walks into a base five times its weight.
       var r = (G.state && G.state.research && G.state.research[key]) || 1;
+      lvl = r;
       hp *= Math.pow(TUNE.growth, r - 1);
       dps *= Math.pow(TUNE.growth, r - 1);
     } else {
       var hs = G.state && G.state.heroes && G.state.heroes[key];
       var hl = hs ? hs.level : 1;
+      lvl = hl;
       hp = 800 * TUNE.hp * Math.pow(1.035, hl - 1);
       dps = 60 * TUNE.dps * Math.pow(1.035, hl - 1);
     }
     b.troops.push({
-      key: key, hero: !!isHero, x: x, y: y,
+      key: key, hero: !!isHero, x: x, y: y, lvl: lvl,
       hp: hp, maxHp: hp, dps: dps,
       speed: (d.speed || 16) / 16 * 1.1,        // tiles per second
       air: !!d.air, jumpsWalls: !!d.jumpsWalls,
       prefers: d.prefers || 'any',
       targets: d.targets || 'ground',
       heal: d.heal || 0,
-      target: null, hitTimer: 0, dead: false, spawn: 0
+      target: null, hitTimer: 0, dead: false, spawn: 0,
+      // Animation bookkeeping. The simulation owns it because only the
+      // simulation knows whether a troop is walking or swinging; the renderer
+      // just reads it. faceX/faceY is the heading in grid units.
+      animT: 0, swinging: false, deathT: 0, faceX: 0, faceY: 1
     });
     b.started = true;
     addEffect(b, 'spawn', x, y, { ttl: 0.5 });
@@ -310,7 +326,9 @@
     // ---- troops
     for (i = 0; i < b.troops.length; i++) {
       var t = b.troops[i];
-      if (t.dead) continue;
+      if (t.dead) { t.deathT += dt; continue; }
+      t.animT += dt;
+      t.swinging = false;
       t.spawn += dt;
       if (t.spawn < 0.25) continue;             // brief drop-in
 
@@ -325,6 +343,7 @@
         if (friend) {
           friend.hp = Math.min(friend.maxHp, friend.hp + t.heal * dt);
           if (fd > 2) {
+            face(t, friend.x - t.x, friend.y - t.y);
             t.x += (friend.x - t.x) / fd * t.speed * dt;
             t.y += (friend.y - t.y) / fd * t.speed * dt;
           }
@@ -348,12 +367,15 @@
         }
         if (aim !== c) {
           var ad = dist(t.x, t.y, aim.x, aim.y) || 1;
+          face(t, aim.x - t.x, aim.y - t.y);
           t.x += (aim.x - t.x) / ad * t.speed * dt;
           t.y += (aim.y - t.y) / ad * t.speed * dt;
           continue;
         }
         var wall = wallBlocking(b, t, c.x, c.y);
         if (wall) {
+          t.swinging = true;
+          face(t, wall.x + 0.5 - t.x, wall.y + 0.5 - t.y);
           wall.hp -= t.dps * dt;
           t.hitTimer -= dt;
           if (t.hitTimer <= 0) { addEffect(b, 'hit', wall.x + 0.5, wall.y + 0.5); t.hitTimer = 0.35; }
@@ -365,9 +387,12 @@
           }
           continue;
         }
+        face(t, c.x - t.x, c.y - t.y);
         t.x += (c.x - t.x) / d * t.speed * dt;
         t.y += (c.y - t.y) / d * t.speed * dt;
       } else {
+        t.swinging = true;
+        face(t, c.x - t.x, c.y - t.y);
         t.target.hp -= t.dps * dt;
         t.hitTimer -= dt;
         if (t.hitTimer <= 0) { addEffect(b, 'hit', c.x, c.y); t.hitTimer = 0.35; }
@@ -421,6 +446,7 @@
           v.hp -= sh.dmg * (sh.splash ? 1 : 1);
           if (v.hp <= 0) {
             v.dead = true;
+            v.deathT = 0;
             addEffect(b, 'death', v.x, v.y, { ttl: 0.5 });
           }
         }
