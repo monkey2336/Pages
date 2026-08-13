@@ -95,7 +95,12 @@
         key: o.key, level: o.level, x: o.x, y: o.y, size: st.size,
         hp: st.hp, maxHp: st.hp, dps: st.dps, range: st.range,
         targets: st.targets, splash: st.splash, cat: st.cat,
-        cooldown: 0, dead: false
+        cooldown: 0, dead: false,
+        // Reaction timers, all "seconds since". The renderer reads them to
+        // kick a barrel back when it fires, flash the sprite when it is hit
+        // and collapse it when it dies; the simulation is what knows when
+        // those things happened.
+        fireT: 99, hitT: 99, deadT: 0, aimX: 0, aimY: -1
       });
       b.bounds.minX = Math.min(b.bounds.minX, o.x);
       b.bounds.minY = Math.min(b.bounds.minY, o.y);
@@ -103,7 +108,7 @@
       b.bounds.maxY = Math.max(b.bounds.maxY, o.y + st.size);
     });
     base.walls.forEach(function (w) {
-      b.walls.push({ x: w.x, y: w.y, level: w.level, dead: false,
+      b.walls.push({ x: w.x, y: w.y, level: w.level, dead: false, hitT: 99,
                      hp: Math.round(300 * Math.pow(1.18, w.level - 1)),
                      maxHp: Math.round(300 * Math.pow(1.18, w.level - 1)) });
     });
@@ -378,7 +383,11 @@
           face(t, wall.x + 0.5 - t.x, wall.y + 0.5 - t.y);
           wall.hp -= t.dps * dt;
           t.hitTimer -= dt;
-          if (t.hitTimer <= 0) { addEffect(b, 'hit', wall.x + 0.5, wall.y + 0.5); t.hitTimer = 0.35; }
+          if (t.hitTimer <= 0) {
+            addEffect(b, 'hit', wall.x + 0.5, wall.y + 0.5);
+            wall.hitT = 0;
+            t.hitTimer = 0.35;
+          }
           if (wall.hp <= 0) {
             wall.dead = true;
             b.wallEpoch++;
@@ -395,9 +404,14 @@
         face(t, c.x - t.x, c.y - t.y);
         t.target.hp -= t.dps * dt;
         t.hitTimer -= dt;
-        if (t.hitTimer <= 0) { addEffect(b, 'hit', c.x, c.y); t.hitTimer = 0.35; }
+        if (t.hitTimer <= 0) {
+          addEffect(b, 'hit', c.x, c.y);
+          t.target.hitT = 0;
+          t.hitTimer = 0.35;
+        }
         if (t.target.hp <= 0 && !t.target.dead) {
           t.target.dead = true;
+          t.target.deadT = 0;
           b.destroyedCount++;
           if (t.target.key === 'townhall') b.thDestroyed = true;
           addEffect(b, 'boom', c.x, c.y, { ttl: 0.75, big: true });
@@ -424,6 +438,9 @@
       }
       if (!victim) continue;
       g.cooldown = 0.8;
+      g.fireT = 0;
+      g.aimX = victim.x - gc.x;
+      g.aimY = victim.y - gc.y;
       b.shots.push({
         x: gc.x, y: gc.y, tx: victim.x, ty: victim.y,
         t: 0, dur: Math.max(0.12, vd / 14),
@@ -453,6 +470,14 @@
       }
       b.shots.splice(i, 1);
     }
+
+    // ---- reaction timers
+    for (i = 0; i < b.buildings.length; i++) {
+      var rb = b.buildings[i];
+      rb.fireT += dt; rb.hitT += dt;
+      if (rb.dead) rb.deadT += dt;
+    }
+    for (i = 0; i < b.walls.length; i++) b.walls[i].hitT += dt;
 
     // ---- effects age out
     for (i = b.effects.length - 1; i >= 0; i--) {

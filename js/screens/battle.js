@@ -93,9 +93,48 @@
     if (opts && opts.flash) {
       ctx.filter = 'brightness(' + (1 + opts.flash * 1.6) + ')';
     }
+    if (opts && (opts.dx || opts.dy)) {
+      ctx.translate((opts.dx || 0) * view.scale, (opts.dy || 0) * view.scale);
+    }
+    if (opts && opts.squash != null && opts.squash !== 1) {
+      // Squash about the sprite's own footing, so a collapsing building sinks
+      // into its base instead of shrinking towards the middle of its image.
+      ctx.translate(c.x, c.y);
+      ctx.scale(1, opts.squash);
+      ctx.translate(-c.x, -c.y);
+    }
     ctx.drawImage(im, x, y, w, h);
     ctx.restore();
     return true;
+  }
+
+  /* ------------------------------------------------- building reactions */
+  // A defense that fires without moving reads as a prop with a light on it.
+  // None of this needs new art: the sprite is kicked back along its line of
+  // fire, brightened when something hits it, and squashed into the ground
+  // when it dies. It costs one transform and applies to every building at
+  // every level, which re-rendering forty buildings across thirty levels
+  // never could.
+  var RECOIL_TIME = 0.2, HIT_TIME = 0.16, COLLAPSE_TIME = 0.45;
+
+  function recoilOf(o) {
+    var f = 1 - Math.min(1, o.fireT / RECOIL_TIME);
+    if (f <= 0) return null;
+    var sx = (o.aimX - o.aimY), sy = (o.aimX + o.aimY) / 2;
+    var len = Math.hypot(sx, sy) || 1;
+    var kick = f * f * 6;
+    return { dx: -sx / len * kick, dy: -sy / len * kick };
+  }
+
+  function buildingOpts(o) {
+    var opts = { flash: Math.max(0, 1 - o.hitT / HIT_TIME) * 0.55 };
+    var r = recoilOf(o);
+    if (r) { opts.dx = r.dx; opts.dy = r.dy; }
+    // A muzzle flash is worth more than the recoil is, so it gets its own
+    // brief lift on top of whatever the hit flash is doing.
+    var mf = Math.max(0, 1 - o.fireT / 0.1);
+    if (mf > 0) opts.flash = Math.max(opts.flash, mf * 0.5);
+    return opts;
   }
 
   /* ---------------------------------------------------------- animation */
@@ -203,13 +242,28 @@
     items.forEach(function (it) {
       var o = it.o;
       if (it.kind === 'wall') {
-        if (!drawSprite(ctx, view, SP.wallKey(o.level), o.x, o.y, 1)) {
+        if (!drawSprite(ctx, view, SP.wallKey(o.level), o.x, o.y, 1,
+              { flash: Math.max(0, 1 - o.hitT / HIT_TIME) * 0.5 })) {
           var c = project(view, o.x + 0.5, o.y + 0.5);
           ctx.fillStyle = G.WALL.skin(o.level).fill;
           ctx.fillRect(c.x - 12 * view.scale, c.y - 16 * view.scale, 24 * view.scale, 20 * view.scale);
         }
         healthBar(ctx, view, o.x + 0.5, o.y + 0.5, o.hp / o.maxHp, 26, '#ff6b6b');
       } else if (it.kind === 'building') {
+        if (o.dead && o.deadT < COLLAPSE_TIME) {
+          // Coming down: the building sinks into its own footprint and fades
+          // as the rubble takes over, rather than being swapped for it.
+          var cf = o.deadT / COLLAPSE_TIME;
+          var cname = o.key === 'townhall' ? SP.townHallKey(o.level) : SP.buildingKey(o.key, o.level);
+          drawShadow(ctx, view, o.x + o.size / 2, o.y + o.size / 2, o.size, 1 - cf);
+          drawSprite(ctx, view, cname, o.x, o.y, o.size, {
+            alpha: 1 - cf * 0.85,
+            squash: 1 - cf * 0.7,
+            flash: (1 - cf) * 0.4,
+            dx: Math.sin(o.deadT * 60) * (1 - cf) * 2
+          });
+          return;
+        }
         if (o.dead) {
           // rubble
           var rc = project(view, o.x + o.size / 2, o.y + o.size / 2);
@@ -230,8 +284,7 @@
         }
         drawShadow(ctx, view, o.x + o.size / 2, o.y + o.size / 2, o.size);
         var name = o.key === 'townhall' ? SP.townHallKey(o.level) : SP.buildingKey(o.key, o.level);
-        var hurt = 1 - o.hp / o.maxHp;
-        if (!drawSprite(ctx, view, name, o.x, o.y, o.size, { flash: hurt > 0.02 ? 0 : 0 })) {
+        if (!drawSprite(ctx, view, name, o.x, o.y, o.size, buildingOpts(o))) {
           var bc = project(view, o.x + o.size / 2, o.y + o.size / 2);
           ctx.fillStyle = '#8b8378';
           ctx.fillRect(bc.x - 18 * view.scale, bc.y - 26 * view.scale, 36 * view.scale, 30 * view.scale);
@@ -536,6 +589,9 @@
 
   G.startBattle = function (target) {
     live = G.battle.create(G.state, target);
+    // Handle on the running fight, the way G.state is a handle on the save.
+    // The moderator panel and the test harness both need to reach in.
+    G.liveBattle = live;
     picked = null;
     pickedHero = false;
     speed = 1;
