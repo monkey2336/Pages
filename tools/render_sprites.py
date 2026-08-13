@@ -2236,8 +2236,118 @@ def weapon(kind, T, tint, hand=(0.42, -0.14, 0.6)):
     _weapon(kind, T, tint, hand)
 
 
+# Modelled weapons from the KayKit Adventurers pack (CC0). They are authored
+# with the grip on the origin and the blade running up +z, which is the same
+# convention the procedural ones were built to, so they drop straight into the
+# fist. Only the kinds the pack actually covers are listed -- it has no club,
+# hammer, spear, lance or standard, and those keep their procedural build
+# rather than being forced onto a model that is not one.
+#
+#   our kind: (model, height in our units, extra rotation)
+KIT_DIR = os.path.join(ROOT, 'assets', 'source', 'kaykit_adventurers', 'gltf')
+KIT_WEAPONS = {
+    'sword':  ('sword_1handed',  0.86, (0, 0, 0)),
+    'dagger': ('dagger',         0.52, (0, 0, 0)),
+    'axe':    ('axe_1handed',    0.80, (0, 0, 0)),
+    'bow':    ('bow_withString', 0.78, (math.radians(90), 0, 0)),
+    'bomb':   ('smokebomb',      0.30, (0, 0, 0)),
+    'staff':  ('staff',          1.15, (0, 0, 0)),
+}
+KIT_SHIELDS = {
+    'round':  ('shield_round',   0.40, (0, math.radians(90), 0)),
+    'spikes': ('shield_spikes',  0.44, (0, math.radians(90), 0)),
+}
+USE_KIT = [True]        # off for a like-for-like comparison render
+
+
+def tint_imported(materials, colour, strength=0.55):
+    """Multiply the pack's painted texture by a colour from the level palette.
+
+    An imported weapon is one fixed set of colours, and the troops are meant to
+    re-theme every level. Replacing the texture outright would throw away the
+    painted shading that makes the model worth having, and multiplying by the
+    palette just darkens a steel blade until it disappears into the body. A
+    colour blend takes hue and saturation from the era and leaves the model's
+    own light and shade alone, which is the half worth keeping."""
+    rgb = hex_rgba(colour)
+    for mat in materials:
+        if not mat or not mat.node_tree:
+            continue
+        nodes, links = mat.node_tree.nodes, mat.node_tree.links
+        for node in list(nodes):
+            if node.type != 'BSDF_PRINCIPLED':
+                continue
+            base = node.inputs['Base Color']
+            if not base.links:
+                base.default_value = rgb
+                continue
+            src = base.links[0].from_socket
+            mix = nodes.new('ShaderNodeMixRGB')
+            mix.blend_type = 'COLOR'
+            mix.inputs['Fac'].default_value = strength
+            mix.inputs['Color2'].default_value = rgb
+            links.new(src, mix.inputs['Color1'])
+            links.new(mix.outputs['Color'], base)
+            if 'Specular IOR Level' in node.inputs:
+                node.inputs['Specular IOR Level'].default_value = 0.3
+
+
+def place_kit(model, height, extra, loc, colour, tint_strength=0.55):
+    """Import one pack model, size it, turn it and set it down at `loc`."""
+    path = os.path.join(KIT_DIR, model + '.gltf')
+    if not os.path.exists(path):
+        return False
+    before = set(bpy.context.scene.objects)
+    bpy.ops.import_scene.gltf(filepath=path)
+    bpy.context.view_layer.update()
+    fresh = [o for o in bpy.context.scene.objects if o not in before]
+    meshes = [o for o in fresh if o.type == 'MESH']
+    if not meshes:
+        return False
+    # Size on the model's longest axis, not on its height. A bow is authored
+    # lying in the plane of its arc, so measuring z would find the thickness of
+    # the limb and scale the thing up by a factor of five.
+    lo = Vector((1e9, 1e9, 1e9))
+    hi = Vector((-1e9, -1e9, -1e9))
+    for o in meshes:
+        for c in o.bound_box:
+            w = o.matrix_world @ Vector(c)
+            lo = Vector((min(lo.x, w.x), min(lo.y, w.y), min(lo.z, w.z)))
+            hi = Vector((max(hi.x, w.x), max(hi.y, w.y), max(hi.z, w.z)))
+    span = max(hi.x - lo.x, hi.y - lo.y, hi.z - lo.z) or 1.0
+
+    turn = Euler(extra, 'XYZ').to_matrix().to_4x4()
+    move = Matrix.Translation(Vector(loc)) @ turn @ Matrix.Scale(height / span, 4)
+    # Roots of any type, not just meshes: glTF hangs geometry off empties, and
+    # transforming only the meshes leaves everything where it was imported.
+    for o in fresh:
+        if o.parent is None or o.parent not in fresh:
+            o.matrix_world = move @ o.matrix_world
+    # Only the materials that came in with this model. Reaching for every
+    # material in the file recolours the troop holding the weapon too.
+    mats = set()
+    for o in meshes:
+        for slot in o.material_slots:
+            mats.add(slot.material)
+    tint_imported(mats, colour, tint_strength)
+    if BIND[0]:
+        for o in meshes:
+            o['bind'] = BIND[0]
+    return True
+
+
 def _weapon(kind, T, tint, hand):
     lv = L()
+    kit = KIT_WEAPONS.get(kind)
+    if kit and USE_KIT[0]:
+        model, height, extra = kit
+        # Kit still grows with rank, the way the procedural one did.
+        if place_kit(model, height * (1.0 + lv * 0.012), extra, hand,
+                     T['wood'] if kind == 'bow' else T['metal']):
+            if lv >= 22:
+                sphere(0.05, (hand[0], hand[1], hand[2] + height * 0.9),
+                       T['accent'], emission=2.0)
+            return
     g = 1.0 + lv * 0.012
     x, y, z = hand
     metal, trim, wood = T['metal'], T['trim'], T['wood']
@@ -2315,6 +2425,11 @@ def _weapon(kind, T, tint, hand):
 def shield(T, lv):
     """Round shield on the off arm. Kept small and set back so it frames the
     figure instead of hiding it."""
+    kit = KIT_SHIELDS['spikes' if lv >= 14 else 'round']
+    if USE_KIT[0] and place_kit(kit[0], kit[1], kit[2], (-0.36, -0.08, 0.68), T['metal']):
+        if lv >= 20:
+            sphere(0.035, (-0.44, -0.08, 0.79), T['accent'], emission=1.8)
+        return
     cyl(0.17, 0.05, (-0.36, -0.08, 0.68), T['metal'], verts=16,
         rot=(0, math.radians(90), 0), metallic=0.6, rough=0.38)
     cyl(0.12, 0.03, (-0.39, -0.08, 0.68), T['trim'], verts=16,
@@ -2553,6 +2668,14 @@ def rig_shield(T, lv):
     """Round shield strapped to the off hand, facing out along the arm."""
     bind('lowerarm.r')
     x = -(J['wrist_x'] - 0.03)
+    # In the rest pose the arm runs out along -x, so the shield face has to
+    # look down the arm rather than across the body.
+    kit = KIT_SHIELDS['spikes' if lv >= 14 else 'round']
+    if USE_KIT[0] and place_kit(kit[0], kit[1] * 1.15, (math.radians(90), 0, 0),
+                                (x, -0.02, J['shoulder_z']), T['metal']):
+        if lv >= 20:
+            sphere(0.035, (x, -0.1, J['shoulder_z'] + 0.11), T['accent'], emission=1.8)
+        return
     cyl(0.18, 0.05, (x, -0.02, J['shoulder_z']), T['metal'], verts=16,
         rot=(math.radians(90), 0, 0), metallic=0.6, rough=0.38)
     cyl(0.12, 0.03, (x, -0.06, J['shoulder_z']), T['trim'], verts=16,
