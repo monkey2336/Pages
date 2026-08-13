@@ -1,4 +1,68 @@
 {
+ "anim_grunt_L13": {
+  "anim": true,
+  "clips": {
+   "attack": {
+    "ax": 31.5,
+    "ay": 59.5,
+    "fh": 72,
+    "fw": 68,
+    "n": 8,
+    "x": 0,
+    "y": 0
+   },
+   "attackBack": {
+    "ax": 36.5,
+    "ay": 57.5,
+    "fh": 69,
+    "fw": 68,
+    "n": 8,
+    "x": 0,
+    "y": 72
+   },
+   "death": {
+    "ax": 26.5,
+    "ay": 64.5,
+    "fh": 78,
+    "fw": 78,
+    "n": 6,
+    "x": 0,
+    "y": 141
+   },
+   "deathBack": {
+    "ax": 51.5,
+    "ay": 54.5,
+    "fh": 80,
+    "fw": 78,
+    "n": 6,
+    "x": 0,
+    "y": 219
+   },
+   "walk": {
+    "ax": 26.5,
+    "ay": 59.5,
+    "fh": 73,
+    "fw": 68,
+    "n": 8,
+    "x": 0,
+    "y": 299
+   },
+   "walkBack": {
+    "ax": 41.5,
+    "ay": 54.5,
+    "fh": 68,
+    "fw": 68,
+    "n": 8,
+    "x": 0,
+    "y": 372
+   }
+  },
+  "drawnShadow": true,
+  "file": "assets/sprites/anim_grunt_L13.png",
+  "h": 440,
+  "outlined": true,
+  "w": 544
+ },
  "b_aegisgrid_L01": {
   "anchorX": 138.0,
   "anchorY": 194.0,

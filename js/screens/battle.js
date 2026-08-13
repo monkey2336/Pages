@@ -87,7 +87,7 @@
     var c = project(view, gx + size / 2, gy + size / 2);
     var w = sp.w * view.scale, h = sp.h * view.scale;
     var x = c.x - sp.anchorX * view.scale;
-    var y = c.y - sp.anchorY * view.scale;
+    var y = c.y - sp.anchorY * view.scale - ((opts && opts.lift) || 0) * view.scale;
     ctx.save();
     if (opts && opts.alpha != null) ctx.globalAlpha = opts.alpha;
     if (opts && opts.flash) {
@@ -241,10 +241,14 @@
         var lvl = troopLevel(o);
         var fade = o.dead ? Math.max(0, 1 - o.deathT / DEATH_LINGER) : 1;
         var alpha = Math.min(fade, o.spawn < 0.25 ? o.spawn / 0.25 : 1);
-        drawShadow(ctx, view, o.x, o.y, 0.6, alpha);
+        // Fliers have no legs to walk on, so there is no clip for them. A lift
+        // off the ground and a slow bob is what separates flying from
+        // hovering an inch above the grass, and it costs nothing to draw.
+        var lift = o.air ? 26 + Math.sin(o.animT * 2.6) * 3.5 : 0;
+        drawShadow(ctx, view, o.x, o.y, o.air ? 0.45 : 0.6, alpha * (o.air ? 0.7 : 1));
         if (!drawAnim(ctx, view, SP.animKey(o.key, lvl), o, { alpha: alpha })) {
           var tk = o.hero ? SP.heroKey(o.key, lvl) : SP.unitKey(o.key, lvl);
-          if (!drawSprite(ctx, view, tk, o.x - 0.5, o.y - 0.5, 1, { alpha: alpha })) {
+          if (!drawSprite(ctx, view, tk, o.x - 0.5, o.y - 0.5, 1, { alpha: alpha, lift: lift })) {
             var tc = project(view, o.x, o.y);
             ctx.fillStyle = (G.troopData[o.key] || {}).tint || '#fff';
             ctx.beginPath();

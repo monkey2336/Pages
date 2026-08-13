@@ -292,8 +292,10 @@ def render_unit(key, tint, kind, art, level, hero, args):
     R.reset_scene()
     R.RIGGED[0] = True
     # In the rest pose the fist points out along the arm, so a weapon modelled
-    # pointing up has to be turned into the grip before it is bound.
-    R.WEAPON_ROT[0] = (0.0, math.radians(-90.0), 0.0)
+    # pointing up has to be turned into the grip before it is bound. The extra
+    # roll leans it back over the shoulder: held dead vertical, a sword as long
+    # as this one reads as a flagpole above the troop rather than a weapon.
+    R.WEAPON_ROT[0] = (0.0, math.radians(-90.0), math.radians(-35.0))
     R.build_unit_rigged(tint, kind, T, ornate, hero=hero, art=art)
     R.WEAPON_ROT[0] = (0.0, 0.0, 0.0)
     R.RIGGED[0] = False
