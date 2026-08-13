@@ -76,8 +76,17 @@
   // not re-theme with the Town Hall the way the base does -- and it is
   // scattered from a seeded generator so it stays put between renders instead
   // of reshuffling every time a timer ticks.
-  var TREES = ['pine', 'pinetall', 'oak', 'oakold', 'birch'];
-  var UNDERGROWTH = ['bush', 'flowers', 'rock', 'stump', 'log'];
+  // Two sets mixed together. The procedural conifers are still the better
+  // trees, so they stay; the KayKit models are added for variety, because a
+  // wood built from five shapes reads as five shapes no matter how good each
+  // one is. The ground detail is all theirs -- there was none before.
+  var TREES = ['pine', 'pinetall', 'oak', 'oakold', 'birch',
+               'ktree1', 'ktree2', 'ktree3', 'ktree4', 'ktree5',
+               'kdead1', 'kdead2'];
+  var UNDERGROWTH = ['bush', 'flowers', 'rock', 'stump', 'log',
+                     'kbush1', 'kbush2', 'kbush3', 'kbush4',
+                     'krock1', 'krock2', 'krock3', 'krock4', 'koutcrop',
+                     'kgrass1', 'kgrass2', 'kgrass3'];
   var BAND = 7;          // how many tiles of wood to grow beyond the plot
   var Z_BASE = 1000;     // keeps every z-index positive, scenery included
 

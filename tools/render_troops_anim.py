@@ -378,7 +378,7 @@ def main():
                 continue
             render_unit(key, tint, kind, art, lvl, hero, args)
             done += 1
-            json.dump(R.MANIFEST, open(manifest_path, 'w'), indent=1, sort_keys=True)
+            R.save_manifest(manifest_path)
 
     R.write_manifest_js(R.MANIFEST)
     print('wrote %d animation sheets, %d levels available' % (done, len(levels)))

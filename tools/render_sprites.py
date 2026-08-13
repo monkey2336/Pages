@@ -341,6 +341,27 @@ def project_origin(scene, cam, px):
 MANIFEST = {}
 
 
+def save_manifest(path):
+    """Merge this run's entries into whatever is on disk, then write.
+
+    Renders are long, and more than one of them ends up in flight at once --
+    troop animations while scenery is being imported, say. A writer that
+    serialised its own in-memory copy would silently drop every entry the
+    other one had added since it started, and the loss only shows up later as
+    a sprite the game cannot find."""
+    merged = {}
+    if os.path.exists(path):
+        try:
+            merged.update(json.load(open(path)))
+        except ValueError:
+            pass                        # half-written file; ours is better
+    merged.update(MANIFEST)
+    MANIFEST.clear()
+    MANIFEST.update(merged)
+    json.dump(merged, open(path, 'w'), indent=1, sort_keys=True)
+    return merged
+
+
 def mesh_objects():
     return [o for o in bpy.context.scene.objects if o.type == 'MESH' and not o.is_shadow_catcher]
 
@@ -3017,7 +3038,7 @@ def main():
         build_ground_tile()
         render('ground', 1, samples=32)
 
-    json.dump(MANIFEST, open(manifest_path, 'w'), indent=1, sort_keys=True)
+    save_manifest(manifest_path)
     write_manifest_js(MANIFEST)
     print('wrote %s (%d sprites)' % (manifest_path, len(MANIFEST)))
 
