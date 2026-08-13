@@ -387,24 +387,97 @@
     // aimed at. Resolve by tile instead, the way you actually see the board,
     // and only fall back to the element when the pointer is off the grid
     // (the spire of a tall tower rises well above its own tile).
+    // How far above its own footprint an object is drawn, in board pixels.
+    // That is exactly the sprite's anchor offset: the anchor sits on the
+    // ground, and everything above it is the model standing up.
+    function drawnHeight(o, isWall) {
+      var name = spriteNameFor(o, isWall);
+      var sp = name && SP.get(name);
+      if (!sp) return isWall ? 22 : 46;
+      // Measured from where the art starts, not from the top of the image. A
+      // sprite is a model in a square frame with a lot of empty sky above it,
+      // and counting that sky lets a squat building claim taps several tiles
+      // away -- the Laboratory's frame says 163px of height for 114px of
+      // building.
+      var top = sp.ink ? sp.ink[1] : 0;
+      return Math.max(4, (sp.anchorY - top)) * spriteScale(m);
+    }
+
+    // Draw order, matching the z-index objectHTML gives each sprite: the
+    // further down and right a thing stands, the more of it is in front.
+    function drawOrder(o, isWall) {
+      var size = isWall ? 1 : E.bdata(o.key).size;
+      return o.x + o.y + size;
+    }
+
+    // The lift test only knows how tall a sprite is, not how wide, so a short
+    // object standing in front can qualify for a tap that its art comes
+    // nowhere near. Checking the drawn box as well throws those out.
+    function coversPoint(o, isWall, clientX, clientY) {
+      var el = objects.querySelector('.iso-obj[data-id="' + o.id + '"]');
+      if (!el) return false;
+      var r = el.getBoundingClientRect();
+      var name = spriteNameFor(o, isWall);
+      var sp = name && SP.get(name);
+      var l = r.left, t = r.top, rt = r.right, b = r.bottom;
+      if (sp && sp.ink && sp.w && sp.h) {
+        // Narrow the box to where the art is. Sprite frames overlap heavily
+        // on a packed board, and a rectangle of mostly transparent pixels
+        // otherwise votes for a tap it has no business winning.
+        l = r.left + (sp.ink[0] / sp.w) * r.width;
+        rt = r.left + (sp.ink[2] / sp.w) * r.width;
+        t = r.top + (sp.ink[1] / sp.h) * r.height;
+        b = r.top + (sp.ink[3] / sp.h) * r.height;
+      }
+      return clientX >= l && clientX <= rt && clientY >= t && clientY <= b;
+    }
+
+    function consider(o, isWall, lift, cx, cy, best) {
+      if (lift > drawnHeight(o, isWall)) return;
+      if (!coversPoint(o, isWall, cx, cy)) return;
+      var z = drawOrder(o, isWall);
+      if (!best.o || z > best.z) { best.o = o; best.z = z; }
+    }
+
+    function ownerOfTile(s2, tx, ty, lift, cx, cy, best) {
+      s2.buildings.forEach(function (b) {
+        var size = E.bdata(b.key).size;
+        if (tx >= b.x && tx < b.x + size && ty >= b.y && ty < b.y + size) {
+          consider(b, false, lift, cx, cy, best);
+        }
+      });
+      s2.walls.forEach(function (w) {
+        if (tx === w.x && ty === w.y) consider(w, true, lift, cx, cy, best);
+      });
+    }
+
+    /* What the tap landed on.
+
+       A tall building is drawn above the tiles it stands on, so the tile
+       directly under your finger belongs to whatever is behind it -- tapping
+       the Laboratory's roof selected the wall behind the Laboratory, which
+       made the building impossible to open. Walking down the screen from the
+       tap collects everything whose own footprint is underneath and which is
+       drawn tall enough to have reached up to where you touched, and the one
+       drawn on top of the others wins -- which is the one you were looking at
+       when you tapped. Taking the first match instead picks whatever happens
+       to stand on the tile under your finger, and that is the wall behind. */
     function pickAt(clientX, clientY, fallbackEl) {
       var s2 = G.state;
       var rect = objects.getBoundingClientRect();
       var scale = parseFloat(stage.dataset.scale) || 1;
-      var g = gridFromScreen(m, (clientX - rect.left) / scale, (clientY - rect.top) / scale);
-      var tx = Math.floor(g.x) + view.x0, ty = Math.floor(g.y) + view.y0;
-      var hit = null;
-      s2.buildings.forEach(function (b) {
-        var size = E.bdata(b.key).size;
-        if (tx >= b.x && tx < b.x + size && ty >= b.y && ty < b.y + size) hit = b;
-      });
-      if (!hit) {
-        s2.walls.forEach(function (w) {
-          if (tx === w.x && ty === w.y) hit = w;
-        });
+      var localX = (clientX - rect.left) / scale;
+      var localY = (clientY - rect.top) / scale;
+      var STEP = 5, MAX_LIFT = 420;
+      var best = { o: null, z: -1 };
+      for (var lift = 0; lift <= MAX_LIFT; lift += STEP) {
+        var g = gridFromScreen(m, localX, localY + lift);
+        var tx = Math.floor(g.x) + view.x0, ty = Math.floor(g.y) + view.y0;
+        if (tx < 0 || ty < 0 || tx >= G.GRID || ty >= G.GRID) continue;
+        ownerOfTile(s2, tx, ty, lift, clientX, clientY, best);
       }
-      if (!hit) return fallbackEl;
-      return objects.querySelector('.iso-obj[data-id="' + hit.id + '"]') || fallbackEl;
+      if (!best.o) return fallbackEl;
+      return objects.querySelector('.iso-obj[data-id="' + best.o.id + '"]') || fallbackEl;
     }
 
     objects.addEventListener('pointerdown', function (ev) {

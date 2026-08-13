@@ -226,7 +226,7 @@
      "deathBack": {
       "ax": 44.0,
       "ay": 48.8,
-      "fh": 70,
+      "fh": 75,
       "fw": 69,
       "n": 6,
       "x": 0,
@@ -239,7 +239,7 @@
       "fw": 66,
       "n": 8,
       "x": 0,
-      "y": 268
+      "y": 273
      },
      "walkBack": {
       "ax": 42.0,
@@ -248,12 +248,12 @@
       "fw": 67,
       "n": 8,
       "x": 0,
-      "y": 332
+      "y": 337
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_brute_L04.png",
-    "h": 393,
+    "h": 398,
     "outlined": true,
     "w": 536
    },
@@ -262,8 +262,8 @@
     "clips": {
      "attack": {
       "ax": 27.0,
-      "ay": 54.2,
-      "fh": 68,
+      "ay": 53.4,
+      "fh": 67,
       "fw": 64,
       "n": 8,
       "x": 0,
@@ -271,55 +271,55 @@
      },
      "attackBack": {
       "ax": 36.0,
-      "ay": 52.2,
-      "fh": 63,
+      "ay": 52.4,
+      "fh": 64,
       "fw": 63,
       "n": 8,
       "x": 0,
-      "y": 68
+      "y": 67
      },
      "death": {
-      "ax": 23.0,
-      "ay": 55.2,
+      "ax": 25.0,
+      "ay": 55.4,
       "fh": 67,
-      "fw": 68,
+      "fw": 70,
       "n": 6,
       "x": 0,
       "y": 131
      },
      "deathBack": {
-      "ax": 44.0,
-      "ay": 48.2,
-      "fh": 71,
-      "fw": 67,
+      "ax": 45.0,
+      "ay": 48.4,
+      "fh": 75,
+      "fw": 70,
       "n": 6,
       "x": 0,
       "y": 198
      },
      "walk": {
-      "ax": 23.0,
-      "ay": 51.2,
+      "ax": 24.0,
+      "ay": 51.4,
       "fh": 64,
-      "fw": 64,
+      "fw": 65,
       "n": 8,
       "x": 0,
-      "y": 269
+      "y": 273
      },
      "walkBack": {
       "ax": 41.0,
-      "ay": 46.2,
+      "ay": 46.4,
       "fh": 59,
-      "fw": 64,
+      "fw": 65,
       "n": 8,
       "x": 0,
-      "y": 333
+      "y": 337
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_brute_L13.png",
-    "h": 392,
+    "h": 396,
     "outlined": true,
-    "w": 512
+    "w": 520
    },
    "anim_brute_L22": {
     "anim": true,
@@ -343,10 +343,10 @@
       "y": 66
      },
      "death": {
-      "ax": 22.5,
+      "ax": 23.5,
       "ay": 54.5,
       "fh": 66,
-      "fw": 66,
+      "fw": 67,
       "n": 6,
       "x": 0,
       "y": 129
@@ -354,36 +354,36 @@
      "deathBack": {
       "ax": 43.5,
       "ay": 46.5,
-      "fh": 69,
-      "fw": 66,
+      "fh": 71,
+      "fw": 67,
       "n": 6,
       "x": 0,
       "y": 195
      },
      "walk": {
-      "ax": 22.5,
+      "ax": 23.5,
       "ay": 50.5,
       "fh": 63,
-      "fw": 63,
+      "fw": 64,
       "n": 8,
       "x": 0,
-      "y": 264
+      "y": 266
      },
      "walkBack": {
       "ax": 40.5,
       "ay": 44.5,
       "fh": 57,
-      "fw": 63,
+      "fw": 64,
       "n": 8,
       "x": 0,
-      "y": 327
+      "y": 329
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_brute_L22.png",
-    "h": 384,
+    "h": 386,
     "outlined": true,
-    "w": 504
+    "w": 512
    },
    "anim_colossus_L04": {
     "anim": true,
@@ -901,127 +901,127 @@
     "anim": true,
     "clips": {
      "attack": {
-      "ax": 33.5,
-      "ay": 60.0,
-      "fh": 73,
-      "fw": 70,
+      "ax": 34.5,
+      "ay": 57.7,
+      "fh": 70,
+      "fw": 69,
       "n": 8,
       "x": 0,
       "y": 0
      },
      "attackBack": {
-      "ax": 36.5,
-      "ay": 58.0,
-      "fh": 70,
-      "fw": 70,
+      "ax": 34.5,
+      "ay": 56.7,
+      "fh": 68,
+      "fw": 69,
       "n": 8,
       "x": 0,
-      "y": 73
+      "y": 70
      },
      "death": {
       "ax": 27.5,
-      "ay": 63.0,
-      "fh": 76,
-      "fw": 80,
+      "ay": 61.7,
+      "fh": 75,
+      "fw": 81,
       "n": 6,
       "x": 0,
-      "y": 143
+      "y": 138
      },
      "deathBack": {
-      "ax": 52.5,
-      "ay": 55.0,
-      "fh": 78,
-      "fw": 80,
+      "ax": 53.5,
+      "ay": 53.7,
+      "fh": 83,
+      "fw": 81,
       "n": 6,
       "x": 0,
-      "y": 219
+      "y": 213
      },
      "walk": {
       "ax": 27.5,
-      "ay": 57.0,
+      "ay": 56.7,
       "fh": 71,
-      "fw": 69,
+      "fw": 67,
       "n": 8,
       "x": 0,
-      "y": 297
+      "y": 296
      },
      "walkBack": {
-      "ax": 41.5,
-      "ay": 55.0,
-      "fh": 69,
-      "fw": 69,
+      "ax": 39.5,
+      "ay": 53.7,
+      "fh": 67,
+      "fw": 67,
       "n": 8,
       "x": 0,
-      "y": 368
+      "y": 367
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_grunt_L04.png",
-    "h": 437,
+    "h": 434,
     "outlined": true,
-    "w": 560
+    "w": 552
    },
    "anim_grunt_L13": {
     "anim": true,
     "clips": {
      "attack": {
-      "ax": 31.5,
-      "ay": 59.5,
-      "fh": 72,
+      "ax": 33.5,
+      "ay": 57.6,
+      "fh": 70,
       "fw": 68,
       "n": 8,
       "x": 0,
       "y": 0
      },
      "attackBack": {
-      "ax": 36.5,
-      "ay": 57.5,
-      "fh": 69,
-      "fw": 68,
+      "ax": 33.5,
+      "ay": 55.6,
+      "fh": 67,
+      "fw": 67,
       "n": 8,
       "x": 0,
-      "y": 72
+      "y": 70
      },
      "death": {
       "ax": 26.5,
-      "ay": 64.5,
-      "fh": 78,
-      "fw": 78,
+      "ay": 61.6,
+      "fh": 74,
+      "fw": 77,
       "n": 6,
       "x": 0,
-      "y": 141
+      "y": 137
      },
      "deathBack": {
-      "ax": 51.5,
-      "ay": 54.5,
-      "fh": 80,
-      "fw": 78,
+      "ax": 50.5,
+      "ay": 52.6,
+      "fh": 81,
+      "fw": 77,
       "n": 6,
       "x": 0,
-      "y": 219
+      "y": 211
      },
      "walk": {
       "ax": 26.5,
-      "ay": 59.5,
-      "fh": 73,
-      "fw": 68,
+      "ay": 57.6,
+      "fh": 71,
+      "fw": 65,
       "n": 8,
       "x": 0,
-      "y": 299
+      "y": 292
      },
      "walkBack": {
-      "ax": 41.5,
-      "ay": 54.5,
-      "fh": 68,
-      "fw": 68,
+      "ax": 38.5,
+      "ay": 51.6,
+      "fh": 65,
+      "fw": 65,
       "n": 8,
       "x": 0,
-      "y": 372
+      "y": 363
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_grunt_L13.png",
-    "h": 440,
+    "h": 428,
     "outlined": true,
     "w": 544
    },
@@ -1029,65 +1029,65 @@
     "anim": true,
     "clips": {
      "attack": {
-      "ax": 31.0,
-      "ay": 59.5,
-      "fh": 71,
-      "fw": 67,
+      "ax": 32.0,
+      "ay": 57.3,
+      "fh": 69,
+      "fw": 66,
       "n": 8,
       "x": 0,
       "y": 0
      },
      "attackBack": {
-      "ax": 36.0,
-      "ay": 56.5,
-      "fh": 68,
+      "ax": 34.0,
+      "ay": 54.3,
+      "fh": 65,
       "fw": 66,
       "n": 8,
       "x": 0,
-      "y": 71
+      "y": 69
      },
      "death": {
-      "ax": 25.0,
-      "ay": 63.5,
-      "fh": 76,
-      "fw": 76,
+      "ax": 26.0,
+      "ay": 60.3,
+      "fh": 73,
+      "fw": 75,
       "n": 6,
       "x": 0,
-      "y": 139
+      "y": 134
      },
      "deathBack": {
-      "ax": 51.0,
-      "ay": 52.5,
-      "fh": 79,
-      "fw": 76,
+      "ax": 49.0,
+      "ay": 50.3,
+      "fh": 78,
+      "fw": 75,
       "n": 6,
       "x": 0,
-      "y": 215
+      "y": 207
      },
      "walk": {
       "ax": 25.0,
-      "ay": 59.5,
-      "fh": 73,
-      "fw": 66,
+      "ay": 56.3,
+      "fh": 69,
+      "fw": 63,
       "n": 8,
       "x": 0,
-      "y": 294
+      "y": 285
      },
      "walkBack": {
-      "ax": 41.0,
-      "ay": 52.5,
-      "fh": 66,
-      "fw": 66,
+      "ax": 38.0,
+      "ay": 50.3,
+      "fh": 63,
+      "fw": 63,
       "n": 8,
       "x": 0,
-      "y": 367
+      "y": 354
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_grunt_L22.png",
-    "h": 433,
+    "h": 417,
     "outlined": true,
-    "w": 536
+    "w": 528
    },
    "anim_hexweaver_L04": {
     "anim": true,
@@ -2629,193 +2629,193 @@
     "anim": true,
     "clips": {
      "attack": {
-      "ax": 35.5,
-      "ay": 61.1,
-      "fh": 74,
-      "fw": 71,
+      "ax": 36.0,
+      "ay": 58.0,
+      "fh": 71,
+      "fw": 68,
       "n": 8,
       "x": 0,
       "y": 0
      },
      "attackBack": {
-      "ax": 35.5,
-      "ay": 62.1,
-      "fh": 74,
-      "fw": 71,
+      "ax": 32.0,
+      "ay": 59.0,
+      "fh": 71,
+      "fw": 68,
       "n": 8,
       "x": 0,
-      "y": 74
+      "y": 71
      },
      "death": {
-      "ax": 29.5,
-      "ay": 67.1,
-      "fh": 81,
-      "fw": 85,
+      "ax": 28.0,
+      "ay": 64.0,
+      "fh": 77,
+      "fw": 81,
       "n": 6,
       "x": 0,
-      "y": 148
+      "y": 142
      },
      "deathBack": {
-      "ax": 55.5,
-      "ay": 59.1,
-      "fh": 84,
-      "fw": 85,
+      "ax": 53.0,
+      "ay": 56.0,
+      "fh": 86,
+      "fw": 81,
       "n": 6,
       "x": 0,
-      "y": 229
+      "y": 219
      },
      "walk": {
-      "ax": 29.5,
-      "ay": 62.1,
-      "fh": 77,
-      "fw": 67,
+      "ax": 28.0,
+      "ay": 58.0,
+      "fh": 72,
+      "fw": 61,
       "n": 8,
       "x": 0,
-      "y": 313
+      "y": 305
      },
      "walkBack": {
-      "ax": 37.5,
-      "ay": 59.1,
-      "fh": 74,
-      "fw": 67,
+      "ax": 33.0,
+      "ay": 55.0,
+      "fh": 69,
+      "fw": 61,
       "n": 8,
       "x": 0,
-      "y": 390
+      "y": 377
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_sapper_L04.png",
-    "h": 464,
+    "h": 446,
     "outlined": true,
-    "w": 568
+    "w": 544
    },
    "anim_sapper_L13": {
     "anim": true,
     "clips": {
      "attack": {
-      "ax": 35.0,
-      "ay": 65.3,
-      "fh": 78,
-      "fw": 70,
+      "ax": 36.0,
+      "ay": 60.9,
+      "fh": 73,
+      "fw": 68,
       "n": 8,
       "x": 0,
       "y": 0
      },
      "attackBack": {
-      "ax": 35.0,
-      "ay": 63.3,
-      "fh": 75,
-      "fw": 70,
+      "ax": 32.0,
+      "ay": 58.9,
+      "fh": 70,
+      "fw": 68,
       "n": 8,
       "x": 0,
-      "y": 78
+      "y": 73
      },
      "death": {
-      "ax": 29.0,
-      "ay": 71.3,
-      "fh": 85,
-      "fw": 85,
+      "ax": 28.0,
+      "ay": 65.9,
+      "fh": 79,
+      "fw": 81,
       "n": 6,
       "x": 0,
-      "y": 153
+      "y": 143
      },
      "deathBack": {
-      "ax": 56.0,
-      "ay": 59.3,
+      "ax": 53.0,
+      "ay": 55.9,
       "fh": 86,
-      "fw": 85,
+      "fw": 81,
       "n": 6,
       "x": 0,
-      "y": 238
+      "y": 222
      },
      "walk": {
       "ax": 28.0,
-      "ay": 65.3,
-      "fh": 80,
-      "fw": 66,
+      "ay": 60.9,
+      "fh": 75,
+      "fw": 60,
       "n": 8,
       "x": 0,
-      "y": 324
+      "y": 308
      },
      "walkBack": {
-      "ax": 38.0,
-      "ay": 59.3,
-      "fh": 74,
-      "fw": 66,
+      "ax": 32.0,
+      "ay": 54.9,
+      "fh": 69,
+      "fw": 60,
       "n": 8,
       "x": 0,
-      "y": 404
+      "y": 383
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_sapper_L13.png",
-    "h": 478,
+    "h": 452,
     "outlined": true,
-    "w": 560
+    "w": 544
    },
    "anim_sapper_L22": {
     "anim": true,
     "clips": {
      "attack": {
-      "ax": 33.5,
-      "ay": 66.3,
-      "fh": 79,
-      "fw": 69,
+      "ax": 36.0,
+      "ay": 64.0,
+      "fh": 76,
+      "fw": 68,
       "n": 8,
       "x": 0,
       "y": 0
      },
      "attackBack": {
-      "ax": 35.5,
-      "ay": 63.3,
-      "fh": 75,
-      "fw": 69,
+      "ax": 32.0,
+      "ay": 61.0,
+      "fh": 72,
+      "fw": 68,
       "n": 8,
       "x": 0,
-      "y": 79
+      "y": 76
      },
      "death": {
-      "ax": 27.5,
-      "ay": 71.3,
-      "fh": 85,
-      "fw": 85,
+      "ax": 28.0,
+      "ay": 69.0,
+      "fh": 82,
+      "fw": 83,
       "n": 6,
       "x": 0,
-      "y": 154
+      "y": 148
      },
      "deathBack": {
-      "ax": 57.5,
-      "ay": 58.3,
+      "ax": 55.0,
+      "ay": 57.0,
       "fh": 87,
-      "fw": 85,
+      "fw": 83,
       "n": 6,
       "x": 0,
-      "y": 239
+      "y": 230
      },
      "walk": {
-      "ax": 27.5,
-      "ay": 66.3,
-      "fh": 81,
-      "fw": 65,
+      "ax": 28.0,
+      "ay": 64.0,
+      "fh": 78,
+      "fw": 61,
       "n": 8,
       "x": 0,
-      "y": 326
+      "y": 317
      },
      "walkBack": {
-      "ax": 37.5,
-      "ay": 59.3,
-      "fh": 73,
-      "fw": 65,
+      "ax": 33.0,
+      "ay": 57.0,
+      "fh": 71,
+      "fw": 61,
       "n": 8,
       "x": 0,
-      "y": 407
+      "y": 395
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_sapper_L22.png",
-    "h": 480,
+    "h": 466,
     "outlined": true,
-    "w": 552
+    "w": 544
    },
    "anim_siegebeetle_L04": {
     "anim": true,
@@ -3013,193 +3013,193 @@
     "anim": true,
     "clips": {
      "attack": {
-      "ax": 25.0,
-      "ay": 49.2,
-      "fh": 61,
-      "fw": 45,
+      "ax": 43.0,
+      "ay": 59.3,
+      "fh": 73,
+      "fw": 63,
       "n": 8,
       "x": 0,
       "y": 0
      },
      "attackBack": {
       "ax": 20.0,
-      "ay": 47.2,
-      "fh": 61,
-      "fw": 45,
+      "ay": 57.3,
+      "fh": 73,
+      "fw": 63,
       "n": 8,
       "x": 0,
-      "y": 61
+      "y": 73
      },
      "death": {
-      "ax": 24.0,
-      "ay": 52.2,
-      "fh": 64,
-      "fw": 68,
+      "ax": 28.0,
+      "ay": 63.3,
+      "fh": 77,
+      "fw": 92,
       "n": 6,
       "x": 0,
-      "y": 122
+      "y": 146
      },
      "deathBack": {
-      "ax": 44.0,
-      "ay": 46.2,
-      "fh": 67,
-      "fw": 68,
+      "ax": 64.0,
+      "ay": 55.3,
+      "fh": 85,
+      "fw": 92,
       "n": 6,
       "x": 0,
-      "y": 186
+      "y": 223
      },
      "walk": {
-      "ax": 24.0,
-      "ay": 47.2,
-      "fh": 60,
-      "fw": 59,
+      "ax": 28.0,
+      "ay": 58.3,
+      "fh": 73,
+      "fw": 60,
       "n": 8,
       "x": 0,
-      "y": 253
+      "y": 308
      },
      "walkBack": {
-      "ax": 35.0,
-      "ay": 45.2,
-      "fh": 58,
-      "fw": 59,
+      "ax": 32.0,
+      "ay": 55.3,
+      "fh": 69,
+      "fw": 60,
       "n": 8,
       "x": 0,
-      "y": 313
+      "y": 381
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_slinger_L04.png",
-    "h": 371,
+    "h": 450,
     "outlined": true,
-    "w": 472
+    "w": 552
    },
    "anim_slinger_L13": {
     "anim": true,
     "clips": {
      "attack": {
-      "ax": 25.0,
-      "ay": 50.7,
-      "fh": 63,
-      "fw": 45,
+      "ax": 43.0,
+      "ay": 62.5,
+      "fh": 76,
+      "fw": 65,
       "n": 8,
       "x": 0,
       "y": 0
      },
      "attackBack": {
-      "ax": 20.0,
-      "ay": 47.7,
-      "fh": 61,
-      "fw": 46,
+      "ax": 22.0,
+      "ay": 58.5,
+      "fh": 74,
+      "fw": 65,
       "n": 8,
       "x": 0,
-      "y": 63
+      "y": 76
      },
      "death": {
-      "ax": 22.0,
-      "ay": 52.7,
-      "fh": 65,
-      "fw": 65,
+      "ax": 28.0,
+      "ay": 66.5,
+      "fh": 80,
+      "fw": 91,
       "n": 6,
       "x": 0,
-      "y": 124
+      "y": 150
      },
      "deathBack": {
-      "ax": 43.0,
-      "ay": 44.7,
-      "fh": 66,
-      "fw": 65,
+      "ax": 64.0,
+      "ay": 55.5,
+      "fh": 86,
+      "fw": 92,
       "n": 6,
       "x": 0,
-      "y": 189
+      "y": 230
      },
      "walk": {
-      "ax": 22.0,
-      "ay": 48.7,
-      "fh": 61,
-      "fw": 55,
-      "n": 8,
-      "x": 0,
-      "y": 255
-     },
-     "walkBack": {
-      "ax": 34.0,
-      "ay": 44.7,
-      "fh": 57,
-      "fw": 56,
+      "ax": 28.0,
+      "ay": 60.5,
+      "fh": 74,
+      "fw": 59,
       "n": 8,
       "x": 0,
       "y": 316
+     },
+     "walkBack": {
+      "ax": 31.0,
+      "ay": 55.5,
+      "fh": 69,
+      "fw": 59,
+      "n": 8,
+      "x": 0,
+      "y": 390
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_slinger_L13.png",
-    "h": 373,
+    "h": 459,
     "outlined": true,
-    "w": 448
+    "w": 552
    },
    "anim_slinger_L22": {
     "anim": true,
     "clips": {
      "attack": {
-      "ax": 26.0,
-      "ay": 50.5,
-      "fh": 62,
-      "fw": 47,
+      "ax": 44.0,
+      "ay": 64.1,
+      "fh": 77,
+      "fw": 72,
       "n": 8,
       "x": 0,
       "y": 0
      },
      "attackBack": {
-      "ax": 21.0,
-      "ay": 47.5,
-      "fh": 60,
-      "fw": 47,
+      "ax": 28.0,
+      "ay": 60.1,
+      "fh": 75,
+      "fw": 72,
       "n": 8,
       "x": 0,
-      "y": 62
+      "y": 77
      },
      "death": {
-      "ax": 22.0,
-      "ay": 52.5,
-      "fh": 64,
-      "fw": 64,
+      "ax": 28.0,
+      "ay": 67.1,
+      "fh": 80,
+      "fw": 92,
       "n": 6,
       "x": 0,
-      "y": 122
+      "y": 152
      },
      "deathBack": {
-      "ax": 43.0,
-      "ay": 43.5,
-      "fh": 66,
-      "fw": 65,
+      "ax": 64.0,
+      "ay": 56.1,
+      "fh": 86,
+      "fw": 92,
       "n": 6,
       "x": 0,
-      "y": 186
+      "y": 232
      },
      "walk": {
-      "ax": 22.0,
-      "ay": 49.5,
-      "fh": 62,
-      "fw": 55,
+      "ax": 28.0,
+      "ay": 62.1,
+      "fh": 76,
+      "fw": 68,
       "n": 8,
       "x": 0,
-      "y": 252
+      "y": 318
      },
      "walkBack": {
-      "ax": 33.0,
-      "ay": 43.5,
-      "fh": 55,
-      "fw": 55,
+      "ax": 40.0,
+      "ay": 55.1,
+      "fh": 69,
+      "fw": 68,
       "n": 8,
       "x": 0,
-      "y": 314
+      "y": 394
      }
     },
     "drawnShadow": true,
     "file": "assets/sprites/anim_slinger_L22.png",
-    "h": 369,
+    "h": 463,
     "outlined": true,
-    "w": 440
+    "w": 576
    },
    "anim_titanborn_L04": {
     "anim": true,
@@ -3976,6 +3976,12 @@
     "file": "assets/sprites/b_aegisgrid_L01.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -3986,6 +3992,12 @@
     "file": "assets/sprites/b_aegisgrid_L02.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -3996,6 +4008,12 @@
     "file": "assets/sprites/b_aegisgrid_L03.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4006,6 +4024,12 @@
     "file": "assets/sprites/b_aegisgrid_L04.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4016,6 +4040,12 @@
     "file": "assets/sprites/b_aegisgrid_L05.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4026,6 +4056,12 @@
     "file": "assets/sprites/b_aegisgrid_L06.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4036,6 +4072,12 @@
     "file": "assets/sprites/b_aegisgrid_L07.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4046,6 +4088,12 @@
     "file": "assets/sprites/b_aegisgrid_L08.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4056,6 +4104,12 @@
     "file": "assets/sprites/b_aegisgrid_L09.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4066,6 +4120,12 @@
     "file": "assets/sprites/b_aegisgrid_L10.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4076,6 +4136,12 @@
     "file": "assets/sprites/b_aegisgrid_L11.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4086,6 +4152,12 @@
     "file": "assets/sprites/b_aegisgrid_L12.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4096,6 +4168,12 @@
     "file": "assets/sprites/b_aegisgrid_L13.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4106,6 +4184,12 @@
     "file": "assets/sprites/b_aegisgrid_L14.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4116,6 +4200,12 @@
     "file": "assets/sprites/b_aegisgrid_L15.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4126,6 +4216,12 @@
     "file": "assets/sprites/b_aegisgrid_L16.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4136,6 +4232,12 @@
     "file": "assets/sprites/b_aegisgrid_L17.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4146,6 +4248,12 @@
     "file": "assets/sprites/b_aegisgrid_L18.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4156,6 +4264,12 @@
     "file": "assets/sprites/b_aegisgrid_L19.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4166,6 +4280,12 @@
     "file": "assets/sprites/b_aegisgrid_L20.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4176,6 +4296,12 @@
     "file": "assets/sprites/b_aegisgrid_L21.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4186,6 +4312,12 @@
     "file": "assets/sprites/b_aegisgrid_L22.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4196,6 +4328,12 @@
     "file": "assets/sprites/b_aegisgrid_L23.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4206,6 +4344,12 @@
     "file": "assets/sprites/b_aegisgrid_L24.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4216,6 +4360,12 @@
     "file": "assets/sprites/b_aegisgrid_L25.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4226,6 +4376,12 @@
     "file": "assets/sprites/b_aegisgrid_L26.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4236,6 +4392,12 @@
     "file": "assets/sprites/b_aegisgrid_L27.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4246,6 +4408,12 @@
     "file": "assets/sprites/b_aegisgrid_L28.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4256,6 +4424,12 @@
     "file": "assets/sprites/b_aegisgrid_L29.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4266,6 +4440,12 @@
     "file": "assets/sprites/b_aegisgrid_L30.png",
     "footprint": 4,
     "h": 276,
+    "ink": [
+     19.0,
+     65.5,
+     257.0,
+     254.5
+    ],
     "outlined": true,
     "w": 276
    },
@@ -4276,6 +4456,12 @@
     "file": "assets/sprites/b_airbomb_L01.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4286,6 +4472,12 @@
     "file": "assets/sprites/b_airbomb_L02.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4296,6 +4488,12 @@
     "file": "assets/sprites/b_airbomb_L03.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4306,6 +4504,12 @@
     "file": "assets/sprites/b_airbomb_L04.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4316,6 +4520,12 @@
     "file": "assets/sprites/b_airbomb_L05.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4326,6 +4536,12 @@
     "file": "assets/sprites/b_airbomb_L06.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4336,6 +4552,12 @@
     "file": "assets/sprites/b_airbomb_L07.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4346,6 +4568,12 @@
     "file": "assets/sprites/b_airbomb_L08.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4356,6 +4584,12 @@
     "file": "assets/sprites/b_airbomb_L09.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4366,6 +4600,12 @@
     "file": "assets/sprites/b_airbomb_L10.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4376,6 +4616,12 @@
     "file": "assets/sprites/b_airbomb_L11.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4386,6 +4632,12 @@
     "file": "assets/sprites/b_airbomb_L12.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4396,6 +4648,12 @@
     "file": "assets/sprites/b_airbomb_L13.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4406,6 +4664,12 @@
     "file": "assets/sprites/b_airbomb_L14.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4416,6 +4680,12 @@
     "file": "assets/sprites/b_airbomb_L15.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4426,6 +4696,12 @@
     "file": "assets/sprites/b_airbomb_L16.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4436,6 +4712,12 @@
     "file": "assets/sprites/b_airbomb_L17.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4446,6 +4728,12 @@
     "file": "assets/sprites/b_airbomb_L18.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4456,6 +4744,12 @@
     "file": "assets/sprites/b_airbomb_L19.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4466,6 +4760,12 @@
     "file": "assets/sprites/b_airbomb_L20.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4476,6 +4776,12 @@
     "file": "assets/sprites/b_airbomb_L21.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4486,6 +4792,12 @@
     "file": "assets/sprites/b_airbomb_L22.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4496,6 +4808,12 @@
     "file": "assets/sprites/b_airbomb_L23.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4506,6 +4824,12 @@
     "file": "assets/sprites/b_airbomb_L24.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4516,6 +4840,12 @@
     "file": "assets/sprites/b_airbomb_L25.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4526,6 +4856,12 @@
     "file": "assets/sprites/b_airbomb_L26.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4536,6 +4872,12 @@
     "file": "assets/sprites/b_airbomb_L27.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4546,6 +4888,12 @@
     "file": "assets/sprites/b_airbomb_L28.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4556,6 +4904,12 @@
     "file": "assets/sprites/b_airbomb_L29.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4566,6 +4920,12 @@
     "file": "assets/sprites/b_airbomb_L30.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -4576,6 +4936,12 @@
     "file": "assets/sprites/b_airdefense_L01.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4586,6 +4952,12 @@
     "file": "assets/sprites/b_airdefense_L02.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4596,6 +4968,12 @@
     "file": "assets/sprites/b_airdefense_L03.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     44.5,
+     68.5,
+     197.5,
+     216.0
+    ],
     "outlined": true,
     "w": 242
    },
@@ -4606,6 +4984,12 @@
     "file": "assets/sprites/b_airdefense_L04.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     44.5,
+     67.5,
+     196.5,
+     215.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -4616,6 +5000,12 @@
     "file": "assets/sprites/b_airdefense_L05.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     44.0,
+     67.5,
+     197.0,
+     215.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -4626,6 +5016,12 @@
     "file": "assets/sprites/b_airdefense_L06.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     44.5,
+     68.5,
+     197.5,
+     216.0
+    ],
     "outlined": true,
     "w": 242
    },
@@ -4636,6 +5032,12 @@
     "file": "assets/sprites/b_airdefense_L07.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4646,6 +5048,12 @@
     "file": "assets/sprites/b_airdefense_L08.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4656,6 +5064,12 @@
     "file": "assets/sprites/b_airdefense_L09.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4666,6 +5080,12 @@
     "file": "assets/sprites/b_airdefense_L10.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4676,6 +5096,12 @@
     "file": "assets/sprites/b_airdefense_L11.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4686,6 +5112,12 @@
     "file": "assets/sprites/b_airdefense_L12.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4696,6 +5128,12 @@
     "file": "assets/sprites/b_airdefense_L13.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4706,6 +5144,12 @@
     "file": "assets/sprites/b_airdefense_L14.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4716,6 +5160,12 @@
     "file": "assets/sprites/b_airdefense_L15.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4726,6 +5176,12 @@
     "file": "assets/sprites/b_airdefense_L16.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     40.5,
+     62.0,
+     200.5,
+     217.0
+    ],
     "outlined": true,
     "w": 241
    },
@@ -4736,6 +5192,12 @@
     "file": "assets/sprites/b_airdefense_L17.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     40.5,
+     62.0,
+     200.5,
+     217.0
+    ],
     "outlined": true,
     "w": 241
    },
@@ -4746,6 +5208,12 @@
     "file": "assets/sprites/b_airdefense_L18.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     40.5,
+     62.0,
+     200.5,
+     217.0
+    ],
     "outlined": true,
     "w": 241
    },
@@ -4756,6 +5224,12 @@
     "file": "assets/sprites/b_airdefense_L19.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     40.5,
+     62.0,
+     200.5,
+     217.0
+    ],
     "outlined": true,
     "w": 241
    },
@@ -4766,6 +5240,12 @@
     "file": "assets/sprites/b_airdefense_L20.png",
     "footprint": 3,
     "h": 275,
+    "ink": [
+     47.0,
+     48.5,
+     228.0,
+     253.0
+    ],
     "outlined": true,
     "w": 275
    },
@@ -4776,6 +5256,12 @@
     "file": "assets/sprites/b_airdefense_L21.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     40.5,
+     62.0,
+     200.5,
+     217.0
+    ],
     "outlined": true,
     "w": 241
    },
@@ -4786,6 +5272,12 @@
     "file": "assets/sprites/b_airdefense_L22.png",
     "footprint": 3,
     "h": 235,
+    "ink": [
+     38.5,
+     58.5,
+     196.5,
+     211.0
+    ],
     "outlined": true,
     "w": 235
    },
@@ -4796,6 +5288,12 @@
     "file": "assets/sprites/b_airdefense_L23.png",
     "footprint": 3,
     "h": 235,
+    "ink": [
+     38.5,
+     58.5,
+     196.5,
+     211.0
+    ],
     "outlined": true,
     "w": 235
    },
@@ -4806,6 +5304,12 @@
     "file": "assets/sprites/b_airdefense_L24.png",
     "footprint": 3,
     "h": 235,
+    "ink": [
+     38.5,
+     58.5,
+     196.5,
+     211.0
+    ],
     "outlined": true,
     "w": 235
    },
@@ -4816,6 +5320,12 @@
     "file": "assets/sprites/b_airdefense_L25.png",
     "footprint": 3,
     "h": 235,
+    "ink": [
+     38.5,
+     58.5,
+     196.5,
+     211.0
+    ],
     "outlined": true,
     "w": 235
    },
@@ -4826,6 +5336,12 @@
     "file": "assets/sprites/b_airdefense_L26.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4836,6 +5352,12 @@
     "file": "assets/sprites/b_airdefense_L27.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4846,6 +5368,12 @@
     "file": "assets/sprites/b_airdefense_L28.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4856,6 +5384,12 @@
     "file": "assets/sprites/b_airdefense_L29.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     60.0,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -4866,6 +5400,12 @@
     "file": "assets/sprites/b_airdefense_L30.png",
     "footprint": 3,
     "h": 293,
+    "ink": [
+     55.5,
+     50.5,
+     237.5,
+     269.5
+    ],
     "outlined": true,
     "w": 293
    },
@@ -4876,6 +5416,12 @@
     "file": "assets/sprites/b_airsweeper_L01.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4886,6 +5432,12 @@
     "file": "assets/sprites/b_airsweeper_L02.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4896,6 +5448,12 @@
     "file": "assets/sprites/b_airsweeper_L03.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4906,6 +5464,12 @@
     "file": "assets/sprites/b_airsweeper_L04.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4916,6 +5480,12 @@
     "file": "assets/sprites/b_airsweeper_L05.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4926,6 +5496,12 @@
     "file": "assets/sprites/b_airsweeper_L06.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4936,6 +5512,12 @@
     "file": "assets/sprites/b_airsweeper_L07.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4946,6 +5528,12 @@
     "file": "assets/sprites/b_airsweeper_L08.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4956,6 +5544,12 @@
     "file": "assets/sprites/b_airsweeper_L09.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4966,6 +5560,12 @@
     "file": "assets/sprites/b_airsweeper_L10.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4976,6 +5576,12 @@
     "file": "assets/sprites/b_airsweeper_L11.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4986,6 +5592,12 @@
     "file": "assets/sprites/b_airsweeper_L12.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -4996,6 +5608,12 @@
     "file": "assets/sprites/b_airsweeper_L13.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5006,6 +5624,12 @@
     "file": "assets/sprites/b_airsweeper_L14.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5016,6 +5640,12 @@
     "file": "assets/sprites/b_airsweeper_L15.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5026,6 +5656,12 @@
     "file": "assets/sprites/b_airsweeper_L16.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5036,6 +5672,12 @@
     "file": "assets/sprites/b_airsweeper_L17.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5046,6 +5688,12 @@
     "file": "assets/sprites/b_airsweeper_L18.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5056,6 +5704,12 @@
     "file": "assets/sprites/b_airsweeper_L19.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5066,6 +5720,12 @@
     "file": "assets/sprites/b_airsweeper_L20.png",
     "footprint": 3,
     "h": 243,
+    "ink": [
+     31.0,
+     46.5,
+     212.0,
+     224.5
+    ],
     "outlined": true,
     "w": 243
    },
@@ -5076,6 +5736,12 @@
     "file": "assets/sprites/b_airsweeper_L21.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5086,6 +5752,12 @@
     "file": "assets/sprites/b_airsweeper_L22.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5096,6 +5768,12 @@
     "file": "assets/sprites/b_airsweeper_L23.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5106,6 +5784,12 @@
     "file": "assets/sprites/b_airsweeper_L24.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5116,6 +5800,12 @@
     "file": "assets/sprites/b_airsweeper_L25.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5126,6 +5816,12 @@
     "file": "assets/sprites/b_airsweeper_L26.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5136,6 +5832,12 @@
     "file": "assets/sprites/b_airsweeper_L27.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5146,6 +5848,12 @@
     "file": "assets/sprites/b_airsweeper_L28.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5156,6 +5864,12 @@
     "file": "assets/sprites/b_airsweeper_L29.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     27.0,
+     58.0,
+     209.0,
+     218.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -5166,6 +5880,12 @@
     "file": "assets/sprites/b_airsweeper_L30.png",
     "footprint": 3,
     "h": 263,
+    "ink": [
+     41.0,
+     49.0,
+     222.0,
+     242.5
+    ],
     "outlined": true,
     "w": 263
    },
@@ -5176,6 +5896,12 @@
     "file": "assets/sprites/b_archertower_L01.png",
     "footprint": 3,
     "h": 243,
+    "ink": [
+     37.0,
+     52.5,
+     206.0,
+     221.0
+    ],
     "outlined": true,
     "w": 243
    },
@@ -5186,6 +5912,12 @@
     "file": "assets/sprites/b_archertower_L02.png",
     "footprint": 3,
     "h": 245,
+    "ink": [
+     38.0,
+     52.5,
+     207.0,
+     223.0
+    ],
     "outlined": true,
     "w": 245
    },
@@ -5196,6 +5928,12 @@
     "file": "assets/sprites/b_archertower_L03.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     44.5,
+     62.0,
+     197.5,
+     216.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -5206,6 +5944,12 @@
     "file": "assets/sprites/b_archertower_L04.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     44.5,
+     62.0,
+     197.5,
+     216.0
+    ],
     "outlined": true,
     "w": 242
    },
@@ -5216,6 +5960,12 @@
     "file": "assets/sprites/b_archertower_L05.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     44.0,
+     61.5,
+     197.0,
+     215.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -5226,6 +5976,12 @@
     "file": "assets/sprites/b_archertower_L06.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     44.5,
+     62.0,
+     197.5,
+     216.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -5236,6 +5992,12 @@
     "file": "assets/sprites/b_archertower_L07.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     52.5,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -5246,6 +6008,12 @@
     "file": "assets/sprites/b_archertower_L08.png",
     "footprint": 3,
     "h": 258,
+    "ink": [
+     38.5,
+     52.5,
+     219.5,
+     238.0
+    ],
     "outlined": true,
     "w": 258
    },
@@ -5256,6 +6024,12 @@
     "file": "assets/sprites/b_archertower_L09.png",
     "footprint": 3,
     "h": 258,
+    "ink": [
+     38.5,
+     52.5,
+     219.5,
+     238.0
+    ],
     "outlined": true,
     "w": 258
    },
@@ -5266,6 +6040,12 @@
     "file": "assets/sprites/b_archertower_L10.png",
     "footprint": 3,
     "h": 258,
+    "ink": [
+     38.5,
+     52.5,
+     219.5,
+     238.0
+    ],
     "outlined": true,
     "w": 258
    },
@@ -5276,6 +6056,12 @@
     "file": "assets/sprites/b_archertower_L11.png",
     "footprint": 3,
     "h": 258,
+    "ink": [
+     38.5,
+     52.5,
+     219.5,
+     238.0
+    ],
     "outlined": true,
     "w": 258
    },
@@ -5286,6 +6072,12 @@
     "file": "assets/sprites/b_archertower_L12.png",
     "footprint": 3,
     "h": 258,
+    "ink": [
+     38.5,
+     52.5,
+     219.5,
+     238.0
+    ],
     "outlined": true,
     "w": 258
    },
@@ -5296,6 +6088,12 @@
     "file": "assets/sprites/b_archertower_L13.png",
     "footprint": 3,
     "h": 261,
+    "ink": [
+     39.5,
+     53.0,
+     221.5,
+     240.5
+    ],
     "outlined": true,
     "w": 261
    },
@@ -5306,6 +6104,12 @@
     "file": "assets/sprites/b_archertower_L14.png",
     "footprint": 3,
     "h": 261,
+    "ink": [
+     39.5,
+     53.0,
+     221.5,
+     240.5
+    ],
     "outlined": true,
     "w": 261
    },
@@ -5316,6 +6120,12 @@
     "file": "assets/sprites/b_archertower_L15.png",
     "footprint": 3,
     "h": 261,
+    "ink": [
+     39.5,
+     53.0,
+     221.5,
+     240.5
+    ],
     "outlined": true,
     "w": 261
    },
@@ -5326,6 +6136,12 @@
     "file": "assets/sprites/b_archertower_L16.png",
     "footprint": 3,
     "h": 245,
+    "ink": [
+     42.5,
+     55.5,
+     202.5,
+     221.0
+    ],
     "outlined": true,
     "w": 245
    },
@@ -5336,6 +6152,12 @@
     "file": "assets/sprites/b_archertower_L17.png",
     "footprint": 3,
     "h": 245,
+    "ink": [
+     42.5,
+     55.5,
+     202.5,
+     221.0
+    ],
     "outlined": true,
     "w": 245
    },
@@ -5346,6 +6168,12 @@
     "file": "assets/sprites/b_archertower_L18.png",
     "footprint": 3,
     "h": 247,
+    "ink": [
+     43.5,
+     56.0,
+     203.5,
+     222.5
+    ],
     "outlined": true,
     "w": 247
    },
@@ -5356,6 +6184,12 @@
     "file": "assets/sprites/b_archertower_L19.png",
     "footprint": 3,
     "h": 247,
+    "ink": [
+     43.5,
+     56.0,
+     203.5,
+     222.5
+    ],
     "outlined": true,
     "w": 247
    },
@@ -5366,6 +6200,12 @@
     "file": "assets/sprites/b_archertower_L20.png",
     "footprint": 3,
     "h": 274,
+    "ink": [
+     46.0,
+     48.5,
+     228.0,
+     252.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5376,6 +6216,12 @@
     "file": "assets/sprites/b_archertower_L21.png",
     "footprint": 3,
     "h": 247,
+    "ink": [
+     43.5,
+     56.0,
+     203.5,
+     222.5
+    ],
     "outlined": true,
     "w": 247
    },
@@ -5386,6 +6232,12 @@
     "file": "assets/sprites/b_archertower_L22.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     42.0,
+     52.5,
+     199.0,
+     216.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -5396,6 +6248,12 @@
     "file": "assets/sprites/b_archertower_L23.png",
     "footprint": 3,
     "h": 244,
+    "ink": [
+     43.0,
+     51.0,
+     201.0,
+     219.5
+    ],
     "outlined": true,
     "w": 244
    },
@@ -5406,6 +6264,12 @@
     "file": "assets/sprites/b_archertower_L24.png",
     "footprint": 3,
     "h": 248,
+    "ink": [
+     45.0,
+     51.5,
+     203.0,
+     223.0
+    ],
     "outlined": true,
     "w": 248
    },
@@ -5416,6 +6280,12 @@
     "file": "assets/sprites/b_archertower_L25.png",
     "footprint": 3,
     "h": 248,
+    "ink": [
+     45.0,
+     51.5,
+     203.0,
+     223.0
+    ],
     "outlined": true,
     "w": 248
    },
@@ -5426,6 +6296,12 @@
     "file": "assets/sprites/b_archertower_L26.png",
     "footprint": 3,
     "h": 270,
+    "ink": [
+     44.5,
+     51.5,
+     225.5,
+     248.5
+    ],
     "outlined": true,
     "w": 270
    },
@@ -5436,6 +6312,12 @@
     "file": "assets/sprites/b_archertower_L27.png",
     "footprint": 3,
     "h": 270,
+    "ink": [
+     44.5,
+     51.5,
+     225.5,
+     248.5
+    ],
     "outlined": true,
     "w": 270
    },
@@ -5446,6 +6328,12 @@
     "file": "assets/sprites/b_archertower_L28.png",
     "footprint": 3,
     "h": 270,
+    "ink": [
+     44.5,
+     51.5,
+     225.5,
+     248.5
+    ],
     "outlined": true,
     "w": 270
    },
@@ -5456,6 +6344,12 @@
     "file": "assets/sprites/b_archertower_L29.png",
     "footprint": 3,
     "h": 273,
+    "ink": [
+     45.5,
+     51.5,
+     227.5,
+     251.5
+    ],
     "outlined": true,
     "w": 273
    },
@@ -5466,6 +6360,12 @@
     "file": "assets/sprites/b_archertower_L30.png",
     "footprint": 3,
     "h": 294,
+    "ink": [
+     56.0,
+     50.5,
+     238.0,
+     270.5
+    ],
     "outlined": true,
     "w": 294
    },
@@ -5476,6 +6376,12 @@
     "file": "assets/sprites/b_armycamp_L01.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5486,6 +6392,12 @@
     "file": "assets/sprites/b_armycamp_L02.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5496,6 +6408,12 @@
     "file": "assets/sprites/b_armycamp_L03.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5506,6 +6424,12 @@
     "file": "assets/sprites/b_armycamp_L04.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5516,6 +6440,12 @@
     "file": "assets/sprites/b_armycamp_L05.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5526,6 +6456,12 @@
     "file": "assets/sprites/b_armycamp_L06.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5536,6 +6472,12 @@
     "file": "assets/sprites/b_armycamp_L07.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5546,6 +6488,12 @@
     "file": "assets/sprites/b_armycamp_L08.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5556,6 +6504,12 @@
     "file": "assets/sprites/b_armycamp_L09.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5566,6 +6520,12 @@
     "file": "assets/sprites/b_armycamp_L10.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5576,6 +6536,12 @@
     "file": "assets/sprites/b_armycamp_L11.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5586,6 +6552,12 @@
     "file": "assets/sprites/b_armycamp_L12.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5596,6 +6568,12 @@
     "file": "assets/sprites/b_armycamp_L13.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5606,6 +6584,12 @@
     "file": "assets/sprites/b_armycamp_L14.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5616,6 +6600,12 @@
     "file": "assets/sprites/b_armycamp_L15.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5626,6 +6616,12 @@
     "file": "assets/sprites/b_armycamp_L16.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5636,6 +6632,12 @@
     "file": "assets/sprites/b_armycamp_L17.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5646,6 +6648,12 @@
     "file": "assets/sprites/b_armycamp_L18.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5656,6 +6664,12 @@
     "file": "assets/sprites/b_armycamp_L19.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5666,6 +6680,12 @@
     "file": "assets/sprites/b_armycamp_L20.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     61.0,
+     257.0,
+     253.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5676,6 +6696,12 @@
     "file": "assets/sprites/b_armycamp_L21.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5686,6 +6712,12 @@
     "file": "assets/sprites/b_armycamp_L22.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5696,6 +6728,12 @@
     "file": "assets/sprites/b_armycamp_L23.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5706,6 +6744,12 @@
     "file": "assets/sprites/b_armycamp_L24.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5716,6 +6760,12 @@
     "file": "assets/sprites/b_armycamp_L25.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5726,6 +6776,12 @@
     "file": "assets/sprites/b_armycamp_L26.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5736,6 +6792,12 @@
     "file": "assets/sprites/b_armycamp_L27.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5746,6 +6808,12 @@
     "file": "assets/sprites/b_armycamp_L28.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5756,6 +6824,12 @@
     "file": "assets/sprites/b_armycamp_L29.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     28.5,
+     82.0,
+     245.5,
+     234.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -5766,6 +6840,12 @@
     "file": "assets/sprites/b_armycamp_L30.png",
     "footprint": 4,
     "h": 299,
+    "ink": [
+     29.0,
+     65.5,
+     270.0,
+     276.0
+    ],
     "outlined": true,
     "w": 299
    },
@@ -5776,6 +6856,12 @@
     "file": "assets/sprites/b_barracks_L01.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5786,6 +6872,12 @@
     "file": "assets/sprites/b_barracks_L02.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5796,6 +6888,12 @@
     "file": "assets/sprites/b_barracks_L03.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5806,6 +6904,12 @@
     "file": "assets/sprites/b_barracks_L04.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5816,6 +6920,12 @@
     "file": "assets/sprites/b_barracks_L05.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5826,6 +6936,12 @@
     "file": "assets/sprites/b_barracks_L06.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5836,6 +6952,12 @@
     "file": "assets/sprites/b_barracks_L07.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5846,6 +6968,12 @@
     "file": "assets/sprites/b_barracks_L08.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5856,6 +6984,12 @@
     "file": "assets/sprites/b_barracks_L09.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5866,6 +7000,12 @@
     "file": "assets/sprites/b_barracks_L10.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5876,6 +7016,12 @@
     "file": "assets/sprites/b_barracks_L11.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5886,6 +7032,12 @@
     "file": "assets/sprites/b_barracks_L12.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5896,6 +7048,12 @@
     "file": "assets/sprites/b_barracks_L13.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5906,6 +7064,12 @@
     "file": "assets/sprites/b_barracks_L14.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5916,6 +7080,12 @@
     "file": "assets/sprites/b_barracks_L15.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5926,6 +7096,12 @@
     "file": "assets/sprites/b_barracks_L16.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5936,6 +7112,12 @@
     "file": "assets/sprites/b_barracks_L17.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5946,6 +7128,12 @@
     "file": "assets/sprites/b_barracks_L18.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5956,6 +7144,12 @@
     "file": "assets/sprites/b_barracks_L19.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5966,6 +7160,12 @@
     "file": "assets/sprites/b_barracks_L20.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     63.0,
+     156.5,
+     160.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5976,6 +7176,12 @@
     "file": "assets/sprites/b_barracks_L21.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5986,6 +7192,12 @@
     "file": "assets/sprites/b_barracks_L22.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -5996,6 +7208,12 @@
     "file": "assets/sprites/b_barracks_L23.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6006,6 +7224,12 @@
     "file": "assets/sprites/b_barracks_L24.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6016,6 +7240,12 @@
     "file": "assets/sprites/b_barracks_L25.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6026,6 +7256,12 @@
     "file": "assets/sprites/b_barracks_L26.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6036,6 +7272,12 @@
     "file": "assets/sprites/b_barracks_L27.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6046,6 +7288,12 @@
     "file": "assets/sprites/b_barracks_L28.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6056,6 +7304,12 @@
     "file": "assets/sprites/b_barracks_L29.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6066,6 +7320,12 @@
     "file": "assets/sprites/b_barracks_L30.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     59.0,
+     156.5,
+     164.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6076,6 +7336,12 @@
     "file": "assets/sprites/b_blacksmith_L01.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6086,6 +7352,12 @@
     "file": "assets/sprites/b_blacksmith_L02.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6096,6 +7368,12 @@
     "file": "assets/sprites/b_blacksmith_L03.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6106,6 +7384,12 @@
     "file": "assets/sprites/b_blacksmith_L04.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6116,6 +7400,12 @@
     "file": "assets/sprites/b_blacksmith_L05.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6126,6 +7416,12 @@
     "file": "assets/sprites/b_blacksmith_L06.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6136,6 +7432,12 @@
     "file": "assets/sprites/b_blacksmith_L07.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6146,6 +7448,12 @@
     "file": "assets/sprites/b_blacksmith_L08.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6156,6 +7464,12 @@
     "file": "assets/sprites/b_blacksmith_L09.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6166,6 +7480,12 @@
     "file": "assets/sprites/b_blacksmith_L10.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6176,6 +7496,12 @@
     "file": "assets/sprites/b_blacksmith_L11.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6186,6 +7512,12 @@
     "file": "assets/sprites/b_blacksmith_L12.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6196,6 +7528,12 @@
     "file": "assets/sprites/b_blacksmith_L13.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6206,6 +7544,12 @@
     "file": "assets/sprites/b_blacksmith_L14.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6216,6 +7560,12 @@
     "file": "assets/sprites/b_blacksmith_L15.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6226,6 +7576,12 @@
     "file": "assets/sprites/b_blacksmith_L16.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6236,6 +7592,12 @@
     "file": "assets/sprites/b_blacksmith_L17.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6246,6 +7608,12 @@
     "file": "assets/sprites/b_blacksmith_L18.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6256,6 +7624,12 @@
     "file": "assets/sprites/b_blacksmith_L19.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6266,6 +7640,12 @@
     "file": "assets/sprites/b_blacksmith_L20.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     60.5,
+     156.5,
+     162.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6276,6 +7656,12 @@
     "file": "assets/sprites/b_blacksmith_L21.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6286,6 +7672,12 @@
     "file": "assets/sprites/b_blacksmith_L22.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6296,6 +7688,12 @@
     "file": "assets/sprites/b_blacksmith_L23.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6306,6 +7704,12 @@
     "file": "assets/sprites/b_blacksmith_L24.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6316,6 +7720,12 @@
     "file": "assets/sprites/b_blacksmith_L25.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6326,6 +7736,12 @@
     "file": "assets/sprites/b_blacksmith_L26.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6336,6 +7752,12 @@
     "file": "assets/sprites/b_blacksmith_L27.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6346,6 +7768,12 @@
     "file": "assets/sprites/b_blacksmith_L28.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6356,6 +7784,12 @@
     "file": "assets/sprites/b_blacksmith_L29.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     69.5,
+     156.5,
+     158.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6366,6 +7800,12 @@
     "file": "assets/sprites/b_blacksmith_L30.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     56.0,
+     156.5,
+     166.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6376,6 +7816,12 @@
     "file": "assets/sprites/b_bomb_L01.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6386,6 +7832,12 @@
     "file": "assets/sprites/b_bomb_L02.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6396,6 +7848,12 @@
     "file": "assets/sprites/b_bomb_L03.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6406,6 +7864,12 @@
     "file": "assets/sprites/b_bomb_L04.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6416,6 +7880,12 @@
     "file": "assets/sprites/b_bomb_L05.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6426,6 +7896,12 @@
     "file": "assets/sprites/b_bomb_L06.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6436,6 +7912,12 @@
     "file": "assets/sprites/b_bomb_L07.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6446,6 +7928,12 @@
     "file": "assets/sprites/b_bomb_L08.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6456,6 +7944,12 @@
     "file": "assets/sprites/b_bomb_L09.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6466,6 +7960,12 @@
     "file": "assets/sprites/b_bomb_L10.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6476,6 +7976,12 @@
     "file": "assets/sprites/b_bomb_L11.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6486,6 +7992,12 @@
     "file": "assets/sprites/b_bomb_L12.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6496,6 +8008,12 @@
     "file": "assets/sprites/b_bomb_L13.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6506,6 +8024,12 @@
     "file": "assets/sprites/b_bomb_L14.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6516,6 +8040,12 @@
     "file": "assets/sprites/b_bomb_L15.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6526,6 +8056,12 @@
     "file": "assets/sprites/b_bomb_L16.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6536,6 +8072,12 @@
     "file": "assets/sprites/b_bomb_L17.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6546,6 +8088,12 @@
     "file": "assets/sprites/b_bomb_L18.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6556,6 +8104,12 @@
     "file": "assets/sprites/b_bomb_L19.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6566,6 +8120,12 @@
     "file": "assets/sprites/b_bomb_L20.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6576,6 +8136,12 @@
     "file": "assets/sprites/b_bomb_L21.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6586,6 +8152,12 @@
     "file": "assets/sprites/b_bomb_L22.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6596,6 +8168,12 @@
     "file": "assets/sprites/b_bomb_L23.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6606,6 +8184,12 @@
     "file": "assets/sprites/b_bomb_L24.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6616,6 +8200,12 @@
     "file": "assets/sprites/b_bomb_L25.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6626,6 +8216,12 @@
     "file": "assets/sprites/b_bomb_L26.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6636,6 +8232,12 @@
     "file": "assets/sprites/b_bomb_L27.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6646,6 +8248,12 @@
     "file": "assets/sprites/b_bomb_L28.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6656,6 +8264,12 @@
     "file": "assets/sprites/b_bomb_L29.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6666,6 +8280,12 @@
     "file": "assets/sprites/b_bomb_L30.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -6676,6 +8296,12 @@
     "file": "assets/sprites/b_bombtower_L01.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     38.0,
+     52.0,
+     203.0,
+     218.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -6686,6 +8312,12 @@
     "file": "assets/sprites/b_bombtower_L02.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     38.0,
+     52.0,
+     203.0,
+     218.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -6696,6 +8328,12 @@
     "file": "assets/sprites/b_bombtower_L03.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     38.0,
+     52.0,
+     203.0,
+     218.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -6706,6 +8344,12 @@
     "file": "assets/sprites/b_bombtower_L04.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     38.0,
+     52.0,
+     203.0,
+     218.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -6716,6 +8360,12 @@
     "file": "assets/sprites/b_bombtower_L05.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     38.0,
+     52.0,
+     203.0,
+     218.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -6726,6 +8376,12 @@
     "file": "assets/sprites/b_bombtower_L06.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     38.0,
+     52.0,
+     203.0,
+     218.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -6736,6 +8392,12 @@
     "file": "assets/sprites/b_bombtower_L07.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     38.0,
+     52.0,
+     203.0,
+     218.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -6746,6 +8408,12 @@
     "file": "assets/sprites/b_bombtower_L08.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     38.0,
+     52.0,
+     203.0,
+     218.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -6756,6 +8424,12 @@
     "file": "assets/sprites/b_bombtower_L09.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6766,6 +8440,12 @@
     "file": "assets/sprites/b_bombtower_L10.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6776,6 +8456,12 @@
     "file": "assets/sprites/b_bombtower_L11.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6786,6 +8472,12 @@
     "file": "assets/sprites/b_bombtower_L12.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6796,6 +8488,12 @@
     "file": "assets/sprites/b_bombtower_L13.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6806,6 +8504,12 @@
     "file": "assets/sprites/b_bombtower_L14.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6816,6 +8520,12 @@
     "file": "assets/sprites/b_bombtower_L15.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6826,6 +8536,12 @@
     "file": "assets/sprites/b_bombtower_L16.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6836,6 +8552,12 @@
     "file": "assets/sprites/b_bombtower_L17.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6846,6 +8568,12 @@
     "file": "assets/sprites/b_bombtower_L18.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6856,6 +8584,12 @@
     "file": "assets/sprites/b_bombtower_L19.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     38.0,
+     52.0,
+     202.0,
+     217.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -6866,6 +8600,12 @@
     "file": "assets/sprites/b_bombtower_L20.png",
     "footprint": 3,
     "h": 274,
+    "ink": [
+     46.5,
+     47.5,
+     227.5,
+     252.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -6876,6 +8616,12 @@
     "file": "assets/sprites/b_bombtower_L21.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     38.0,
+     52.0,
+     204.0,
+     219.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -6886,6 +8632,12 @@
     "file": "assets/sprites/b_bombtower_L22.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     38.0,
+     52.0,
+     204.0,
+     219.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -6896,6 +8648,12 @@
     "file": "assets/sprites/b_bombtower_L23.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     38.0,
+     52.0,
+     204.0,
+     219.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -6906,6 +8664,12 @@
     "file": "assets/sprites/b_bombtower_L24.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     38.0,
+     52.0,
+     204.0,
+     219.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -6916,6 +8680,12 @@
     "file": "assets/sprites/b_bombtower_L25.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     38.0,
+     52.0,
+     204.0,
+     219.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -6926,6 +8696,12 @@
     "file": "assets/sprites/b_bombtower_L26.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     38.0,
+     52.0,
+     204.0,
+     219.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -6936,6 +8712,12 @@
     "file": "assets/sprites/b_bombtower_L27.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     38.0,
+     52.0,
+     204.0,
+     219.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -6946,6 +8728,12 @@
     "file": "assets/sprites/b_bombtower_L28.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     38.0,
+     52.0,
+     204.0,
+     219.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -6956,6 +8744,12 @@
     "file": "assets/sprites/b_bombtower_L29.png",
     "footprint": 3,
     "h": 242,
+    "ink": [
+     38.0,
+     52.0,
+     204.0,
+     219.5
+    ],
     "outlined": true,
     "w": 242
    },
@@ -6966,6 +8760,12 @@
     "file": "assets/sprites/b_bombtower_L30.png",
     "footprint": 3,
     "h": 294,
+    "ink": [
+     56.0,
+     50.0,
+     238.0,
+     270.5
+    ],
     "outlined": true,
     "w": 294
    },
@@ -6976,6 +8776,12 @@
     "file": "assets/sprites/b_cannon_L01.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6986,6 +8792,12 @@
     "file": "assets/sprites/b_cannon_L02.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -6996,6 +8808,12 @@
     "file": "assets/sprites/b_cannon_L03.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7006,6 +8824,12 @@
     "file": "assets/sprites/b_cannon_L04.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7016,6 +8840,12 @@
     "file": "assets/sprites/b_cannon_L05.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7026,6 +8856,12 @@
     "file": "assets/sprites/b_cannon_L06.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7036,6 +8872,12 @@
     "file": "assets/sprites/b_cannon_L07.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7046,6 +8888,12 @@
     "file": "assets/sprites/b_cannon_L08.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7056,6 +8904,12 @@
     "file": "assets/sprites/b_cannon_L09.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7066,6 +8920,12 @@
     "file": "assets/sprites/b_cannon_L10.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7076,6 +8936,12 @@
     "file": "assets/sprites/b_cannon_L11.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7086,6 +8952,12 @@
     "file": "assets/sprites/b_cannon_L12.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7096,6 +8968,12 @@
     "file": "assets/sprites/b_cannon_L13.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7106,6 +8984,12 @@
     "file": "assets/sprites/b_cannon_L14.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7116,6 +9000,12 @@
     "file": "assets/sprites/b_cannon_L15.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7126,6 +9016,12 @@
     "file": "assets/sprites/b_cannon_L16.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7136,6 +9032,12 @@
     "file": "assets/sprites/b_cannon_L17.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7146,6 +9048,12 @@
     "file": "assets/sprites/b_cannon_L18.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7156,6 +9064,12 @@
     "file": "assets/sprites/b_cannon_L19.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     16.5,
+     56.0,
+     189.5,
+     185.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7166,6 +9080,12 @@
     "file": "assets/sprites/b_cannon_L20.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     23.0,
+     47.0,
+     195.0,
+     199.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -7176,6 +9096,12 @@
     "file": "assets/sprites/b_cannon_L21.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     32.0,
+     73.5,
+     174.0,
+     180.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7186,6 +9112,12 @@
     "file": "assets/sprites/b_cannon_L22.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     32.0,
+     73.5,
+     174.0,
+     180.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7196,6 +9128,12 @@
     "file": "assets/sprites/b_cannon_L23.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     32.0,
+     73.5,
+     174.0,
+     180.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7206,6 +9144,12 @@
     "file": "assets/sprites/b_cannon_L24.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     32.0,
+     73.5,
+     174.0,
+     180.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7216,6 +9160,12 @@
     "file": "assets/sprites/b_cannon_L25.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     32.0,
+     73.5,
+     174.0,
+     180.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7226,6 +9176,12 @@
     "file": "assets/sprites/b_cannon_L26.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     32.0,
+     73.5,
+     174.0,
+     180.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7236,6 +9192,12 @@
     "file": "assets/sprites/b_cannon_L27.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     32.0,
+     73.5,
+     174.0,
+     180.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7246,6 +9208,12 @@
     "file": "assets/sprites/b_cannon_L28.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     32.0,
+     73.5,
+     174.0,
+     180.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7256,6 +9224,12 @@
     "file": "assets/sprites/b_cannon_L29.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     32.0,
+     73.5,
+     174.0,
+     180.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7266,6 +9240,12 @@
     "file": "assets/sprites/b_cannon_L30.png",
     "footprint": 3,
     "h": 236,
+    "ink": [
+     32.0,
+     49.0,
+     204.0,
+     216.0
+    ],
     "outlined": true,
     "w": 236
    },
@@ -7276,6 +9256,12 @@
     "file": "assets/sprites/b_clocktower_L01.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     53.0,
+     53.0,
+     215.0,
+     242.0
+    ],
     "outlined": true,
     "w": 268
    },
@@ -7286,6 +9272,12 @@
     "file": "assets/sprites/b_clocktower_L02.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     53.0,
+     53.0,
+     215.0,
+     242.0
+    ],
     "outlined": true,
     "w": 268
    },
@@ -7296,6 +9288,12 @@
     "file": "assets/sprites/b_clocktower_L03.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     53.0,
+     53.0,
+     215.0,
+     242.0
+    ],
     "outlined": true,
     "w": 268
    },
@@ -7306,6 +9304,12 @@
     "file": "assets/sprites/b_clocktower_L04.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     53.0,
+     53.0,
+     215.0,
+     242.0
+    ],
     "outlined": true,
     "w": 268
    },
@@ -7316,6 +9320,12 @@
     "file": "assets/sprites/b_clocktower_L05.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     53.0,
+     53.0,
+     215.0,
+     242.0
+    ],
     "outlined": true,
     "w": 268
    },
@@ -7326,6 +9336,12 @@
     "file": "assets/sprites/b_clocktower_L06.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     53.0,
+     53.0,
+     214.0,
+     241.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -7336,6 +9352,12 @@
     "file": "assets/sprites/b_clocktower_L07.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     53.0,
+     53.0,
+     214.0,
+     241.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -7346,6 +9368,12 @@
     "file": "assets/sprites/b_clocktower_L08.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     53.0,
+     53.0,
+     214.0,
+     241.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -7356,6 +9384,12 @@
     "file": "assets/sprites/b_clocktower_L09.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7366,6 +9400,12 @@
     "file": "assets/sprites/b_clocktower_L10.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7376,6 +9416,12 @@
     "file": "assets/sprites/b_clocktower_L11.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7386,6 +9432,12 @@
     "file": "assets/sprites/b_clocktower_L12.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7396,6 +9448,12 @@
     "file": "assets/sprites/b_clocktower_L13.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7406,6 +9464,12 @@
     "file": "assets/sprites/b_clocktower_L14.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7416,6 +9480,12 @@
     "file": "assets/sprites/b_clocktower_L15.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7426,6 +9496,12 @@
     "file": "assets/sprites/b_clocktower_L16.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7436,6 +9512,12 @@
     "file": "assets/sprites/b_clocktower_L17.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7446,6 +9528,12 @@
     "file": "assets/sprites/b_clocktower_L18.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7456,6 +9544,12 @@
     "file": "assets/sprites/b_clocktower_L19.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     53.0,
+     53.0,
+     213.0,
+     240.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -7466,6 +9560,12 @@
     "file": "assets/sprites/b_clocktower_L20.png",
     "footprint": 3,
     "h": 309,
+    "ink": [
+     64.5,
+     48.5,
+     244.5,
+     283.5
+    ],
     "outlined": true,
     "w": 309
    },
@@ -7476,6 +9576,12 @@
     "file": "assets/sprites/b_clocktower_L21.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     53.0,
+     53.0,
+     215.0,
+     242.0
+    ],
     "outlined": true,
     "w": 268
    },
@@ -7486,6 +9592,12 @@
     "file": "assets/sprites/b_clocktower_L22.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     53.0,
+     53.0,
+     215.0,
+     242.0
+    ],
     "outlined": true,
     "w": 268
    },
@@ -7496,6 +9608,12 @@
     "file": "assets/sprites/b_clocktower_L23.png",
     "footprint": 3,
     "h": 271,
+    "ink": [
+     54.5,
+     51.5,
+     216.5,
+     245.0
+    ],
     "outlined": true,
     "w": 271
    },
@@ -7506,6 +9624,12 @@
     "file": "assets/sprites/b_clocktower_L24.png",
     "footprint": 3,
     "h": 271,
+    "ink": [
+     54.5,
+     51.5,
+     216.5,
+     245.0
+    ],
     "outlined": true,
     "w": 271
    },
@@ -7516,6 +9640,12 @@
     "file": "assets/sprites/b_clocktower_L25.png",
     "footprint": 3,
     "h": 271,
+    "ink": [
+     54.5,
+     51.5,
+     216.5,
+     245.0
+    ],
     "outlined": true,
     "w": 271
    },
@@ -7526,6 +9656,12 @@
     "file": "assets/sprites/b_clocktower_L26.png",
     "footprint": 3,
     "h": 271,
+    "ink": [
+     54.5,
+     51.5,
+     216.5,
+     245.0
+    ],
     "outlined": true,
     "w": 271
    },
@@ -7536,6 +9672,12 @@
     "file": "assets/sprites/b_clocktower_L27.png",
     "footprint": 3,
     "h": 271,
+    "ink": [
+     54.5,
+     51.5,
+     216.5,
+     245.0
+    ],
     "outlined": true,
     "w": 271
    },
@@ -7546,6 +9688,12 @@
     "file": "assets/sprites/b_clocktower_L28.png",
     "footprint": 3,
     "h": 271,
+    "ink": [
+     54.5,
+     51.5,
+     216.5,
+     245.0
+    ],
     "outlined": true,
     "w": 271
    },
@@ -7556,6 +9704,12 @@
     "file": "assets/sprites/b_clocktower_L29.png",
     "footprint": 3,
     "h": 271,
+    "ink": [
+     54.5,
+     51.5,
+     216.5,
+     245.0
+    ],
     "outlined": true,
     "w": 271
    },
@@ -7566,6 +9720,12 @@
     "file": "assets/sprites/b_clocktower_L30.png",
     "footprint": 3,
     "h": 329,
+    "ink": [
+     74.5,
+     51.0,
+     254.5,
+     301.5
+    ],
     "outlined": true,
     "w": 329
    },
@@ -7576,6 +9736,12 @@
     "file": "assets/sprites/b_darkbarracks_L01.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7586,6 +9752,12 @@
     "file": "assets/sprites/b_darkbarracks_L02.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7596,6 +9768,12 @@
     "file": "assets/sprites/b_darkbarracks_L03.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7606,6 +9784,12 @@
     "file": "assets/sprites/b_darkbarracks_L04.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7616,6 +9800,12 @@
     "file": "assets/sprites/b_darkbarracks_L05.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7626,6 +9816,12 @@
     "file": "assets/sprites/b_darkbarracks_L06.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7636,6 +9832,12 @@
     "file": "assets/sprites/b_darkbarracks_L07.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7646,6 +9848,12 @@
     "file": "assets/sprites/b_darkbarracks_L08.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7656,6 +9864,12 @@
     "file": "assets/sprites/b_darkbarracks_L09.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7666,6 +9880,12 @@
     "file": "assets/sprites/b_darkbarracks_L10.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7676,6 +9896,12 @@
     "file": "assets/sprites/b_darkbarracks_L11.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7686,6 +9912,12 @@
     "file": "assets/sprites/b_darkbarracks_L12.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7696,6 +9928,12 @@
     "file": "assets/sprites/b_darkbarracks_L13.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7706,6 +9944,12 @@
     "file": "assets/sprites/b_darkbarracks_L14.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7716,6 +9960,12 @@
     "file": "assets/sprites/b_darkbarracks_L15.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7726,6 +9976,12 @@
     "file": "assets/sprites/b_darkbarracks_L16.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7736,6 +9992,12 @@
     "file": "assets/sprites/b_darkbarracks_L17.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7746,6 +10008,12 @@
     "file": "assets/sprites/b_darkbarracks_L18.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7756,6 +10024,12 @@
     "file": "assets/sprites/b_darkbarracks_L19.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7766,6 +10040,12 @@
     "file": "assets/sprites/b_darkbarracks_L20.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     63.0,
+     156.5,
+     160.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7776,6 +10056,12 @@
     "file": "assets/sprites/b_darkbarracks_L21.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7786,6 +10072,12 @@
     "file": "assets/sprites/b_darkbarracks_L22.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7796,6 +10088,12 @@
     "file": "assets/sprites/b_darkbarracks_L23.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     66.0,
+     156.5,
+     153.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7806,6 +10104,12 @@
     "file": "assets/sprites/b_darkbarracks_L24.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7816,6 +10120,12 @@
     "file": "assets/sprites/b_darkbarracks_L25.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7826,6 +10136,12 @@
     "file": "assets/sprites/b_darkbarracks_L26.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7836,6 +10152,12 @@
     "file": "assets/sprites/b_darkbarracks_L27.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7846,6 +10168,12 @@
     "file": "assets/sprites/b_darkbarracks_L28.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7856,6 +10184,12 @@
     "file": "assets/sprites/b_darkbarracks_L29.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     68.0,
+     156.5,
+     155.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7866,6 +10200,12 @@
     "file": "assets/sprites/b_darkbarracks_L30.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     49.5,
+     59.0,
+     156.5,
+     164.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -7876,6 +10216,12 @@
     "file": "assets/sprites/b_darkdrill_L01.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7886,6 +10232,12 @@
     "file": "assets/sprites/b_darkdrill_L02.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7896,6 +10248,12 @@
     "file": "assets/sprites/b_darkdrill_L03.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7906,6 +10264,12 @@
     "file": "assets/sprites/b_darkdrill_L04.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7916,6 +10280,12 @@
     "file": "assets/sprites/b_darkdrill_L05.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7926,6 +10296,12 @@
     "file": "assets/sprites/b_darkdrill_L06.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7936,6 +10312,12 @@
     "file": "assets/sprites/b_darkdrill_L07.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7946,6 +10328,12 @@
     "file": "assets/sprites/b_darkdrill_L08.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7956,6 +10344,12 @@
     "file": "assets/sprites/b_darkdrill_L09.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7966,6 +10360,12 @@
     "file": "assets/sprites/b_darkdrill_L10.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7976,6 +10376,12 @@
     "file": "assets/sprites/b_darkdrill_L11.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7986,6 +10392,12 @@
     "file": "assets/sprites/b_darkdrill_L12.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -7996,6 +10408,12 @@
     "file": "assets/sprites/b_darkdrill_L13.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8006,6 +10424,12 @@
     "file": "assets/sprites/b_darkdrill_L14.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8016,6 +10440,12 @@
     "file": "assets/sprites/b_darkdrill_L15.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8026,6 +10456,12 @@
     "file": "assets/sprites/b_darkdrill_L16.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8036,6 +10472,12 @@
     "file": "assets/sprites/b_darkdrill_L17.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8046,6 +10488,12 @@
     "file": "assets/sprites/b_darkdrill_L18.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8056,6 +10504,12 @@
     "file": "assets/sprites/b_darkdrill_L19.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8066,6 +10520,12 @@
     "file": "assets/sprites/b_darkdrill_L20.png",
     "footprint": 3,
     "h": 271,
+    "ink": [
+     45.0,
+     48.5,
+     226.0,
+     249.5
+    ],
     "outlined": true,
     "w": 271
    },
@@ -8076,6 +10536,12 @@
     "file": "assets/sprites/b_darkdrill_L21.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8086,6 +10552,12 @@
     "file": "assets/sprites/b_darkdrill_L22.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8096,6 +10568,12 @@
     "file": "assets/sprites/b_darkdrill_L23.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8106,6 +10584,12 @@
     "file": "assets/sprites/b_darkdrill_L24.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8116,6 +10600,12 @@
     "file": "assets/sprites/b_darkdrill_L25.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8126,6 +10616,12 @@
     "file": "assets/sprites/b_darkdrill_L26.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8136,6 +10632,12 @@
     "file": "assets/sprites/b_darkdrill_L27.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8146,6 +10648,12 @@
     "file": "assets/sprites/b_darkdrill_L28.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8156,6 +10664,12 @@
     "file": "assets/sprites/b_darkdrill_L29.png",
     "footprint": 3,
     "h": 255,
+    "ink": [
+     37.0,
+     52.0,
+     218.0,
+     235.0
+    ],
     "outlined": true,
     "w": 255
    },
@@ -8166,6 +10680,12 @@
     "file": "assets/sprites/b_darkdrill_L30.png",
     "footprint": 3,
     "h": 289,
+    "ink": [
+     54.0,
+     50.0,
+     235.0,
+     266.0
+    ],
     "outlined": true,
     "w": 289
    },
@@ -8176,6 +10696,12 @@
     "file": "assets/sprites/b_darkspellfactory_L01.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8186,6 +10712,12 @@
     "file": "assets/sprites/b_darkspellfactory_L02.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8196,6 +10728,12 @@
     "file": "assets/sprites/b_darkspellfactory_L03.png",
     "footprint": 3,
     "h": 230,
+    "ink": [
+     38.0,
+     59.0,
+     192.0,
+     205.5
+    ],
     "outlined": true,
     "w": 230
    },
@@ -8206,6 +10744,12 @@
     "file": "assets/sprites/b_darkspellfactory_L04.png",
     "footprint": 3,
     "h": 229,
+    "ink": [
+     37.5,
+     58.5,
+     191.5,
+     205.0
+    ],
     "outlined": true,
     "w": 229
    },
@@ -8216,6 +10760,12 @@
     "file": "assets/sprites/b_darkspellfactory_L05.png",
     "footprint": 3,
     "h": 229,
+    "ink": [
+     37.5,
+     58.0,
+     191.5,
+     205.0
+    ],
     "outlined": true,
     "w": 229
    },
@@ -8226,6 +10776,12 @@
     "file": "assets/sprites/b_darkspellfactory_L06.png",
     "footprint": 3,
     "h": 230,
+    "ink": [
+     38.0,
+     59.0,
+     192.0,
+     205.5
+    ],
     "outlined": true,
     "w": 230
    },
@@ -8236,6 +10792,12 @@
     "file": "assets/sprites/b_darkspellfactory_L07.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8246,6 +10808,12 @@
     "file": "assets/sprites/b_darkspellfactory_L08.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8256,6 +10824,12 @@
     "file": "assets/sprites/b_darkspellfactory_L09.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8266,6 +10840,12 @@
     "file": "assets/sprites/b_darkspellfactory_L10.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8276,6 +10856,12 @@
     "file": "assets/sprites/b_darkspellfactory_L11.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8286,6 +10872,12 @@
     "file": "assets/sprites/b_darkspellfactory_L12.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8296,6 +10888,12 @@
     "file": "assets/sprites/b_darkspellfactory_L13.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8306,6 +10904,12 @@
     "file": "assets/sprites/b_darkspellfactory_L14.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8316,6 +10920,12 @@
     "file": "assets/sprites/b_darkspellfactory_L15.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8326,6 +10936,12 @@
     "file": "assets/sprites/b_darkspellfactory_L16.png",
     "footprint": 3,
     "h": 228,
+    "ink": [
+     33.5,
+     52.5,
+     194.5,
+     205.5
+    ],
     "outlined": true,
     "w": 228
    },
@@ -8336,6 +10952,12 @@
     "file": "assets/sprites/b_darkspellfactory_L17.png",
     "footprint": 3,
     "h": 228,
+    "ink": [
+     33.5,
+     52.5,
+     194.5,
+     205.5
+    ],
     "outlined": true,
     "w": 228
    },
@@ -8346,6 +10968,12 @@
     "file": "assets/sprites/b_darkspellfactory_L18.png",
     "footprint": 3,
     "h": 228,
+    "ink": [
+     33.5,
+     52.5,
+     194.5,
+     205.5
+    ],
     "outlined": true,
     "w": 228
    },
@@ -8356,6 +10984,12 @@
     "file": "assets/sprites/b_darkspellfactory_L19.png",
     "footprint": 3,
     "h": 228,
+    "ink": [
+     33.5,
+     52.5,
+     194.5,
+     205.5
+    ],
     "outlined": true,
     "w": 228
    },
@@ -8366,6 +11000,12 @@
     "file": "assets/sprites/b_darkspellfactory_L20.png",
     "footprint": 3,
     "h": 271,
+    "ink": [
+     44.5,
+     48.0,
+     226.5,
+     249.5
+    ],
     "outlined": true,
     "w": 271
    },
@@ -8376,6 +11016,12 @@
     "file": "assets/sprites/b_darkspellfactory_L21.png",
     "footprint": 3,
     "h": 228,
+    "ink": [
+     33.5,
+     52.5,
+     194.5,
+     205.5
+    ],
     "outlined": true,
     "w": 228
    },
@@ -8386,6 +11032,12 @@
     "file": "assets/sprites/b_darkspellfactory_L22.png",
     "footprint": 3,
     "h": 223,
+    "ink": [
+     32.0,
+     49.0,
+     191.0,
+     200.5
+    ],
     "outlined": true,
     "w": 223
    },
@@ -8396,6 +11048,12 @@
     "file": "assets/sprites/b_darkspellfactory_L23.png",
     "footprint": 3,
     "h": 223,
+    "ink": [
+     32.0,
+     49.0,
+     191.0,
+     200.5
+    ],
     "outlined": true,
     "w": 223
    },
@@ -8406,6 +11064,12 @@
     "file": "assets/sprites/b_darkspellfactory_L24.png",
     "footprint": 3,
     "h": 223,
+    "ink": [
+     32.0,
+     49.0,
+     191.0,
+     200.5
+    ],
     "outlined": true,
     "w": 223
    },
@@ -8416,6 +11080,12 @@
     "file": "assets/sprites/b_darkspellfactory_L25.png",
     "footprint": 3,
     "h": 223,
+    "ink": [
+     32.0,
+     49.0,
+     191.0,
+     200.5
+    ],
     "outlined": true,
     "w": 223
    },
@@ -8426,6 +11096,12 @@
     "file": "assets/sprites/b_darkspellfactory_L26.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8436,6 +11112,12 @@
     "file": "assets/sprites/b_darkspellfactory_L27.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8446,6 +11128,12 @@
     "file": "assets/sprites/b_darkspellfactory_L28.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8456,6 +11144,12 @@
     "file": "assets/sprites/b_darkspellfactory_L29.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -8466,6 +11160,12 @@
     "file": "assets/sprites/b_darkspellfactory_L30.png",
     "footprint": 3,
     "h": 289,
+    "ink": [
+     53.5,
+     50.5,
+     235.5,
+     266.0
+    ],
     "outlined": true,
     "w": 289
    },
@@ -8476,6 +11176,12 @@
     "file": "assets/sprites/b_darkstorage_L01.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8486,6 +11192,12 @@
     "file": "assets/sprites/b_darkstorage_L02.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8496,6 +11208,12 @@
     "file": "assets/sprites/b_darkstorage_L03.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8506,6 +11224,12 @@
     "file": "assets/sprites/b_darkstorage_L04.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8516,6 +11240,12 @@
     "file": "assets/sprites/b_darkstorage_L05.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8526,6 +11256,12 @@
     "file": "assets/sprites/b_darkstorage_L06.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8536,6 +11272,12 @@
     "file": "assets/sprites/b_darkstorage_L07.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8546,6 +11288,12 @@
     "file": "assets/sprites/b_darkstorage_L08.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8556,6 +11304,12 @@
     "file": "assets/sprites/b_darkstorage_L09.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8566,6 +11320,12 @@
     "file": "assets/sprites/b_darkstorage_L10.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8576,6 +11336,12 @@
     "file": "assets/sprites/b_darkstorage_L11.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8586,6 +11352,12 @@
     "file": "assets/sprites/b_darkstorage_L12.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8596,6 +11368,12 @@
     "file": "assets/sprites/b_darkstorage_L13.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8606,6 +11384,12 @@
     "file": "assets/sprites/b_darkstorage_L14.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8616,6 +11400,12 @@
     "file": "assets/sprites/b_darkstorage_L15.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8626,6 +11416,12 @@
     "file": "assets/sprites/b_darkstorage_L16.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8636,6 +11432,12 @@
     "file": "assets/sprites/b_darkstorage_L17.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8646,6 +11448,12 @@
     "file": "assets/sprites/b_darkstorage_L18.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8656,6 +11464,12 @@
     "file": "assets/sprites/b_darkstorage_L19.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     47.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8666,6 +11480,12 @@
     "file": "assets/sprites/b_darkstorage_L20.png",
     "footprint": 3,
     "h": 239,
+    "ink": [
+     28.5,
+     47.0,
+     210.5,
+     220.5
+    ],
     "outlined": true,
     "w": 239
    },
@@ -8676,6 +11496,12 @@
     "file": "assets/sprites/b_darkstorage_L21.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     34.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8686,6 +11512,12 @@
     "file": "assets/sprites/b_darkstorage_L22.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     34.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8696,6 +11528,12 @@
     "file": "assets/sprites/b_darkstorage_L23.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     34.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8706,6 +11544,12 @@
     "file": "assets/sprites/b_darkstorage_L24.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     34.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8716,6 +11560,12 @@
     "file": "assets/sprites/b_darkstorage_L25.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     34.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8726,6 +11576,12 @@
     "file": "assets/sprites/b_darkstorage_L26.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     34.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8736,6 +11592,12 @@
     "file": "assets/sprites/b_darkstorage_L27.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     34.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8746,6 +11608,12 @@
     "file": "assets/sprites/b_darkstorage_L28.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     34.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8756,6 +11624,12 @@
     "file": "assets/sprites/b_darkstorage_L29.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     34.0,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -8766,6 +11640,12 @@
     "file": "assets/sprites/b_darkstorage_L30.png",
     "footprint": 3,
     "h": 258,
+    "ink": [
+     38.0,
+     49.5,
+     220.0,
+     238.0
+    ],
     "outlined": true,
     "w": 258
    },
@@ -8776,6 +11656,12 @@
     "file": "assets/sprites/b_eagle_L01.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8786,6 +11672,12 @@
     "file": "assets/sprites/b_eagle_L02.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8796,6 +11688,12 @@
     "file": "assets/sprites/b_eagle_L03.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8806,6 +11704,12 @@
     "file": "assets/sprites/b_eagle_L04.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8816,6 +11720,12 @@
     "file": "assets/sprites/b_eagle_L05.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8826,6 +11736,12 @@
     "file": "assets/sprites/b_eagle_L06.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8836,6 +11752,12 @@
     "file": "assets/sprites/b_eagle_L07.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8846,6 +11768,12 @@
     "file": "assets/sprites/b_eagle_L08.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8856,6 +11784,12 @@
     "file": "assets/sprites/b_eagle_L09.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8866,6 +11800,12 @@
     "file": "assets/sprites/b_eagle_L10.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8876,6 +11816,12 @@
     "file": "assets/sprites/b_eagle_L11.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8886,6 +11832,12 @@
     "file": "assets/sprites/b_eagle_L12.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8896,6 +11848,12 @@
     "file": "assets/sprites/b_eagle_L13.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8906,6 +11864,12 @@
     "file": "assets/sprites/b_eagle_L14.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8916,6 +11880,12 @@
     "file": "assets/sprites/b_eagle_L15.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8926,6 +11896,12 @@
     "file": "assets/sprites/b_eagle_L16.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8936,6 +11912,12 @@
     "file": "assets/sprites/b_eagle_L17.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8946,6 +11928,12 @@
     "file": "assets/sprites/b_eagle_L18.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8956,6 +11944,12 @@
     "file": "assets/sprites/b_eagle_L19.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8966,6 +11960,12 @@
     "file": "assets/sprites/b_eagle_L20.png",
     "footprint": 4,
     "h": 311,
+    "ink": [
+     35.0,
+     61.0,
+     276.0,
+     286.5
+    ],
     "outlined": true,
     "w": 311
    },
@@ -8976,6 +11976,12 @@
     "file": "assets/sprites/b_eagle_L21.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8986,6 +11992,12 @@
     "file": "assets/sprites/b_eagle_L22.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -8996,6 +12008,12 @@
     "file": "assets/sprites/b_eagle_L23.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -9006,6 +12024,12 @@
     "file": "assets/sprites/b_eagle_L24.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -9016,6 +12040,12 @@
     "file": "assets/sprites/b_eagle_L25.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -9026,6 +12056,12 @@
     "file": "assets/sprites/b_eagle_L26.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -9036,6 +12072,12 @@
     "file": "assets/sprites/b_eagle_L27.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -9046,6 +12088,12 @@
     "file": "assets/sprites/b_eagle_L28.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -9056,6 +12104,12 @@
     "file": "assets/sprites/b_eagle_L29.png",
     "footprint": 4,
     "h": 298,
+    "ink": [
+     28.5,
+     71.0,
+     269.5,
+     275.0
+    ],
     "outlined": true,
     "w": 298
    },
@@ -9066,6 +12120,12 @@
     "file": "assets/sprites/b_eagle_L30.png",
     "footprint": 4,
     "h": 336,
+    "ink": [
+     47.5,
+     66.5,
+     288.5,
+     309.5
+    ],
     "outlined": true,
     "w": 336
    },
@@ -9076,6 +12136,12 @@
     "file": "assets/sprites/b_elixircollector_L01.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     49.5,
+     181.5,
+     184.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9086,6 +12152,12 @@
     "file": "assets/sprites/b_elixircollector_L02.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     49.5,
+     181.5,
+     184.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9096,6 +12168,12 @@
     "file": "assets/sprites/b_elixircollector_L03.png",
     "footprint": 3,
     "h": 213,
+    "ink": [
+     29.5,
+     58.5,
+     183.5,
+     190.5
+    ],
     "outlined": true,
     "w": 213
    },
@@ -9106,6 +12184,12 @@
     "file": "assets/sprites/b_elixircollector_L04.png",
     "footprint": 3,
     "h": 213,
+    "ink": [
+     29.5,
+     58.0,
+     183.5,
+     190.5
+    ],
     "outlined": true,
     "w": 213
    },
@@ -9116,6 +12200,12 @@
     "file": "assets/sprites/b_elixircollector_L05.png",
     "footprint": 3,
     "h": 212,
+    "ink": [
+     29.5,
+     57.5,
+     182.5,
+     189.5
+    ],
     "outlined": true,
     "w": 212
    },
@@ -9126,6 +12216,12 @@
     "file": "assets/sprites/b_elixircollector_L06.png",
     "footprint": 3,
     "h": 213,
+    "ink": [
+     29.5,
+     58.5,
+     183.5,
+     190.5
+    ],
     "outlined": true,
     "w": 213
    },
@@ -9136,6 +12232,12 @@
     "file": "assets/sprites/b_elixircollector_L07.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9146,6 +12248,12 @@
     "file": "assets/sprites/b_elixircollector_L08.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9156,6 +12264,12 @@
     "file": "assets/sprites/b_elixircollector_L09.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9166,6 +12280,12 @@
     "file": "assets/sprites/b_elixircollector_L10.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9176,6 +12296,12 @@
     "file": "assets/sprites/b_elixircollector_L11.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9186,6 +12312,12 @@
     "file": "assets/sprites/b_elixircollector_L12.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9196,6 +12328,12 @@
     "file": "assets/sprites/b_elixircollector_L13.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9206,6 +12344,12 @@
     "file": "assets/sprites/b_elixircollector_L14.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9216,6 +12360,12 @@
     "file": "assets/sprites/b_elixircollector_L15.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9226,6 +12376,12 @@
     "file": "assets/sprites/b_elixircollector_L16.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     25.0,
+     52.0,
+     186.0,
+     190.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -9236,6 +12392,12 @@
     "file": "assets/sprites/b_elixircollector_L17.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     25.0,
+     52.0,
+     186.0,
+     190.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -9246,6 +12408,12 @@
     "file": "assets/sprites/b_elixircollector_L18.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     25.0,
+     52.0,
+     186.0,
+     190.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -9256,6 +12424,12 @@
     "file": "assets/sprites/b_elixircollector_L19.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     25.0,
+     52.0,
+     186.0,
+     190.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -9266,6 +12440,12 @@
     "file": "assets/sprites/b_elixircollector_L20.png",
     "footprint": 3,
     "h": 241,
+    "ink": [
+     30.0,
+     46.5,
+     211.0,
+     222.5
+    ],
     "outlined": true,
     "w": 241
    },
@@ -9276,6 +12456,12 @@
     "file": "assets/sprites/b_elixircollector_L21.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     25.0,
+     52.0,
+     186.0,
+     190.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -9286,6 +12472,12 @@
     "file": "assets/sprites/b_elixircollector_L22.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     23.5,
+     48.5,
+     182.5,
+     185.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9296,6 +12488,12 @@
     "file": "assets/sprites/b_elixircollector_L23.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     23.5,
+     48.5,
+     182.5,
+     185.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9306,6 +12504,12 @@
     "file": "assets/sprites/b_elixircollector_L24.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     23.5,
+     48.5,
+     182.5,
+     185.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9316,6 +12520,12 @@
     "file": "assets/sprites/b_elixircollector_L25.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     23.5,
+     48.5,
+     182.5,
+     185.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9326,6 +12536,12 @@
     "file": "assets/sprites/b_elixircollector_L26.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9336,6 +12552,12 @@
     "file": "assets/sprites/b_elixircollector_L27.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9346,6 +12568,12 @@
     "file": "assets/sprites/b_elixircollector_L28.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9356,6 +12584,12 @@
     "file": "assets/sprites/b_elixircollector_L29.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     19.5,
+     48.5,
+     201.5,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -9366,6 +12600,12 @@
     "file": "assets/sprites/b_elixircollector_L30.png",
     "footprint": 3,
     "h": 260,
+    "ink": [
+     39.5,
+     49.5,
+     220.5,
+     239.5
+    ],
     "outlined": true,
     "w": 260
    },
@@ -9376,6 +12616,12 @@
     "file": "assets/sprites/b_elixirstorage_L01.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     25.5,
+     47.5,
+     180.5,
+     182.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9386,6 +12632,12 @@
     "file": "assets/sprites/b_elixirstorage_L02.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     25.5,
+     47.5,
+     180.5,
+     182.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9396,6 +12648,12 @@
     "file": "assets/sprites/b_elixirstorage_L03.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     28.5,
+     55.0,
+     182.5,
+     188.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -9406,6 +12664,12 @@
     "file": "assets/sprites/b_elixirstorage_L04.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     28.5,
+     54.5,
+     182.5,
+     188.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -9416,6 +12680,12 @@
     "file": "assets/sprites/b_elixirstorage_L05.png",
     "footprint": 3,
     "h": 210,
+    "ink": [
+     28.0,
+     54.0,
+     182.0,
+     187.5
+    ],
     "outlined": true,
     "w": 210
    },
@@ -9426,6 +12696,12 @@
     "file": "assets/sprites/b_elixirstorage_L06.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     28.5,
+     55.0,
+     182.5,
+     188.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -9436,6 +12712,12 @@
     "file": "assets/sprites/b_elixirstorage_L07.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9446,6 +12728,12 @@
     "file": "assets/sprites/b_elixirstorage_L08.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9456,6 +12744,12 @@
     "file": "assets/sprites/b_elixirstorage_L09.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9466,6 +12760,12 @@
     "file": "assets/sprites/b_elixirstorage_L10.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9476,6 +12776,12 @@
     "file": "assets/sprites/b_elixirstorage_L11.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9486,6 +12792,12 @@
     "file": "assets/sprites/b_elixirstorage_L12.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9496,6 +12808,12 @@
     "file": "assets/sprites/b_elixirstorage_L13.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9506,6 +12824,12 @@
     "file": "assets/sprites/b_elixirstorage_L14.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9516,6 +12840,12 @@
     "file": "assets/sprites/b_elixirstorage_L15.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9526,6 +12856,12 @@
     "file": "assets/sprites/b_elixirstorage_L16.png",
     "footprint": 3,
     "h": 209,
+    "ink": [
+     24.0,
+     48.5,
+     185.0,
+     188.5
+    ],
     "outlined": true,
     "w": 209
    },
@@ -9536,6 +12872,12 @@
     "file": "assets/sprites/b_elixirstorage_L17.png",
     "footprint": 3,
     "h": 209,
+    "ink": [
+     24.0,
+     48.5,
+     185.0,
+     188.5
+    ],
     "outlined": true,
     "w": 209
    },
@@ -9546,6 +12888,12 @@
     "file": "assets/sprites/b_elixirstorage_L18.png",
     "footprint": 3,
     "h": 209,
+    "ink": [
+     24.0,
+     48.5,
+     185.0,
+     188.5
+    ],
     "outlined": true,
     "w": 209
    },
@@ -9556,6 +12904,12 @@
     "file": "assets/sprites/b_elixirstorage_L19.png",
     "footprint": 3,
     "h": 209,
+    "ink": [
+     24.0,
+     48.5,
+     185.0,
+     188.5
+    ],
     "outlined": true,
     "w": 209
    },
@@ -9566,6 +12920,12 @@
     "file": "assets/sprites/b_elixirstorage_L20.png",
     "footprint": 3,
     "h": 256,
+    "ink": [
+     37.0,
+     46.5,
+     219.0,
+     236.0
+    ],
     "outlined": true,
     "w": 256
    },
@@ -9576,6 +12936,12 @@
     "file": "assets/sprites/b_elixirstorage_L21.png",
     "footprint": 3,
     "h": 209,
+    "ink": [
+     24.0,
+     48.5,
+     185.0,
+     188.5
+    ],
     "outlined": true,
     "w": 209
    },
@@ -9586,6 +12952,12 @@
     "file": "assets/sprites/b_elixirstorage_L22.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     23.5,
+     46.5,
+     182.5,
+     184.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9596,6 +12968,12 @@
     "file": "assets/sprites/b_elixirstorage_L23.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     23.5,
+     46.5,
+     182.5,
+     184.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9606,6 +12984,12 @@
     "file": "assets/sprites/b_elixirstorage_L24.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     23.5,
+     46.5,
+     182.5,
+     184.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9616,6 +13000,12 @@
     "file": "assets/sprites/b_elixirstorage_L25.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     23.5,
+     46.5,
+     182.5,
+     184.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -9626,6 +13016,12 @@
     "file": "assets/sprites/b_elixirstorage_L26.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9636,6 +13032,12 @@
     "file": "assets/sprites/b_elixirstorage_L27.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9646,6 +13048,12 @@
     "file": "assets/sprites/b_elixirstorage_L28.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9656,6 +13064,12 @@
     "file": "assets/sprites/b_elixirstorage_L29.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     18.5,
+     44.5,
+     199.5,
+     201.5
+    ],
     "outlined": true,
     "w": 218
    },
@@ -9666,6 +13080,12 @@
     "file": "assets/sprites/b_elixirstorage_L30.png",
     "footprint": 3,
     "h": 276,
+    "ink": [
+     47.0,
+     49.5,
+     229.0,
+     254.0
+    ],
     "outlined": true,
     "w": 276
    },
@@ -9676,6 +13096,12 @@
     "file": "assets/sprites/b_empmine_L01.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9686,6 +13112,12 @@
     "file": "assets/sprites/b_empmine_L02.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9696,6 +13128,12 @@
     "file": "assets/sprites/b_empmine_L03.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9706,6 +13144,12 @@
     "file": "assets/sprites/b_empmine_L04.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9716,6 +13160,12 @@
     "file": "assets/sprites/b_empmine_L05.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9726,6 +13176,12 @@
     "file": "assets/sprites/b_empmine_L06.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9736,6 +13192,12 @@
     "file": "assets/sprites/b_empmine_L07.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9746,6 +13208,12 @@
     "file": "assets/sprites/b_empmine_L08.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9756,6 +13224,12 @@
     "file": "assets/sprites/b_empmine_L09.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9766,6 +13240,12 @@
     "file": "assets/sprites/b_empmine_L10.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9776,6 +13256,12 @@
     "file": "assets/sprites/b_empmine_L11.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9786,6 +13272,12 @@
     "file": "assets/sprites/b_empmine_L12.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9796,6 +13288,12 @@
     "file": "assets/sprites/b_empmine_L13.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9806,6 +13304,12 @@
     "file": "assets/sprites/b_empmine_L14.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9816,6 +13320,12 @@
     "file": "assets/sprites/b_empmine_L15.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9826,6 +13336,12 @@
     "file": "assets/sprites/b_empmine_L16.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9836,6 +13352,12 @@
     "file": "assets/sprites/b_empmine_L17.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9846,6 +13368,12 @@
     "file": "assets/sprites/b_empmine_L18.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9856,6 +13384,12 @@
     "file": "assets/sprites/b_empmine_L19.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9866,6 +13400,12 @@
     "file": "assets/sprites/b_empmine_L20.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9876,6 +13416,12 @@
     "file": "assets/sprites/b_empmine_L21.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9886,6 +13432,12 @@
     "file": "assets/sprites/b_empmine_L22.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9896,6 +13448,12 @@
     "file": "assets/sprites/b_empmine_L23.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9906,6 +13464,12 @@
     "file": "assets/sprites/b_empmine_L24.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9916,6 +13480,12 @@
     "file": "assets/sprites/b_empmine_L25.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9926,6 +13496,12 @@
     "file": "assets/sprites/b_empmine_L26.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9936,6 +13512,12 @@
     "file": "assets/sprites/b_empmine_L27.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9946,6 +13528,12 @@
     "file": "assets/sprites/b_empmine_L28.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9956,6 +13544,12 @@
     "file": "assets/sprites/b_empmine_L29.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9966,6 +13560,12 @@
     "file": "assets/sprites/b_empmine_L30.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -9976,6 +13576,12 @@
     "file": "assets/sprites/b_fracture_L01.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -9986,6 +13592,12 @@
     "file": "assets/sprites/b_fracture_L02.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -9996,6 +13608,12 @@
     "file": "assets/sprites/b_fracture_L03.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10006,6 +13624,12 @@
     "file": "assets/sprites/b_fracture_L04.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10016,6 +13640,12 @@
     "file": "assets/sprites/b_fracture_L05.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10026,6 +13656,12 @@
     "file": "assets/sprites/b_fracture_L06.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10036,6 +13672,12 @@
     "file": "assets/sprites/b_fracture_L07.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10046,6 +13688,12 @@
     "file": "assets/sprites/b_fracture_L08.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10056,6 +13704,12 @@
     "file": "assets/sprites/b_fracture_L09.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10066,6 +13720,12 @@
     "file": "assets/sprites/b_fracture_L10.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10076,6 +13736,12 @@
     "file": "assets/sprites/b_fracture_L11.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10086,6 +13752,12 @@
     "file": "assets/sprites/b_fracture_L12.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10096,6 +13768,12 @@
     "file": "assets/sprites/b_fracture_L13.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10106,6 +13784,12 @@
     "file": "assets/sprites/b_fracture_L14.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10116,6 +13800,12 @@
     "file": "assets/sprites/b_fracture_L15.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10126,6 +13816,12 @@
     "file": "assets/sprites/b_fracture_L16.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10136,6 +13832,12 @@
     "file": "assets/sprites/b_fracture_L17.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10146,6 +13848,12 @@
     "file": "assets/sprites/b_fracture_L18.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10156,6 +13864,12 @@
     "file": "assets/sprites/b_fracture_L19.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10166,6 +13880,12 @@
     "file": "assets/sprites/b_fracture_L20.png",
     "footprint": 4,
     "h": 288,
+    "ink": [
+     24.0,
+     61.0,
+     264.0,
+     266.0
+    ],
     "outlined": true,
     "w": 288
    },
@@ -10176,6 +13896,12 @@
     "file": "assets/sprites/b_fracture_L21.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10186,6 +13912,12 @@
     "file": "assets/sprites/b_fracture_L22.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10196,6 +13928,12 @@
     "file": "assets/sprites/b_fracture_L23.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10206,6 +13944,12 @@
     "file": "assets/sprites/b_fracture_L24.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10216,6 +13960,12 @@
     "file": "assets/sprites/b_fracture_L25.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10226,6 +13976,12 @@
     "file": "assets/sprites/b_fracture_L26.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10236,6 +13992,12 @@
     "file": "assets/sprites/b_fracture_L27.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10246,6 +14008,12 @@
     "file": "assets/sprites/b_fracture_L28.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10256,6 +14024,12 @@
     "file": "assets/sprites/b_fracture_L29.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.5,
+     257.0,
+     250.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -10266,6 +14040,12 @@
     "file": "assets/sprites/b_fracture_L30.png",
     "footprint": 4,
     "h": 313,
+    "ink": [
+     36.0,
+     66.0,
+     277.0,
+     288.5
+    ],
     "outlined": true,
     "w": 313
    },
@@ -10276,6 +14056,12 @@
     "file": "assets/sprites/b_giantbomb_L01.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10286,6 +14072,12 @@
     "file": "assets/sprites/b_giantbomb_L02.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10296,6 +14088,12 @@
     "file": "assets/sprites/b_giantbomb_L03.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10306,6 +14104,12 @@
     "file": "assets/sprites/b_giantbomb_L04.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10316,6 +14120,12 @@
     "file": "assets/sprites/b_giantbomb_L05.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10326,6 +14136,12 @@
     "file": "assets/sprites/b_giantbomb_L06.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10336,6 +14152,12 @@
     "file": "assets/sprites/b_giantbomb_L07.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10346,6 +14168,12 @@
     "file": "assets/sprites/b_giantbomb_L08.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10356,6 +14184,12 @@
     "file": "assets/sprites/b_giantbomb_L09.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10366,6 +14200,12 @@
     "file": "assets/sprites/b_giantbomb_L10.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10376,6 +14216,12 @@
     "file": "assets/sprites/b_giantbomb_L11.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10386,6 +14232,12 @@
     "file": "assets/sprites/b_giantbomb_L12.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10396,6 +14248,12 @@
     "file": "assets/sprites/b_giantbomb_L13.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10406,6 +14264,12 @@
     "file": "assets/sprites/b_giantbomb_L14.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10416,6 +14280,12 @@
     "file": "assets/sprites/b_giantbomb_L15.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10426,6 +14296,12 @@
     "file": "assets/sprites/b_giantbomb_L16.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10436,6 +14312,12 @@
     "file": "assets/sprites/b_giantbomb_L17.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10446,6 +14328,12 @@
     "file": "assets/sprites/b_giantbomb_L18.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10456,6 +14344,12 @@
     "file": "assets/sprites/b_giantbomb_L19.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10466,6 +14360,12 @@
     "file": "assets/sprites/b_giantbomb_L20.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10476,6 +14376,12 @@
     "file": "assets/sprites/b_giantbomb_L21.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10486,6 +14392,12 @@
     "file": "assets/sprites/b_giantbomb_L22.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10496,6 +14408,12 @@
     "file": "assets/sprites/b_giantbomb_L23.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10506,6 +14424,12 @@
     "file": "assets/sprites/b_giantbomb_L24.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10516,6 +14440,12 @@
     "file": "assets/sprites/b_giantbomb_L25.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10526,6 +14456,12 @@
     "file": "assets/sprites/b_giantbomb_L26.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10536,6 +14472,12 @@
     "file": "assets/sprites/b_giantbomb_L27.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10546,6 +14488,12 @@
     "file": "assets/sprites/b_giantbomb_L28.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10556,6 +14504,12 @@
     "file": "assets/sprites/b_giantbomb_L29.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10566,6 +14520,12 @@
     "file": "assets/sprites/b_giantbomb_L30.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -10576,6 +14536,12 @@
     "file": "assets/sprites/b_goldmine_L01.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     30.5,
+     57.5,
+     195.5,
+     204.5
+    ],
     "outlined": true,
     "w": 226
    },
@@ -10586,6 +14552,12 @@
     "file": "assets/sprites/b_goldmine_L02.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     30.5,
+     57.5,
+     195.5,
+     204.5
+    ],
     "outlined": true,
     "w": 226
    },
@@ -10596,6 +14568,12 @@
     "file": "assets/sprites/b_goldmine_L03.png",
     "footprint": 3,
     "h": 222,
+    "ink": [
+     34.5,
+     61.0,
+     187.5,
+     198.5
+    ],
     "outlined": true,
     "w": 222
    },
@@ -10606,6 +14584,12 @@
     "file": "assets/sprites/b_goldmine_L04.png",
     "footprint": 3,
     "h": 222,
+    "ink": [
+     34.0,
+     60.5,
+     188.0,
+     198.5
+    ],
     "outlined": true,
     "w": 222
    },
@@ -10616,6 +14600,12 @@
     "file": "assets/sprites/b_goldmine_L05.png",
     "footprint": 3,
     "h": 222,
+    "ink": [
+     34.0,
+     60.5,
+     188.0,
+     198.5
+    ],
     "outlined": true,
     "w": 222
    },
@@ -10626,6 +14616,12 @@
     "file": "assets/sprites/b_goldmine_L06.png",
     "footprint": 3,
     "h": 222,
+    "ink": [
+     34.5,
+     61.0,
+     187.5,
+     198.5
+    ],
     "outlined": true,
     "w": 222
    },
@@ -10636,6 +14632,12 @@
     "file": "assets/sprites/b_goldmine_L07.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10646,6 +14648,12 @@
     "file": "assets/sprites/b_goldmine_L08.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10656,6 +14664,12 @@
     "file": "assets/sprites/b_goldmine_L09.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10666,6 +14680,12 @@
     "file": "assets/sprites/b_goldmine_L10.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10676,6 +14696,12 @@
     "file": "assets/sprites/b_goldmine_L11.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10686,6 +14712,12 @@
     "file": "assets/sprites/b_goldmine_L12.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10696,6 +14728,12 @@
     "file": "assets/sprites/b_goldmine_L13.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10706,6 +14744,12 @@
     "file": "assets/sprites/b_goldmine_L14.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10716,6 +14760,12 @@
     "file": "assets/sprites/b_goldmine_L15.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10726,6 +14776,12 @@
     "file": "assets/sprites/b_goldmine_L16.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     30.0,
+     55.0,
+     191.0,
+     199.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -10736,6 +14792,12 @@
     "file": "assets/sprites/b_goldmine_L17.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     30.0,
+     55.0,
+     191.0,
+     199.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -10746,6 +14808,12 @@
     "file": "assets/sprites/b_goldmine_L18.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     30.0,
+     55.0,
+     191.0,
+     199.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -10756,6 +14824,12 @@
     "file": "assets/sprites/b_goldmine_L19.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     30.0,
+     55.0,
+     191.0,
+     199.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -10766,6 +14840,12 @@
     "file": "assets/sprites/b_goldmine_L20.png",
     "footprint": 3,
     "h": 249,
+    "ink": [
+     33.5,
+     47.0,
+     215.5,
+     229.5
+    ],
     "outlined": true,
     "w": 249
    },
@@ -10776,6 +14856,12 @@
     "file": "assets/sprites/b_goldmine_L21.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     30.0,
+     55.0,
+     191.0,
+     199.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -10786,6 +14872,12 @@
     "file": "assets/sprites/b_goldmine_L22.png",
     "footprint": 3,
     "h": 215,
+    "ink": [
+     28.0,
+     51.5,
+     187.0,
+     193.5
+    ],
     "outlined": true,
     "w": 215
    },
@@ -10796,6 +14888,12 @@
     "file": "assets/sprites/b_goldmine_L23.png",
     "footprint": 3,
     "h": 215,
+    "ink": [
+     28.0,
+     51.5,
+     187.0,
+     193.5
+    ],
     "outlined": true,
     "w": 215
    },
@@ -10806,6 +14904,12 @@
     "file": "assets/sprites/b_goldmine_L24.png",
     "footprint": 3,
     "h": 215,
+    "ink": [
+     28.0,
+     51.5,
+     187.0,
+     193.5
+    ],
     "outlined": true,
     "w": 215
    },
@@ -10816,6 +14920,12 @@
     "file": "assets/sprites/b_goldmine_L25.png",
     "footprint": 3,
     "h": 215,
+    "ink": [
+     28.0,
+     51.5,
+     187.0,
+     193.5
+    ],
     "outlined": true,
     "w": 215
    },
@@ -10826,6 +14936,12 @@
     "file": "assets/sprites/b_goldmine_L26.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10836,6 +14952,12 @@
     "file": "assets/sprites/b_goldmine_L27.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10846,6 +14968,12 @@
     "file": "assets/sprites/b_goldmine_L28.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10856,6 +14984,12 @@
     "file": "assets/sprites/b_goldmine_L29.png",
     "footprint": 3,
     "h": 232,
+    "ink": [
+     25.0,
+     51.5,
+     207.0,
+     214.5
+    ],
     "outlined": true,
     "w": 232
    },
@@ -10866,6 +15000,12 @@
     "file": "assets/sprites/b_goldmine_L30.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     43.0,
+     49.5,
+     225.0,
+     247.0
+    ],
     "outlined": true,
     "w": 268
    },
@@ -10876,6 +15016,12 @@
     "file": "assets/sprites/b_goldstorage_L01.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     51.5,
+     184.0,
+     176.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10886,6 +15032,12 @@
     "file": "assets/sprites/b_goldstorage_L02.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.5,
+     184.0,
+     177.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10896,6 +15048,12 @@
     "file": "assets/sprites/b_goldstorage_L03.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.5,
+     184.0,
+     177.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10906,6 +15064,12 @@
     "file": "assets/sprites/b_goldstorage_L04.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.5,
+     184.0,
+     177.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10916,6 +15080,12 @@
     "file": "assets/sprites/b_goldstorage_L05.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.5,
+     184.0,
+     177.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10926,6 +15096,12 @@
     "file": "assets/sprites/b_goldstorage_L06.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.5,
+     184.0,
+     177.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10936,6 +15112,12 @@
     "file": "assets/sprites/b_goldstorage_L07.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.5,
+     184.0,
+     177.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10946,6 +15128,12 @@
     "file": "assets/sprites/b_goldstorage_L08.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.5,
+     184.0,
+     177.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10956,6 +15144,12 @@
     "file": "assets/sprites/b_goldstorage_L09.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.5,
+     184.0,
+     177.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10966,6 +15160,12 @@
     "file": "assets/sprites/b_goldstorage_L10.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.5,
+     184.0,
+     177.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10976,6 +15176,12 @@
     "file": "assets/sprites/b_goldstorage_L11.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     57.0,
+     181.5,
+     178.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10986,6 +15192,12 @@
     "file": "assets/sprites/b_goldstorage_L12.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     57.0,
+     181.5,
+     178.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -10996,6 +15208,12 @@
     "file": "assets/sprites/b_goldstorage_L13.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     57.0,
+     181.5,
+     178.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11006,6 +15224,12 @@
     "file": "assets/sprites/b_goldstorage_L14.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     57.0,
+     181.5,
+     178.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11016,6 +15240,12 @@
     "file": "assets/sprites/b_goldstorage_L15.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     57.0,
+     181.5,
+     178.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11026,6 +15256,12 @@
     "file": "assets/sprites/b_goldstorage_L16.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     57.0,
+     181.5,
+     178.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11036,6 +15272,12 @@
     "file": "assets/sprites/b_goldstorage_L17.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     57.0,
+     181.5,
+     178.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11046,6 +15288,12 @@
     "file": "assets/sprites/b_goldstorage_L18.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     57.0,
+     181.5,
+     178.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11056,6 +15304,12 @@
     "file": "assets/sprites/b_goldstorage_L19.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.5,
+     57.0,
+     181.5,
+     178.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11066,6 +15320,12 @@
     "file": "assets/sprites/b_goldstorage_L20.png",
     "footprint": 3,
     "h": 215,
+    "ink": [
+     16.5,
+     49.0,
+     198.5,
+     199.0
+    ],
     "outlined": true,
     "w": 215
    },
@@ -11076,6 +15336,12 @@
     "file": "assets/sprites/b_goldstorage_L21.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     26.0,
+     55.0,
+     180.0,
+     173.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11086,6 +15352,12 @@
     "file": "assets/sprites/b_goldstorage_L22.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     26.0,
+     55.0,
+     180.0,
+     173.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11096,6 +15368,12 @@
     "file": "assets/sprites/b_goldstorage_L23.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     26.0,
+     55.0,
+     180.0,
+     173.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11106,6 +15384,12 @@
     "file": "assets/sprites/b_goldstorage_L24.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     26.0,
+     55.0,
+     180.0,
+     173.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11116,6 +15400,12 @@
     "file": "assets/sprites/b_goldstorage_L25.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     26.0,
+     55.0,
+     180.0,
+     173.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11126,6 +15416,12 @@
     "file": "assets/sprites/b_goldstorage_L26.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     26.0,
+     55.0,
+     180.0,
+     173.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11136,6 +15432,12 @@
     "file": "assets/sprites/b_goldstorage_L27.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     26.0,
+     55.0,
+     180.0,
+     173.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11146,6 +15448,12 @@
     "file": "assets/sprites/b_goldstorage_L28.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     26.0,
+     55.0,
+     180.0,
+     173.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11156,6 +15464,12 @@
     "file": "assets/sprites/b_goldstorage_L29.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     26.0,
+     55.0,
+     180.0,
+     173.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -11166,6 +15480,12 @@
     "file": "assets/sprites/b_goldstorage_L30.png",
     "footprint": 3,
     "h": 234,
+    "ink": [
+     26.5,
+     51.5,
+     207.5,
+     216.0
+    ],
     "outlined": true,
     "w": 234
    },
@@ -11176,6 +15496,12 @@
     "file": "assets/sprites/b_gravitywell_L01.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11186,6 +15512,12 @@
     "file": "assets/sprites/b_gravitywell_L02.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11196,6 +15528,12 @@
     "file": "assets/sprites/b_gravitywell_L03.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11206,6 +15544,12 @@
     "file": "assets/sprites/b_gravitywell_L04.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11216,6 +15560,12 @@
     "file": "assets/sprites/b_gravitywell_L05.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11226,6 +15576,12 @@
     "file": "assets/sprites/b_gravitywell_L06.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11236,6 +15592,12 @@
     "file": "assets/sprites/b_gravitywell_L07.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11246,6 +15608,12 @@
     "file": "assets/sprites/b_gravitywell_L08.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11256,6 +15624,12 @@
     "file": "assets/sprites/b_gravitywell_L09.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11266,6 +15640,12 @@
     "file": "assets/sprites/b_gravitywell_L10.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11276,6 +15656,12 @@
     "file": "assets/sprites/b_gravitywell_L11.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11286,6 +15672,12 @@
     "file": "assets/sprites/b_gravitywell_L12.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11296,6 +15688,12 @@
     "file": "assets/sprites/b_gravitywell_L13.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11306,6 +15704,12 @@
     "file": "assets/sprites/b_gravitywell_L14.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11316,6 +15720,12 @@
     "file": "assets/sprites/b_gravitywell_L15.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11326,6 +15736,12 @@
     "file": "assets/sprites/b_gravitywell_L16.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11336,6 +15752,12 @@
     "file": "assets/sprites/b_gravitywell_L17.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11346,6 +15768,12 @@
     "file": "assets/sprites/b_gravitywell_L18.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11356,6 +15784,12 @@
     "file": "assets/sprites/b_gravitywell_L19.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11366,6 +15800,12 @@
     "file": "assets/sprites/b_gravitywell_L20.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11376,6 +15816,12 @@
     "file": "assets/sprites/b_gravitywell_L21.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11386,6 +15832,12 @@
     "file": "assets/sprites/b_gravitywell_L22.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11396,6 +15848,12 @@
     "file": "assets/sprites/b_gravitywell_L23.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11406,6 +15864,12 @@
     "file": "assets/sprites/b_gravitywell_L24.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11416,6 +15880,12 @@
     "file": "assets/sprites/b_gravitywell_L25.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11426,6 +15896,12 @@
     "file": "assets/sprites/b_gravitywell_L26.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11436,6 +15912,12 @@
     "file": "assets/sprites/b_gravitywell_L27.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11446,6 +15928,12 @@
     "file": "assets/sprites/b_gravitywell_L28.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11456,6 +15944,12 @@
     "file": "assets/sprites/b_gravitywell_L29.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11466,6 +15960,12 @@
     "file": "assets/sprites/b_gravitywell_L30.png",
     "footprint": 4,
     "h": 346,
+    "ink": [
+     58.0,
+     70.5,
+     288.0,
+     315.5
+    ],
     "outlined": true,
     "w": 346
    },
@@ -11476,6 +15976,12 @@
     "file": "assets/sprites/b_herohall_L01.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11486,6 +15992,12 @@
     "file": "assets/sprites/b_herohall_L02.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11496,6 +16008,12 @@
     "file": "assets/sprites/b_herohall_L03.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     92.0,
+     215.5,
+     214.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11506,6 +16024,12 @@
     "file": "assets/sprites/b_herohall_L04.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     91.5,
+     215.5,
+     214.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11516,6 +16040,12 @@
     "file": "assets/sprites/b_herohall_L05.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     91.5,
+     215.5,
+     214.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11526,6 +16056,12 @@
     "file": "assets/sprites/b_herohall_L06.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     92.0,
+     215.5,
+     214.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11536,6 +16072,12 @@
     "file": "assets/sprites/b_herohall_L07.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11546,6 +16088,12 @@
     "file": "assets/sprites/b_herohall_L08.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11556,6 +16104,12 @@
     "file": "assets/sprites/b_herohall_L09.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11566,6 +16120,12 @@
     "file": "assets/sprites/b_herohall_L10.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11576,6 +16136,12 @@
     "file": "assets/sprites/b_herohall_L11.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11586,6 +16152,12 @@
     "file": "assets/sprites/b_herohall_L12.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11596,6 +16168,12 @@
     "file": "assets/sprites/b_herohall_L13.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11606,6 +16184,12 @@
     "file": "assets/sprites/b_herohall_L14.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11616,6 +16200,12 @@
     "file": "assets/sprites/b_herohall_L15.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11626,6 +16216,12 @@
     "file": "assets/sprites/b_herohall_L16.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     89.5,
+     215.5,
+     212.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11636,6 +16232,12 @@
     "file": "assets/sprites/b_herohall_L17.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     89.5,
+     215.5,
+     212.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11646,6 +16248,12 @@
     "file": "assets/sprites/b_herohall_L18.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     89.5,
+     215.5,
+     212.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11656,6 +16264,12 @@
     "file": "assets/sprites/b_herohall_L19.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     89.5,
+     215.5,
+     212.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11666,6 +16280,12 @@
     "file": "assets/sprites/b_herohall_L20.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     80.0,
+     215.5,
+     219.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11676,6 +16296,12 @@
     "file": "assets/sprites/b_herohall_L21.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     89.5,
+     215.5,
+     212.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11686,6 +16312,12 @@
     "file": "assets/sprites/b_herohall_L22.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11696,6 +16328,12 @@
     "file": "assets/sprites/b_herohall_L23.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     88.5,
+     215.5,
+     211.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11706,6 +16344,12 @@
     "file": "assets/sprites/b_herohall_L24.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     91.0,
+     215.5,
+     214.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11716,6 +16360,12 @@
     "file": "assets/sprites/b_herohall_L25.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     91.0,
+     215.5,
+     214.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11726,6 +16376,12 @@
     "file": "assets/sprites/b_herohall_L26.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     91.0,
+     215.5,
+     214.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11736,6 +16392,12 @@
     "file": "assets/sprites/b_herohall_L27.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     91.0,
+     215.5,
+     214.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11746,6 +16408,12 @@
     "file": "assets/sprites/b_herohall_L28.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     91.0,
+     215.5,
+     214.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11756,6 +16424,12 @@
     "file": "assets/sprites/b_herohall_L29.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     91.0,
+     215.5,
+     214.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11766,6 +16440,12 @@
     "file": "assets/sprites/b_herohall_L30.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     58.5,
+     75.5,
+     215.5,
+     225.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -11776,6 +16456,12 @@
     "file": "assets/sprites/b_inferno_L01.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11786,6 +16472,12 @@
     "file": "assets/sprites/b_inferno_L02.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11796,6 +16488,12 @@
     "file": "assets/sprites/b_inferno_L03.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11806,6 +16504,12 @@
     "file": "assets/sprites/b_inferno_L04.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11816,6 +16520,12 @@
     "file": "assets/sprites/b_inferno_L05.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11826,6 +16536,12 @@
     "file": "assets/sprites/b_inferno_L06.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11836,6 +16552,12 @@
     "file": "assets/sprites/b_inferno_L07.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11846,6 +16568,12 @@
     "file": "assets/sprites/b_inferno_L08.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11856,6 +16584,12 @@
     "file": "assets/sprites/b_inferno_L09.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11866,6 +16600,12 @@
     "file": "assets/sprites/b_inferno_L10.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11876,6 +16616,12 @@
     "file": "assets/sprites/b_inferno_L11.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11886,6 +16632,12 @@
     "file": "assets/sprites/b_inferno_L12.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11896,6 +16648,12 @@
     "file": "assets/sprites/b_inferno_L13.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11906,6 +16664,12 @@
     "file": "assets/sprites/b_inferno_L14.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11916,6 +16680,12 @@
     "file": "assets/sprites/b_inferno_L15.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11926,6 +16696,12 @@
     "file": "assets/sprites/b_inferno_L16.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11936,6 +16712,12 @@
     "file": "assets/sprites/b_inferno_L17.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11946,6 +16728,12 @@
     "file": "assets/sprites/b_inferno_L18.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11956,6 +16744,12 @@
     "file": "assets/sprites/b_inferno_L19.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11966,6 +16760,12 @@
     "file": "assets/sprites/b_inferno_L20.png",
     "footprint": 3,
     "h": 286,
+    "ink": [
+     52.5,
+     48.0,
+     233.5,
+     263.0
+    ],
     "outlined": true,
     "w": 286
    },
@@ -11976,6 +16776,12 @@
     "file": "assets/sprites/b_inferno_L21.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11986,6 +16792,12 @@
     "file": "assets/sprites/b_inferno_L22.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -11996,6 +16808,12 @@
     "file": "assets/sprites/b_inferno_L23.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -12006,6 +16824,12 @@
     "file": "assets/sprites/b_inferno_L24.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -12016,6 +16840,12 @@
     "file": "assets/sprites/b_inferno_L25.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -12026,6 +16856,12 @@
     "file": "assets/sprites/b_inferno_L26.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -12036,6 +16872,12 @@
     "file": "assets/sprites/b_inferno_L27.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -12046,6 +16888,12 @@
     "file": "assets/sprites/b_inferno_L28.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -12056,6 +16904,12 @@
     "file": "assets/sprites/b_inferno_L29.png",
     "footprint": 3,
     "h": 267,
+    "ink": [
+     42.5,
+     51.5,
+     224.5,
+     246.0
+    ],
     "outlined": true,
     "w": 267
    },
@@ -12066,6 +16920,12 @@
     "file": "assets/sprites/b_inferno_L30.png",
     "footprint": 3,
     "h": 305,
+    "ink": [
+     61.5,
+     50.5,
+     243.5,
+     280.5
+    ],
     "outlined": true,
     "w": 305
    },
@@ -12076,6 +16936,12 @@
     "file": "assets/sprites/b_laboratory_L01.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12086,6 +16952,12 @@
     "file": "assets/sprites/b_laboratory_L02.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12096,6 +16968,12 @@
     "file": "assets/sprites/b_laboratory_L03.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     32.0,
+     59.0,
+     186.0,
+     195.0
+    ],
     "outlined": true,
     "w": 218
    },
@@ -12106,6 +16984,12 @@
     "file": "assets/sprites/b_laboratory_L04.png",
     "footprint": 3,
     "h": 217,
+    "ink": [
+     31.5,
+     58.5,
+     185.5,
+     194.0
+    ],
     "outlined": true,
     "w": 217
    },
@@ -12116,6 +17000,12 @@
     "file": "assets/sprites/b_laboratory_L05.png",
     "footprint": 3,
     "h": 217,
+    "ink": [
+     31.5,
+     58.0,
+     185.5,
+     194.0
+    ],
     "outlined": true,
     "w": 217
    },
@@ -12126,6 +17016,12 @@
     "file": "assets/sprites/b_laboratory_L06.png",
     "footprint": 3,
     "h": 218,
+    "ink": [
+     32.0,
+     59.0,
+     186.0,
+     195.0
+    ],
     "outlined": true,
     "w": 218
    },
@@ -12136,6 +17032,12 @@
     "file": "assets/sprites/b_laboratory_L07.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12146,6 +17048,12 @@
     "file": "assets/sprites/b_laboratory_L08.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12156,6 +17064,12 @@
     "file": "assets/sprites/b_laboratory_L09.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12166,6 +17080,12 @@
     "file": "assets/sprites/b_laboratory_L10.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12176,6 +17096,12 @@
     "file": "assets/sprites/b_laboratory_L11.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12186,6 +17112,12 @@
     "file": "assets/sprites/b_laboratory_L12.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12196,6 +17128,12 @@
     "file": "assets/sprites/b_laboratory_L13.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12206,6 +17144,12 @@
     "file": "assets/sprites/b_laboratory_L14.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12216,6 +17160,12 @@
     "file": "assets/sprites/b_laboratory_L15.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12226,6 +17176,12 @@
     "file": "assets/sprites/b_laboratory_L16.png",
     "footprint": 3,
     "h": 216,
+    "ink": [
+     27.5,
+     52.5,
+     188.5,
+     195.0
+    ],
     "outlined": true,
     "w": 216
    },
@@ -12236,6 +17192,12 @@
     "file": "assets/sprites/b_laboratory_L17.png",
     "footprint": 3,
     "h": 216,
+    "ink": [
+     27.5,
+     52.5,
+     188.5,
+     195.0
+    ],
     "outlined": true,
     "w": 216
    },
@@ -12246,6 +17208,12 @@
     "file": "assets/sprites/b_laboratory_L18.png",
     "footprint": 3,
     "h": 216,
+    "ink": [
+     27.5,
+     52.5,
+     188.5,
+     195.0
+    ],
     "outlined": true,
     "w": 216
    },
@@ -12256,6 +17224,12 @@
     "file": "assets/sprites/b_laboratory_L19.png",
     "footprint": 3,
     "h": 216,
+    "ink": [
+     27.5,
+     52.5,
+     188.5,
+     195.0
+    ],
     "outlined": true,
     "w": 216
    },
@@ -12266,6 +17240,12 @@
     "file": "assets/sprites/b_laboratory_L20.png",
     "footprint": 3,
     "h": 258,
+    "ink": [
+     38.5,
+     47.5,
+     219.5,
+     238.0
+    ],
     "outlined": true,
     "w": 258
    },
@@ -12276,6 +17256,12 @@
     "file": "assets/sprites/b_laboratory_L21.png",
     "footprint": 3,
     "h": 216,
+    "ink": [
+     27.5,
+     52.5,
+     188.5,
+     195.0
+    ],
     "outlined": true,
     "w": 216
    },
@@ -12286,6 +17272,12 @@
     "file": "assets/sprites/b_laboratory_L22.png",
     "footprint": 3,
     "h": 210,
+    "ink": [
+     26.0,
+     49.0,
+     184.0,
+     189.0
+    ],
     "outlined": true,
     "w": 210
    },
@@ -12296,6 +17288,12 @@
     "file": "assets/sprites/b_laboratory_L23.png",
     "footprint": 3,
     "h": 210,
+    "ink": [
+     26.0,
+     49.0,
+     184.0,
+     189.0
+    ],
     "outlined": true,
     "w": 210
    },
@@ -12306,6 +17304,12 @@
     "file": "assets/sprites/b_laboratory_L24.png",
     "footprint": 3,
     "h": 210,
+    "ink": [
+     26.0,
+     49.0,
+     184.0,
+     189.0
+    ],
     "outlined": true,
     "w": 210
    },
@@ -12316,6 +17320,12 @@
     "file": "assets/sprites/b_laboratory_L25.png",
     "footprint": 3,
     "h": 210,
+    "ink": [
+     26.0,
+     49.0,
+     184.0,
+     189.0
+    ],
     "outlined": true,
     "w": 210
    },
@@ -12326,6 +17336,12 @@
     "file": "assets/sprites/b_laboratory_L26.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12336,6 +17352,12 @@
     "file": "assets/sprites/b_laboratory_L27.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12346,6 +17368,12 @@
     "file": "assets/sprites/b_laboratory_L28.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12356,6 +17384,12 @@
     "file": "assets/sprites/b_laboratory_L29.png",
     "footprint": 3,
     "h": 226,
+    "ink": [
+     22.5,
+     49.0,
+     203.5,
+     209.0
+    ],
     "outlined": true,
     "w": 226
    },
@@ -12366,6 +17400,12 @@
     "file": "assets/sprites/b_laboratory_L30.png",
     "footprint": 3,
     "h": 276,
+    "ink": [
+     47.5,
+     50.0,
+     228.5,
+     254.0
+    ],
     "outlined": true,
     "w": 276
    },
@@ -12376,6 +17416,12 @@
     "file": "assets/sprites/b_mirrortrap_L01.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12386,6 +17432,12 @@
     "file": "assets/sprites/b_mirrortrap_L02.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12396,6 +17448,12 @@
     "file": "assets/sprites/b_mirrortrap_L03.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12406,6 +17464,12 @@
     "file": "assets/sprites/b_mirrortrap_L04.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12416,6 +17480,12 @@
     "file": "assets/sprites/b_mirrortrap_L05.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12426,6 +17496,12 @@
     "file": "assets/sprites/b_mirrortrap_L06.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12436,6 +17512,12 @@
     "file": "assets/sprites/b_mirrortrap_L07.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12446,6 +17528,12 @@
     "file": "assets/sprites/b_mirrortrap_L08.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12456,6 +17544,12 @@
     "file": "assets/sprites/b_mirrortrap_L09.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12466,6 +17560,12 @@
     "file": "assets/sprites/b_mirrortrap_L10.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12476,6 +17576,12 @@
     "file": "assets/sprites/b_mirrortrap_L11.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12486,6 +17592,12 @@
     "file": "assets/sprites/b_mirrortrap_L12.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12496,6 +17608,12 @@
     "file": "assets/sprites/b_mirrortrap_L13.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12506,6 +17624,12 @@
     "file": "assets/sprites/b_mirrortrap_L14.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12516,6 +17640,12 @@
     "file": "assets/sprites/b_mirrortrap_L15.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12526,6 +17656,12 @@
     "file": "assets/sprites/b_mirrortrap_L16.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12536,6 +17672,12 @@
     "file": "assets/sprites/b_mirrortrap_L17.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12546,6 +17688,12 @@
     "file": "assets/sprites/b_mirrortrap_L18.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12556,6 +17704,12 @@
     "file": "assets/sprites/b_mirrortrap_L19.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12566,6 +17720,12 @@
     "file": "assets/sprites/b_mirrortrap_L20.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12576,6 +17736,12 @@
     "file": "assets/sprites/b_mirrortrap_L21.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12586,6 +17752,12 @@
     "file": "assets/sprites/b_mirrortrap_L22.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12596,6 +17768,12 @@
     "file": "assets/sprites/b_mirrortrap_L23.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12606,6 +17784,12 @@
     "file": "assets/sprites/b_mirrortrap_L24.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12616,6 +17800,12 @@
     "file": "assets/sprites/b_mirrortrap_L25.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12626,6 +17816,12 @@
     "file": "assets/sprites/b_mirrortrap_L26.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12636,6 +17832,12 @@
     "file": "assets/sprites/b_mirrortrap_L27.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12646,6 +17848,12 @@
     "file": "assets/sprites/b_mirrortrap_L28.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12656,6 +17864,12 @@
     "file": "assets/sprites/b_mirrortrap_L29.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12666,6 +17880,12 @@
     "file": "assets/sprites/b_mirrortrap_L30.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -12676,6 +17896,12 @@
     "file": "assets/sprites/b_monolith_L01.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12686,6 +17912,12 @@
     "file": "assets/sprites/b_monolith_L02.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12696,6 +17928,12 @@
     "file": "assets/sprites/b_monolith_L03.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12706,6 +17944,12 @@
     "file": "assets/sprites/b_monolith_L04.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12716,6 +17960,12 @@
     "file": "assets/sprites/b_monolith_L05.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12726,6 +17976,12 @@
     "file": "assets/sprites/b_monolith_L06.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12736,6 +17992,12 @@
     "file": "assets/sprites/b_monolith_L07.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12746,6 +18008,12 @@
     "file": "assets/sprites/b_monolith_L08.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12756,6 +18024,12 @@
     "file": "assets/sprites/b_monolith_L09.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12766,6 +18040,12 @@
     "file": "assets/sprites/b_monolith_L10.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12776,6 +18056,12 @@
     "file": "assets/sprites/b_monolith_L11.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12786,6 +18072,12 @@
     "file": "assets/sprites/b_monolith_L12.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12796,6 +18088,12 @@
     "file": "assets/sprites/b_monolith_L13.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12806,6 +18104,12 @@
     "file": "assets/sprites/b_monolith_L14.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12816,6 +18120,12 @@
     "file": "assets/sprites/b_monolith_L15.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12826,6 +18136,12 @@
     "file": "assets/sprites/b_monolith_L16.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12836,6 +18152,12 @@
     "file": "assets/sprites/b_monolith_L17.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12846,6 +18168,12 @@
     "file": "assets/sprites/b_monolith_L18.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12856,6 +18184,12 @@
     "file": "assets/sprites/b_monolith_L19.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12866,6 +18200,12 @@
     "file": "assets/sprites/b_monolith_L20.png",
     "footprint": 4,
     "h": 389,
+    "ink": [
+     74.5,
+     64.5,
+     314.5,
+     357.0
+    ],
     "outlined": true,
     "w": 389
    },
@@ -12876,6 +18216,12 @@
     "file": "assets/sprites/b_monolith_L21.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12886,6 +18232,12 @@
     "file": "assets/sprites/b_monolith_L22.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12896,6 +18248,12 @@
     "file": "assets/sprites/b_monolith_L23.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12906,6 +18264,12 @@
     "file": "assets/sprites/b_monolith_L24.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12916,6 +18280,12 @@
     "file": "assets/sprites/b_monolith_L25.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12926,6 +18296,12 @@
     "file": "assets/sprites/b_monolith_L26.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12936,6 +18312,12 @@
     "file": "assets/sprites/b_monolith_L27.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12946,6 +18328,12 @@
     "file": "assets/sprites/b_monolith_L28.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12956,6 +18344,12 @@
     "file": "assets/sprites/b_monolith_L29.png",
     "footprint": 4,
     "h": 369,
+    "ink": [
+     64.5,
+     71.0,
+     304.5,
+     339.0
+    ],
     "outlined": true,
     "w": 369
    },
@@ -12966,6 +18360,12 @@
     "file": "assets/sprites/b_monolith_L30.png",
     "footprint": 4,
     "h": 412,
+    "ink": [
+     86.0,
+     68.5,
+     326.0,
+     378.0
+    ],
     "outlined": true,
     "w": 412
    },
@@ -12976,6 +18376,12 @@
     "file": "assets/sprites/b_mortar_L01.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -12986,6 +18392,12 @@
     "file": "assets/sprites/b_mortar_L02.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -12996,6 +18408,12 @@
     "file": "assets/sprites/b_mortar_L03.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     29.0,
+     52.5,
+     182.0,
+     188.0
+    ],
     "outlined": true,
     "w": 211
    },
@@ -13006,6 +18424,12 @@
     "file": "assets/sprites/b_mortar_L04.png",
     "footprint": 3,
     "h": 210,
+    "ink": [
+     29.0,
+     52.0,
+     181.0,
+     187.5
+    ],
     "outlined": true,
     "w": 210
    },
@@ -13016,6 +18440,12 @@
     "file": "assets/sprites/b_mortar_L05.png",
     "footprint": 3,
     "h": 210,
+    "ink": [
+     28.5,
+     52.0,
+     181.5,
+     187.5
+    ],
     "outlined": true,
     "w": 210
    },
@@ -13026,6 +18456,12 @@
     "file": "assets/sprites/b_mortar_L06.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     29.0,
+     52.5,
+     182.0,
+     188.0
+    ],
     "outlined": true,
     "w": 211
    },
@@ -13036,6 +18472,12 @@
     "file": "assets/sprites/b_mortar_L07.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13046,6 +18488,12 @@
     "file": "assets/sprites/b_mortar_L08.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13056,6 +18504,12 @@
     "file": "assets/sprites/b_mortar_L09.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13066,6 +18520,12 @@
     "file": "assets/sprites/b_mortar_L10.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13076,6 +18536,12 @@
     "file": "assets/sprites/b_mortar_L11.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13086,6 +18552,12 @@
     "file": "assets/sprites/b_mortar_L12.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13096,6 +18568,12 @@
     "file": "assets/sprites/b_mortar_L13.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13106,6 +18584,12 @@
     "file": "assets/sprites/b_mortar_L14.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13116,6 +18600,12 @@
     "file": "assets/sprites/b_mortar_L15.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13126,6 +18616,12 @@
     "file": "assets/sprites/b_mortar_L16.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     24.0,
+     45.5,
+     184.0,
+     187.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -13136,6 +18632,12 @@
     "file": "assets/sprites/b_mortar_L17.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     24.0,
+     45.5,
+     184.0,
+     187.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -13146,6 +18648,12 @@
     "file": "assets/sprites/b_mortar_L18.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     24.0,
+     45.5,
+     184.0,
+     187.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -13156,6 +18664,12 @@
     "file": "assets/sprites/b_mortar_L19.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     24.0,
+     45.5,
+     184.0,
+     187.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -13166,6 +18680,12 @@
     "file": "assets/sprites/b_mortar_L20.png",
     "footprint": 3,
     "h": 246,
+    "ink": [
+     32.0,
+     47.0,
+     214.0,
+     227.0
+    ],
     "outlined": true,
     "w": 246
    },
@@ -13176,6 +18696,12 @@
     "file": "assets/sprites/b_mortar_L21.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     24.0,
+     45.5,
+     184.0,
+     187.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -13186,6 +18712,12 @@
     "file": "assets/sprites/b_mortar_L22.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.0,
+     44.0,
+     182.0,
+     184.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -13196,6 +18728,12 @@
     "file": "assets/sprites/b_mortar_L23.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.0,
+     44.0,
+     182.0,
+     184.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -13206,6 +18744,12 @@
     "file": "assets/sprites/b_mortar_L24.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.0,
+     44.0,
+     182.0,
+     184.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -13216,6 +18760,12 @@
     "file": "assets/sprites/b_mortar_L25.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     24.0,
+     44.0,
+     182.0,
+     184.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -13226,6 +18776,12 @@
     "file": "assets/sprites/b_mortar_L26.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13236,6 +18792,12 @@
     "file": "assets/sprites/b_mortar_L27.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13246,6 +18808,12 @@
     "file": "assets/sprites/b_mortar_L28.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13256,6 +18824,12 @@
     "file": "assets/sprites/b_mortar_L29.png",
     "footprint": 3,
     "h": 219,
+    "ink": [
+     18.5,
+     41.5,
+     200.5,
+     202.5
+    ],
     "outlined": true,
     "w": 219
    },
@@ -13266,6 +18840,12 @@
     "file": "assets/sprites/b_mortar_L30.png",
     "footprint": 3,
     "h": 265,
+    "ink": [
+     41.5,
+     49.5,
+     223.5,
+     244.0
+    ],
     "outlined": true,
     "w": 265
    },
@@ -13276,6 +18856,12 @@
     "file": "assets/sprites/b_multiarcher_L01.png",
     "footprint": 3,
     "h": 252,
+    "ink": [
+     41.5,
+     43.0,
+     210.5,
+     229.5
+    ],
     "outlined": true,
     "w": 252
    },
@@ -13286,6 +18872,12 @@
     "file": "assets/sprites/b_multiarcher_L02.png",
     "footprint": 3,
     "h": 252,
+    "ink": [
+     41.5,
+     43.0,
+     210.5,
+     229.5
+    ],
     "outlined": true,
     "w": 252
    },
@@ -13296,6 +18888,12 @@
     "file": "assets/sprites/b_multiarcher_L03.png",
     "footprint": 3,
     "h": 252,
+    "ink": [
+     41.5,
+     43.0,
+     210.5,
+     229.5
+    ],
     "outlined": true,
     "w": 252
    },
@@ -13306,6 +18904,12 @@
     "file": "assets/sprites/b_multiarcher_L04.png",
     "footprint": 3,
     "h": 252,
+    "ink": [
+     41.5,
+     43.0,
+     210.5,
+     229.5
+    ],
     "outlined": true,
     "w": 252
    },
@@ -13316,6 +18920,12 @@
     "file": "assets/sprites/b_multiarcher_L05.png",
     "footprint": 3,
     "h": 252,
+    "ink": [
+     41.5,
+     43.0,
+     210.5,
+     229.5
+    ],
     "outlined": true,
     "w": 252
    },
@@ -13326,6 +18936,12 @@
     "file": "assets/sprites/b_multiarcher_L06.png",
     "footprint": 3,
     "h": 252,
+    "ink": [
+     41.5,
+     43.0,
+     210.5,
+     229.5
+    ],
     "outlined": true,
     "w": 252
    },
@@ -13336,6 +18952,12 @@
     "file": "assets/sprites/b_multiarcher_L07.png",
     "footprint": 3,
     "h": 252,
+    "ink": [
+     41.5,
+     43.0,
+     210.5,
+     229.5
+    ],
     "outlined": true,
     "w": 252
    },
@@ -13346,6 +18968,12 @@
     "file": "assets/sprites/b_multiarcher_L08.png",
     "footprint": 3,
     "h": 252,
+    "ink": [
+     41.5,
+     43.0,
+     210.5,
+     229.5
+    ],
     "outlined": true,
     "w": 252
    },
@@ -13356,6 +18984,12 @@
     "file": "assets/sprites/b_multiarcher_L09.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13366,6 +19000,12 @@
     "file": "assets/sprites/b_multiarcher_L10.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13376,6 +19016,12 @@
     "file": "assets/sprites/b_multiarcher_L11.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13386,6 +19032,12 @@
     "file": "assets/sprites/b_multiarcher_L12.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13396,6 +19048,12 @@
     "file": "assets/sprites/b_multiarcher_L13.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13406,6 +19064,12 @@
     "file": "assets/sprites/b_multiarcher_L14.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13416,6 +19080,12 @@
     "file": "assets/sprites/b_multiarcher_L15.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13426,6 +19096,12 @@
     "file": "assets/sprites/b_multiarcher_L16.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13436,6 +19112,12 @@
     "file": "assets/sprites/b_multiarcher_L17.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13446,6 +19128,12 @@
     "file": "assets/sprites/b_multiarcher_L18.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13456,6 +19144,12 @@
     "file": "assets/sprites/b_multiarcher_L19.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     41.5,
+     43.0,
+     209.5,
+     228.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13466,6 +19160,12 @@
     "file": "assets/sprites/b_multiarcher_L20.png",
     "footprint": 3,
     "h": 286,
+    "ink": [
+     52.5,
+     47.5,
+     233.5,
+     263.0
+    ],
     "outlined": true,
     "w": 286
    },
@@ -13476,6 +19176,12 @@
     "file": "assets/sprites/b_multiarcher_L21.png",
     "footprint": 3,
     "h": 262,
+    "ink": [
+     46.0,
+     51.0,
+     216.0,
+     238.5
+    ],
     "outlined": true,
     "w": 262
    },
@@ -13486,6 +19192,12 @@
     "file": "assets/sprites/b_multiarcher_L22.png",
     "footprint": 3,
     "h": 262,
+    "ink": [
+     46.0,
+     51.0,
+     216.0,
+     238.5
+    ],
     "outlined": true,
     "w": 262
    },
@@ -13496,6 +19208,12 @@
     "file": "assets/sprites/b_multiarcher_L23.png",
     "footprint": 3,
     "h": 262,
+    "ink": [
+     46.0,
+     51.0,
+     216.0,
+     238.5
+    ],
     "outlined": true,
     "w": 262
    },
@@ -13506,6 +19224,12 @@
     "file": "assets/sprites/b_multiarcher_L24.png",
     "footprint": 3,
     "h": 262,
+    "ink": [
+     46.0,
+     51.0,
+     216.0,
+     238.5
+    ],
     "outlined": true,
     "w": 262
    },
@@ -13516,6 +19240,12 @@
     "file": "assets/sprites/b_multiarcher_L25.png",
     "footprint": 3,
     "h": 262,
+    "ink": [
+     46.0,
+     51.0,
+     216.0,
+     238.5
+    ],
     "outlined": true,
     "w": 262
    },
@@ -13526,6 +19256,12 @@
     "file": "assets/sprites/b_multiarcher_L26.png",
     "footprint": 3,
     "h": 262,
+    "ink": [
+     46.0,
+     51.0,
+     216.0,
+     238.5
+    ],
     "outlined": true,
     "w": 262
    },
@@ -13536,6 +19272,12 @@
     "file": "assets/sprites/b_multiarcher_L27.png",
     "footprint": 3,
     "h": 262,
+    "ink": [
+     46.0,
+     51.0,
+     216.0,
+     238.5
+    ],
     "outlined": true,
     "w": 262
    },
@@ -13546,6 +19288,12 @@
     "file": "assets/sprites/b_multiarcher_L28.png",
     "footprint": 3,
     "h": 262,
+    "ink": [
+     46.0,
+     51.0,
+     216.0,
+     238.5
+    ],
     "outlined": true,
     "w": 262
    },
@@ -13556,6 +19304,12 @@
     "file": "assets/sprites/b_multiarcher_L29.png",
     "footprint": 3,
     "h": 262,
+    "ink": [
+     46.0,
+     51.0,
+     216.0,
+     238.5
+    ],
     "outlined": true,
     "w": 262
    },
@@ -13566,6 +19320,12 @@
     "file": "assets/sprites/b_multiarcher_L30.png",
     "footprint": 3,
     "h": 306,
+    "ink": [
+     62.0,
+     50.5,
+     244.0,
+     281.0
+    ],
     "outlined": true,
     "w": 306
    },
@@ -13576,6 +19336,12 @@
     "file": "assets/sprites/b_nullfield_L01.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13586,6 +19352,12 @@
     "file": "assets/sprites/b_nullfield_L02.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13596,6 +19368,12 @@
     "file": "assets/sprites/b_nullfield_L03.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13606,6 +19384,12 @@
     "file": "assets/sprites/b_nullfield_L04.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13616,6 +19400,12 @@
     "file": "assets/sprites/b_nullfield_L05.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13626,6 +19416,12 @@
     "file": "assets/sprites/b_nullfield_L06.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13636,6 +19432,12 @@
     "file": "assets/sprites/b_nullfield_L07.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13646,6 +19448,12 @@
     "file": "assets/sprites/b_nullfield_L08.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13656,6 +19464,12 @@
     "file": "assets/sprites/b_nullfield_L09.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13666,6 +19480,12 @@
     "file": "assets/sprites/b_nullfield_L10.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13676,6 +19496,12 @@
     "file": "assets/sprites/b_nullfield_L11.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13686,6 +19512,12 @@
     "file": "assets/sprites/b_nullfield_L12.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13696,6 +19528,12 @@
     "file": "assets/sprites/b_nullfield_L13.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13706,6 +19544,12 @@
     "file": "assets/sprites/b_nullfield_L14.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13716,6 +19560,12 @@
     "file": "assets/sprites/b_nullfield_L15.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13726,6 +19576,12 @@
     "file": "assets/sprites/b_nullfield_L16.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13736,6 +19592,12 @@
     "file": "assets/sprites/b_nullfield_L17.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13746,6 +19608,12 @@
     "file": "assets/sprites/b_nullfield_L18.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13756,6 +19624,12 @@
     "file": "assets/sprites/b_nullfield_L19.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13766,6 +19640,12 @@
     "file": "assets/sprites/b_nullfield_L20.png",
     "footprint": 3,
     "h": 275,
+    "ink": [
+     47.0,
+     47.5,
+     228.0,
+     253.0
+    ],
     "outlined": true,
     "w": 275
    },
@@ -13776,6 +19656,12 @@
     "file": "assets/sprites/b_nullfield_L21.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13786,6 +19672,12 @@
     "file": "assets/sprites/b_nullfield_L22.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13796,6 +19688,12 @@
     "file": "assets/sprites/b_nullfield_L23.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13806,6 +19704,12 @@
     "file": "assets/sprites/b_nullfield_L24.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13816,6 +19720,12 @@
     "file": "assets/sprites/b_nullfield_L25.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13826,6 +19736,12 @@
     "file": "assets/sprites/b_nullfield_L26.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13836,6 +19752,12 @@
     "file": "assets/sprites/b_nullfield_L27.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13846,6 +19768,12 @@
     "file": "assets/sprites/b_nullfield_L28.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13856,6 +19784,12 @@
     "file": "assets/sprites/b_nullfield_L29.png",
     "footprint": 3,
     "h": 251,
+    "ink": [
+     34.5,
+     46.0,
+     216.5,
+     231.5
+    ],
     "outlined": true,
     "w": 251
    },
@@ -13866,6 +19800,12 @@
     "file": "assets/sprites/b_nullfield_L30.png",
     "footprint": 3,
     "h": 295,
+    "ink": [
+     56.5,
+     50.0,
+     238.5,
+     271.5
+    ],
     "outlined": true,
     "w": 295
    },
@@ -13876,6 +19816,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L01.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13886,6 +19832,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L02.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13896,6 +19848,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L03.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13906,6 +19864,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L04.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13916,6 +19880,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L05.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13926,6 +19896,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L06.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13936,6 +19912,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L07.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13946,6 +19928,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L08.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13956,6 +19944,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L09.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13966,6 +19960,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L10.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13976,6 +19976,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L11.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13986,6 +19992,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L12.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -13996,6 +20008,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L13.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14006,6 +20024,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L14.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14016,6 +20040,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L15.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14026,6 +20056,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L16.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14036,6 +20072,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L17.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14046,6 +20088,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L18.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14056,6 +20104,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L19.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14066,6 +20120,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L20.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14076,6 +20136,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L21.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14086,6 +20152,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L22.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14096,6 +20168,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L23.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14106,6 +20184,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L24.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14116,6 +20200,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L25.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14126,6 +20216,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L26.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14136,6 +20232,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L27.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14146,6 +20248,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L28.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14156,6 +20264,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L29.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14166,6 +20280,12 @@
     "file": "assets/sprites/b_orbitalbeacon_L30.png",
     "footprint": 4,
     "h": 358,
+    "ink": [
+     59.0,
+     71.0,
+     299.0,
+     329.0
+    ],
     "outlined": true,
     "w": 358
    },
@@ -14176,6 +20296,12 @@
     "file": "assets/sprites/b_pethouse_L01.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14186,6 +20312,12 @@
     "file": "assets/sprites/b_pethouse_L02.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14196,6 +20328,12 @@
     "file": "assets/sprites/b_pethouse_L03.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14206,6 +20344,12 @@
     "file": "assets/sprites/b_pethouse_L04.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14216,6 +20360,12 @@
     "file": "assets/sprites/b_pethouse_L05.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14226,6 +20376,12 @@
     "file": "assets/sprites/b_pethouse_L06.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14236,6 +20392,12 @@
     "file": "assets/sprites/b_pethouse_L07.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14246,6 +20408,12 @@
     "file": "assets/sprites/b_pethouse_L08.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14256,6 +20424,12 @@
     "file": "assets/sprites/b_pethouse_L09.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14266,6 +20440,12 @@
     "file": "assets/sprites/b_pethouse_L10.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14276,6 +20456,12 @@
     "file": "assets/sprites/b_pethouse_L11.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14286,6 +20472,12 @@
     "file": "assets/sprites/b_pethouse_L12.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14296,6 +20488,12 @@
     "file": "assets/sprites/b_pethouse_L13.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14306,6 +20504,12 @@
     "file": "assets/sprites/b_pethouse_L14.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14316,6 +20520,12 @@
     "file": "assets/sprites/b_pethouse_L15.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14326,6 +20536,12 @@
     "file": "assets/sprites/b_pethouse_L16.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14336,6 +20552,12 @@
     "file": "assets/sprites/b_pethouse_L17.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14346,6 +20568,12 @@
     "file": "assets/sprites/b_pethouse_L18.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14356,6 +20584,12 @@
     "file": "assets/sprites/b_pethouse_L19.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14366,6 +20600,12 @@
     "file": "assets/sprites/b_pethouse_L20.png",
     "footprint": 3,
     "h": 237,
+    "ink": [
+     27.5,
+     46.0,
+     209.5,
+     219.0
+    ],
     "outlined": true,
     "w": 237
    },
@@ -14376,6 +20616,12 @@
     "file": "assets/sprites/b_pethouse_L21.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14386,6 +20632,12 @@
     "file": "assets/sprites/b_pethouse_L22.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14396,6 +20648,12 @@
     "file": "assets/sprites/b_pethouse_L23.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14406,6 +20664,12 @@
     "file": "assets/sprites/b_pethouse_L24.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14416,6 +20680,12 @@
     "file": "assets/sprites/b_pethouse_L25.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14426,6 +20696,12 @@
     "file": "assets/sprites/b_pethouse_L26.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14436,6 +20712,12 @@
     "file": "assets/sprites/b_pethouse_L27.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14446,6 +20728,12 @@
     "file": "assets/sprites/b_pethouse_L28.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14456,6 +20744,12 @@
     "file": "assets/sprites/b_pethouse_L29.png",
     "footprint": 3,
     "h": 221,
+    "ink": [
+     20.0,
+     37.0,
+     201.0,
+     204.5
+    ],
     "outlined": true,
     "w": 221
    },
@@ -14466,6 +20760,12 @@
     "file": "assets/sprites/b_pethouse_L30.png",
     "footprint": 3,
     "h": 257,
+    "ink": [
+     37.5,
+     49.0,
+     219.5,
+     237.0
+    ],
     "outlined": true,
     "w": 257
    },
@@ -14476,6 +20776,12 @@
     "file": "assets/sprites/b_prismtower_L01.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14486,6 +20792,12 @@
     "file": "assets/sprites/b_prismtower_L02.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14496,6 +20808,12 @@
     "file": "assets/sprites/b_prismtower_L03.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14506,6 +20824,12 @@
     "file": "assets/sprites/b_prismtower_L04.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14516,6 +20840,12 @@
     "file": "assets/sprites/b_prismtower_L05.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14526,6 +20856,12 @@
     "file": "assets/sprites/b_prismtower_L06.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14536,6 +20872,12 @@
     "file": "assets/sprites/b_prismtower_L07.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14546,6 +20888,12 @@
     "file": "assets/sprites/b_prismtower_L08.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14556,6 +20904,12 @@
     "file": "assets/sprites/b_prismtower_L09.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14566,6 +20920,12 @@
     "file": "assets/sprites/b_prismtower_L10.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14576,6 +20936,12 @@
     "file": "assets/sprites/b_prismtower_L11.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14586,6 +20952,12 @@
     "file": "assets/sprites/b_prismtower_L12.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14596,6 +20968,12 @@
     "file": "assets/sprites/b_prismtower_L13.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14606,6 +20984,12 @@
     "file": "assets/sprites/b_prismtower_L14.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14616,6 +21000,12 @@
     "file": "assets/sprites/b_prismtower_L15.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14626,6 +21016,12 @@
     "file": "assets/sprites/b_prismtower_L16.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14636,6 +21032,12 @@
     "file": "assets/sprites/b_prismtower_L17.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14646,6 +21048,12 @@
     "file": "assets/sprites/b_prismtower_L18.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14656,6 +21064,12 @@
     "file": "assets/sprites/b_prismtower_L19.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14666,6 +21080,12 @@
     "file": "assets/sprites/b_prismtower_L20.png",
     "footprint": 3,
     "h": 305,
+    "ink": [
+     61.5,
+     48.0,
+     243.5,
+     280.5
+    ],
     "outlined": true,
     "w": 305
    },
@@ -14676,6 +21096,12 @@
     "file": "assets/sprites/b_prismtower_L21.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14686,6 +21112,12 @@
     "file": "assets/sprites/b_prismtower_L22.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14696,6 +21128,12 @@
     "file": "assets/sprites/b_prismtower_L23.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14706,6 +21144,12 @@
     "file": "assets/sprites/b_prismtower_L24.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14716,6 +21160,12 @@
     "file": "assets/sprites/b_prismtower_L25.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14726,6 +21176,12 @@
     "file": "assets/sprites/b_prismtower_L26.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14736,6 +21192,12 @@
     "file": "assets/sprites/b_prismtower_L27.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14746,6 +21208,12 @@
     "file": "assets/sprites/b_prismtower_L28.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14756,6 +21224,12 @@
     "file": "assets/sprites/b_prismtower_L29.png",
     "footprint": 3,
     "h": 281,
+    "ink": [
+     50.0,
+     52.5,
+     231.0,
+     258.5
+    ],
     "outlined": true,
     "w": 281
    },
@@ -14766,6 +21240,12 @@
     "file": "assets/sprites/b_prismtower_L30.png",
     "footprint": 3,
     "h": 324,
+    "ink": [
+     71.5,
+     51.0,
+     252.5,
+     297.5
+    ],
     "outlined": true,
     "w": 324
    },
@@ -14776,6 +21256,12 @@
     "file": "assets/sprites/b_quicksand_L01.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14786,6 +21272,12 @@
     "file": "assets/sprites/b_quicksand_L02.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14796,6 +21288,12 @@
     "file": "assets/sprites/b_quicksand_L03.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14806,6 +21304,12 @@
     "file": "assets/sprites/b_quicksand_L04.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14816,6 +21320,12 @@
     "file": "assets/sprites/b_quicksand_L05.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14826,6 +21336,12 @@
     "file": "assets/sprites/b_quicksand_L06.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14836,6 +21352,12 @@
     "file": "assets/sprites/b_quicksand_L07.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14846,6 +21368,12 @@
     "file": "assets/sprites/b_quicksand_L08.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14856,6 +21384,12 @@
     "file": "assets/sprites/b_quicksand_L09.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14866,6 +21400,12 @@
     "file": "assets/sprites/b_quicksand_L10.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14876,6 +21416,12 @@
     "file": "assets/sprites/b_quicksand_L11.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14886,6 +21432,12 @@
     "file": "assets/sprites/b_quicksand_L12.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14896,6 +21448,12 @@
     "file": "assets/sprites/b_quicksand_L13.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14906,6 +21464,12 @@
     "file": "assets/sprites/b_quicksand_L14.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14916,6 +21480,12 @@
     "file": "assets/sprites/b_quicksand_L15.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14926,6 +21496,12 @@
     "file": "assets/sprites/b_quicksand_L16.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14936,6 +21512,12 @@
     "file": "assets/sprites/b_quicksand_L17.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14946,6 +21528,12 @@
     "file": "assets/sprites/b_quicksand_L18.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14956,6 +21544,12 @@
     "file": "assets/sprites/b_quicksand_L19.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14966,6 +21560,12 @@
     "file": "assets/sprites/b_quicksand_L20.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14976,6 +21576,12 @@
     "file": "assets/sprites/b_quicksand_L21.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14986,6 +21592,12 @@
     "file": "assets/sprites/b_quicksand_L22.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -14996,6 +21608,12 @@
     "file": "assets/sprites/b_quicksand_L23.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15006,6 +21624,12 @@
     "file": "assets/sprites/b_quicksand_L24.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15016,6 +21640,12 @@
     "file": "assets/sprites/b_quicksand_L25.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15026,6 +21656,12 @@
     "file": "assets/sprites/b_quicksand_L26.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15036,6 +21672,12 @@
     "file": "assets/sprites/b_quicksand_L27.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15046,6 +21688,12 @@
     "file": "assets/sprites/b_quicksand_L28.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15056,6 +21704,12 @@
     "file": "assets/sprites/b_quicksand_L29.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15066,6 +21720,12 @@
     "file": "assets/sprites/b_quicksand_L30.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15076,6 +21736,12 @@
     "file": "assets/sprites/b_ricochet_L01.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15086,6 +21752,12 @@
     "file": "assets/sprites/b_ricochet_L02.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15096,6 +21768,12 @@
     "file": "assets/sprites/b_ricochet_L03.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15106,6 +21784,12 @@
     "file": "assets/sprites/b_ricochet_L04.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15116,6 +21800,12 @@
     "file": "assets/sprites/b_ricochet_L05.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15126,6 +21816,12 @@
     "file": "assets/sprites/b_ricochet_L06.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15136,6 +21832,12 @@
     "file": "assets/sprites/b_ricochet_L07.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15146,6 +21848,12 @@
     "file": "assets/sprites/b_ricochet_L08.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15156,6 +21864,12 @@
     "file": "assets/sprites/b_ricochet_L09.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15166,6 +21880,12 @@
     "file": "assets/sprites/b_ricochet_L10.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15176,6 +21896,12 @@
     "file": "assets/sprites/b_ricochet_L11.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15186,6 +21912,12 @@
     "file": "assets/sprites/b_ricochet_L12.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15196,6 +21928,12 @@
     "file": "assets/sprites/b_ricochet_L13.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15206,6 +21944,12 @@
     "file": "assets/sprites/b_ricochet_L14.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15216,6 +21960,12 @@
     "file": "assets/sprites/b_ricochet_L15.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15226,6 +21976,12 @@
     "file": "assets/sprites/b_ricochet_L16.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15236,6 +21992,12 @@
     "file": "assets/sprites/b_ricochet_L17.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15246,6 +22008,12 @@
     "file": "assets/sprites/b_ricochet_L18.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15256,6 +22024,12 @@
     "file": "assets/sprites/b_ricochet_L19.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15266,6 +22040,12 @@
     "file": "assets/sprites/b_ricochet_L20.png",
     "footprint": 4,
     "h": 285,
+    "ink": [
+     22.0,
+     61.0,
+     263.0,
+     263.0
+    ],
     "outlined": true,
     "w": 285
    },
@@ -15276,6 +22056,12 @@
     "file": "assets/sprites/b_ricochet_L21.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15286,6 +22072,12 @@
     "file": "assets/sprites/b_ricochet_L22.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15296,6 +22088,12 @@
     "file": "assets/sprites/b_ricochet_L23.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15306,6 +22104,12 @@
     "file": "assets/sprites/b_ricochet_L24.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15316,6 +22120,12 @@
     "file": "assets/sprites/b_ricochet_L25.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15326,6 +22136,12 @@
     "file": "assets/sprites/b_ricochet_L26.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15336,6 +22152,12 @@
     "file": "assets/sprites/b_ricochet_L27.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15346,6 +22168,12 @@
     "file": "assets/sprites/b_ricochet_L28.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15356,6 +22184,12 @@
     "file": "assets/sprites/b_ricochet_L29.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     87.0,
+     257.0,
+     248.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15366,6 +22200,12 @@
     "file": "assets/sprites/b_ricochet_L30.png",
     "footprint": 4,
     "h": 309,
+    "ink": [
+     34.0,
+     66.0,
+     275.0,
+     285.0
+    ],
     "outlined": true,
     "w": 309
    },
@@ -15376,6 +22216,12 @@
     "file": "assets/sprites/b_scattershot_L01.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15386,6 +22232,12 @@
     "file": "assets/sprites/b_scattershot_L02.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15396,6 +22248,12 @@
     "file": "assets/sprites/b_scattershot_L03.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15406,6 +22264,12 @@
     "file": "assets/sprites/b_scattershot_L04.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15416,6 +22280,12 @@
     "file": "assets/sprites/b_scattershot_L05.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15426,6 +22296,12 @@
     "file": "assets/sprites/b_scattershot_L06.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15436,6 +22312,12 @@
     "file": "assets/sprites/b_scattershot_L07.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15446,6 +22328,12 @@
     "file": "assets/sprites/b_scattershot_L08.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15456,6 +22344,12 @@
     "file": "assets/sprites/b_scattershot_L09.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15466,6 +22360,12 @@
     "file": "assets/sprites/b_scattershot_L10.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15476,6 +22376,12 @@
     "file": "assets/sprites/b_scattershot_L11.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15486,6 +22392,12 @@
     "file": "assets/sprites/b_scattershot_L12.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15496,6 +22408,12 @@
     "file": "assets/sprites/b_scattershot_L13.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15506,6 +22424,12 @@
     "file": "assets/sprites/b_scattershot_L14.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15516,6 +22440,12 @@
     "file": "assets/sprites/b_scattershot_L15.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15526,6 +22456,12 @@
     "file": "assets/sprites/b_scattershot_L16.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15536,6 +22472,12 @@
     "file": "assets/sprites/b_scattershot_L17.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15546,6 +22488,12 @@
     "file": "assets/sprites/b_scattershot_L18.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15556,6 +22504,12 @@
     "file": "assets/sprites/b_scattershot_L19.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15566,6 +22520,12 @@
     "file": "assets/sprites/b_scattershot_L20.png",
     "footprint": 4,
     "h": 285,
+    "ink": [
+     22.5,
+     61.0,
+     262.5,
+     263.0
+    ],
     "outlined": true,
     "w": 285
    },
@@ -15576,6 +22536,12 @@
     "file": "assets/sprites/b_scattershot_L21.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15586,6 +22552,12 @@
     "file": "assets/sprites/b_scattershot_L22.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15596,6 +22568,12 @@
     "file": "assets/sprites/b_scattershot_L23.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15606,6 +22584,12 @@
     "file": "assets/sprites/b_scattershot_L24.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15616,6 +22600,12 @@
     "file": "assets/sprites/b_scattershot_L25.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15626,6 +22616,12 @@
     "file": "assets/sprites/b_scattershot_L26.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15636,6 +22632,12 @@
     "file": "assets/sprites/b_scattershot_L27.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15646,6 +22648,12 @@
     "file": "assets/sprites/b_scattershot_L28.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15656,6 +22664,12 @@
     "file": "assets/sprites/b_scattershot_L29.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     17.0,
+     65.5,
+     257.0,
+     248.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -15666,6 +22680,12 @@
     "file": "assets/sprites/b_scattershot_L30.png",
     "footprint": 4,
     "h": 309,
+    "ink": [
+     34.5,
+     66.0,
+     274.5,
+     285.0
+    ],
     "outlined": true,
     "w": 309
    },
@@ -15676,6 +22696,12 @@
     "file": "assets/sprites/b_seekingmine_L01.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15686,6 +22712,12 @@
     "file": "assets/sprites/b_seekingmine_L02.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15696,6 +22728,12 @@
     "file": "assets/sprites/b_seekingmine_L03.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15706,6 +22744,12 @@
     "file": "assets/sprites/b_seekingmine_L04.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15716,6 +22760,12 @@
     "file": "assets/sprites/b_seekingmine_L05.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15726,6 +22776,12 @@
     "file": "assets/sprites/b_seekingmine_L06.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15736,6 +22792,12 @@
     "file": "assets/sprites/b_seekingmine_L07.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15746,6 +22808,12 @@
     "file": "assets/sprites/b_seekingmine_L08.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15756,6 +22824,12 @@
     "file": "assets/sprites/b_seekingmine_L09.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15766,6 +22840,12 @@
     "file": "assets/sprites/b_seekingmine_L10.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15776,6 +22856,12 @@
     "file": "assets/sprites/b_seekingmine_L11.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15786,6 +22872,12 @@
     "file": "assets/sprites/b_seekingmine_L12.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15796,6 +22888,12 @@
     "file": "assets/sprites/b_seekingmine_L13.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15806,6 +22904,12 @@
     "file": "assets/sprites/b_seekingmine_L14.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15816,6 +22920,12 @@
     "file": "assets/sprites/b_seekingmine_L15.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15826,6 +22936,12 @@
     "file": "assets/sprites/b_seekingmine_L16.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15836,6 +22952,12 @@
     "file": "assets/sprites/b_seekingmine_L17.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15846,6 +22968,12 @@
     "file": "assets/sprites/b_seekingmine_L18.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15856,6 +22984,12 @@
     "file": "assets/sprites/b_seekingmine_L19.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15866,6 +23000,12 @@
     "file": "assets/sprites/b_seekingmine_L20.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15876,6 +23016,12 @@
     "file": "assets/sprites/b_seekingmine_L21.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15886,6 +23032,12 @@
     "file": "assets/sprites/b_seekingmine_L22.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15896,6 +23048,12 @@
     "file": "assets/sprites/b_seekingmine_L23.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15906,6 +23064,12 @@
     "file": "assets/sprites/b_seekingmine_L24.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15916,6 +23080,12 @@
     "file": "assets/sprites/b_seekingmine_L25.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15926,6 +23096,12 @@
     "file": "assets/sprites/b_seekingmine_L26.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15936,6 +23112,12 @@
     "file": "assets/sprites/b_seekingmine_L27.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15946,6 +23128,12 @@
     "file": "assets/sprites/b_seekingmine_L28.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15956,6 +23144,12 @@
     "file": "assets/sprites/b_seekingmine_L29.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15966,6 +23160,12 @@
     "file": "assets/sprites/b_seekingmine_L30.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -15976,6 +23176,12 @@
     "file": "assets/sprites/b_siegeworkshop_L01.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -15986,6 +23192,12 @@
     "file": "assets/sprites/b_siegeworkshop_L02.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -15996,6 +23208,12 @@
     "file": "assets/sprites/b_siegeworkshop_L03.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16006,6 +23224,12 @@
     "file": "assets/sprites/b_siegeworkshop_L04.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16016,6 +23240,12 @@
     "file": "assets/sprites/b_siegeworkshop_L05.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16026,6 +23256,12 @@
     "file": "assets/sprites/b_siegeworkshop_L06.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16036,6 +23272,12 @@
     "file": "assets/sprites/b_siegeworkshop_L07.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16046,6 +23288,12 @@
     "file": "assets/sprites/b_siegeworkshop_L08.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16056,6 +23304,12 @@
     "file": "assets/sprites/b_siegeworkshop_L09.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16066,6 +23320,12 @@
     "file": "assets/sprites/b_siegeworkshop_L10.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16076,6 +23336,12 @@
     "file": "assets/sprites/b_siegeworkshop_L11.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16086,6 +23352,12 @@
     "file": "assets/sprites/b_siegeworkshop_L12.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16096,6 +23368,12 @@
     "file": "assets/sprites/b_siegeworkshop_L13.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16106,6 +23384,12 @@
     "file": "assets/sprites/b_siegeworkshop_L14.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16116,6 +23400,12 @@
     "file": "assets/sprites/b_siegeworkshop_L15.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16126,6 +23416,12 @@
     "file": "assets/sprites/b_siegeworkshop_L16.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16136,6 +23432,12 @@
     "file": "assets/sprites/b_siegeworkshop_L17.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16146,6 +23448,12 @@
     "file": "assets/sprites/b_siegeworkshop_L18.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16156,6 +23464,12 @@
     "file": "assets/sprites/b_siegeworkshop_L19.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     22.0,
+     52.0,
+     184.0,
+     186.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -16166,6 +23480,12 @@
     "file": "assets/sprites/b_siegeworkshop_L20.png",
     "footprint": 3,
     "h": 234,
+    "ink": [
+     26.0,
+     46.5,
+     208.0,
+     216.0
+    ],
     "outlined": true,
     "w": 234
    },
@@ -16176,6 +23496,12 @@
     "file": "assets/sprites/b_siegeworkshop_L21.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     13.0,
+     42.0,
+     195.0,
+     192.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -16186,6 +23512,12 @@
     "file": "assets/sprites/b_siegeworkshop_L22.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     13.0,
+     42.0,
+     195.0,
+     192.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -16196,6 +23528,12 @@
     "file": "assets/sprites/b_siegeworkshop_L23.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     13.0,
+     42.0,
+     195.0,
+     192.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -16206,6 +23544,12 @@
     "file": "assets/sprites/b_siegeworkshop_L24.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     13.0,
+     42.0,
+     195.0,
+     192.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -16216,6 +23560,12 @@
     "file": "assets/sprites/b_siegeworkshop_L25.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     13.0,
+     42.0,
+     195.0,
+     192.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -16226,6 +23576,12 @@
     "file": "assets/sprites/b_siegeworkshop_L26.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     13.0,
+     42.0,
+     195.0,
+     192.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -16236,6 +23592,12 @@
     "file": "assets/sprites/b_siegeworkshop_L27.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     13.0,
+     42.0,
+     195.0,
+     192.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -16246,6 +23608,12 @@
     "file": "assets/sprites/b_siegeworkshop_L28.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     13.0,
+     42.0,
+     195.0,
+     192.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -16256,6 +23624,12 @@
     "file": "assets/sprites/b_siegeworkshop_L29.png",
     "footprint": 3,
     "h": 208,
+    "ink": [
+     13.0,
+     42.0,
+     195.0,
+     192.5
+    ],
     "outlined": true,
     "w": 208
    },
@@ -16266,6 +23640,12 @@
     "file": "assets/sprites/b_siegeworkshop_L30.png",
     "footprint": 3,
     "h": 253,
+    "ink": [
+     35.5,
+     49.5,
+     217.5,
+     233.5
+    ],
     "outlined": true,
     "w": 253
    },
@@ -16276,6 +23656,12 @@
     "file": "assets/sprites/b_singularity_L01.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16286,6 +23672,12 @@
     "file": "assets/sprites/b_singularity_L02.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16296,6 +23688,12 @@
     "file": "assets/sprites/b_singularity_L03.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16306,6 +23704,12 @@
     "file": "assets/sprites/b_singularity_L04.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16316,6 +23720,12 @@
     "file": "assets/sprites/b_singularity_L05.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16326,6 +23736,12 @@
     "file": "assets/sprites/b_singularity_L06.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16336,6 +23752,12 @@
     "file": "assets/sprites/b_singularity_L07.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16346,6 +23768,12 @@
     "file": "assets/sprites/b_singularity_L08.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16356,6 +23784,12 @@
     "file": "assets/sprites/b_singularity_L09.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16366,6 +23800,12 @@
     "file": "assets/sprites/b_singularity_L10.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16376,6 +23816,12 @@
     "file": "assets/sprites/b_singularity_L11.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16386,6 +23832,12 @@
     "file": "assets/sprites/b_singularity_L12.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16396,6 +23848,12 @@
     "file": "assets/sprites/b_singularity_L13.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16406,6 +23864,12 @@
     "file": "assets/sprites/b_singularity_L14.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16416,6 +23880,12 @@
     "file": "assets/sprites/b_singularity_L15.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16426,6 +23896,12 @@
     "file": "assets/sprites/b_singularity_L16.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16436,6 +23912,12 @@
     "file": "assets/sprites/b_singularity_L17.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16446,6 +23928,12 @@
     "file": "assets/sprites/b_singularity_L18.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16456,6 +23944,12 @@
     "file": "assets/sprites/b_singularity_L19.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16466,6 +23960,12 @@
     "file": "assets/sprites/b_singularity_L20.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16476,6 +23976,12 @@
     "file": "assets/sprites/b_singularity_L21.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16486,6 +23992,12 @@
     "file": "assets/sprites/b_singularity_L22.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16496,6 +24008,12 @@
     "file": "assets/sprites/b_singularity_L23.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16506,6 +24024,12 @@
     "file": "assets/sprites/b_singularity_L24.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16516,6 +24040,12 @@
     "file": "assets/sprites/b_singularity_L25.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16526,6 +24056,12 @@
     "file": "assets/sprites/b_singularity_L26.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16536,6 +24072,12 @@
     "file": "assets/sprites/b_singularity_L27.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16546,6 +24088,12 @@
     "file": "assets/sprites/b_singularity_L28.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16556,6 +24104,12 @@
     "file": "assets/sprites/b_singularity_L29.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16566,6 +24120,12 @@
     "file": "assets/sprites/b_singularity_L30.png",
     "footprint": 5,
     "h": 416,
+    "ink": [
+     58.0,
+     81.5,
+     358.0,
+     382.5
+    ],
     "outlined": true,
     "w": 416
    },
@@ -16576,6 +24136,12 @@
     "file": "assets/sprites/b_skeletontrap_L01.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16586,6 +24152,12 @@
     "file": "assets/sprites/b_skeletontrap_L02.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16596,6 +24168,12 @@
     "file": "assets/sprites/b_skeletontrap_L03.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16606,6 +24184,12 @@
     "file": "assets/sprites/b_skeletontrap_L04.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16616,6 +24200,12 @@
     "file": "assets/sprites/b_skeletontrap_L05.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16626,6 +24216,12 @@
     "file": "assets/sprites/b_skeletontrap_L06.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16636,6 +24232,12 @@
     "file": "assets/sprites/b_skeletontrap_L07.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16646,6 +24248,12 @@
     "file": "assets/sprites/b_skeletontrap_L08.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16656,6 +24264,12 @@
     "file": "assets/sprites/b_skeletontrap_L09.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16666,6 +24280,12 @@
     "file": "assets/sprites/b_skeletontrap_L10.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16676,6 +24296,12 @@
     "file": "assets/sprites/b_skeletontrap_L11.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16686,6 +24312,12 @@
     "file": "assets/sprites/b_skeletontrap_L12.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16696,6 +24328,12 @@
     "file": "assets/sprites/b_skeletontrap_L13.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16706,6 +24344,12 @@
     "file": "assets/sprites/b_skeletontrap_L14.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16716,6 +24360,12 @@
     "file": "assets/sprites/b_skeletontrap_L15.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16726,6 +24376,12 @@
     "file": "assets/sprites/b_skeletontrap_L16.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16736,6 +24392,12 @@
     "file": "assets/sprites/b_skeletontrap_L17.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16746,6 +24408,12 @@
     "file": "assets/sprites/b_skeletontrap_L18.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16756,6 +24424,12 @@
     "file": "assets/sprites/b_skeletontrap_L19.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16766,6 +24440,12 @@
     "file": "assets/sprites/b_skeletontrap_L20.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16776,6 +24456,12 @@
     "file": "assets/sprites/b_skeletontrap_L21.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16786,6 +24472,12 @@
     "file": "assets/sprites/b_skeletontrap_L22.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16796,6 +24488,12 @@
     "file": "assets/sprites/b_skeletontrap_L23.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16806,6 +24504,12 @@
     "file": "assets/sprites/b_skeletontrap_L24.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16816,6 +24520,12 @@
     "file": "assets/sprites/b_skeletontrap_L25.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16826,6 +24536,12 @@
     "file": "assets/sprites/b_skeletontrap_L26.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16836,6 +24552,12 @@
     "file": "assets/sprites/b_skeletontrap_L27.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16846,6 +24568,12 @@
     "file": "assets/sprites/b_skeletontrap_L28.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16856,6 +24584,12 @@
     "file": "assets/sprites/b_skeletontrap_L29.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16866,6 +24600,12 @@
     "file": "assets/sprites/b_skeletontrap_L30.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -16876,6 +24616,12 @@
     "file": "assets/sprites/b_spellfactory_L01.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -16886,6 +24632,12 @@
     "file": "assets/sprites/b_spellfactory_L02.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -16896,6 +24648,12 @@
     "file": "assets/sprites/b_spellfactory_L03.png",
     "footprint": 3,
     "h": 230,
+    "ink": [
+     38.0,
+     59.0,
+     192.0,
+     205.5
+    ],
     "outlined": true,
     "w": 230
    },
@@ -16906,6 +24664,12 @@
     "file": "assets/sprites/b_spellfactory_L04.png",
     "footprint": 3,
     "h": 229,
+    "ink": [
+     37.5,
+     58.5,
+     191.5,
+     205.0
+    ],
     "outlined": true,
     "w": 229
    },
@@ -16916,6 +24680,12 @@
     "file": "assets/sprites/b_spellfactory_L05.png",
     "footprint": 3,
     "h": 229,
+    "ink": [
+     37.5,
+     58.0,
+     191.5,
+     205.0
+    ],
     "outlined": true,
     "w": 229
    },
@@ -16926,6 +24696,12 @@
     "file": "assets/sprites/b_spellfactory_L06.png",
     "footprint": 3,
     "h": 230,
+    "ink": [
+     38.0,
+     59.0,
+     192.0,
+     205.5
+    ],
     "outlined": true,
     "w": 230
    },
@@ -16936,6 +24712,12 @@
     "file": "assets/sprites/b_spellfactory_L07.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -16946,6 +24728,12 @@
     "file": "assets/sprites/b_spellfactory_L08.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -16956,6 +24744,12 @@
     "file": "assets/sprites/b_spellfactory_L09.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -16966,6 +24760,12 @@
     "file": "assets/sprites/b_spellfactory_L10.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -16976,6 +24776,12 @@
     "file": "assets/sprites/b_spellfactory_L11.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -16986,6 +24792,12 @@
     "file": "assets/sprites/b_spellfactory_L12.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -16996,6 +24808,12 @@
     "file": "assets/sprites/b_spellfactory_L13.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -17006,6 +24824,12 @@
     "file": "assets/sprites/b_spellfactory_L14.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -17016,6 +24840,12 @@
     "file": "assets/sprites/b_spellfactory_L15.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -17026,6 +24856,12 @@
     "file": "assets/sprites/b_spellfactory_L16.png",
     "footprint": 3,
     "h": 228,
+    "ink": [
+     33.5,
+     52.5,
+     194.5,
+     205.5
+    ],
     "outlined": true,
     "w": 228
    },
@@ -17036,6 +24872,12 @@
     "file": "assets/sprites/b_spellfactory_L17.png",
     "footprint": 3,
     "h": 228,
+    "ink": [
+     33.5,
+     52.5,
+     194.5,
+     205.5
+    ],
     "outlined": true,
     "w": 228
    },
@@ -17046,6 +24888,12 @@
     "file": "assets/sprites/b_spellfactory_L18.png",
     "footprint": 3,
     "h": 228,
+    "ink": [
+     33.5,
+     52.5,
+     194.5,
+     205.5
+    ],
     "outlined": true,
     "w": 228
    },
@@ -17056,6 +24904,12 @@
     "file": "assets/sprites/b_spellfactory_L19.png",
     "footprint": 3,
     "h": 228,
+    "ink": [
+     33.5,
+     52.5,
+     194.5,
+     205.5
+    ],
     "outlined": true,
     "w": 228
    },
@@ -17066,6 +24920,12 @@
     "file": "assets/sprites/b_spellfactory_L20.png",
     "footprint": 3,
     "h": 271,
+    "ink": [
+     44.5,
+     48.0,
+     226.5,
+     249.5
+    ],
     "outlined": true,
     "w": 271
    },
@@ -17076,6 +24936,12 @@
     "file": "assets/sprites/b_spellfactory_L21.png",
     "footprint": 3,
     "h": 228,
+    "ink": [
+     33.5,
+     52.5,
+     194.5,
+     205.5
+    ],
     "outlined": true,
     "w": 228
    },
@@ -17086,6 +24952,12 @@
     "file": "assets/sprites/b_spellfactory_L22.png",
     "footprint": 3,
     "h": 223,
+    "ink": [
+     32.0,
+     49.0,
+     191.0,
+     200.5
+    ],
     "outlined": true,
     "w": 223
    },
@@ -17096,6 +24968,12 @@
     "file": "assets/sprites/b_spellfactory_L23.png",
     "footprint": 3,
     "h": 223,
+    "ink": [
+     32.0,
+     49.0,
+     191.0,
+     200.5
+    ],
     "outlined": true,
     "w": 223
    },
@@ -17106,6 +24984,12 @@
     "file": "assets/sprites/b_spellfactory_L24.png",
     "footprint": 3,
     "h": 223,
+    "ink": [
+     32.0,
+     49.0,
+     191.0,
+     200.5
+    ],
     "outlined": true,
     "w": 223
    },
@@ -17116,6 +25000,12 @@
     "file": "assets/sprites/b_spellfactory_L25.png",
     "footprint": 3,
     "h": 223,
+    "ink": [
+     32.0,
+     49.0,
+     191.0,
+     200.5
+    ],
     "outlined": true,
     "w": 223
    },
@@ -17126,6 +25016,12 @@
     "file": "assets/sprites/b_spellfactory_L26.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -17136,6 +25032,12 @@
     "file": "assets/sprites/b_spellfactory_L27.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -17146,6 +25048,12 @@
     "file": "assets/sprites/b_spellfactory_L28.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -17156,6 +25064,12 @@
     "file": "assets/sprites/b_spellfactory_L29.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     29.5,
+     49.0,
+     210.5,
+     221.5
+    ],
     "outlined": true,
     "w": 240
    },
@@ -17166,6 +25080,12 @@
     "file": "assets/sprites/b_spellfactory_L30.png",
     "footprint": 3,
     "h": 289,
+    "ink": [
+     53.5,
+     50.5,
+     235.5,
+     266.0
+    ],
     "outlined": true,
     "w": 289
    },
@@ -17176,6 +25096,12 @@
     "file": "assets/sprites/b_springtrap_L01.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17186,6 +25112,12 @@
     "file": "assets/sprites/b_springtrap_L02.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17196,6 +25128,12 @@
     "file": "assets/sprites/b_springtrap_L03.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17206,6 +25144,12 @@
     "file": "assets/sprites/b_springtrap_L04.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17216,6 +25160,12 @@
     "file": "assets/sprites/b_springtrap_L05.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17226,6 +25176,12 @@
     "file": "assets/sprites/b_springtrap_L06.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17236,6 +25192,12 @@
     "file": "assets/sprites/b_springtrap_L07.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17246,6 +25208,12 @@
     "file": "assets/sprites/b_springtrap_L08.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17256,6 +25224,12 @@
     "file": "assets/sprites/b_springtrap_L09.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17266,6 +25240,12 @@
     "file": "assets/sprites/b_springtrap_L10.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17276,6 +25256,12 @@
     "file": "assets/sprites/b_springtrap_L11.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17286,6 +25272,12 @@
     "file": "assets/sprites/b_springtrap_L12.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17296,6 +25288,12 @@
     "file": "assets/sprites/b_springtrap_L13.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17306,6 +25304,12 @@
     "file": "assets/sprites/b_springtrap_L14.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17316,6 +25320,12 @@
     "file": "assets/sprites/b_springtrap_L15.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17326,6 +25336,12 @@
     "file": "assets/sprites/b_springtrap_L16.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17336,6 +25352,12 @@
     "file": "assets/sprites/b_springtrap_L17.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17346,6 +25368,12 @@
     "file": "assets/sprites/b_springtrap_L18.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17356,6 +25384,12 @@
     "file": "assets/sprites/b_springtrap_L19.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17366,6 +25400,12 @@
     "file": "assets/sprites/b_springtrap_L20.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17376,6 +25416,12 @@
     "file": "assets/sprites/b_springtrap_L21.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17386,6 +25432,12 @@
     "file": "assets/sprites/b_springtrap_L22.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17396,6 +25448,12 @@
     "file": "assets/sprites/b_springtrap_L23.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17406,6 +25464,12 @@
     "file": "assets/sprites/b_springtrap_L24.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17416,6 +25480,12 @@
     "file": "assets/sprites/b_springtrap_L25.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17426,6 +25496,12 @@
     "file": "assets/sprites/b_springtrap_L26.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17436,6 +25512,12 @@
     "file": "assets/sprites/b_springtrap_L27.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17446,6 +25528,12 @@
     "file": "assets/sprites/b_springtrap_L28.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17456,6 +25544,12 @@
     "file": "assets/sprites/b_springtrap_L29.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17466,6 +25560,12 @@
     "file": "assets/sprites/b_springtrap_L30.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     35.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17476,6 +25576,12 @@
     "file": "assets/sprites/b_tesla_L01.png",
     "footprint": 2,
     "h": 183,
+    "ink": [
+     30.0,
+     33.0,
+     153.0,
+     169.0
+    ],
     "outlined": true,
     "w": 183
    },
@@ -17486,6 +25592,12 @@
     "file": "assets/sprites/b_tesla_L02.png",
     "footprint": 2,
     "h": 183,
+    "ink": [
+     30.0,
+     33.0,
+     153.0,
+     169.0
+    ],
     "outlined": true,
     "w": 183
    },
@@ -17496,6 +25608,12 @@
     "file": "assets/sprites/b_tesla_L03.png",
     "footprint": 2,
     "h": 183,
+    "ink": [
+     30.0,
+     33.0,
+     153.0,
+     169.0
+    ],
     "outlined": true,
     "w": 183
    },
@@ -17506,6 +25624,12 @@
     "file": "assets/sprites/b_tesla_L04.png",
     "footprint": 2,
     "h": 183,
+    "ink": [
+     30.0,
+     33.0,
+     153.0,
+     169.0
+    ],
     "outlined": true,
     "w": 183
    },
@@ -17516,6 +25640,12 @@
     "file": "assets/sprites/b_tesla_L05.png",
     "footprint": 2,
     "h": 183,
+    "ink": [
+     30.0,
+     33.0,
+     153.0,
+     169.0
+    ],
     "outlined": true,
     "w": 183
    },
@@ -17526,6 +25656,12 @@
     "file": "assets/sprites/b_tesla_L06.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17536,6 +25672,12 @@
     "file": "assets/sprites/b_tesla_L07.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17546,6 +25688,12 @@
     "file": "assets/sprites/b_tesla_L08.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17556,6 +25704,12 @@
     "file": "assets/sprites/b_tesla_L09.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17566,6 +25720,12 @@
     "file": "assets/sprites/b_tesla_L10.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17576,6 +25736,12 @@
     "file": "assets/sprites/b_tesla_L11.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17586,6 +25752,12 @@
     "file": "assets/sprites/b_tesla_L12.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17596,6 +25768,12 @@
     "file": "assets/sprites/b_tesla_L13.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17606,6 +25784,12 @@
     "file": "assets/sprites/b_tesla_L14.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17616,6 +25800,12 @@
     "file": "assets/sprites/b_tesla_L15.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17626,6 +25816,12 @@
     "file": "assets/sprites/b_tesla_L16.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17636,6 +25832,12 @@
     "file": "assets/sprites/b_tesla_L17.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17646,6 +25848,12 @@
     "file": "assets/sprites/b_tesla_L18.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17656,6 +25864,12 @@
     "file": "assets/sprites/b_tesla_L19.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17666,6 +25880,12 @@
     "file": "assets/sprites/b_tesla_L20.png",
     "footprint": 2,
     "h": 191,
+    "ink": [
+     36.5,
+     33.0,
+     154.5,
+     175.0
+    ],
     "outlined": true,
     "w": 191
    },
@@ -17676,6 +25896,12 @@
     "file": "assets/sprites/b_tesla_L21.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17686,6 +25912,12 @@
     "file": "assets/sprites/b_tesla_L22.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17696,6 +25928,12 @@
     "file": "assets/sprites/b_tesla_L23.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17706,6 +25944,12 @@
     "file": "assets/sprites/b_tesla_L24.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17716,6 +25960,12 @@
     "file": "assets/sprites/b_tesla_L25.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17726,6 +25976,12 @@
     "file": "assets/sprites/b_tesla_L26.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17736,6 +25992,12 @@
     "file": "assets/sprites/b_tesla_L27.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17746,6 +26008,12 @@
     "file": "assets/sprites/b_tesla_L28.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17756,6 +26024,12 @@
     "file": "assets/sprites/b_tesla_L29.png",
     "footprint": 2,
     "h": 178,
+    "ink": [
+     30.0,
+     33.0,
+     148.0,
+     163.5
+    ],
     "outlined": true,
     "w": 178
    },
@@ -17766,6 +26040,12 @@
     "file": "assets/sprites/b_tesla_L30.png",
     "footprint": 2,
     "h": 203,
+    "ink": [
+     43.0,
+     32.5,
+     160.0,
+     186.0
+    ],
     "outlined": true,
     "w": 203
    },
@@ -17776,6 +26056,12 @@
     "file": "assets/sprites/b_tornadotrap_L01.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17786,6 +26072,12 @@
     "file": "assets/sprites/b_tornadotrap_L02.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17796,6 +26088,12 @@
     "file": "assets/sprites/b_tornadotrap_L03.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17806,6 +26104,12 @@
     "file": "assets/sprites/b_tornadotrap_L04.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17816,6 +26120,12 @@
     "file": "assets/sprites/b_tornadotrap_L05.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17826,6 +26136,12 @@
     "file": "assets/sprites/b_tornadotrap_L06.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17836,6 +26152,12 @@
     "file": "assets/sprites/b_tornadotrap_L07.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17846,6 +26168,12 @@
     "file": "assets/sprites/b_tornadotrap_L08.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17856,6 +26184,12 @@
     "file": "assets/sprites/b_tornadotrap_L09.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17866,6 +26200,12 @@
     "file": "assets/sprites/b_tornadotrap_L10.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17876,6 +26216,12 @@
     "file": "assets/sprites/b_tornadotrap_L11.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17886,6 +26232,12 @@
     "file": "assets/sprites/b_tornadotrap_L12.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17896,6 +26248,12 @@
     "file": "assets/sprites/b_tornadotrap_L13.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17906,6 +26264,12 @@
     "file": "assets/sprites/b_tornadotrap_L14.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17916,6 +26280,12 @@
     "file": "assets/sprites/b_tornadotrap_L15.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17926,6 +26296,12 @@
     "file": "assets/sprites/b_tornadotrap_L16.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17936,6 +26312,12 @@
     "file": "assets/sprites/b_tornadotrap_L17.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17946,6 +26328,12 @@
     "file": "assets/sprites/b_tornadotrap_L18.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17956,6 +26344,12 @@
     "file": "assets/sprites/b_tornadotrap_L19.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17966,6 +26360,12 @@
     "file": "assets/sprites/b_tornadotrap_L20.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17976,6 +26376,12 @@
     "file": "assets/sprites/b_tornadotrap_L21.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17986,6 +26392,12 @@
     "file": "assets/sprites/b_tornadotrap_L22.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -17996,6 +26408,12 @@
     "file": "assets/sprites/b_tornadotrap_L23.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -18006,6 +26424,12 @@
     "file": "assets/sprites/b_tornadotrap_L24.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -18016,6 +26440,12 @@
     "file": "assets/sprites/b_tornadotrap_L25.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -18026,6 +26456,12 @@
     "file": "assets/sprites/b_tornadotrap_L26.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -18036,6 +26472,12 @@
     "file": "assets/sprites/b_tornadotrap_L27.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -18046,6 +26488,12 @@
     "file": "assets/sprites/b_tornadotrap_L28.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -18056,6 +26504,12 @@
     "file": "assets/sprites/b_tornadotrap_L29.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -18066,6 +26520,12 @@
     "file": "assets/sprites/b_tornadotrap_L30.png",
     "footprint": 2,
     "h": 137,
+    "ink": [
+     7.5,
+     39.0,
+     129.5,
+     120.5
+    ],
     "outlined": true,
     "w": 137
    },
@@ -18076,6 +26536,12 @@
     "file": "assets/sprites/b_treasury_L01.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18086,6 +26552,12 @@
     "file": "assets/sprites/b_treasury_L02.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18096,6 +26568,12 @@
     "file": "assets/sprites/b_treasury_L03.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18106,6 +26584,12 @@
     "file": "assets/sprites/b_treasury_L04.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18116,6 +26600,12 @@
     "file": "assets/sprites/b_treasury_L05.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18126,6 +26616,12 @@
     "file": "assets/sprites/b_treasury_L06.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18136,6 +26632,12 @@
     "file": "assets/sprites/b_treasury_L07.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18146,6 +26648,12 @@
     "file": "assets/sprites/b_treasury_L08.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18156,6 +26664,12 @@
     "file": "assets/sprites/b_treasury_L09.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18166,6 +26680,12 @@
     "file": "assets/sprites/b_treasury_L10.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18176,6 +26696,12 @@
     "file": "assets/sprites/b_treasury_L11.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18186,6 +26712,12 @@
     "file": "assets/sprites/b_treasury_L12.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18196,6 +26728,12 @@
     "file": "assets/sprites/b_treasury_L13.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18206,6 +26744,12 @@
     "file": "assets/sprites/b_treasury_L14.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18216,6 +26760,12 @@
     "file": "assets/sprites/b_treasury_L15.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18226,6 +26776,12 @@
     "file": "assets/sprites/b_treasury_L16.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18236,6 +26792,12 @@
     "file": "assets/sprites/b_treasury_L17.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18246,6 +26808,12 @@
     "file": "assets/sprites/b_treasury_L18.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18256,6 +26824,12 @@
     "file": "assets/sprites/b_treasury_L19.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18266,6 +26840,12 @@
     "file": "assets/sprites/b_treasury_L20.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     63.0,
+     158.5,
+     161.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18276,6 +26856,12 @@
     "file": "assets/sprites/b_treasury_L21.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18286,6 +26872,12 @@
     "file": "assets/sprites/b_treasury_L22.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18296,6 +26888,12 @@
     "file": "assets/sprites/b_treasury_L23.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     71.5,
+     158.5,
+     157.0
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18306,6 +26904,12 @@
     "file": "assets/sprites/b_treasury_L24.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     74.0,
+     158.5,
+     159.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18316,6 +26920,12 @@
     "file": "assets/sprites/b_treasury_L25.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     74.0,
+     158.5,
+     159.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18326,6 +26936,12 @@
     "file": "assets/sprites/b_treasury_L26.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     74.0,
+     158.5,
+     159.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18336,6 +26952,12 @@
     "file": "assets/sprites/b_treasury_L27.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     74.0,
+     158.5,
+     159.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18346,6 +26968,12 @@
     "file": "assets/sprites/b_treasury_L28.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     74.0,
+     158.5,
+     159.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18356,6 +26984,12 @@
     "file": "assets/sprites/b_treasury_L29.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     74.0,
+     158.5,
+     159.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18366,6 +27000,12 @@
     "file": "assets/sprites/b_treasury_L30.png",
     "footprint": 3,
     "h": 206,
+    "ink": [
+     47.5,
+     58.5,
+     158.5,
+     165.5
+    ],
     "outlined": true,
     "w": 206
    },
@@ -18376,6 +27016,12 @@
     "file": "assets/sprites/b_wizardtower_L01.png",
     "footprint": 3,
     "h": 263,
+    "ink": [
+     40.5,
+     52.0,
+     222.5,
+     242.5
+    ],
     "outlined": true,
     "w": 263
    },
@@ -18386,6 +27032,12 @@
     "file": "assets/sprites/b_wizardtower_L02.png",
     "footprint": 3,
     "h": 263,
+    "ink": [
+     40.5,
+     52.0,
+     222.5,
+     242.5
+    ],
     "outlined": true,
     "w": 263
    },
@@ -18396,6 +27048,12 @@
     "file": "assets/sprites/b_wizardtower_L03.png",
     "footprint": 3,
     "h": 248,
+    "ink": [
+     47.5,
+     61.5,
+     200.5,
+     221.5
+    ],
     "outlined": true,
     "w": 248
    },
@@ -18406,6 +27064,12 @@
     "file": "assets/sprites/b_wizardtower_L04.png",
     "footprint": 3,
     "h": 248,
+    "ink": [
+     47.5,
+     61.5,
+     200.5,
+     221.5
+    ],
     "outlined": true,
     "w": 248
    },
@@ -18416,6 +27080,12 @@
     "file": "assets/sprites/b_wizardtower_L05.png",
     "footprint": 3,
     "h": 249,
+    "ink": [
+     48.0,
+     61.0,
+     201.0,
+     222.5
+    ],
     "outlined": true,
     "w": 249
    },
@@ -18426,6 +27096,12 @@
     "file": "assets/sprites/b_wizardtower_L06.png",
     "footprint": 3,
     "h": 250,
+    "ink": [
+     48.5,
+     61.5,
+     201.5,
+     223.5
+    ],
     "outlined": true,
     "w": 250
    },
@@ -18436,6 +27112,12 @@
     "file": "assets/sprites/b_wizardtower_L07.png",
     "footprint": 3,
     "h": 265,
+    "ink": [
+     42.0,
+     52.0,
+     223.0,
+     244.0
+    ],
     "outlined": true,
     "w": 265
    },
@@ -18446,6 +27128,12 @@
     "file": "assets/sprites/b_wizardtower_L08.png",
     "footprint": 3,
     "h": 265,
+    "ink": [
+     42.0,
+     52.0,
+     223.0,
+     244.0
+    ],
     "outlined": true,
     "w": 265
    },
@@ -18456,6 +27144,12 @@
     "file": "assets/sprites/b_wizardtower_L09.png",
     "footprint": 3,
     "h": 265,
+    "ink": [
+     42.0,
+     52.0,
+     223.0,
+     244.0
+    ],
     "outlined": true,
     "w": 265
    },
@@ -18466,6 +27160,12 @@
     "file": "assets/sprites/b_wizardtower_L10.png",
     "footprint": 3,
     "h": 278,
+    "ink": [
+     48.0,
+     50.0,
+     230.0,
+     256.0
+    ],
     "outlined": true,
     "w": 278
    },
@@ -18476,6 +27176,12 @@
     "file": "assets/sprites/b_wizardtower_L11.png",
     "footprint": 3,
     "h": 278,
+    "ink": [
+     48.0,
+     50.0,
+     230.0,
+     256.0
+    ],
     "outlined": true,
     "w": 278
    },
@@ -18486,6 +27192,12 @@
     "file": "assets/sprites/b_wizardtower_L12.png",
     "footprint": 3,
     "h": 278,
+    "ink": [
+     48.0,
+     50.0,
+     230.0,
+     256.0
+    ],
     "outlined": true,
     "w": 278
    },
@@ -18496,6 +27208,12 @@
     "file": "assets/sprites/b_wizardtower_L13.png",
     "footprint": 3,
     "h": 280,
+    "ink": [
+     49.5,
+     50.0,
+     230.5,
+     257.5
+    ],
     "outlined": true,
     "w": 280
    },
@@ -18506,6 +27224,12 @@
     "file": "assets/sprites/b_wizardtower_L14.png",
     "footprint": 3,
     "h": 280,
+    "ink": [
+     49.5,
+     50.0,
+     230.5,
+     257.5
+    ],
     "outlined": true,
     "w": 280
    },
@@ -18516,6 +27240,12 @@
     "file": "assets/sprites/b_wizardtower_L15.png",
     "footprint": 3,
     "h": 280,
+    "ink": [
+     49.5,
+     50.0,
+     230.5,
+     257.5
+    ],
     "outlined": true,
     "w": 280
    },
@@ -18526,6 +27256,12 @@
     "file": "assets/sprites/b_wizardtower_L16.png",
     "footprint": 3,
     "h": 263,
+    "ink": [
+     51.5,
+     53.5,
+     211.5,
+     237.0
+    ],
     "outlined": true,
     "w": 263
    },
@@ -18536,6 +27272,12 @@
     "file": "assets/sprites/b_wizardtower_L17.png",
     "footprint": 3,
     "h": 265,
+    "ink": [
+     52.5,
+     53.5,
+     212.5,
+     239.0
+    ],
     "outlined": true,
     "w": 265
    },
@@ -18546,6 +27288,12 @@
     "file": "assets/sprites/b_wizardtower_L18.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     54.0,
+     53.5,
+     214.0,
+     241.5
+    ],
     "outlined": true,
     "w": 268
    },
@@ -18556,6 +27304,12 @@
     "file": "assets/sprites/b_wizardtower_L19.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     54.0,
+     53.5,
+     214.0,
+     241.5
+    ],
     "outlined": true,
     "w": 268
    },
@@ -18566,6 +27320,12 @@
     "file": "assets/sprites/b_wizardtower_L20.png",
     "footprint": 3,
     "h": 325,
+    "ink": [
+     72.0,
+     50.0,
+     253.0,
+     298.5
+    ],
     "outlined": true,
     "w": 325
    },
@@ -18576,6 +27336,12 @@
     "file": "assets/sprites/b_wizardtower_L21.png",
     "footprint": 3,
     "h": 270,
+    "ink": [
+     55.0,
+     53.5,
+     215.0,
+     243.5
+    ],
     "outlined": true,
     "w": 270
    },
@@ -18586,6 +27352,12 @@
     "file": "assets/sprites/b_wizardtower_L22.png",
     "footprint": 3,
     "h": 264,
+    "ink": [
+     53.0,
+     50.0,
+     211.0,
+     237.5
+    ],
     "outlined": true,
     "w": 264
    },
@@ -18596,6 +27368,12 @@
     "file": "assets/sprites/b_wizardtower_L23.png",
     "footprint": 3,
     "h": 264,
+    "ink": [
+     53.0,
+     50.0,
+     211.0,
+     237.5
+    ],
     "outlined": true,
     "w": 264
    },
@@ -18606,6 +27384,12 @@
     "file": "assets/sprites/b_wizardtower_L24.png",
     "footprint": 3,
     "h": 266,
+    "ink": [
+     54.0,
+     50.0,
+     212.0,
+     239.0
+    ],
     "outlined": true,
     "w": 266
    },
@@ -18616,6 +27400,12 @@
     "file": "assets/sprites/b_wizardtower_L25.png",
     "footprint": 3,
     "h": 268,
+    "ink": [
+     55.0,
+     50.0,
+     213.0,
+     241.0
+    ],
     "outlined": true,
     "w": 268
    },
@@ -18626,6 +27416,12 @@
     "file": "assets/sprites/b_wizardtower_L26.png",
     "footprint": 3,
     "h": 294,
+    "ink": [
+     56.0,
+     50.5,
+     237.5,
+     270.5
+    ],
     "outlined": true,
     "w": 294
    },
@@ -18636,6 +27432,12 @@
     "file": "assets/sprites/b_wizardtower_L27.png",
     "footprint": 3,
     "h": 294,
+    "ink": [
+     56.0,
+     50.5,
+     237.5,
+     270.5
+    ],
     "outlined": true,
     "w": 294
    },
@@ -18646,6 +27448,12 @@
     "file": "assets/sprites/b_wizardtower_L28.png",
     "footprint": 3,
     "h": 294,
+    "ink": [
+     56.0,
+     50.5,
+     237.5,
+     270.5
+    ],
     "outlined": true,
     "w": 294
    },
@@ -18656,6 +27464,12 @@
     "file": "assets/sprites/b_wizardtower_L29.png",
     "footprint": 3,
     "h": 296,
+    "ink": [
+     57.5,
+     50.5,
+     238.5,
+     272.0
+    ],
     "outlined": true,
     "w": 296
    },
@@ -18666,6 +27480,12 @@
     "file": "assets/sprites/b_wizardtower_L30.png",
     "footprint": 3,
     "h": 353,
+    "ink": [
+     86.0,
+     52.0,
+     267.0,
+     323.5
+    ],
     "outlined": true,
     "w": 353
    },
@@ -18676,6 +27496,12 @@
     "file": "assets/sprites/b_xbow_L01.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18686,6 +27512,12 @@
     "file": "assets/sprites/b_xbow_L02.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18696,6 +27528,12 @@
     "file": "assets/sprites/b_xbow_L03.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18706,6 +27544,12 @@
     "file": "assets/sprites/b_xbow_L04.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18716,6 +27560,12 @@
     "file": "assets/sprites/b_xbow_L05.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18726,6 +27576,12 @@
     "file": "assets/sprites/b_xbow_L06.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18736,6 +27592,12 @@
     "file": "assets/sprites/b_xbow_L07.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18746,6 +27608,12 @@
     "file": "assets/sprites/b_xbow_L08.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18756,6 +27624,12 @@
     "file": "assets/sprites/b_xbow_L09.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18766,6 +27640,12 @@
     "file": "assets/sprites/b_xbow_L10.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18776,6 +27656,12 @@
     "file": "assets/sprites/b_xbow_L11.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18786,6 +27672,12 @@
     "file": "assets/sprites/b_xbow_L12.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18796,6 +27688,12 @@
     "file": "assets/sprites/b_xbow_L13.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18806,6 +27704,12 @@
     "file": "assets/sprites/b_xbow_L14.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18816,6 +27720,12 @@
     "file": "assets/sprites/b_xbow_L15.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18826,6 +27736,12 @@
     "file": "assets/sprites/b_xbow_L16.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18836,6 +27752,12 @@
     "file": "assets/sprites/b_xbow_L17.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18846,6 +27768,12 @@
     "file": "assets/sprites/b_xbow_L18.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18856,6 +27784,12 @@
     "file": "assets/sprites/b_xbow_L19.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     18.5,
+     45.5,
+     192.5,
+     193.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18866,6 +27800,12 @@
     "file": "assets/sprites/b_xbow_L20.png",
     "footprint": 3,
     "h": 227,
+    "ink": [
+     22.5,
+     46.0,
+     204.5,
+     210.0
+    ],
     "outlined": true,
     "w": 227
    },
@@ -18876,6 +27816,12 @@
     "file": "assets/sprites/b_xbow_L21.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     14.5,
+     41.0,
+     196.5,
+     195.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18886,6 +27832,12 @@
     "file": "assets/sprites/b_xbow_L22.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     14.5,
+     41.0,
+     196.5,
+     195.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18896,6 +27848,12 @@
     "file": "assets/sprites/b_xbow_L23.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     14.5,
+     41.0,
+     196.5,
+     195.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18906,6 +27864,12 @@
     "file": "assets/sprites/b_xbow_L24.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     14.5,
+     41.0,
+     196.5,
+     195.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18916,6 +27880,12 @@
     "file": "assets/sprites/b_xbow_L25.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     14.5,
+     41.0,
+     196.5,
+     195.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18926,6 +27896,12 @@
     "file": "assets/sprites/b_xbow_L26.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     14.5,
+     41.0,
+     196.5,
+     195.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18936,6 +27912,12 @@
     "file": "assets/sprites/b_xbow_L27.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     14.5,
+     41.0,
+     196.5,
+     195.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18946,6 +27928,12 @@
     "file": "assets/sprites/b_xbow_L28.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     14.5,
+     41.0,
+     196.5,
+     195.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18956,6 +27944,12 @@
     "file": "assets/sprites/b_xbow_L29.png",
     "footprint": 3,
     "h": 211,
+    "ink": [
+     14.5,
+     41.0,
+     196.5,
+     195.5
+    ],
     "outlined": true,
     "w": 211
    },
@@ -18966,6 +27960,12 @@
     "file": "assets/sprites/b_xbow_L30.png",
     "footprint": 3,
     "h": 247,
+    "ink": [
+     32.5,
+     49.0,
+     214.5,
+     228.0
+    ],
     "outlined": true,
     "w": 247
    },
@@ -18975,6 +27975,12 @@
     "file": "assets/sprites/ground.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     2.0,
+     21.0,
+     96.0,
+     80.0
+    ],
     "outlined": true,
     "w": 96
    },
@@ -18985,6 +27991,12 @@
     "file": "assets/sprites/sc_birch.png",
     "footprint": 1.9,
     "h": 217,
+    "ink": [
+     66.0,
+     30.5,
+     151.0,
+     192.0
+    ],
     "outlined": true,
     "w": 217
    },
@@ -18995,6 +28007,12 @@
     "file": "assets/sprites/sc_bush.png",
     "footprint": 1.0,
     "h": 96,
+    "ink": [
+     16.0,
+     29.5,
+     80.0,
+     79.0
+    ],
     "outlined": true,
     "w": 96
    },
@@ -19005,6 +28023,12 @@
     "file": "assets/sprites/sc_flowers.png",
     "footprint": 0.9,
     "h": 96,
+    "ink": [
+     16.0,
+     31.5,
+     80.0,
+     75.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -19015,6 +28039,12 @@
     "file": "assets/sprites/sc_kbush1.png",
     "footprint": 1.0,
     "h": 69,
+    "ink": [
+     16.0,
+     18.0,
+     52.0,
+     52.0
+    ],
     "outlined": true,
     "w": 69
    },
@@ -19025,6 +28055,12 @@
     "file": "assets/sprites/sc_kbush2.png",
     "footprint": 1.1,
     "h": 75,
+    "ink": [
+     16.0,
+     25.0,
+     60.0,
+     54.0
+    ],
     "outlined": true,
     "w": 75
    },
@@ -19035,6 +28071,12 @@
     "file": "assets/sprites/sc_kbush3.png",
     "footprint": 1.0,
     "h": 69,
+    "ink": [
+     12.0,
+     19.0,
+     57.0,
+     54.0
+    ],
     "outlined": true,
     "w": 69
    },
@@ -19045,6 +28087,12 @@
     "file": "assets/sprites/sc_kbush4.png",
     "footprint": 1.1,
     "h": 75,
+    "ink": [
+     15.0,
+     26.0,
+     57.0,
+     58.0
+    ],
     "outlined": true,
     "w": 75
    },
@@ -19055,6 +28103,12 @@
     "file": "assets/sprites/sc_kdead1.png",
     "footprint": 1.8,
     "h": 187,
+    "ink": [
+     51.0,
+     26.0,
+     143.0,
+     146.0
+    ],
     "outlined": true,
     "w": 187
    },
@@ -19065,6 +28119,12 @@
     "file": "assets/sprites/sc_kdead2.png",
     "footprint": 1.8,
     "h": 305,
+    "ink": [
+     111.0,
+     36.0,
+     188.0,
+     255.0
+    ],
     "outlined": true,
     "w": 305
    },
@@ -19075,6 +28135,12 @@
     "file": "assets/sprites/sc_kgrass1.png",
     "footprint": 0.8,
     "h": 64,
+    "ink": [
+     8.0,
+     10.0,
+     52.0,
+     56.0
+    ],
     "outlined": true,
     "w": 64
    },
@@ -19085,6 +28151,12 @@
     "file": "assets/sprites/sc_kgrass2.png",
     "footprint": 0.8,
     "h": 64,
+    "ink": [
+     11.0,
+     9.0,
+     47.0,
+     52.0
+    ],
     "outlined": true,
     "w": 64
    },
@@ -19095,6 +28167,12 @@
     "file": "assets/sprites/sc_kgrass3.png",
     "footprint": 0.8,
     "h": 64,
+    "ink": [
+     8.0,
+     10.0,
+     57.0,
+     53.0
+    ],
     "outlined": true,
     "w": 64
    },
@@ -19105,6 +28183,12 @@
     "file": "assets/sprites/sc_koutcrop.png",
     "footprint": 1.5,
     "h": 116,
+    "ink": [
+     25.0,
+     18.0,
+     88.0,
+     100.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -19115,6 +28199,12 @@
     "file": "assets/sprites/sc_krock1.png",
     "footprint": 1.0,
     "h": 85,
+    "ink": [
+     20.0,
+     10.0,
+     66.0,
+     69.0
+    ],
     "outlined": true,
     "w": 85
    },
@@ -19125,6 +28215,12 @@
     "file": "assets/sprites/sc_krock2.png",
     "footprint": 1.1,
     "h": 87,
+    "ink": [
+     18.0,
+     14.0,
+     70.0,
+     69.0
+    ],
     "outlined": true,
     "w": 87
    },
@@ -19135,6 +28231,12 @@
     "file": "assets/sprites/sc_krock3.png",
     "footprint": 1.2,
     "h": 85,
+    "ink": [
+     11.0,
+     20.0,
+     72.0,
+     69.0
+    ],
     "outlined": true,
     "w": 85
    },
@@ -19145,6 +28247,12 @@
     "file": "assets/sprites/sc_krock4.png",
     "footprint": 0.9,
     "h": 70,
+    "ink": [
+     16.0,
+     15.0,
+     56.0,
+     56.0
+    ],
     "outlined": true,
     "w": 70
    },
@@ -19155,6 +28263,12 @@
     "file": "assets/sprites/sc_ktree1.png",
     "footprint": 1.9,
     "h": 163,
+    "ink": [
+     43.0,
+     25.0,
+     128.0,
+     124.0
+    ],
     "outlined": true,
     "w": 163
    },
@@ -19165,6 +28279,12 @@
     "file": "assets/sprites/sc_ktree2.png",
     "footprint": 1.9,
     "h": 201,
+    "ink": [
+     54.0,
+     31.0,
+     140.0,
+     161.0
+    ],
     "outlined": true,
     "w": 201
    },
@@ -19175,6 +28295,12 @@
     "file": "assets/sprites/sc_ktree3.png",
     "footprint": 2.1,
     "h": 172,
+    "ink": [
+     39.0,
+     28.0,
+     133.0,
+     133.0
+    ],
     "outlined": true,
     "w": 172
    },
@@ -19185,6 +28311,12 @@
     "file": "assets/sprites/sc_ktree4.png",
     "footprint": 2.0,
     "h": 289,
+    "ink": [
+     85.0,
+     34.0,
+     204.0,
+     237.0
+    ],
     "outlined": true,
     "w": 289
    },
@@ -19195,6 +28327,12 @@
     "file": "assets/sprites/sc_ktree5.png",
     "footprint": 1.9,
     "h": 295,
+    "ink": [
+     106.0,
+     38.0,
+     193.0,
+     244.0
+    ],
     "outlined": true,
     "w": 295
    },
@@ -19205,6 +28343,12 @@
     "file": "assets/sprites/sc_log.png",
     "footprint": 1.0,
     "h": 96,
+    "ink": [
+     16.0,
+     28.0,
+     80.0,
+     72.0
+    ],
     "outlined": true,
     "w": 96
    },
@@ -19215,6 +28359,12 @@
     "file": "assets/sprites/sc_oak.png",
     "footprint": 1.8,
     "h": 163,
+    "ink": [
+     50.0,
+     27.5,
+     115.5,
+     138.5
+    ],
     "outlined": true,
     "w": 163
    },
@@ -19225,6 +28375,12 @@
     "file": "assets/sprites/sc_oakold.png",
     "footprint": 1.8,
     "h": 154,
+    "ink": [
+     43.0,
+     29.5,
+     110.0,
+     129.0
+    ],
     "outlined": true,
     "w": 154
    },
@@ -19235,6 +28391,12 @@
     "file": "assets/sprites/sc_pine.png",
     "footprint": 1.8,
     "h": 207,
+    "ink": [
+     63.5,
+     32.5,
+     143.5,
+     183.0
+    ],
     "outlined": true,
     "w": 207
    },
@@ -19245,6 +28407,12 @@
     "file": "assets/sprites/sc_pinetall.png",
     "footprint": 2.0,
     "h": 257,
+    "ink": [
+     84.0,
+     37.5,
+     173.0,
+     227.5
+    ],
     "outlined": true,
     "w": 257
    },
@@ -19255,6 +28423,12 @@
     "file": "assets/sprites/sc_rock.png",
     "footprint": 1.1,
     "h": 96,
+    "ink": [
+     16.0,
+     30.0,
+     80.0,
+     75.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -19265,6 +28439,12 @@
     "file": "assets/sprites/sc_stump.png",
     "footprint": 0.9,
     "h": 96,
+    "ink": [
+     16.0,
+     32.5,
+     80.0,
+     73.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -19275,6 +28455,12 @@
     "file": "assets/sprites/style_a-stylised.png",
     "footprint": 3,
     "h": 248,
+    "ink": [
+     33.5,
+     50.5,
+     214.5,
+     229.0
+    ],
     "outlined": true,
     "w": 248
    },
@@ -19285,6 +28471,12 @@
     "file": "assets/sprites/style_b-smooth.png",
     "footprint": 3,
     "h": 253,
+    "ink": [
+     45.0,
+     52.5,
+     208.0,
+     229.0
+    ],
     "outlined": true,
     "w": 253
    },
@@ -19295,6 +28487,12 @@
     "file": "assets/sprites/style_c-ornate.png",
     "footprint": 3,
     "h": 270,
+    "ink": [
+     44.0,
+     53.0,
+     226.0,
+     248.5
+    ],
     "outlined": true,
     "w": 270
    },
@@ -19305,6 +28503,12 @@
     "file": "assets/sprites/style_d-machined.png",
     "footprint": 3,
     "h": 240,
+    "ink": [
+     36.5,
+     50.5,
+     203.5,
+     218.0
+    ],
     "outlined": true,
     "w": 240
    },
@@ -19315,6 +28519,12 @@
     "file": "assets/sprites/th01.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     29.0,
+     82.0,
+     245.0,
+     235.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -19325,6 +28535,12 @@
     "file": "assets/sprites/th02.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     29.0,
+     66.5,
+     245.0,
+     236.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -19335,6 +28551,12 @@
     "file": "assets/sprites/th03.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     36.5,
+     79.0,
+     237.5,
+     234.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -19345,6 +28567,12 @@
     "file": "assets/sprites/th04.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     29.0,
+     74.0,
+     245.0,
+     243.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -19355,6 +28583,12 @@
     "file": "assets/sprites/th05.png",
     "footprint": 4,
     "h": 286,
+    "ink": [
+     34.5,
+     65.5,
+     251.5,
+     258.0
+    ],
     "outlined": true,
     "w": 286
    },
@@ -19365,6 +28599,12 @@
     "file": "assets/sprites/th06.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     29.0,
+     72.0,
+     245.0,
+     244.5
+    ],
     "outlined": true,
     "w": 274
    },
@@ -19375,6 +28615,12 @@
     "file": "assets/sprites/th07.png",
     "footprint": 4,
     "h": 275,
+    "ink": [
+     29.5,
+     67.5,
+     245.5,
+     248.0
+    ],
     "outlined": true,
     "w": 275
    },
@@ -19385,6 +28631,12 @@
     "file": "assets/sprites/th08.png",
     "footprint": 4,
     "h": 274,
+    "ink": [
+     35.5,
+     64.0,
+     238.5,
+     242.0
+    ],
     "outlined": true,
     "w": 274
    },
@@ -19395,6 +28647,12 @@
     "file": "assets/sprites/th09.png",
     "footprint": 4,
     "h": 284,
+    "ink": [
+     33.5,
+     66.5,
+     250.0,
+     256.5
+    ],
     "outlined": true,
     "w": 284
    },
@@ -19405,6 +28663,12 @@
     "file": "assets/sprites/th10.png",
     "footprint": 4,
     "h": 333,
+    "ink": [
+     58.5,
+     72.0,
+     274.5,
+     300.5
+    ],
     "outlined": true,
     "w": 333
    },
@@ -19415,6 +28679,12 @@
     "file": "assets/sprites/th11.png",
     "footprint": 4,
     "h": 285,
+    "ink": [
+     34.0,
+     56.5,
+     251.0,
+     257.0
+    ],
     "outlined": true,
     "w": 285
    },
@@ -19425,6 +28695,12 @@
     "file": "assets/sprites/th12.png",
     "footprint": 4,
     "h": 285,
+    "ink": [
+     34.0,
+     56.5,
+     251.0,
+     257.0
+    ],
     "outlined": true,
     "w": 285
    },
@@ -19435,6 +28711,12 @@
     "file": "assets/sprites/th13.png",
     "footprint": 4,
     "h": 285,
+    "ink": [
+     34.0,
+     56.5,
+     251.0,
+     257.0
+    ],
     "outlined": true,
     "w": 285
    },
@@ -19445,6 +28727,12 @@
     "file": "assets/sprites/th14.png",
     "footprint": 4,
     "h": 285,
+    "ink": [
+     34.0,
+     56.5,
+     251.0,
+     257.0
+    ],
     "outlined": true,
     "w": 285
    },
@@ -19455,6 +28743,12 @@
     "file": "assets/sprites/th15.png",
     "footprint": 4,
     "h": 310,
+    "ink": [
+     46.5,
+     71.0,
+     263.5,
+     280.0
+    ],
     "outlined": true,
     "w": 310
    },
@@ -19465,6 +28759,12 @@
     "file": "assets/sprites/th16.png",
     "footprint": 4,
     "h": 319,
+    "ink": [
+     51.5,
+     69.5,
+     267.5,
+     288.0
+    ],
     "outlined": true,
     "w": 319
    },
@@ -19475,6 +28775,12 @@
     "file": "assets/sprites/th17.png",
     "footprint": 4,
     "h": 285,
+    "ink": [
+     34.0,
+     56.5,
+     251.0,
+     257.0
+    ],
     "outlined": true,
     "w": 285
    },
@@ -19485,6 +28791,12 @@
     "file": "assets/sprites/th18.png",
     "footprint": 4,
     "h": 285,
+    "ink": [
+     34.0,
+     56.5,
+     251.0,
+     257.0
+    ],
     "outlined": true,
     "w": 285
    },
@@ -19495,6 +28807,12 @@
     "file": "assets/sprites/th19.png",
     "footprint": 4,
     "h": 328,
+    "ink": [
+     56.0,
+     67.5,
+     272.0,
+     296.0
+    ],
     "outlined": true,
     "w": 328
    },
@@ -19505,6 +28823,12 @@
     "file": "assets/sprites/th20.png",
     "footprint": 4,
     "h": 341,
+    "ink": [
+     62.0,
+     71.0,
+     279.0,
+     308.0
+    ],
     "outlined": true,
     "w": 341
    },
@@ -19515,6 +28839,12 @@
     "file": "assets/sprites/th21.png",
     "footprint": 4,
     "h": 294,
+    "ink": [
+     38.5,
+     47.5,
+     255.0,
+     265.5
+    ],
     "outlined": true,
     "w": 294
    },
@@ -19525,6 +28855,12 @@
     "file": "assets/sprites/th22.png",
     "footprint": 4,
     "h": 308,
+    "ink": [
+     46.0,
+     60.0,
+     262.0,
+     278.0
+    ],
     "outlined": true,
     "w": 308
    },
@@ -19535,6 +28871,12 @@
     "file": "assets/sprites/th23.png",
     "footprint": 4,
     "h": 305,
+    "ink": [
+     44.5,
+     56.5,
+     260.5,
+     275.5
+    ],
     "outlined": true,
     "w": 305
    },
@@ -19545,6 +28887,12 @@
     "file": "assets/sprites/th24.png",
     "footprint": 4,
     "h": 294,
+    "ink": [
+     38.5,
+     50.0,
+     255.0,
+     265.5
+    ],
     "outlined": true,
     "w": 294
    },
@@ -19555,6 +28903,12 @@
     "file": "assets/sprites/th25.png",
     "footprint": 4,
     "h": 330,
+    "ink": [
+     57.0,
+     63.5,
+     273.0,
+     298.0
+    ],
     "outlined": true,
     "w": 330
    },
@@ -19565,6 +28919,12 @@
     "file": "assets/sprites/th26.png",
     "footprint": 4,
     "h": 316,
+    "ink": [
+     50.0,
+     70.5,
+     266.0,
+     285.5
+    ],
     "outlined": true,
     "w": 316
    },
@@ -19575,6 +28935,12 @@
     "file": "assets/sprites/th27.png",
     "footprint": 4,
     "h": 294,
+    "ink": [
+     38.5,
+     50.0,
+     255.0,
+     265.5
+    ],
     "outlined": true,
     "w": 294
    },
@@ -19585,6 +28951,12 @@
     "file": "assets/sprites/th28.png",
     "footprint": 4,
     "h": 337,
+    "ink": [
+     60.5,
+     65.0,
+     276.5,
+     304.0
+    ],
     "outlined": true,
     "w": 337
    },
@@ -19595,6 +28967,12 @@
     "file": "assets/sprites/th29.png",
     "footprint": 4,
     "h": 294,
+    "ink": [
+     38.5,
+     43.0,
+     255.0,
+     265.5
+    ],
     "outlined": true,
     "w": 294
    },
@@ -19605,6 +28983,12 @@
     "file": "assets/sprites/th30.png",
     "footprint": 4,
     "h": 333,
+    "ink": [
+     58.5,
+     68.5,
+     274.5,
+     300.5
+    ],
     "outlined": true,
     "w": 333
    },
@@ -19615,6 +28999,12 @@
     "file": "assets/sprites/u_abyssal_L01.png",
     "footprint": 1.4,
     "h": 116,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     112.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -19625,6 +29015,12 @@
     "file": "assets/sprites/u_abyssal_L02.png",
     "footprint": 1.4,
     "h": 115,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     111.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -19635,6 +29031,12 @@
     "file": "assets/sprites/u_abyssal_L03.png",
     "footprint": 1.4,
     "h": 116,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     112.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -19645,6 +29047,12 @@
     "file": "assets/sprites/u_abyssal_L04.png",
     "footprint": 1.4,
     "h": 116,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     112.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -19655,6 +29063,12 @@
     "file": "assets/sprites/u_abyssal_L05.png",
     "footprint": 1.4,
     "h": 116,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     112.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -19665,6 +29079,12 @@
     "file": "assets/sprites/u_abyssal_L06.png",
     "footprint": 1.4,
     "h": 115,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     111.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -19675,6 +29095,12 @@
     "file": "assets/sprites/u_abyssal_L07.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     132.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -19685,6 +29111,12 @@
     "file": "assets/sprites/u_abyssal_L08.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     131.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -19695,6 +29127,12 @@
     "file": "assets/sprites/u_abyssal_L09.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -19705,6 +29143,12 @@
     "file": "assets/sprites/u_abyssal_L10.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     130.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -19715,6 +29159,12 @@
     "file": "assets/sprites/u_abyssal_L11.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -19725,6 +29175,12 @@
     "file": "assets/sprites/u_abyssal_L12.png",
     "footprint": 1.4,
     "h": 140,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     136.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -19735,6 +29191,12 @@
     "file": "assets/sprites/u_abyssal_L13.png",
     "footprint": 1.4,
     "h": 140,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     136.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -19745,6 +29207,12 @@
     "file": "assets/sprites/u_abyssal_L14.png",
     "footprint": 1.4,
     "h": 140,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     136.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -19755,6 +29223,12 @@
     "file": "assets/sprites/u_abyssal_L15.png",
     "footprint": 1.4,
     "h": 140,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     136.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -19765,6 +29239,12 @@
     "file": "assets/sprites/u_abyssal_L16.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     135.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -19775,6 +29255,12 @@
     "file": "assets/sprites/u_abyssal_L17.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     135.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -19785,6 +29271,12 @@
     "file": "assets/sprites/u_abyssal_L18.png",
     "footprint": 1.4,
     "h": 146,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     142.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -19795,6 +29287,12 @@
     "file": "assets/sprites/u_abyssal_L19.png",
     "footprint": 1.4,
     "h": 146,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     142.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -19805,6 +29303,12 @@
     "file": "assets/sprites/u_abyssal_L20.png",
     "footprint": 1.4,
     "h": 146,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     142.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -19815,6 +29319,12 @@
     "file": "assets/sprites/u_abyssal_L21.png",
     "footprint": 1.4,
     "h": 148,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     144.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -19825,6 +29335,12 @@
     "file": "assets/sprites/u_abyssal_L22.png",
     "footprint": 1.4,
     "h": 148,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     144.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -19835,6 +29351,12 @@
     "file": "assets/sprites/u_abyssal_L23.png",
     "footprint": 1.4,
     "h": 149,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     145.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -19845,6 +29367,12 @@
     "file": "assets/sprites/u_abyssal_L24.png",
     "footprint": 1.4,
     "h": 150,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     146.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -19855,6 +29383,12 @@
     "file": "assets/sprites/u_abyssal_L25.png",
     "footprint": 1.4,
     "h": 150,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     146.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -19865,6 +29399,12 @@
     "file": "assets/sprites/u_ascendant_L01.png",
     "footprint": 1.4,
     "h": 210,
+    "ink": [
+     4.0,
+     4.0,
+     116.0,
+     206.0
+    ],
     "outlined": true,
     "w": 120
    },
@@ -19875,6 +29415,12 @@
     "file": "assets/sprites/u_ascendant_L02.png",
     "footprint": 1.4,
     "h": 208,
+    "ink": [
+     4.0,
+     4.0,
+     116.0,
+     204.0
+    ],
     "outlined": true,
     "w": 120
    },
@@ -19885,6 +29431,12 @@
     "file": "assets/sprites/u_ascendant_L03.png",
     "footprint": 1.4,
     "h": 208,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     204.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -19895,6 +29447,12 @@
     "file": "assets/sprites/u_ascendant_L04.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     179.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -19905,6 +29463,12 @@
     "file": "assets/sprites/u_ascendant_L05.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     179.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -19915,6 +29479,12 @@
     "file": "assets/sprites/u_ascendant_L06.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     179.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -19925,6 +29495,12 @@
     "file": "assets/sprites/u_ascendant_L07.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     179.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -19935,6 +29511,12 @@
     "file": "assets/sprites/u_ascendant_L08.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     179.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -19945,6 +29527,12 @@
     "file": "assets/sprites/u_ascendant_L09.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     179.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -19955,6 +29543,12 @@
     "file": "assets/sprites/u_ascendant_L10.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     179.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -19965,6 +29559,12 @@
     "file": "assets/sprites/u_ascendant_L11.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     179.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -19975,6 +29575,12 @@
     "file": "assets/sprites/u_ascendant_L12.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     173.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -19985,6 +29591,12 @@
     "file": "assets/sprites/u_ascendant_L13.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     173.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -19995,6 +29607,12 @@
     "file": "assets/sprites/u_ascendant_L14.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -20005,6 +29623,12 @@
     "file": "assets/sprites/u_ascendant_L15.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -20015,6 +29639,12 @@
     "file": "assets/sprites/u_ascendant_L16.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     173.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -20025,6 +29655,12 @@
     "file": "assets/sprites/u_ascendant_L17.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -20035,6 +29671,12 @@
     "file": "assets/sprites/u_ascendant_L18.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -20045,6 +29687,12 @@
     "file": "assets/sprites/u_ascendant_L19.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     171.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -20055,6 +29703,12 @@
     "file": "assets/sprites/u_ascendant_L20.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     171.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -20065,6 +29719,12 @@
     "file": "assets/sprites/u_ascendant_L21.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     170.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -20075,6 +29735,12 @@
     "file": "assets/sprites/u_ascendant_L22.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     171.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -20085,6 +29751,12 @@
     "file": "assets/sprites/u_ascendant_L23.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     170.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -20095,6 +29767,12 @@
     "file": "assets/sprites/u_ascendant_L24.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     170.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -20105,6 +29783,12 @@
     "file": "assets/sprites/u_ascendant_L25.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     169.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -20115,6 +29799,12 @@
     "file": "assets/sprites/u_balloonier_L01.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -20125,6 +29815,12 @@
     "file": "assets/sprites/u_balloonier_L02.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -20135,6 +29831,12 @@
     "file": "assets/sprites/u_balloonier_L03.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -20145,6 +29847,12 @@
     "file": "assets/sprites/u_balloonier_L04.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -20155,6 +29863,12 @@
     "file": "assets/sprites/u_balloonier_L05.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20165,6 +29879,12 @@
     "file": "assets/sprites/u_balloonier_L06.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20175,6 +29895,12 @@
     "file": "assets/sprites/u_balloonier_L07.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20185,6 +29911,12 @@
     "file": "assets/sprites/u_balloonier_L08.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20195,6 +29927,12 @@
     "file": "assets/sprites/u_balloonier_L09.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20205,6 +29943,12 @@
     "file": "assets/sprites/u_balloonier_L10.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20215,6 +29959,12 @@
     "file": "assets/sprites/u_balloonier_L11.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20225,6 +29975,12 @@
     "file": "assets/sprites/u_balloonier_L12.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20235,6 +29991,12 @@
     "file": "assets/sprites/u_balloonier_L13.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20245,6 +30007,12 @@
     "file": "assets/sprites/u_balloonier_L14.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20255,6 +30023,12 @@
     "file": "assets/sprites/u_balloonier_L15.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20265,6 +30039,12 @@
     "file": "assets/sprites/u_balloonier_L16.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20275,6 +30055,12 @@
     "file": "assets/sprites/u_balloonier_L17.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20285,6 +30071,12 @@
     "file": "assets/sprites/u_balloonier_L18.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20295,6 +30087,12 @@
     "file": "assets/sprites/u_balloonier_L19.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20305,6 +30103,12 @@
     "file": "assets/sprites/u_balloonier_L20.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20315,6 +30119,12 @@
     "file": "assets/sprites/u_balloonier_L21.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20325,6 +30135,12 @@
     "file": "assets/sprites/u_balloonier_L22.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20335,6 +30151,12 @@
     "file": "assets/sprites/u_balloonier_L23.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -20345,6 +30167,12 @@
     "file": "assets/sprites/u_balloonier_L24.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -20355,6 +30183,12 @@
     "file": "assets/sprites/u_balloonier_L25.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -20365,6 +30199,12 @@
     "file": "assets/sprites/u_bannerman_L01.png",
     "footprint": 1.4,
     "h": 214,
+    "ink": [
+     4.0,
+     4.0,
+     127.0,
+     210.0
+    ],
     "outlined": true,
     "w": 131
    },
@@ -20375,6 +30215,12 @@
     "file": "assets/sprites/u_bannerman_L02.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     127.0,
+     212.0
+    ],
     "outlined": true,
     "w": 131
    },
@@ -20385,6 +30231,12 @@
     "file": "assets/sprites/u_bannerman_L03.png",
     "footprint": 1.4,
     "h": 218,
+    "ink": [
+     4.0,
+     4.0,
+     128.0,
+     214.0
+    ],
     "outlined": true,
     "w": 132
    },
@@ -20395,6 +30247,12 @@
     "file": "assets/sprites/u_bannerman_L04.png",
     "footprint": 1.4,
     "h": 192,
+    "ink": [
+     4.0,
+     4.0,
+     118.0,
+     188.0
+    ],
     "outlined": true,
     "w": 122
    },
@@ -20405,6 +30263,12 @@
     "file": "assets/sprites/u_bannerman_L05.png",
     "footprint": 1.4,
     "h": 194,
+    "ink": [
+     4.0,
+     4.0,
+     118.0,
+     190.0
+    ],
     "outlined": true,
     "w": 122
    },
@@ -20415,6 +30279,12 @@
     "file": "assets/sprites/u_bannerman_L06.png",
     "footprint": 1.4,
     "h": 194,
+    "ink": [
+     4.0,
+     4.0,
+     118.0,
+     190.0
+    ],
     "outlined": true,
     "w": 122
    },
@@ -20425,6 +30295,12 @@
     "file": "assets/sprites/u_bannerman_L07.png",
     "footprint": 1.4,
     "h": 196,
+    "ink": [
+     4.0,
+     4.0,
+     118.0,
+     192.0
+    ],
     "outlined": true,
     "w": 122
    },
@@ -20435,6 +30311,12 @@
     "file": "assets/sprites/u_bannerman_L08.png",
     "footprint": 1.4,
     "h": 198,
+    "ink": [
+     4.0,
+     4.0,
+     118.0,
+     194.0
+    ],
     "outlined": true,
     "w": 122
    },
@@ -20445,6 +30327,12 @@
     "file": "assets/sprites/u_bannerman_L09.png",
     "footprint": 1.4,
     "h": 200,
+    "ink": [
+     4.0,
+     4.0,
+     118.0,
+     196.0
+    ],
     "outlined": true,
     "w": 122
    },
@@ -20455,6 +30343,12 @@
     "file": "assets/sprites/u_bannerman_L10.png",
     "footprint": 1.4,
     "h": 203,
+    "ink": [
+     4.0,
+     4.0,
+     119.0,
+     199.0
+    ],
     "outlined": true,
     "w": 123
    },
@@ -20465,6 +30359,12 @@
     "file": "assets/sprites/u_bannerman_L11.png",
     "footprint": 1.4,
     "h": 204,
+    "ink": [
+     4.0,
+     4.0,
+     119.0,
+     200.0
+    ],
     "outlined": true,
     "w": 123
    },
@@ -20475,6 +30375,12 @@
     "file": "assets/sprites/u_bannerman_L12.png",
     "footprint": 1.4,
     "h": 197,
+    "ink": [
+     4.0,
+     4.0,
+     118.0,
+     193.0
+    ],
     "outlined": true,
     "w": 122
    },
@@ -20485,6 +30391,12 @@
     "file": "assets/sprites/u_bannerman_L13.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     197.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -20495,6 +30407,12 @@
     "file": "assets/sprites/u_bannerman_L14.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     118.0,
+     197.0
+    ],
     "outlined": true,
     "w": 122
    },
@@ -20505,6 +30423,12 @@
     "file": "assets/sprites/u_bannerman_L15.png",
     "footprint": 1.4,
     "h": 203,
+    "ink": [
+     4.0,
+     4.0,
+     119.0,
+     199.0
+    ],
     "outlined": true,
     "w": 123
    },
@@ -20515,6 +30439,12 @@
     "file": "assets/sprites/u_bannerman_L16.png",
     "footprint": 1.4,
     "h": 205,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     201.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -20525,6 +30455,12 @@
     "file": "assets/sprites/u_bannerman_L17.png",
     "footprint": 1.4,
     "h": 206,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     202.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -20535,6 +30471,12 @@
     "file": "assets/sprites/u_bannerman_L18.png",
     "footprint": 1.4,
     "h": 208,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     204.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -20545,6 +30487,12 @@
     "file": "assets/sprites/u_bannerman_L19.png",
     "footprint": 1.4,
     "h": 210,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     206.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -20555,6 +30503,12 @@
     "file": "assets/sprites/u_bannerman_L20.png",
     "footprint": 1.4,
     "h": 210,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     206.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -20565,6 +30519,12 @@
     "file": "assets/sprites/u_bannerman_L21.png",
     "footprint": 1.4,
     "h": 212,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     208.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -20575,6 +30535,12 @@
     "file": "assets/sprites/u_bannerman_L22.png",
     "footprint": 1.4,
     "h": 214,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     210.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -20585,6 +30551,12 @@
     "file": "assets/sprites/u_bannerman_L23.png",
     "footprint": 1.4,
     "h": 215,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     211.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -20595,6 +30567,12 @@
     "file": "assets/sprites/u_bannerman_L24.png",
     "footprint": 1.4,
     "h": 217,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     213.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -20605,6 +30583,12 @@
     "file": "assets/sprites/u_bannerman_L25.png",
     "footprint": 1.4,
     "h": 217,
+    "ink": [
+     4.0,
+     4.0,
+     119.0,
+     213.0
+    ],
     "outlined": true,
     "w": 123
    },
@@ -20615,6 +30599,12 @@
     "file": "assets/sprites/u_barrackscarriage_L01.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20625,6 +30615,12 @@
     "file": "assets/sprites/u_barrackscarriage_L05.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20635,6 +30631,12 @@
     "file": "assets/sprites/u_barrackscarriage_L09.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20645,6 +30647,12 @@
     "file": "assets/sprites/u_barrackscarriage_L13.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20655,6 +30663,12 @@
     "file": "assets/sprites/u_barrackscarriage_L17.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20665,6 +30679,12 @@
     "file": "assets/sprites/u_barrackscarriage_L21.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20675,6 +30695,12 @@
     "file": "assets/sprites/u_barrackscarriage_L25.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20685,6 +30711,12 @@
     "file": "assets/sprites/u_bastionwalker_L01.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20695,6 +30727,12 @@
     "file": "assets/sprites/u_bastionwalker_L05.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20705,6 +30743,12 @@
     "file": "assets/sprites/u_bastionwalker_L09.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20715,6 +30759,12 @@
     "file": "assets/sprites/u_bastionwalker_L13.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20725,6 +30775,12 @@
     "file": "assets/sprites/u_bastionwalker_L17.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20735,6 +30791,12 @@
     "file": "assets/sprites/u_bastionwalker_L21.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20745,6 +30807,12 @@
     "file": "assets/sprites/u_bastionwalker_L25.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20755,6 +30823,12 @@
     "file": "assets/sprites/u_battledrill_L01.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20765,6 +30839,12 @@
     "file": "assets/sprites/u_battledrill_L05.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20775,6 +30855,12 @@
     "file": "assets/sprites/u_battledrill_L09.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20785,6 +30871,12 @@
     "file": "assets/sprites/u_battledrill_L13.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20795,6 +30887,12 @@
     "file": "assets/sprites/u_battledrill_L17.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20805,6 +30903,12 @@
     "file": "assets/sprites/u_battledrill_L21.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20815,6 +30919,12 @@
     "file": "assets/sprites/u_battledrill_L25.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -20825,6 +30935,12 @@
     "file": "assets/sprites/u_bonedrake_L01.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -20835,6 +30951,12 @@
     "file": "assets/sprites/u_bonedrake_L02.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -20845,6 +30967,12 @@
     "file": "assets/sprites/u_bonedrake_L03.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -20855,6 +30983,12 @@
     "file": "assets/sprites/u_bonedrake_L04.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -20865,6 +30999,12 @@
     "file": "assets/sprites/u_bonedrake_L05.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20875,6 +31015,12 @@
     "file": "assets/sprites/u_bonedrake_L06.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20885,6 +31031,12 @@
     "file": "assets/sprites/u_bonedrake_L07.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20895,6 +31047,12 @@
     "file": "assets/sprites/u_bonedrake_L08.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20905,6 +31063,12 @@
     "file": "assets/sprites/u_bonedrake_L09.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20915,6 +31079,12 @@
     "file": "assets/sprites/u_bonedrake_L10.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20925,6 +31095,12 @@
     "file": "assets/sprites/u_bonedrake_L11.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20935,6 +31111,12 @@
     "file": "assets/sprites/u_bonedrake_L12.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20945,6 +31127,12 @@
     "file": "assets/sprites/u_bonedrake_L13.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20955,6 +31143,12 @@
     "file": "assets/sprites/u_bonedrake_L14.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20965,6 +31159,12 @@
     "file": "assets/sprites/u_bonedrake_L15.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20975,6 +31175,12 @@
     "file": "assets/sprites/u_bonedrake_L16.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20985,6 +31191,12 @@
     "file": "assets/sprites/u_bonedrake_L17.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -20995,6 +31207,12 @@
     "file": "assets/sprites/u_bonedrake_L18.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21005,6 +31223,12 @@
     "file": "assets/sprites/u_bonedrake_L19.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21015,6 +31239,12 @@
     "file": "assets/sprites/u_bonedrake_L20.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21025,6 +31255,12 @@
     "file": "assets/sprites/u_bonedrake_L21.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21035,6 +31271,12 @@
     "file": "assets/sprites/u_bonedrake_L22.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21045,6 +31287,12 @@
     "file": "assets/sprites/u_bonedrake_L23.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21055,6 +31303,12 @@
     "file": "assets/sprites/u_bonedrake_L24.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21065,6 +31319,12 @@
     "file": "assets/sprites/u_bonedrake_L25.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21075,6 +31335,12 @@
     "file": "assets/sprites/u_brute_L01.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     86.0,
+     124.0
+    ],
     "outlined": true,
     "w": 90
    },
@@ -21085,6 +31351,12 @@
     "file": "assets/sprites/u_brute_L02.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     86.0,
+     124.0
+    ],
     "outlined": true,
     "w": 90
    },
@@ -21095,6 +31367,12 @@
     "file": "assets/sprites/u_brute_L03.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     86.0,
+     133.0
+    ],
     "outlined": true,
     "w": 90
    },
@@ -21105,6 +31383,12 @@
     "file": "assets/sprites/u_brute_L04.png",
     "footprint": 1.4,
     "h": 126,
+    "ink": [
+     4.0,
+     4.0,
+     84.0,
+     122.0
+    ],
     "outlined": true,
     "w": 88
    },
@@ -21115,6 +31399,12 @@
     "file": "assets/sprites/u_brute_L05.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     84.0,
+     121.0
+    ],
     "outlined": true,
     "w": 88
    },
@@ -21125,6 +31415,12 @@
     "file": "assets/sprites/u_brute_L06.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     84.0,
+     121.0
+    ],
     "outlined": true,
     "w": 88
    },
@@ -21135,6 +31431,12 @@
     "file": "assets/sprites/u_brute_L07.png",
     "footprint": 1.4,
     "h": 159,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     155.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21145,6 +31447,12 @@
     "file": "assets/sprites/u_brute_L08.png",
     "footprint": 1.4,
     "h": 158,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     154.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21155,6 +31463,12 @@
     "file": "assets/sprites/u_brute_L09.png",
     "footprint": 1.4,
     "h": 157,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     153.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21165,6 +31479,12 @@
     "file": "assets/sprites/u_brute_L10.png",
     "footprint": 1.4,
     "h": 157,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     153.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21175,6 +31495,12 @@
     "file": "assets/sprites/u_brute_L11.png",
     "footprint": 1.4,
     "h": 156,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     152.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21185,6 +31511,12 @@
     "file": "assets/sprites/u_brute_L12.png",
     "footprint": 1.4,
     "h": 152,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     148.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21195,6 +31527,12 @@
     "file": "assets/sprites/u_brute_L13.png",
     "footprint": 1.4,
     "h": 158,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     154.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21205,6 +31543,12 @@
     "file": "assets/sprites/u_brute_L14.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21215,6 +31559,12 @@
     "file": "assets/sprites/u_brute_L15.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21225,6 +31575,12 @@
     "file": "assets/sprites/u_brute_L16.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21235,6 +31591,12 @@
     "file": "assets/sprites/u_brute_L17.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21245,6 +31607,12 @@
     "file": "assets/sprites/u_brute_L18.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21255,6 +31623,12 @@
     "file": "assets/sprites/u_brute_L19.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21265,6 +31639,12 @@
     "file": "assets/sprites/u_brute_L20.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     168.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21275,6 +31655,12 @@
     "file": "assets/sprites/u_brute_L21.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     169.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21285,6 +31671,12 @@
     "file": "assets/sprites/u_brute_L22.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     168.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21295,6 +31687,12 @@
     "file": "assets/sprites/u_brute_L23.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     167.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21305,6 +31703,12 @@
     "file": "assets/sprites/u_brute_L24.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     167.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21315,6 +31719,12 @@
     "file": "assets/sprites/u_brute_L25.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     167.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21325,6 +31735,12 @@
     "file": "assets/sprites/u_champion_L01.png",
     "footprint": 1.4,
     "h": 209,
+    "ink": [
+     4.0,
+     4.0,
+     116.0,
+     205.0
+    ],
     "outlined": true,
     "w": 120
    },
@@ -21335,6 +31751,12 @@
     "file": "assets/sprites/u_champion_L02.png",
     "footprint": 1.4,
     "h": 208,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     204.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -21345,6 +31767,12 @@
     "file": "assets/sprites/u_champion_L03.png",
     "footprint": 1.4,
     "h": 208,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     204.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -21355,6 +31783,12 @@
     "file": "assets/sprites/u_champion_L04.png",
     "footprint": 1.4,
     "h": 184,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     180.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -21365,6 +31799,12 @@
     "file": "assets/sprites/u_champion_L05.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     179.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -21375,6 +31815,12 @@
     "file": "assets/sprites/u_champion_L06.png",
     "footprint": 1.4,
     "h": 184,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     180.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -21385,6 +31831,12 @@
     "file": "assets/sprites/u_champion_L07.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     179.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21395,6 +31847,12 @@
     "file": "assets/sprites/u_champion_L08.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     179.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21405,6 +31863,12 @@
     "file": "assets/sprites/u_champion_L09.png",
     "footprint": 1.4,
     "h": 182,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     178.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21415,6 +31879,12 @@
     "file": "assets/sprites/u_champion_L10.png",
     "footprint": 1.4,
     "h": 182,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     178.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21425,6 +31895,12 @@
     "file": "assets/sprites/u_champion_L11.png",
     "footprint": 1.4,
     "h": 182,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     178.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21435,6 +31911,12 @@
     "file": "assets/sprites/u_champion_L12.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     173.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21445,6 +31927,12 @@
     "file": "assets/sprites/u_champion_L13.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     171.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21455,6 +31943,12 @@
     "file": "assets/sprites/u_champion_L14.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21465,6 +31959,12 @@
     "file": "assets/sprites/u_champion_L15.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     171.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21475,6 +31975,12 @@
     "file": "assets/sprites/u_champion_L16.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21485,6 +31991,12 @@
     "file": "assets/sprites/u_champion_L17.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21495,6 +32007,12 @@
     "file": "assets/sprites/u_champion_L18.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     171.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21505,6 +32023,12 @@
     "file": "assets/sprites/u_champion_L19.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     170.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21515,6 +32039,12 @@
     "file": "assets/sprites/u_champion_L20.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     170.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21525,6 +32055,12 @@
     "file": "assets/sprites/u_champion_L21.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     169.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21535,6 +32071,12 @@
     "file": "assets/sprites/u_champion_L22.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     169.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -21545,6 +32087,12 @@
     "file": "assets/sprites/u_champion_L23.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     170.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21555,6 +32103,12 @@
     "file": "assets/sprites/u_champion_L24.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     170.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21565,6 +32119,12 @@
     "file": "assets/sprites/u_champion_L25.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     171.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -21575,6 +32135,12 @@
     "file": "assets/sprites/u_colossus_L01.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21585,6 +32151,12 @@
     "file": "assets/sprites/u_colossus_L02.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21595,6 +32167,12 @@
     "file": "assets/sprites/u_colossus_L03.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     131.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21605,6 +32183,12 @@
     "file": "assets/sprites/u_colossus_L04.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21615,6 +32199,12 @@
     "file": "assets/sprites/u_colossus_L05.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21625,6 +32215,12 @@
     "file": "assets/sprites/u_colossus_L06.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21635,6 +32231,12 @@
     "file": "assets/sprites/u_colossus_L07.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -21645,6 +32247,12 @@
     "file": "assets/sprites/u_colossus_L08.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     131.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21655,6 +32263,12 @@
     "file": "assets/sprites/u_colossus_L09.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21665,6 +32279,12 @@
     "file": "assets/sprites/u_colossus_L10.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21675,6 +32295,12 @@
     "file": "assets/sprites/u_colossus_L11.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21685,6 +32311,12 @@
     "file": "assets/sprites/u_colossus_L12.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     135.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21695,6 +32327,12 @@
     "file": "assets/sprites/u_colossus_L13.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     135.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21705,6 +32343,12 @@
     "file": "assets/sprites/u_colossus_L14.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21715,6 +32359,12 @@
     "file": "assets/sprites/u_colossus_L15.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21725,6 +32375,12 @@
     "file": "assets/sprites/u_colossus_L16.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21735,6 +32391,12 @@
     "file": "assets/sprites/u_colossus_L17.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     134.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21745,6 +32407,12 @@
     "file": "assets/sprites/u_colossus_L18.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     134.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21755,6 +32423,12 @@
     "file": "assets/sprites/u_colossus_L19.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     134.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21765,6 +32439,12 @@
     "file": "assets/sprites/u_colossus_L20.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     133.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21775,6 +32455,12 @@
     "file": "assets/sprites/u_colossus_L21.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     133.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21785,6 +32471,12 @@
     "file": "assets/sprites/u_colossus_L22.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21795,6 +32487,12 @@
     "file": "assets/sprites/u_colossus_L23.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21805,6 +32503,12 @@
     "file": "assets/sprites/u_colossus_L24.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     132.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21815,6 +32519,12 @@
     "file": "assets/sprites/u_colossus_L25.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     132.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21825,6 +32535,12 @@
     "file": "assets/sprites/u_duskwing_L01.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21835,6 +32551,12 @@
     "file": "assets/sprites/u_duskwing_L02.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21845,6 +32567,12 @@
     "file": "assets/sprites/u_duskwing_L03.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21855,6 +32583,12 @@
     "file": "assets/sprites/u_duskwing_L04.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -21865,6 +32599,12 @@
     "file": "assets/sprites/u_duskwing_L05.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21875,6 +32615,12 @@
     "file": "assets/sprites/u_duskwing_L06.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21885,6 +32631,12 @@
     "file": "assets/sprites/u_duskwing_L07.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21895,6 +32647,12 @@
     "file": "assets/sprites/u_duskwing_L08.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21905,6 +32663,12 @@
     "file": "assets/sprites/u_duskwing_L09.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21915,6 +32679,12 @@
     "file": "assets/sprites/u_duskwing_L10.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21925,6 +32695,12 @@
     "file": "assets/sprites/u_duskwing_L11.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21935,6 +32711,12 @@
     "file": "assets/sprites/u_duskwing_L12.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21945,6 +32727,12 @@
     "file": "assets/sprites/u_duskwing_L13.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21955,6 +32743,12 @@
     "file": "assets/sprites/u_duskwing_L14.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21965,6 +32759,12 @@
     "file": "assets/sprites/u_duskwing_L15.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21975,6 +32775,12 @@
     "file": "assets/sprites/u_duskwing_L16.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21985,6 +32791,12 @@
     "file": "assets/sprites/u_duskwing_L17.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -21995,6 +32807,12 @@
     "file": "assets/sprites/u_duskwing_L18.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22005,6 +32823,12 @@
     "file": "assets/sprites/u_duskwing_L19.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22015,6 +32839,12 @@
     "file": "assets/sprites/u_duskwing_L20.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22025,6 +32855,12 @@
     "file": "assets/sprites/u_duskwing_L21.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22035,6 +32871,12 @@
     "file": "assets/sprites/u_duskwing_L22.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22045,6 +32887,12 @@
     "file": "assets/sprites/u_duskwing_L23.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -22055,6 +32903,12 @@
     "file": "assets/sprites/u_duskwing_L24.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -22065,6 +32919,12 @@
     "file": "assets/sprites/u_duskwing_L25.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -22075,6 +32935,12 @@
     "file": "assets/sprites/u_frostcaller_L01.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -22085,6 +32951,12 @@
     "file": "assets/sprites/u_frostcaller_L02.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -22095,6 +32967,12 @@
     "file": "assets/sprites/u_frostcaller_L03.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -22105,6 +32983,12 @@
     "file": "assets/sprites/u_frostcaller_L04.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -22115,6 +32999,12 @@
     "file": "assets/sprites/u_frostcaller_L05.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -22125,6 +33015,12 @@
     "file": "assets/sprites/u_frostcaller_L06.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -22135,6 +33031,12 @@
     "file": "assets/sprites/u_frostcaller_L07.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -22145,6 +33047,12 @@
     "file": "assets/sprites/u_frostcaller_L08.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -22155,6 +33063,12 @@
     "file": "assets/sprites/u_frostcaller_L09.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -22165,6 +33079,12 @@
     "file": "assets/sprites/u_frostcaller_L10.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22175,6 +33095,12 @@
     "file": "assets/sprites/u_frostcaller_L11.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22185,6 +33111,12 @@
     "file": "assets/sprites/u_frostcaller_L12.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22195,6 +33127,12 @@
     "file": "assets/sprites/u_frostcaller_L13.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22205,6 +33143,12 @@
     "file": "assets/sprites/u_frostcaller_L14.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22215,6 +33159,12 @@
     "file": "assets/sprites/u_frostcaller_L15.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22225,6 +33175,12 @@
     "file": "assets/sprites/u_frostcaller_L16.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22235,6 +33191,12 @@
     "file": "assets/sprites/u_frostcaller_L17.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22245,6 +33207,12 @@
     "file": "assets/sprites/u_frostcaller_L18.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22255,6 +33223,12 @@
     "file": "assets/sprites/u_frostcaller_L19.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22265,6 +33239,12 @@
     "file": "assets/sprites/u_frostcaller_L20.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22275,6 +33255,12 @@
     "file": "assets/sprites/u_frostcaller_L21.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22285,6 +33271,12 @@
     "file": "assets/sprites/u_frostcaller_L22.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22295,6 +33287,12 @@
     "file": "assets/sprites/u_frostcaller_L23.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22305,6 +33303,12 @@
     "file": "assets/sprites/u_frostcaller_L24.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22315,6 +33319,12 @@
     "file": "assets/sprites/u_frostcaller_L25.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -22325,6 +33335,12 @@
     "file": "assets/sprites/u_golem_L01.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22335,6 +33351,12 @@
     "file": "assets/sprites/u_golem_L02.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22345,6 +33367,12 @@
     "file": "assets/sprites/u_golem_L03.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     131.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22355,6 +33383,12 @@
     "file": "assets/sprites/u_golem_L04.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -22365,6 +33399,12 @@
     "file": "assets/sprites/u_golem_L05.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -22375,6 +33415,12 @@
     "file": "assets/sprites/u_golem_L06.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -22385,6 +33431,12 @@
     "file": "assets/sprites/u_golem_L07.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -22395,6 +33447,12 @@
     "file": "assets/sprites/u_golem_L08.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     131.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22405,6 +33463,12 @@
     "file": "assets/sprites/u_golem_L09.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22415,6 +33479,12 @@
     "file": "assets/sprites/u_golem_L10.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22425,6 +33495,12 @@
     "file": "assets/sprites/u_golem_L11.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22435,6 +33511,12 @@
     "file": "assets/sprites/u_golem_L12.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     135.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22445,6 +33527,12 @@
     "file": "assets/sprites/u_golem_L13.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     135.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22455,6 +33543,12 @@
     "file": "assets/sprites/u_golem_L14.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22465,6 +33559,12 @@
     "file": "assets/sprites/u_golem_L15.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22475,6 +33575,12 @@
     "file": "assets/sprites/u_golem_L16.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22485,6 +33591,12 @@
     "file": "assets/sprites/u_golem_L17.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     134.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22495,6 +33607,12 @@
     "file": "assets/sprites/u_golem_L18.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     134.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22505,6 +33623,12 @@
     "file": "assets/sprites/u_golem_L19.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     134.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22515,6 +33639,12 @@
     "file": "assets/sprites/u_golem_L20.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     133.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22525,6 +33655,12 @@
     "file": "assets/sprites/u_golem_L21.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     133.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22535,6 +33671,12 @@
     "file": "assets/sprites/u_golem_L22.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22545,6 +33687,12 @@
     "file": "assets/sprites/u_golem_L23.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22555,6 +33703,12 @@
     "file": "assets/sprites/u_golem_L24.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     132.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22565,6 +33719,12 @@
     "file": "assets/sprites/u_golem_L25.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     132.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22575,6 +33735,12 @@
     "file": "assets/sprites/u_grunt_L01.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     116.0,
+     168.0
+    ],
     "outlined": true,
     "w": 120
    },
@@ -22585,6 +33751,12 @@
     "file": "assets/sprites/u_grunt_L02.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     116.0,
+     167.0
+    ],
     "outlined": true,
     "w": 120
    },
@@ -22595,6 +33767,12 @@
     "file": "assets/sprites/u_grunt_L03.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     116.0,
+     179.0
+    ],
     "outlined": true,
     "w": 120
    },
@@ -22605,6 +33783,12 @@
     "file": "assets/sprites/u_grunt_L04.png",
     "footprint": 1.4,
     "h": 162,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     158.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -22615,6 +33799,12 @@
     "file": "assets/sprites/u_grunt_L05.png",
     "footprint": 1.4,
     "h": 163,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     159.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -22625,6 +33815,12 @@
     "file": "assets/sprites/u_grunt_L06.png",
     "footprint": 1.4,
     "h": 162,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     158.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -22635,6 +33831,12 @@
     "file": "assets/sprites/u_grunt_L07.png",
     "footprint": 1.4,
     "h": 168,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     164.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -22645,6 +33847,12 @@
     "file": "assets/sprites/u_grunt_L08.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     163.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -22655,6 +33863,12 @@
     "file": "assets/sprites/u_grunt_L09.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -22665,6 +33879,12 @@
     "file": "assets/sprites/u_grunt_L10.png",
     "footprint": 1.4,
     "h": 168,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     164.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -22675,6 +33895,12 @@
     "file": "assets/sprites/u_grunt_L11.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -22685,6 +33911,12 @@
     "file": "assets/sprites/u_grunt_L12.png",
     "footprint": 1.4,
     "h": 162,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     158.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -22695,6 +33927,12 @@
     "file": "assets/sprites/u_grunt_L13.png",
     "footprint": 1.4,
     "h": 168,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     164.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -22705,6 +33943,12 @@
     "file": "assets/sprites/u_grunt_L14.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -22715,6 +33959,12 @@
     "file": "assets/sprites/u_grunt_L15.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -22725,6 +33975,12 @@
     "file": "assets/sprites/u_grunt_L16.png",
     "footprint": 1.4,
     "h": 168,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     164.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -22735,6 +33991,12 @@
     "file": "assets/sprites/u_grunt_L17.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -22745,6 +34007,12 @@
     "file": "assets/sprites/u_grunt_L18.png",
     "footprint": 1.4,
     "h": 168,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     164.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -22755,6 +34023,12 @@
     "file": "assets/sprites/u_grunt_L19.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -22765,6 +34039,12 @@
     "file": "assets/sprites/u_grunt_L20.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     168.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -22775,6 +34055,12 @@
     "file": "assets/sprites/u_grunt_L21.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     168.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -22785,6 +34071,12 @@
     "file": "assets/sprites/u_grunt_L22.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     169.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -22795,6 +34087,12 @@
     "file": "assets/sprites/u_grunt_L23.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     168.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -22805,6 +34103,12 @@
     "file": "assets/sprites/u_grunt_L24.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     168.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -22815,6 +34119,12 @@
     "file": "assets/sprites/u_grunt_L25.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     167.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -22825,6 +34135,12 @@
     "file": "assets/sprites/u_hexweaver_L01.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22835,6 +34151,12 @@
     "file": "assets/sprites/u_hexweaver_L02.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22845,6 +34167,12 @@
     "file": "assets/sprites/u_hexweaver_L03.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     131.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22855,6 +34183,12 @@
     "file": "assets/sprites/u_hexweaver_L04.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -22865,6 +34199,12 @@
     "file": "assets/sprites/u_hexweaver_L05.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -22875,6 +34215,12 @@
     "file": "assets/sprites/u_hexweaver_L06.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -22885,6 +34231,12 @@
     "file": "assets/sprites/u_hexweaver_L07.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -22895,6 +34247,12 @@
     "file": "assets/sprites/u_hexweaver_L08.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     131.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22905,6 +34263,12 @@
     "file": "assets/sprites/u_hexweaver_L09.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22915,6 +34279,12 @@
     "file": "assets/sprites/u_hexweaver_L10.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22925,6 +34295,12 @@
     "file": "assets/sprites/u_hexweaver_L11.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22935,6 +34311,12 @@
     "file": "assets/sprites/u_hexweaver_L12.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     135.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22945,6 +34327,12 @@
     "file": "assets/sprites/u_hexweaver_L13.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     135.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -22955,6 +34343,12 @@
     "file": "assets/sprites/u_hexweaver_L14.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22965,6 +34359,12 @@
     "file": "assets/sprites/u_hexweaver_L15.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22975,6 +34375,12 @@
     "file": "assets/sprites/u_hexweaver_L16.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22985,6 +34391,12 @@
     "file": "assets/sprites/u_hexweaver_L17.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     134.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -22995,6 +34407,12 @@
     "file": "assets/sprites/u_hexweaver_L18.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     134.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -23005,6 +34423,12 @@
     "file": "assets/sprites/u_hexweaver_L19.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     134.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -23015,6 +34439,12 @@
     "file": "assets/sprites/u_hexweaver_L20.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     133.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -23025,6 +34455,12 @@
     "file": "assets/sprites/u_hexweaver_L21.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     133.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -23035,6 +34471,12 @@
     "file": "assets/sprites/u_hexweaver_L22.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23045,6 +34487,12 @@
     "file": "assets/sprites/u_hexweaver_L23.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23055,6 +34503,12 @@
     "file": "assets/sprites/u_hexweaver_L24.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     132.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23065,6 +34519,12 @@
     "file": "assets/sprites/u_hexweaver_L25.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     132.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23075,6 +34535,12 @@
     "file": "assets/sprites/u_hogback_L01.png",
     "footprint": 1.4,
     "h": 223,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     219.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -23085,6 +34551,12 @@
     "file": "assets/sprites/u_hogback_L02.png",
     "footprint": 1.4,
     "h": 224,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     220.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -23095,6 +34567,12 @@
     "file": "assets/sprites/u_hogback_L03.png",
     "footprint": 1.4,
     "h": 227,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     223.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -23105,6 +34583,12 @@
     "file": "assets/sprites/u_hogback_L04.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     197.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23115,6 +34599,12 @@
     "file": "assets/sprites/u_hogback_L05.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     197.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -23125,6 +34615,12 @@
     "file": "assets/sprites/u_hogback_L06.png",
     "footprint": 1.4,
     "h": 203,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     199.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -23135,6 +34631,12 @@
     "file": "assets/sprites/u_hogback_L07.png",
     "footprint": 1.4,
     "h": 205,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     201.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23145,6 +34647,12 @@
     "file": "assets/sprites/u_hogback_L08.png",
     "footprint": 1.4,
     "h": 208,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     204.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23155,6 +34663,12 @@
     "file": "assets/sprites/u_hogback_L09.png",
     "footprint": 1.4,
     "h": 209,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     205.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -23165,6 +34679,12 @@
     "file": "assets/sprites/u_hogback_L10.png",
     "footprint": 1.4,
     "h": 210,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     206.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -23175,6 +34695,12 @@
     "file": "assets/sprites/u_hogback_L11.png",
     "footprint": 1.4,
     "h": 211,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     207.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23185,6 +34711,12 @@
     "file": "assets/sprites/u_hogback_L12.png",
     "footprint": 1.4,
     "h": 206,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     202.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23195,6 +34727,12 @@
     "file": "assets/sprites/u_hogback_L13.png",
     "footprint": 1.4,
     "h": 210,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     206.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23205,6 +34743,12 @@
     "file": "assets/sprites/u_hogback_L14.png",
     "footprint": 1.4,
     "h": 212,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     208.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23215,6 +34759,12 @@
     "file": "assets/sprites/u_hogback_L15.png",
     "footprint": 1.4,
     "h": 212,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     208.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23225,6 +34775,12 @@
     "file": "assets/sprites/u_hogback_L16.png",
     "footprint": 1.4,
     "h": 213,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     209.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23235,6 +34791,12 @@
     "file": "assets/sprites/u_hogback_L17.png",
     "footprint": 1.4,
     "h": 215,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     211.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23245,6 +34807,12 @@
     "file": "assets/sprites/u_hogback_L18.png",
     "footprint": 1.4,
     "h": 225,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     221.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23255,6 +34823,12 @@
     "file": "assets/sprites/u_hogback_L19.png",
     "footprint": 1.4,
     "h": 225,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     221.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23265,6 +34839,12 @@
     "file": "assets/sprites/u_hogback_L20.png",
     "footprint": 1.4,
     "h": 227,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     223.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23275,6 +34855,12 @@
     "file": "assets/sprites/u_hogback_L21.png",
     "footprint": 1.4,
     "h": 229,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     225.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23285,6 +34871,12 @@
     "file": "assets/sprites/u_hogback_L22.png",
     "footprint": 1.4,
     "h": 229,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     225.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23295,6 +34887,12 @@
     "file": "assets/sprites/u_hogback_L23.png",
     "footprint": 1.4,
     "h": 232,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     228.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23305,6 +34903,12 @@
     "file": "assets/sprites/u_hogback_L24.png",
     "footprint": 1.4,
     "h": 232,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     228.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23315,6 +34919,12 @@
     "file": "assets/sprites/u_hogback_L25.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     230.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23325,6 +34935,12 @@
     "file": "assets/sprites/u_huntress_L01.png",
     "footprint": 1.4,
     "h": 224,
+    "ink": [
+     4.0,
+     4.0,
+     124.0,
+     220.0
+    ],
     "outlined": true,
     "w": 128
    },
@@ -23335,6 +34951,12 @@
     "file": "assets/sprites/u_huntress_L02.png",
     "footprint": 1.4,
     "h": 224,
+    "ink": [
+     4.0,
+     4.0,
+     124.0,
+     220.0
+    ],
     "outlined": true,
     "w": 128
    },
@@ -23345,6 +34967,12 @@
     "file": "assets/sprites/u_huntress_L03.png",
     "footprint": 1.4,
     "h": 224,
+    "ink": [
+     4.0,
+     4.0,
+     124.0,
+     220.0
+    ],
     "outlined": true,
     "w": 128
    },
@@ -23355,6 +34983,12 @@
     "file": "assets/sprites/u_huntress_L04.png",
     "footprint": 1.4,
     "h": 197,
+    "ink": [
+     4.0,
+     4.0,
+     115.0,
+     193.0
+    ],
     "outlined": true,
     "w": 119
    },
@@ -23365,6 +34999,12 @@
     "file": "assets/sprites/u_huntress_L05.png",
     "footprint": 1.4,
     "h": 197,
+    "ink": [
+     4.0,
+     4.0,
+     115.0,
+     193.0
+    ],
     "outlined": true,
     "w": 119
    },
@@ -23375,6 +35015,12 @@
     "file": "assets/sprites/u_huntress_L06.png",
     "footprint": 1.4,
     "h": 197,
+    "ink": [
+     4.0,
+     4.0,
+     115.0,
+     193.0
+    ],
     "outlined": true,
     "w": 119
    },
@@ -23385,6 +35031,12 @@
     "file": "assets/sprites/u_huntress_L07.png",
     "footprint": 1.4,
     "h": 197,
+    "ink": [
+     4.0,
+     4.0,
+     115.0,
+     193.0
+    ],
     "outlined": true,
     "w": 119
    },
@@ -23395,6 +35047,12 @@
     "file": "assets/sprites/u_huntress_L08.png",
     "footprint": 1.4,
     "h": 197,
+    "ink": [
+     4.0,
+     4.0,
+     115.0,
+     193.0
+    ],
     "outlined": true,
     "w": 119
    },
@@ -23405,6 +35063,12 @@
     "file": "assets/sprites/u_huntress_L09.png",
     "footprint": 1.4,
     "h": 197,
+    "ink": [
+     4.0,
+     4.0,
+     115.0,
+     193.0
+    ],
     "outlined": true,
     "w": 119
    },
@@ -23415,6 +35079,12 @@
     "file": "assets/sprites/u_huntress_L10.png",
     "footprint": 1.4,
     "h": 195,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     191.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23425,6 +35095,12 @@
     "file": "assets/sprites/u_huntress_L11.png",
     "footprint": 1.4,
     "h": 195,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     191.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23435,6 +35111,12 @@
     "file": "assets/sprites/u_huntress_L12.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     115.0,
+     185.0
+    ],
     "outlined": true,
     "w": 119
    },
@@ -23445,6 +35127,12 @@
     "file": "assets/sprites/u_huntress_L13.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     115.0,
+     185.0
+    ],
     "outlined": true,
     "w": 119
    },
@@ -23455,6 +35143,12 @@
     "file": "assets/sprites/u_huntress_L14.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     115.0,
+     185.0
+    ],
     "outlined": true,
     "w": 119
    },
@@ -23465,6 +35159,12 @@
     "file": "assets/sprites/u_huntress_L15.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     185.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23475,6 +35175,12 @@
     "file": "assets/sprites/u_huntress_L16.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     185.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23485,6 +35191,12 @@
     "file": "assets/sprites/u_huntress_L17.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     185.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23495,6 +35207,12 @@
     "file": "assets/sprites/u_huntress_L18.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     185.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23505,6 +35223,12 @@
     "file": "assets/sprites/u_huntress_L19.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     185.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23515,6 +35239,12 @@
     "file": "assets/sprites/u_huntress_L20.png",
     "footprint": 1.4,
     "h": 188,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     184.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23525,6 +35255,12 @@
     "file": "assets/sprites/u_huntress_L21.png",
     "footprint": 1.4,
     "h": 188,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     184.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23535,6 +35271,12 @@
     "file": "assets/sprites/u_huntress_L22.png",
     "footprint": 1.4,
     "h": 188,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     184.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23545,6 +35287,12 @@
     "file": "assets/sprites/u_huntress_L23.png",
     "footprint": 1.4,
     "h": 188,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     184.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23555,6 +35303,12 @@
     "file": "assets/sprites/u_huntress_L24.png",
     "footprint": 1.4,
     "h": 188,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     184.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23565,6 +35319,12 @@
     "file": "assets/sprites/u_huntress_L25.png",
     "footprint": 1.4,
     "h": 187,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     183.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23575,6 +35335,12 @@
     "file": "assets/sprites/u_ironclad_L01.png",
     "footprint": 1.4,
     "h": 231,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     227.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -23585,6 +35351,12 @@
     "file": "assets/sprites/u_ironclad_L02.png",
     "footprint": 1.4,
     "h": 233,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     229.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -23595,6 +35367,12 @@
     "file": "assets/sprites/u_ironclad_L03.png",
     "footprint": 1.4,
     "h": 236,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     232.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -23605,6 +35383,12 @@
     "file": "assets/sprites/u_ironclad_L04.png",
     "footprint": 1.4,
     "h": 209,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     205.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -23615,6 +35399,12 @@
     "file": "assets/sprites/u_ironclad_L05.png",
     "footprint": 1.4,
     "h": 200,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     196.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23625,6 +35415,12 @@
     "file": "assets/sprites/u_ironclad_L06.png",
     "footprint": 1.4,
     "h": 203,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     199.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23635,6 +35431,12 @@
     "file": "assets/sprites/u_ironclad_L07.png",
     "footprint": 1.4,
     "h": 204,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     200.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23645,6 +35447,12 @@
     "file": "assets/sprites/u_ironclad_L08.png",
     "footprint": 1.4,
     "h": 206,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     202.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23655,6 +35463,12 @@
     "file": "assets/sprites/u_ironclad_L09.png",
     "footprint": 1.4,
     "h": 209,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     205.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23665,6 +35479,12 @@
     "file": "assets/sprites/u_ironclad_L10.png",
     "footprint": 1.4,
     "h": 209,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     205.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23675,6 +35495,12 @@
     "file": "assets/sprites/u_ironclad_L11.png",
     "footprint": 1.4,
     "h": 211,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     207.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23685,6 +35511,12 @@
     "file": "assets/sprites/u_ironclad_L12.png",
     "footprint": 1.4,
     "h": 206,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     202.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23695,6 +35527,12 @@
     "file": "assets/sprites/u_ironclad_L13.png",
     "footprint": 1.4,
     "h": 208,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     204.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -23705,6 +35543,12 @@
     "file": "assets/sprites/u_ironclad_L14.png",
     "footprint": 1.4,
     "h": 210,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     206.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23715,6 +35559,12 @@
     "file": "assets/sprites/u_ironclad_L15.png",
     "footprint": 1.4,
     "h": 212,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     208.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23725,6 +35575,12 @@
     "file": "assets/sprites/u_ironclad_L16.png",
     "footprint": 1.4,
     "h": 213,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     209.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23735,6 +35591,12 @@
     "file": "assets/sprites/u_ironclad_L17.png",
     "footprint": 1.4,
     "h": 213,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     209.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -23745,6 +35607,12 @@
     "file": "assets/sprites/u_ironclad_L18.png",
     "footprint": 1.4,
     "h": 223,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     219.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23755,6 +35623,12 @@
     "file": "assets/sprites/u_ironclad_L19.png",
     "footprint": 1.4,
     "h": 224,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     220.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -23765,6 +35639,12 @@
     "file": "assets/sprites/u_ironclad_L20.png",
     "footprint": 1.4,
     "h": 225,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     221.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23775,6 +35655,12 @@
     "file": "assets/sprites/u_ironclad_L21.png",
     "footprint": 1.4,
     "h": 227,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     223.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23785,6 +35671,12 @@
     "file": "assets/sprites/u_ironclad_L22.png",
     "footprint": 1.4,
     "h": 227,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     223.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -23795,6 +35687,12 @@
     "file": "assets/sprites/u_ironclad_L23.png",
     "footprint": 1.4,
     "h": 231,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     227.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23805,6 +35703,12 @@
     "file": "assets/sprites/u_ironclad_L24.png",
     "footprint": 1.4,
     "h": 231,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     227.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -23815,6 +35719,12 @@
     "file": "assets/sprites/u_ironclad_L25.png",
     "footprint": 1.4,
     "h": 233,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     229.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -23825,6 +35735,12 @@
     "file": "assets/sprites/u_kiterider_L01.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -23835,6 +35751,12 @@
     "file": "assets/sprites/u_kiterider_L02.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -23845,6 +35767,12 @@
     "file": "assets/sprites/u_kiterider_L03.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -23855,6 +35783,12 @@
     "file": "assets/sprites/u_kiterider_L04.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -23865,6 +35799,12 @@
     "file": "assets/sprites/u_kiterider_L05.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23875,6 +35815,12 @@
     "file": "assets/sprites/u_kiterider_L06.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23885,6 +35831,12 @@
     "file": "assets/sprites/u_kiterider_L07.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23895,6 +35847,12 @@
     "file": "assets/sprites/u_kiterider_L08.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23905,6 +35863,12 @@
     "file": "assets/sprites/u_kiterider_L09.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23915,6 +35879,12 @@
     "file": "assets/sprites/u_kiterider_L10.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23925,6 +35895,12 @@
     "file": "assets/sprites/u_kiterider_L11.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23935,6 +35911,12 @@
     "file": "assets/sprites/u_kiterider_L12.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23945,6 +35927,12 @@
     "file": "assets/sprites/u_kiterider_L13.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23955,6 +35943,12 @@
     "file": "assets/sprites/u_kiterider_L14.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23965,6 +35959,12 @@
     "file": "assets/sprites/u_kiterider_L15.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23975,6 +35975,12 @@
     "file": "assets/sprites/u_kiterider_L16.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23985,6 +35991,12 @@
     "file": "assets/sprites/u_kiterider_L17.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -23995,6 +36007,12 @@
     "file": "assets/sprites/u_kiterider_L18.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24005,6 +36023,12 @@
     "file": "assets/sprites/u_kiterider_L19.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24015,6 +36039,12 @@
     "file": "assets/sprites/u_kiterider_L20.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24025,6 +36055,12 @@
     "file": "assets/sprites/u_kiterider_L21.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24035,6 +36071,12 @@
     "file": "assets/sprites/u_kiterider_L22.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24045,6 +36087,12 @@
     "file": "assets/sprites/u_kiterider_L23.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -24055,6 +36103,12 @@
     "file": "assets/sprites/u_kiterider_L24.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -24065,6 +36119,12 @@
     "file": "assets/sprites/u_kiterider_L25.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -24075,6 +36135,12 @@
     "file": "assets/sprites/u_logroller_L01.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -24085,6 +36151,12 @@
     "file": "assets/sprites/u_logroller_L05.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -24095,6 +36167,12 @@
     "file": "assets/sprites/u_logroller_L09.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -24105,6 +36183,12 @@
     "file": "assets/sprites/u_logroller_L13.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -24115,6 +36199,12 @@
     "file": "assets/sprites/u_logroller_L17.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -24125,6 +36215,12 @@
     "file": "assets/sprites/u_logroller_L21.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -24135,6 +36231,12 @@
     "file": "assets/sprites/u_logroller_L25.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -24145,6 +36247,12 @@
     "file": "assets/sprites/u_mage_L01.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -24155,6 +36263,12 @@
     "file": "assets/sprites/u_mage_L02.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -24165,6 +36279,12 @@
     "file": "assets/sprites/u_mage_L03.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -24175,6 +36295,12 @@
     "file": "assets/sprites/u_mage_L04.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -24185,6 +36311,12 @@
     "file": "assets/sprites/u_mage_L05.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -24195,6 +36327,12 @@
     "file": "assets/sprites/u_mage_L06.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -24205,6 +36343,12 @@
     "file": "assets/sprites/u_mage_L07.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -24215,6 +36359,12 @@
     "file": "assets/sprites/u_mage_L08.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -24225,6 +36375,12 @@
     "file": "assets/sprites/u_mage_L09.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -24235,6 +36391,12 @@
     "file": "assets/sprites/u_mage_L10.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24245,6 +36407,12 @@
     "file": "assets/sprites/u_mage_L11.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24255,6 +36423,12 @@
     "file": "assets/sprites/u_mage_L12.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24265,6 +36439,12 @@
     "file": "assets/sprites/u_mage_L13.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24275,6 +36455,12 @@
     "file": "assets/sprites/u_mage_L14.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24285,6 +36471,12 @@
     "file": "assets/sprites/u_mage_L15.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24295,6 +36487,12 @@
     "file": "assets/sprites/u_mage_L16.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24305,6 +36503,12 @@
     "file": "assets/sprites/u_mage_L17.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24315,6 +36519,12 @@
     "file": "assets/sprites/u_mage_L18.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24325,6 +36535,12 @@
     "file": "assets/sprites/u_mage_L19.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24335,6 +36551,12 @@
     "file": "assets/sprites/u_mage_L20.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24345,6 +36567,12 @@
     "file": "assets/sprites/u_mage_L21.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24355,6 +36583,12 @@
     "file": "assets/sprites/u_mage_L22.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24365,6 +36599,12 @@
     "file": "assets/sprites/u_mage_L23.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24375,6 +36615,12 @@
     "file": "assets/sprites/u_mage_L24.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24385,6 +36631,12 @@
     "file": "assets/sprites/u_mage_L25.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24395,6 +36647,12 @@
     "file": "assets/sprites/u_marauder_L01.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     176.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -24405,6 +36663,12 @@
     "file": "assets/sprites/u_marauder_L02.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     175.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -24415,6 +36679,12 @@
     "file": "assets/sprites/u_marauder_L03.png",
     "footprint": 1.4,
     "h": 191,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     187.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -24425,6 +36695,12 @@
     "file": "assets/sprites/u_marauder_L04.png",
     "footprint": 1.4,
     "h": 169,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     165.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -24435,6 +36711,12 @@
     "file": "assets/sprites/u_marauder_L05.png",
     "footprint": 1.4,
     "h": 168,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     164.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -24445,6 +36727,12 @@
     "file": "assets/sprites/u_marauder_L06.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     163.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -24455,6 +36743,12 @@
     "file": "assets/sprites/u_marauder_L07.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     170.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -24465,6 +36759,12 @@
     "file": "assets/sprites/u_marauder_L08.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     170.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -24475,6 +36775,12 @@
     "file": "assets/sprites/u_marauder_L09.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     170.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -24485,6 +36791,12 @@
     "file": "assets/sprites/u_marauder_L10.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     169.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -24495,6 +36807,12 @@
     "file": "assets/sprites/u_marauder_L11.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     169.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -24505,6 +36823,12 @@
     "file": "assets/sprites/u_marauder_L12.png",
     "footprint": 1.4,
     "h": 168,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     164.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -24515,6 +36839,12 @@
     "file": "assets/sprites/u_marauder_L13.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     171.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -24525,6 +36855,12 @@
     "file": "assets/sprites/u_marauder_L14.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     171.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -24535,6 +36871,12 @@
     "file": "assets/sprites/u_marauder_L15.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     170.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -24545,6 +36887,12 @@
     "file": "assets/sprites/u_marauder_L16.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     170.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -24555,6 +36903,12 @@
     "file": "assets/sprites/u_marauder_L17.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     169.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -24565,6 +36919,12 @@
     "file": "assets/sprites/u_marauder_L18.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     169.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -24575,6 +36935,12 @@
     "file": "assets/sprites/u_marauder_L19.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     169.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -24585,6 +36951,12 @@
     "file": "assets/sprites/u_marauder_L20.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     176.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -24595,6 +36967,12 @@
     "file": "assets/sprites/u_marauder_L21.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     176.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -24605,6 +36983,12 @@
     "file": "assets/sprites/u_marauder_L22.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     175.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -24615,6 +36999,12 @@
     "file": "assets/sprites/u_marauder_L23.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     176.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -24625,6 +37015,12 @@
     "file": "assets/sprites/u_marauder_L24.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     175.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -24635,6 +37031,12 @@
     "file": "assets/sprites/u_marauder_L25.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     175.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -24645,6 +37047,12 @@
     "file": "assets/sprites/u_mender_L01.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -24655,6 +37063,12 @@
     "file": "assets/sprites/u_mender_L02.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -24665,6 +37079,12 @@
     "file": "assets/sprites/u_mender_L03.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -24675,6 +37095,12 @@
     "file": "assets/sprites/u_mender_L04.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -24685,6 +37111,12 @@
     "file": "assets/sprites/u_mender_L05.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24695,6 +37127,12 @@
     "file": "assets/sprites/u_mender_L06.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24705,6 +37143,12 @@
     "file": "assets/sprites/u_mender_L07.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24715,6 +37159,12 @@
     "file": "assets/sprites/u_mender_L08.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24725,6 +37175,12 @@
     "file": "assets/sprites/u_mender_L09.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24735,6 +37191,12 @@
     "file": "assets/sprites/u_mender_L10.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24745,6 +37207,12 @@
     "file": "assets/sprites/u_mender_L11.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24755,6 +37223,12 @@
     "file": "assets/sprites/u_mender_L12.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24765,6 +37239,12 @@
     "file": "assets/sprites/u_mender_L13.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24775,6 +37255,12 @@
     "file": "assets/sprites/u_mender_L14.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24785,6 +37271,12 @@
     "file": "assets/sprites/u_mender_L15.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24795,6 +37287,12 @@
     "file": "assets/sprites/u_mender_L16.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24805,6 +37303,12 @@
     "file": "assets/sprites/u_mender_L17.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24815,6 +37319,12 @@
     "file": "assets/sprites/u_mender_L18.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24825,6 +37335,12 @@
     "file": "assets/sprites/u_mender_L19.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24835,6 +37351,12 @@
     "file": "assets/sprites/u_mender_L20.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24845,6 +37367,12 @@
     "file": "assets/sprites/u_mender_L21.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24855,6 +37383,12 @@
     "file": "assets/sprites/u_mender_L22.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -24865,6 +37399,12 @@
     "file": "assets/sprites/u_mender_L23.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -24875,6 +37415,12 @@
     "file": "assets/sprites/u_mender_L24.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -24885,6 +37431,12 @@
     "file": "assets/sprites/u_mender_L25.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -24895,6 +37447,12 @@
     "file": "assets/sprites/u_nightstalker_L01.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     179.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24905,6 +37463,12 @@
     "file": "assets/sprites/u_nightstalker_L02.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     179.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24915,6 +37479,12 @@
     "file": "assets/sprites/u_nightstalker_L03.png",
     "footprint": 1.4,
     "h": 196,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     192.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -24925,6 +37495,12 @@
     "file": "assets/sprites/u_nightstalker_L04.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     167.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -24935,6 +37511,12 @@
     "file": "assets/sprites/u_nightstalker_L05.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     167.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -24945,6 +37527,12 @@
     "file": "assets/sprites/u_nightstalker_L06.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     167.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -24955,6 +37543,12 @@
     "file": "assets/sprites/u_nightstalker_L07.png",
     "footprint": 1.4,
     "h": 178,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     174.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -24965,6 +37559,12 @@
     "file": "assets/sprites/u_nightstalker_L08.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     173.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -24975,6 +37575,12 @@
     "file": "assets/sprites/u_nightstalker_L09.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     173.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -24985,6 +37591,12 @@
     "file": "assets/sprites/u_nightstalker_L10.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     173.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -24995,6 +37607,12 @@
     "file": "assets/sprites/u_nightstalker_L11.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     173.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -25005,6 +37623,12 @@
     "file": "assets/sprites/u_nightstalker_L12.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     168.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -25015,6 +37639,12 @@
     "file": "assets/sprites/u_nightstalker_L13.png",
     "footprint": 1.4,
     "h": 178,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     174.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -25025,6 +37655,12 @@
     "file": "assets/sprites/u_nightstalker_L14.png",
     "footprint": 1.4,
     "h": 178,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     174.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -25035,6 +37671,12 @@
     "file": "assets/sprites/u_nightstalker_L15.png",
     "footprint": 1.4,
     "h": 178,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     174.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -25045,6 +37687,12 @@
     "file": "assets/sprites/u_nightstalker_L16.png",
     "footprint": 1.4,
     "h": 178,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     174.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -25055,6 +37703,12 @@
     "file": "assets/sprites/u_nightstalker_L17.png",
     "footprint": 1.4,
     "h": 178,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     174.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -25065,6 +37719,12 @@
     "file": "assets/sprites/u_nightstalker_L18.png",
     "footprint": 1.4,
     "h": 178,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     174.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -25075,6 +37735,12 @@
     "file": "assets/sprites/u_nightstalker_L19.png",
     "footprint": 1.4,
     "h": 178,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     174.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -25085,6 +37751,12 @@
     "file": "assets/sprites/u_nightstalker_L20.png",
     "footprint": 1.4,
     "h": 185,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     181.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -25095,6 +37767,12 @@
     "file": "assets/sprites/u_nightstalker_L21.png",
     "footprint": 1.4,
     "h": 185,
+    "ink": [
+     4.0,
+     4.0,
+     113.0,
+     181.0
+    ],
     "outlined": true,
     "w": 117
    },
@@ -25105,6 +37783,12 @@
     "file": "assets/sprites/u_nightstalker_L22.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     179.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25115,6 +37799,12 @@
     "file": "assets/sprites/u_nightstalker_L23.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     179.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25125,6 +37815,12 @@
     "file": "assets/sprites/u_nightstalker_L24.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     179.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25135,6 +37831,12 @@
     "file": "assets/sprites/u_nightstalker_L25.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     179.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25145,6 +37847,12 @@
     "file": "assets/sprites/u_oracle_L01.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -25155,6 +37863,12 @@
     "file": "assets/sprites/u_oracle_L02.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -25165,6 +37879,12 @@
     "file": "assets/sprites/u_oracle_L03.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -25175,6 +37895,12 @@
     "file": "assets/sprites/u_oracle_L04.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -25185,6 +37911,12 @@
     "file": "assets/sprites/u_oracle_L05.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -25195,6 +37927,12 @@
     "file": "assets/sprites/u_oracle_L06.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -25205,6 +37943,12 @@
     "file": "assets/sprites/u_oracle_L07.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -25215,6 +37959,12 @@
     "file": "assets/sprites/u_oracle_L08.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -25225,6 +37975,12 @@
     "file": "assets/sprites/u_oracle_L09.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -25235,6 +37991,12 @@
     "file": "assets/sprites/u_oracle_L10.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25245,6 +38007,12 @@
     "file": "assets/sprites/u_oracle_L11.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25255,6 +38023,12 @@
     "file": "assets/sprites/u_oracle_L12.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25265,6 +38039,12 @@
     "file": "assets/sprites/u_oracle_L13.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25275,6 +38055,12 @@
     "file": "assets/sprites/u_oracle_L14.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25285,6 +38071,12 @@
     "file": "assets/sprites/u_oracle_L15.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25295,6 +38087,12 @@
     "file": "assets/sprites/u_oracle_L16.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25305,6 +38103,12 @@
     "file": "assets/sprites/u_oracle_L17.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25315,6 +38119,12 @@
     "file": "assets/sprites/u_oracle_L18.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25325,6 +38135,12 @@
     "file": "assets/sprites/u_oracle_L19.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25335,6 +38151,12 @@
     "file": "assets/sprites/u_oracle_L20.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25345,6 +38167,12 @@
     "file": "assets/sprites/u_oracle_L21.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25355,6 +38183,12 @@
     "file": "assets/sprites/u_oracle_L22.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25365,6 +38199,12 @@
     "file": "assets/sprites/u_oracle_L23.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25375,6 +38215,12 @@
     "file": "assets/sprites/u_oracle_L24.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25385,6 +38231,12 @@
     "file": "assets/sprites/u_oracle_L25.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -25395,6 +38247,12 @@
     "file": "assets/sprites/u_prismknight_L01.png",
     "footprint": 1.4,
     "h": 163,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     159.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -25405,6 +38263,12 @@
     "file": "assets/sprites/u_prismknight_L02.png",
     "footprint": 1.4,
     "h": 164,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     160.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -25415,6 +38279,12 @@
     "file": "assets/sprites/u_prismknight_L03.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     162.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -25425,6 +38295,12 @@
     "file": "assets/sprites/u_prismknight_L04.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     162.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -25435,6 +38311,12 @@
     "file": "assets/sprites/u_prismknight_L05.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     162.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25445,6 +38327,12 @@
     "file": "assets/sprites/u_prismknight_L06.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     163.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -25455,6 +38343,12 @@
     "file": "assets/sprites/u_prismknight_L07.png",
     "footprint": 1.4,
     "h": 169,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     165.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25465,6 +38359,12 @@
     "file": "assets/sprites/u_prismknight_L08.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     167.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25475,6 +38375,12 @@
     "file": "assets/sprites/u_prismknight_L09.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     167.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25485,6 +38391,12 @@
     "file": "assets/sprites/u_prismknight_L10.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     169.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25495,6 +38407,12 @@
     "file": "assets/sprites/u_prismknight_L11.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     169.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25505,6 +38423,12 @@
     "file": "assets/sprites/u_prismknight_L12.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     171.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25515,6 +38439,12 @@
     "file": "assets/sprites/u_prismknight_L13.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     173.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -25525,6 +38455,12 @@
     "file": "assets/sprites/u_prismknight_L14.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     175.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25535,6 +38471,12 @@
     "file": "assets/sprites/u_prismknight_L15.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     175.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -25545,6 +38487,12 @@
     "file": "assets/sprites/u_prismknight_L16.png",
     "footprint": 1.4,
     "h": 181,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     177.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25555,6 +38503,12 @@
     "file": "assets/sprites/u_prismknight_L17.png",
     "footprint": 1.4,
     "h": 182,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     178.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25565,6 +38519,12 @@
     "file": "assets/sprites/u_prismknight_L18.png",
     "footprint": 1.4,
     "h": 190,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     186.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -25575,6 +38535,12 @@
     "file": "assets/sprites/u_prismknight_L19.png",
     "footprint": 1.4,
     "h": 190,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     186.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25585,6 +38551,12 @@
     "file": "assets/sprites/u_prismknight_L20.png",
     "footprint": 1.4,
     "h": 192,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     188.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25595,6 +38567,12 @@
     "file": "assets/sprites/u_prismknight_L21.png",
     "footprint": 1.4,
     "h": 192,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     188.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25605,6 +38583,12 @@
     "file": "assets/sprites/u_prismknight_L22.png",
     "footprint": 1.4,
     "h": 194,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     190.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25615,6 +38599,12 @@
     "file": "assets/sprites/u_prismknight_L23.png",
     "footprint": 1.4,
     "h": 196,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     192.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25625,6 +38615,12 @@
     "file": "assets/sprites/u_prismknight_L24.png",
     "footprint": 1.4,
     "h": 196,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     192.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -25635,6 +38631,12 @@
     "file": "assets/sprites/u_prismknight_L25.png",
     "footprint": 1.4,
     "h": 198,
+    "ink": [
+     4.0,
+     4.0,
+     109.0,
+     194.0
+    ],
     "outlined": true,
     "w": 113
    },
@@ -25645,6 +38647,12 @@
     "file": "assets/sprites/u_ravager_L01.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     86.0,
+     124.0
+    ],
     "outlined": true,
     "w": 90
    },
@@ -25655,6 +38663,12 @@
     "file": "assets/sprites/u_ravager_L02.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     86.0,
+     124.0
+    ],
     "outlined": true,
     "w": 90
    },
@@ -25665,6 +38679,12 @@
     "file": "assets/sprites/u_ravager_L03.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     86.0,
+     133.0
+    ],
     "outlined": true,
     "w": 90
    },
@@ -25675,6 +38695,12 @@
     "file": "assets/sprites/u_ravager_L04.png",
     "footprint": 1.4,
     "h": 126,
+    "ink": [
+     4.0,
+     4.0,
+     84.0,
+     122.0
+    ],
     "outlined": true,
     "w": 88
    },
@@ -25685,6 +38711,12 @@
     "file": "assets/sprites/u_ravager_L05.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     84.0,
+     121.0
+    ],
     "outlined": true,
     "w": 88
    },
@@ -25695,6 +38727,12 @@
     "file": "assets/sprites/u_ravager_L06.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     84.0,
+     121.0
+    ],
     "outlined": true,
     "w": 88
    },
@@ -25705,6 +38743,12 @@
     "file": "assets/sprites/u_ravager_L07.png",
     "footprint": 1.4,
     "h": 159,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     155.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -25715,6 +38759,12 @@
     "file": "assets/sprites/u_ravager_L08.png",
     "footprint": 1.4,
     "h": 158,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     154.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -25725,6 +38775,12 @@
     "file": "assets/sprites/u_ravager_L09.png",
     "footprint": 1.4,
     "h": 157,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     153.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -25735,6 +38791,12 @@
     "file": "assets/sprites/u_ravager_L10.png",
     "footprint": 1.4,
     "h": 157,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     153.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -25745,6 +38807,12 @@
     "file": "assets/sprites/u_ravager_L11.png",
     "footprint": 1.4,
     "h": 156,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     152.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -25755,6 +38823,12 @@
     "file": "assets/sprites/u_ravager_L12.png",
     "footprint": 1.4,
     "h": 152,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     148.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -25765,6 +38839,12 @@
     "file": "assets/sprites/u_ravager_L13.png",
     "footprint": 1.4,
     "h": 158,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     154.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -25775,6 +38855,12 @@
     "file": "assets/sprites/u_ravager_L14.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -25785,6 +38871,12 @@
     "file": "assets/sprites/u_ravager_L15.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -25795,6 +38887,12 @@
     "file": "assets/sprites/u_ravager_L16.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -25805,6 +38903,12 @@
     "file": "assets/sprites/u_ravager_L17.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     163.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -25815,6 +38919,12 @@
     "file": "assets/sprites/u_ravager_L18.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -25825,6 +38935,12 @@
     "file": "assets/sprites/u_ravager_L19.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -25835,6 +38951,12 @@
     "file": "assets/sprites/u_ravager_L20.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     168.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -25845,6 +38967,12 @@
     "file": "assets/sprites/u_ravager_L21.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     169.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -25855,6 +38983,12 @@
     "file": "assets/sprites/u_ravager_L22.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     168.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -25865,6 +38999,12 @@
     "file": "assets/sprites/u_ravager_L23.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     167.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -25875,6 +39015,12 @@
     "file": "assets/sprites/u_ravager_L24.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     167.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -25885,6 +39031,12 @@
     "file": "assets/sprites/u_ravager_L25.png",
     "footprint": 1.4,
     "h": 171,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     167.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -25895,6 +39047,12 @@
     "file": "assets/sprites/u_ripper_L01.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     176.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -25905,6 +39063,12 @@
     "file": "assets/sprites/u_ripper_L02.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     175.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -25915,6 +39079,12 @@
     "file": "assets/sprites/u_ripper_L03.png",
     "footprint": 1.4,
     "h": 191,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     187.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -25925,6 +39095,12 @@
     "file": "assets/sprites/u_ripper_L04.png",
     "footprint": 1.4,
     "h": 169,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     165.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25935,6 +39111,12 @@
     "file": "assets/sprites/u_ripper_L05.png",
     "footprint": 1.4,
     "h": 168,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     164.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25945,6 +39127,12 @@
     "file": "assets/sprites/u_ripper_L06.png",
     "footprint": 1.4,
     "h": 167,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     163.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25955,6 +39143,12 @@
     "file": "assets/sprites/u_ripper_L07.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     170.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25965,6 +39159,12 @@
     "file": "assets/sprites/u_ripper_L08.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     170.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25975,6 +39175,12 @@
     "file": "assets/sprites/u_ripper_L09.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     170.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25985,6 +39191,12 @@
     "file": "assets/sprites/u_ripper_L10.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     169.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -25995,6 +39207,12 @@
     "file": "assets/sprites/u_ripper_L11.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     169.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -26005,6 +39223,12 @@
     "file": "assets/sprites/u_ripper_L12.png",
     "footprint": 1.4,
     "h": 168,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     164.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -26015,6 +39239,12 @@
     "file": "assets/sprites/u_ripper_L13.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     171.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -26025,6 +39255,12 @@
     "file": "assets/sprites/u_ripper_L14.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     171.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -26035,6 +39271,12 @@
     "file": "assets/sprites/u_ripper_L15.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     170.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -26045,6 +39287,12 @@
     "file": "assets/sprites/u_ripper_L16.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     170.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -26055,6 +39303,12 @@
     "file": "assets/sprites/u_ripper_L17.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     169.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -26065,6 +39319,12 @@
     "file": "assets/sprites/u_ripper_L18.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     169.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -26075,6 +39335,12 @@
     "file": "assets/sprites/u_ripper_L19.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     169.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -26085,6 +39351,12 @@
     "file": "assets/sprites/u_ripper_L20.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     176.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -26095,6 +39367,12 @@
     "file": "assets/sprites/u_ripper_L21.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     111.0,
+     176.0
+    ],
     "outlined": true,
     "w": 115
    },
@@ -26105,6 +39383,12 @@
     "file": "assets/sprites/u_ripper_L22.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     175.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -26115,6 +39399,12 @@
     "file": "assets/sprites/u_ripper_L23.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     176.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -26125,6 +39415,12 @@
     "file": "assets/sprites/u_ripper_L24.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     175.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -26135,6 +39431,12 @@
     "file": "assets/sprites/u_ripper_L25.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     110.0,
+     175.0
+    ],
     "outlined": true,
     "w": 114
    },
@@ -26145,6 +39447,12 @@
     "file": "assets/sprites/u_sapper_L01.png",
     "footprint": 1.4,
     "h": 170,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     166.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -26155,6 +39463,12 @@
     "file": "assets/sprites/u_sapper_L02.png",
     "footprint": 1.4,
     "h": 170,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     166.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -26165,6 +39479,12 @@
     "file": "assets/sprites/u_sapper_L03.png",
     "footprint": 1.4,
     "h": 181,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     177.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -26175,6 +39495,12 @@
     "file": "assets/sprites/u_sapper_L04.png",
     "footprint": 1.4,
     "h": 160,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     156.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -26185,6 +39511,12 @@
     "file": "assets/sprites/u_sapper_L05.png",
     "footprint": 1.4,
     "h": 160,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     156.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -26195,6 +39527,12 @@
     "file": "assets/sprites/u_sapper_L06.png",
     "footprint": 1.4,
     "h": 160,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     156.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -26205,6 +39543,12 @@
     "file": "assets/sprites/u_sapper_L07.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -26215,6 +39559,12 @@
     "file": "assets/sprites/u_sapper_L08.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -26225,6 +39575,12 @@
     "file": "assets/sprites/u_sapper_L09.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -26235,6 +39591,12 @@
     "file": "assets/sprites/u_sapper_L10.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -26245,6 +39607,12 @@
     "file": "assets/sprites/u_sapper_L11.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -26255,6 +39623,12 @@
     "file": "assets/sprites/u_sapper_L12.png",
     "footprint": 1.4,
     "h": 160,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     156.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -26265,6 +39639,12 @@
     "file": "assets/sprites/u_sapper_L13.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -26275,6 +39655,12 @@
     "file": "assets/sprites/u_sapper_L14.png",
     "footprint": 1.4,
     "h": 166,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     162.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -26285,6 +39671,12 @@
     "file": "assets/sprites/u_sapper_L15.png",
     "footprint": 1.4,
     "h": 165,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     161.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -26295,6 +39687,12 @@
     "file": "assets/sprites/u_sapper_L16.png",
     "footprint": 1.4,
     "h": 165,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     161.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -26305,6 +39703,12 @@
     "file": "assets/sprites/u_sapper_L17.png",
     "footprint": 1.4,
     "h": 165,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     161.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -26315,6 +39719,12 @@
     "file": "assets/sprites/u_sapper_L18.png",
     "footprint": 1.4,
     "h": 164,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     160.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -26325,6 +39735,12 @@
     "file": "assets/sprites/u_sapper_L19.png",
     "footprint": 1.4,
     "h": 164,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     160.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -26335,6 +39751,12 @@
     "file": "assets/sprites/u_sapper_L20.png",
     "footprint": 1.4,
     "h": 170,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     166.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -26345,6 +39767,12 @@
     "file": "assets/sprites/u_sapper_L21.png",
     "footprint": 1.4,
     "h": 170,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     166.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -26355,6 +39783,12 @@
     "file": "assets/sprites/u_sapper_L22.png",
     "footprint": 1.4,
     "h": 170,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     166.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -26365,6 +39799,12 @@
     "file": "assets/sprites/u_sapper_L23.png",
     "footprint": 1.4,
     "h": 169,
+    "ink": [
+     4.0,
+     4.0,
+     104.0,
+     165.0
+    ],
     "outlined": true,
     "w": 108
    },
@@ -26375,6 +39815,12 @@
     "file": "assets/sprites/u_sapper_L24.png",
     "footprint": 1.4,
     "h": 169,
+    "ink": [
+     4.0,
+     4.0,
+     104.0,
+     165.0
+    ],
     "outlined": true,
     "w": 108
    },
@@ -26385,6 +39831,12 @@
     "file": "assets/sprites/u_sapper_L25.png",
     "footprint": 1.4,
     "h": 169,
+    "ink": [
+     4.0,
+     4.0,
+     104.0,
+     165.0
+    ],
     "outlined": true,
     "w": 108
    },
@@ -26395,6 +39847,12 @@
     "file": "assets/sprites/u_seer_L01.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26405,6 +39863,12 @@
     "file": "assets/sprites/u_seer_L02.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26415,6 +39879,12 @@
     "file": "assets/sprites/u_seer_L03.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26425,6 +39895,12 @@
     "file": "assets/sprites/u_seer_L04.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26435,6 +39911,12 @@
     "file": "assets/sprites/u_seer_L05.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26445,6 +39927,12 @@
     "file": "assets/sprites/u_seer_L06.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26455,6 +39943,12 @@
     "file": "assets/sprites/u_seer_L07.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26465,6 +39959,12 @@
     "file": "assets/sprites/u_seer_L08.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26475,6 +39975,12 @@
     "file": "assets/sprites/u_seer_L09.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26485,6 +39991,12 @@
     "file": "assets/sprites/u_seer_L10.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26495,6 +40007,12 @@
     "file": "assets/sprites/u_seer_L11.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26505,6 +40023,12 @@
     "file": "assets/sprites/u_seer_L12.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26515,6 +40039,12 @@
     "file": "assets/sprites/u_seer_L13.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26525,6 +40055,12 @@
     "file": "assets/sprites/u_seer_L14.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26535,6 +40071,12 @@
     "file": "assets/sprites/u_seer_L15.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26545,6 +40087,12 @@
     "file": "assets/sprites/u_seer_L16.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26555,6 +40103,12 @@
     "file": "assets/sprites/u_seer_L17.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26565,6 +40119,12 @@
     "file": "assets/sprites/u_seer_L18.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26575,6 +40135,12 @@
     "file": "assets/sprites/u_seer_L19.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26585,6 +40151,12 @@
     "file": "assets/sprites/u_seer_L20.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26595,6 +40167,12 @@
     "file": "assets/sprites/u_seer_L21.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26605,6 +40183,12 @@
     "file": "assets/sprites/u_seer_L22.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26615,6 +40199,12 @@
     "file": "assets/sprites/u_seer_L23.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26625,6 +40215,12 @@
     "file": "assets/sprites/u_seer_L24.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26635,6 +40231,12 @@
     "file": "assets/sprites/u_seer_L25.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -26645,6 +40247,12 @@
     "file": "assets/sprites/u_siegebeetle_L01.png",
     "footprint": 1.4,
     "h": 195,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     191.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26655,6 +40263,12 @@
     "file": "assets/sprites/u_siegebeetle_L02.png",
     "footprint": 1.4,
     "h": 195,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     191.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -26665,6 +40279,12 @@
     "file": "assets/sprites/u_siegebeetle_L03.png",
     "footprint": 1.4,
     "h": 178,
+    "ink": [
+     4.0,
+     4.0,
+     112.0,
+     174.0
+    ],
     "outlined": true,
     "w": 116
    },
@@ -26675,6 +40295,12 @@
     "file": "assets/sprites/u_siegebeetle_L04.png",
     "footprint": 1.4,
     "h": 181,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     177.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26685,6 +40311,12 @@
     "file": "assets/sprites/u_siegebeetle_L05.png",
     "footprint": 1.4,
     "h": 181,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     177.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26695,6 +40327,12 @@
     "file": "assets/sprites/u_siegebeetle_L06.png",
     "footprint": 1.4,
     "h": 181,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     177.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26705,6 +40343,12 @@
     "file": "assets/sprites/u_siegebeetle_L07.png",
     "footprint": 1.4,
     "h": 188,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     184.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26715,6 +40359,12 @@
     "file": "assets/sprites/u_siegebeetle_L08.png",
     "footprint": 1.4,
     "h": 188,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     184.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26725,6 +40375,12 @@
     "file": "assets/sprites/u_siegebeetle_L09.png",
     "footprint": 1.4,
     "h": 188,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     184.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26735,6 +40391,12 @@
     "file": "assets/sprites/u_siegebeetle_L10.png",
     "footprint": 1.4,
     "h": 188,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     184.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26745,6 +40407,12 @@
     "file": "assets/sprites/u_siegebeetle_L11.png",
     "footprint": 1.4,
     "h": 188,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     184.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26755,6 +40423,12 @@
     "file": "assets/sprites/u_siegebeetle_L12.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     121.0,
+     179.0
+    ],
     "outlined": true,
     "w": 125
    },
@@ -26765,6 +40439,12 @@
     "file": "assets/sprites/u_siegebeetle_L13.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     185.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26775,6 +40455,12 @@
     "file": "assets/sprites/u_siegebeetle_L14.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     185.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26785,6 +40471,12 @@
     "file": "assets/sprites/u_siegebeetle_L15.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     185.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26795,6 +40487,12 @@
     "file": "assets/sprites/u_siegebeetle_L16.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     185.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26805,6 +40503,12 @@
     "file": "assets/sprites/u_siegebeetle_L17.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     185.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26815,6 +40519,12 @@
     "file": "assets/sprites/u_siegebeetle_L18.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     185.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26825,6 +40535,12 @@
     "file": "assets/sprites/u_siegebeetle_L19.png",
     "footprint": 1.4,
     "h": 189,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     185.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26835,6 +40551,12 @@
     "file": "assets/sprites/u_siegebeetle_L20.png",
     "footprint": 1.4,
     "h": 196,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     192.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26845,6 +40567,12 @@
     "file": "assets/sprites/u_siegebeetle_L21.png",
     "footprint": 1.4,
     "h": 196,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     192.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26855,6 +40583,12 @@
     "file": "assets/sprites/u_siegebeetle_L22.png",
     "footprint": 1.4,
     "h": 196,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     192.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26865,6 +40599,12 @@
     "file": "assets/sprites/u_siegebeetle_L23.png",
     "footprint": 1.4,
     "h": 196,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     192.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26875,6 +40615,12 @@
     "file": "assets/sprites/u_siegebeetle_L24.png",
     "footprint": 1.4,
     "h": 196,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     192.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26885,6 +40631,12 @@
     "file": "assets/sprites/u_siegebeetle_L25.png",
     "footprint": 1.4,
     "h": 196,
+    "ink": [
+     4.0,
+     4.0,
+     120.0,
+     192.0
+    ],
     "outlined": true,
     "w": 124
    },
@@ -26895,6 +40647,12 @@
     "file": "assets/sprites/u_skyanchor_L01.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -26905,6 +40663,12 @@
     "file": "assets/sprites/u_skyanchor_L05.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -26915,6 +40679,12 @@
     "file": "assets/sprites/u_skyanchor_L09.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -26925,6 +40695,12 @@
     "file": "assets/sprites/u_skyanchor_L13.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -26935,6 +40711,12 @@
     "file": "assets/sprites/u_skyanchor_L17.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -26945,6 +40727,12 @@
     "file": "assets/sprites/u_skyanchor_L21.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -26955,6 +40743,12 @@
     "file": "assets/sprites/u_skyanchor_L25.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -26965,6 +40759,12 @@
     "file": "assets/sprites/u_slinger_L01.png",
     "footprint": 1.4,
     "h": 185,
+    "ink": [
+     4.0,
+     4.0,
+     124.0,
+     181.0
+    ],
     "outlined": true,
     "w": 128
    },
@@ -26975,6 +40775,12 @@
     "file": "assets/sprites/u_slinger_L02.png",
     "footprint": 1.4,
     "h": 185,
+    "ink": [
+     4.0,
+     4.0,
+     124.0,
+     181.0
+    ],
     "outlined": true,
     "w": 128
    },
@@ -26985,6 +40791,12 @@
     "file": "assets/sprites/u_slinger_L03.png",
     "footprint": 1.4,
     "h": 198,
+    "ink": [
+     4.0,
+     4.0,
+     124.0,
+     194.0
+    ],
     "outlined": true,
     "w": 128
    },
@@ -26995,6 +40807,12 @@
     "file": "assets/sprites/u_slinger_L04.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     168.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27005,6 +40823,12 @@
     "file": "assets/sprites/u_slinger_L05.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     168.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27015,6 +40839,12 @@
     "file": "assets/sprites/u_slinger_L06.png",
     "footprint": 1.4,
     "h": 172,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     168.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27025,6 +40855,12 @@
     "file": "assets/sprites/u_slinger_L07.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     175.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27035,6 +40871,12 @@
     "file": "assets/sprites/u_slinger_L08.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     175.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27045,6 +40887,12 @@
     "file": "assets/sprites/u_slinger_L09.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     175.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27055,6 +40903,12 @@
     "file": "assets/sprites/u_slinger_L10.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     175.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27065,6 +40919,12 @@
     "file": "assets/sprites/u_slinger_L11.png",
     "footprint": 1.4,
     "h": 179,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     175.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27075,6 +40935,12 @@
     "file": "assets/sprites/u_slinger_L12.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     169.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27085,6 +40951,12 @@
     "file": "assets/sprites/u_slinger_L13.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     176.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27095,6 +40967,12 @@
     "file": "assets/sprites/u_slinger_L14.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     176.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27105,6 +40983,12 @@
     "file": "assets/sprites/u_slinger_L15.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     176.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27115,6 +40999,12 @@
     "file": "assets/sprites/u_slinger_L16.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     176.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27125,6 +41015,12 @@
     "file": "assets/sprites/u_slinger_L17.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     176.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27135,6 +41031,12 @@
     "file": "assets/sprites/u_slinger_L18.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     176.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27145,6 +41047,12 @@
     "file": "assets/sprites/u_slinger_L19.png",
     "footprint": 1.4,
     "h": 180,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     176.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27155,6 +41063,12 @@
     "file": "assets/sprites/u_slinger_L20.png",
     "footprint": 1.4,
     "h": 185,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     181.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27165,6 +41079,12 @@
     "file": "assets/sprites/u_slinger_L21.png",
     "footprint": 1.4,
     "h": 185,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     181.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27175,6 +41095,12 @@
     "file": "assets/sprites/u_slinger_L22.png",
     "footprint": 1.4,
     "h": 185,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     181.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27185,6 +41111,12 @@
     "file": "assets/sprites/u_slinger_L23.png",
     "footprint": 1.4,
     "h": 185,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     181.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27195,6 +41127,12 @@
     "file": "assets/sprites/u_slinger_L24.png",
     "footprint": 1.4,
     "h": 185,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     181.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27205,6 +41143,12 @@
     "file": "assets/sprites/u_slinger_L25.png",
     "footprint": 1.4,
     "h": 185,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     181.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27215,6 +41159,12 @@
     "file": "assets/sprites/u_stoneslinger_L01.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -27225,6 +41175,12 @@
     "file": "assets/sprites/u_stoneslinger_L05.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -27235,6 +41191,12 @@
     "file": "assets/sprites/u_stoneslinger_L09.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -27245,6 +41207,12 @@
     "file": "assets/sprites/u_stoneslinger_L13.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -27255,6 +41223,12 @@
     "file": "assets/sprites/u_stoneslinger_L17.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -27265,6 +41239,12 @@
     "file": "assets/sprites/u_stoneslinger_L21.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -27275,6 +41255,12 @@
     "file": "assets/sprites/u_stoneslinger_L25.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -27285,6 +41271,12 @@
     "file": "assets/sprites/u_titanborn_L01.png",
     "footprint": 1.4,
     "h": 116,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     112.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -27295,6 +41287,12 @@
     "file": "assets/sprites/u_titanborn_L02.png",
     "footprint": 1.4,
     "h": 115,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     111.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -27305,6 +41303,12 @@
     "file": "assets/sprites/u_titanborn_L03.png",
     "footprint": 1.4,
     "h": 116,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     112.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -27315,6 +41319,12 @@
     "file": "assets/sprites/u_titanborn_L04.png",
     "footprint": 1.4,
     "h": 116,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     112.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -27325,6 +41335,12 @@
     "file": "assets/sprites/u_titanborn_L05.png",
     "footprint": 1.4,
     "h": 116,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     112.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -27335,6 +41351,12 @@
     "file": "assets/sprites/u_titanborn_L06.png",
     "footprint": 1.4,
     "h": 115,
+    "ink": [
+     4.0,
+     4.0,
+     87.0,
+     111.0
+    ],
     "outlined": true,
     "w": 91
    },
@@ -27345,6 +41367,12 @@
     "file": "assets/sprites/u_titanborn_L07.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     132.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -27355,6 +41383,12 @@
     "file": "assets/sprites/u_titanborn_L08.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     131.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -27365,6 +41399,12 @@
     "file": "assets/sprites/u_titanborn_L09.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -27375,6 +41415,12 @@
     "file": "assets/sprites/u_titanborn_L10.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     130.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -27385,6 +41431,12 @@
     "file": "assets/sprites/u_titanborn_L11.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -27395,6 +41447,12 @@
     "file": "assets/sprites/u_titanborn_L12.png",
     "footprint": 1.4,
     "h": 140,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     136.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -27405,6 +41463,12 @@
     "file": "assets/sprites/u_titanborn_L13.png",
     "footprint": 1.4,
     "h": 140,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     136.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -27415,6 +41479,12 @@
     "file": "assets/sprites/u_titanborn_L14.png",
     "footprint": 1.4,
     "h": 140,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     136.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -27425,6 +41495,12 @@
     "file": "assets/sprites/u_titanborn_L15.png",
     "footprint": 1.4,
     "h": 140,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     136.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -27435,6 +41511,12 @@
     "file": "assets/sprites/u_titanborn_L16.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     135.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -27445,6 +41527,12 @@
     "file": "assets/sprites/u_titanborn_L17.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     135.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -27455,6 +41543,12 @@
     "file": "assets/sprites/u_titanborn_L18.png",
     "footprint": 1.4,
     "h": 146,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     142.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -27465,6 +41559,12 @@
     "file": "assets/sprites/u_titanborn_L19.png",
     "footprint": 1.4,
     "h": 146,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     142.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -27475,6 +41575,12 @@
     "file": "assets/sprites/u_titanborn_L20.png",
     "footprint": 1.4,
     "h": 146,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     142.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -27485,6 +41591,12 @@
     "file": "assets/sprites/u_titanborn_L21.png",
     "footprint": 1.4,
     "h": 148,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     144.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -27495,6 +41607,12 @@
     "file": "assets/sprites/u_titanborn_L22.png",
     "footprint": 1.4,
     "h": 148,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     144.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -27505,6 +41623,12 @@
     "file": "assets/sprites/u_titanborn_L23.png",
     "footprint": 1.4,
     "h": 149,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     145.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -27515,6 +41639,12 @@
     "file": "assets/sprites/u_titanborn_L24.png",
     "footprint": 1.4,
     "h": 150,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     146.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -27525,6 +41655,12 @@
     "file": "assets/sprites/u_titanborn_L25.png",
     "footprint": 1.4,
     "h": 150,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     146.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -27535,6 +41671,12 @@
     "file": "assets/sprites/u_vanguard_L01.png",
     "footprint": 1.4,
     "h": 210,
+    "ink": [
+     4.0,
+     4.0,
+     116.0,
+     206.0
+    ],
     "outlined": true,
     "w": 120
    },
@@ -27545,6 +41687,12 @@
     "file": "assets/sprites/u_vanguard_L02.png",
     "footprint": 1.4,
     "h": 208,
+    "ink": [
+     4.0,
+     4.0,
+     116.0,
+     204.0
+    ],
     "outlined": true,
     "w": 120
    },
@@ -27555,6 +41703,12 @@
     "file": "assets/sprites/u_vanguard_L03.png",
     "footprint": 1.4,
     "h": 208,
+    "ink": [
+     4.0,
+     4.0,
+     114.0,
+     204.0
+    ],
     "outlined": true,
     "w": 118
    },
@@ -27565,6 +41719,12 @@
     "file": "assets/sprites/u_vanguard_L04.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     179.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -27575,6 +41735,12 @@
     "file": "assets/sprites/u_vanguard_L05.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     179.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -27585,6 +41751,12 @@
     "file": "assets/sprites/u_vanguard_L06.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     179.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -27595,6 +41767,12 @@
     "file": "assets/sprites/u_vanguard_L07.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     108.0,
+     179.0
+    ],
     "outlined": true,
     "w": 112
    },
@@ -27605,6 +41783,12 @@
     "file": "assets/sprites/u_vanguard_L08.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     179.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27615,6 +41799,12 @@
     "file": "assets/sprites/u_vanguard_L09.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     179.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27625,6 +41815,12 @@
     "file": "assets/sprites/u_vanguard_L10.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     179.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27635,6 +41831,12 @@
     "file": "assets/sprites/u_vanguard_L11.png",
     "footprint": 1.4,
     "h": 183,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     179.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27645,6 +41847,12 @@
     "file": "assets/sprites/u_vanguard_L12.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     173.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27655,6 +41863,12 @@
     "file": "assets/sprites/u_vanguard_L13.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     173.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27665,6 +41879,12 @@
     "file": "assets/sprites/u_vanguard_L14.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27675,6 +41895,12 @@
     "file": "assets/sprites/u_vanguard_L15.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27685,6 +41911,12 @@
     "file": "assets/sprites/u_vanguard_L16.png",
     "footprint": 1.4,
     "h": 177,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     173.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27695,6 +41927,12 @@
     "file": "assets/sprites/u_vanguard_L17.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27705,6 +41943,12 @@
     "file": "assets/sprites/u_vanguard_L18.png",
     "footprint": 1.4,
     "h": 176,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     172.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27715,6 +41959,12 @@
     "file": "assets/sprites/u_vanguard_L19.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     107.0,
+     171.0
+    ],
     "outlined": true,
     "w": 111
    },
@@ -27725,6 +41975,12 @@
     "file": "assets/sprites/u_vanguard_L20.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     171.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -27735,6 +41991,12 @@
     "file": "assets/sprites/u_vanguard_L21.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     170.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -27745,6 +42007,12 @@
     "file": "assets/sprites/u_vanguard_L22.png",
     "footprint": 1.4,
     "h": 175,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     171.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -27755,6 +42023,12 @@
     "file": "assets/sprites/u_vanguard_L23.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     170.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -27765,6 +42039,12 @@
     "file": "assets/sprites/u_vanguard_L24.png",
     "footprint": 1.4,
     "h": 174,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     170.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -27775,6 +42055,12 @@
     "file": "assets/sprites/u_vanguard_L25.png",
     "footprint": 1.4,
     "h": 173,
+    "ink": [
+     4.0,
+     4.0,
+     105.0,
+     169.0
+    ],
     "outlined": true,
     "w": 109
    },
@@ -27785,6 +42071,12 @@
     "file": "assets/sprites/u_voltaic_L01.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -27795,6 +42087,12 @@
     "file": "assets/sprites/u_voltaic_L02.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -27805,6 +42103,12 @@
     "file": "assets/sprites/u_voltaic_L03.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -27815,6 +42119,12 @@
     "file": "assets/sprites/u_voltaic_L04.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -27825,6 +42135,12 @@
     "file": "assets/sprites/u_voltaic_L05.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -27835,6 +42151,12 @@
     "file": "assets/sprites/u_voltaic_L06.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -27845,6 +42167,12 @@
     "file": "assets/sprites/u_voltaic_L07.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -27855,6 +42183,12 @@
     "file": "assets/sprites/u_voltaic_L08.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -27865,6 +42199,12 @@
     "file": "assets/sprites/u_voltaic_L09.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -27875,6 +42215,12 @@
     "file": "assets/sprites/u_voltaic_L10.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27885,6 +42231,12 @@
     "file": "assets/sprites/u_voltaic_L11.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27895,6 +42247,12 @@
     "file": "assets/sprites/u_voltaic_L12.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27905,6 +42263,12 @@
     "file": "assets/sprites/u_voltaic_L13.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27915,6 +42279,12 @@
     "file": "assets/sprites/u_voltaic_L14.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27925,6 +42295,12 @@
     "file": "assets/sprites/u_voltaic_L15.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27935,6 +42311,12 @@
     "file": "assets/sprites/u_voltaic_L16.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27945,6 +42327,12 @@
     "file": "assets/sprites/u_voltaic_L17.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27955,6 +42343,12 @@
     "file": "assets/sprites/u_voltaic_L18.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27965,6 +42359,12 @@
     "file": "assets/sprites/u_voltaic_L19.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27975,6 +42375,12 @@
     "file": "assets/sprites/u_voltaic_L20.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27985,6 +42391,12 @@
     "file": "assets/sprites/u_voltaic_L21.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -27995,6 +42407,12 @@
     "file": "assets/sprites/u_voltaic_L22.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28005,6 +42423,12 @@
     "file": "assets/sprites/u_voltaic_L23.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28015,6 +42439,12 @@
     "file": "assets/sprites/u_voltaic_L24.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28025,6 +42455,12 @@
     "file": "assets/sprites/u_voltaic_L25.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28035,6 +42471,12 @@
     "file": "assets/sprites/u_wallram_L01.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -28045,6 +42487,12 @@
     "file": "assets/sprites/u_wallram_L05.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -28055,6 +42503,12 @@
     "file": "assets/sprites/u_wallram_L09.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -28065,6 +42519,12 @@
     "file": "assets/sprites/u_wallram_L13.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -28075,6 +42535,12 @@
     "file": "assets/sprites/u_wallram_L17.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -28085,6 +42551,12 @@
     "file": "assets/sprites/u_wallram_L21.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -28095,6 +42567,12 @@
     "file": "assets/sprites/u_wallram_L25.png",
     "footprint": 2,
     "h": 255,
+    "ink": [
+     4.0,
+     4.0,
+     248.0,
+     251.0
+    ],
     "outlined": true,
     "w": 252
    },
@@ -28105,6 +42583,12 @@
     "file": "assets/sprites/u_warden_L01.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28115,6 +42599,12 @@
     "file": "assets/sprites/u_warden_L02.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28125,6 +42615,12 @@
     "file": "assets/sprites/u_warden_L03.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28135,6 +42631,12 @@
     "file": "assets/sprites/u_warden_L04.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28145,6 +42647,12 @@
     "file": "assets/sprites/u_warden_L05.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28155,6 +42663,12 @@
     "file": "assets/sprites/u_warden_L06.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28165,6 +42679,12 @@
     "file": "assets/sprites/u_warden_L07.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28175,6 +42695,12 @@
     "file": "assets/sprites/u_warden_L08.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28185,6 +42711,12 @@
     "file": "assets/sprites/u_warden_L09.png",
     "footprint": 1.4,
     "h": 238,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     234.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28195,6 +42727,12 @@
     "file": "assets/sprites/u_warden_L10.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28205,6 +42743,12 @@
     "file": "assets/sprites/u_warden_L11.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28215,6 +42759,12 @@
     "file": "assets/sprites/u_warden_L12.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28225,6 +42775,12 @@
     "file": "assets/sprites/u_warden_L13.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28235,6 +42791,12 @@
     "file": "assets/sprites/u_warden_L14.png",
     "footprint": 1.4,
     "h": 222,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     218.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28245,6 +42807,12 @@
     "file": "assets/sprites/u_warden_L15.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28255,6 +42823,12 @@
     "file": "assets/sprites/u_warden_L16.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28265,6 +42839,12 @@
     "file": "assets/sprites/u_warden_L17.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28275,6 +42855,12 @@
     "file": "assets/sprites/u_warden_L18.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28285,6 +42871,12 @@
     "file": "assets/sprites/u_warden_L19.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28295,6 +42887,12 @@
     "file": "assets/sprites/u_warden_L20.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28305,6 +42903,12 @@
     "file": "assets/sprites/u_warden_L21.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28315,6 +42919,12 @@
     "file": "assets/sprites/u_warden_L22.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28325,6 +42935,12 @@
     "file": "assets/sprites/u_warden_L23.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28335,6 +42951,12 @@
     "file": "assets/sprites/u_warden_L24.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28345,6 +42967,12 @@
     "file": "assets/sprites/u_warden_L25.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28355,6 +42983,12 @@
     "file": "assets/sprites/u_warlock_L01.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28365,6 +42999,12 @@
     "file": "assets/sprites/u_warlock_L02.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28375,6 +43015,12 @@
     "file": "assets/sprites/u_warlock_L03.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     131.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28385,6 +43031,12 @@
     "file": "assets/sprites/u_warlock_L04.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -28395,6 +43047,12 @@
     "file": "assets/sprites/u_warlock_L05.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -28405,6 +43063,12 @@
     "file": "assets/sprites/u_warlock_L06.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -28415,6 +43079,12 @@
     "file": "assets/sprites/u_warlock_L07.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     101.0,
+     131.0
+    ],
     "outlined": true,
     "w": 105
    },
@@ -28425,6 +43095,12 @@
     "file": "assets/sprites/u_warlock_L08.png",
     "footprint": 1.4,
     "h": 135,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     131.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28435,6 +43111,12 @@
     "file": "assets/sprites/u_warlock_L09.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28445,6 +43127,12 @@
     "file": "assets/sprites/u_warlock_L10.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28455,6 +43143,12 @@
     "file": "assets/sprites/u_warlock_L11.png",
     "footprint": 1.4,
     "h": 134,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     130.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28465,6 +43159,12 @@
     "file": "assets/sprites/u_warlock_L12.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     135.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28475,6 +43175,12 @@
     "file": "assets/sprites/u_warlock_L13.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     135.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28485,6 +43191,12 @@
     "file": "assets/sprites/u_warlock_L14.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28495,6 +43207,12 @@
     "file": "assets/sprites/u_warlock_L15.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28505,6 +43223,12 @@
     "file": "assets/sprites/u_warlock_L16.png",
     "footprint": 1.4,
     "h": 139,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     135.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28515,6 +43239,12 @@
     "file": "assets/sprites/u_warlock_L17.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     134.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28525,6 +43255,12 @@
     "file": "assets/sprites/u_warlock_L18.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     134.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28535,6 +43271,12 @@
     "file": "assets/sprites/u_warlock_L19.png",
     "footprint": 1.4,
     "h": 138,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     134.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28545,6 +43287,12 @@
     "file": "assets/sprites/u_warlock_L20.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     133.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28555,6 +43303,12 @@
     "file": "assets/sprites/u_warlock_L21.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     133.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28565,6 +43319,12 @@
     "file": "assets/sprites/u_warlock_L22.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28575,6 +43335,12 @@
     "file": "assets/sprites/u_warlock_L23.png",
     "footprint": 1.4,
     "h": 137,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     133.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28585,6 +43351,12 @@
     "file": "assets/sprites/u_warlock_L24.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     132.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28595,6 +43367,12 @@
     "file": "assets/sprites/u_warlock_L25.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     132.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28605,6 +43383,12 @@
     "file": "assets/sprites/u_witchling_L01.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28615,6 +43399,12 @@
     "file": "assets/sprites/u_witchling_L02.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28625,6 +43415,12 @@
     "file": "assets/sprites/u_witchling_L03.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28635,6 +43431,12 @@
     "file": "assets/sprites/u_witchling_L04.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28645,6 +43447,12 @@
     "file": "assets/sprites/u_witchling_L05.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28655,6 +43463,12 @@
     "file": "assets/sprites/u_witchling_L06.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28665,6 +43479,12 @@
     "file": "assets/sprites/u_witchling_L07.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28675,6 +43495,12 @@
     "file": "assets/sprites/u_witchling_L08.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28685,6 +43511,12 @@
     "file": "assets/sprites/u_witchling_L09.png",
     "footprint": 1.4,
     "h": 216,
+    "ink": [
+     4.0,
+     4.0,
+     130.0,
+     212.0
+    ],
     "outlined": true,
     "w": 134
    },
@@ -28695,6 +43527,12 @@
     "file": "assets/sprites/u_witchling_L10.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28705,6 +43543,12 @@
     "file": "assets/sprites/u_witchling_L11.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28715,6 +43559,12 @@
     "file": "assets/sprites/u_witchling_L12.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28725,6 +43575,12 @@
     "file": "assets/sprites/u_witchling_L13.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28735,6 +43591,12 @@
     "file": "assets/sprites/u_witchling_L14.png",
     "footprint": 1.4,
     "h": 201,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     197.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28745,6 +43607,12 @@
     "file": "assets/sprites/u_witchling_L15.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28755,6 +43623,12 @@
     "file": "assets/sprites/u_witchling_L16.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28765,6 +43639,12 @@
     "file": "assets/sprites/u_witchling_L17.png",
     "footprint": 1.4,
     "h": 235,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     231.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28775,6 +43655,12 @@
     "file": "assets/sprites/u_witchling_L18.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28785,6 +43671,12 @@
     "file": "assets/sprites/u_witchling_L19.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28795,6 +43687,12 @@
     "file": "assets/sprites/u_witchling_L20.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28805,6 +43703,12 @@
     "file": "assets/sprites/u_witchling_L21.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28815,6 +43719,12 @@
     "file": "assets/sprites/u_witchling_L22.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28825,6 +43735,12 @@
     "file": "assets/sprites/u_witchling_L23.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28835,6 +43751,12 @@
     "file": "assets/sprites/u_witchling_L24.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28845,6 +43767,12 @@
     "file": "assets/sprites/u_witchling_L25.png",
     "footprint": 1.4,
     "h": 234,
+    "ink": [
+     4.0,
+     4.0,
+     122.0,
+     230.0
+    ],
     "outlined": true,
     "w": 126
    },
@@ -28855,6 +43783,12 @@
     "file": "assets/sprites/u_wyrm_L01.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28865,6 +43799,12 @@
     "file": "assets/sprites/u_wyrm_L02.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28875,6 +43815,12 @@
     "file": "assets/sprites/u_wyrm_L03.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28885,6 +43831,12 @@
     "file": "assets/sprites/u_wyrm_L04.png",
     "footprint": 1.4,
     "h": 124,
+    "ink": [
+     4.0,
+     4.0,
+     102.0,
+     120.0
+    ],
     "outlined": true,
     "w": 106
    },
@@ -28895,6 +43847,12 @@
     "file": "assets/sprites/u_wyrm_L05.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28905,6 +43863,12 @@
     "file": "assets/sprites/u_wyrm_L06.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28915,6 +43879,12 @@
     "file": "assets/sprites/u_wyrm_L07.png",
     "footprint": 1.4,
     "h": 125,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     121.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28925,6 +43895,12 @@
     "file": "assets/sprites/u_wyrm_L08.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28935,6 +43911,12 @@
     "file": "assets/sprites/u_wyrm_L09.png",
     "footprint": 1.4,
     "h": 128,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     124.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28945,6 +43927,12 @@
     "file": "assets/sprites/u_wyrm_L10.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28955,6 +43943,12 @@
     "file": "assets/sprites/u_wyrm_L11.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28965,6 +43959,12 @@
     "file": "assets/sprites/u_wyrm_L12.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28975,6 +43975,12 @@
     "file": "assets/sprites/u_wyrm_L13.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28985,6 +43991,12 @@
     "file": "assets/sprites/u_wyrm_L14.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -28995,6 +44007,12 @@
     "file": "assets/sprites/u_wyrm_L15.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -29005,6 +44023,12 @@
     "file": "assets/sprites/u_wyrm_L16.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -29015,6 +44039,12 @@
     "file": "assets/sprites/u_wyrm_L17.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -29025,6 +44055,12 @@
     "file": "assets/sprites/u_wyrm_L18.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -29035,6 +44071,12 @@
     "file": "assets/sprites/u_wyrm_L19.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -29045,6 +44087,12 @@
     "file": "assets/sprites/u_wyrm_L20.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -29055,6 +44103,12 @@
     "file": "assets/sprites/u_wyrm_L21.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -29065,6 +44119,12 @@
     "file": "assets/sprites/u_wyrm_L22.png",
     "footprint": 1.4,
     "h": 131,
+    "ink": [
+     4.0,
+     4.0,
+     103.0,
+     127.0
+    ],
     "outlined": true,
     "w": 107
    },
@@ -29075,6 +44135,12 @@
     "file": "assets/sprites/u_wyrm_L23.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -29085,6 +44151,12 @@
     "file": "assets/sprites/u_wyrm_L24.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -29095,6 +44167,12 @@
     "file": "assets/sprites/u_wyrm_L25.png",
     "footprint": 1.4,
     "h": 136,
+    "ink": [
+     4.0,
+     4.0,
+     106.0,
+     132.0
+    ],
     "outlined": true,
     "w": 110
    },
@@ -29105,6 +44183,12 @@
     "file": "assets/sprites/wall01.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     4.5,
+     4.5,
+     91.5,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29115,6 +44199,12 @@
     "file": "assets/sprites/wall02.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     4.5,
+     4.5,
+     91.5,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29125,6 +44215,12 @@
     "file": "assets/sprites/wall03.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     4.5,
+     4.5,
+     91.5,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29135,6 +44231,12 @@
     "file": "assets/sprites/wall04.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     4.5,
+     4.5,
+     91.5,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29145,6 +44247,12 @@
     "file": "assets/sprites/wall05.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     4.5,
+     4.5,
+     91.5,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29155,6 +44263,12 @@
     "file": "assets/sprites/wall06.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     4.5,
+     4.5,
+     91.5,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29165,6 +44279,12 @@
     "file": "assets/sprites/wall07.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     4.5,
+     4.5,
+     91.5,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29175,6 +44295,12 @@
     "file": "assets/sprites/wall08.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     4.5,
+     4.5,
+     91.5,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29185,6 +44311,12 @@
     "file": "assets/sprites/wall09.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     4.5,
+     4.5,
+     91.5,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29195,6 +44327,12 @@
     "file": "assets/sprites/wall10.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29205,6 +44343,12 @@
     "file": "assets/sprites/wall11.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29215,6 +44359,12 @@
     "file": "assets/sprites/wall12.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29225,6 +44375,12 @@
     "file": "assets/sprites/wall13.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29235,6 +44391,12 @@
     "file": "assets/sprites/wall14.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29245,6 +44407,12 @@
     "file": "assets/sprites/wall15.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29255,6 +44423,12 @@
     "file": "assets/sprites/wall16.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29265,6 +44439,12 @@
     "file": "assets/sprites/wall17.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29275,6 +44455,12 @@
     "file": "assets/sprites/wall18.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29285,6 +44471,12 @@
     "file": "assets/sprites/wall19.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29295,6 +44487,12 @@
     "file": "assets/sprites/wall20.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29305,6 +44503,12 @@
     "file": "assets/sprites/wall21.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29315,6 +44519,12 @@
     "file": "assets/sprites/wall22.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29325,6 +44535,12 @@
     "file": "assets/sprites/wall23.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29335,6 +44551,12 @@
     "file": "assets/sprites/wall24.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29345,6 +44567,12 @@
     "file": "assets/sprites/wall25.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29355,6 +44583,12 @@
     "file": "assets/sprites/wall26.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29365,6 +44599,12 @@
     "file": "assets/sprites/wall27.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29375,6 +44615,12 @@
     "file": "assets/sprites/wall28.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29385,6 +44631,12 @@
     "file": "assets/sprites/wall29.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    },
@@ -29395,6 +44647,12 @@
     "file": "assets/sprites/wall30.png",
     "footprint": 1,
     "h": 96,
+    "ink": [
+     6.0,
+     7.5,
+     90.0,
+     88.5
+    ],
     "outlined": true,
     "w": 96
    }
